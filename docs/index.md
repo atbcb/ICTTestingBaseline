@@ -36,18 +36,18 @@ Document status, review comments, and feedback
 
 [*The Baseline Tests (\#1 - \#28)*](#contents-the-baseline-tests-1---28)
 
-[Attachment A - Cross-Reference Tables](AttachmentA.md)
+Attachment A - Cross-Reference Tables
 * Baseline tests (cross-reference table)
 * Section 508 (cross-reference table
 * WCAG 2.0 (cross-reference table)
 
-[Attachment B - Flashing content test advisory notes](AttachmentB.md)
+Attachment B - Flashing content test advisory notes
 * Why to include a flashing content test in a test process
 * Why there is no baseline test for flashing
 * Requirement, and draft rationale
 * How to report on flashing content
 
-[Attachment C - Baseline Test Report Checklists](AttachmentC.md)
+Attachment C - Baseline Test Report Checklists
 * Software-only test
 * Web-only test
 * Web+Software test
