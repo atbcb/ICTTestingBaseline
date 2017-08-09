@@ -34,7 +34,7 @@ Document status, review comments, and feedback
 * Test tool instructions
 * Reporting results
 
-[*The Baseline Tests (\#1 - \#28)*](#the-baseline-tests-1---28)
+[*The Baseline Tests (\#1 - \#28)*](#contents-the-baseline-tests-1---28)
 
 [Attachment A - Cross-Reference Tables](AttachmentA.md)
 * Baseline tests (cross-reference table)
