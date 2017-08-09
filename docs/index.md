@@ -25,7 +25,7 @@ Document status, review comments, and feedback
 * Use of the baseline tests by federal agencies and other groups
 * Agency issues beyond the test process
 
-[Developing a streamlined test process from this baseline—a primer](DevelopTestProcess.md)
+[Developing a streamlined test process from this baseline — a primer](DevelopTestProcess.md)
 * Examine example test processes first
 * Examine the advisory notes on each baseline test
 * Target audiences, requirement and test instruction wording
@@ -75,12 +75,12 @@ Document status, review comments, and feedback
 12. [Page Titles](12PageTitles.md)
 13. Data Tables (headers)
 14. Data Tables (cell-header association)
-15. [Headings](15Headings.md)
+15. Headings
 16. Links and User controls
 17. [Language](17Language.md)
 18. Audio (transcripts)
-19. [Video (descriptions)](19VideoDescriptions.md)
-20. [Synchronized media (captions)](20SynchronizedMediaCaptions.md)
+19. Video (descriptions)
+20. Synchronized media (captions)
 21. Synchronized media (descriptions)
 22. Style-sheet non-dependence
 23. Frames
