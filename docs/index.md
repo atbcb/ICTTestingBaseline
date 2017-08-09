@@ -64,7 +64,7 @@ Document status, review comments, and feedback
 1. [Keyboard navigation](1KeyboardNavigation.md)
 2. Focus (visible)
 3. [Focus (order)](3FocusOrder.md)
-4. Focus (Revealing hidden content)](#focus-revealing-hidden-content)
+4. Focus (Revealing hidden content)
 5. Repetitive Content
 6. Multi-state components
 7. Images
