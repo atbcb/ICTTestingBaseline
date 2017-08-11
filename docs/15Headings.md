@@ -36,11 +36,12 @@ Rendered Page
 Manual inspection
 
 ###### Test Tools Necessary / Test Tool Instructions
-Step 1. Execute the ‘Headings’ favelet to reveal the headings markup. 
+Step 1. Execute the ‘Headings’ favelet to reveal the headings markup.
+
 Step 2. Review the markup inserted next to the headings elements.
 
 ###### Test Cases
-1.	Check that each heading is determined programmatically using <h1> to <h6>
+1.	Check that each heading is determined programmatically using \<h1> to \<h6>
 2.	Check that each heading is determined programmatically using aria-role=”heading”
 
 ###### Output
