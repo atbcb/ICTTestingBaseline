@@ -75,7 +75,7 @@ Attachment C - Baseline Test Report Checklists
 12. [Page Titles](12PageTitles.md)
 13. Data Tables (headers)
 14. Data Tables (cell-header association)
-15. Headings
+15. [Headings](15Headings.md)
 16. Links and User controls
 17. [Language](17Language.md)
 18. Audio (transcripts)
