@@ -1,1 +1,3 @@
 theme: jekyll-theme-slate
+title: Harmonized Processes for Section 508 Testing: Baseline Tests for Software & Web Accessibility
+description: Baseline tests are the result of an attempt to reduce ambiguity, increase consistency of results, and emphasize the methods and techniques that can reliably meet the Section 508 ICT Accessibility requirements, given the current state and compatibility of underlying technologies. This document contains accessibility design requirements and validation tests for software and Web accessibility. These tests are for measuring compliance with Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. 794d) .
