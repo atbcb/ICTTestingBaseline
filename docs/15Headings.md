@@ -19,17 +19,17 @@ Headings must be programmatically determinable.
     * Technique H42: Using h1-h6 to identify headings
 
 #### Limitations, Assumptions, or Exceptions
-•	Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
+* Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
 
 #### Accessibility Support
-•	Technologies that support ARIA and HTML H1-H6
+* Technologies that support ARIA and HTML H1-H6
 
 #### Test Subject Type
 Rendered Page
 
 #### Test Procedure
 ##### Selector
-1)	Identify the headings of the page by visual inspection of the page content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always).
+1. Identify the headings of the page by visual inspection of the page content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always).
 
 ##### Test Cases
 ###### Test Case Mode
@@ -47,8 +47,8 @@ Step 2. Review the markup inserted next to the headings elements.
 ###### Output
 1. Heading markup is revealed on content that is a heading.
 2. Heading markup is not revealed on content that is not a heading.
-•	Passed – Either statement is true 
-•	Failed – Both statements are false
+    * Passed – Either statement is true 
+    * Failed – Both statements are false
 
 ### Headings - B15.2-
 #### Rule Description 
@@ -82,7 +82,7 @@ Manual inspection
     1. Use the ‘Headings’ favelet to reveal the headings markup of the page.
     2. The markup will be inserted next to the elements.
 2.	Check that each visual heading has markup that identifies its heading level and fits correctly within the heading structure. The most important heading has the level of 1, and the least important heading has a level of 6. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. 
-    1. H42: each heading is marked with <H1> to <h6>.
+    1. H42: each heading is marked with \<H1> to \<h6>.
     2. ARIA: each heading is marked with role=”heading”. If all headings on the page are at the same level, the additional aria-level=”#” is not required.
 
 ###### Output
