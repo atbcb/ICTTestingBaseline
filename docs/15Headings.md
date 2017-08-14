@@ -95,7 +95,7 @@ Manual inspection
 1. Determine the outcome of 15.1
 2. Determine the outcome of 15.2
     * Passed: Both outcomes of 15.1 and 15.2 passed
-    * Failed: Both outcomes of 15.1 and 15.2 did not pass
+    * Failed: Either outcome of 15.1 and 15.2 did not pass
 
 ### Headings - B15.3-
 #### Rule Description 
@@ -129,3 +129,13 @@ Manual inspection
 1. Each heading identifies its section of the content.
     * Passed – the statement is true
     * Failed – the statement is false
+
+## Baseline Test Result
+### Pass
+Pass: All outcomes of 15.1 and 15.2 and 15.3 passed
+
+### Fail
+Fail: Any outcome of 15.1, 15.2 or 15.3 failed
+
+### Not Applicable
+There are no headings.
