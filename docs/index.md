@@ -1,5 +1,7 @@
 September 2017 | Version 3.0 (DRAFT)
 
+Add some text here that I want to incorporate
+
 Harmonized Processes for Section 508 Testing: Baseline Tests for Software & Web Accessibility
 ==============================================
 
