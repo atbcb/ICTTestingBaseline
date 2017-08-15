@@ -37,13 +37,14 @@ Select visible and hidden interactive interface components (links, form fields, 
 ###### Test Case Mode
 Manual inspection
 
-###### Test Case Steps
-1. Use the keyboard to navigate through all interface components and content (including any hidden content). If the order of content presented visually affects understading or function of the content, then  check that the focus order when using a keyboard matches the same logical order as the order presented visually.
-    * Pass: if the keyboard focus order matches the visual order OR the order of keyboard focus does not affect understanding or function
-    * Fail: if the keyboard focus order does not match the visual order AND the order of focus affects understanding or function of the content
+###### Test Cases
+Use the keyboard to navigate through all interface components and content (including any hidden content). 
+1. If the order of content presented visually affects understanding or function of the content, then  check that the focus order when using a keyboard matches the same logical order as the order presented visually. Pass if true.
+2. Check that focus order DOES NOT affect understanding or function of the content. Pass if true.
 
 ###### Output
-Each element tested will return a test result of pass or fail for eash test case as well as a description of any errors causing a failure result. 
+* Pass: if either of the test cases passes
+* Fail: if both of the test cases fail
 
 #### Outcome
 The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
@@ -72,12 +73,14 @@ Select visible and hidden interactive interface components (links, form fields, 
 ###### Test Case Mode
 Manual inspection
 
-###### Test Case Steps
-1. Use the keyboard to navigate through all interface components and content (including any hidden content). For those content elements that repeat over multiple pages or screens, check that the relative order of keyboard and/or visual focus is the same across pages.
-    * Pass: if the relative keyboard focus order for repeated content is consistent across multiple pages or screens.
-    * Fail: if the relative keyboard focus order for repeated content is NOT consistent across multiple pages or screens AND the user did not initiate a change in content order.
+###### Test Cases
+Use the keyboard to navigate through all interface components and content (including any hidden content). For those content elements that repeat over multiple pages or screens:
+1. Check that the relative order of keyboard and/or visual focus is the same across pages.
+2. Check that the user initiated a in the content order
+
 ###### Output
-Each element tested will return a test result of pass or fail for eash test case as well as a description of any errors causing a failure result. 
+* Pass: if either test case is true
+* Fail: if both test cases fail
 
 #### Outcome
 The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
