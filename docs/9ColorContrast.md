@@ -16,6 +16,7 @@ In general, the higher the level of contrast used, the more people will be able 
 ### Test Method Rationale
 
 ## Tools Necessary
+* (PLACEHOLDER) - Tool to determine text size (TBD)
 * [Color Contrast Analyzer](https://www.dhs.gov/publication/web-accessibility-toolbar) (included as part of the Web Accessibility Toolbar or as a stand-alone tool)
 
 ## Test Rules
@@ -39,10 +40,21 @@ Rendered Page
 
 #### Test Procedure
 ##### Selector
-Select all text AND images of text with:
-* Rendered font size of at least 18 point (23.94 pixels)
+Select all text AND images of text that meet the following criteria:
+* The text or image of text is NOT part of an inactive user interface component
+* The text or image of text is NOT pure decoration
+* The text or image of text IS visible to anyone
+* The text or image of text is NOT part of a picture that contains significant other visual content
+* The  text or image of text is NOT part of a logo or brand name
+
+AND
+
+* Rendered font size of at least 18 point (23.94 pixels) (PLACEHOLDER - Use text size tool to determine font size)
+
 OR
+
 * Rendered font size of at least 14 point (18.62 pixels) AND bold (at least 700 font weight)
+
 
 ##### Test Cases
 ###### Test Case Mode
@@ -51,15 +63,10 @@ Semi-automated; manual evaluation of contrast characterisics, using the Color Co
 ###### Test Case
 Using the Color Contrast Analyzer, identify text color, background color, and contrast ratio between text and background
 1. Check that contrast ratio is AT LEAST 3:1
-2. Check that the text or image of text is part of an inactive user interface component
-3. Check that the text or image of text is pure decoration
-4. Check that the text or image of text is not visible to anyone
-5. Check that the text or image of text is are part of a picture that contains significant other visual content
-6. Check that the  text or image of text is part of a logo or brand name
 
 ###### Output
-Pass: if any one of the text cases passes
-Fail: if ALL of the test cases fail
+Pass: if test case passes
+Fail: if test case fails
 
 ### B9.2-color-contrast-small-text
 #### Rule Description
@@ -81,10 +88,20 @@ Rendered Page
 
 #### Test Procedure
 ##### Selector
-Select all text AND images of text with:
-* Rendered font size of less than 18 point (23.94 pixels) AND non-bold (less than 700 font weight)
+Select all text AND images of text that meet the following criteria:
+* The text or image of text is NOT part of an inactive user interface component
+* The text or image of text is NOT pure decoration
+* The text or image of text IS visible to anyone
+* The text or image of text is NOT part of a picture that contains significant other visual content
+* The  text or image of text is NOT part of a logo or brand name
+
+AND
+
+* Rendered font size of less than 14 point (18.62 pixels)  (PLACEHOLDER - Use text size tool to determine font size)
+
 OR
-* Rendered font size of less than 14 point (18.62 pixels)
+
+* Rendered font size of non-bold (less than 700 font weight) text less than 18 point (23.94 pixels) 
 
 ##### Test Cases
 ###### Test Case Mode
@@ -92,22 +109,21 @@ Semi-automated; manual evaluation of contrast characterisics, using the Color Co
 
 ###### Test Case
 Using the Color Contrast Analyzer, identify text color, background color, and contrast ratio between text and background
-1. Check that contrast ratio is AT LEAST 4.5:1
-2. Check that the text or image of text is part of an inactive user interface component
-3. Check that the text or image of text is pure decoration
-4. Check that the text or image of text is not visible to anyone
-5. Check that the text or image of text is are part of a picture that contains significant other visual content
-6. Check that the  text or image of text is part of a logo or brand name
+1. Check non-bold (less than 700 text font weight) that contrast ratio is AT LEAST 4.5:1
 
 ###### Output
-Pass: if any ONE of the text cases passes
-Fail: if ALL of the test cases fail
+Pass: if test case passes
+Fail: if test cases fails
 
-##### Outcome
+##### Outcome for WCAG SC 1.4.3
 The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
 * Passed – the test target passed the test
 * Failed – the test target failed the test
 * Cannot tell: it is unclear whether or not the test target passes or fails the test
+
+The web page or system meets the Baseline Requirement for 9. Color (contrast) and WCAG SC 1.4.3 if BOTH B9.1 and B9.2 pass
+
+The web page or system DOES NOT meet the Baseline Requirement for 9. Color (contrast) and WCAG SC 1.4.3 if either B9.1 or B9.2 fails
 
 ## Advisory: Tips for streamlined test processes
 * Instructions for testing of text contrast changes, due to mouse hover and status, can be incorporated into streamlined tests
