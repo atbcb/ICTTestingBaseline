@@ -42,22 +42,16 @@ Use the keyboard to navigate through all interface components and content (inclu
 1. If the order of content presented visually affects understanding or function of the content, then  check that the focus order when using a keyboard matches the same logical order as the order presented visually. Pass if true.
 2. Check that focus order DOES NOT affect understanding or function of the content. Pass if true.
 
-###### Output
+###### Output for 2.4.3
 * Pass: if either of the test cases passes
 * Fail: if both of the test cases fail
-
-#### Outcome
-The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
-* Passed – the test target passed the test
-* Failed – the test target failed the test
-* Cannot tell: it is unclear whether or not the test target passes or fails the test
 
 ### Consistent Navigation – B3.2
 #### Rule Description
 Focus order is the sequence in which a user accesses elements on your website. Some users can’t use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense. 
 
 #### Accessibility Requirements
-TBD
+WCAG SC 3.2.3.
 
 #### Accessibility Support
 TBD
@@ -75,18 +69,19 @@ Manual inspection
 
 ###### Test Cases
 Use the keyboard to navigate through all interface components and content (including any hidden content). For those content elements that repeat over multiple pages or screens:
-1. Check that the relative order of keyboard and/or visual focus is the same across pages.
-2. Check that the user initiated a in the content order
+1. Check that the relative order of keyboard and/or visual focus is the same across pages. Pass if true.
+2. Check that the user initiated a change in the content order. Pass if true.
 
-###### Output
+###### Output 3.2.3
 * Pass: if either test case is true
 * Fail: if both test cases fail
 
-#### Outcome
-The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
-* Passed – the test target passed the test
-* Failed – the test target failed the test
-* Cannot tell: it is unclear whether or not the test target passes or fails the test
+## Baseline Test Result
+### Pass
+Pass if all outcomes of B9.1 and B9.2 pass
+
+### Fail
+Fail if any of the outcomes of B 9.1 and B9.2 fail
 
 ## Advisory: Tips for streamlined test processes
 * This test is for interactive interface components, excluding forms which are covered by the forms test.
