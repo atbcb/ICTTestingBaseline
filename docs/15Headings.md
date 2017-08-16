@@ -16,13 +16,13 @@ Headings must be programmatically determinable.
 #### Accessibility Requirements
 * WCAG2: 1.3.1 Info and relationships
     * Technique ARIA12: Using role=heading to identify headings
-    * Technique H42: Using h1-h6 to identify headings
+    * Technique H42: Using `<h1>` to `<h6>` to identify headings
 
 #### Limitations, Assumptions, or Exceptions
-* Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
+* Limitation: Testing tool capability to find HTML <H> and ARIA `role=heading` attribute(s) of the page
 
 #### Accessibility Support
-* Technologies that support ARIA and HTML H1-H6
+* Technologies that support ARIA and HTML h1-h6
 
 #### Test Subject Type
 Rendered Page
@@ -40,12 +40,12 @@ Step 1. Execute the ‘Headings’ favelet to reveal the headings markup.
 Step 2. Review the markup inserted on the page.
 
 ##### Test Cases
-1.	For each content element identified visually as a heading, check that each heading is determined programmatically using either `<h1>` to `<h6>` or role=”heading” 
-2. For each content element identified visually as a non-heading, check that the content IS NOT determined programmatically using `<h1>` to `<h6>` or role="heading"
+1.	For each content element identified visually as a heading, check that each heading is determined programmatically using either `<h1>` to `<h6>` or `role=”heading”`
+2. For each content element identified visually as a non-heading, check that the content IS NOT determined programmatically using `<h1>` to `<h6>` or `role="heading"`
 
 ##### Output
-* Passed – Either test case passes 
-* Failed – Both test cases fail
+* Passed – either test case passes 
+* Failed – no test case passes
 
 ### Headings - B15.2-
 #### Rule Description 
@@ -53,8 +53,8 @@ Headings levels must be programmatically determinable and correct within heading
 
 #### Accessibility Requirements
 * WCAG2: 1.3.1 Info and relationships
-    * Technique ARIA12: Using role=”heading” and aria-level=”#” to identify heading levels
-    * Technique H42: Using h1-h6 to identify headings
+    * Technique ARIA12: Using `role=”heading”` and `aria-level=”#”` to identify heading levels
+    * Technique H42: Using `<h1>` to `<h6>` to identify headings
 
 #### Limitations, Assumptions, or Exceptions
 * Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
@@ -80,18 +80,18 @@ Step 2. Review the markup inserted on the page.
 
 ##### Test Cases
 1.	Check that each visual heading has markup that identifies its heading level and fits correctly within the heading structure. The most important heading has the level of 1, and the least important heading has a level of 6. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. 
-    1. H42: each heading is marked with \<H1> to \<h6>.
-    2. ARIA: each heading is marked with role=”heading”. If all headings on the page are at the same level, the additional aria-level=”#” is not required.
+    1. H42: each heading is marked with `<H1>` to `<h6>`.
+    2. ARIA: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required.
 
 ##### Output
 * Passed – if test case passes
 * Failed – if test case fails
 
 #### Output for 1.3.1
-1. Determine the outcome of 15.1
-2. Determine the outcome of 15.2
-    * Passed: Both outcomes of 15.1 and 15.2 passed
-    * Failed: Either outcome of 15.1 and 15.2 did not pass
+1. Determine the outcome of B15.1
+2. Determine the outcome of B15.2
+    * Passed: Both outcomes of B15.1 and B15.2 passed
+    * Failed: Either outcome of B15.1 and B15.2 did not pass
 
 ### Headings - B15.3-
 #### Rule Description 
@@ -121,10 +121,9 @@ Manual inspection
 1. (G130) Check that each heading identifies its section of the content. Descriptive headings identify sections of the content in relation both to the Web page as a whole and to other sections of the same Web page. Descriptive headings also help users find specific content and orient themselves within the Web page.
 
 ##### Output for 2.4.6
-1. Each heading identifies its section of the content.
-    * Passed – the statement is true
-    * Failed – the statement is false
+* Passed – if test case passes
+* Failed – if test case fails
 
 ## Baseline Test Outcome
-Pass: All outcomes of 15.1 and 15.2 and 15.3 passed
-Fail: Any outcome of 15.1, 15.2 or 15.3 failed
+Pass: All outcomes of B15.1 and B15.2 and B15.3 passed
+Fail: Any outcome of B15.1, B15.2 or B15.3 failed
