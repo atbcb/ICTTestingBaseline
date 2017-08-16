@@ -69,7 +69,7 @@ Attachment C - Baseline Test Report Checklists
 6. Multi-state components
 7. Images
 8. Color (meaning)
-9. Color (contrast)
+9. [Color (contrast)](9ColorContrast.md)
 10. *Flashing (reserved)*
 11. Forms (associated instructions)
 12. [Page Titles](12PageTitles.md)
