@@ -58,7 +58,7 @@ Headings levels must be programmatically determinable and correct within the hea
 
 #### Limitations, Assumptions, or Exceptions
 * Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
-* Exception: A pages with only one heading on the page does not have a heading level structure and would not be tested
+* Exception: A page with only one heading on the page does not have a heading level structure and would not be tested
 
 #### Accessibility Support
 * Technologies that support ARIA and HTML H1-H6
