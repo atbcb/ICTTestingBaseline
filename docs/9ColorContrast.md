@@ -28,7 +28,7 @@ This test rule evaluates whether text and its background meets the requirement f
 *	WCAG SC 1.4.3 Contrast (minimum)
 
 #### Limitations, Assumptions, or Exceptions
-* While text contained in logos rendered as images is exempt from this requirement, the image must still provide alternative text (e.g., via an 'alt' attribute.
+* While text contained in logos rendered as images is exempt from this requirement, the image must still provide alternative text (e.g., via an `alt` attribute).
 * The thresholds in the Color Contrast Analyzer are based on the WCAG 2 minimum contrast ratio of 4.5:1. WCAG 2.0 recommends a lower threshold of 3:1 for 'large scale' text (18 point or 14 point bold). Although the Colour Contrast Analyser has a pass/fail indicator for large text, it does not determine the size of the text being tested. It is acceptable to allow a 3:1 ratio for larger text so long as the test includes a reliable mechanism for determining the font's point size.
 * If using a dual-monitor setup, the Color Contrast Analyzer requires both the tool and the window under test to be displayed on the primary monitor.
 
