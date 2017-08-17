@@ -49,7 +49,7 @@ Step 2. Review the markup inserted on the page.
 
 ### Headings - B15.2-
 #### Rule Description 
-Headings levels must be programmatically determinable and correct within heading structure.
+Headings levels must be programmatically determinable and correct within the heading structure.
 
 #### Accessibility Requirements
 * WCAG2: 1.3.1 Info and relationships
@@ -58,7 +58,7 @@ Headings levels must be programmatically determinable and correct within heading
 
 #### Limitations, Assumptions, or Exceptions
 * Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
-* Exception: Pages with only one heading on the page does not have a heading structure
+* Exception: A pages with only one heading on the page does not have a heading level structure and would not be tested
 
 #### Accessibility Support
 * Technologies that support ARIA and HTML H1-H6
@@ -79,9 +79,9 @@ Step 1. Execute the ‘Headings’ favelet to reveal the headings markup.
 Step 2. Review the markup inserted on the page.
 
 ##### Test Cases
-1.	Check that each visual heading has markup that identifies its heading level and fits correctly within the heading structure. The most important heading has the level of 1, and the least important heading has a level of 6. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. 
+1.	Check that each visual heading has markup that identifies its heading level and fits correctly within the heading structure. The most important heading has the level of 1, and the least important heading has a level of 6. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. Either of these techniques is acceptable for each heading:
     1. H42: each heading is marked with `<H1>` to `<h6>`.
-    2. ARIA: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required.
+    2. ARIA: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required. For multiple heading levels, 'aria-level' must be specified.
 
 ##### Output
 * Passed – if test case passes
