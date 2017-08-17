@@ -1,5 +1,6 @@
 # 19. Video Descriptions
 ## Requirement
+Provide an accessible alternative way of presenting the information in a video-only presentation.
 
 ## Rationale
 ### Test Rationale
@@ -12,17 +13,17 @@
 
 ### Video Descriptions - B19.1-video-description
 #### Rule Description 
-Video-only content must be accompanied by descriptions.
-#### Accessibility Requirements
-Except when the Video-only content is a media alternative for text and is clearly labeled as such,
-* SC 1.2.1: Video-only (Prerecorded): Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content.
-* SC 1.2.3 Media Alternative (Prerecorded): An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media.
-* Technique G159: Providing an alternative for time-based media for video-only content 
+Video-only content must be accompanied by accessible descriptions.
 
+#### Accessibility Requirements
+* SC 1.2.1: Video-only (Prerecorded): Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content.
+   * Technique G159: Providing an alternative for time-based media for video-only content 
+   * Technique G166: Providing audio that describes the important video content and describing it as such
+   
 #### Limitations, Assumptions or Exceptions
 * A description is not required for video intended as a media alternative for text and it is clearly labeled as such. 
-* A text equivalent is not required for audio that is provided as an equivalent for video with no audio information. For example, it is not required to caption video description that is provided as an alternative to a silent movie
-* The audio description is not required to by
+* A text equivalent is not required for audio that is provided as an equivalent for video-only content. For example, it is not required to transcribe audio that is provided as an alternative to a silent movie.
+
 
 #### Accessibility Support
 * Requires an accessible video player
@@ -33,7 +34,7 @@ Rendered video
 #### Test Procedure
 ##### Selector: Find Required Technique 
 1. Find interface components that play video-only or animated content when activated.
-2. Visually determine if the video is a media alternative to text.
+2. Visually determine if the video is a media alternative to text. 
 
 ##### Test Cases
 ###### Test Case Mode
