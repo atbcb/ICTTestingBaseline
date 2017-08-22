@@ -80,7 +80,7 @@ Step 2. Review the markup inserted on the page.
 
 ##### Test Cases
 1.	Check that each visual heading has markup that identifies its heading level and fits correctly within the heading structure. The most important heading has the level of 1, and the least important heading has a level of 6. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. Either of these techniques is acceptable for each heading:
-    1. H42: each heading is marked with `<H1>` to `<h6>`.
+    1. H42: each heading is marked with `<H1>` to `<H6>`.
     2. ARIA: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required. For multiple heading levels, 'aria-level' must be specified.
 
 ##### Output
@@ -124,6 +124,42 @@ Manual inspection
 * Passed – if test case passes
 * Failed – if test case fails
 
+### Headings - B15.4-
+#### Rule Description 
+Programmatic headings with both HTML and ARIA must have a single programmatic heading level.
+
+#### Accessibility Requirements
+* WCAG2: 4.1.2 Name, Role, Value
+
+#### Limitations, Assumptions, or Exceptions
+None
+
+#### Accessibility Support
+None
+
+#### Test Subject Type
+Rendered Page
+
+#### Test Procedure
+##### Selector
+1. Review the headings that are determined programmatically with both HTML `<H>` and ARIA.
+
+##### Test Tools Necessary / Test Tool Instructions
+Step 1. Execute the ‘Headings’ favelet to reveal the headings markup.
+
+Step 2. Review the markup inserted on the page.
+
+##### Test Mode
+Manual inspection
+
+##### Test Cases
+1. Check that each programmatic heading that has both HTML heading `<H>` and ARIA `role="heading"` has the same programmatic heading level. (The # integer within the `<H#>` and `aria-level="#"` must be identical.)
+
+##### Output for 4.1.2
+* Passed – if test case passes
+* Failed – if test case fails
+
 ## Baseline Test Outcome
-Pass: All outcomes of B15.1 and B15.2 and B15.3 passed
-Fail: Any outcome of B15.1, B15.2 or B15.3 failed
+Pass: All outcomes of B15.1 and B15.2 and B15.3 and B15.4 passed
+
+Fail: Any outcome of B15.1, B15.2 or B15.3 or B15.4 failed
