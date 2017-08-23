@@ -137,7 +137,9 @@ Verify that the non-standard keyboard commands enable navigation and interaction
 
 ##### Test Cases
 1. Check that it is possible to move focus away from the interface component in both directions (forward and in reverse) using standard keyboard commands.
-2. Check that it is possible to move focus away from the interface component (forward and in reverse) using alternate keyboard commands AND that the user is advised of available, non-standard keyboard commands necessary to navigate away from the interface component. 
+2. Check that:
+    * it is possible to move focus away from the interface component (forward and in reverse) using alternate keyboard commands AND 
+    * the user is advised, in an accessible manner, of available, non-standard keyboard commands necessary to navigate away from the interface component before the user encounters the the component. 
 
 ##### Output
 * Passed - if either test case passes
