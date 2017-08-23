@@ -10,13 +10,10 @@ Logical order and groupings of interface components in the design of software ap
 ### Test Method Rationale
 Focus/TAB order must follow the logical order to prevent instances where users become confused, make errors, or not be provided with the contextual meaning of components.. Changes to the relative order of repeated components can also cause confusion..
 
-## Tools Necessary
-Physical system keyboard
-
 ## Test Rules
 To validate that content conforms to this requirement, execute the following test rules.
 
-### Focus Order – B3.1
+### Focus (order) – B3.1-focus-order
 #### Rule Description
 Focus order is the sequence in which a user accesses elements on your website. Some users can’t use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense. 
 
@@ -33,20 +30,23 @@ Rendered Page
 ##### Selector
 Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
-##### Test Cases
-###### Test Case Mode
+##### Test Mode
 Manual inspection
 
-###### Test Cases
+##### Test Tools Necessary / Test Tool Instructions
+Physical system keyboard
+
 Use the keyboard to navigate through all interface components and content (including any hidden content). 
-1. If the order of content presented visually affects understanding or function of the content, then  check that the focus order when using a keyboard matches the same logical order as the order presented visually. Pass if true.
-2. Check that focus order DOES NOT affect understanding or function of the content. Pass if true.
 
-###### Output for 2.4.3
-* Pass: if either of the test cases passes
-* Fail: if both of the test cases fail
+##### Test Cases
+1. If the order of content presented visually affects understanding or function of the content, then  check that the focus order when using a keyboard matches the same logical order as the order presented visually. 
+2. Check that focus order DOES NOT affect understanding or function of the content. 
 
-### Consistent Navigation – B3.2
+##### Output for 2.4.3
+* Passed: if either test cases passes
+* Failed: if no test case passes
+
+### Consistent Navigation – B3.2-consistent-navigation
 #### Rule Description
 Focus order is the sequence in which a user accesses elements on your website. Some users can’t use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense. 
 
@@ -63,25 +63,26 @@ Rendered Page
 ##### Selector
 Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that repeat over multiple pages or screens.
 
-##### Test Cases
-###### Test Case Mode
+###### Test Mode
 Manual inspection
 
-###### Test Cases
-Use the keyboard to navigate through all interface components and content (including any hidden content). For those content elements that repeat over multiple pages or screens:
+##### Test Tools Necessary / Test Tool Instructions
+Physical system keyboard
+
+Use the keyboard to navigate through all interface components and content (including any hidden content). Identify content elements that repeat over multiple pages or screens.
+
+##### Test Cases
+For those content elements that repeat over multiple pages or screens:
 1. Check that the relative order of keyboard and/or visual focus is the same across pages. Pass if true.
 2. Check that the user initiated a change in the content order. Pass if true.
 
-###### Output 3.2.3
-* Pass: if either test case is true
-* Fail: if both test cases fail
+##### Output 3.2.3
+* Passed: if either test case passes
+* Failed: if no test case passed
 
-## Baseline Test Result
-### Pass
-Pass if all outcomes of B9.1 and B9.2 pass
-
-### Fail
-Fail if any of the outcomes of B 9.1 and B9.2 fail
+## Baseline Test Outcome
+* Passed: if all outputs of B9.1 and B9.2 pass
+* Failed: if any output of B9.1 and B9.2 fail
 
 ## Advisory: Tips for streamlined test processes
 * This test is for interactive interface components, excluding forms which are covered by the forms test.
