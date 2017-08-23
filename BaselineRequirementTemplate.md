@@ -2,11 +2,14 @@ The text below provides the template for the revised Baseline requirements, inco
 
 For additional guidance on the ACT test rule format itself, go to <https://w3c.github.io/wcag-act/act-rules-format.html>
 
+Section-specific instruction to be added.
+
 See [15. Headings](docs/15Headings.md) as a sample of a completed Baseline Requirement section with ACT-formatted test rules included.
 
 # Baseline Requirement Number and Title
 ## Requirement
 WCAG SC X.X.X 
+If the Requirement or the rule references a specific "Sufficient Technique" or "Common Failure," note here.
 
 ## Rationale
 ### Test Rationale
@@ -20,6 +23,7 @@ WCAG SC X.X.X
 
 #### Accessibility Requirements
 *	WCAG SC X.X.X
+If the Requirement or the rule references a specific "Sufficient Technique" or "Common Failure," note here.
 
 #### Limitations, Assumptions, or Exceptions
 
