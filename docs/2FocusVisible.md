@@ -1,4 +1,4 @@
-# Baseline Requirement Number and Title
+# 2. Focus (visible)
 ## Requirement
 WCAG SC 2.4.7 Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
 
