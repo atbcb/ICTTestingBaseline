@@ -54,6 +54,7 @@ Attachment C - Baseline Test Report Checklists
 * Summary of failures
 
 [Document Content Change Log](DocumentChange.md)
+[Document Content Change Log](DocumentChange1.md)
 * Version 1.0.6, March 2015
 * Version 1.1, February 2016
 * Version 2.0, October 2016
