@@ -17,9 +17,6 @@ On occasion, an interface may be designed to expand on the basic set of standard
 * Access must be via a physical keyboard. Specifically excluded from this test is the use of an on-screen keyboard, or using the Mouse-Keys feature in Windows.
 At this time the baseline tests do not address the use of Tablet PCs or other portable devices.
 
-## Tools Necessary
-Physical system keyboard and pointing device (e.g., mouse), WAT/WAF
-
 ## Test Rules
 To validate that content conforms to this requirement, execute the following test rules:
 
@@ -46,28 +43,25 @@ Rendered Page
 ##### Selector
 Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
-##### Test Cases
-###### Test Case Mode
+###### Test Mode
 Manual inspection
 
-###### Test Case Steps
+##### Tools Necessary / Tool Instructions
+Physical system keyboard and pointing device (e.g., mouse)
 1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, AND activate all interface components.
 2. Inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys). An interface must clearly document non-standard keyboard commands to include instructions for: 
     * Extending standard keyboard command operations (e.g., getting out of a keyboard "trap"), and/or 
-    * Remapped or alternate keys. 
+    * Remapped or alternate keys.
 
 Verify that the non-standard keyboard commands enable navigation and interaction with content to overcome any deficiency found in step 1.
 
-###### Output
-Each element tested will return a test result of pass or fail for eash test case as well as a description of any errors causing a failure result. 
-/[Test case results are combined with other test case results to provide a cumulative outcome, pass or fail, of the rule. When a rule has multiple test cases, the results of all test cases are combined to give a single result for each selected item. The results are cumulative, meaning that as long as one test case passes, the rule has passed./]
-/[If either one of these passed, the rule has passed. Only if both fail, does that element fail the rule./]
+##### Test Cases
+1. Check that the interactive interface component is navigable and that its function (if applicable) can be activated or performaed via keyboard-only navigation or interaction.
+2. Check that the interactive interface component is navigable and/or that its function can be activated or performed using alternate keyboard commands AND that the interface clearly documents and clearly notifies the user of available, non-standard keyboard commands. 
 
-##### Outcome
-The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
-* Passed – the test target passed the test
-* Failed – the test target failed the test
-* Cannot tell: it is unclear whether or not the test target passes or fails the test
+##### Output
+* Passed - either test case passes
+* Failed - no test case passes
 
 ### Keyboard, No Keystroke Ttiming – B1.2-no-keystroke-timing
 #### Rule Description
@@ -91,24 +85,21 @@ Rendered Page
 ##### Selector
 Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
-##### Test Cases
-###### Test Case Mode
+##### Test Mode
 Manual inspection
 
-###### Test Case Steps
-1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields); check that navigation and interaction DOES NOT require specific timing for individual keystrokes. 
+##### Tools Necessary / Tool Instructions
+Physical system keyboard and pointing device (e.g., mouse)
+1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields). 
 2. Evaluate whether the interface’s underlying function requires input that depends on the path of the user's movement (e.g., free-hand drawing); if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes.
 
-###### Output
-Each element tested will return a test result of pass or fail for eash test case as well as a description of any errors causing a failure result. 
-/[Test case results are combined with other test case results to provide a cumulative outcome, pass or fail, of the rule. When a rule has multiple test cases, the results of all test cases are combined to give a single result for each selected item. The results are cumulative, meaning that as long as one test case passes, the rule has passed./]
-/[If either one of these passed, the rule has passed. Only if both fail, does that element fail the rule./]
+##### Test Cases
+1. Check that keyboard navigation and interaction DOES NOT require specific timing for individual keystrokes. 
+2. Check that the interface’s underlying function REQUIRES input that depends on the path of the user's movement (e.g., free-hand drawing; if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes).
 
-##### Outcome
-The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
-* Passed – the test target passed the test
-* Failed – the test target failed the test
-* Cannot tell: it is unclear whether or not the test target passes or fails the test
+##### Output
+* Passed - if either test case passes
+* Failed - if no test case passes
 
 ### Keyboard, No Keyboard Trap – B1.3-no-trap
 #### Rule Description
@@ -133,10 +124,11 @@ Rendered Page
 ##### Selector
 Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
-##### Test Cases
-###### Test Case Mode
+##### Test Mode
 Manual inspection
-###### Test Case Steps
+
+##### Tools Necessary / Tool Instructions
+Physical system keyboard and pointing device (e.g., mouse)
 1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, and activate all interface components. There MUST be NO “TRAP” that disrupts keyboard navigation.
 2. Inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys). An interface must clearly document non-standard keyboard commands to include instructions for: 
     * Extending standard keyboard command operations (e.g., getting out of a keyboard "trap"), and/or 
@@ -144,16 +136,17 @@ Manual inspection
 
 Verify that the non-standard keyboard commands enable navigation and interaction with content to overcome any deficiency found in step 1.
 
-###### Output
-Each element tested will return a test result of pass or fail for eash test case as well as a description of any errors causing a failure result. 
-/[Test case results are combined with other test case results to provide a cumulative outcome, pass or fail, of the rule. When a rule has multiple test cases, the results of all test cases are combined to give a single result for each selected item. The results are cumulative, meaning that as long as one test case passes, the rule has passed./]
-/[If either one of these passed, the rule has passed. Only if both fail, does that element fail the rule./]
+##### Test Cases
+1. Check that keyboard navigation does not encounter a “TRAP” that disrupts keyboard navigation.
+2. Check that keyboard navigation can circumvent any keyboard "TRAP" using alternate keyboard commands AND that the interface clearly documents and clearly notifies the user of available, non-standard keyboard commands. 
 
-#### Outcome
-The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
-* Passed – the test target passed the test
-* Failed – the test target failed the test
-* Cannot tell: it is unclear whether or not the test target passes or fails the test
+##### Output
+* Passed - if either test case passes
+* Failed - if no test case passes
+
+## Baseline Test Outcome
+* Passed – if ALL outputs of B1.1 B1.2 and B1.3 passed
+* Failed – if ANY output of B1.1 B1.2 and B1.3 failed
 
 ## Advisory: Tips for streamlined test processes
 * Keyboard access for Title content is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
