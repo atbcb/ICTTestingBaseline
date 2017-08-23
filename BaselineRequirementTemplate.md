@@ -11,8 +11,6 @@ WCAG SC X.X.X
 
 ### Test Method Rationale
 
-## Tools Necessary
-
 ## Test Rules
 
 ### Unique title/identifier for test rule
@@ -31,20 +29,22 @@ TBD
 #### Test Procedure
 ##### Selector
 
+##### Test Mode
+
+##### Test Tools Necessary / Test Tool Instructions
+
 ##### Test Cases
-###### Test Case Mode
 
-###### Test Case
-
-###### Output
+##### Output
 Each element tested will return a test result of pass or fail for eash test case as well as a description of any errors causing a failure result. 
 /[Test case results are combined with other test case results to provide a cumulative outcome, pass or fail, of the rule. When a rule has multiple test cases, the results of all test cases are combined to give a single result for each selected item. The results are cumulative, meaning that as long as one test case passes, the rule has passed./]
 /[If either one of these passed, the rule has passed. Only if both fail, does that element fail the rule./]
+* Passed - if any test case passed
+* Failed - if no test case passed
 
-##### Outcome
-The overall test procedure (accumulating the results of the individual test cases) should return one of the following outcomes:
-* Passed – the test target passed the test
-* Failed – the test target failed the test
-* Cannot tell: it is unclear whether or not the test target passes or fails the test
+## Baseline Test Outcome
+Pass: All outputs of Baseline Requirement test rules passed
+
+Fail: Any output of Baseline Requirement test rules failed
 
 ## Advisory: Tips for streamlined test processes
