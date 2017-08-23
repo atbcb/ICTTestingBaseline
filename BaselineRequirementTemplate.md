@@ -2,6 +2,8 @@ The text below provides the template for the revised Baseline requirements, inco
 
 For additional guidance on the ACT test rule format itself, go to <https://w3c.github.io/wcag-act/act-rules-format.html>
 
+See [15. Headings](docs/15Headings.md) as a sample of a completed Baseline Requirement section with ACT-formatted test rules included.
+
 # Baseline Requirement Number and Title
 ## Requirement
 WCAG SC X.X.X 
