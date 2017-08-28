@@ -63,7 +63,7 @@ Verify that the non-standard keyboard commands enable navigation and interaction
 * Passed - either test case passes
 * Failed - no test case passes
 
-### Keyboard, No Keystroke Ttiming – B1.2-no-keystroke-timing
+### Keyboard, No Keystroke Timing – B1.2-no-keystroke-timing
 #### Rule Description
 Some users with mobility impairments use a keyboard to access and control content. Content interaction that requires specific timing for individual keystrokes can prevent or impede the ability to perform intended functions for some users with mobility impairments. This test rule validates whether a keyboard-only user can navigate through and interact with components WITHOUT the requirement for specific timing for individual keystrokes. 
 
