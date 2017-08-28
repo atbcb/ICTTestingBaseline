@@ -1,17 +1,20 @@
 # 19. Video Descriptions
 ## Requirement
-Provide an accessible alternative way of presenting the information in a video-only presentation.
+WCAG SC 1.2.1 Video-Only (Prerecorded) - Prerecorded video-only media, the following are true, except when the video is a media alternative for text and is clearly labeled as such: Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content.
 
 ## Rationale
 ### Test Rationale
+Information conveyed by prerecorded video-only content must be available to all users. AAlternatives for time-based media that are text based make information accessible because text can be rendered through any sensory modality to match the needs of the user.
 
 ### Test Method Rationale
+The only mentod available to determine he sufficiency of the text or audio alternative is through manual verification.  
 
 ## Tools Necessary
+No specific tools are necessary to perform this manual test. 
 
 ## Test Rules
 
-### Video Descriptions - B19.1-video-description
+### Video Descriptions - B19.2-Video-description
 #### Rule Description 
 Video-only content must be accompanied by accessible descriptions.
 
@@ -23,7 +26,6 @@ Video-only content must be accompanied by accessible descriptions.
 #### Limitations, Assumptions or Exceptions
 * A description is not required for video intended as a media alternative for text and it is clearly labeled as such. 
 * A text equivalent is not required for audio that is provided as an equivalent for video-only content. For example, it is not required to transcribe audio that is provided as an alternative to a silent movie.
-
 
 #### Accessibility Support
 * Requires an accessible video player
@@ -47,6 +49,8 @@ Manual inspection
 a)	Pass: True
 b)	Fail: False 
 c)	DNA: Video is not a media alternative to text  
+
+### Video Descriptions - B19.1-Video-alternative
 
 ##### Test Case Step (SC 1.2.1)
 1)	Manually check that the information conveyed through animation or video is also available in accessible screen text 
