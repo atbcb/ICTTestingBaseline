@@ -1,6 +1,8 @@
 # 4. Focus (revealing hidden content)
 ## Requirement
-WCAG SC 2.1.1 – Keyboard: All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
+WCAG SC 2.4.3 - Focus Order: If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+
+WCAG SC 2.1.1 - Keyboard: All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
 
 WCAG SC 1.3.2 - Meaningful Seqeuence: When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
 
@@ -19,8 +21,10 @@ Content with interface components must be revealed in an accessible manner witho
 This test determines whether navigable hidden content, when revealed, provides the same function and/or information to users with low vision, without vision, or to keyboard users as to sighted individuals using a mouse.
 
 #### Accessibility Requirements
-*	WCAG SC 2.1.1
+* WCAG SC 2.1.1
 * WCAG SC 1.3.2
+* WCAG SC 2.4.3
+  * F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order
 
 #### Limitations, Assumptions, or Exceptions
 * Without exception, focus must shift to modal dialog boxes and remain within the dialog box until the box is closed by the user.
@@ -35,6 +39,7 @@ Rendered page
 
 #### Test Procedure
 ##### Selector
+Select menus and dialogs revealed by trigger controls
 
 ##### Test Mode
 Manual inspection
@@ -47,7 +52,8 @@ b.	If focus does not shift to the revealed content, an accurate description of t
     * [Software only] Use Inspect/Java Ferret to examine the control's Name and description. 
 
 ##### Test Cases
-1. Check that focus can move to all focusable elements in revealed content via keyboard navigation
+1. Check that focus is in the menu or dialog
+2. Check that advancing the focus in the sequential navigation order puts focus in the menu or dialog
 
 ##### Output
 * Passed - if any test case passed
@@ -87,8 +93,8 @@ b.	If focus does not shift to the revealed content, an accurate description of t
     * [Software only] Use Inspect/Java Ferret to examine the control's Name and description. 
 
 ##### Test Cases
-1. Check that information presented in revealed content is navigable by keyboard.
-2. Check that any information not navigable by keyboard in revealed content is provided in navigable content.
+* Check whether focus is on the trigger control.
+* Check whether advancing the focus backwards in the sequential navigation order puts focus in the trigger control.
 
 ##### Output
 * Passed - if any test case passed
