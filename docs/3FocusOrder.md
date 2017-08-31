@@ -1,6 +1,7 @@
 # 3. Focus (order)
 ## Requirement
 WCAG SC 2.4.3. If [content] can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+
 WCAG SC 3.2.3. Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 ## Rationale
@@ -28,7 +29,7 @@ Rendered Page
 
 #### Test Procedure
 ##### Selector
-Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
+Select interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
 ##### Test Mode
 Manual inspection
@@ -36,10 +37,10 @@ Manual inspection
 ##### Test Tools Necessary / Test Tool Instructions
 Physical system keyboard
 
-Use the keyboard to navigate through all interface components and content (including any hidden content). 
+Use the keyboard to navigate through interface components and content (including any hidden content). 
 
 ##### Test Cases
-1. If the order of content presented visually affects understanding or function of the content, then  check that the focus order when using a keyboard matches the same logical order as the order presented visually. 
+1. If the order of content presented visually affects understanding or function of the content, then check that the focus order when using a keyboard matches the same logical order as the order presented visually. 
 2. Check that focus order DOES NOT affect understanding or function of the content. 
 
 ##### Output for 2.4.3
@@ -61,7 +62,7 @@ Rendered Page
 
 #### Test Procedure
 ##### Selector
-Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that repeat over multiple pages or screens.
+Select interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that repeat over multiple linked pages or screens.
 
 ###### Test Mode
 Manual inspection
@@ -69,12 +70,12 @@ Manual inspection
 ##### Test Tools Necessary / Test Tool Instructions
 Physical system keyboard
 
-Use the keyboard to navigate through all interface components and content (including any hidden content). Identify content elements that repeat over multiple pages or screens.
+Use the keyboard to navigate through interface components and content (including any hidden content). Identify content elements that repeat over multiple linked pages or screens.
 
 ##### Test Cases
-For those content elements that repeat over multiple pages or screens:
-1. Check that the relative order of keyboard and/or visual focus is the same across pages. Pass if true.
-2. Check that the user initiated a change in the content order. Pass if true.
+For those content elements that repeat over multiple linked pages or screens:
+1. Check that the relative order of keyboard and/or visual focus is the same across pages.
+2. Check that the user initiated a change in the content order.
 
 ##### Output 3.2.3
 * Passed: if either test case passes
