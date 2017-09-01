@@ -16,9 +16,9 @@ Some components on web content and software screens are intentionally hidden to 
 Content with interface components must be revealed in an accessible manner without requiring user vision and/or use of a mouse.
 
 ## Test Rules
-### Focus (revealing hidden content) - B4.1-revealed-content-focus
+### Focus (revealing hidden content) - B4.1-revealed-content-trigger
 #### Rule Description
-This test determines whether navigable hidden content, when revealed, provides the same function and/or information to users with low vision, without vision, or to keyboard users as to sighted individuals using a mouse.
+This test determines whether hidden menus or dialogs, when revealed, provides the same function and/or information to users with low vision, without vision, or to keyboard users as to sighted individuals using a mouse.
 
 #### Accessibility Requirements
 * WCAG SC 2.1.1
@@ -45,11 +45,9 @@ Select menus and dialogs revealed by trigger controls
 Manual inspection
 
 ##### Test Tools Necessary / Test Tool Instructions
-Physical system keyboard, WAT, Inspect, Java Ferret
-a.	Move the focus to the control that reveals hidden content, activate the control using the keyboard. Then determine whether focus is in the revealed content. It may be necessary to TAB once to find the focus. Continue to move through the revealed content using the keyboard.
-b.	If focus does not shift to the revealed content, an accurate description of the content change event must be provided.
-    * [Web only] Use the WAT (Doc Info - Titles, Images - Show Images) to examine the control's name, title, and any adjacent screen text or ALT text.
-    * [Software only] Use Inspect/Java Ferret to examine the control's Name and description. 
+Physical system keyboard
+1.	Move the focus to the control that reveals the menu or dialog; activate the control using the keyboard. 
+2. Determine whether focus is in the revealed content. It may be necessary to TAB once to find the focus. Continue to move through the revealed content using the keyboard.
 
 ##### Test Cases
 1. Check that focus is in the menu or dialog
@@ -62,7 +60,7 @@ b.	If focus does not shift to the revealed content, an accurate description of t
 ## Test Rules
 ### Focus (revealing hidden content) - B4.2-revealed-content-info
 #### Rule Description
-This test determines whether information in hidden content, when revealed, is also availabe to users with low vision, without vision, or to keyboard users as to sighted individuals using a mouse.
+This test determines whether focus is returned to the control that triggers a menu or dialog after dismissing the menu or dialog.
 
 #### Accessibility Requirements
 *	WCAG SC 2.1.1
@@ -86,11 +84,10 @@ Rendered page
 Manual inspection
 
 ##### Test Tools Necessary / Test Tool Instructions
-Physical system keyboard, WAT, Inspect, Java Ferret
-a.	Move the focus to the control that reveals hidden content, activate the control using the keyboard. Then determine whether focus is in the revealed content. It may be necessary to TAB once to find the focus. Continue to move through the revealed content using the keyboard.
-b.	If focus does not shift to the revealed content, an accurate description of the content change event must be provided.
-    * [Web only] Use the WAT (Doc Info - Titles, Images - Show Images) to examine the control's name, title, and any adjacent screen text or ALT text.
-    * [Software only] Use Inspect/Java Ferret to examine the control's Name and description. 
+Physical system keyboard
+1.	Move the focus to the control that triggers the menu or dialog; activate the control using the keyboard. 
+2. Determine whether focus is in the revealed content. It may be necessary to TAB once to find the focus. Continue to move through the revealed content using the keyboard.
+3. Dismiss the menu or dialog and verify the focus location after the dialog or menu is dismissed.
 
 ##### Test Cases
 * Check whether focus is on the trigger control.
