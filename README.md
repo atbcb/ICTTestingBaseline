@@ -12,7 +12,7 @@ The _**mission**_ of the Interagency Trusted Tester Program is to promote a unif
 * The working group will create and validate test procedures and tools with test content to the best of our ability to support selection and refinement of final updated test processes.
 * The DHS Trusted Tester process and Trusted Tester certification will also be updated to fully align with the updated harmonized baseline evaluation process.
 
-## How you can contribute:
+### How you can contribute
 The working group will post proposed test processes to this [repository](https://github.com/Section508Coordinators/ICTTestingBaseline/) in GitHub as work progresses. The working group will post test content to GitHub as work progresses. The working group will update items as refinements are made as we move to final of test processes.
 
 You are welcome to monitor group progress, create your own forks of the proposed test processes and propose changes (via pull requests) to improve them, and submit test content to help validate test processes and tools.
@@ -23,10 +23,10 @@ The working group will do our best to review any updated test processes from sub
 ### How will the final working group updated evaluation processes be used?
 The harmonized baseline revised section 508 conformance evaluation process for web and non-web interfaces will be a foundation for creating organization-specific, aligned test procedures. The DHS Trusted Tester process update will fully align with the harmonized baseline update.
 
-## How to contact the working group:
+### How to contact the working group:
 If you wish to contact the working group with suggestions you can email to accessibility@dhs.gov and include in the subject "Federal Accessibility Community of Practice: Trusted Tester Update."  
 
 **Note:** the working group makes no commitment to accept or use recommendations, but will do our best to review them and consider them as the update process is completed.
 
-## What the working group is NOT doing at this time:
+### What the working group is NOT doing at this time:
 Currently the working group is **NOT** creating fully automated test procedures. This may be addressed in a subsequent update of the harmonized baseline document to facilitate agile development and dev-ops environments, reduce level of effort to perform evaluations, and broaden and deepen the scope of evaluations for larger sets of electronic content.
