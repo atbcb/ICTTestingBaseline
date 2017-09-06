@@ -11,46 +11,49 @@ See [15. Headings](docs/15Headings.md) as a sample of a completed Baseline Requi
 WCAG SC X.X.X 
 If the Requirement or the rule references a specific "Sufficient Technique" or "Common Failure," note here.
 
-## Rationale
-### Test Rationale
-
-### Test Method Rationale
-
-## Test Rules
-
-### Unique title/identifier for test rule
-#### Rule Description
-
 #### Accessibility Requirements
 *	WCAG SC X.X.X
 If the Requirement or the rule references a specific "Sufficient Technique" or "Common Failure," note here.
+* WCAG Technique Number: Description of technique
+* WCAG Technique Number: Description of technique
 
 #### Limitations, Assumptions, or Exceptions
-
-#### Accessibility Support
-TBD
-
-#### Test Subject Type
+Description of any applicable information.
 
 #### Test Procedure
-##### Selector
-
-##### Test Mode
-
-##### Test Tools Necessary / Test Tool Instructions
+##### Selector 
+Cite the action taken to select or locate the item to be tested.
 
 ##### Test Cases
+###### Test Case 1
+Cite the action taken 
+* May reference the tool used
+* Include sub-steps needed 
 
-##### Output
-Each element tested will return a test result of pass or fail for eash test case as well as a description of any errors causing a failure result. 
-/[Test case results are combined with other test case results to provide a cumulative outcome, pass or fail, of the rule. When a rule has multiple test cases, the results of all test cases are combined to give a single result for each selected item. The results are cumulative, meaning that as long as one test case passes, the rule has passed./]
-/[If either one of these passed, the rule has passed. Only if both fail, does that element fail the rule./]
-* Passed - if any test case passed
-* Failed - if no test case passed
+###### Failure Condition Test Case 1 
+Include a statement describing the output needed to pass the criteria for each test element tested.
+
+###### Outcome (T1)
+* DNA: Cite what conditions when this criteria Does Not Apply 
+* NC: Cite results conditions of failure to make this criteria is Not Compliant
+* C: Cite results conditions that meet this criteria and it is Compliant 
+
+###### Test Case 2
+Cite the action taken 
+* May reference the tool used
+* Include sub-steps needed 
+
+###### Failure Condition Test Case 2 
+Include a statement describing the output needed to pass the criteria for each test element tested.
+
+###### Outcome (T2)
+* DNA: Cite what conditions when this criteria Does Not Apply 
+* NC: Cite results conditions of failure to make this criteria is Not Compliant
+* C: Cite results conditions that meet this criteria and it is Compliant 
 
 ## Baseline Test Outcome
-Pass: All outputs of Baseline Requirement test rules passed
+Pass: Passes each test 
 
-Fail: Any output of Baseline Requirement test rules failed
+Fail: Fails any obe of the tests
 
 ## Advisory: Tips for streamlined test processes
