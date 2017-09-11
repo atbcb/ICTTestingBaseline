@@ -1,10 +1,6 @@
-The text below provides the template for the revised Baseline requirements, incorporating the structure for the ACT test rule format.
+The text below provides the template for the revised Baseline requirements aligning the testing process with the 4.0 DHS Trusted Tester Process.  This template does not yet incorporate the structure for the ACT test rule format <https://w3c.github.io/wcag-act/act-rules-format.html>.
 
-For additional guidance on the ACT test rule format itself, go to <https://w3c.github.io/wcag-act/act-rules-format.html>
-
-Section-specific instruction to be added.
-
-See [15. Headings](docs/15Headings.md) as a sample of a completed Baseline Requirement section with ACT-formatted test rules included.
+See [15. Headings](docs/15Headings.md) as a sample of a completed Baseline Requirement section.
 
 # Baseline Requirement Number and Title
 ## Requirement
