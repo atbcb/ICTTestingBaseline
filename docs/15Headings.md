@@ -12,7 +12,7 @@ Headings must be programmatically determinable. Headings levels must be programm
     * Technique H42: Using `<h1>` to `<h6>` to identify headings
 * WCAG2: 2.4.6 Headings and Labels
     * Technique G130: Providing descriptive headings 
-* *__PLACEHOLDER - VALID CODE Requirement related to use of <h1> in combination with role="heading" and aria-level="#"__*
+* *__PLACEHOLDER - VALID CODE Requirement related to use of `<h1>` in combination with role="heading" and aria-level="#"__*
 
 ## Tools Necessary
 * *Headings* favelet - used to reveal headings markup
