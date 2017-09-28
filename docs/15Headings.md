@@ -32,9 +32,9 @@ Identify the headings and non-headings of the page by visual inspection of the p
     1. For each content element identified visually as a heading, check that each heading is determined programmatically using either `<h1>` to `<h6>` or `role=”heading”` AND check that heading levels are in logical order. 
         1. The most important heading should have the level of 1, and the least important heading should have a level of 6. 
         1. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. Either of these techniques is acceptable for each heading:
-            1. H42: each heading is marked with `<h1>` to `<h6>`.
-            1. ARIA: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required. For multiple heading levels, 'aria-level' must be specified.
-            1. `<h1>` to `<h6>` MAY NOT be used in combination with `role="heading"` and `aria-level="#"` *__(PLACEHOLDER - reference to valid code Success Criterion)__*
+            * H42: each heading is marked with `<h1>` to `<h6>`.
+            * ARIA: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required. For multiple heading levels, 'aria-level' must be specified.
+            * `<h1>` to `<h6>` MUST NOT be used in combination with `role="heading"` and `aria-level="#"` *__(PLACEHOLDER - reference to valid code Success Criterion)__*
     1. For each content element identified visually as a non-heading, check that the content IS NOT determined programmatically using `<h1>` to `<h6>` or `role="heading"`
 
 #### Test Results for SC 1.3.1
