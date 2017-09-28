@@ -1,56 +1,38 @@
-The text below provides the template for the revised Baseline requirements, incorporating the structure for the ACT test rule format.
+The text below provides the template for the revised Baseline requirements aligning the testing process with the 4.0 DHS Trusted Tester Process.  This template does not yet incorporate the structure for the ACT test rule format <https://w3c.github.io/wcag-act/act-rules-format.html>.
 
-For additional guidance on the ACT test rule format itself, go to <https://w3c.github.io/wcag-act/act-rules-format.html>
-
-Section-specific instruction to be added.
-
-See [15. Headings](docs/15Headings.md) as a sample of a completed Baseline Requirement section with ACT-formatted test rules included.
+See [15. Headings](docs/15Headings.md) as a sample of a completed Baseline Requirement section.
 
 # Baseline Requirement Number and Title
-## Requirement
-WCAG SC X.X.X 
-If the Requirement or the rule references a specific "Sufficient Technique" or "Common Failure," note here.
-
 ## Rationale
+
 ### Test Rationale
 
 ### Test Method Rationale
 
-## Test Rules
-
-### Unique title/identifier for test rule
-#### Rule Description
-
-#### Accessibility Requirements
+## Accessibility Requirements
 *	WCAG SC X.X.X
 If the Requirement or the rule references a specific "Sufficient Technique" or "Common Failure," note here.
+* WCAG Technique Number: Description of technique
+* WCAG Technique Number: Description of technique
 
-#### Limitations, Assumptions, or Exceptions
+## Tools Necessary
 
-#### Accessibility Support
-TBD
+## Limitations, Assumptions, or Exceptions
+Description of any applicable information.
 
-#### Test Subject Type
+## Test Procedure
+### Selector (Identify Elements to Test)
+Cite the action taken to select or locate the item to be tested.
 
-#### Test Procedure
-##### Selector
+### Test Instructions
+#### Tests for SC #.#.#
+1. 
+1.
 
-##### Test Mode
+#### Test Results for SC #.#.#
+1. 
 
-##### Test Tools Necessary / Test Tool Instructions
-
-##### Test Cases
-
-##### Output
-Each element tested will return a test result of pass or fail for eash test case as well as a description of any errors causing a failure result. 
-/[Test case results are combined with other test case results to provide a cumulative outcome, pass or fail, of the rule. When a rule has multiple test cases, the results of all test cases are combined to give a single result for each selected item. The results are cumulative, meaning that as long as one test case passes, the rule has passed./]
-/[If either one of these passed, the rule has passed. Only if both fail, does that element fail the rule./]
-* Passed - if any test case passed
-* Failed - if no test case passed
-
-## Baseline Test Outcome
-Pass: All outputs of Baseline Requirement test rules passed
-
-Fail: Any output of Baseline Requirement test rules failed
+## Baseline Requirement Outcome
+* If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
