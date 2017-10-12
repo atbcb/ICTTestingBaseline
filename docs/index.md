@@ -64,7 +64,7 @@ Attachment C - Baseline Test Report Checklists
 
 # Contents: The Baseline Tests (\#1 - \#28)
 1. [Keyboard navigation](1KeyboardNavigation.md)
-2. Focus (visible)
+2. [Focus (visible)](2FocusVisible.md)
 3. [Focus (order)](3FocusOrder.md)
 4. Focus (Revealing hidden content)
 5. Repetitive Content
