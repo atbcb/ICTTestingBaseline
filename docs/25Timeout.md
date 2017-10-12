@@ -1,4 +1,4 @@
-# Baseline Requirement Number and Title
+# 25. Time outs
 ## Requirement
 WCAG2: 2.2.1 Timing Adjustable
 For each time limit that is set by the content, at least one of the following is true:
