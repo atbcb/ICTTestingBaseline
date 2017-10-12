@@ -87,7 +87,7 @@ Attachment C - Baseline Test Report Checklists
 22. Style-sheet non-dependence
 23. Frames
 24. Alternate pages
-25. Time outs
+25. [Time outs](25Timeout.md)
 26. Image maps
 27. Plug-in Links
 28. Built-in accessibility features
