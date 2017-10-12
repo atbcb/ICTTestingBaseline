@@ -84,7 +84,7 @@ Attachment C - Baseline Test Report Checklists
 19. [Video (descriptions)](19VideoDescription.md)
 20. Synchronized media (captions)
 21. Synchronized media (descriptions)
-22. Style-sheet non-dependence
+22. [Style-sheet non-dependence](22Stylesheet.md)
 23. Frames
 24. Alternate pages
 25. [Time outs](25Timeout.md)
