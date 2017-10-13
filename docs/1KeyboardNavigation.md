@@ -32,7 +32,7 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
 
 Some users with mobility impairments use a keyboard to access and control content. Content interaction that requires specific timing for individual keystrokes can prevent or impede the ability to perform intended functions for some users with mobility impairments. This test rule validates whether a keyboard-only user can navigate through and interact with components WITHOUT the requirement for specific timing for individual keystrokes.
 
-### Selector
+### Selector (Identify Content)
 Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
 ### Test Instructions
