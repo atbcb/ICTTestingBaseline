@@ -85,7 +85,7 @@ Attachment C - Baseline Test Report Checklists
 20. Synchronized media (captions)
 21. [Synchronized media (descriptions)](21SyncMedia.md)
 22. [Style-sheet non-dependence](22Stylesheet.md)
-23. Frames
+23. [Frames](23Frames.md)
 24. Alternate pages
 25. [Time outs](25Timeout.md)
 26. Image maps
