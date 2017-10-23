@@ -11,9 +11,7 @@ If there is any interaction as part of the synchronized media presentation (e.g.
 ### Test Method Rationale
 
 ## Accessibility Requirements
-* *should we even list this? it allows for an all-text alternative* WCAG2: 1.2.3 Audio Description or Media Alternative (Prerecorded) - An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such. (Level A)
-    * Technique ...
-    * Technique ...
+
 * WCAG2: 1.2.5 Audio Description (Prerecorded) *which do we accept?*
     * Technique ...
     * Technique ...
@@ -23,13 +21,12 @@ If there is any interaction as part of the synchronized media presentation (e.g.
        * SM6: Providing audio description in SMIL 1.0 (SMIL)
        * SM7: Providing audio description in SMIL 2.0 (SMIL)
        * FLASH26: Applying audio descriptions to Flash video (Flash)
-       * Using any player that supports audio and video
+       * *whaaaat?* Using any player that supports audio and video
     * G8: Providing a movie with extended audio descriptions using one of the following:
        * SM1: Adding extended audio description in SMIL 1.0 (SMIL)
        * SM2: Adding extended audio description in SMIL 2.0 (SMIL)
        * FLASH26: Applying audio descriptions to Flash video (Flash)
        * Using any player that supports audio and video
-    * G203: Using a static text alternative to describe a talking head video
 
 ## Tools Necessary
 * Visual and audio inspection
@@ -53,21 +50,13 @@ Rendered video
 
 ### Test Instructions
 
-#### Tests for SC 1.2.3 *or only 1.2.5?*
+#### Tests for SC 1.2.5
 1. For each video segment that requires audio description, check that
    1. there is audio description provided
    1. the audio description is time-synchronized with the video
    1. the audio description provides sufficient information about actions, characters, scene changes, and on-screen text that are important and are not described or spoken in the main sound track
-##### Test Results SC 1.2.3
-* If the test for SC 1.2.3 fails, then the content is not conformant to SC 1.2.3
-
-#### Tests for SC 1.2.5
-...
-##### Tests for SC 1.2.5
-
-
-###### Test Results for SC 1.2.5
-* If any test for SC 1.2.5 fails, then the content is not conformant to SC 1.2.5
+##### Test Results SC 1.2.5
+* If the test for SC 1.2.3 fails, then the content is not conformant to SC 1.2.5
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
