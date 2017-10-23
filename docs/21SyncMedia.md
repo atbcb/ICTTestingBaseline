@@ -14,9 +14,22 @@ If there is any interaction as part of the synchronized media presentation (e.g.
 * *should we even list this? it allows for an all-text alternative* WCAG2: 1.2.3 Audio Description or Media Alternative (Prerecorded) - An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such. (Level A)
     * Technique ...
     * Technique ...
-* WCAG2: 1.2.5 Audio Description (Prerecorded)
+* WCAG2: 1.2.5 Audio Description (Prerecorded) *which do we accept?*
     * Technique ...
     * Technique ...
+    * G78: Providing a second, user-selectable, audio track that includes audio descriptions
+    * G78: Providing a second, user-selectable, audio track that includes audio descriptions AND SL1: Accessing Alternate Audio Tracks in Silverlight Media (Silverlight)
+    * G173: Providing a version of a movie with audio descriptions using one of the following:
+       * SM6: Providing audio description in SMIL 1.0 (SMIL)
+       * SM7: Providing audio description in SMIL 2.0 (SMIL)
+       * FLASH26: Applying audio descriptions to Flash video (Flash)
+       * Using any player that supports audio and video
+    * G8: Providing a movie with extended audio descriptions using one of the following:
+       * SM1: Adding extended audio description in SMIL 1.0 (SMIL)
+       * SM2: Adding extended audio description in SMIL 2.0 (SMIL)
+       * FLASH26: Applying audio descriptions to Flash video (Flash)
+       * Using any player that supports audio and video
+    * G203: Using a static text alternative to describe a talking head video
 
 ## Tools Necessary
 * Visual and audio inspection
@@ -35,30 +48,24 @@ Rendered video
 ## Test Procedure
 ### Selector (Identify Content)
 1. Find interface components that play video or other synchronized media content when activated.
-2. Play the content. Visually determine if the video is a media alternative to text. If so, check if it is clearly labeled as such. If it is, ignore this content for this test.
-3. Determine if
-3. View the video and determine where audio descriptions of relevant information are needed.
-2)	Manually check that the information conveyed through animation or video is also available through audio description
+2. Determine if the media is clearly labeled as a media alternative for text. If it is, do not apply this test.
+2. Play the content. Determine video segments where audio descriptions of relevant information are needed.
 
 ### Test Instructions
 
-#### Tests for SC 1.2.3
-1. For each video segment that requires audio description, check that there is audio description provided.
-2. Sync'd, descriptive
+#### Tests for SC 1.2.3 *or only 1.2.5?*
+1. For each video segment that requires audio description, check that
+   1. there is audio description provided
+   1. the audio description is time-synchronized with the video
+   1. the audio description provides sufficient information about actions, characters, scene changes, and on-screen text that are important and are not described or spoken in the main sound track
 ##### Test Results SC 1.2.3
 * If the test for SC 1.2.3 fails, then the content is not conformant to SC 1.2.3
 
 #### Tests for SC 1.2.5
 ...
 ##### Tests for SC 1.2.5
-1. ..................Review the markup inserted on the page.
-   1. Check that each element marked as a programmatic heading is a visual heading.
-   1. For each visual heading, check that each heading is determined programmatically AND that heading levels are logical and in sequential order. 
-      1. The most important heading should have the level of 1, and the least important heading should have a level of 6. 
-      1. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. 
-      1. Either of these techniques is acceptable for each heading:
-            * H42: each heading is marked with `<h1>` to `<h6>`.
-            * ARIA12: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required. For multiple heading levels, 'aria-level' must be specified.
+
+
 ###### Test Results for SC 1.2.5
 * If any test for SC 1.2.5 fails, then the content is not conformant to SC 1.2.5
 
