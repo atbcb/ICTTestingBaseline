@@ -67,7 +67,7 @@ Attachment C - Baseline Test Report Checklists
 2. [Focus (visible)](2FocusVisible.md)
 3. [Focus (order)](3FocusOrder.md)
 4. [Focus (Revealing hidden content)](4FocusHidden.md)
-5. Repetitive Content
+5. [Repetitive Content](5RepetitiveContent.md)
 6. Multi-state components
 7. Images
 8. Color (meaning)
