@@ -1,13 +1,17 @@
 # 21. Synchronized Media (Descriptions)
 ## Rationale
-Synchronized media must have audio descriptions that are time-synchronized with the video.
+This Success Criterion may help some people who have difficulty watching video or other synchronized media content, including people who have difficulty perceiving or understanding moving images. 
+
+Synchronized media must have audio descriptions that are time-synchronized with the video. The audio description augments the audio portion of the presentation with the information needed when the video portion is not available. During existing pauses in dialogue, audio description provides information about actions, characters, scene changes, and on-screen text that are important and are not described or spoken in the main sound track.
+
+If there is any interaction as part of the synchronized media presentation (e.g., "press now to answer the question") then the alternative for time-based media would provide hyperlinks or whatever is needed to provide the same functionality.
 
 ### Test Rationale
 
 ### Test Method Rationale
 
 ## Accessibility Requirements
-* WCAG2: 1.2.3 Audio Description or Media Alternative (Prerecorded)
+* WCAG2: 1.2.3 Audio Description or Media Alternative (Prerecorded) - An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such. (Level A)
 
 * WCAG2: 1.2.5 Audio Description (Prerecorded)
     * Technique ...
@@ -18,7 +22,9 @@ Synchronized media must have audio descriptions that are time-synchronized with 
     
 ## Limitations, Assumptions, or Exceptions
 * Limitation: tester must be able to see and hear video
-* Exception: content in a test that requires video without audio descriptions
+* Exceptions: 
+    * content in a test that requires video without audio descriptions (1.1.1)
+    * media that is a media alternative for text and is clearly labeled as such (1.2.3)
 
 ## Test Procedure
 ### Selector (Identify Content)
