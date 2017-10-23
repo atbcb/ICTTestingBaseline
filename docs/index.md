@@ -70,7 +70,7 @@ Attachment C - Baseline Test Report Checklists
 5. [Repetitive Content](5RepetitiveContent.md)
 6. Multi-state components
 7. Images
-8. Color (meaning)
+8. [Color (meaning)](8ColorMeaning.md)
 9. [Color (contrast)](9ColorContrast.md)
 10. *Flashing (reserved)*
 11. Forms (associated instructions)
