@@ -16,7 +16,6 @@ If there is any interaction as part of the synchronized media presentation (e.g.
     * Technique ...
     * Technique ...
     * G78: Providing a second, user-selectable, audio track that includes audio descriptions
-    * G78: Providing a second, user-selectable, audio track that includes audio descriptions AND SL1: Accessing Alternate Audio Tracks in Silverlight Media (Silverlight)
     * G173: Providing a version of a movie with audio descriptions using one of the following:
        * SM6: Providing audio description in SMIL 1.0 (SMIL)
        * SM7: Providing audio description in SMIL 2.0 (SMIL)
