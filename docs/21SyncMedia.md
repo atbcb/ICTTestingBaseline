@@ -21,14 +21,24 @@ If there is any interaction as part of the synchronized media presentation (e.g.
 * Visual and audio inspection
     
 ## Limitations, Assumptions, or Exceptions
-* Limitation: tester must be able to see and hear video
+* Limitations: ...
 * Exceptions: 
     * content in a test that requires video without audio descriptions (1.1.1)
     * media that is a media alternative for text and is clearly labeled as such (1.2.3)
 
+#### Accessibility Support
+* Requires an accessible video player
+
+#### Test Subject Types 
+Rendered video
+
 ## Test Procedure
 ### Selector (Identify Content)
-View the video and determine where audio descriptions of relevant information are needed.
+1. Find interface components that play video or other synchronized media content when activated.
+2. If the content does not ... part of a test ...
+2. Play the content. Visually determine if the video is a media alternative to text. If so, check if it is clearly labeled as such. If it is, ignore this content for this test.
+3. Determine if
+3. View the video and determine where audio descriptions of relevant information are needed.
 
 ### Test Instructions
 
