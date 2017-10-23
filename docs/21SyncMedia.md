@@ -11,8 +11,9 @@ If there is any interaction as part of the synchronized media presentation (e.g.
 ### Test Method Rationale
 
 ## Accessibility Requirements
-* WCAG2: 1.2.3 Audio Description or Media Alternative (Prerecorded) - An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such. (Level A)
-
+* *should we even list this? it allows for an all-text alternative* WCAG2: 1.2.3 Audio Description or Media Alternative (Prerecorded) - An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such. (Level A)
+    * Technique ...
+    * Technique ...
 * WCAG2: 1.2.5 Audio Description (Prerecorded)
     * Technique ...
     * Technique ...
@@ -23,7 +24,6 @@ If there is any interaction as part of the synchronized media presentation (e.g.
 ## Limitations, Assumptions, or Exceptions
 * Limitations: ...
 * Exceptions: 
-    * content in a test that requires video without audio descriptions (1.1.1)
     * media that is a media alternative for text and is clearly labeled as such (1.2.3)
 
 #### Accessibility Support
@@ -35,10 +35,10 @@ Rendered video
 ## Test Procedure
 ### Selector (Identify Content)
 1. Find interface components that play video or other synchronized media content when activated.
-2. If the content does not ... part of a test ...
 2. Play the content. Visually determine if the video is a media alternative to text. If so, check if it is clearly labeled as such. If it is, ignore this content for this test.
 3. Determine if
 3. View the video and determine where audio descriptions of relevant information are needed.
+2)	Manually check that the information conveyed through animation or video is also available through audio description
 
 ### Test Instructions
 
