@@ -67,10 +67,10 @@ Attachment C - Baseline Test Report Checklists
 2. [Focus (visible)](2FocusVisible.md)
 3. [Focus (order)](3FocusOrder.md)
 4. [Focus (Revealing hidden content)](4FocusHidden.md)
-5. Repetitive Content
+5. [Repetitive Content](5RepetitiveContent.md)
 6. Multi-state components
 7. Images
-8. Color (meaning)
+8. [Color (meaning)](8ColorMeaning.md)
 9. [Color (contrast)](9ColorContrast.md)
 10. *Flashing (reserved)*
 11. Forms (associated instructions)
@@ -83,9 +83,9 @@ Attachment C - Baseline Test Report Checklists
 18. Audio (transcripts)
 19. [Video (descriptions)](19VideoDescription.md)
 20. Synchronized media (captions)
-21. Synchronized media (descriptions)
+21. [Synchronized media (descriptions)](21SyncMedia.md)
 22. [Style-sheet non-dependence](22Stylesheet.md)
-23. Frames
+23. [Frames](23Frames.md)
 24. Alternate pages
 25. [Time outs](25Timeout.md)
 26. Image maps
