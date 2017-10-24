@@ -20,7 +20,7 @@ Headings must be programmatically determinable. Headings levels must be programm
     
 ## Limitations, Assumptions, or Exceptions
 * Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
-* Exception: A page with only one heading on the page does not have a heading level structure and would not be tested for heading structure.
+* Exception: A page with only one heading on the page does not have a heading level structure and would not be tested
 
 ## Test Procedure
 ### Selector (Identify Content)
