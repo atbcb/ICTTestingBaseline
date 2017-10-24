@@ -84,7 +84,7 @@ Attachment C - Baseline Test Report Checklists
 17. [Language](17Language.md)
 18. Audio (transcripts)
 19. [Video (descriptions)](19VideoDescription.md)
-20. Synchronized media (captions)
+20. [Synchronized media (captions)](20SyncMediaCap.md)
 21. [Synchronized media (descriptions)](21SyncMedia.md)
 22. [Style-sheet non-dependence](22Stylesheet.md)
 23. [Frames](23Frames.md)
