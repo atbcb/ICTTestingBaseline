@@ -48,7 +48,7 @@ Rendered video
       1. a clearly labelled, conformant means is provided to easily return to the primary event flow
 
 ##### Test Results SC 1.2.5
-* If both tests for SC 1.2.3 fail, then the content is not conformant to SC 1.2.5
+* If both tests for SC 1.2.5 fail, then the content is not conformant to SC 1.2.5
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
