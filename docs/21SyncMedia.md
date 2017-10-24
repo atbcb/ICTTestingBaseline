@@ -38,6 +38,7 @@ Rendered video
 #### Tests for SC 1.2.5
 1. For each video segment that requires audio description, check that
    1. there is audio description provided. This may be on a user-selectable, audio track that includes audio descriptions, per *G78: providing a second, user-selectable, audio track that includes audio descriptions*
+   
    1. the audio description is time-synchronized with the video
    1. the audio description provides sufficient information about actions, characters, scene changes, and on-screen text that are important and are not described or spoken in the main sound track
 2. If any of the above fails, check if there is an alternate version provided, per *G8: Providing a movie with extended audio descriptions*
