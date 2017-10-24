@@ -12,14 +12,12 @@ Video and audio description must be manually inspected to determine conformance.
 
 ## Accessibility Requirements
 * WCAG2: 1.2.5 Audio Description (Prerecorded)
-   *selector? test for these down below * G78: Providing a second, user-selectable, audio track that includes audio descriptions
-    * G8: Providing a movie with extended audio descriptions using one of the following:
 
 ## Tools Necessary
 * Visual and audio inspection
     
 ## Limitations, Assumptions, or Exceptions
-* Limitations: ...
+* Limitations: N/A
 * Exceptions: 
     * media that is a media alternative for text and is clearly labeled as such (1.2.3)
 
@@ -39,7 +37,7 @@ Rendered video
 
 #### Tests for SC 1.2.5
 1. For each video segment that requires audio description, check that
-   1. there is audio description provided. This may be on a user-selectable, audio track that includes audio descriptions, per 
+   1. there is audio description provided. This may be on a user-selectable, audio track that includes audio descriptions, per
       * G78: providing a second, user-selectable, audio track that includes audio descriptions
    1. the audio description is time-synchronized with the video
    1. the audio description provides sufficient information about actions, characters, scene changes, and on-screen text that are important and are not described or spoken in the main sound track
