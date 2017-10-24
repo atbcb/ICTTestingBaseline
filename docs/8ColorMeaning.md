@@ -36,4 +36,4 @@ Identify any instances where color conveys meaning, indicates an action, prompts
 
 ## Advisory: Tips for streamlined test processes
 * When color is used to communicate data sets (e.g., Geographic Information System application, or pie chart), additional guidance may be necessary on testing for equivalent facilitation. Related tests might include multi-state components, images, links, and Alternate pages. Data tables related to the charts may also be suggested means of augmenting the standard interface.
-* For Web testing, the WAF Greyscale favelet may face limitations depending on the webpage in questions. It may be necessary to conduct a manual inspection, e.g., printing a screen capture on a black and white printer.
+* For Web testing, the WAF Greyscale favelet may face limitations depending on the webpage in question. It may be necessary to conduct a manual inspection, e.g., printing a screen capture on a black and white printer.
