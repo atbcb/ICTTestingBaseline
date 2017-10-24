@@ -13,8 +13,8 @@ Flashing can be caused by the display, the computer rendering the image or by th
 
 ## Tools Necessary
 * Visual inspection
-* The PITS (Pie in the Sky) Flash Area favelet
-* The PITS Flashing favelet
+* The PITS (Pie in the Sky) Flash Area favelet (displays the "small safe area" for specified display sizes)
+* The PITS Flashing favelet (marks up elements with flicker frequency information)
     
 ## Limitations, Assumptions, or Exceptions
 * Limitations:  This test does not consider the actual flicker rate resulting from the computer or hardware.
@@ -28,13 +28,15 @@ Rendered web page
 
 ## Test Procedure
 ### Selector (Identify Content)
-1. Find interface components that flicker.
-2. Run the PITS Flashing favelet to identify elements that have 
+1. Visually identify interface components that flicker.
 
 ### Test Instructions
 
 #### Tests for SC 2.3.1
-1. For each 
+1. For each element visually identified as flickering, 
+determine if the specified frequency is 
+2. Run the PITS Flashing favelet to identify elements that have frequency markup.
+
 
 ##### Test Results SC 2.3.1
 * If both tests for SC 2.3.1 fail, then the content is not conformant to SC 2.3.1
