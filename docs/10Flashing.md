@@ -1,6 +1,6 @@
 # 10. Flashing
 
-**So i had started on this hoping we could still check for "small safe area", but G19 reminds us some users may use screen magnifiers, so we would still need to check flashing frequency. Is this a showstopper or do we continue on this?
+**So i had started on this hoping we could still check for "small safe area", but G19 reminds us some users may use screen magnifiers, so we would still need to check flashing frequency. Is this a showstopper or do we continue on this?**
 
 ## Requirement Rationale
 The intent of this Success Criterion is to allow users to access the full content of a site without inducing seizures due to photosensitivity. 
