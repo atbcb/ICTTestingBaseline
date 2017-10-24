@@ -1,5 +1,7 @@
 # 10. Flashing
 
+**So i had started on this hoping we could still check for "small safe area", but G19 reminds us some users may use screen magnifiers, so we would still need to check flashing frequency. Is this a showstopper or do we continue on this?
+
 ## Requirement Rationale
 The intent of this Success Criterion is to allow users to access the full content of a site without inducing seizures due to photosensitivity. 
 
@@ -33,10 +35,8 @@ Rendered web page
 ### Test Instructions
 
 #### Tests for SC 2.3.1
-1. For each element visually identified as flickering, 
-determine if the specified frequency is 
-2. Run the PITS Flashing favelet to identify elements that have frequency markup.
-
+1. For each element visually identified as flickering, run the PITS Flash Area favelet to display a "safe area" overlay based on the specified display size. Determine if the flashing element falls within that area. If so, it is conformant. **what about screen magnifiers**
+1. Run the PITS Flashing favelet to identify elements that have frequency markup and reveal their programmatic frequency, and whether it is conformant (below 3 Hz). 
 
 ##### Test Results SC 2.3.1
 * If both tests for SC 2.3.1 fail, then the content is not conformant to SC 2.3.1
