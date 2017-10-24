@@ -1,19 +1,21 @@
 # 10. Flashing
 
 ## Requirement Rationale
-The intent of this Success Criterion is to allow users to access the full content of a site without inducing seizures due to photosensitivity. Flashing can be caused by the display, the computer rendering the image or by the content being rendered. The author has no control of the first two. They can be addressed by the design and speed of the display and computer. The intent of this criterion is to ensure that flicker that violates the flash thresholds is not caused by the content itself.
+The intent of this Success Criterion is to allow users to access the full content of a site without inducing seizures due to photosensitivity. 
 
 ## Test Method Rationale
-Video and audio description must be manually inspected to determine conformance.
+Flashing can be caused by the display, the computer rendering the image or by the content being rendered. As the author has no control of the first two, this test addresses the content itself. Furthermore, as there is no reliable, freely or widely available solution for determining the resulting flicker frequency, this test focuses on 
+* determining the flicker rate from programmatically available information, and 
+* determining if any flashing element is within the "small safe area" per *ST G176 - Keeping the flashing area small enough*.
 
 ## Accessibility Requirements
-* WCAG2: 1.2.5 Audio Description (Prerecorded)
+* WCAG2: 2.3.1 Three Flashes or Below Threshold
 
 ## Tools Necessary
-* Visual and audio inspection
+* Visual inspection and use of PITS (Pie in the Sky) Flash Area favelet
     
 ## Limitations, Assumptions, or Exceptions
-* Limitations: N/A
+* Limitations:  This test does not consider the 
 * Exceptions: 
     * media that is a media alternative for text and is clearly labeled as such (1.2.3)
 
