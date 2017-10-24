@@ -10,12 +10,14 @@ For more information on the baseline tests and links to published streamlined te
 <http://www.dhs.gov/compliance-test-processes>
 
 For questions or to provide feedback, contact the DHS Accessibility Helpdesk at:
+
 <accessibility@dhs.gov> | <http://accessibility.dhs.gov>
+
 202-447-0440 (Voice)
+
 202-447-5857 (TTY)
 
 # Contents:
-
 Document status, review comments, and feedback
 
 [Introduction](introduction.md)
