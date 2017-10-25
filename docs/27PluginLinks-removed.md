@@ -1,4 +1,4 @@
-# 27. Plug-in Links
+# 27. Plug-in Links - REMOVED, no WCAG requirement
 
 ## Requirement Rationale
 ...
