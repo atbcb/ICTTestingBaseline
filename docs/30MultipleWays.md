@@ -4,7 +4,7 @@
 Allow users to locate content in a manner that best meets their needs. Users may find one technique easier or more comprehensible to use than another. Common mechanisms are site maps, site search, tables of contents, and/or navigation menus or links between pages.
 
 ## Test Method Rationale
-...
+N/A
 
 ## Accessibility Requirements
 * WCAG SC 2.4.5 Multiple Ways: More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.
@@ -14,7 +14,7 @@ Allow users to locate content in a manner that best meets their needs. Users may
     
 ## Limitations, Assumptions, or Exceptions
 * Limitations: N/A
-* Exceptions: N/A
+* Exceptions: web pages that are the result of, or a step in, a process.
 
 #### Accessibility Support
 N/A
@@ -24,16 +24,21 @@ Rendered web page
 
 ## Test Procedure
 ### Selector (Identify Content)
-1. Visually check for interface components that provide multiple ways of accessing a site's pages.
+1. Web pages that are not the result of, or a step in, a process.
 
 ### Test Instructions
 
-#### Tests for SC ...
-1. For each element visually identified as ...
-1. 
+#### Tests for SC 2.4.5
+1. Visually check for interface components that provide more than one way of accessing the site's other pages. These may include (but are not limited to) elements such as
+   * site maps
+   * site search
+   * tables of contents
+   * navigation menus or dropdowns
+   * navigation trees
+   * links between pages
 
-##### Test Results SC ...
-* If both tests for SC ... fail, then the content is not conformant to SC ...
+##### Test Results SC 2.4.5
+* If the test for 2.4.5 fails, then the content is not conformant to SC 2.4.5.
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
