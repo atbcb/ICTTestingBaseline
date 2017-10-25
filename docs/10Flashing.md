@@ -1,5 +1,7 @@
 # 10. Flashing
 
+**Note: on re-reading the standard, it looks like the next two tests are not needed unless we want to meet level AAA**
+
 ## Requirement Rationale
 The intent of this Success Criterion is to allow users to access the full content of a site without inducing seizures due to photosensitivity. 
 
