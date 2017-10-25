@@ -47,7 +47,7 @@ Identify the default language of the page by reviewing the page content. Note an
         1. In the “Look up” section, enter the language abbreviation revealed in this test. 
 
 ##### Test Results for SC 3.1.2
-* If the test for 3.1.2 fails, the content is not conformant to SC 3.1.2. << is this really necessary?
+* If the test for 3.1.2 fails, the content is not conformant to SC 3.1.2.
 
 ## Baseline Requirement Outcome
-* If no content fails, then the content passes the Baseline Requirement << is this really necessary?
+* If no content fails, then the content passes the Baseline Requirement
