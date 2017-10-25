@@ -38,6 +38,7 @@ Rendered web page
 
 #### Tests for SC 2.3.1
 1. For each element visually identified as flickering, run the PITS Flash Area favelet to display a "safe area" overlay based on the specified display size. Determine if the flashing element falls within that area. If so, it is conformant *for users who are not enlarging the area by using screen magnifiers.*
+**Note: on re-reading the standard, it looks like the next two tests are not needed unless we want to meet level AAA**
 1. For each element visually identified as flickering, run the PITS Flashing favelet to identify elements that have frequency markup.
    1. If the favelet marks up the element to show its programmatic frequency, check whether it is conformant (below 3 Hz). If it is, it is *conformant for all users.*
    1. If the favelet does not mark up the element to show its programmatic frequency, run the Flashing Timer favelet.
