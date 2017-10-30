@@ -9,7 +9,7 @@ A Web page must have a programmatic title that identifies the Web page and makes
   * F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents
 
 ## Limitations, Assumptions, Exceptions
- * Assumption: Browsers render the title in the browser's tab for the page.
+ * Assumption: Browsers render the title of the page in the browser's tab.
 
 ## Test Procedure 
 ### Selector
