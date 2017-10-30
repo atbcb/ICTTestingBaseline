@@ -14,12 +14,8 @@ Headings must be programmatically determinable. Headings levels must be programm
     * Technique G130: Providing descriptive headings 
 * WCAG2: 4.1.1 Parsing 
     * Technique H88: Using HTML according to spec (VALID CODE Requirement related to use of `<h1>` in combination with role="heading" and aria-level="#")
-
-## Tools Necessary
-* *Headings* favelet - used to reveal headings markup
-    
+   
 ## Limitations, Assumptions, or Exceptions
-* Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
 * Exception: A page with only one heading on the page does not have a heading level structure and would not be tested for heading structure.
 
 ## Test Procedure
@@ -34,11 +30,10 @@ Identify the headings and non-headings of the page by visual inspection of the p
 * If the test for SC 2.4.6 fails, then the content is not conformant to SC 2.4.6
 
 #### Tests for SC 1.3.1 and 4.1.1
-Execute the ‘Headings’ favelet to reveal the headings markup.
+
 ##### Tests for SC 1.3.1:
-1. Review the markup inserted on the page.
-   1. Check that each element marked as a programmatic heading is a visual heading.
-   1. For each visual heading, check that each heading is determined programmatically AND that heading levels are logical and in sequential order. 
+1. Check that each element marked as a programmatic heading (via HTML (H1 to H6), aria role="heading") is a visual heading for the content. Content that is not a visual heading should not have heading markup.
+1. Check that each visual heading is identified programmatically as a heading AND that heading levels are logical for the content. 
       1. The most important heading should have the level of 1, and the least important heading should have a level of 6. 
       1. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. 
       1. Either of these techniques is acceptable for each heading:
