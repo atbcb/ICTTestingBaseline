@@ -65,15 +65,15 @@ Attachment C - Baseline Test Report Checklists
 * Version 3.0, September 2017
 
 # Contents: The Baseline Tests (\#1 - \#28)
-1. [Keyboard navigation](1KeyboardNavigation.md)
-2. [Focus (visible)](2FocusVisible.md)
-3. [Focus (order)](3FocusOrder.md)
-4. [Focus (Revealing hidden content)](4FocusHidden.md)
-5. [Repetitive Content](5RepetitiveContent.md)
+1. [Keyboard navigation](01KeyboardNavigation.md)
+2. [Focus (visible)](02FocusVisible.md)
+3. [Focus (order)](03FocusOrder.md)
+4. [Focus (Revealing hidden content)](04FocusHidden.md)
+5. [Repetitive Content](05RepetitiveContent.md)
 6. Multi-state components
 7. Images
-8. [Color (meaning)](8ColorMeaning.md)
-9. [Color (contrast)](9ColorContrast.md)
+8. [Color (meaning)](08ColorMeaning.md)
+9. [Color (contrast)](09ColorContrast.md)
 10. *Flashing (reserved)*
 11. Forms (associated instructions)
 12. [Page Titles](12PageTitles.md)
