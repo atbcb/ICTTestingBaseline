@@ -25,4 +25,4 @@ All web pages
 * If the test for 2.4.2 fails, then the page is not conformant to SC 2.4.2
 
 # Baseline Requirement Outcome
-* If the title does not fail, then the page passes the Baseline Requirement
+* If the page title does not fail, then the page passes the Baseline Requirement
