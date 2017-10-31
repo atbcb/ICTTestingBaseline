@@ -4,30 +4,17 @@
 The intent of this Success Criterion is to allow users to access the full content of a site without inducing seizures due to photosensitivity. 
 
 ## Test Method Rationale
-Flashing can be caused by the display, the computer rendering the image or by the content being rendered. As the author has no control of the first two, this test addresses the content itself. Furthermore, as there is no reliable, freely or widely available solution for determining the resulting flicker frequency, this test focuses on 
+Flashing can be caused by the display, the computer rendering the image or by the content being rendered. As the author has no control of the first two, this test addresses the content itself. Furthermore, as there is no reliable, freely or widely available solution for determining the resulting flicker frequency, this test focuses on: 
 * determining the flicker rate from programmatically available information, and 
-* determining if any flashing element is within the "small safe area" per *ST G176 - Keeping the flashing area small enough*.
+* determining if any flashing element is within the "small safe area" -- smaller than a contiguous area of 21,824 sq pixels.
 
 ## Accessibility Requirements
 * WCAG2: 2.3.1 Three Flashes or Below Threshold
 * WCAG2: 2.3.2 Three Flashes
-
-## Tools Necessary
-* Visual inspection
-* The PITS (Pie in the Sky) Flash Area favelet (displays the "small safe area" for specified display sizes)
-* The PITS Flashing favelet (marks up elements with flicker frequency information)
-    
+   
 ## Limitations, Assumptions, or Exceptions. 
-* Limitations:
-   * The Flash Area favelet allows evaluation of the "small safe area" for typical display size and distance.
-   * The Flashing favelet test does not consider the actual flicker rate resulting from the computer or hardware.
+* There is no known method to test the flicker rate resulting from the computer or hardware.
 * Exceptions: N/A
-
-#### Accessibility Support
-N/A
-
-#### Test Subject Types 
-Rendered web page
 
 ## Test Procedure
 ### Selector (Identify Content)
@@ -36,14 +23,18 @@ Rendered web page
 ### Test Instructions
 
 #### Tests for SC 2.3.1
-1. For each element visually identified as flickering, run the PITS Flash Area favelet to display a "safe area" overlay based on the specified display size. Determine if the flashing element falls within that area. 
-   * If so, this test passes and the element is conformant *for users who are not enlarging the area by using screen magnifiers.* 
-   * If not, this test fails.
-1. For each element visually identified as flickering, run the PITS Flashing favelet to identify elements that have frequency markup.
-   1. If the favelet marks up the element to show its programmatic frequency, check whether it is conformant (below 3 Hz). 
-      * If it is, this test passes and the element is *conformant for all users.*
-      * If it is not, this test fails.
-      * If the favelet does not mark up the element to show its programmatic frequency, the result of this test are indeterminate.
+<ol>
+<li> For each element visually identified as flickering, determine if the contiguous flicker area is less than 21,824 sq pixels.</li>
+   <ul>
+   <li> If so, proceed to the next text step. </li>
+   <li> If not, this test fails. </li>
+   </ul>
+ <li> 2. Determine if the flickering element has been programmatic set to a frequency below 3 Hz. </li>
+    <ul>
+    <li> If it is, this test passes and the element is *conformant for all users.*</li>
+    <li> If it is not, this test fails. </li>
+    </ul>
+ </ol>
 
 ##### Test Results SC 2.3.1
 * If both tests pass, then the content is conformant to SC 2.3.1.
