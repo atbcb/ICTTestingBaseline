@@ -12,16 +12,33 @@ The visual presentation of text and images of text has a contrast ratio of at le
 * Incidental: Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
 * Logotypes: Text that is part of a logo or brand name has no minimum contrast requirement.
 
-## Tools Necessary
-* (PLACEHOLDER) - Tool to determine text size (TBD)
-* [Color Contrast Analyzer](https://www.dhs.gov/publication/web-accessibility-toolbar) (included as part of the Web Accessibility Toolbar or as a stand-alone tool)
-
 ## Limitations, Assumptions, or Exceptions
 * While text contained in logos rendered as images is exempt from this requirement, the image must still provide alternative text (e.g., via an `alt` attribute).
-* The thresholds in the Color Contrast Analyzer are based on the WCAG 2 minimum contrast ratio of 4.5:1. WCAG 2.0 recommends a lower threshold of 3:1 for 'large scale' text (18 point or 14 point bold). Although the Colour Contrast Analyser has a pass/fail indicator for large text, it does not determine the size of the text being tested. It is acceptable to allow a 3:1 ratio for larger text so long as the test includes a reliable mechanism for determining the font's point size.
-* If using a dual-monitor setup, the Color Contrast Analyzer requires both the tool and the window under test to be displayed on the primary monitor.
+* When the contrast ratio of text to background is less than 4.5:1 but at least 3.1, the size of the text needs to be examined to determine if it meets the WCAG 2.0 definition of 'large scale' text (18 point or 14 point bold). 
+* There are avariety of color contrast tools that can perform the algorithms necessary to determine the contrast. See http://www.w3.org/TR/WCAG20-TECHS/G18.html for possible testing tools which use an appropriate algorithm.
 
 ## Test Procedure
+The luminance of the foreground and background and their contrast ratio should be determined using the WCAG algorithms.
+
+***Luminance formula***
+
+L = 0.2126 * __R__ + 0.7152 * __G__ + 0.0722 * __B__
+
+The __R__, __G__ and __B__ are defined as:
+* if R sRGB <= 0.03928 then __R__ = R sRGB/12.92, else __R__ = ((R sRGB +0.055)/1.055) ^ 2.4
+* if G sRGB <= 0.03928 then __G__ = G sRGB/12.92, else __G__ = ((G sRGB +0.055)/1.055) ^ 2.4
+* if B sRGB <= 0.03928 then __B__ = B sRGB/12.92, else __B__ = ((B sRGB +0.055)/1.055) ^ 2.4
+
+The "^" character is the exponentiation operator, and R sRGB,G sRGB, and B sRGB are defined as:
+* R sRGB = R 8bit /255
+* G sRGB = G 8bit /255
+* B sRGB = B 8bit /255
+
+***Contrast Ratio formula***
+(L1 + 0.05) / (L2 + 0.05)
+* L1 is the relative luminance of the lighter of the foreground or background colors
+* L2 is the relative luminance of the darker of the foreground or background colors
+
 ### Selector (Identify Content)
 Select all text AND images of text that meet the following criteria:
 * The text or image of text is NOT part of an inactive user interface component
@@ -31,17 +48,19 @@ Select all text AND images of text that meet the following criteria:
 * The  text or image of text is NOT part of a logo or brand name
 
 ### Test Instructions
+
 #### Tests for 1.4.3
-Using the Color Contrast Analyzer, identify text color, background color, and contrast ratio between text and background
-1. Use the (PLACEHOLDER - FONT SIZE TOOL) to determine the font size
-1. If the rendered font size is:
-    1. At least 18 point (23.94 pixels) (PLACEHOLDER - Use text size tool to determine font size); OR
-    1. At least 14 point (18.62 pixels) AND bold (at least 700 font weight)
-        1. Check that contrast ratio is AT LEAST 3:1
-1. If the rendered font size is:
-    1. Less than 14 point (18.62 pixels); OR
-    1. Less than 18 point (23.94 pixels) AND the text is non-bold (less than 700 font weight)
-        1. Check that contrast ratio is AT LEAST 4.5:1
+Use the WCAG algorithm or a color contrast analyzer tool that does so to:
+<ol>
+<li> Measure the relative luminance of each letter (unless they are all uniform).</li>
+<li> Measure the relative luminance of the background pixels immediately next to the letter using same formula.</li>
+<li> Calculate the contrast ratio. If the contrast ratio is less than 4.5:1 but at least 3:1, continue to the next step.</li>
+<li> Calculate if the font size meets one of the following criteria:
+<ol> 
+<li> At least 18 point (23.94 pixels)</li> 
+<li> At least 14 point (18.62 pixels) AND bold (at least 700 font weight)</li>
+</ol>
+</ol> 
 
 ##### Test Results for 1.4.3
 If the tests for SC 1.4.3 fails, then the content is not conformant to SC 1.4.3
@@ -50,5 +69,5 @@ If the tests for SC 1.4.3 fails, then the content is not conformant to SC 1.4.3
 * If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
-* Instructions for testing of text contrast changes, due to mouse hover and status, can be incorporated into streamlined tests
-* The Color Contrast Analyzer is not specific to web content only. The tool can be used for software inspection in any window.
+* Testing of text contrast changes includes changes due to mouse hover and selection status.
+* The color contrast requirment is not specific to web content only, but includes software inspection in any window.
