@@ -17,30 +17,31 @@ The default language for each page must be programmatically identified. Passages
 
 ## Test Procedures for SC 3.1.1
 ### Selector (Identify Content)  
-All Web pages
+Web page
 
 ### Test Instructions
-1. Check that the `<lang>` attribute is provided for the HTML `<html>` tag the page (H57). 
+1. Check that the `<lang>` attribute is defined on the `<html>` tag for page (H57). 
 1. Identify the default language of the page by reviewing the page content. 
 1. Check that the primary language subtag is correctly defined for the page.
     1. The primary language subtag is the first 2 or 3 character code in the value of the `<lang>` attribute. (Do not test additional language specifications that may follow the primary language subtag.)
     1. The value of the `<lang>` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).  
 
 #### Test Results
-* If all checks do not pass, the content is not conformant to SC 3.1.1.
+* If any check fails, the content is not conformant to SC 3.1.1.
 
 ## Test Procedures for SC 3.1.2
 ### Selector (Identify Content)  
-Any Web content that differs from the default language of the page
+Content that differs from the default language of the page
 
 ### Test Instructions
-1. Check that the `<lang>` attribute is specified for any HTML element that contains content that differs from the default language of the page (H58).
-1. Check that the primary language subtag is correctly defined for the passage. 
+1. Check that the `<lang>` attribute is specified for any HTML element that contains content that differs from the default language of the page (H58). An element without a set language inherits its language attribute from parent elements.
+1. Identify the language of the content.
+1. Check that the primary language subtag is correctly defined for the content. 
     1. The primary language subtag is the first 2 or 3 character code in the value of the `<lang>` attribute. (Do not test additional language specifications that may follow the primary language subtag.)
     1. The value of the `<lang>` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry). 
 
 #### Test Results
-* If all checks do not pass, the content is not conformant to SC 3.1.2.
+* If any check fails, the content is not conformant to SC 3.1.2.
 
 ## Baseline Requirement Outcome
-* This Baseline Requirement fails if SC 3.1.1 or SC 3.1.2 does not pass.
+* This Baseline Requirement fails if either SC 3.1.1 or SC 3.1.2 is not conformant.
