@@ -29,7 +29,7 @@ Flashing can be caused by the display, the computer rendering the image or by th
    <li> If so, proceed to the next text step. </li>
    <li> If not, this test fails. </li>
    </ul>
- <li> 2. Determine if the flickering element has been programmatic set to a frequency below 3 Hz. </li>
+ <li> Determine if the flickering element has been programmatic set to a frequency below 3 Hz. </li>
     <ul>
     <li> If it is, this test passes and the element is *conformant for all users.*</li>
     <li> If it is not, this test fails. </li>
