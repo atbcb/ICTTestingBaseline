@@ -16,7 +16,7 @@ Important information must not be provided through CSS
 Meaningful background images rendered by CSS
 
 ### Test Instructions
-1. Check that equivalent information from meaningful background images is available without the CSS background image
+1. Check that equivalent information provided by meaningful background images is available without the CSS background image
 1. Check that the equivalent information meets the following criteria:
     1. Presents the same information as the meaningful background image
     1. Is able to substitute for the meaningful background image
@@ -29,7 +29,7 @@ Meaningful background images rendered by CSS
 Meaningful page content inserted by CSS using `:before` or `:after`
 
 ### Test Instructions
-1. Check that equivalent information from meaningful CSS content is available without the CSS content
+1. Check that equivalent information provided by meaningful CSS content is available without the CSS content
 1. Check that the equivalent information meets the following criteria:
     1. Presents the same information as the meaningful CSS content
     1. Is able to substitute for the meaningful CSS content
@@ -39,15 +39,13 @@ Meaningful page content inserted by CSS using `:before` or `:after`
 
 ## Test Procedure for SC 1.3.2
 ### Selector (Identify Content)
-Identify content that is positioned absolute with CSS.
-1. Use the new favelet: CSS absolute position.
-    - Choose to only highlight the absolute position content or highlight and remove the absolute position property.
+Content positioned with CSS `position: absolute`
 
-#### Test Instructions
-##### Tests for SC 1.3.2:
-1. Check that the content meaning does not rely on CSS positioning.
-2. Check that the reading order of the content is correct if the absolute position property is removed.
-3. Check that the meaning of the content is preserved if the absolute position property is removed.
+### Test Instructions
+
+1. Check that the content meaning (in context) does not rely on CSS positioning.
+2. Check that the reading order of the content (in context) is correct without the absolute position property.
+3. Check that the meaning of the content (in context) is preserved without the absolute position property.
 
 ##### Test Results for SC 1.3.2
 - If any of the above checks fail, then this SC fails.
