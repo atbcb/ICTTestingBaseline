@@ -27,7 +27,7 @@ Identify the headings and non-headings of the page by visual inspection of the p
 #### Tests for SC 2.4.6
 1. For each content element identified visually as a heading, check that each heading describes its section of the content (G130). Descriptive headings identify sections of the content in relation both to the Web page as a whole and to other sections of the same Web page. Descriptive headings also help users find specific content and orient themselves within the Web page.
 ##### Test Results SC 2.4.6
-* If the test for SC 2.4.6 fails, then the content is not conformant to SC 2.4.6
+* If any of the above checks fail, then the content fails this SC
 
 #### Tests for SC 1.3.1 and 4.1.1
 
@@ -40,12 +40,12 @@ Identify the headings and non-headings of the page by visual inspection of the p
             * H42: each heading is marked with `<h1>` to `<h6>`.
             * ARIA12: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required. For multiple heading levels, 'aria-level' must be specified.
 ###### Test Results for SC 1.3.1
-* If any test for SC 1.3.1 fails, then the content is not conformant to SC 1.3.1
+* If any of the above checks fail, then the content fails this SC
 
 ##### Tests for SC 4.1.1
 1. Check that each programmatic heading uses EITHER the HTML heading technique H42 `<h1>` to `<h6>` OR the ARIA12 technique `<role="heading" aria-level="#">`. A heading cannot use both techniques per [W3C specification ARIA in HTML](http://w3c.github.io/html-aria/#docconformance).
 ###### Test Results for SC 4.1.1
-* If the test for SC 4.1.1 fails, then the content is not conformant to SC 4.1.1
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
