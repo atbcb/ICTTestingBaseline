@@ -11,37 +11,33 @@ Important information must not be provided through CSS
   - Failure [F1](https://www.w3.org/TR/WCAG20-TECHS/F1.html): Changing the meaning of content by positioning information with CSS
   - Sufficient Technique [G57](https://www.w3.org/TR/WCAG20-TECHS/G57.html): Ordering the content in a meaningful sequence
 
-## Tools Necessary
-- CSS background images favelet – outline/hide images inserted with CSS
-- CSS inserted content – highlight content inserted with CSS
-- CSS absolute position – highlight/reposition content with CSS absolute positioning
-
-## Test Procedure
+## Test Procedure for 1.1.1
 ### Selector (Identify Content)
-Identify meaningful background images rendered by CSS:
-1. Use new favelet: CSS Background images.
-    - Choose to only outline the background image or outline and remove the background image.
-2. Determine if background image conveys information and is meaningful.
+Meaningful background images rendered by CSS
 
-#### Test Instructions
-##### Tests for SC 1.1.1:
-1. Check that information from meaningful background images is available when the CSS background image is not displayed.
+### Test Instructions
+1. Check that equivalent information from meaningful background images is available when the CSS background image is not displayed.
+1. Check that the equivalent information meets the following criteria:
+    1. Presents the same information as the meaningful background image
+    1. Is able to substitute for the meaningful background image
 
-##### Test Results for SC 1.1.1
-- If any test for SC 1.1.1 fails, then the content is not conformant to SC 1.1.1.
+#### Test Results
+- If any check for SC 1.1.1 fails, then the content is not conformant to SC 1.1.1.
 
+## Test Procedure for 1.3.1
 ### Selector (Identify Content)
-Identify meaningful page content inserted by CSS:
-1. Use new favelet: CSS inserted content
-2. Determine if content inserted by CSS is meaningful.
+Meaningful page content inserted by CSS
 
-#### Test Instructions
-##### Tests for SC 1.3.1:
-1. Check that information from meaningful CSS content is available without CSS.
+### Test Instructions
+1. Check that equivalent information from meaningful CSS content is available without CSS content is not displayed
+1. Check that the equivalent information meets the following criteria:
+    1. Presents the same information as the meaningful CSS content
+    1. Is able to substitute for the meaningful CSS content
 
-##### Test Results for SC 1.3.1
+#### Test Results
 - If any test for SC 1.3.1 fails, then the content is not conformant to SC 1.3.1.
 
+## Test Procedure for 1.3.1
 ### Selector (Identify Content)
 Identify content that is positioned absolute with CSS.
 1. Use the new favelet: CSS absolute position.
