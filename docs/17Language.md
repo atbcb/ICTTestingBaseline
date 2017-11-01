@@ -2,20 +2,16 @@
 ## Rationale
 The default language for each page must be programmatically identified. Passages that use a language other than the default must be programmatically identified.
 
-### Test Rationale
-
-### Test Method Rationale
-
-#### Accessibility Requirements
-* WCAG2: 3.1.1: Language of Page
-    * Technique H57: Using language attributes on the html element
-* WCAG2: 3.1.2: Language of Parts
-    * Technique H58: Using language attributes to identify changes in the human language
+## Accessibility Requirements
+* WCAG2 SC: 3.1.1 Language of Page
+    * Technique [H57](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H57.html): Using language attributes on the html element
+* WCAG2 SC: 3.1.2 Language of Parts
+    * Technique [H58](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H58.html): Using language attributes to identify changes in the human language
 
 ## Limitations, Assumptions or Exceptions
 *	Exception: Proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text are not covered by the Language of Parts
 
-## Test Procedures for SC 3.1.1
+## Test Procedure for SC 3.1.1
 ### Selector (Identify Content)  
 Web page
 
@@ -27,9 +23,9 @@ Web page
     1. The value of the `<lang>` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).  
 
 #### Test Results
-* If any check fails, the content is not conformant to SC 3.1.1.
+* If any of the above checks fail, this SC fails.
 
-## Test Procedures for SC 3.1.2
+## Test Procedure for SC 3.1.2
 ### Selector (Identify Content)  
 Content that differs from the default language of the page
 
@@ -41,7 +37,7 @@ Content that differs from the default language of the page
     1. The value of the `<lang>` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry). 
 
 #### Test Results
-* If any check fails, the content is not conformant to SC 3.1.2.
+* If any of the above checks fail, this SC fails.
 
 ## Baseline Requirement Outcome
-* This Baseline Requirement fails if either SC 3.1.1 or SC 3.1.2 is not conformant.
+* If any SC fails, this baseline fails.
