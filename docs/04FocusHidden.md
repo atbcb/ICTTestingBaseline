@@ -35,7 +35,7 @@ Select menus and dialogs revealed by trigger controls
     1. Check whether advancing the focus backwards in the sequential navigation order puts focus in the trigger control.
 
 #### Test Results
-* If the tests fail, then the content is not conformant to SC 1.3.2, 2.1.1 and 2.4.3
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Test Outcome
 * If no content fails, then the content passes the Baseline Requirement
