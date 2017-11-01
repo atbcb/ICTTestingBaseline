@@ -93,5 +93,4 @@ Attachment C - Baseline Test Report Checklists
 26. Image maps
 27. *Plug-in Links -- **removed***
 28. Built-in accessibility features
-
 30. [Multiple Ways](30MultipleWays.md)
