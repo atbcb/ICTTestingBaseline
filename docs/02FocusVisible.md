@@ -26,7 +26,7 @@ Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys
 1. When navigating via keyboard, check that the interface component provides a visible indication of focus when focus is on the  component.
 
 #### Test Results for SC 2.4.7
-If any test for SC 2.4.7 fails, then the content is not conformant to SC 2.4.7
+If any of the above checks fail, then the content fails this SC
 
 ## Baseline Test Outcome
 If no content fails, then the content passes the Baseline Requirement
