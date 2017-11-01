@@ -44,7 +44,7 @@ Select visible and hidden interactive interface components (links, form fields, 
     2. If keyboard navigation and interaction REQUIRES specific timing, then check that the interface’s underlying function REQUIRES input that depends on the path of the user's movement (e.g., free-hand drawing; if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes).
 
 ##### Test Results for SC 2.1.1
-* If any test for SC 2.1.1 fails, then the content is not conformant to SC 2.1.1
+* If any of the above checks fail, then the content fails this SC
 
 #### Tests for SC 2.1.2
 Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. This test rule validates a keyboard-only user’s ability to move focus away from components. 
@@ -59,7 +59,7 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
         1. the user is advised, in an accessible manner, of available, non-standard keyboard commands necessary to navigate away from the interface component before the user encounters the the component. 
 
 ##### Test Results for SC 2.1.2
-* If any test for SC 2.1.2 fails, then the content is not conformant to SC 2.1.2
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
