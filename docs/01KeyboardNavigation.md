@@ -18,9 +18,6 @@ WCAG SC  2.1.1 Keyboard – All functionality of the content is operable through
 
 WCAG SC 2.1.2 No keyboard trap – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 
-## Tools Necessary
-Physical system keyboard and pointing device (e.g., mouse)
-
 ## Limitations, Assumptions, or Exceptions
 * Access must be via a physical keyboard. Specifically excluded from this test is the use of an on-screen keyboard, or using the Mouse-Keys feature in Windows.
 * At this time the baseline tests herein cover use of software and Web sites on PCs (i.e., desktops and laptops) that have a keyboard as a primary input device. Tablet PCs and software running on other portable devices are not addressed in the baseline tests.
