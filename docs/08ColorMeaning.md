@@ -25,11 +25,10 @@ Identify any instances where color conveys meaning, indicates an action, prompts
     2.  The element using color to convey meaning also provides alternate visual differentiation (e.g., shape, position, size) with clear indication of meaning that the visual differentiation denotes
 
 #### Test Results SC 1.4.1
-* If the test for SC 1.4.1 fails, then the content is not conformant to SC 1.4.1
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
 * When color is used to communicate data sets (e.g., Geographic Information System application, or pie chart), additional guidance may be necessary on testing for equivalent facilitation. Related tests might include multi-state components, images, links, and Alternate pages. Data tables related to the charts may also be suggested means of augmenting the standard interface.
-
