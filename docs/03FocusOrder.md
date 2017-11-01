@@ -22,7 +22,7 @@ Select interactive interface components (links, form fields, drop down menus, sh
 1. If the order of content presented visually affects understanding or function of the content, then check that the focus order when using a keyboard matches the same logical order as the order presented visually. 
 
 ##### Test Results for SC 2.4.3
-If any of the above checks fail, then the content fails this SC
+* If any of the above checks fail, then the content fails this SC
 
 #### Tests for SC 3.2.3
 1. Use the keyboard to navigate through interface components and content (including any hidden content). Identify content elements that repeat over multiple linked pages or screens.
@@ -30,7 +30,7 @@ If any of the above checks fail, then the content fails this SC
     1. Check that any change in the content order is only the result of a user-initiated change 
 
 ##### Test Results for 3.2.3
-If any of the above checks fail, then the content fails this SC
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
