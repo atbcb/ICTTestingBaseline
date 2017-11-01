@@ -14,9 +14,6 @@ Captions are provided for all audio content (dialogue and important sounds) in s
 * WCAG SC 1.2.4 Captions (Live) -- Captions are provided for all live audio content in synchronized media.
   * Technique G9: Creating captions for live synchronized media
 
-## Tools Necessary
-None -- tests require manual inspection
-
 ## Limitations, Assumptions, or Exceptions
 **Exceptions**: This is not intended to require that two-way multimedia calls between two or more individuals through web apps must be captioned regardless of the needs of users.
 
@@ -36,7 +33,7 @@ Identify synchronized multimedia (typically visual and audible content), both li
     3. Lower accuracy of captions for live broadcasts is acceptable due limitations of real-time captioning techniques.
 
 ##### Test Results for 1.2.2 and 1.2.4
-If any of the tests for 1.2.2 and 1.2.4 fail, then the content is not conformant to SC 1.2.1 and 1.2.4
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 If no content fails, then the content passes the Baseline Requirement
