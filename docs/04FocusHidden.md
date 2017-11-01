@@ -14,10 +14,7 @@ Content with interface components must be revealed in an accessible manner witho
 * WCAG SC 2.1.1 - Keyboard: All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
 * WCAG SC 1.3.2 - Meaningful Seqeuence: When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
 
-## Test Tools Necessary
-* Physical system keyboard
-
-#### Limitations, Assumptions, or Exceptions
+## Limitations, Assumptions, or Exceptions
 * Without exception, focus must shift to modal dialog boxes and remain within the dialog box until the box is closed by the user.
 * Flash and embedded Java content should be tested in IE to determine the accessibility of the coded content.
 * If using the keyboard reveals "tooltip" or Title information (e.g., through scripts), then it is not necessary to have that information on the page.
@@ -28,7 +25,7 @@ This test determines whether hidden menus or dialogs, when revealed, provides th
 ### Selector
 Select menus and dialogs revealed by trigger controls
 
-### Test Instructions
+### Tests for SC 1.3.2, 2.1.1 and 2.4.3
 1.	Using keyboard controls, move the focus to the control that reveals the menu or dialog; activate the control using the keyboard. 
 1. Determine whether focus is in the revealed content. It may be necessary to TAB once to find the focus. Continue to move through the revealed content using the keyboard.
     1. Check that focus is in the menu or dialog
