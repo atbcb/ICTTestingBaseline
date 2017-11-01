@@ -51,19 +51,16 @@ Select all text AND images of text that meet the following criteria:
 
 #### Tests for 1.4.3
 Use the WCAG algorithm or a color contrast analyzer tool that does so to:
-<ol>
-<li> Measure the relative luminance of each letter (unless they are all uniform).</li>
-<li> Measure the relative luminance of the background pixels immediately next to the letter using same formula.</li>
-<li> Calculate the contrast ratio. If the contrast ratio is less than 4.5:1 but at least 3:1, continue to the next step.</li>
-<li> Calculate if the font size meets one of the following criteria:
-<ol> 
-<li> At least 18 point (23.94 pixels)</li> 
-<li> At least 14 point (18.62 pixels) AND bold (at least 700 font weight)</li>
-</ol>
-</ol> 
+
+1. Measure the relative luminance of each letter (unless they are all uniform).
+2. Measure the relative luminance of the background pixels immediately next to the letter using same formula.
+3. Calculate the contrast ratio; check that the contrast ratio is at lease 4.5:1
+4. If the contrast ratio is less than 4.5:1, then check that it is at least 3:1 AND the font size meets one of the following criteria:
+    * At least 18 point (23.94 pixels)
+    * At least 14 point (18.62 pixels) AND bold (at least 700 font weight)
 
 ##### Test Results for 1.4.3
-If the tests for SC 1.4.3 fails, then the content is not conformant to SC 1.4.3
+If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
