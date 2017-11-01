@@ -51,7 +51,7 @@ Look for blocks of repeated content, such as navigation links, that should provi
 
 ### Results for SC 2.4.1 
 Selected blocks of repetitive content will either have a functioning method to skip that content or not.
-* If the test for SC 2.4.1 fails, then the content is not conformant to SC 2.4.1
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
