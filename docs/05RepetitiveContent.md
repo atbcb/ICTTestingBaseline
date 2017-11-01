@@ -24,9 +24,6 @@ WCAG SC 2.4.1 Bypass Blocks - A mechanism is available to bypass blocks of conte
 * WCAG SC 2.4.3 Focus Order
 * WCAG SC 3.2.3 Consistent Navigation
 
-## Tools Necessary
-Physical system keyboard
-
 ## Limitations, Assumptions, or Exceptions
 Access must be via a physical keyboard. Specifically excluded from this test is the use of an on-screen keyboard, or using the Mouse-Keys feature in Windows.
 
