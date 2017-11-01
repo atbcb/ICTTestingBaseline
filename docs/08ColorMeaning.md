@@ -10,12 +10,8 @@ This requirement does not mean that color cannot be used; it means that color ca
 
 ### Related Standards
 * WCAG SC 1.3.3 Sensory Characteristics 
-
-## Tools Necessary
-* Web Accessibility Favelets (WAF) - *Greyscale*
-    
+  
 ## Limitations, Assumptions, or Exceptions
-* Limitation: Testing tool capability to find HTML <H> and ARIA <role=heading> attribute(s) of the page
 * Exception: A page with only one heading on the page does not have a heading level structure and would not be tested
 
 ## Test Procedure
@@ -23,17 +19,16 @@ This requirement does not mean that color cannot be used; it means that color ca
 Identify any instances where color conveys meaning, indicates an action, prompts a response, or identifies errors
 
 ### Tests for SC 1.4.1
-1. After identifying instances where color conveys meaning, execute the *Greyscale* favelet
+1. After identifying instances where color conveys meaning, employ a tool that displays in greyscale or run a greyscale copy of the page on a printer
 2. Check that for any instance where color is used to convey meaning one or more of the following is true:
     1.  The element using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color
     2.  The element using color to convey meaning also provides alternate visual differentiation (e.g., shape, position, size) with clear indication of meaning that the visual differentiation denotes
 
 #### Test Results SC 1.4.1
-* If the test for SC 1.4.1 fails, then the content is not conformant to SC 1.4.1
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
 * When color is used to communicate data sets (e.g., Geographic Information System application, or pie chart), additional guidance may be necessary on testing for equivalent facilitation. Related tests might include multi-state components, images, links, and Alternate pages. Data tables related to the charts may also be suggested means of augmenting the standard interface.
-* For Web testing, the WAF Greyscale favelet may face limitations depending on the webpage in question. It may be necessary to conduct a manual inspection, e.g., printing a screen capture on a black and white printer.

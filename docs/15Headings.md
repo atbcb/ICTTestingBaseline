@@ -27,6 +27,7 @@ Visual Headings on the page
 #### Test Results
 * If any of the above tests fail, this SC fails
 
+
 ## Test Procedure for SC 1.3.1
 ### Selector (Identify Content)
 Visual headings and headings structure on the page. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.

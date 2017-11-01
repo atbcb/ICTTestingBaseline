@@ -22,7 +22,7 @@ All web pages
 1. Check if the Page Title identifies the contents or purpose of the Web page and can be used to distinguish pages within a site.
 
 #### Test Result for 2.4.2
-* If the test for 2.4.2 fails, then the page is not conformant to SC 2.4.2
+* If any of the above checks fail, then the content fails this SC
 
 # Baseline Requirement Outcome
 * If the page title does not fail, then the page passes the Baseline Requirement
