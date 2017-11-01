@@ -35,7 +35,7 @@ Identify the default language of the page by reviewing the page content. Note an
         1. In the “Look up” section, enter the language abbreviation that was revealed in this test. 
 
 ##### Test Results for SC 3.1.1
-* If the test for 3.1.1 fails, the content is not conformant to SC 3.1.1.
+* If any of the above checks fail, then the content fails this SC
 
 #### Tests for SC 3.1.2
 1. Check that the <lang> attribute is specified for any content or passage that differs from the default language of the page (H58)
@@ -47,7 +47,7 @@ Identify the default language of the page by reviewing the page content. Note an
         1. In the “Look up” section, enter the language abbreviation revealed in this test. 
 
 ##### Test Results for SC 3.1.2
-* If the test for 3.1.2 fails, the content is not conformant to SC 3.1.2.
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
