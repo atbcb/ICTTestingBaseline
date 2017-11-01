@@ -74,7 +74,7 @@ Attachment C - Baseline Test Report Checklists
 7. Images
 8. [Color (meaning)](08ColorMeaning.md)
 9. [Color (contrast)](09ColorContrast.md)
-10. *Flashing (reserved)*
+10. [Flashing](10Flashing.md)
 11. Forms (associated instructions)
 12. [Page Titles](12PageTitles.md)
 13. Data Tables (headers)
@@ -91,5 +91,7 @@ Attachment C - Baseline Test Report Checklists
 24. Alternate pages
 25. [Time outs](25Timeout.md)
 26. Image maps
-27. Plug-in Links
+27. *Plug-in Links -- **removed***
 28. Built-in accessibility features
+
+30. [Multiple Ways](30MultipleWays.md)
