@@ -16,7 +16,7 @@ Important information must not be provided through CSS
 Meaningful background images rendered by CSS
 
 ### Test Instructions
-1. Check that equivalent information from meaningful background images is available when the CSS background image is not displayed.
+1. Check that equivalent information from meaningful background images is available without the CSS background image
 1. Check that the equivalent information meets the following criteria:
     1. Presents the same information as the meaningful background image
     1. Is able to substitute for the meaningful background image
@@ -26,10 +26,10 @@ Meaningful background images rendered by CSS
 
 ## Test Procedure for SC 1.3.1
 ### Selector (Identify Content)
-Meaningful page content inserted by CSS
+Meaningful page content inserted by CSS using `:before` or `:after`
 
 ### Test Instructions
-1. Check that equivalent information from meaningful CSS content is available without CSS content is not displayed
+1. Check that equivalent information from meaningful CSS content is available without the CSS content
 1. Check that the equivalent information meets the following criteria:
     1. Presents the same information as the meaningful CSS content
     1. Is able to substitute for the meaningful CSS content
