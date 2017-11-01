@@ -15,7 +15,7 @@ The visual presentation of text and images of text has a contrast ratio of at le
 ## Limitations, Assumptions, or Exceptions
 * While text contained in logos rendered as images is exempt from this requirement, the image must still provide alternative text (e.g., via an `alt` attribute).
 * When the contrast ratio of text to background is less than 4.5:1 but at least 3.1, the size of the text needs to be examined to determine if it meets the WCAG 2.0 definition of 'large scale' text (18 point or 14 point bold). 
-* There are avariety of color contrast tools that can perform the algorithms necessary to determine the contrast. See http://www.w3.org/TR/WCAG20-TECHS/G18.html for possible testing tools which use an appropriate algorithm.
+* There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See http://www.w3.org/TR/WCAG20-TECHS/G18.html for possible testing tools which use an appropriate algorithm.
 
 ## Test Procedure
 The luminance of the foreground and background and their contrast ratio should be determined using the WCAG algorithms.
