@@ -1,5 +1,4 @@
 # 21. Synchronized Media (Descriptions)
-
 ## Requirement Rationale
 This Success Criterion may help some people who have difficulty watching video or other synchronized media content, including people who have difficulty perceiving or understanding moving images.
 
@@ -12,20 +11,11 @@ Video and audio description must be manually inspected to determine conformance.
 
 ## Accessibility Requirements
 * WCAG2: 1.2.5 Audio Description (Prerecorded)
-
-## Tools Necessary
-* Visual and audio inspection
-    
+   
 ## Limitations, Assumptions, or Exceptions
 * Limitations: N/A
 * Exceptions: 
     * media that is a media alternative for text and is clearly labeled as such (1.2.3)
-
-#### Accessibility Support
-* Requires an accessible video player
-
-#### Test Subject Types 
-Rendered video
 
 ## Test Procedure
 ### Selector (Identify Content)
@@ -34,7 +24,6 @@ Rendered video
 3. Play the content. Determine video segments where audio descriptions of relevant information are needed.
 
 ### Test Instructions
-
 #### Tests for SC 1.2.5
 1. For each video segment that requires audio description, check that
    1. there is audio description provided. This may be on a user-selectable, audio track that includes audio descriptions, per *G78: providing a second, user-selectable, audio track that includes audio descriptions*
@@ -48,7 +37,7 @@ Rendered video
       1. a clearly labelled, conformant means is provided to easily return to the primary event flow
 
 ##### Test Results SC 1.2.5
-* If both tests for SC 1.2.5 fail, then the content is not conformant to SC 1.2.5
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
