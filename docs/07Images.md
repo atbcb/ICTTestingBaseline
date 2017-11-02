@@ -8,9 +8,10 @@ Images must have a text alternative that serves the equivalent purpose.
   * Technique [ARIA10](https://www.w3.org/TR/WCAG20-TECHS/ARIA10.html): Using ariaG196: Using a text alternative on one item within a group of images that describes all items in the group-labelledby to provide a text alternative for non-text content
   * Technique [G196](https://www.w3.org/TR/WCAG20-TECHS/G196.html): Using a text alternative on one item within a group of images that describes all items in the group
   * Technique [H2](https://www.w3.org/TR/WCAG20-TECHS/H2.html): Combining adjacent image and text links for the same resource
-  * Technique [H35](https://www.w3.org/TR/WCAG20-TECHS/H35.html): Providing text alternatives on applet elements *refer to Software Baseline for testing the applet contents; support for JAVA is best in IE*
   * Technique [H37](https://www.w3.org/TR/WCAG20-TECHS/H37.html): Using alt attributes on img elements
-  * Technique [H53](https://www.w3.org/TR/WCAG20-TECHS/H53.html): Using the body of the object element *refer to Software Baseline for testing the object contents; support for Flash is best in IE*
+  (not really an image) * Technique [H53](https://www.w3.org/TR/WCAG20-TECHS/H53.html): Using the body of the object element *refer to Software Baseline for testing the object contents; support for Flash is best in IE*
+  (not really and image) * Technique [H35](https://www.w3.org/TR/WCAG20-TECHS/H35.html): Providing text alternatives on applet elements *refer to Software Baseline for testing the applet contents; support for JAVA is best in IE*
+
   * Technique [H86](https://www.w3.org/TR/WCAG20-TECHS/H86.html): Providing text alternatives for ASCII art, emoticons, and leetspeak
 * WCAG2 SC: 1.4.5 Images of Text
 
@@ -23,13 +24,25 @@ Images must have a text alternative that serves the equivalent purpose.
  
 ## Test Procedure 
 ### Selector
-Images
+Meaningful Images
 
 ### Test Instructions
-1. Review the accessible name and accessible description properties of the image.
- * Numerous attributes contribute to the computation of the accessible name and accessible description. 
- * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+1. Review the accessible name and accessible description properties of the meaningful image.
+  * Numerous attributes contribute to the computation of the accessible name and accessible description. 
+  * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
 2. Check that the combination of accessible name and accessible description provide an equivalent description and purpose.
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Selector
+Decorative Images
+
+### Test Instructions
+1. Review the accessible name and accessible description properties of the decorative image.
+  * Numerous attributes contribute to the computation of the accessible name and accessible description. 
+  * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+2. Check that the combination of accessible name and accessible description are empty.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
