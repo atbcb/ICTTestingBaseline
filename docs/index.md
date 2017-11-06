@@ -93,4 +93,8 @@ Attachment C - Baseline Test Report Checklists
 26. Image maps
 27. *Plug-in Links -- **removed***
 28. Built-in accessibility features
-30. [Multiple Ways](30MultipleWays.md)
+29. **PLACEHOLDER** -- Pause, Stop, Hide
+30. **PLACEHOLDER** -- [Multiple Ways](30MultipleWays.md)
+31. **PLACEHOLDER** -- [Context Changes](31Context.md)
+32. **PLACEHOLDER** -- Errors
+33. **PLACEHOLDER** -- Parsing
