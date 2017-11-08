@@ -17,33 +17,58 @@ Read-only (e.g. pre-filled) form fields are considered interactive, in that they
    1. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
    1. Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
 
-## Test Procedure
-
+## Tests for SC 1.3.1, 3.3.2
 ### Selector (Identify Content)
 1. Find all form input components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists (combo boxes).
 1. Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, error messages, error correction suggestions, etc. 
-1. Enter incorrect values in some input fields in order to trigger and evaluate error information.
 
 ### Test Instructions
-#### Tests for SC 1.3.1, 3.3.2
+1. Check that each form field/control is programmatically related to all its relevant instructions and cues (textual and graphical), including groupings, order of completion, special conditions or qualifiers, input formatting, etc. 
 
-##### Test Results for SC 
-* If any of the above checks fail, then the content fails this SC
+##### Test Results for SC 3.3.1, 3.3.2
+* If any of the above checks fail, then the content fails these SCs.
 
 #### Tests for SC 3.3.1, 3.3.2
+### Selector (Identify Content)
+1. Enter incorrect values in some input fields in order to trigger and display error information.
 
+### Test Instructions
+1. If an input error is automatically detected, check that the item that is in error is identified and the error is described to the user in text (3.3.1)
+1. Check that the error messages are associated to their fields (3.3.2) using one of these methods:
+   1. The user is made aware ...
+   1. ...
 
-##### Test Results for 
-* If any of the above checks fail, then the content fails this SC
+##### Test Results for SC 3.3.1, 3.3.2
+* If any of the above checks fail, then the content fails these SCs.
+
+#### Tests for SC 3.3.3
+### Selector (Identify Content)
+1. Enter incorrect values in each input fields in order to trigger and display error information (there may be multiple error conditions). Determine instances where an input error is automatically detected and suggestions for correction are known.
+
+### Test Instructions
+1. If an input error is automatically detected and suggestions for correction are known, check whether providing those  suggestions would jeopardize the security or purpose of the content.
+   1. If yes, move to the next element to test.
+   1. If no, check that these suggestions are provided to the user.
+   
+##### Test Results for SC 3.3.3
+* If check 1a fails, then the content fails this SC.
 
 #### Tests for SC 3.3.4
+### Selector (Identify Content)
+1. Find Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses.
 
-
-##### Test Results for 
-* If any of the above checks fail, then the content fails this SC
+### Test Instructions
+1. Check that at least one of the following is true:
+   1. Reversible: Submissions are reversible.
+   1. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
+   1. Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
+   
+##### Test Results for SC 3.3.4
+* If none of the above are true, then the content fails this SC.
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
+
 
 ## Advisory: Tips for streamlined test processes
 ...
