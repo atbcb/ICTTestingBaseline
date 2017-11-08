@@ -21,15 +21,22 @@ Read-only (e.g. pre-filled) form fields are considered interactive, in that they
 
 ### Selector (Identify Content)
 1. Find all form input components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists (combo boxes).
-1. Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, error messages, error correction suggestions, etc. It may be necessary to enter incorrect values in some input fields in order to trigger and evaluate error information.
+1. Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, error messages, error correction suggestions, etc. 
+1. Enter incorrect values in some input fields in order to trigger and evaluate error information.
 
 ### Test Instructions
-#### Tests for SC ...
+#### Tests for SC 1.3.1, 3.3.2
 
 ##### Test Results for SC 
 * If any of the above checks fail, then the content fails this SC
 
-#### Tests for SC 
+#### Tests for SC 3.3.1, 3.3.2
+
+
+##### Test Results for 
+* If any of the above checks fail, then the content fails this SC
+
+#### Tests for SC 3.3.4
 
 
 ##### Test Results for 
