@@ -19,11 +19,11 @@ Images must have a text alternative that serves the equivalent purpose.
   * Failure [F13](https://www.w3.org/TR/WCAG20-TECHS/F13.html): Failure of Success Criterion 1.1.1 ~~and 1.4.1~~ due to having a text alternative that does not include information that is conveyed by color differences in the image
   * Failure [F65](https://www.w3.org/TR/WCAG20-TECHS/F65.html): Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on `img` elements, `area` elements, and `input` elements of `type = "image"`
   * Failure [F67](https://www.w3.org/TR/WCAG20-TECHS/F67.html): Failure of Success Criterion 1.1.1 ~~and 1.2.1~~ due to providing long descriptions for non-text content that does not serve the same purpose of does not present the same information
-  * (not really a Web image) * Technique [H53](https://www.w3.org/TR/WCAG20-TECHS/H53.html): Using the body of the object element *refer to Software Baseline for testing the object contents; support for Flash is best in IE*
-  * (not really a Web image) * Technique [H35](https://www.w3.org/TR/WCAG20-TECHS/H35.html): Providing text alternatives on applet elements *refer to Software Baseline for testing the applet contents; support for JAVA is best in IE*
+  * *(not really a Web image) Technique [H53](https://www.w3.org/TR/WCAG20-TECHS/H53.html): Using the body of the object element; refer to Software Baseline for testing the object contents; support for Flash is best in IE*
+  * *(not really a Web image) Technique [H35](https://www.w3.org/TR/WCAG20-TECHS/H35.html): Providing text alternatives on applet elements; refer to Software Baseline for testing the applet contents; support for JAVA is best in IE*
 
 * WCAG2 SC: 1.4.5 Images of Text
-  * (this failure should go under 1.4.3) * Failure [F83](https://www.w3.org/TR/WCAG20-TECHS/F83.html): Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)
+  * *(this failure should go under contrast baseline) Failure [F83](https://www.w3.org/TR/WCAG20-TECHS/F83.html): Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)*
 * WCAG2 SC: 4.1.2 Name, Role, Value
   * Failure [F89](https://www.w3.org/TR/WCAG20-TECHS/F89.html): Failure of Success Criteria ~~2.4.4, 2.4.9 and~~ 4.1.2 due to not providing an accessible name for an image which is the only content in a link
 
