@@ -86,7 +86,7 @@ Images of Text
 ### Selector
 Captcha; *sidenote: [recaptcha example](https://www.google.com/recaptcha/api2/demo?invisible=true)*
 
-### Test Instructions for 1.4.5
+### Test Instructions for 1.1.1
 1. Check that text alternatives identify and describe the purpose of the captcha
 1. Check that alternative forms of captcha are provided for different types of sensory perception disabilities
 
