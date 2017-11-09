@@ -5,11 +5,11 @@ Images must have a text alternative that serves the equivalent purpose.
 ## Accessibility Requirements
 * WCAG2 SC: 1.1.1. Non-Text 
   * Technique [ARIA6](https://www.w3.org/TR/WCAG20-TECHS/ARIA6.html): Using aria-label to provide labels for objects
-  * Technique [ARIA10](https://www.w3.org/TR/WCAG20-TECHS/ARIA10.html): Using ariaG196: Using a text alternative on one item within a group of images that describes all items in the group-labelledby to provide a text alternative for non-text content
+  * Technique [ARIA10](https://www.w3.org/TR/WCAG20-TECHS/ARIA10.html): Using a text alternative on one item within a group of images that describes all items in the group-labelledby to provide a text alternative for non-text content
   * Technique [ARIA15](https://www.w3.org/TR/WCAG20-TECHS/ARIA15.html): Using aria-describedby to descriptions of images
-  * Technique [G196](https://www.w3.org/TR/WCAG20-TECHS/G196.html): Using a text alternative on one item within a group of images that describes all items in the group
+  ~~* Technique [G196](https://www.w3.org/TR/WCAG20-TECHS/G196.html): Using a text alternative on one item within a group of images that describes all items in the group
   * Technique [H2](https://www.w3.org/TR/WCAG20-TECHS/H2.html): Combining adjacent image and text links for the same resource
-  * Technique [H36](https://www.w3.org/TR/WCAG20-TECHS/H36.html): Using alt attributes on images used as submit buttons
+  * Technique [H36](https://www.w3.org/TR/WCAG20-TECHS/H36.html): Using alt attributes on images used as submit buttons~~
   * Technique [H37](https://www.w3.org/TR/WCAG20-TECHS/H37.html): Using alt attributes on img elements
   * Technique [H67](https://www.w3.org/TR/WCAG20-TECHS/H67.html): Using null alt text and no title attribute on img elements for images that AT should ignore
   * Technique [H86](https://www.w3.org/TR/WCAG20-TECHS/H86.html): Providing text alternatives for ASCII art, emoticons, and leetspeak
@@ -69,6 +69,16 @@ Decorative Images
 ### Test Instructions for 4.2.1
 1. Review the role of the decorative image.
 1. Check that the role is presentation. An acceptable alternate method is an empty accessible name/description.
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Selector
+Icon Fonts
+
+### Test Instructions for 1.1.1
+1. Check that the icon font has aria-hidden set to true. <<Kathy question: does role="presenation" work here?
+2. Check that meaningful icon fonts have a text equivalent (accessible name/description).
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
