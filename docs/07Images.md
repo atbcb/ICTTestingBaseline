@@ -53,6 +53,7 @@ Meaningful Images
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
+
 ### Selector
 Decorative Images
 
@@ -61,6 +62,13 @@ Decorative Images
   * Numerous attributes contribute to the computation of the accessible name and accessible description. 
   * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
 2. Check that the combination of accessible name and accessible description are empty. An acceptable alternate method is for the role to be "presentation".
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Test Instructions for 4.2.1
+1. Review the role of the decorative image.
+1. Check that the role is presentation. An acceptable alternate method is an empty accessible name/description.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
@@ -76,11 +84,11 @@ Images of Text
 * If any of the above checks fail, then this SC fails
 
 ### Selector
-Captcha
+Captcha; *sidenote: [recaptcha example](https://www.google.com/recaptcha/api2/demo?invisible=true)*
 
 ### Test Instructions for 1.4.5
-1. Logos with text are exempt from this test.
-2. Check that the image of text can be visually customized to a user's requirements
+1. Check that text alternatives identify and describe the purpose of the captcha
+1. Check that alternative forms of captcha are provided for different types of sensory perception disabilities
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
