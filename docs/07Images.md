@@ -6,15 +6,25 @@ Images must have a text alternative that serves the equivalent purpose.
 * WCAG2 SC: 1.1.1. Non-Text 
   * Technique [ARIA6](https://www.w3.org/TR/WCAG20-TECHS/ARIA6.html): Using aria-label to provide labels for objects
   * Technique [ARIA10](https://www.w3.org/TR/WCAG20-TECHS/ARIA10.html): Using ariaG196: Using a text alternative on one item within a group of images that describes all items in the group-labelledby to provide a text alternative for non-text content
+  * Technique [ARIA15](https://www.w3.org/TR/WCAG20-TECHS/ARIA15.html): Using aria-describedby to descriptions of images
   * Technique [G196](https://www.w3.org/TR/WCAG20-TECHS/G196.html): Using a text alternative on one item within a group of images that describes all items in the group
   * Technique [H2](https://www.w3.org/TR/WCAG20-TECHS/H2.html): Combining adjacent image and text links for the same resource
+  * Technique [H36](https://www.w3.org/TR/WCAG20-TECHS/H36.html): Using alt attributes on images used as submit buttons
   * Technique [H37](https://www.w3.org/TR/WCAG20-TECHS/H37.html): Using alt attributes on img elements
-  (not really an image) * Technique [H53](https://www.w3.org/TR/WCAG20-TECHS/H53.html): Using the body of the object element *refer to Software Baseline for testing the object contents; support for Flash is best in IE*
-  (not really and image) * Technique [H35](https://www.w3.org/TR/WCAG20-TECHS/H35.html): Providing text alternatives on applet elements *refer to Software Baseline for testing the applet contents; support for JAVA is best in IE*
+  * Technique [H67](https://www.w3.org/TR/WCAG20-TECHS/H67.html): Using null alt text and no title attribute on img elements for images that AT should ignore
+  * Failure [F30](https://www.w3.org/TR/WCAG20-TECHS/F30.html): Failure of Success Criterion 1.1.1 and 1.2.1 due to using text alternatives that are not alternatives (e.g., filenames or placeholder text)
+  * Failure [F38](https://www.w3.org/TR/WCAG20-TECHS/F38.html): Failure of Success Criterion 1.1.1 due to not marking up decorative images in HTML in a way that allows assistive technology to ignore them
+  * Failure [F39](https://www.w3.org/TR/WCAG20-TECHS/F39.html): Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null (e.g., alt="spacer" or alt="image") for images that should be ingnored by assistive technology
+  * Failure [F13](https://www.w3.org/TR/WCAG20-TECHS/F13.html): Failure of Success Criterion 1.1.1 and 1.4.1 due to having a text alternative that does not include information that is conveyed by color differences in the image
+  * Failure [F65](https://www.w3.org/TR/WCAG20-TECHS/F65.html): Failure of Success Criterion due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type "image"
+  (not really a Web image) * Technique [H53](https://www.w3.org/TR/WCAG20-TECHS/H53.html): Using the body of the object element *refer to Software Baseline for testing the object contents; support for Flash is best in IE*
+  (not really a Web image) * Technique [H35](https://www.w3.org/TR/WCAG20-TECHS/H35.html): Providing text alternatives on applet elements *refer to Software Baseline for testing the applet contents; support for JAVA is best in IE*
 
   * Technique [H86](https://www.w3.org/TR/WCAG20-TECHS/H86.html): Providing text alternatives for ASCII art, emoticons, and leetspeak
 * WCAG2 SC: 1.4.5 Images of Text
+  (this failure should go under 1.4.3) * Failure [F83](https://www.w3.org/TR/WCAG20-TECHS/F83.html): Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)
 * WCAG2 SC: 4.1.2 Name, Role, Value
+  * Failure [F89](https://www.w3.org/TR/WCAG20-TECHS/F89.html): Failure of Success Criteria 2.4.4, 2.4.9 and 4.1.2 due to providing an accessible name for an image which is the only content in a link
 
 ## Limitations, Assumptions, Exceptions
  * Image formats include .jpg, .png, .svg, .gif, .tiff, .bmp.
