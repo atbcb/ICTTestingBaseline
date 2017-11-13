@@ -42,14 +42,37 @@ Meaningful Images
 1. Review the accessible name and accessible description properties of the meaningful image.
   * Numerous attributes contribute to the computation of the accessible name and accessible description. 
   * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
-2. Check that the combination of accessible name and accessible description provide an equivalent description and purpose.
+2. Check that the combination of accessible name and accessible description provide an equivalent description.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
 
 ### Test Instructions for 4.2.1
 1. Review the role of the meaningful image.
-1. Check that the role is image.
+1. Check that the role is image, or .
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+## Test Procedures 
+### Selector
+Functional Images used to initiate actions
+
+### Test Instructions for 1.1.1
+1. Review the accessible name and accessible description properties of the functional image.
+  * Numerous attributes contribute to the computation of the accessible name and accessible description. 
+  * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+2. Check that the combination of accessible name and accessible description provide an equivalent description and/or purpose. The accessible name/description of the image should convey the action that will be initiated (the purpose of the image). 
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Test Instructions for 4.2.1
+1. Review the role of the meaningful image.
+1. Check that the role is correct.
+
+### Test Instructions for 2.1.1
+1. Check that each functional image can be accessed by keyboard only.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
@@ -74,10 +97,10 @@ Decorative Images
 * If any of the above checks fail, then this SC fails
 
 ### Selector
-Icon Fonts
+Icon Fonts (decorative but meaningful)
 
 ### Test Instructions for 1.1.1
-1. Check that the icon font has aria-hidden set to true. <<Kathy question: does role="presenation" work here?
+1. Check that the icon font has aria-hidden set to true. <<Kathy question: does role="presentation" work here? I don't think so since it removes the description but double check.
 2. Check that meaningful icon fonts have a text equivalent (accessible name/description).
 
 #### Test Results
@@ -87,7 +110,7 @@ Icon Fonts
 Images of Text
 
 ### Test Instructions for 1.4.5
-1. Logos with text are exempt from this test.
+1. Do not test logos. Logos with text are exempt from this test.
 2. Check that the image of text can be visually customized to a user's requirements
 
 #### Test Results
