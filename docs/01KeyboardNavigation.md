@@ -66,7 +66,7 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
 * If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
-* Keyboard access for Title content is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
+* Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
 * This test may be combined with tests for focus.
 * It may be useful to separate out a test for keyboard use, and then have a separate test for documentation of non-standard commands.
 * Tips and techniques for finding hidden content may be useful for testers.
