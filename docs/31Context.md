@@ -21,11 +21,12 @@ Navigation through a user interface and interaction with interface components sh
 * Select all focusable interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).
 
 ### Test Instructions
-1. Using a physical system keyboard, move focus to each interface component (Tab, [Shift+Tab], space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), and reveal hidden content. Use a pointing device (e.g., mouse) to move focus to interface components. 
-1. Check that when the interface component receives focus, it does not initiate a change of context. Examples of a change of context could include:
-    * Forms submitted automatically when a component receives focus;
-    * New windows launched when a component receives focus;
+1. Move focus to each interface component (e.g., Tab, [Shift+Tab], Spacebar, ALT, arrow keys, Enter, etc.), navigate through each interactive interface component (including form drop-down lists and form fields), and reveal hidden content. 
+1. Check that when an interface component receives focus, it does not initiate a change of context. Examples of a change of context could include:
+    * Forms submitted automatically when a component receives focus
+    * New windows launched when a component receives focus
     * Focus is changed to another component when that component receives focus
+1. Check that the page or application provides suffient warning of any context changes initiated focus change events
 
 ** Note:** Clicking a control may also activate the control (e.g. button), which may, in turn, initiate a change in context. Controls that are clearly intended to initiate a change in context when activated do not fail under this test.
 
@@ -37,10 +38,16 @@ Navigation through a user interface and interaction with interface components sh
 * Select all `<form>` elements
 
 ### Test Instructions
-1.
-1.
-1.
-1. Check that when the interface component..., it does not initiate a change of context.
+1. Enter data in all form fields, and exit (tab out of) the field
+1. Change selections and/or values for form controls, such as radio buttons, check boxes, select lists, etc.
+1. Check that navigating away from a field and/or changing field values/selections (e.g., entering data in a text field, changing a radio button selection) does NOT initiate a change of context. Examples of a change of context could include:
+    * Forms submitted automatically when exiting the field
+    * Forms submitted automatically when exiting the last field in a form
+    * New windows launched when changing a radio button selection
+    * Focus is changed to another component when a select list item is selected
+1. Check that the page or application provides suffient warning of any context changes initiated by data input events
+
+** Note:** Clicking a control may also activate the control (e.g. button), which may, in turn, initiate a change in context. Controls that are clearly intended to initiate a change in context when activated do not fail under this test.
 
 ### Test Results
 * If any of the above checks fail, this SC fails.
