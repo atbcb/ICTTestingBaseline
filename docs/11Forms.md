@@ -39,12 +39,12 @@ Read-only (e.g. pre-filled) form fields are considered interactive, in that they
 ### Test Instructions
 1. If an input error is automatically detected, check that
    1. the user is made aware of the error, whether immediately, upon shifting focus away from the item in error (by keyboard), or when trying to submit the form (by keyboard).
-   1. the error is described to the user in text
-   1. the item that is in error is identified
-Note: This may be done using a combination of methods, such as 
-* shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error.
-* refreshing the page upon form submission, then listing the errors and the items that are in error at the top of the page.
-* refreshing the page upon form submission, displaying an error message saying that one or more form fields need to be corrected, and using markup to associate the fields in error to information identifying them as needing correction and information about the errors.
+   1. the error is described to the user in text, and 
+   1. the item that is in error is identified.
+Note: The above may be accomplished by using a combination of methods, such as 
+   * shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error.
+   * refreshing the page upon form submission, then listing the errors and the items that are in error at the top of the page.
+   * refreshing the page upon form submission, displaying an error message saying that one or more form fields need to be corrected, and using markup to associate the fields in error to information identifying them as needing correction and information about the errors.
    
 ##### Test Results for SC 3.3.1, 3.3.2
 * If any of the above checks fail, then the content fails these SCs.
