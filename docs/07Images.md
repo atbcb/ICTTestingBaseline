@@ -137,7 +137,7 @@ Images of Text
 
 ### Test Instructions for 1.4.5
 1. Do not test logos. Logos with text are exempt from this test.
-2. Check that the image of text can be visually customized to a user's requirements
+2. Check that the image of text can be visually customized to a user's requirements. For example, a Web site allows users to specify font settings and all images of text on the site are then provided based on those settings.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
