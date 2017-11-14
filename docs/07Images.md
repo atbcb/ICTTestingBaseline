@@ -1,6 +1,6 @@
 # 7. Images
 ## Rule Description (in plain language)
-Images must have a text alternative that serves the equivalent purpose.
+Images must have a text alternative that serves the equivalent purpose. Meaningful images should have a text alternative that describes the meaning or content that is displayed visually. Decorative images should be programmatically ignored by assistive technology.
 
 ## Accessibility Requirements
 * WCAG2 SC: 1.1.1. Non-Text 
@@ -30,13 +30,13 @@ Images must have a text alternative that serves the equivalent purpose.
 ## Limitations, Assumptions, Exceptions
  * Image formats include .jpg, .png, .svg, .gif, .tiff, .bmp.
  * Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
- * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities. ([G143](https://www.w3.org/TR/WCAG20-TECHS/G143.html) and [G144](https://www.w3.org/TR/WCAG20-TECHS/G144.html) are specific to captchas. <<<Should this be a separate baseline test?) 
+ * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities. ([G143](https://www.w3.org/TR/WCAG20-TECHS/G143.html) and [G144](https://www.w3.org/TR/WCAG20-TECHS/G144.html) are specific to captchas.  
  * Font icons are considered a form of ASCII art, graphics generated with text.
  * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5.  Logotypes (text that is part of a logo or brand name) are considered essential.
  
 ## Test Procedures 
 ### Selector
-Meaningful Images
+Meaningful Images that convey information
 
 ### Test Instructions for 1.1.1
 1. Review the accessible name and accessible description properties of the meaningful image.
@@ -49,14 +49,14 @@ Meaningful Images
 
 ### Test Instructions for 4.2.1
 1. Review the role of the meaningful image.
-1. Check that the role is image, or .
+1. Check that the role is image.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
 
 ## Test Procedures 
 ### Selector
-Functional Images used to initiate actions
+Functional Images used to initiate actions <<this may be better under interactive elements? links, buttons, image maps
 
 ### Test Instructions for 1.1.1
 1. Review the accessible name and accessible description properties of the functional image.
@@ -68,11 +68,11 @@ Functional Images used to initiate actions
 * If any of the above checks fail, then this SC fails
 
 ### Test Instructions for 4.2.1
-1. Review the role of the meaningful image.
-1. Check that the role is correct.
+1. Review the role of the functional image.
+1. Check that the role describes its function.
 
 ### Test Instructions for 2.1.1
-1. Check that each functional image can be accessed by keyboard only.
+1. Check that each functional image can be accessed by keyboard only. If an image map, each functional region of the map must be keyboard accessible.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
@@ -97,7 +97,7 @@ Decorative Images
 * If any of the above checks fail, then this SC fails
 
 ### Selector
-Icon Fonts (decorative but meaningful)
+Meaningful Icon Fonts (decorative but meaningful)
 
 ### Test Instructions for 1.1.1
 1. Check that the icon font has aria-hidden set to true. <<Kathy question: does role="presentation" work here? I don't think so since it removes the description but double check.
@@ -118,6 +118,32 @@ Images of Text
 
 ### Selector
 Captcha; *sidenote: [recaptcha example](https://www.google.com/recaptcha/api2/demo?invisible=true)*
+
+### Test Instructions for 1.1.1
+1. Check that text alternatives identify and describe the purpose of the captcha
+1. Check that alternative forms of captcha are provided for different types of sensory perception disabilities
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Test Instructions for 2.1.1
+1. Check that the captcha can be complated by keyboard only.
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Selector
+Images of Text
+
+### Test Instructions for 1.4.5
+1. Do not test logos. Logos with text are exempt from this test.
+2. Check that the image of text can be visually customized to a user's requirements
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Selector
+Image Maps
 
 ### Test Instructions for 1.1.1
 1. Check that text alternatives identify and describe the purpose of the captcha
