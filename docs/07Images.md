@@ -30,7 +30,7 @@ Images must have a text alternative that serves the equivalent purpose. Meaningf
 ## Limitations, Assumptions, Exceptions
  * Image formats include .jpg, .png, .svg, .gif, .tiff, .bmp.
  * Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
- * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities. ([G143](https://www.w3.org/TR/WCAG20-TECHS/G143.html) and [G144](https://www.w3.org/TR/WCAG20-TECHS/G144.html) are specific to captchas.  
+ * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities. ([G143](https://www.w3.org/TR/WCAG20-TECHS/G143.html) and [G144](https://www.w3.org/TR/WCAG20-TECHS/G144.html) are specific to captchas.)  
  * Font icons are considered a form of ASCII art, graphics generated with text.
  * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5.  Logotypes (text that is part of a logo or brand name) are considered essential.
  
