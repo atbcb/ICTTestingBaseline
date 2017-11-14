@@ -23,9 +23,9 @@ Images must have a text alternative that serves the equivalent purpose. Meaningf
   * *(not really a Web image) Technique [H35](https://www.w3.org/TR/WCAG20-TECHS/H35.html): Providing text alternatives on applet elements; refer to Software Baseline for testing the applet contents; support for JAVA is best in IE*
 
 * WCAG2 SC: 1.4.5 Images of Text
-  * *(this failure should go under contrast baseline) Failure [F83](https://www.w3.org/TR/WCAG20-TECHS/F83.html): Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)*
+  * *(this failure should go under Contrast baseline) Failure [F83](https://www.w3.org/TR/WCAG20-TECHS/F83.html): Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)*
 * WCAG2 SC: 4.1.2 Name, Role, Value
-  * Failure [F89](https://www.w3.org/TR/WCAG20-TECHS/F89.html): Failure of Success Criteria ~~2.4.4, 2.4.9 and~~ 4.1.2 due to not providing an accessible name for an image which is the only content in a link
+  * *(this failure should go under Links baseline)Failure [F89](https://www.w3.org/TR/WCAG20-TECHS/F89.html): Failure of Success Criteria ~~2.4.4, 2.4.9 and~~ 4.1.2 due to not providing an accessible name for an image which is the only content in a link
 
 ## Limitations, Assumptions, Exceptions
  * Image formats include .jpg, .png, .svg, .gif, .tiff, .bmp.
