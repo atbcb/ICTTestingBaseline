@@ -47,7 +47,7 @@ Meaningful Images
 #### Test Results
 * If any of the above checks fail, then this SC fails
 
-### Test Instructions for 4.2.1
+### Test Instructions for 4.1.2
 1. Review the role of the meaningful image.
 1. Check that the role is image.
 
@@ -66,7 +66,7 @@ Decorative Images
 #### Test Results
 * If any of the above checks fail, then this SC fails
 
-### Test Instructions for 4.2.1
+### Test Instructions for 4.1.2
 1. Review the role of the decorative image.
 1. Check that the role is presentation. An acceptable alternate method is an empty accessible name/description.
 
