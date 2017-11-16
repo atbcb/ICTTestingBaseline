@@ -15,19 +15,28 @@ Scripting Languages (e.g., JavaScript) can be used to attach a function to an el
 
 ## Tests for SC 2.4.4, 4.1.2
 ### Selector (Identify Content)
-1. Find all links on the page.
+1. Find all links on the page, including those that are scripted elements.
 
 ### Test Instructions
 1. Check that the purpose of each link can be determined from either
    1. the link text alone or 
-   1. the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.
+   1. the link text together with its programmatically determined link context.
+1. If test 1 fails, check if any of these exceptions apply:
+   1. the purpose of the link would be ambiguous to users in general.
+   1. the purpose of the link is is supposed to be unknown or obscured.
 
 ##### Test Results for SC 2.4.4, 4.1.2
-* If any of the above checks fail, then the content fails these SCs.
+* If any of the above checks fail, then the content fails this SC.
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
 
-
 ## Advisory: Tips for streamlined test processes
-...
+* In cases where the link takes one to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link (which is to take you to the document or web application). (U 2.4.4)
+
+## Notes
+1. Baseline has 
+   * "[Web only] The list of links will include all client-side image map hotspots. The hotspots are links which must be checked in this test." 
+   * Some links may contain images.
+   * Some links may be contained in image maps.
+Have/should these be moved to Images test?
