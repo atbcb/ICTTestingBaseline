@@ -1,4 +1,4 @@
-# 16. Links *removed, since this is in the SW part: and User Controls*
+# 16. Links *removed "User Controls", since this is in the SW part*
 ## Rationale
 Links and/or user controls must have meaningful names that describe the unique destination, function, and/or purpose of the control for assistive technology.
 
