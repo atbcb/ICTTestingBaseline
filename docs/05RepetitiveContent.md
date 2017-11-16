@@ -19,16 +19,14 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 WCAG SC 2.4.1 Bypass Blocks - A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
 
 ### Related Standards
-WCAG SC 2.1.1 Keyboard
-WCAG SC 2.4.7 Focus Visible
-WCAG SC 2.4.3 Focus Order
-WCAG SC 3.2.3 Consistent Navigation
-
-## Tools Necessary
-Physical system keyboard
+* WCAG SC 2.1.1 Keyboard
+* WCAG SC 2.4.7 Focus Visible
+* WCAG SC 2.4.3 Focus Order
+* WCAG SC 3.2.3 Consistent Navigation
 
 ## Limitations, Assumptions, or Exceptions
 Access must be via a physical keyboard. Specifically excluded from this test is the use of an on-screen keyboard, or using the Mouse-Keys feature in Windows.
+
 At this time the baseline tests herein cover use of software and Web sites on PCs (i.e., desktops and laptops) that have a keyboard as a primary input device. Tablet PCs and software running on other portable devices are not addressed in the baseline tests.
 
 ## Test Procedure
@@ -53,7 +51,7 @@ Look for blocks of repeated content, such as navigation links, that should provi
 
 ### Results for SC 2.4.1 
 Selected blocks of repetitive content will either have a functioning method to skip that content or not.
-* If the test for SC 2.4.1 fails, then the content is not conformant to SC 2.4.1
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement

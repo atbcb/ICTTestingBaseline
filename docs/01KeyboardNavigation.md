@@ -18,9 +18,6 @@ WCAG SC  2.1.1 Keyboard – All functionality of the content is operable through
 
 WCAG SC 2.1.2 No keyboard trap – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 
-## Tools Necessary
-Physical system keyboard and pointing device (e.g., mouse)
-
 ## Limitations, Assumptions, or Exceptions
 * Access must be via a physical keyboard. Specifically excluded from this test is the use of an on-screen keyboard, or using the Mouse-Keys feature in Windows.
 * At this time the baseline tests herein cover use of software and Web sites on PCs (i.e., desktops and laptops) that have a keyboard as a primary input device. Tablet PCs and software running on other portable devices are not addressed in the baseline tests.
@@ -47,7 +44,7 @@ Select visible and hidden interactive interface components (links, form fields, 
     2. If keyboard navigation and interaction REQUIRES specific timing, then check that the interface’s underlying function REQUIRES input that depends on the path of the user's movement (e.g., free-hand drawing; if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes).
 
 ##### Test Results for SC 2.1.1
-* If any test for SC 2.1.1 fails, then the content is not conformant to SC 2.1.1
+* If any of the above checks fail, then the content fails this SC
 
 #### Tests for SC 2.1.2
 Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. This test rule validates a keyboard-only user’s ability to move focus away from components. 
@@ -62,7 +59,7 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
         1. the user is advised, in an accessible manner, of available, non-standard keyboard commands necessary to navigate away from the interface component before the user encounters the the component. 
 
 ##### Test Results for SC 2.1.2
-* If any test for SC 2.1.2 fails, then the content is not conformant to SC 2.1.2
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement

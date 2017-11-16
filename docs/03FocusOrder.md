@@ -10,9 +10,6 @@ Focus/TAB order must follow the logical order to prevent instances where users b
 * WCAG SC 2.4.3. If [content] can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
 * WCAG SC 3.2.3. Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
-## Tools Necessary
-Physical system keyboard
-
 ## Test Procedure
 Focus order is the sequence in which a user accesses elements on your website. Some users can’t use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense.
 
@@ -25,7 +22,7 @@ Select interactive interface components (links, form fields, drop down menus, sh
 1. If the order of content presented visually affects understanding or function of the content, then check that the focus order when using a keyboard matches the same logical order as the order presented visually. 
 
 ##### Test Results for SC 2.4.3
-* If the test for SC 2.4.3 fails, then the content is not conformant to SC 2.4.3
+* If any of the above checks fail, then the content fails this SC
 
 #### Tests for SC 3.2.3
 1. Use the keyboard to navigate through interface components and content (including any hidden content). Identify content elements that repeat over multiple linked pages or screens.
@@ -33,7 +30,7 @@ Select interactive interface components (links, form fields, drop down menus, sh
     1. Check that any change in the content order is only the result of a user-initiated change 
 
 ##### Test Results for 3.2.3
-* If the test for SC 3.2.3 fails, then the content is not conformant to SC 3.2.3
+* If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement

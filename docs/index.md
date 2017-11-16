@@ -70,12 +70,12 @@ Attachment C - Baseline Test Report Checklists
 3. [Focus (order)](03FocusOrder.md)
 4. [Focus (Revealing hidden content)](04FocusHidden.md)
 5. [Repetitive Content](05RepetitiveContent.md)
-6. Multi-state components
-7. Images
+6. [Multi-state components](06MultiState.md)
+7. [Images](07Images.md)
 8. [Color (meaning)](08ColorMeaning.md)
 9. [Color (contrast)](09ColorContrast.md)
-10. *Flashing (reserved)*
-11. Forms (associated instructions)
+10. [Flashing](10Flashing.md)
+11. [Forms (associated instructions)](11Forms.md)
 12. [Page Titles](12PageTitles.md)
 13. Data Tables (headers)
 14. Data Tables (cell-header association)
@@ -90,6 +90,10 @@ Attachment C - Baseline Test Report Checklists
 23. [Frames](23Frames.md)
 24. Alternate pages
 25. [Time outs](25Timeout.md)
-26. Image maps
-27. Plug-in Links
+26. *Image maps -- **removed and included under 7. Images***
+27. *Plug-in Links -- **removed***
 28. Built-in accessibility features
+29. **PLACEHOLDER** -- Pause, Stop, Hide
+30. **PLACEHOLDER** -- [Multiple Ways](30MultipleWays.md)
+31. **PLACEHOLDER** -- [Context Changes](31Context.md)
+32. **PLACEHOLDER** -- Parsing
