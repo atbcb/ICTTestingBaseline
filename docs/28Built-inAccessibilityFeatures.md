@@ -16,4 +16,26 @@ conform to 502.
 ## Limitations, Assumptions, or Exceptions
 Software that is assistive technology and supports the accessibility services of a platform is **NOT required** to conform to: 
 * E207.2 requirements for platforms and applications to conform to Level A and Level AA Success Criteria.
-* ICT with closed functionality shall be operable without requiring the user to attach or install assistive technology other than personal headsets or other audio couplers, and shall conform to 402.
+* A test procedure for ICT with closed functionality is not currently provided.
+
+## Test Procedure
+Testing requires access to the Operating Systems (OS) accessibility features.
+
+## Selector (Identify Content)
+Find and activate the OS accessibility features. Configure settings so that it is obvious that the accessibility features are active. This process varies depending upon the OS>
+
+Note: This may also be tested as part of usabiltiy testing. A user may activate their AT and open the application.
+
+## Test Instructions
+1. Ensure the OS accessibility features are active.
+2. Open the application, and begin to interact with it.
+3. Check that the application adopted the high contrast appearance.
+4. Check that the text size has increased and that information is not cut off because of the larger font size. (Scrolling or enlarging the viewing area is permissable.)
+5. Verify that 'Sticky Keys' have not been disrupted in the OS.
+6. Verify that sound notifications (i.e., Sound Sentry) have not been disrupted.
+
+### Test Results
+* If any of the above checks fail, then the contnt fails for this requirement.
+
+# Baseline Requirement Outcome
+* If no content fails, then the content passes the Baselkne Requirement.
