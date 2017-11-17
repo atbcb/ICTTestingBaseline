@@ -1,4 +1,5 @@
-# 16. Links *removed "User Controls", since this is in the SW part*
+# 16. Links and User Controls
+
 ## Rationale
 Links and/or user controls must have meaningful names that describe the unique destination, function, and/or purpose of the control for assistive technology.
 
@@ -15,15 +16,15 @@ Scripting Languages (e.g., JavaScript) can be used to attach a function to an el
 
 ## Tests for SC 2.4.4, 4.1.2
 ### Selector (Identify Content)
-1. Find all links on the page, including those that are scripted elements.
+1. Find all links and user controls on the page, including those that are scripted elements.
 
 ### Test Instructions
-1. Check that the purpose of each link can be determined from either
-   1. the link text alone or 
-   1. the link text together with its programmatically determined link context.
+1. Check that the purpose of each link/control can be determined from either
+   1. the link/control text alone or 
+   1. the link/control text together with its programmatically determined context.
 1. If test 1 fails, check if any of these exceptions apply:
-   1. the purpose of the link would be ambiguous to users in general.
-   1. the purpose of the link is is supposed to be unknown or obscured.
+   1. the purpose of the link/control would be ambiguous to users in general.
+   1. the purpose of the link/control is is supposed to be unknown or obscured.
 
 ##### Test Results for SC 2.4.4, 4.1.2
 * If any of the above checks fail, then the content fails this SC.
@@ -32,7 +33,7 @@ Scripting Languages (e.g., JavaScript) can be used to attach a function to an el
 * If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
-* In cases where the link takes one to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link (which is to take you to the document or web application). (U 2.4.4)
+* In cases where the link/control takes one to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link (which is to take you to the document or web application). (U 2.4.4)
 
 ## Notes
 1. Baseline has 
