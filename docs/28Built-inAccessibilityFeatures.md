@@ -16,6 +16,7 @@ Software is required to interoperate with assistive technology unless the ICT is
 https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#502-interoperability-assistive-technology
 
 G178: Providing controls on the Web page that allow users to incrementally change the size of all text on the page up to 200 percent 
+
 G179: Ensuring that there is no loss of content or functionality when the text resizes and text containers do not change their width 
 
 ## Limitations, Assumptions, or Exceptions
