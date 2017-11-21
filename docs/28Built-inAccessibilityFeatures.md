@@ -66,4 +66,4 @@ F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up 
 F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200% 
 
 # Baseline Requirement Outcome
-* If no content fails, then the content passes the Baselkne Requirement.
+* If no content fails, then the content passes the Baseline Requirement.
