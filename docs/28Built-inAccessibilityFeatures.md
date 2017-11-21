@@ -15,6 +15,9 @@ Software is required to interoperate with assistive technology unless the ICT is
 
 https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#502-interoperability-assistive-technology
 
+G178: Providing controls on the Web page that allow users to incrementally change the size of all text on the page up to 200 percent 
+G179: Ensuring that there is no loss of content or functionality when the text resizes and text containers do not change their width 
+
 ## Limitations, Assumptions, or Exceptions
 If the software is assistive technology and supports the accessibility services of a platform is **NOT required** to conform to 
 E207.2 requirements for platforms and applications to conform to Level A and Level AA Success Criteria.
@@ -39,7 +42,9 @@ Note: This may also be tested as part of usabiltiy testing. A user may activate 
 2. Resize the default text size to 200% and check that all of the following are true: 
 * the text size has increased
 * the text is readable and information is not cut off because of the larger font size
-* the use of a horizontal scroll bar is not required to read a line of text on a full-screen window.
+* there is no loss of functionality 
+* a scrollbar is provided as needed the read text. </br>
+*Optimally, the use of a horizontal scroll bar is not required to read a line of text on a full-screen window. (1.4.8 AAA)*
 3. If other accessibility features are offered, i.e., sound notificiations, ensure they function as designed. 
 
 ### Test for 502.2.2 No Disruption of Accessibility Features
@@ -47,13 +52,18 @@ Note: This may also be tested as part of usabiltiy testing. A user may activate 
 2. Check that the application adopted the high contrast appearance.
 3. Set the browser zoom control to 200% and check that all of the following are true:
 * the text size has increased
+* there is no loss of functionality 
 * the text is readable and information is not cut off because of the larger font size
-* the use of a horizontal scroll bar is not required to read a line of text on a full-screen window.
+* a scrollbar is provided as needed the read text. </br>*Optimally, the use of a horizontal scroll bar is not required to read a line of text on a full-screen window. (1.4.8 AAA)*
 4. Verify that 'Sticky Keys' have not been disrupted in the OS.
 5. Verify that sound notifications (i.e., Sound Sentry) have not been disrupted.
 
 ### Test Results
-* If any of the above checks fail, then the contnt fails for this requirement.
+* If any of the above checks fail, then the content fails for this requirement.
+
+F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured 
+
+F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200% 
 
 # Baseline Requirement Outcome
 * If no content fails, then the content passes the Baselkne Requirement.
