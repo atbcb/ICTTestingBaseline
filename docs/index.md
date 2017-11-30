@@ -77,8 +77,8 @@ Attachment C - Baseline Test Report Checklists
 10. [Flashing](10Flashing.md)
 11. [Forms (associated instructions)](11Forms.md)
 12. [Page Titles](12PageTitles.md)
-13. Data Tables (headers)
-14. Data Tables (cell-header association)
+13. [Data Tables](13DataTables.md)
+14. Data Tables (cell-header association) -- **Combined with 13. Data Tables**
 15. [Headings](15Headings.md)
 16. Links and User controls
 17. [Language](17Language.md)
