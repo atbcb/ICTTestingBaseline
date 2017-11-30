@@ -11,7 +11,7 @@ For more information on the baseline tests and links to published streamlined te
 
 For questions or to provide feedback, contact the DHS Accessibility Helpdesk at:
 
-<accessibility@dhs.gov> | <http://accessibility.dhs.gov>
+<accessibility@dhs.gov>; <http://accessibility.dhs.gov>
 
 202-447-0440 (Voice)
 
@@ -77,10 +77,10 @@ Attachment C - Baseline Test Report Checklists
 10. [Flashing](10Flashing.md)
 11. [Forms (associated instructions)](11Forms.md)
 12. [Page Titles](12PageTitles.md)
-13. Data Tables (headers)
-14. Data Tables (cell-header association)
+13. [Data Tables](13DataTables.md)
+14. *Data Tables (cell-header association) -- **Removed and included with 13. Data Tables***
 15. [Headings](15Headings.md)
-16. Links and User controls
+16. [Links and User controls](16LinksControls.md)
 17. [Language](17Language.md)
 18. [Audio (transcripts)](18AudioTranscript.md)
 19. [Video (descriptions)](19VideoDescription.md)
@@ -88,12 +88,12 @@ Attachment C - Baseline Test Report Checklists
 21. [Synchronized media (descriptions)](21SyncMedia.md)
 22. [Style-sheet non-dependence](22Stylesheet.md)
 23. [Frames](23Frames.md)
-24. Alternate pages
+24. [Alternate pages](24AlternatePages.md)
 25. [Time outs](25Timeout.md)
 26. *Image maps -- **removed and included under 7. Images***
 27. *Plug-in Links -- **removed***
-28. Built-in accessibility features
-29. **PLACEHOLDER** -- Pause, Stop, Hide
+28. [Built-in accessibility features](28Built-inAccessibilityFeatures.md)
+29. **PLACEHOLDER** -- [Pause, Stop, Hide, Control](29Control.md)
 30. **PLACEHOLDER** -- [Multiple Ways](30MultipleWays.md)
 31. **PLACEHOLDER** -- [Context Changes](31Context.md)
-32. **PLACEHOLDER** -- Parsing
+32. **PLACEHOLDER** -- [Parsing](32Parsing.md)
