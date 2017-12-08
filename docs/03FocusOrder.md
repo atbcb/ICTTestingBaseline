@@ -24,11 +24,11 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
 * If any of the above checks fail, then the content fails this SC
 
 ### Selector (Identify Content)
-Navigation components used on more than one Web page
+Set of navigation components used on more than one Web page
 
 #### Tests for SC 3.2.3
-1. Use the keyboard to move the focus through navigation components (including any hidden ). 
-    1. Check that the relative order of keyboard and/or visual focus is the same across pages.
+1. Use the keyboard to move the focus through navigation components. 
+    1. Check that the order of keyboard focus is the same among major navigation components across pages. Navigation components can have different submenus across pages.
     1. Check that any change in the content order is only the result of a user-initiated change 
 
 ##### Test Results for 3.2.3
