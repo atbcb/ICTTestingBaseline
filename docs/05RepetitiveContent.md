@@ -1,4 +1,6 @@
-# 5. Repetitive Content
+*Comment from KE: The repetitive content for consistent navigation was part of Focus(Order). 3.2.4 Consistent Identification may fit under other tests, so I think this one can go away.*
+
+# 5. Repetitive Content 
 ## Rationale
 ### Test Rationale
 A method must be provided to skip blocks of repeated content or links on pages, allowing a user to move directly to page-specific content.
