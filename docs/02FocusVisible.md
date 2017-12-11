@@ -4,7 +4,7 @@
 By default Web browsers provide a visual indication of focus. Some software applications also provide visual indication of focus. Custom programming, styles, style sheets, and scripting , can either disrupt or enhance visual indication of focus.
 
 ### Test Method Rationale
-Manually navigating or controlling the interface by keyboard only will enable a tester to identify when there is no visual differentiation between a focused item and the rest of the interface or content.
+Manually navigating or controlling the interface by keyboard only will enable a tester to identify when there is no visual differentiation between a focused item and the rest of the interface or content. While testing tools may help testers to determine the naviagational path to track focus, any markup provided by a testing is not an indicator of visible focus for meeting this requirement.
 
 ## Accessibility Requirement
 WCAG SC 2.4.7 Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
