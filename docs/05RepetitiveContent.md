@@ -1,4 +1,4 @@
-*Comment from KE: The repetitive content for consistent navigation was part of Focus(Order). 3.2.4 Consistent Identification may fit under other tests, so I think this one can go away.*
+*Comment from KE: The repetitive content for consistent navigation was part of Focus(Order), so I think this one can go away.*
 
 # 5. Repetitive Content 
 ## Rationale
