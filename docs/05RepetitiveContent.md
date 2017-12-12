@@ -5,7 +5,7 @@ A method must be provided to skip blocks of repeated content or links on pages, 
 
 Groups of navigation links are usually provided along the top and/or left of multiple pages to provide quick navigation to other areas of a Web site. In addition, some groups of pages may repeat blocks of content (other than navigational controls).
 
-For users who can see and use a mouse, skipping over navigation links and other blocks of content is simply a mouse movement followed by a click. However, for users who cannot use a mouse, repetitive links can be a serious impediment to productivity. For example, for screen reader users, if they must read content that is repeated on each page and cannot skip past it, their experience on the page can be very frustrating. 
+For users who can see and use a mouse, skipping over navigation links and other blocks of content is simply a mouse movement followed by a click. However, for users who cannot use a mouse, repetitive links can be a serious impediment to productivity. For example, if a screen reader must read all the content on the page, it can be frustrating for users to hear lengthy menu options repeated on each page refresh without having an option to skip past it. 
 
 A common method used to bypass repetitive content is internal (same page) links, but other methods are acceptable.
 
@@ -39,7 +39,7 @@ Look for blocks of repeated content, such as navigation links, that should provi
 ### Tests for SC 2.4.1
 1.	Use the keyboard to navigate toward repetitive blocks of content. (See Selector section for exceptions.)
 2.	Check that a method is provided to skip past repetitive content.
-    * Note: Some skip methods may not be visible until they receive focus.
+    * Note: Some skip methods may not be visible until they receive focus, or may provide custom keystrokes to initiate a skip feature.
     * The following methods are also acceptable:
       * H69: Providing heading elements at the beginning of each section of content. 
       * SCR28: Using an expandable and collapsible menu to bypass block of content.
