@@ -11,7 +11,7 @@ Focus/TAB order must follow the logical order to prevent instances where users b
 * WCAG SC 3.2.3. Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 ## Test Procedure
-Focus order is the sequence in which a user accesses elements on your website. Some users can’t use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense.
+Focus order is the sequence in which a user accesses elements on your website. Some users cannot use a mouse and will ‘tab’ through your website – they must access elements in an order that makes sense.
 
 ### Selector (Identify Content)
 Select interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
