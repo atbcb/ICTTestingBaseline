@@ -56,7 +56,7 @@ Meaningful Images that convey information
 
 ## Test Procedures 
 ### Selector
-Functional Images used to initiate actions <<this may be better under interactive elements? links, buttons, image maps
+Functional Images used to initiate actions This includes images that have content that is a control or accepts user input, such as links, buttons, and image maps.
 
 ### Test Instructions for 1.1.1
 1. Review the accessible name and accessible description properties of the functional image.
@@ -111,7 +111,7 @@ Images of Text
 
 ### Test Instructions for 1.4.5
 1. Do not test logos. Logos with text are exempt from this test.
-2. Check that the image of text can be visually customized to a user's requirements
+2. Check that the image of text can be visually customized to a user's requirements. For example, a Web site allows users to specify font settings and all images of text on the site are then provided based on those settings.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
@@ -133,23 +133,16 @@ Captcha; *sidenote: [recaptcha example](https://www.google.com/recaptcha/api2/de
 * If any of the above checks fail, then this SC fails
 
 ### Selector
-Images of Text
+Images with Text
 
 ### Test Instructions for 1.4.5
-1. Do not test logos. Logos with text are exempt from this test.
-2. Check that the image of text can be visually customized to a user's requirements. For example, a Web site allows users to specify font settings and all images of text on the site are then provided based on those settings.
+
+1. Do not test logos. Logos with text are exempt from this test.</br>
+Note: A Federal Agency's seal is not considered a logo. Text identifying the agency should be included in the description of the seal.
+2. Check that the image description includes the text in the image.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
 
-### Selector
-Image Maps
-
-### Test Instructions for 1.1.1
-1. Check that text alternatives identify and describe the purpose of the captcha
-1. Check that alternative forms of captcha are provided for different types of sensory perception disabilities
-
-#### Test Results
-* If any of the above checks fail, then this SC fails
 ## Baseline Requirement Outcome
 * If any SC fails, then this baseline fails
