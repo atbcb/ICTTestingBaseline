@@ -20,27 +20,26 @@ Flashing can be caused by the display, the computer rendering the image or by th
 ### Selector (Identify Content)
 1. Visually identify interface components that flicker.
 
-### Test Instructions
+### Test Instructio
 
 #### Tests for SC 2.3.1
 <ol>
-<li> For each element visually identified as flickering, determine if the contiguous flicker area is less than 21,824 sq pixels.</li>
-   <ul>
-   <li> If so, proceed to the next text step. </li>
-   <li> If not, this test fails. </li>
-   </ul>
- <li> Determine if the flickering element has been programmatic set to a frequency below 3 Hz. </li>
+ <li> For each element visually identified as flickering, determine if the flickering element has been programmatic set to a frequency below 3 Hz. </li>
     <ul>
-    <li> If it is, this test passes and the element is *conformant for all users.*</li>
-    <li> If it is not, this test fails. </li>
+    <li> If so, this test passes and the element is *conformant for all users.*</li>
+    <li> If not, proceed to the next text step.</li>
     </ul>
+  <li> For each element identified as flickering at a rate greater than 3 Hz, determine if the contiguous flicker area is less than 21,824 sq pixels.</li>   
+    <ul>  
+    <li> If so, this test passes and the element is *conformant for all users.*. </li>   
+    <li> If not, this test fails. </li>   
+    </ul>     
  </ol>
 
 ##### Test Results SC 2.3.1
-* If both tests pass, then the content is conformant to SC 2.3.1.
-* If test 2 passes, it is *conformant for all users.*
-* If only test 1 passes, it is conformant *for users who are not enlarging the area by using screen magnifiers.*
-* If test 1 and test 2 fail, the content is not conformant to 2.3.1.
+* If test 1 passes, the content is conformant to this SC.
+* If test 1 fails and test 2 passes, it is conformant *for users who are not enlarging the area by using screen magnifiers.*
+* If test 1 and test 2 fail, the content fails this SC.
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
