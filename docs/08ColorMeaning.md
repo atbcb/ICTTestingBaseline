@@ -12,7 +12,7 @@ This requirement does not mean that color cannot be used; it means that color ca
 * WCAG SC 1.3.3 Sensory Characteristics 
   
 ## Limitations, Assumptions, or Exceptions
-* Exception: A page with only one heading on the page does not have a heading level structure and would not be tested
+None
 
 ## Test Procedure
 ### Selector (Identify Content)
