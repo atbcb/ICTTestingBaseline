@@ -4,8 +4,9 @@ A Web page must have a programmatic title that identifies the Web page and makes
 
 ## Accessibility Requirements
 * WCAG2 SC: 2.4.2 Page titled
-  * Technique G88: Providing descriptive titles for Web page
-  * Technique H25: Providing a title using the title element
+  * Technique G88: Providing descriptive titles for Web page 
+  * Technique G127: Identifying a Web page's relationship to a larger collection of Web pages
+  * Technique H25: Providing a title using the title element 
   * F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents
 
 ## Limitations, Assumptions, Exceptions
