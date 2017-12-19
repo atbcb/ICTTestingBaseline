@@ -13,9 +13,27 @@ Read-only (e.g. pre-filled) form fields are considered interactive, in that they
 
 ## Accessibility Requirements
 * WCAG2 1.3.1 Info and Relationships: Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text. 
-* WCAG2 3.3.1 Error Identification: If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
+   * G115: Using semantic elements to mark up structure.
+   * H44: Using label elements to associate text labels with form controls 
+   * H65: Using the title attribute to identify form controls when the label element cannot be used
+   * H71: Providing a description for groups of form controls using fieldset and legend elements
+   * H85: Using OPTGROUP to group OPTION elements inside a SELECT 
+  * WCAG2 3.3.1 Error Identification: If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
+   * G83: Providing text descriptions to identify required fields that were not completed 
+   * ARIA21: Using Aria-Invalid to Indicate An Error Field   
 * WCAG2 3.3.2 Labels or Instructions: Labels or instructions are provided when content requires user input.
+   * G131: Providing descriptive labels using previously noted techniques (in 1.3.1) or one of the following: 
+      * ARIA1: Using the aria-describedby property to provide a descriptive label for user interface controls 
+      * ARIA9: Using aria-labelledby to concatenate a label from several text nodes 
+      * ARIA17: Using grouping roles to identify related form controls 
+      * G89: Providing expected data format and example 
+      * G184: Providing text instructions at the beginning of a form or set of fields that describes the necessary input 
+      * G162: Positioning labels to maximize predictability of relationships 
+      * G83: Providing text descriptions to identify required fields that were not completed 
+      * H90: Indicating required form controls using label or legend 
+   * G167: Using an adjacent button to label the purpose of a field 
 * WCAG2 3.3.3 Error Suggestion: If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.
+
 * WCAG2 3.3.4 Error Prevention (Legal, Financial, Data): For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
    1. Reversible: Submissions are reversible.
    1. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
