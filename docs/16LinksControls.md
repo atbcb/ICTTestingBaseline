@@ -27,7 +27,7 @@ Scripting Languages (e.g., JavaScript) can be used to attach a function to an el
    1. the purpose of the link/control is is supposed to be unknown or obscured.
 
 ##### Test Results for SC 2.4.4, 4.1.2
-* If any of the above checks fail, then the content fails this SC.
+* If both of the above checks fail, then the content fails this SC.
 
 ## Baseline Requirement Outcome
 * If no content fails, then the content passes the Baseline Requirement
