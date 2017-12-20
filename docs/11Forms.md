@@ -13,32 +13,49 @@ Read-only (e.g. pre-filled) form fields are considered interactive, in that they
 
 ## Accessibility Requirements
 * WCAG2 1.3.1 Info and Relationships: Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text. 
-   * G115: Using semantic elements to mark up structure.
-   * H44: Using label elements to associate text labels with form controls 
-   * H65: Using the title attribute to identify form controls when the label element cannot be used
-   * H71: Providing a description for groups of form controls using fieldset and legend elements
-   * H85: Using OPTGROUP to group OPTION elements inside a SELECT 
-  * WCAG2 3.3.1 Error Identification: If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
-   * G83: Providing text descriptions to identify required fields that were not completed 
-   * ARIA21: Using Aria-Invalid to Indicate An Error Field   
+    * G115: Using semantic elements to mark up structure.
+    * H44: Using label elements to associate text labels with form controls.
+    * H65: Using the title attribute to identify form controls when the label element cannot be used.
+    * H71: Providing a description for groups of form controls using fieldset and legend elements.
+    * H85: Using OPTGROUP to group OPTION elements inside a SELECT.
+* WCAG2 3.3.1 Error Identification: If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
+    * G83: Providing text descriptions to identify required fields that were not completed.
+    * ARIA21: Using Aria-Invalid to Indicate An Error Field.
 * WCAG2 3.3.2 Labels or Instructions: Labels or instructions are provided when content requires user input.
-   * G131: Providing descriptive labels using previously noted techniques (in 1.3.1) or one of the following: 
-      * ARIA1: Using the aria-describedby property to provide a descriptive label for user interface controls 
-      * ARIA9: Using aria-labelledby to concatenate a label from several text nodes 
-      * ARIA17: Using grouping roles to identify related form controls 
-      * G89: Providing expected data format and example 
-      * G184: Providing text instructions at the beginning of a form or set of fields that describes the necessary input 
-      * G162: Positioning labels to maximize predictability of relationships 
-      * G83: Providing text descriptions to identify required fields that were not completed 
-      * H90: Indicating required form controls using label or legend 
-   * G167: Using an adjacent button to label the purpose of a field 
+    * G131: Providing descriptive labels using noted techniques (in 1.3.1) or one of the following:
+        * ARIA1: Using the aria-describedby property to provide a descriptive label for user interface controls.
+        * ARIA9: Using aria-labelledby to concatenate a label from several text nodes. 
+        * ARIA17: Using grouping roles to identify related form controls 
+        * G89: Providing expected data format and example 
+        * G184: Providing text instructions at the beginning of a form or set of fields that describes the necessary input 
+        * G162: Positioning labels to maximize predictability of relationships 
+        * G83: Providing text descriptions to identify required fields that were not completed 
+        * H90: Indicating required form controls using label or legend 
+    * G167: Using an adjacent button to label the purpose of a field 
 * WCAG2 3.3.3 Error Suggestion: If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.
-
-* WCAG2 3.3.4 Error Prevention (Legal, Financial, Data): For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
+    * Mandatory fields should meet the following standards:
+        * G83: Providing text descriptions to identify required fields that were not completed.
+        * ARIA2: Identifying a required field with the aria-required property.
+    * If the mandatory field also requires information to be provided in a specific data format, these standards also apply:
+        * ARIA18: Using aria-alertdialog to Identify Errors.
+        * G85: Providing a text description when user input falls outside the required format or values.
+        * G177: Providing suggested correction text.
+        * SCR18: Providing client-side validation and alert.
+        * SCR32: Providing client-side validation and adding error text via the DOM. 
+    * If the mandatory field also requires selection of one option from a limited set of values, these standars also apply:
+        * ARIA18: Using aria-alertdialog to Identify Errors. 
+        * G84:Providing a text description when the user provides information that is not in the list of allowed values. 
+        * G177: Providing suggested correction text. 
+        * SCR18: Providing client-side validation and alert. 
+        * SCR32: Providing client-side validation and adding error text via the DOM.
+* WCAG2 3.3.4 Error Prevention (Legal, Financial, Data): For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true: 
    1. Reversible: Submissions are reversible.
    1. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
    1. Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
-* WCAG 4.1.2 Name, Role Value: For all user interface components (including but not limited to: form elements, links and components generated by scripts), the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.
+
+
+* WCAG 4.1.2 Name, Role Value: For all user interface components (including but not limited to: form elements, links and components
+generated by scripts), the name and role can be programmatically determined; states, properties, and values that can be set by the user can be programmatically set; and notification of changes to these items is available to user agents, including assistive technologies.
 
 ## Tests for SC 1.3.1, 3.3.2, 4.1.2
 ### Selector (Identify Content)
