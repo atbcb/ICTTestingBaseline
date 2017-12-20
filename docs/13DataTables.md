@@ -12,6 +12,7 @@ For sighted users, the process of determining table structures and relationships
 
 ## Limitations, Assumptions, Exceptions
 * Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table. This requirement applies to data tables only.
+* The use of table elements for layout purposes is discouraged. No other elements associated with data tables are permitted to be used for table layout purposes, such as `<th>`, `<td>`, `<summary>`, or `<caption>`.
 
 ## Test Procedures 
 ### Selector (Identify Content)
