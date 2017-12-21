@@ -2,8 +2,8 @@
 ## Rationale
 ### Test Rationale
 Wherever users are expected to interact with components, it must be possible for users to get to those components or perform those functions using only the keyboard, because using a mouse is not possible when: 
-* the user has no sight
-* the user does not have the physical capability / dexterity to effectively control a pointing device.
+* The user has no sight
+* The user does not have the physical capability / dexterity to effectively control a pointing device.
 
 ### Test Method Rationale
 Ideally interfaces should use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc.), making their use easy and efficient. 
