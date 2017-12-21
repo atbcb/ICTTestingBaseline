@@ -16,7 +16,7 @@ At this time the baseline tests do not address the use of Tablet PCs or other po
 ## Accessibility Requirements
 WCAG SC  2.1.1 Keyboard – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints. 
 
-WCAG SC 2.1.2 No keyboard trap – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
+WCAG SC 2.1.2 No Keyboard Trap – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 
 ## Limitations, Assumptions, or Exceptions
 * Access must be via a physical keyboard. Specifically excluded from this test is the use of an on-screen keyboard, or using the Mouse-Keys feature in Windows.
