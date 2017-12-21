@@ -37,8 +37,9 @@ Visual headings and headings structure on the page. Headings are often in a larg
       1. The most important heading should have the level of 1, and the least important heading should have a level of 6. 
       1. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. 
       1. Either of these techniques is acceptable for each heading:
-            * H42: each heading is marked with `<h1>` to `<h6>`.
-            * ARIA12: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required. For multiple heading levels, 'aria-level' must be specified.
+          * H42: each heading is marked with `<h1>` to `<h6>`.
+          * ARIA12: each heading is marked with `role=”heading”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required. For multiple heading levels, 'aria-level' must be specified.
+1. Check that programmatic headings are not used on elements that are not headings (F43).
 
 #### Test Results
 * If any of the above checks fails, this SC fails
