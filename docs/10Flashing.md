@@ -13,7 +13,7 @@ Flashing can be caused by the display, the computer rendering the image or by th
 * WCAG2: 2.3.2 Three Flashes
    
 ## Limitations, Assumptions, or Exceptions. 
-* There is no known method to test the flicker rate resulting from the computer or hardware.
+* There is no reliable, widely available method to test the flicker rate resulting from the computer or hardware.
 * Exceptions: N/A
 
 ## Test Procedure
@@ -24,7 +24,7 @@ Flashing can be caused by the display, the computer rendering the image or by th
 
 #### Tests for SC 2.3.1
 <ol>
-<li> For each element visually identified as flickering, determine if the contiguous flicker area is less than 21,824 sq pixels.</li>
+<li> For each element visually identified as flickering, determine if the contiguous flicker area is less than the equivalent of 21,824 sq pixels at intended viewing distance.</li>
    <ul>
    <li> If so, proceed to the next text step. </li>
    <li> If not, this test fails. </li>
