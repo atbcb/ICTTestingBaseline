@@ -27,11 +27,7 @@ Read-only (e.g. pre-filled) form fields are considered interactive, in that they
 1. Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, error messages, error correction suggestions, etc. 
 
 ### Test Instructions
-1. Check that each form field/control is programmatically related to all its relevant instructions and cues (textual and graphical), including groupings, order of completion, special conditions or qualifiers, input formatting, etc. This may be done using methods such as (but not restricted to):
-   * fieldset-legend grouping
-   * label-for association
-   * aria labeling (e.g. aria-labeledby, aria-label)
-   * the TITLE attribute
+1. Check that each form field/control is programmatically related to all its relevant instructions and cues (textual and graphical), including groupings, order of completion, special conditions or qualifiers, input formatting, etc. Check that the accessible name and accessible description are adequate. Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description.
 
 ##### Test Results for SC 3.3.1, 3.3.2
 * If any of the above checks fail, then the content fails these SCs.
@@ -58,7 +54,7 @@ Note: The above may be accomplished by using a combination of methods, such as
 1. Enter incorrect values in each input fields in order to trigger and display error information (there may be multiple error conditions). Determine instances where an input error is automatically detected and suggestions for correction are known.
 
 ### Test Instructions
-1. If an input error is automatically detected and suggestions for correction are known, check whether providing those  suggestions would jeopardize the security or purpose of the content.
+1. If an input error is automatically detected and suggestions for correction are known, check whether providing those suggestions would jeopardize the security or purpose of the content.
    1. If yes, move to the next element to test.
    1. If no, check that these suggestions are provided to the user using a conformant method.
    
