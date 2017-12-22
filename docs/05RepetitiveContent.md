@@ -35,7 +35,7 @@ Look for blocks of content that are repeated on multiple pages, such as navigati
 2.	Check that a method is provided to skip past repetitive content.
     * Note: Some skip methods may not be visible until they receive focus.
     * The following methods are also acceptable:
-      * H69: Providing heading elements at the beginning of each section of content. <<KE: I would remove this bc it requires AT or a plug-in to work as a skip method.>>
+      * H69: Providing heading elements at the beginning of each section of content. <<KE: I would remove this bc it requires AT or a plug-in to work as a skip method.>> <<CS: requesting comments about this topic, since it may depend on special features in certain browsers>>
       * SCR28: Using an expandable and collapsible menu to bypass block of content.
       * ARIA11: Using ARIA landmarks to identify regions of a page. <<KE: I would remove this bc it requires AT or a plug-in to work as a skip method.>>
       * SL29: Using Silverlight "List" Controls to Define Blocks that can be Bypassed. <<KE: I would remove this from the Web baseline, for now. It is software technology-specific so I don't think it should go in even under SW baseline.>>
