@@ -3,6 +3,10 @@
 ### Test Rationale
 Labels, instructions, directions and cues (including error messages) necessary to complete a form must be programmatically associated with their respective input control in order to provide equivalent information to AT users, especially in cases where a given form component may be the subject of instructions that are not positioned next to the component.
 
+Error suggestions should be provided in an accessible manner where they would not jeopardize the security or content of the page.
+
+For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, ensure that submissions are reversible, checked for input errors and correctable, and/or presented for review and confirmation before completing the submission.
+
 Read-only (e.g. pre-filled) form fields are considered interactive, in that they need to receive keyboard focus and must be labeled.
 
 ### Test Method Rationale
