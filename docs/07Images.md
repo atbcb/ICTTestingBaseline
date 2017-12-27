@@ -1,6 +1,6 @@
 # 7. Images
 ## Rule Description (in plain language)
-Images must have a text alternative that serves the equivalent purpose.
+Images must have a text alternative that serves the equivalent purpose. Meaningful images should have a text alternative that describes the meaning or content that is displayed visually. Decorative images should be programmatically ignored by assistive technology.
 
 ## Accessibility Requirements
 * WCAG2 SC: 1.1.1. Non-Text 
@@ -23,33 +23,56 @@ Images must have a text alternative that serves the equivalent purpose.
   * *(not really a Web image) Technique [H35](https://www.w3.org/TR/WCAG20-TECHS/H35.html): Providing text alternatives on applet elements; refer to Software Baseline for testing the applet contents; support for JAVA is best in IE*
 
 * WCAG2 SC: 1.4.5 Images of Text
-  * *(this failure should go under contrast baseline) Failure [F83](https://www.w3.org/TR/WCAG20-TECHS/F83.html): Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)*
+  * *(this failure should go under Contrast baseline) Failure [F83](https://www.w3.org/TR/WCAG20-TECHS/F83.html): Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)*
 * WCAG2 SC: 4.1.2 Name, Role, Value
-  * Failure [F89](https://www.w3.org/TR/WCAG20-TECHS/F89.html): Failure of Success Criteria ~~2.4.4, 2.4.9 and~~ 4.1.2 due to not providing an accessible name for an image which is the only content in a link
+  * *(this failure should go under Links baseline) Failure [F89](https://www.w3.org/TR/WCAG20-TECHS/F89.html): Failure of Success Criteria ~~2.4.4, 2.4.9 and~~ 4.1.2 due to not providing an accessible name for an image which is the only content in a link*
 
 ## Limitations, Assumptions, Exceptions
  * Image formats include .jpg, .png, .svg, .gif, .tiff, .bmp.
  * Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
- * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities. ([G143](https://www.w3.org/TR/WCAG20-TECHS/G143.html) and [G144](https://www.w3.org/TR/WCAG20-TECHS/G144.html) are specific to captchas. <<<Should this be a separate baseline test?) 
+ * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities. ([G143](https://www.w3.org/TR/WCAG20-TECHS/G143.html) and [G144](https://www.w3.org/TR/WCAG20-TECHS/G144.html) are specific to captchas.)  
  * Font icons are considered a form of ASCII art, graphics generated with text.
  * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5.  Logotypes (text that is part of a logo or brand name) are considered essential.
  
 ## Test Procedures 
 ### Selector
-Meaningful Images
+Meaningful Images that convey information
 
 ### Test Instructions for 1.1.1
 1. Review the accessible name and accessible description properties of the meaningful image.
-  * Numerous attributes contribute to the computation of the accessible name and accessible description. 
-  * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
-2. Check that the combination of accessible name and accessible description provide an equivalent description and purpose.
+   * Numerous attributes contribute to the computation of the accessible name and accessible description. 
+   * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+2. Check that the combination of accessible name and accessible description provide an equivalent description.
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Test Instructions for 4.1.2
+1. Review the role of the meaningful image.
+1. Check that the role is image.
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+## Test Procedures 
+### Selector
+Functional Images used to initiate actions <<this may be better under interactive elements? links, buttons, image maps
+
+### Test Instructions for 1.1.1
+1. Review the accessible name and accessible description properties of the functional image.
+   * Numerous attributes contribute to the computation of the accessible name and accessible description. 
+   * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+2. Check that the combination of accessible name and accessible description provide an equivalent description and/or purpose. The accessible name/description of the image should convey the action that will be initiated (the purpose of the image). 
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
 
 ### Test Instructions for 4.2.1
-1. Review the role of the meaningful image.
-1. Check that the role is image.
+1. Review the role of the functional image.
+1. Check that the role describes its function.
+
+### Test Instructions for 2.1.1
+1. Check that each functional image can be accessed by keyboard only. If an image map, each functional region of the map must be keyboard accessible.
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
@@ -59,14 +82,14 @@ Decorative Images
 
 ### Test Instructions for 1.1.1
 1. Review the accessible name and accessible description properties of the decorative image.
-  * Numerous attributes contribute to the computation of the accessible name and accessible description. 
-  * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+   * Numerous attributes contribute to the computation of the accessible name and accessible description. 
+   * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
 2. Check that the combination of accessible name and accessible description are empty. An acceptable alternate method is for the role to be "presentation".
 
 #### Test Results
 * If any of the above checks fail, then this SC fails
 
-### Test Instructions for 4.2.1
+### Test Instructions for 4.1.2
 1. Review the role of the decorative image.
 1. Check that the role is presentation. An acceptable alternate method is an empty accessible name/description.
 
@@ -74,10 +97,10 @@ Decorative Images
 * If any of the above checks fail, then this SC fails
 
 ### Selector
-Icon Fonts
+Meaningful Icon Fonts (decorative but meaningful)
 
 ### Test Instructions for 1.1.1
-1. Check that the icon font has aria-hidden set to true. <<Kathy question: does role="presenation" work here?
+1. Check that the icon font has aria-hidden set to true. <<Kathy question: does role="presentation" work here? I don't think so since it removes the description but double check.
 2. Check that meaningful icon fonts have a text equivalent (accessible name/description).
 
 #### Test Results
@@ -87,7 +110,7 @@ Icon Fonts
 Images of Text
 
 ### Test Instructions for 1.4.5
-1. Logos with text are exempt from this test.
+1. Do not test logos. Logos with text are exempt from this test.
 2. Check that the image of text can be visually customized to a user's requirements
 
 #### Test Results
@@ -95,6 +118,32 @@ Images of Text
 
 ### Selector
 Captcha; *sidenote: [recaptcha example](https://www.google.com/recaptcha/api2/demo?invisible=true)*
+
+### Test Instructions for 1.1.1
+1. Check that text alternatives identify and describe the purpose of the captcha
+1. Check that alternative forms of captcha are provided for different types of sensory perception disabilities
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Test Instructions for 2.1.1
+1. Check that the captcha can be complated by keyboard only.
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Selector
+Images of Text
+
+### Test Instructions for 1.4.5
+1. Do not test logos. Logos with text are exempt from this test.
+2. Check that the image of text can be visually customized to a user's requirements. For example, a Web site allows users to specify font settings and all images of text on the site are then provided based on those settings.
+
+#### Test Results
+* If any of the above checks fail, then this SC fails
+
+### Selector
+Image Maps
 
 ### Test Instructions for 1.1.1
 1. Check that text alternatives identify and describe the purpose of the captcha
