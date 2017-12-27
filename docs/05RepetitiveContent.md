@@ -28,7 +28,7 @@ Blocks of content that are repeated on multiple pages including navigation links
 
 ### Tests for SC 2.4.1
 1.	Use the keyboard to navigate toward repetitive blocks of content. Some bypass functions may not be visible until they receive focus.
-2.	Check that a method is provided to bypass repetitive content before the repetitive content.    
+2.	Check that a keyboard-accessible method is provided to bypass repetitive content.
 3.	Use the keyboard to verify the functionality of the bypass function.
     * Activate the bypass function. 
     * Check that the focus is shifted past the repetitive content. If there is only text/no interactive component to recieve the shift of focus, it may not be evident that a focus shift occurred.
