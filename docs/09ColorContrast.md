@@ -29,7 +29,7 @@ Select all text AND images of text that meet the following criteria:
 
 #### Tests for 1.4.3
 
-1. Determine the contrast ration of foreground text and background.
+1. Determine the contrast ratio of foreground text and background.
 1. Check that the contrast ratio is at least 4.5:1. 
 1. If the contrast ratio less than 4.5:1 but at least 3:1, check that the font size meets one of the following criteria:
     * At least 18 point (23.94 pixels)
