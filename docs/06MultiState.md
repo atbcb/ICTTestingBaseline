@@ -1,6 +1,10 @@
 # 6. Multi-state components
 ## Rationale
+### Requirement Rationale
 Components that can change their state must reveal their current state and function to Assistive Technology. States include such things as closed/open, sorted in ascending-order/descending-order, collapsed/expanded, and dynamic values that are shown on components (e.g., "34 characters remaining" **only if on the component itself, e.g. if shown in the text area, not outside? or (if outside) it should be the count that is evaluated?**, "Alert Priority 5"). *live regions?*
+
+### Test Method Rationale
+To identify visual changes to information and compoenent states and correlation with equivalent programmatic and/or textual information requires manual inspection of changes to content and related programmatic attributes.
 
 ## Accessibility Requirements
 * WCAG2 SC 1.1.1 Non-text Content: All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below. Controls, Input: If non-text content is a control or accepts user input, then it has a name that describes its purpose.
@@ -11,21 +15,22 @@ Components that can change their state must reveal their current state and funct
 
 ## Limitations, Assumptions, or Exceptions
 
-## Test Procedure for SC 1.1.1, 1.3.1, 1.3.3, 1.4.1, 4.1.2 <<KE: remove 1.3.1 and 1.3.3>>
+## Test Procedure for SC 1.1.1, 1.3.1, 1.4.1, 4.1.2
 
-### Selector (Identify Content)
+### Select/Identify Content
 Identify components that indicate more than one status or can change their state. Examples include images, navigation trees, data table sort controls, etc. Note: It may be necessary to use the mouse to determine whether state changes occur on hover, or on click.
 
 ### Test Instructions
-1. Determine the information that is conveyed visually (or by other sensory means) by the component about its current state.
+1. Determine the information that is conveyed visually by the component about its current state.
 1. Check that the accessible name, role and state, when considered together, provide this same information about its current state.
+   1. If information about the current state of component is not available programmatically, check that equivalent text is provided that conveys the same information.
    1. If this test fails, and color is also the sole means of conveying state change, SC 1.4.1 fails in addition to all the other SCs listed.
 1. Change the state of the component and repeat steps 1 and 2 for each possible state.
    1. Depending on the component, a change of state may be triggered by various actions, such as activation, toggling a function, entering data in the component, mouseover, etc.
 
 * Note: If the number of possible states is too large or infinite, a sampling approach may be used.
 
-#### Test Results
+### Test Results
 * If step 2 fails, these SCs fail: 1.1.1, 1.3.1, 1.3.3, 4.1.2 <<KE: remove 1.3.1 and 1.3.3>>
 * If step 2 fails because color is the sole means of conveying state change, then 1.4.1 also fails
 
