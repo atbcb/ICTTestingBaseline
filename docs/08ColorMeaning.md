@@ -1,9 +1,11 @@
 # 8. Color and Sensory Characteristics
 ## Rationale
 ### Requirement Rationale
-Color dependence is defined as using color as the sole means to convey information. For example, a list of flights that displays delayed flights in red font would be color dependent. When color is the only means to convey information, people who have problems distinguishing between colors do not have access to the same information that others have. The status or function that is being conveyed by color also needs to be available in a textual format that can be viewed onscreen, and can be read by screen reader software.
+Color dependence is defined as using color as the sole means to convey information. For example, a list of flights that displays delayed flights in red font would be color dependent. When color is the only means to convey information, people who have difficulty distinguishing between colors (Color Vision Deficiency) do not have access to the same information that others have. The status or function that is being conveyed by color also needs to be available in a textual format that can be viewed onscreen, and can be read by screen reader software.
 
 This requirement does not mean that color cannot be used; it means that color cannot be the only means of conveying the information.
+
+<<AN: Need to add language to discuss rationale for Sensory Characteristics requirement and test method>>
 
 ### Test Method Rationale
 <<AN: Add text to explain why we are conducting the test the way we have outlined>>
