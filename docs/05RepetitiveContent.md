@@ -1,6 +1,6 @@
 # 5. Repetitive Content
 ## Rationale
-### Test Rationale
+### Requirement Rationale
 A method must be provided to skip blocks of repeated content or links on pages, allowing a user to move directly to page-specific content.
 
 Groups of navigation links are usually provided along the top and/or left of multiple pages to provide quick navigation to other areas of a Web site. In addition, some groups of pages may repeat blocks of content (other than navigational controls).
@@ -15,8 +15,8 @@ Like other controls, the skip-navigation link must be keyboard navigable and rec
 ### Test Method Rationale
 To enable equitable use by keyboard-only users, there must be a keyboard-accessible method to skip past repetitive content. 
 
-## Accessibility Requirement
-WCAG SC 2.4.1 Bypass Blocks - A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
+## Accessibility Requirements
+* WCAG SC 2.4.1 Bypass Blocks -- A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
 
 ### Related Standards
 * WCAG SC 2.1.1 Keyboard
@@ -29,15 +29,15 @@ Access must be via a physical keyboard. Specifically excluded from this test is 
 
 At this time the baseline tests herein cover use of software and Web sites on PCs (i.e., desktops and laptops) that have a keyboard as a primary input device. Tablet PCs and software running on other portable devices are not addressed in the baseline tests.
 
-## Test Procedure
-### Selector (Identify Content)
+## Test Procedure for SC 2.4.1 Bypass Blocks
+### Select/Identify Content
 Look for blocks of repeated content, such as navigation links, that should provide a method to skip past them.
 * Small repeated sections such as individual words, phrases or single links are not considered blocks for the purposes of this provision.
 * Most web browsers provide keyboard shortcuts to move the user focus to the top of the page, so if a set of navigation links is provided at the bottom of a web page providing a "skip" link may be unnecessary. 
 * Repeated content that is contained in its own separate frame is not included in this test.
 
-### Tests for SC 2.4.1
-1.	Use the keyboard to navigate toward repetitive blocks of content. (See Selector section for exceptions.)
+### Test Instructions
+1.	Use the keyboard to navigate toward repetitive blocks of content. (See Select/Identify Content section for exceptions.)
 2.	Check that a method is provided to skip past repetitive content.
     * Note: Some skip methods may not be visible until they receive focus.
     * The following methods are also acceptable:
@@ -49,12 +49,13 @@ Look for blocks of repeated content, such as navigation links, that should provi
     * Activate the skip function.
     * Check that the focus is shifted to after the repetitive content.
 
-### Results for SC 2.4.1 
+### Test Results
 Selected blocks of repetitive content will either have a functioning method to skip that content or not.
-* If any of the above checks fail, then the content fails this SC
+
+If any of the above checks fail, then the content fails this SC
 
 ## Baseline Requirement Outcome
-* If no content fails, then the content passes the Baseline Requirement
+If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
 * If Skip-navigation methods are present but cannot be activated by keyboard, this is also a failure of the Keyboard test (#1).
