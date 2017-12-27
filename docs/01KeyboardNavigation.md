@@ -1,62 +1,59 @@
-# 1. Keyboard navigation
+# 1. Keyboard Access
 ## Rationale
 ### Test Rationale
 Wherever users are expected to interact with components, it must be possible for users to get to those components or perform those functions using only the keyboard, because using a mouse is not possible when: 
-* the user has no sight
-* the user does not have the physical capability / dexterity to effectively control a pointing device.
+* The user has no sight
+* The user does not have the physical capability / dexterity to effectively control a pointing device.
 
 ### Test Method Rationale
 Ideally interfaces should use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc.), making their use easy and efficient. 
 On occasion, an interface may be designed to expand on the basic set of standard keyboard commands; and/or remap standard keys. In both of these cases, users must be notified of the existence of non-standard key commands and their correct use.
 
-**Notes:**
-* Access must be via a physical keyboard. Specifically excluded from this test is the use of an on-screen keyboard, or using the Mouse-Keys feature in Windows.
-At this time the baseline tests do not address the use of Tablet PCs or other portable devices.
+
+Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. This test rule validates a keyboard-only user’s ability to move focus away from components. 
 
 ## Accessibility Requirements
 WCAG SC  2.1.1 Keyboard – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints. 
 
-WCAG SC 2.1.2 No keyboard trap – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
+WCAG SC 2.1.2 No Keyboard Trap – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 
 ## Limitations, Assumptions, or Exceptions
-* Access must be via a physical keyboard. Specifically excluded from this test is the use of an on-screen keyboard, or using the Mouse-Keys feature in Windows.
-* At this time the baseline tests herein cover use of software and Web sites on PCs (i.e., desktops and laptops) that have a keyboard as a primary input device. Tablet PCs and software running on other portable devices are not addressed in the baseline tests.
+* This test was written to be performed on a standard physical keyboard for a Windows PC. While keyboard emulators (such as on-screen keyboards, alternate keyboards, speech input, etc.) may be utilized, testing instructions may differ. Mouse Keys (a Windows and Mac OS feature that enables control of the mouse pointer by keyboard) is not a keyboard emulator.
+* The baseline tests do not cover touch access for devices such as mobile phones and tablets. *Comment KE: This should probably go in a general baseline summary, rather than here in an individual baseline.*
 
 ## Test Procedure
-Keyboard access and control must be available for all interactive content. This test procedure validates whether an individual can use a keyboard to navigate to and through all content and perform all intended content functions. 
+Keyboard access and control must be available for all functionality of the content. This test procedure validates whether an individual can use a keyboard to perform all intended functionality of the content. 
 
-Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist. This test rule also validates whether an interface documents non-standard commands to facilitate navigation and interaction with content.
+Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist. 
 
-Some users with mobility impairments use a keyboard to access and control content. Content interaction that requires specific timing for individual keystrokes can prevent or impede the ability to perform intended functions for some users with mobility impairments. This test rule validates whether a keyboard-only user can navigate through and interact with components WITHOUT the requirement for specific timing for individual keystrokes.
+Some users with mobility impairments use a keyboard to access and control content. Content interaction that requires specific timing for individual keystrokes can prevent or impede the ability to perform intended functions for some users with mobility impairments. This test rule validates whether a keyboard-only user can navigate through all content and perform all intended functionality of the content WITHOUT the requirement for specific timing for individual keystrokes.
 
 ### Selector (Identify Content)
-Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
+All functionality of the content that is available by mouse control must be keyboard accessible. Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
 ### Test Instructions
 #### Tests for SC 2.1.1
-1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, AND activate all interface components.
-    1. Check that the interactive interface component is navigable and that its function (if applicable) can be activated or performaed via standards keyboard commands.
-1. Inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys). An interface must clearly document non-standard keyboard commands to include instructions for: xtending standard keyboard command operations (e.g., getting out of a keyboard "trap"); and/or Remapped or alternate keys.
-    1. If alternate keyboard commands are provided for navigating and/or activating interactive interface components, check that the interactive interface component is navigable and/or that its function can be activated or performed using alternate keyboard commands AND that the interface clearly documents and clearly notifies the user of available, non-standard keyboard commands. 
-    1. Verify that the non-standard keyboard commands enable navigation and interaction with content to overcome any deficiency found in step 1.
-1. Evaluate whether the interface’s underlying function requires input that depends on the path of the user's movement (e.g., free-hand drawing); if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes.
+1. Check that all functionality can be accessed and executed using only the keyboard.
+    1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, AND activate all interface components.
+    1.  Each of the individual mouse activated controls do not require keyboard access as long as there is a keyboard accessible method to perform the same function available on the page. 
+1. Inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys). An interface must clearly document non-standard keyboard commands to include instructions for: extending standard keyboard command operations (e.g., getting out of a keyboard "trap"); and/or remapped or alternate keys.
+    1. If alternate keyboard commands are required for navigating or performing a function, check that the commands work AND that the interface clearly documents and clearly notifies the user of available, non-standard keyboard commands. 
+1. Evaluate whether the interface’s underlying function requires input that depends on the path of the user's movement (e.g., free-hand drawing); if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes.*Comment from KE: I think this fits better under a Fundamental Alternation exception. From the [WCAG page](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html), this requirement wouldn't apply to inputs that are path dependent. I don't think we should ask a tester to determine that. Since we are 508, let's apply keyboard, test and fail it, and then it can get reviewed for the FA exception.*
     1. Check that keyboard navigation and interaction DOES NOT require specific timing for individual keystrokes. 
-    2. If keyboard navigation and interaction REQUIRES specific timing, then check that the interface’s underlying function REQUIRES input that depends on the path of the user's movement (e.g., free-hand drawing; if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes).
+    2. If keyboard navigation and interaction REQUIRES specific timing, then check that the interface’s underlying function REQUIRES input that depends on the path of the user's movement (e.g., free-hand drawing; if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes). 
 
 ##### Test Results for SC 2.1.1
 * If any of the above checks fail, then the content fails this SC
 
 #### Tests for SC 2.1.2
-Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. This test rule validates a keyboard-only user’s ability to move focus away from components. 
+Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. This test rule validates a keyboard-only user’s ability to move focus away from a component if keyboard focus can be moved to the component by keyboard. 
 
 Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist. This test rule also validates whether an interface documents non-standard commands to facilitate navigation and interaction with content.
 
-1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, and activate all interface components. There MUST be NO “TRAP” that disrupts keyboard navigation.
-1. Inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys). An interface must clearly document non-standard keyboard commands to include instructions for: Extending standard keyboard command operations (e.g., getting out of a keyboard "trap"); and/or  Remapped or alternate keys. 
+1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, and activate all interface components. There must be NO “TRAP” that disrupts keyboard navigation.
+1. Inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys). An interface must clearly document non-standard keyboard commands to include instructions for: extending standard keyboard command operations (e.g., getting out of a keyboard "trap"); and/or remapped or alternate keys. 
     1. Check that it is possible to move focus away from the interface component in both directions (forward and in reverse) using standard keyboard commands.
-    1. Check that:
-        1. it is possible to move focus away from the interface component (forward and in reverse) using alternate keyboard commands AND 
-        1. the user is advised, in an accessible manner, of available, non-standard keyboard commands necessary to navigate away from the interface component before the user encounters the the component. 
+    1. Check that the user is advised, in an accessible manner, of available, non-standard keyboard commands necessary to navigate away from the interface component before the user encounters the the component. 
 
 ##### Test Results for SC 2.1.2
 * If any of the above checks fail, then the content fails this SC
@@ -65,7 +62,7 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
 * If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
-* Keyboard access for Title content is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
+* Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
 * This test may be combined with tests for focus.
 * It may be useful to separate out a test for keyboard use, and then have a separate test for documentation of non-standard commands.
 * Tips and techniques for finding hidden content may be useful for testers.
