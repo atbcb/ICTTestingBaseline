@@ -9,6 +9,9 @@ Wherever users are expected to interact with components, it must be possible for
 Ideally interfaces should use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc.), making their use easy and efficient. 
 On occasion, an interface may be designed to expand on the basic set of standard keyboard commands; and/or remap standard keys. In both of these cases, users must be notified of the existence of non-standard key commands and their correct use.
 
+
+Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. This test rule validates a keyboard-only user’s ability to move focus away from components. 
+
 ## Accessibility Requirements
 WCAG SC  2.1.1 Keyboard – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints. 
 
@@ -47,8 +50,8 @@ Keyboard access and control includes the ability to navigate to AND away from in
 
 Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist. This test rule also validates whether an interface documents non-standard commands to facilitate navigation and interaction with content.
 
-1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, and activate all interface components. There MUST be NO “TRAP” that disrupts keyboard navigation.
-1. Inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys). An interface must clearly document non-standard keyboard commands to include instructions for: Extending standard keyboard command operations (e.g., getting out of a keyboard "trap"); and/or  Remapped or alternate keys. 
+1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, and activate all interface components. There must be NO “TRAP” that disrupts keyboard navigation.
+1. Inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys). An interface must clearly document non-standard keyboard commands to include instructions for: extending standard keyboard command operations (e.g., getting out of a keyboard "trap"); and/or remapped or alternate keys. 
     1. Check that it is possible to move focus away from the interface component in both directions (forward and in reverse) using standard keyboard commands.
     1. Check that the user is advised, in an accessible manner, of available, non-standard keyboard commands necessary to navigate away from the interface component before the user encounters the the component. 
 
@@ -59,7 +62,7 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
 * If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
-* Keyboard access for Title content is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
+* Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
 * This test may be combined with tests for focus.
 * It may be useful to separate out a test for keyboard use, and then have a separate test for documentation of non-standard commands.
 * Tips and techniques for finding hidden content may be useful for testers.
