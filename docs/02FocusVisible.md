@@ -18,12 +18,11 @@ WCAG SC 2.4.7 Any keyboard operable user interface has a mode of operation where
 
 ## Test Procedure
 ### Selector (Identify Content)
-Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) navigable by keyboard.
+All keyboard accessible components on the page. These components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) are navigable by keyboard.
 
 ### Tests for SC 2.4.7
-Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), and reveal hidden content.
-
-1. When navigating via keyboard, check that the interface component provides a visible indication of focus when focus is on the  component.
+1. Use keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each keyboard accessible component.
+1. Check that a visible indication of focus is provided when focus is on the  component.
 
 #### Test Results for SC 2.4.7
 * If any of the above checks fail, then the content fails this SC
