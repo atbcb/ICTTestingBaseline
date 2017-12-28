@@ -1,7 +1,7 @@
-# 6. Multi-state components
+# 6. Dynamic Content
 ## Rationale
 ### Requirement Rationale
-Components that can change their state must reveal their current state and function to Assistive Technology. States include such things as closed/open, sorted in ascending-order/descending-order, collapsed/expanded, and dynamic values that are shown on components (e.g., "34 characters remaining" **only if on the component itself, e.g. if shown in the text area, not outside? or (if outside) it should be the count that is evaluated?**, "Alert Priority 5"). *live regions?*
+Visual presentation of content changes generally make such changes evident to sighted users, but they can be difficult to impossible to discern for screen-reader users. Content changes could include component state changes (e.g.,   closed/open sections, sort order, collapsed/expanded menus), dynamic and/or calculated values (e.g., "34 characters remaining"), and automatically updating stock prices (e.g., via live regions). Content that changes in the course of a user's interaction with the content (including, but not limited to changes in text, component states, structure, relationships, or functionality) must provide a means by which the change in content is programmatically determinable or is otherwise available in text.
 
 ### Test Method Rationale
 To identify visual changes to information and compoenent states and correlation with equivalent programmatic and/or textual information requires manual inspection of changes to content and related programmatic attributes.
