@@ -23,20 +23,24 @@ To identify visual changes to information and compoenent states and to correlate
 
 ## Test Procedure for SC 1.1.1, 1.3.1, 4.1.2
 ### Select/Identify Content
-Identify content changes presented visually. Examples include images, navigation trees, data table sort controls, automatic information updates, etc. Note: It may be necessary to use the mouse to determine whether state changes occur on hover, or on click.
+Identify changes in presented content. Examples include changes to images, navigation trees, data table sort controls, automatic information updates, etc. 
+* It may be necessary to use the mouse to determine whether state changes occur on hover, or on click.
+* Depending on the component, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.
 
 ### Test Instructions
-1. Identify content and component state changes presented visually.
-1. Check that the accessible name, role and state, when considered together, provide this same information about its current state.
+1. Check that the page provides information programmatically about the changes in presented content.
+    * For changes to content [accessible name and description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) (e.g., name, role, state, title, value) when considered together, should provide the information about the change programmatically.
     * If information about the current state of component is not available programmatically, check that equivalent text is provided that conveys the same information.
-    * If this test fails, and color is also the sole means of conveying state change, SC 1.4.1 fails in addition to the other SCs addressed in this test ([Baseline 8. Color (meaning)](08ColorMeaning.md)).
+1. Check that the page provides equivalent programmatic notification of changes (e.g., appropriate use of ARIA live regions).
 1. Repeat steps 1 and 2 for observed content changes, including each possible state for multi-state components.
-    * Depending on the component, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.
 
-* **Note**: If the number of possible states is too large or infinite, a sampling approach may be used.
+* **Note**: If the number of possible states is too large, a sampling approach may be used.
 
 ### Test Results
-If any of the above checsk fail, these SCs fail: 1.1.1, 1.3.1, 4.1.2
+* If any of the above checks fail for non-text content, then SC 1.1.1 fails.
+* If check #1 or #2 fails, then SCs 1.3.1 and 4.1.2 fail.
+
+**Note:** If color is the sole means of presenting changes visually, [Baseline 8. Color (meaning)](08ColorMeaning.md)) would fail (SC 1.4.1).
 
 ## Baseline Requirement Outcome
 If any SC fails, this baseline fails.
