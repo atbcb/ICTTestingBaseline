@@ -1,8 +1,12 @@
 # 9. Color (contrast)
 ## Rationale
+### Requirement Rationale
 Many factors beyond the designer's control affect peoples' ability to discern between colors/shades, including age (contrast sensitivity reduces with age), screen brightness, ambient light, color blindness, and some types of low vision. 
 
 In general, the higher the level of contrast used, the more people will be able to see and use the content. 
+
+### Test Method Rationale
+<<AN: Need to add text to describe why we are testing the way we have outlined>>
 
 ## Accessibility Requirements
 * WCAG SC 1.4.3 Contrast (minimum) -- The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:
