@@ -5,17 +5,17 @@ Color dependence is defined as using color as the sole means to convey informati
 
 This requirement does not mean that color cannot be used; it means that color cannot be the only means of conveying the information.
 
-In the same way, other sensosry characteristics can limit understanding. For example, users who rely on screen readers cannot determine what content is being referenced with directional cues such "as at the bottom of the page" or "on the left". Similarly use of sound to indicate the correct answer was selected would also need a visual cue to allow users without hearing to receive the same information. Use of only a graphic symbol, shape, location, or sound makes content or instructions inaccessible to some users. 
+In the same way, other sensosry characteristics can limit understanding. For example, users who rely on screen readers cannot determine what content is being referenced with directional cues, such as "at the bottom of the page" or "on the left"; reference to the shape of an object; or description of an object's color. Similarly, use of sound to indicate the correct answer was selected would also need a visual cue to allow users without hearing to receive the same information. Use of ***only*** a graphic symbol, shape, location, or sound makes content or instructions inaccessible to some users. 
 
 ### Test Method Rationale
-Users impacted by this requirement may not utilize assisstive technology, such as users with Color Vision Deficiency. Others using AT may not have a way to determine shape, size, location, or perceive sound. Visual inspection is required to determine the adequacy of instructions or content to account for any limitations of sensory or color perceptions.
+Users affected by this requirement are not limited to users of assistive technology (AT), such as those with Color Vision Deficiency. Others using AT may not have a way to determine shape, size, location, or perceive sound. Visual inspection is required to determine the adequacy of instructions or content to account for any limitations of sensory or color perceptions.
 
 ## Accessibility Requirements
 * WCAG SC 1.4.1 Use of Color -- Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
 * WCAG SC 1.3.3 Sensory Characteristics -- Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.
   
 ## Limitations, Assumptions, or Exceptions
-
+* This requirement does not prohibit the use of color or sensory characteristics to provide information, directions, or cues. However, they must be used in conjunction with contextual, textual, and/or programmatic cues.
 
 ## Test Procedure for SC 1.4.1 Use of Color
 ### Select/Identify Content
@@ -38,9 +38,9 @@ Identify any instances where information or instructions rely on sensory informa
 ### Test Instructions
 1. Check that the reference contains additional information that allows the item to be located and identified without any knowledge of its shape, size, or relative position. For instance, 
     * To see your changes, select the round button labeled "Go".
-    * The links on the right under the heading 'Resources' provide further information.
-    * Select the lower right (Cancel) button to close this session.
-2. Check that visual cues are provided along with the use of sound. For instance,  
+    * The links on the right, with the heading "Resources", provide further information.
+    * Select the lower-right [Cancel] button to close this session.
+2. Check that any auditory cues also provide programmatically determinable visual and/or textual cues. For instance,  
     * At the sound of the beep and the appearance of the timer, begin the quiz.
 
 ### Test Results
@@ -51,4 +51,4 @@ If no content fails, then the content passes the Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
 * When color is used to communicate data sets (e.g., Geographic Information System application, or pie chart), additional guidance may be necessary on testing for equivalent facilitation. 
-* Related tests might include multi-state components, images, links, and Alternate pages.
+* Related tests might include dynamic content, images, links, and alternate pages.
