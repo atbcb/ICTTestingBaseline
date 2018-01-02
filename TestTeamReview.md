@@ -1,4 +1,4 @@
-# Guidelines for Test Test Review
+# Guidelines for Test Team Review
 ## Use GitHub to propose edits
 1. Bookmark this link: https://github.com/Section508Coordinators/ICTTestingBaseline/tree/TestTeamReview; start here for any changes you might propose
 2. Navigate to and open the file you want to reivew
