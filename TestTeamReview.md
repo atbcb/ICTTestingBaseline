@@ -33,7 +33,7 @@ To consider your review complete, all of the following should be true:
 ## Review Assignments
 Generally two reviewers per baseline
 
-| Baseline | Reviewer 1 (complete) | Reviewer 2 (complete) |
+| Baseline | Reviewer 1 | Reviewer 2 |
 |----------|------------|------------|
 | 1. Keyboard navigation | | |
 | 2. Focus (visible) | | |
