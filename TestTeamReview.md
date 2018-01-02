@@ -5,7 +5,8 @@
 
 ## Using GitHub to propose edits
 1. Bookmark this link: https://github.com/Section508Coordinators/ICTTestingBaseline/tree/TestTeamReview; start here for any changes you might propose. Click on the "docs" folder.
-2. In the branch dropdown (top left), select the branch you want to edit, then click on the file you want to review.
+   a. If you're not editing an existing pull request, click on the file you want to review.
+   b. If you want to make more edits to an existing pull request: In the branch dropdown (top left), select the branch you want to edit, then click on the file you want to review.
 3. Click the "Edit this file" button (the Pencil icon, top right).
 4. Edit the text of the file to make your proposed changes.
 5. If you're creating a new branch: 
