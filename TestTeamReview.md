@@ -1,11 +1,11 @@
 # Guidelines for Test Team Review
 ## Use GitHub to propose edits
-1. Bookmark this link: https://github.com/Section508Coordinators/ICTTestingBaseline/tree/TestTeamReview; start here for any changes you might propose.
+1. Bookmark this link: https://github.com/Section508Coordinators/ICTTestingBaseline/tree/TestTeamReview; start here for any changes you might propose. Click on "docs".
 2. Navigate to and open the file you want to review.
 3. Click the "Edit this file" button.
 4. Edit the text of the file to make your proposed changes.
 5. Under the "Commit changes" section (below the "Edit file" box where you made your changes), select the "Create a new branch for this commit and start a pull request" radio button option.
-6. Enter a name for your branch, using the following format: <code>[your user name]-[Baseline #]</code>; for example "drewnielson-10"
+6. Enter a name for your branch, using the following format: <code>[your user name]-[Baseline #]</code>; for example "drewnielson-10".j Click on "Propose File Change".
 7. On the "Open Pull Request" screen, under the "Reviewers" section on the right-hand side of the screen, click the gear button to edit reviewers and add Section508Coordinators/corereview (type "core" in the search box to jump to this).
 8. Add any comments, as needed, and click "Open Pull Request" at the bottom of the screen.
 9. Create a new branch and open a new pull request for each Baseline file that you edit (but not for every commit -- you can make numerous changes to the same document, with numerous commits or saves, and still keep it as part of the same branch; if you come back later to make another change to the same file, you would select the "Commit directly to the <code>[your user name]-[Baseline #]</code> branch" option when you commit the change.) 
