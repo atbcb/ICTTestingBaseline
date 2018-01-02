@@ -1,37 +1,38 @@
 # Guidelines for Test Team Review
-## Use GitHub to propose edits
-1. Bookmark this link: https://github.com/Section508Coordinators/ICTTestingBaseline/tree/TestTeamReview; start here for any changes you might propose. Click on "docs".
-2. Navigate to and open the file you want to review.
-3. Click the "Edit this file" button.
+Create a new branch and open a new pull request for each Baseline file that you edit (but not for every commit -- you can make numerous changes to the same document, with numerous commits or saves, and still keep it as part of the same branch; if you come back later to make another change to the same file, you would select the "Commit directly to the <code>[your user name]-[Baseline #]</code> branch" option when you commit the change.)
+
+Any change you make to a file will be visible and apparent during the pull request review, so no need to make any additional comments or point out your changes within the body of the text. If you have any comments to explain your proposed changes, please include those in the comments box on the "Open Pull Request" screen.
+
+## Using GitHub to propose edits
+1. Bookmark this link: https://github.com/Section508Coordinators/ICTTestingBaseline/tree/TestTeamReview; start here for any changes you might propose. Click on the "docs" folder.
+2. Click on the file you want to review.
+3. Click the "Edit this file" button (the Pencil icon, top right).
 4. Edit the text of the file to make your proposed changes.
 5. Under the "Commit changes" section (below the "Edit file" box where you made your changes), select the "Create a new branch for this commit and start a pull request" radio button option.
 6. Enter a name for your branch, using the following format: <code>[your user name]-[Baseline #]</code>; for example "drewnielson-10".j Click on "Propose File Change".
-7. On the "Open Pull Request" screen, under the "Reviewers" section on the right-hand side of the screen, click the gear button to edit reviewers and add Section508Coordinators/corereview (type "core" in the search box to jump to this).
-8. Add any comments, as needed, and click "Open Pull Request" at the bottom of the screen.
-9. Create a new branch and open a new pull request for each Baseline file that you edit (but not for every commit -- you can make numerous changes to the same document, with numerous commits or saves, and still keep it as part of the same branch; if you come back later to make another change to the same file, you would select the "Commit directly to the <code>[your user name]-[Baseline #]</code> branch" option when you commit the change.) 
-
-Any change you make to a file will be visible and apparent during review, using the "Compare" feature and/or viewing the pull request you open, so no need to make any additional comments or otherwise point out your changes within the body of the text. If you have any comments to explain or justify your changes, however, please include those in the comments box on the "Open Pull Request" screen.
+7. On the next screen ("Open Pull Request"), on the right-hand side of the screen, click on the "Reviewers" link to edit reviewers and add Section508Coordinators/corereview (type "core" in the search box to jump to this). Click outside the list to close it.
+8. Add comments and click "Create Pull Request" at the bottom of the text area. The reviewers will be notified.
 
 ## Definition of done
 To consider your review complete, all of the following should be true:
-* Check the text of the Baseline for clarity and logic
-    * Is it easy to understand?
-    * Does it make sense?
-* Grammar and spelling changes are welcome, but not the focus of this review; you can make such changes directly in the same branch you are making other changes, without providing any comments or justification in the pull request.
-* Compare the Baseline Rationale text against the referenced [WCAG Success Criteria](https://www.w3.org/WAI/WCAG20/quickref/)
-    * Does the Rationale (or at least the scope as defined in the Rationale) align with the referenced SC(s)? **Note:** The Baseline should only reference SCs that relate directly to issues that would fail under this Baseline 
-    * Is the Baseline aligned with the right SC(s)?
-    * Are there other SCs missing that should be included in this set of tests?
-* Compare the test procedures to the referenced WCAG Success Criteria
-    * Would these test procedures be enough to evaluate conformance to the SC(s) (or at least for the scope of the SC(s) as defined in the Baseline Rationale)?
-    * Would these test procedures validate the sufficient techniques referenced in the SC?
-    * Would these test procedures catch the common failures referenced in the SC?
-    * Would these test procedures validate or catch other valid techniques or failures that you have seen commonly in your testing experience?
-* Review Gap analysis
-* Make and propose changes to improve clarity, logic, and/or correctness in properly evaluating conformance with the intended SCs
-* Commit your changes to a new branch and open a pull request for each file you review
-* Add comments to the pull request to describe or justify your changes (comments to justify spelling and grammar changes are not necessary)
-* Add any comments about considerations related to tools, test environment, or more specific test procedures that will help inform subsequent revision of the Trusted Tester (or other) test process to the [Test Team Comments](TestTeamComments.md) document in this same repository; no need to add a new branch for these comments - you can commit your comments directly to the TestTeamReview branch for changes to the [Test Team Comments](TestTeamComments.md) document
+1. Check the text of the Baseline for clarity and logic
+    a. Is it easy to understand?
+    b. Does it make sense?
+2. Grammar and spelling changes are welcome, but not the focus of this review; you can make such changes directly in the same branch you are making other changes, without providing any comments or justification in the pull request.
+3. Compare the Baseline Rationale text against the referenced [WCAG Success Criteria](https://www.w3.org/WAI/WCAG20/quickref/)
+    a. Does the Rationale (or at least the scope as defined in the Rationale) align with the referenced SC(s)? **Note:** The Baseline should only reference SCs that relate directly to issues that would fail under this Baseline 
+    b. Is the Baseline aligned with the right SC(s)?
+    c. Are there other SCs missing that should be included in this set of tests?
+4. Compare the test procedures to the referenced WCAG Success Criteria
+    a. Would these test procedures be enough to evaluate conformance to the SC(s) (or at least for the scope of the SC(s) as defined in the Baseline Rationale)?
+    b. Would these test procedures validate the sufficient techniques referenced in the SC?
+    c. Would these test procedures catch the common failures referenced in the SC?
+    d. Would these test procedures validate or catch other valid techniques or failures that you have seen commonly in your testing experience?
+5. Review Gap analysis
+6. Make and propose changes to improve clarity, logic, and/or correctness in properly evaluating conformance with the intended SCs
+7. Commit your changes to a new branch and open a pull request for each file you review
+8. Add comments to the pull request to describe or justify your changes (comments to justify spelling and grammar changes are not necessary)
+9. Add any comments about considerations related to tools, test environment, or more specific test procedures that will help inform subsequent revision of the Trusted Tester (or other) test process to the [Test Team Comments](TestTeamComments.md) document in this same repository; no need to add a new branch for these comments - you can commit your comments directly to the TestTeamReview branch for changes to the [Test Team Comments](TestTeamComments.md) document
 
 ## Review Assignments
 Generally two reviewers per baseline
