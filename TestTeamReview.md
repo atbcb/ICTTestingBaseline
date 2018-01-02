@@ -14,21 +14,21 @@ Any change you make to a file will be visible and apparent during review, using 
 
 ## Definition of done
 To consider your review complete, all of the following should be true:
-* Check the text of the Baseline for clarity, logic, grammar
-    * Is it easy to understand?
-    * Does it make sense?
-* Compare the Baseline text Rationale against the referenced Success Criteria
-    * Does the Rationale (or at least the scope as defined in the Rationale) align with the referenced SC(s)?
-    * Is the Baseline aligned with the right SC(s)?
-    * Are there other SC(s) missing that should be included in this set of tests?
-* Compare the test procedures to the referenced WCAG Success Criteria
-    * Would these test procedures be enough to evaluate conformance to the SC(s) (or at least for the scope of the SC(s) as defined in the Baseline Rationale)?
-    * Would these test procedures validate the sufficient techniques referenced in the SC?
-    * Would these test procedures catch the common failures referenced in the SC?
-    * Would thes test procedures validate or catch other valid techniques or failures that I have seen commonly in my testing experience?
-* Make and propose changes to improve clarity, logic, and/or correctness in properly evaluating conformance with the intended SCs
-* Commit your changes to a new branch and open a pull request for each file you review
-* Add comments to the pull request to describe or justify your changes
+- [ ] Check the text of the Baseline for clarity, logic, grammar
+    - [ ] Is it easy to understand?
+    - [ ] Does it make sense?
+- [ ] Compare the Baseline text Rationale against the referenced Success Criteria
+    - [ ] Does the Rationale (or at least the scope as defined in the Rationale) align with the referenced SC(s)?
+    - [ ] Is the Baseline aligned with the right SC(s)?
+    - [ ] Are there other SC(s) missing that should be included in this set of tests?
+- [ ] Compare the test procedures to the referenced WCAG Success Criteria
+    - [ ] Would these test procedures be enough to evaluate conformance to the SC(s) (or at least for the scope of the SC(s) as defined in the Baseline Rationale)?
+    - [ ] Would these test procedures validate the sufficient techniques referenced in the SC?
+    - [ ] Would these test procedures catch the common failures referenced in the SC?
+    - [ ] Would thes test procedures validate or catch other valid techniques or failures that I have seen commonly in my testing experience?
+- [ ] Make and propose changes to improve clarity, logic, and/or correctness in properly evaluating conformance with the intended SCs
+- [ ] Commit your changes to a new branch and open a pull request for each file you review
+- [ ] Add comments to the pull request to describe or justify your changes
 
 ## Review Assignments
 Generally two reviewers per baseline
