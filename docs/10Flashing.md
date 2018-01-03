@@ -14,7 +14,7 @@ Flashing can be caused by the display, the computer rendering the image or by th
    
 ## Limitations, Assumptions, or Exceptions. 
 * There is no reliable, widely available method to test the flicker rate resulting from the computer or hardware.
-* If the content will be displayed at a size or distance which may be over the limit of the small safe area equivalent, the content should be re-evaluated for this test. 
+* If the content will be displayed at a size or distance other than that at which the content was tested, which may result in the flashing content violating the small safe area equivalent, the content should be re-evaluated for this test. 
 * Exceptions: N/A
 
 ## Test Procedure
