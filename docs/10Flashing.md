@@ -14,6 +14,7 @@ Flashing can be caused by the display, the computer rendering the image or by th
    
 ## Limitations, Assumptions, or Exceptions. 
 * There is no reliable, widely available method to test the flicker rate resulting from the computer or hardware.
+* If the content will be displayed at a size or distance which may be over the limit of the small safe area equivalent, the content should be re-evaluated for this test. 
 * Exceptions: N/A
 
 ## Test Procedure
@@ -24,7 +25,7 @@ Flashing can be caused by the display, the computer rendering the image or by th
 
 #### Tests for SC 2.3.1
 <ol>
-<li> For each element visually identified as flickering, determine if the contiguous flicker area is less than the equivalent of 21,824 sq pixels at intended viewing distance.</li>
+<li> For each element visually identified as flickering, determine if the contiguous flicker area is less than the equivalent of the small safe area for flashing (less than 25% of a 10 degree viewing angle of the total screen size at intended viewing distance).</li>
    <ul>
    <li> If so, proceed to the next text step. </li>
    <li> If not, this test fails. </li>
