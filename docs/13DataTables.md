@@ -8,9 +8,11 @@ For sighted users, the process of determining table structures and relationships
   * H51: Using table markup to present tabular information
   * H63: Using the scope attribute to associate header cells and data cells in data tables
 * **2.4 Navigable.** Provide ways to help users navigate, find content, and determine where they are.
+* **2.4.6 Headings and Labels.** Headings and Labels provide topic and purpose
 
 ## Limitations, Assumptions, Exceptions
 * Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table. This requirement applies to data tables only.
+* The use of table elements for layout purposes is discouraged. No other elements associated with data tables are permitted to be used for table layout purposes, such as `<th>`, `<td>`, `<summary>`, or `<caption>`.
 
 ## Test Procedures 
 ### Selector (Identify Content)
@@ -33,7 +35,13 @@ Select all data tables where data in the table requires column and/or row header
 * If any of the above tests fail, this SC fails
 
 ### Test Intructions for 2.4. Navigable
-1. Check that when navigating data presented in a table, the table provides sufficient programmtic information and/or availalbe text to enable the user to determine relative location within the table
+1. Check that when navigating data presented in a table, the table provides sufficient programmtic information and/or availalbe text to enable the user to determine relative location within the table.
+
+#### Test Results
+* If any of the above tests fail, this SC fails
+
+### Test Instructions for 2.4.6 Headings and Labels
+1. Check that the labels provided for the data table column and row headers is descriptive to allow users to orient themselves within the table.  
 
 #### Test Results
 * If any of the above tests fail, this SC fails
