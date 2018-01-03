@@ -1,46 +1,35 @@
 # 10. Flashing
-
 ## Requirement Rationale
 The intent of this Success Criterion is to allow users to access the full content of a site without inducing seizures due to photosensitivity. 
 
 ## Test Method Rationale
-Flashing can be caused by the display, the computer rendering the image or by the content being rendered. As the author has no control of the first two, this test addresses the content itself. Furthermore, as there is no reliable, freely or widely available solution for determining the resulting flicker frequency, this test focuses on: 
-* determining the flicker rate from programmatically available information, and 
-* determining if any flashing element is within the "small safe area" -- smaller than a contiguous area of 21,824 sq pixels.
+Flashing can be caused by the display, the computer rendering the image, or by the content being rendered. As the author has no control of the first two, this test addresses the content itself. Furthermore, as there is no reliable, freely or widely available solution for determining the resulting flash frequency, this test focuses on: 
+* Determining the flash rate from programmatically available information, and 
+* Determining if any flashing element is within the "small safe area" -- smaller than a contiguous area of 25% of a 10 degree viewing angle of the total screen size at intended viewing distance.
 
 ## Accessibility Requirements
-* WCAG2: 2.3.1 Three Flashes or Below Threshold
-* WCAG2: 2.3.2 Three Flashes
+* WCAG SC 2.3.1 Three Flashes or Below Threshold -- Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general [flash and red flash thresholds](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
    
-## Limitations, Assumptions, or Exceptions. 
-* There is no reliable, widely available method to test the flicker rate resulting from the computer or hardware.
-* If the content will be displayed at a size or distance other than that at which the content was tested, which may result in the flashing content violating the small safe area equivalent, the content should be re-evaluated for this test. 
-* Exceptions: N/A
+## Limitations, Assumptions, or Exceptions
+* There is no reliable, widely available method to test the flash rate resulting from the computer or hardware.
+* It is possible that users could view content at a resolution or from a distance much different from the intended resolution and viewing distance.
+* If content will be displayed or viewed at significantly different sizes or distances (e.g., responsive content intended for display across desktop, mobile, and/or other displays), the content should be evaluated for each scenario. 
+* For the purposes of this baseline, the terms flicker and blink may be used synonymously with the term flash.
+* Blinking elements that conform to this requirement are still required to conform to SC 2.2.2 Pause Stop Hide, if the blinking lasts longer than 5 seconds ([Baseline 29. Pause, Stop, Hide, Control](29Control.md)).
 
-## Test Procedure
-### Selector (Identify Content)
-1. Visually identify interface components that flicker.
+## Test Procedure for SC 2.3.1
+### Select/Identify Content
+Visually identify content that [flashes](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#flash-def).
 
 ### Test Instructions
+1. Check that the flash rate is programmatically determinable AND check that the flash rate of any flickering element has been programmatically set to a frequency below 3 Hz.
+    * If the flash rate is programmatically determinable AND the frequency is below 3 Hz, this test passes, and the element is *conformant for all users.*
+    * If the flash rate is NOT programmatically determinable OR the frequency is programmatically set above 3 Hz, continue to the next step.
+1. Check that the combined, contiguous area that is flashing simultaneously within any 10 degree angle of view is less than the equivalent of the small safe area for flashing (i.e., less than 25% of a 10 degree viewing angle of the total screen size at intended viewing distance).
 
-#### Tests for SC 2.3.1
-<ol>
-<li> For each element visually identified as flickering, determine if the contiguous flicker area is less than the equivalent of the small safe area for flashing (less than 25% of a 10 degree viewing angle of the total screen size at intended viewing distance).</li>
-   <ul>
-   <li> If so, proceed to the next text step. </li>
-   <li> If not, this test fails. </li>
-   </ul>
- <li> Determine if the flickering element has been programmatic set to a frequency below 3 Hz. </li>
-    <ul>
-    <li> If it is, this test passes and the element is *conformant for all users.*</li>
-    <li> If it is not, this test fails. </li>
-    </ul>
- </ol>
-
-##### Test Results SC 2.3.1
-* If both tests pass, then the content is conformant to SC 2.3.1.
-* If test 2 passes, it is *conformant for all users.*
-* If only test 1 passes, it is conformant *for users who are not enlarging the area by using screen magnifiers.*
+### Test Results
+* If test 1 passes, it is *conformant for all users.*
+* If only test 2 passes, it is conformant *for users who are not enlarging the area by using screen magnifiers.*
 * If test 1 and test 2 fail, the content is not conformant to 2.3.1.
 
 ## Baseline Requirement Outcome
