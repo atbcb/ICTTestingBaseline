@@ -3,9 +3,12 @@
 The intent of this Success Criterion is to allow users to access the full content of a site without inducing seizures due to photosensitivity. 
 
 ## Test Method Rationale
-Flashing can be caused by the display, the computer rendering the image, or by the content being rendered. As the author has no control of the first two, this test addresses the content itself. Furthermore, as there is no reliable, freely or widely available solution for determining the resulting flash frequency, this test focuses on: 
+Flashing can be caused by factors beyond the control of authors (e.g., the user's display, the computer rendering of the image, or connectivity issues). There is no reliable, freely or widely available solution for determining the resulting flash frequency for these types of factors.
+
+This test addresses flashing caused by the content itself: 
 * Determining the flash rate from programmatically available information, and 
-* Determining if any flashing element is within the "small safe area" -- smaller than a contiguous area of 25% of a 10 degree viewing angle of the total screen size at intended viewing distance.
+* Determining if any flashing element is within the "small safe area" -- smaller than a contiguous area of 25% of a 10 degree viewing angle of the total screen size at intended viewing distance, and
+* Determining if styles used in the flashing content are inherently problematic (e.g., the use of fully saturated red or high contrast settings) 
 
 ## Accessibility Requirements
 * WCAG SC 2.3.1 Three Flashes or Below Threshold -- Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general [flash and red flash thresholds](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
