@@ -14,10 +14,10 @@ To ensure text and screen readers properly render language for understanding, th
 Identify the primary (default) language used on the page by reviewing the page content. 
 
 ### Test Instructions
-1. Check that the `<lang>` attribute is defined on the `<html>` tag for page. 
-1.Check that the primary language subtag is correctly defined for the page.
-    1. The primary language subtag is the first 2 or 3 character code in the value of the `<lang>` attribute. (Do not test additional language specifications that may follow the primary language subtag.)
-    1. The value of the `<lang>` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).  
+1. Check that the `lang=` attribute is defined on the `<html>` element for page. 
+1. Check that the primary language value is correctly defined for the page.
+    1. The primary language value is the first 2 or 3 character code in the value of the `lang=` attribute. (Do not test additional language specifications that may follow the primary language value.)
+    1. The value of the `lang=` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).  
 
 #### Test Results
 * If any of the above checks fail, this SC fails.
@@ -27,10 +27,10 @@ Identify the primary (default) language used on the page by reviewing the page c
 Identify the language of any page content  that differs from the the default language of the page by reviewing the page content. Exclude instances of exceptions alone: proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. 
 
 ### Test Instructions
-1. Check that the `<lang>` attribute is specified for any HTML element that contains content that differs from the default language of the page. Note: An element without a set language inherits its language attribute from parent elements.
-1. Check that the secondary language's subtag is correctly defined for the content. 
-    1. The language subtag is the first 2 or 3 character code in the value of the `<lang>` attribute. (Do not test additional language specifications that may follow the primary language subtag.)
-    1. The value of the `<lang>` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry). 
+1. Check that the `lang=` attribute is specified for any HTML element that contains content that differs from the default language of the page. Note: An element without a set language inherits its language attribute from parent elements.
+1. Check that the language value for the part is correctly defined for the content. 
+    1. The language value is the first 2 or 3 character code in the value of the `lang=` attribute. (Do not test additional language specifications that may follow the primary language subtag.)
+    1. The value of the `lang=` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry). 
 
 #### Test Results
 * If any of the above checks fail, this SC fails.
