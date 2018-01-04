@@ -1,21 +1,27 @@
 # Guidelines for Test Team Review
-* For each Baseline file that you edit, create a new branch and open a new pull request.
-* You can still make more changes to that same branch of that document, by selecting "Commit directly to the [your branch name]" option to save the new changes.
-* Any change you make to a file will be highlighted for the reviewer of your pull request, so there's no need to make any additional comments or point out your changes within the body of the text. If you have any comments to explain your proposed changes, please include those in the comments box on the "Open Pull Request" screen.
+## To keep things organized:
+* For each Baseline file that you edit, create a new branch (see below).
+* You can continue to edit that same branch of that document, by selecting "Commit directly to the [your branch name]" option to save the new changes.
+* When you're ready to have the edits reviewed, open a Pull Request.
+* For easier tracking, this branch will be removed after your edits have been merged into the main branch.
+
+## Use of Comments
+* Any change you make to a file will be highlighted when your pull request is reviewed, so there's no need to point out your changes within the body of the text or in the Comments (in the Comments box on the "Open Pull Request" screen). Instead, Comments should be used to explain/justify your proposed changes.
+* Comments can only be made when a file is edited, so, if needed, make a "fake" edit to the file.
 
 ## Using GitHub to propose edits
 1. Bookmark this link: https://github.com/Section508Coordinators/ICTTestingBaseline/tree/TestTeamReview; start here for any changes you might propose. Click on the "docs" folder.
-    1. If you're not editing an existing pull request, click on the file you want to review.
-    2. If you want to make more edits to an existing pull request: In the branch dropdown (top left), select the branch you want to edit, then click on the file you want to review.
-3. Click the "Edit this file" button (the Pencil icon, top right).
-4. Edit the text of the file to make your proposed changes.
-5. If you're creating a new branch: 
+    1. If you want to make more edits to an existing branch (i.e. it hasn't been merged and deleted yet): In the branch dropdown (top left): select the branch you want to edit.
+1. Click on the file you want to review.
+Click the "Edit this file" button (the Pencil icon, top right).
+1. Edit the text of the file to make your proposed changes.
+1. If you're creating a new branch: 
     1. Under the "Commit changes" section (below the "Edit file" box where you made your changes), select the "Create a new branch for this commit and start a pull request" radio button.
     2: Enter a name for your branch, using the following format: <code>[your user name]-[Baseline #]</code>; for example "drewnielson-10".
     3. Click on "Propose File Change".
     4. On the next screen ("Open Pull Request"), on the right-hand side of the screen, click on the "Reviewers" link to edit reviewers and add Section508Coordinators/corereview (type "core" in the search box to jump to this). Click outside the list to close it.
     5. Add comments and click "Create Pull Request" at the bottom of the text area. The reviewers will be notified.
-6. If you're editing an existing branch that already has a pull request, just select "Commit directly to ..."
+1. If you're editing an existing branch that already has a pull request, just select "Commit directly to ..."
 
 ## Definition of done
 To consider your review complete, all of the following should be true:
