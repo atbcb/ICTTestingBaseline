@@ -24,10 +24,10 @@ Scripting Languages (e.g., JavaScript) can be used to attach a function to an el
 1. Find all links and user controls on the page, including those that are scripted elements.
 
 ### Test Instructions
-1. Check that the purpose of each link/control can be determined from either
-   1. the link/control text alone or 
-   1. the link/control text together with its programmatically determined context (such as `title`).
-   1. the link/control text together with its heading context, enclosing paragraph, list item, or table cell and associated table header cells.
+1. Check that the purpose of each link/control can be determined from one of the following:
+   a.  the link/control text alone or 
+   b.  the link/control text together with its programmatically determined context (such as `title`).
+   c. the link/control text together with its heading context, enclosing paragraph, list item, or table cell and associated table header cells.
 1. If test 1 fails, check if any of these exceptions apply:
    1. the purpose of the link/control would be ambiguous to users in general.
    1. the purpose of the link/control is is supposed to be unknown or obscured.
