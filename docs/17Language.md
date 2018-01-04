@@ -24,13 +24,12 @@ Identify the primary (default) language used on the page by reviewing the page c
 
 ## Test Procedure for SC 3.1.2
 ### Selector (Identify Content)  
-Identify any content on page that differs from the the default language of the page by reviewing the page content. 
+Identify the language of any page content  that differs from the the default language of the page by reviewing the page content. Exclude instances of exceptions alone: proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. 
 
 ### Test Instructions
 1. Check that the `<lang>` attribute is specified for any HTML element that contains content that differs from the default language of the page. Note: An element without a set language inherits its language attribute from parent elements.
-1. Identify the language of the content.
-1. Check that the primary language subtag is correctly defined for the content. 
-    1. The primary language subtag is the first 2 or 3 character code in the value of the `<lang>` attribute. (Do not test additional language specifications that may follow the primary language subtag.)
+1. Check that the secondary language's subtag is correctly defined for the content. 
+    1. The language subtag is the first 2 or 3 character code in the value of the `<lang>` attribute. (Do not test additional language specifications that may follow the primary language subtag.)
     1. The value of the `<lang>` attribute must conform to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry). 
 
 #### Test Results
