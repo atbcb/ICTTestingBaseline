@@ -10,6 +10,10 @@ The only method available to determine the sufficiency of the text or audio alte
 ## Accessibility Requirements
 WCAG SC 1.2.1 Video-Only (Prerecorded) - For prerecorded video-only media, the following is true (except when the video is a media alternative for text and is clearly labeled as such): Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content.
 
+### Related Requirements
+WCAG SC 1.1.1 Non-text Content -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose...
+* Sensory: If non-text content is primarily intended to create a specific sensory experience, then text alternatives at least provide descriptive identification of the non-text content.
+
 ## Limitations, Assumptions or Exceptions 
 * A description is not required for video intended as a media alternative for text and it is clearly labeled as such. 
 * A text equivalent is not required for audio that is provided as an equivalent for video-only content. For example, it is not required to transcribe audio that is provided as an alternative to a silent movie.
