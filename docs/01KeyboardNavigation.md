@@ -54,14 +54,17 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
     1. Check that the user is advised, in an accessible manner, of available, non-standard keyboard commands necessary to navigate away from the interface component before the user encounters the the component. 
 
 ### Test Results
-If any of the above checks fail, then the content fails this SC, and fails this Baseline Requirement.
+If any of the above checks fail, then the content fails this SC
+
+## Baseline Requirement
+If any of the above SC fail, then the content fails this Baseline Requirement
 
 ## Advisory: Tips for streamlined test processes
 * Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
 * This test may be combined with tests for focus.
 * The following tech and/or common failures were considered when developing this test procedure for this baseline requirement:
-    1. G202: Ensuring keyboard control for all functionality.
-    1. G21: Ensuring users are not trapped in content
+* [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
+* [G21: Ensuring users are not trapped in content](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
 
 
 
