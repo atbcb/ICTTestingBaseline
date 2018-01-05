@@ -1,8 +1,8 @@
 # 23. Frames
 ## Rationale
-Frames are a means of separating out sections of a Web page into different navigable regions. To mouse users, the separation of a Web page into sections means that they can scroll the information in one frame without affecting another frame. Keyboard only users who are able to see can navigate between frames (F6 key is the browser default for this function).
+Frames are a means of separating sections of a Web page into navigable regions. Mouse users and sighted keyboard-only users can perceive the way frames separate a Web page into sections and can scroll the information in one frame without affecting another frame. (The F6 key is the browser default for navigating frames).
 
-Non-visual users can also use the keyboard to navigate between frames, but if there is no programmatic name for the frames, the user has to read through the content of each frame in an attempt to discern where the information they need might be. This can take a long time, and can lead nonvisual users to make errors. For this reason, it is necessary for each frame to include a descriptive name. The name should make sense when spoken in isolation as the user navigates between frames.
+Non-visual keyboard-only users need a programmatic name for each frame to identify its contents without having to spend time reading through the content of each frame in an attempt to discern the information contained in it. The name should make sense when spoken in isolation as the user navigates between frames.
 
 ## Accessibility Requirements
 **SC 4.1.2**: Name, Role, Value - **Technique H64**: Using the title attribute of the frame and iframe elements
@@ -19,7 +19,10 @@ Find all Frames and iframes in the page
 1. Check that each frame or iframe has a title that describes its content 
 
 #### Test Results for SC 4.1.2
-* If any of the above checks fail, then the content fails this SC
+* If any of the above checks fail, then the content fails this SC and fails this Baseline Requirement
 
-#### Baseline Requirement Outcome
-* If no content fails, then the content passes the Baseline Requirement
+## Advisory Tips for a Streamlined Test Process
+The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
+* [H70: Using frame elements to group blocks of repeated material](http://www.w3.org/TR/WCAG20-TECHS/H70.html)
+* [H64: Using the title attribute of the frame and iframe elements](http://www.w3.org/TR/WCAG20-TECHS/H64.html)
+
