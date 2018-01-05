@@ -16,7 +16,8 @@ Exception: In HTML5 the frame element is marked as obsolete. The iframe element 
 Find all Frames and iframes in the page
 
 ### Tests for SC 4.1.2
-1. Check that each frame or iframe has a title that describes its content 
+1. Check that each frame or iframe has a title that describes its content
+<<AN: An iframe may be assigned an ARIA role of application, document, or img, in which case it is acceptable to also apply aria-label, aria-labelledby, and/or aria-describedby. We will need to allow for these attributes, in addition to a title attribute for computation of [accessible name and description for an iframe element](https://www.w3.org/TR/html-aam-1.0/#iframe-element)
 
 #### Test Results for SC 4.1.2
 * If any of the above checks fail, then the content fails this SC and fails this Baseline Requirement
