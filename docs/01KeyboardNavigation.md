@@ -62,10 +62,10 @@ If any of the above SC fail, then the content fails this Baseline Requirement
 ## Advisory: Tips for streamlined test processes
 * Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
 * This test may be combined with tests for focus.
-* The following tech and/or common failures were considered when developing this test procedure for this baseline requirement:
+
+The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
 * [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
 * [G21: Ensuring users are not trapped in content](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
-
 
 
 *Comment AMD - these looks more like comments for future update for tracking in a different document.  They should be removed here.*
