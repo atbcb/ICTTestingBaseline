@@ -28,10 +28,9 @@ All keyboard accessible components on the page. These components (links, form fi
 1. Check that a visible indication of focus is provided when focus is on the  component.
 
 ### Test Results
-* If any of the above checks fail, then the content fails this SC
-
-## Baseline Test Outcome
-If no content fails, then the content passes the Baseline Requirement
+* If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Advisory: Tips for streamlined test processes
-* Explain how to determine the browser's (or OS platform) default behavior for indicating focus.
+* G149: Using user interface components that are highlighted by the user agent when they receive focus.
+
+***Comment-Explain how to determine the browser's (or OS platform) default behavior for indicating focus.***
