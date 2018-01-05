@@ -30,5 +30,5 @@ Find all Frames and iframes in the page
 
 ### WCAG 2.0 Techniques
 * The following technique and/or common failures were considered when developing this test procedure for this baseline requirement:
-    * [H70: Using frame elements to group blocks of repeated material](http://www.w3.org/TR/WCAG20-TECHS/H70.html)
-    * [H64: Using the title attribute of the frame and iframe elements](http://www.w3.org/TR/WCAG20-TECHS/H64.html)
+    * [H70: Using frame elements to group blocks of repeated material](http://www.w3.org/TR/WCAG20-TECHS/H70.html)
+    * [H64: Using the title attribute of the frame and iframe elements](http://www.w3.org/TR/WCAG20-TECHS/H64.html)
