@@ -2,10 +2,15 @@
 ## Rationale
 ### Requirement Rationale
 Keyboard access and control must be available for all functionality of the content. This requirement validates whether an individual can use a keyboard to perform all intended functionality of the content. Wherever users are expected to interact with components, it must be possible for users to get to those components or perform those functions using only the keyboard, because using a mouse is not possible when: 
-* The user has no sight
+* The user has no sight.
 * The user does not have the physical capability and/or dexterity to effectively control a pointing device.
 
 Some users with mobility impairments use a keyboard to access and control content. Content interaction that requires specific timing for individual keystrokes can prevent or impede the ability to perform intended functions for some users with mobility impairments. This test validates whether a keyboard-only user can navigate through all content and perform all intended functionality of the content WITHOUT the requirement for specific timing for individual keystrokes.
+
+### Test Method Rationale
+This requirement relies on use of a physical keyboard to validate access and control of all functionality of the content. Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist.
+
+Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. This requirement also validates a keyboard-only user’s ability to move focus away from components. 
 
 ## Accessibility Requirements
 * WCAG SC  2.1.1 Keyboard – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints. 
@@ -14,16 +19,9 @@ Some users with mobility impairments use a keyboard to access and control conten
 
 ## Limitations, Assumptions, or Exceptions
 * This test was written to be performed on a standard physical keyboard for a Windows PC. While keyboard emulators (such as on-screen keyboards, alternate keyboards, speech input, etc.) may be utilized, testing instructions may differ. Mouse Keys (a Windows and Mac OS feature that enables control of the mouse pointer by keyboard) is not a keyboard emulator.
-* The baseline tests do not cover touch access for devices such as mobile phones and tablets. *Comment KE: This should probably go in a general baseline summary, rather than here in an individual baseline.*
-
-### Test Method Rationale
-
-This requirement relies on use of a physical keyboard to validate access and control of all functionality of the content. Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escape, etc). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist.
-
-Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. This requirement also validates a keyboard-only user’s ability to move focus away from components. 
 
 ## Test Procedure for SC 2.1.1 Keyboard
-### Selector (Identify Content)
+### Select/Identify Content
 All functionality of the content that is available by mouse control must be keyboard accessible. Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
 ### Test Instructions
@@ -40,7 +38,7 @@ All functionality of the content that is available by mouse control must be keyb
 * If any of the above checks fail, then the content fails this SC
 
 ## Test Procedure for SC 2.1.2 No Keyboard Trap
-### Selector (Identify Content)
+### Select/Identify Content
 Select visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
 
 ### Test Instructions
@@ -62,13 +60,10 @@ If any of the above SC fail, then the content fails this Baseline Requirement
 ## Advisory: Tips for streamlined test processes
 * Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
 * This test may be combined with tests for focus.
-
-The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
-* [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
-* [G21: Ensuring users are not trapped in content](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
-
-
-*Comment AMD - these looks more like comments for future update for tracking in a different document.  They should be removed here.*
 * It may be useful to separate out a test for keyboard use, and then have a separate test for documentation of non-standard commands. 
 * Tips and techniques for finding hidden content may be useful for testers.
 * It may be useful to provide a Windows keyboard reference guide to testers.
+* The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
+    * [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
+    * [G21: Ensuring users are not trapped in content](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
+
