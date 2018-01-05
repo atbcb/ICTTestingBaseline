@@ -41,4 +41,5 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
 * Common keys used to move focus include the TAB key and directional arrow keys
 * Tab order that initially appears illogical may still meet this requirment due to an application specific business logic. 
 * It may be useful to verify order discrepancies using the tabindex attribute, if it is present. 
+* [F44: Failure of Success Criterion 2.4.3 due to using tabindex to create a tab order that does not preserve meaning and operability}(http://www.w3.org/TR/WCAG20-TECHS/F44.html)
 * For web content that is in layout tables, it is possible to produce a linearized representation that may be useful in determining whether a logical order is used. 
