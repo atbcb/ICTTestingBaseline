@@ -36,8 +36,8 @@ Set of navigation components used on more than one Web page
 If any of the above checks fail, then this SC fails, and the Baseline Requirement fails
 
 ## Advisory: Tips for streamlined test processes
-* G59: Placing the interactive elements in an order that follows sequences and relationships within the content 
-* H4: Creating a logical tab order through links, form controls, and objects 
+* [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](http://www.w3.org/TR/WCAG20-TECHS/G59.html) 
+* [H4: Creating a logical tab order through links, form controls, and objects](http://www.w3.org/TR/WCAG20-TECHS/H4.html) 
 * Common keys used to move focus include the TAB key and directional arrow keys
 * Tab order that initially appears illogical may still meet this requirment due to an application specific business logic. 
 * It may be useful to verify order discrepancies using the tabindex attribute, if it is present. 
