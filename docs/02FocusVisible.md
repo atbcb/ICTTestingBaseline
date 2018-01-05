@@ -31,6 +31,6 @@ All keyboard accessible components on the page. These components (links, form fi
 * If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Advisory: Tips for streamlined test processes
-* G149: Using user interface components that are highlighted by the user agent when they receive focus.
+* [G149: Using user interface components that are highlighted by the user agent when they receive focus.](http://www.w3.org/TR/WCAG20-TECHS/G149.html)
 
 ***Comment-Explain how to determine the browser's (or OS platform) default behavior for indicating focus.***
