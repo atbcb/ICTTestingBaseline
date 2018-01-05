@@ -33,12 +33,14 @@ Select menus and dialogs revealed by trigger controls
     1. Check whether advancing the focus backwards [SHIFT + TAB] in the sequential navigation order puts focus in the trigger control.
 
 ### Test Results
-If any of the above checks fail, then the content fails this SC
-
-## Baseline Test Outcome
-If no content fails, then the content passes the Baseline Requirement
+If any of the above checks fail, then the content fails these SCs and the Baseline Requirement fails
 
 ## Advisory: Tips for streamlined test processes
-* It may be useful to remind testers that keyboard access and visible focus should be tested also during this test.
-* Instructions on what "modal dialog boxes" are and how they should behave should be included.
-* Instructions for the use of Inspect / Java Ferret for identifying focusable content should be included for testers.
+* Keyboard access and visible focus should be tested also during this test.
+* [G83: Providing text descriptions to identify required fields that were not completed](http://www.w3.org/TR/WCAG20-TECHS/G83.html) 
+* [G84: Providing a text description when the user provides information that is not in the list of allowed values](http://www.w3.org/TR/WCAG20-TECHS/G84.html)
+* [G85: Providing a text description when user input falls outside the required format or values](http://www.w3.org/TR/WCAG20-TECHS/G85.html
+* [G107: Using "activate" rather than "focus" as a trigger for changes of context](http://www.w3.org/TR/WCAG20-TECHS/G107.htmlt)
+
+***Comments -Instructions on what "modal dialog boxes" are and how they should behave should be included.
+* Instructions for the use of Inspect / Java Ferret for identifying focusable content should be included for testers.***
