@@ -33,13 +33,12 @@ Set of navigation components used on more than one Web page
     1. Check that any change in the content order is only the result of a user-initiated change 
 
 ### Test Results
-If any of the above checks fail, then the content fails this SC
-
-## Baseline Requirement Outcome
-If no content fails, then the content passes the Baseline Requirement
+If any of the above checks fail, then this SC fails, and the Baseline Requirement fails
 
 ## Advisory: Tips for streamlined test processes
-* To get to all components, it may require more than simply TABbing between items. For example, it may be necessary to tab to a set of components then use the arrow keys to get focus on individual components.
-* Tab order may be application specific—reflecting business logic—so it may be helpful to ask developers whether a seemingly non-logical order was intentional. 
-* It may be useful to verify order discrepancies using the tabindex attribute, if it is present (although a tabIndex is not required). 
+* G59: Placing the interactive elements in an order that follows sequences and relationships within the content 
+* H4: Creating a logical tab order through links, form controls, and objects 
+* Common keys used to move focus include the TAB key and directional arrow keys
+* Tab order that initially appears illogical may still meet this requirment due to an application specific business logic. 
+* It may be useful to verify order discrepancies using the tabindex attribute, if it is present. 
 * For web content that is in layout tables, it is possible to produce a linearized representation that may be useful in determining whether a logical order is used. 
