@@ -60,7 +60,8 @@ If any of the above checks fail, then this SC fails and the Baseline Requirement
 * It may be useful to separate out a test for keyboard use, and then have a separate test for documentation of non-standard commands. 
 * Tips and techniques for finding hidden content may be useful for testers.
 * It may be useful to provide a Windows keyboard reference guide to testers.
+
+### WCAG 2.0 Techniques
 * The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
     * [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
     * [G21: Ensuring users are not trapped in content](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
-
