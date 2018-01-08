@@ -1,19 +1,10 @@
 # 5. Repetitive Content 
-## Rationale
-### Requirement Rationale
-A method must be provided to bypass blocks of repeated content or links on pages, allowing a user to move directly to page-specific content.
-
-Groups of navigation links are usually provided along the top and/or left of multiple pages to provide quick navigation to other areas of a Web site. In addition, some groups of pages may repeat blocks of content (other than navigational controls).
-
-For users who can see and use a mouse, bypassing navigation links and other blocks of content is simply a mouse movement followed by a click. However, for users who cannot use a mouse, repetitive content can be a serious impediment to productivity. For example, for screen reader users, if they must read content that is repeated on each page and cannot bypass it, their experience on the page can be very frustrating. 
-
-A common method used to bypass repetitive content is internal (same page) links, but other methods such as a navigation tree, are acceptable.
-
-### Test Method Rationale
-To enable equitable use by keyboard-only users, there must be a keyboard-accessible method to bypass repetitive content. 
 
 ## Accessibility Requirements
-* WCAG SC 2.4.1 Bypass Blocks -- A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
+* [WCAG SC 2.4.1 Bypass Blocks](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html) -- A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
+
+### Test Method Rationale
+To enable equitable use by keyboard-only users, there must be a keyboard-accessible method to bypass repetitive content. A common method used to bypass repetitive content is internal (same page) links, but other methods such as a hide menu option and a navigation tree are acceptable.
 
 ## Limitations, Assumptions, or Exceptions
 * Small repeated sections such as individual words, phrases or single links are not considered blocks for the purposes of this provision.
