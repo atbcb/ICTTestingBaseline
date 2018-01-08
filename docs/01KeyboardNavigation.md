@@ -35,7 +35,7 @@ All functionality of the content that is available by mouse control must be keyb
     2. If keyboard navigation and interaction REQUIRES specific timing, then check that the interface’s underlying function REQUIRES input that depends on the path of the user's movement (e.g., free-hand drawing; if the underlying function itself requires input that depends on the path of the user’s movement, then it may require specific timing for individual keystrokes). 
 
 ### Test Results
-* If any of the above checks fail, then the content fails this SC
+If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Test Procedure for SC 2.1.2 No Keyboard Trap
 ### Select/Identify Content
@@ -52,7 +52,7 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
     1. Check that the user is advised, in an accessible manner, of available, non-standard keyboard commands necessary to navigate away from the interface component before the user encounters the the component. 
 
 ### Test Results
-If any of the above checks fail, then this SC fails and the Baseline Requirement fails
+•	If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Advisory: Tips for streamlined test processes
 * Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
