@@ -31,5 +31,8 @@ All keyboard accessible components on the page. These components (links, form fi
 * If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Advisory: Tips for streamlined test processes
+This test may be performed simultaneously with Baseline 01: Keyboard Navigation
+
+### WCAG 2.0 Techniques
 * The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
     * [G149: Using user interface components that are highlighted by the user agent when they receive focus.](http://www.w3.org/TR/WCAG20-TECHS/G149.html)
