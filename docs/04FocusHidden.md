@@ -38,6 +38,8 @@ If any of the above checks fail, then the content fails these SCs and the Baseli
 ## Advisory: Tips for streamlined test processes
 * It may be useful to combine these tests with tests for keyboard navigation and visible focus.
 * It may be useful to provide instructions about what "modal dialog boxes" are and how they should behave.
+
+### WCAG 2.0 Techniques
 * The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
     * [G83: Providing text descriptions to identify required fields that were not completed](http://www.w3.org/TR/WCAG20-TECHS/G83.html) 
     * [G84: Providing a text description when the user provides information that is not in the list of allowed values](http://www.w3.org/TR/WCAG20-TECHS/G84.html)
