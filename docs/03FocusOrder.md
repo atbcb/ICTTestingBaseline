@@ -42,7 +42,7 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
 * For web content that is in layout tables, it is possible to produce a linearized representation that may be useful in determining whether a logical order is used.
 
 ### WCAG 2.0 Techniques
-* The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
+* The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     * [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](http://www.w3.org/TR/WCAG20-TECHS/G59.html) 
     * [H4: Creating a logical tab order through links, form controls, and objects](http://www.w3.org/TR/WCAG20-TECHS/H4.html)
     * [F44: Failure of Success Criterion 2.4.3 due to using tabindex to create a tab order that does not preserve meaning and operability](http://www.w3.org/TR/WCAG20-TECHS/F44.html)
