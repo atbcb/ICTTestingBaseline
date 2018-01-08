@@ -39,7 +39,9 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
 * Common keys used to move focus include the Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, and directional arrow keys.
 * Tab order that initially appears illogical may still meet this requirment due to an application specific business logic. 
 * It may be useful to verify order discrepancies using the tabindex attribute, if it is present. 
-* For web content that is in layout tables, it is possible to produce a linearized representation that may be useful in determining whether a logical order is used. 
+* For web content that is in layout tables, it is possible to produce a linearized representation that may be useful in determining whether a logical order is used.
+
+### WCAG 2.0 Techniques
 * The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
     * [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](http://www.w3.org/TR/WCAG20-TECHS/G59.html) 
     * [H4: Creating a logical tab order through links, form controls, and objects](http://www.w3.org/TR/WCAG20-TECHS/H4.html)
