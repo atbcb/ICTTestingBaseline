@@ -62,6 +62,6 @@ Ideally, interfaces use standard keyboard commands (TAB, Space Bar, Enter, Escap
 * It may be useful to provide a Windows keyboard reference guide to testers.
 
 ### WCAG 2.0 Techniques
-* The following technical and/or common failures were considered when developing this test procedure for this baseline requirement:
+* The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     * [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
     * [G21: Ensuring users are not trapped in content](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
