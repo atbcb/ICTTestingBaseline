@@ -21,7 +21,7 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
 1. If the order of content presented visually affects understanding or function of the content, then check that the focus order matches the same logical order as the order presented visually. 
 
 ### Test Results
-* If any of the above checks fail, then the content fails this SC
+If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Test Procedure for SC 3.2.3 Consistent Navigation
 ### Select/Identify Content
@@ -33,7 +33,7 @@ Set of navigation components used on more than one Web page
     1. Check that any change in the content order is only the result of a user-initiated change 
 
 ### Test Results
-If any of the above checks fail, then this SC fails, and the Baseline Requirement fails
+If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Advisory: Tips for streamlined test processes
 * Common keys used to move focus include the Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, and directional arrow keys.
