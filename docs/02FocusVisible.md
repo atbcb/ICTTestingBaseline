@@ -10,7 +10,7 @@ Manually navigating or controlling the interface by keyboard only will enable a 
 * The clarity of visible focus is subjective and the minimum level is the browser’s (or OS platform) default display setting for indicating focus.
 * Some components that are not normally considered interactive may actually be in the tab order (e.g., screen text for form filling instructions). Such components should receive a visible indication of focus when the user navigates to it using the keyboard.
 * Skip link visual focus is a part of this test.
-* Focus shift to revealed hidden content is not tested here. See 4.Focus (revealing hidden content).
+* Focus-shift to revealed hidden content is not tested here. See 4.Focus (revealing hidden content).
 * Loss of focus should not occur while manually shifting focus through the page (using the TAB or arrow keys). However, when a function that moves the focus is executed (such as an internal page link or hidden content is revealed), it may be necessary to manually shift focus once with the keyboard before focus becomes visible again. This is not considered a failure.
 
 ## Test Procedure for SC 2.4.7 Focus Visible
