@@ -1,11 +1,9 @@
 # 3. Focus (order)
-
 ## Accessibility Requirements
 * [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
-* [WCAG SC 3.2.3 Consistent Navigation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html) -- Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
 
 ## Test Method Rationale
-Focus/TAB order must follow the logical order to prevent instances where users become confused, make errors, or not be provided with the contextual meaning of components. Changes to the relative order of repeated components can also cause confusion.
+Using the keyboard to navigate facilitates inspection of focus order. 
 
 ## Test Procedure for SC 2.4.3 Focus Order
 ### Select/Identify Content
@@ -14,18 +12,6 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
 ### Test Instructions
 1. Use the keyboard to navigate through interface components and content (including any hidden content). 
 1. If the order of content presented affects understanding or function of the content, then check that the focus order matches the same logical order as the order presented visually. 
-
-### Test Results
-If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
-
-## Test Procedure for SC 3.2.3 Consistent Navigation
-### Select/Identify Content
-Set of navigation components used on more than one Web page
-
-### Test Instructions
-1. Use the keyboard to move the focus through navigation components. 
-    1. Check that the order of keyboard focus is the same among major navigation components across pages. Navigation components can have different submenus across pages.
-    1. Check that any change in the content order is only the result of a user-initiated change 
 
 ### Test Results
 If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
