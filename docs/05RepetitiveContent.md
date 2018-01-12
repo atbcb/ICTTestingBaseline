@@ -25,7 +25,7 @@ Blocks of content that are repeated on multiple pages including navigation links
 ### Test Results
 If any of the above checks fail, then this SC fails and the Baseline Requirement fails.
 
-## Test Procedure for SC 3.2.3
+## Test Procedure for SC 3.2.3 Consistent Navigation
 ### Select/Identify Content
 Components that are repeated on multiple pages (which may or may not be contained within a block of content)
 
