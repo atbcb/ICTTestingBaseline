@@ -38,7 +38,7 @@ If both of the above checks fail, then this SC fails, and the Baseline Requireme
 ## Advisory: Tips for streamlined test processes
 * Testing of text contrast changes includes changes due to mouse hover and selection status.
 * The color contrast requirment is not specific to web content only, but includes software inspection in any window.
-* There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See http://www.w3.org/TR/WCAG20-TECHS/G18.html for possible testing tools which use an appropriate algorithm.
+* There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See http://www.w3.org/TR/WCAG20-TECHS/G18.html for possible testing tools that use an appropriate algorithm.
 
 ### WCAG 2.0 Techniques
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
