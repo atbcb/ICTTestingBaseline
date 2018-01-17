@@ -27,7 +27,7 @@ All meanngful and decorataive images must be evaluated. Tests for certain image 
 1. Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
 
 #### Test Results
-* If none of the above checks pass, then this SC fails and this baseline fails.
+* If all of the above checks fail, then this SC fails and this baseline fails.
 
 ### Test Instructions for 4.1.2
 1. Check that the role is not "presentation".
