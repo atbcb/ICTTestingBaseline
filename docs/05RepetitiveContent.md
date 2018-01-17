@@ -10,6 +10,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 ## Limitations, Assumptions, or Exceptions
 * Small repeated sections such as individual words, phrases or single links are not considered blocks for the purposes of this provision.
 * Most web browsers provide keyboard shortcuts to move the user focus to the top of the page, so if a set of navigation links is provided at the bottom of a web page providing a "skip" link may be unnecessary. 
+* [Same relative order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html#samerelorderdef) is defined as same position relative to other items. Note: Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
 
 ## Test Procedure for SC 2.4.1 Bypass Blocks
 ### Select/Identify Content
@@ -41,7 +42,6 @@ If any of the above checks fail, then this SC fails and the Baseline Requirement
 * If bypass method is provided but cannot be activated by keyboard, this is also a failure of the Keyboard test (#1).
 * If bypass method is in the focus order but is not visible when it has keyboard focus, this is a failure of the Focus (visible) test (#2). 
 * If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with the links requirement (#16). For example, a page with repetitive links should have a descritive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
-* [Same relative order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html#samerelorderdef) is defined as same position relative to other items. Note: Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
 
 ### WCAG 2.0 Techniques
 * This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques require additional assistive tools to function as bypass methods:
