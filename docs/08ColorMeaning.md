@@ -51,5 +51,8 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
     * [G205: Including a text cue for colored form control labels](https://www.w3.org/TR/WCAG20-TECHS/G205.html)
     * [G182: Ensuring that additional visual cues are available when text color differences are used to convey information](https://www.w3.org/TR/WCAG20-TECHS/G182.html)
     * [G111: Using color and pattern](https://www.w3.org/TR/WCAG20-TECHS/G111.html)
+    * [F73: Failure of Success Criterion 1.4.1 due to creating links that are not visually evident without color vision](https://www.w3.org/TR/WCAG20-TECHS/F73.html)
+    * [F81: Failure of Success Criterion 1.4.1 due to identifying required or error fields using color differences only](https://www.w3.org/TR/WCAG20-TECHS/F81.html)
     * [G96: Providing textual identification of items that otherwise rely only on sensory information to be understood](https://www.w3.org/TR/WCAG20-TECHS/G96.html)
-    
+    * [F14: Failure of Success Criterion 1.3.3 due to identifying content only by its shape or location](https://www.w3.org/TR/WCAG20-TECHS/F14.html)
+    * [F26: Failure of Success Criterion 1.3.3 due to using a graphical symbol alone to convey information](https://www.w3.org/TR/WCAG20-TECHS/F26.html)
