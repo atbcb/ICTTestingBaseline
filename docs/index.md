@@ -73,7 +73,7 @@ Attachment C - Baseline Test Report Checklists
 6. [Dynamic Content](06Dynamic.md)
 7. [Images](07Images.md)
 8. [Color (meaning)](08ColorMeaning.md)
-9. [Color (contrast)](09ColorContrast.md)
+9. [Contrast](09Contrast.md)
 10. [Flashing](10Flashing.md)
 11. [Forms (associated instructions)](11Forms.md)
 12. [Page Titles](12PageTitles.md)
