@@ -1,4 +1,4 @@
-# 4. Focus (revealing hidden content)
+# 4. Focus (revealing interactive hidden content)
 
 ## Accessibility Requirements
 * [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
@@ -9,7 +9,6 @@ Some components on web pages are intentionally hidden to reduce visual clutter a
 
 ## Limitations, Assumptions, or Exceptions
 * Without exception, focus must shift to modal dialog boxes and remain within the dialog box until the box is closed by the user.
-* If using the keyboard reveals "tooltip" or Title information (e.g., through scripts), then it is not necessary to have that information on the page. *<<KE: Suggest moving this to keyboard access and stating here "this test does not cover information revealed by tooltip or Title>>*
 
 ## Test Procedure for SC 1.3.2 and 2.4.3
 ### Select/Identify Content
@@ -38,4 +37,3 @@ If any of the above checks fail, then the content fails these SCs and the Baseli
     * [G84: Providing a text description when the user provides information that is not in the list of allowed values](http://www.w3.org/TR/WCAG20-TECHS/G84.html)
     * [G85: Providing a text description when user input falls outside the required format or values](http://www.w3.org/TR/WCAG20-TECHS/G85.html)
     * [G107: Using "activate" rather than "focus" as a trigger for changes of context](http://www.w3.org/TR/WCAG20-TECHS/G107.htmlt)
-
