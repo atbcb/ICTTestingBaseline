@@ -13,7 +13,7 @@ Headings must be programmatically determinable. Headings levels must be programm
 * WCAG2 SC: 4.1.2 Name, Role, Value
 
 ## Limitations, Assumptions, or Exceptions
-* Exception: A page with only one heading on the page does not have a heading level structure and would not be tested for heading structure.
+None
 
 ## Test Procedure for SC 2.4.6
 ### Selector (Identify Content)
