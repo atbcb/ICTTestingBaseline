@@ -1,18 +1,14 @@
 # 12. Page Titles
-## Rationale
-### Requirement Rationale
-A Web page must have a programmatic title that identifies the Web page and makes sense without requiring users to read or interpret page content. 
-
-### Test Method Rationale
-<<Include language to describe why we are testing the way we have outlined>>
-
 ## Accessibility Requirements
-* WCAG2 SC 2.4.2 Page Titled -- Web pages have titles that describe topic or purpose.
+* [WCAG2 SC 2.4.2 Page Titled](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html) -- Web pages have titles that describe topic or purpose.
+
+## Test Method Rationale
+A Web page must have a programmatic title that identifies the Web page and makes sense without requiring users to read or interpret page content. 
 
 ## Limitations, Assumptions, Exceptions
 * Assumption: every page should have a descriptive title; if a page title does not exist for a page, the page would fail for this Baseline Requirement and the page would not be conformant with SC 2.4.2.
 
-## Test Procedure 
+## Test Procedure for SC 2.4.2 Page Titled 
 ### Select/Identify Content
 Identify the title for the page.
 
@@ -25,7 +21,8 @@ Identify the title for the page.
 * If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Advisory Tips for a Streamlined Test Process
-The following techniques and/or common failures were considered when developing the test procedure for this baseline requirement:
-  * Technique G88: Providing descriptive titles for Web page
-  * Technique H25: Providing a title using the title element
-  * F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents
+### WCAG 2.0 Techniques
+* The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+    * [Technique G88: Providing descriptive titles for Web page](https://www.w3.org/TR/WCAG20-TECHS/G88.html)
+    * [Technique H25: Providing a title using the title element](https://www.w3.org/TR/WCAG20-TECHS/H25.html)
+    * [F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents](https://www.w3.org/TR/WCAG20-TECHS/F25.html)
