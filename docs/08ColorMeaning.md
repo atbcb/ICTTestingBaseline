@@ -27,9 +27,6 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
 ### Select/Identify Content
 Identify any instances where information or instructions rely on sensory information to be understood. This may include references to shape, size, visual location, orientation, or sound.
 
-### WCAG 2.0 Techniques
-* The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-    * 
 ### Test Instructions
 1. Check that the reference contains additional information that allows the item to be located and identified without any knowledge of its shape, size, or relative position. For instance, 
     * To see your changes, select the round button labeled "Go".
