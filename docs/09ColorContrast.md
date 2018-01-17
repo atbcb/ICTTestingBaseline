@@ -1,4 +1,4 @@
-# 9. Color (contrast)
+# 9. Contrast
 ## Rationale
 ### Requirement Rationale
 Many factors beyond the designer's control affect peoples' ability to discern between colors/shades, including age (contrast sensitivity reduces with age), screen brightness, ambient light, color blindness, and some types of low vision. 
