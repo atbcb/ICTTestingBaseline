@@ -1,18 +1,12 @@
-# 9. Color (contrast)
-## Rationale
-### Requirement Rationale
-Many factors beyond the designer's control affect peoples' ability to discern between colors/shades, including age (contrast sensitivity reduces with age), screen brightness, ambient light, color blindness, and some types of low vision. 
-
-In general, the higher the level of contrast used, the more people will be able to see and use the content. 
-
-### Test Method Rationale
-This test is conducted to provide equal access to information for all users, including those who may experience difficulty in discerning between items with low contrast. Since larger font is easier to read, lower contrast ratios are permitted.    
-
+# 9. Contrast
 ## Accessibility Requirements
-* WCAG SC 1.4.3 Contrast (minimum) -- The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:
+* [WCAG SC 1.4.3 Contrast (minimum)](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) -- The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:
     * Large Text: Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;
     * Incidental: Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
     * Logotypes: Text that is part of a logo or brand name has no minimum contrast requirement.
+
+## Test Method Rationale
+This test is conducted to evaluate equal access to information for all users, including those who may experience difficulty in discerning between items with low contrast.
 
 ## Limitations, Assumptions, or Exceptions
 * While text contained in logos rendered as images is exempt from this requirement, the image must still provide alternative text (e.g., via an `alt` attribute).
@@ -39,12 +33,14 @@ Select all text AND images of text that meet the following criteria:
     * At least 14 point (18.62 pixels) AND bold (at least 700 font weight)
 
 ### Test Results
-If both of the above checks fail, then the content fails this SC
-
-## Baseline Requirement Outcome
-If no content fails, then the content passes the Baseline Requirement
+If both of the above checks fail, then this SC fails, and the Baseline Requirement fails.
 
 ## Advisory: Tips for streamlined test processes
 * Testing of text contrast changes includes changes due to mouse hover and selection status.
-* The color contrast requirment is not specific to web content only, but includes software inspection in any window.
-* There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See http://www.w3.org/TR/WCAG20-TECHS/G18.html for possible testing tools which use an appropriate algorithm.
+* There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See http://www.w3.org/TR/WCAG20-TECHS/G18.html for possible testing tools that use an appropriate algorithm.
+
+### WCAG 2.0 Techniques
+* The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+    * [G18: Ensuring that a contrast ratio of at least 4.5:1 exists between text (and images of text) and background behind the text](https://www.w3.org/TR/WCAG20-TECHS/G18.html)
+    * [G174: Providing a control with a sufficient contrast ratio that allows users to switch to a presentation that uses sufficient contrast](https://www.w3.org/TR/WCAG20-TECHS/G174.html)
+    * [F83: Failure of Success Criterion 1.4.3 and 1.4.6 due to using background images that do not provide sufficient contrast with foreground text (or images of text)](https://www.w3.org/TR/WCAG20-TECHS/F83.html)
