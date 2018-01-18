@@ -6,14 +6,15 @@
 ### Test Method Rationale
 To identify visual changes to content and component states that occur without a page refresh and to correlate those changes with equivalent programmatic and/or textual information. Content changes could include component state changes (e.g., closed/open sections, sort order, collapsed/expanded menus), dynamic and/or calculated values (e.g., "34 characters remaining"), and automatically updating stock prices. Content that changes in the course of a user's interaction with the content (including, but not limited to changes in text, component states, structure, relationships, or functionality) must provide a means by which the change in content is programmatically determinable or is otherwise available in text.
 
+Other WCAG SC's could have been included (1.1.1 Non-text Content, 1.3.1 Info and relationships, etc.) but since accessibility properties checked under 4.1.2 are adequate, 4.1.2 is the only SC in this test.
+
 ## Limitations, Assumptions, or Exceptions
-* Other WCAG SC's could have been included (1.1.1 Non-text Content, 1.3.1 Info and relationships, for example) but since accessibility properties checked under 4.1.2 would be adequate, 4.1.2 is the only SC in this test.
 * The state of form elements (checked, unchecked, etc.) are included in this test.
 
 ## Test Procedure for SC 4.1.2
 ### Select/Identify Content
 Identify changes in presented content. Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc. 
-* It may be necessary to use the mouse to determine whether state changes occur on hover, or on click.
+* It may be necessary to use the mouse to determine whether state changes occur on hover or on click.
 * Depending on the component, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.
 
 ### Test Instructions
@@ -22,11 +23,11 @@ Identify changes in presented content. Examples include changes to images, navig
    * Role: the role accurately describes the purpose of the element after a change, if applicable.
    * State: the state of the element is accurate after a change, if applicable.
    * Value: the value is updated after a change, if applicable.
-1. Check that the page provides equivalent programmatic notification of changes (e.g., appropriate use of ARIA live regions). *<<KE comment is this always required for every content change? if not when is it required? >>*
+1. Check that the page provides a programmatic notification of the change (e.g., appropriate use of ARIA live regions) at a level appropriate for the importance of the change for users of assistive technology. <<KE: when would this be necessary beyond the above checks?>>
 
 ### Test Results
 * If any of the above checks fails, then this SC and the baseline fail.
 
 ## Advisory Tip:
 * Changing content might also include changes in color to convey information; if color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 8. Color (meaning)](08ColorMeaning.md))
-* If the number of possible states is too large, a sampling approach may be used.
+* If the number of changes to an element is unknown or very large, a sampling approach may be used.
