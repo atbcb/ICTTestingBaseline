@@ -9,6 +9,7 @@ Some components on web pages are intentionally hidden to reduce visual clutter a
 
 ## Limitations, Assumptions, or Exceptions
 * Without exception, focus must shift to modal dialog boxes and remain within the dialog box until the box is closed by the user.
+* Assistive technology will process aria live regions without a focus shift. Live regions that do not contain interactive content do not require a focus shift and would not be included in this test.
 
 ## Test Procedure for SC 1.3.2 and 2.4.3
 ### Select/Identify Content
