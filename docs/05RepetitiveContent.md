@@ -21,7 +21,7 @@ Blocks of content that are repeated on multiple pages including navigation links
 2.	Check that a keyboard-accessible method is provided to bypass repetitive content.
 3.	Use the keyboard to verify the functionality of the bypass function.
     * Activate the bypass method. 
-    * Check that the focus is shifted past the repetitive content. If there is only text/no interactive component to recieve the shift of focus, it may not be evident that a focus shift occurred.
+    * Check that the focus is shifted past the repetitive content. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
 
 ### Test Results
 If any of the above checks fail, then this SC fails and the Baseline Requirement fails.
@@ -41,7 +41,7 @@ If any of the above checks fail, then this SC fails and the Baseline Requirement
 * Some bypass methods may require a specific keyboard shortcut (i.e., the F6 key is the browser default for navigating between frames).
 * If bypass method is provided but cannot be activated by keyboard, this is also a failure of the Keyboard test (#1).
 * If bypass method is in the focus order but is not visible when it has keyboard focus, this is a failure of the Focus (visible) test (#2). 
-* If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with the links requirement (#16). For example, a page with repetitive links should have a descritive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
+* If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with the links requirement (#16). For example, a page with repetitive links should have a descriptive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
 
 ### WCAG 2.0 Techniques
 * This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques require additional assistive tools to function as bypass methods:
