@@ -18,7 +18,7 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
 
 ## Advisory: Tips for streamlined test processes
 * Common keys used to move focus include the Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, and directional arrow keys.
-* Tab order that initially appears illogical may still meet this requirment due to an application specific business logic. 
+* Tab order that initially appears illogical may still meet this requirement due to an application specific business logic. 
 * For web content that is in layout tables, it is possible to produce a linearized representation that may be useful in determining whether a logical order is used.
 
 ### WCAG 2.0 Techniques
