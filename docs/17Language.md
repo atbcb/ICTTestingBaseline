@@ -40,7 +40,8 @@ Content segment that differs from the default language of the page
 ### Test Results
 * If any of the above checks fail, this SC fails, and this Baseline fails.
 
-## Advisory
+## Advisory: Tips for streamlined test processes
+
 ### WCAG 2.0 Techniques
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     * Technique [H57](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H57.html): Using language attributes on the html element

@@ -2,7 +2,7 @@
 
 ## Accessibility Requirements
 * [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
-* [WCAG SC 1.3.2 Meaningful Seqeuence](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html) -- When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
+* [WCAG SC 1.3.2 Meaningful Sequence](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html) -- When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
 
 ## Test Method Rationale
 Some components on web pages are intentionally hidden to reduce visual clutter and only appear as part of a procedure, such as an error notification. Hidden content must be revealed in an accessible manner without requiring user vision and/or use of a mouse.
