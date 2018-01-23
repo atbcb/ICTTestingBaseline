@@ -40,9 +40,10 @@ Meaningful images that convey information (include images of text, functional im
 Decorative Images
 
 ### Test Instructions for 1.1.1
-1. Check that the role is "presentation". 
-1. Check that aria-hidden state is set to true.
-1. Check that the combination of accessible name and accessible description is empty. 
+Check that one of the following is true:
+1. the role is "presentation". 
+1. aria-hidden state is set to true.
+1. the combination of accessible name and accessible description is empty. 
    * Numerous attributes contribute to the computation of the accessible name and accessible description. 
    * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
    
