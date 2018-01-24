@@ -36,11 +36,12 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
    1. Check that aria-hidden state is not set to true. (SC 4.1.2) 
 
 1. If the image is decorative: (SC 1.1.1)
-   1. Check that the role is "presentation". 
-   1. Check that aria-hidden state is set to true.
-   1. Check that the combination of accessible name and accessible description is empty. 
-      * Numerous attributes contribute to the computation of the accessible name and accessible description. 
-      * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+   1. Check that one of the following is true:
+      1. the role is "presentation". 
+      1. the aria-hidden state is set to true.
+      1. the combination of accessible name and accessible description is empty. 
+         * Numerous attributes contribute to the computation of the accessible name and accessible description. 
+         * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
   
 1. If the image is an icon font (SC 1.1.1)
    1. Check that the icon font has aria-hidden set to true. 
