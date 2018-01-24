@@ -29,7 +29,7 @@ Visual headings and headings structure on the page. Headings are often in a larg
 
 ### Test Instructions
 1. Check that each visual heading is identified programmatically as a heading AND that its heading level is logical within the heading structure. 
-      1. The most important heading should have the level of 1, and the least important heading should have a level of 6. 
+      1. Headings levels go from 1 (most important) to 6 (least important), but it is not required that heading levels start with 1.
       1. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. 
       1. Either of these techniques is acceptable for each heading:
           * [H42](https://www.w3.org/TR/WCAG20-TECHS/H42.html): each heading is marked with `<h1>` to `<h6>`.
