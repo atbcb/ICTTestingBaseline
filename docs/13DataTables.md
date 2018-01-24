@@ -29,11 +29,15 @@ Select all data tables where data in the table requires column and/or row header
         * Data cells reference ALL relevant headers, using the `headers=` attribute (e.g., `headers="id1 id2 id3 ..."`)
         * **Note:** `id` attributes may be assigned to table data cells (`<td>` cells), and data cells may reference other data cells as headers using the `headers` attribute
 
+NOte: the draft macOS includes the following:
+...(tables cannot mix use of scope and id/headers). If 'ID' is used, data cells must refer to the associated header cell's 'ID' via the headers attribute in order for the row and column headers to be properly associated and identified. The order of the IDS references in the headers attribute must be in a meaningful sequence. 
+Not all tables require row headers.  A row header is only needed when there is a cell in a row that act as a header for other cells in the row.  Row headers are not required to be in the first column. The scope of “row” only applies to cells to the right of that cell. (same for col?)
+
 #### Test Results
 * If any of the above tests fail, this SC fails
 
 ### Test Intructions for 2.4. Navigable
-1. Check that when navigating data presented in a table, the table provides sufficient programmtic information and/or availalbe text to enable the user to determine relative location within the table
+1. Check that when navigating data presented in a table, the table provides sufficient programmatic information and/or available text to enable the user to determine relative location within the table
 
 #### Test Results
 * If any of the above tests fail, this SC fails
