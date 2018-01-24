@@ -13,7 +13,7 @@ Captions are provided for all audio content (dialogue and important sounds) in s
   * Technique G87: Providing closed captions
 * WCAG SC 1.2.4 Captions (Live) -- Captions are provided for all live audio content in synchronized media.
   * Technique G9: Creating captions for live synchronized media
-
+Note: the proposed macOS test process added these, but see my comments
 ## Limitations, Assumptions, or Exceptions
 **Exceptions**: This is not intended to require that two-way multimedia calls between two or more individuals through web apps must be captioned regardless of the needs of users.
 
@@ -31,6 +31,10 @@ Identify synchronized multimedia (typically visual and audible content), both li
     1. Listen to the audio of the entire synchronized media.
     2. Compare the audio to the captions for accuracy and equivalence.
     3. Lower accuracy of captions for live broadcasts is acceptable due limitations of real-time captioning techniques.
+NOte: the proposed macOS process added these - see my comments:
+In addition, speakers are identified, captions do not block important visual information.
+"In addition, speakers are identified" - add?
+"captions do not block important visual information." - I don't think this is generally doable, since important visual info can appear anywhere.
 
 ##### Test Results for 1.2.2 and 1.2.4
 * If any of the above checks fail, then the content fails this SC
