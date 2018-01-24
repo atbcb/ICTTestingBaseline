@@ -11,12 +11,13 @@ The `<TITLE>` element defines the title of the document, and is required in all 
 
 ## Test Procedure for SC 2.4.2 Page Titled 
 ### Select/Identify Content
-Identify the title for the page.
+Identify the page title element for the page, if any.
 
 ### Test Instructions
-1. Review the page content and the Page Title.
-1. Check if the Page Title identifies the contents or purpose of the Web page.
-1. Check if the Page Title can be used to distinguish pages within a site.
+1. Check that a page title element was found.
+1. If a page title element was found, 
+    1. Check that the Page Title identifies the contents or purpose of the Web page.
+    1. Check that the Page Title can be used to distinguish pages within a site.
 
 ### Test Results
 * If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
