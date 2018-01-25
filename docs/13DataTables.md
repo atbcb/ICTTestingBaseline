@@ -5,15 +5,17 @@ For sighted users, the process of determining table structures and relationships
 ## Accessibility Requirements
 * [WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html) -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
 
+## Test Method Rationale
+Programmatic evaluation of row and column headers association with data.
+
 ## Limitations, Assumptions, Exceptions
 * Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table. This requirement applies to data tables only.
 
 ## Test Procedures 
 ### Selector (Identify Content)
-Select all content presented as a data table where data in a cell requires a column and/or row headers to accurately interpret the data  in the table, including:
+All content visually presented in columns and/or rows where understanding of the content requires association to column and/or row headers, including:
 * Data organized in tables designated with explicit programmatic markup, i.e., using the `<table>` element
-* Data organized within a visual table structure, e.g., using white space and/or other character spacing to visually denote data and header relationships
-* Data organized using other techniques, e.g., CSS styles and grids, to visually denote data and header relationships
+* Data organized with a visual column or row structure using other techniques, e.g., using CSS or spacing to visually denote data and header relationships
 
 ### Test Instructions for 1.3.1
 1. Check that each data cell in a data table has programmatic markup and/or text available that is sufficient to associate the data with each of its relevant headers. 
