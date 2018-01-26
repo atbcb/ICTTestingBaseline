@@ -7,6 +7,7 @@ Programmatic evaluation of row and column headers association with data cells.
 
 ## Limitations, Assumptions, Exceptions
 * Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table. This requirement applies to data tables only.
+* Rows of data that are related must have a row header so assistive technology users can understand the relationship of the row's data cells. While row headers are often in the first column, it is not a requirement. An example of an exception to this rule: a calendar month is a data table, typically with the days of the week as column headers. The dates in a row are not related so typically, there is no row header present.
 
 ## Test Procedures 
 
