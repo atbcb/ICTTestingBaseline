@@ -18,18 +18,18 @@ All content/data visually presented in columns and/or rows where understanding o
 
 ### Test Instructions for 1.3.1
 1. Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques:
-  * HTML '<table>'. 
-  * ARIA `role="table"` (must not be combined with HTML '<table>`)
+   * HTML `<table>`. 
+   * ARIA `role="table"` (must not be combined with HTML `<table>`)
 
-1. Table data cell: Check that each data cell has programmatic markup to identify it as a data cell within a table
-  * For HTML '<table>: `<td>` for the cell, which must be within a `<tr>` row. 
-  * For ARIA `role="table"`: `role="cell"`, which must be within a `role="row"`
+2. Table data cell: Check that each data cell has programmatic markup to identify it as a data cell within a table row depending on the technique identified in the first step:
+   * For HTML `<table>`: `<td>` for the cell, which must be within a `<tr>` row. 
+   * For ARIA `role="table"`: ARIA `role="cell"`, which must be within an ARIA `role="row"`
   
-1. Identify all column and row headers for each `<td>`.
-   * Check that each column and row header have programmatic markup to identify it as a column/row header for the data cell.
-      * For a `<table>` with all column headers in the first row and/or all row headers in the first column, the header cell can be marked up with `<th>` without additional attributes.
-      * For a `<table>` that has up to two levels of headers that are not entirely within the same column or row as the `<td>`, the headers can be marked up with `<th scope=col|row|colgroup|rowgroup>`. In HTML4, `<td scope>` is a supported. In HTML5, `<td scope>` is not supported so all header cells must be `<th>`.
-      * For any `<table>`, `<th>` and `<td>` header cells can be marked up with a unique `ID` attribute AND associated to `<td>` data cells by including the ID in its `headers` attribute.
+3. Header cells and data cell association: Identify all column and row headers for each data cell. Check that each column header and row header has programmatic markup to identify it as a column/row header for the data cell.
+   * For a simple HTML `<table>` with all column headers in the first row and/or all row headers in the first column: each header cell can be marked up with `<th>` without additional attributes.
+   * For a HTML `<table>` that has up to two levels of headers (column or row), the header cells can be marked up with `<th scope=>`. In HTML4, `<td scope>` is supported. In HTML5, `<td scope>` is not supported so all header cells must be `<th>`. Acceptable values for `scope` are `col|row|colgroup|rowgroup`.
+   * For any HTML `<table>`, each header cell (`<th>` or `<td>`) can be marked up with a unique `ID` attribute AND associated to its data cells by including the ID value in the `<td headers=>` attribute.
+   * For ARIA `role="table"`: each column header must have `role=columnheader` and each row header must have `role="rowheader"`.
 
 #### Test Results
 * If any of the above tests fail, this SC and baseline fail
