@@ -40,13 +40,11 @@ Review form instructions for completeness and programmatic association to their 
    * date (format)
    * state (abbreviations in an address)
    * password
-1. If an input error is automatically detected, check the error notification:
-   1. the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form) 
+1. If an input error is automatically detected, check the error notification meets all of the following:
+   1. the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form) , and
    1. the error is described to the user in text, and
-   1. the item that is in error is identified in text
-Note: The above may be accomplished by using a combination of methods, such as 
-   * shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error.
-   * refreshing the page upon form submission, then listing the error descriptions and locations at the top of the page. 
+   1. the item that is in error is identified in text.
+
 #### Test Results for 3.3.1
 * If any of the above checks fail, then SC 3.3.1 and this baseline fail.
 
@@ -70,3 +68,4 @@ Web pages that cause legal commitments or financial transactions for the user to
 
 ## Advisory: Tips for streamlined test processes
 * Re-displaying the form and indicating the fields in error within the form is insufficient to meet this requirement. The user should not need to search through the form to find where errors were made.
+* For SC 3.3.1, acceptable techniques include a) shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error, b)refreshing the page upon form submission, then listing the error descriptions and locations at the top of the page. 
