@@ -22,7 +22,8 @@ Review form instructions for completeness and programmatic association to their 
 1. Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
 ### Test for 3.3.2
-1. Check that the labels and instructions for each form input minimize errors and are adequate for users to know what input data is expected.
+1.	Check that the labels and instructions for each form input are adequate for users to know what input data is expected and, if applicable, what format is required.
+
 #### Test Results for 3.3.2
 * If any of the above checks fail, then SC 3.3.2 and this baseline fail.
 
