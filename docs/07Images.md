@@ -9,10 +9,9 @@
 All meaningful and decorative images must be evaluated. Tests for certain image types are specified. 
 
 ## Limitations, Assumptions, Exceptions
-  * Image formats include .jpg, .png, .svg, .gif, .tiff, .bmp.
+  * Image formats include .jpg, .png, .svg, .gif, .tiff, .bmp.
   * Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
  * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.   
- * Font icons are considered a form of ASCII art, graphics generated with text.
  * Google icon fonts are exempt from this test; they are accessible without image properties. One way to determine the use of these fonts is to check CSS for google icon reference and exempt them from this test.
  * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
  * Equivalent descriptions for an image within page text would render an image decorative.
@@ -29,31 +28,32 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 
 ### Test Instructions 
 1. If the image is meaningful: (SC 1.1.1 and SC 4.1.2) 
-   1. Check that the alt text provides an equivalent description of the image.
-   1. Check that the text of the page or a longdesc attribute conveys the information provided in the image
-   1. Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+   1. Check that the alt text provides an equivalent description of the image. (1.1.1)
+   1. Check that the longdesc attribute conveys the information provided in the image. (1.1.1)
+   1. Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. (1.1.1) [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+ 
    1. Check that the role is not "presentation". (SC 4.1.2)
    1. Check that aria-hidden state is not set to true. (SC 4.1.2) 
 
 1. If the image is decorative: (SC 1.1.1)
    1. Check that one of the following is true:
-      1. the role is "presentation". 
-      1. the aria-hidden state is set to true.
-      1. the combination of accessible name and accessible description is empty. 
+      1. the role is "presentation". (1.1.1) 
+      1. the aria-hidden state is set to true. (1.1.1)
+      1. the combination of accessible name and accessible description is empty.(1.1.1) 
          * Numerous attributes contribute to the computation of the accessible name and accessible description. 
          * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
   
 1. If the image is an icon font (SC 1.1.1)
-   1. Check that the icon font has aria-hidden set to true. 
-   1. Check that meaningful icon fonts have a text equivalent (accessible name/description).
+   1. Check that the icon font has aria-hidden set to true. (SC 1.1.1) 
+   1. Check that meaningful icon fonts have a text equivalent (accessible name/description). (1.1.1)
 
 1. If the image is of text: (SC 1.4.5)
-   1. Check that the image of text can be visually customized to a user's requirements.
+   1. Check that the image of text can be visually customized to a user's requirements. (SC 1.4.5)
    * For example, a Web site allows users to specify font settings and all images of text on the site are then provided based on those settings.
 
 1. If the image is CAPTCHA: (1.1.1)
-   1. Check that the combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA
-   1. Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing
+   1. Check that the combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA (1.1.1)
+   1. Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing (1.1.1)
 
 #### Test Results
 * If any of the above checks fail, then this SC fails and this baseline fails.
