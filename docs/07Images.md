@@ -53,8 +53,8 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
    * For example, a Web site allows users to specify font settings and all images of text on the site are then provided based on those settings.
 
 1. If the image is CAPTCHA: (1.1.1)
-   1. Check that the combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA (1.1.1) 
-   1. Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing (1.1.1)
+   1. Check that the combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA. (1.1.1)
+   1. Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. (1.1.1)
 
 #### Test Results
 * If any of the above checks fail, then SC 1.1.1, 1.4.5. and or 4.1.2 fails and this baseline fails.
