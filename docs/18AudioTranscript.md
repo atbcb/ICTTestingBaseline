@@ -9,7 +9,7 @@
 
 ## Limitations, Assumptions, or Exceptions
 * If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline test 20. Synchronized Media (Captions) and 21. Synchronized Media (Descriptions)
-* The proximity of the audio content to any control to reveal the transcript is covered by the focus (order) test (i.e., whether there is a logical order for content).<<KE: what is the requirement? does this belong under advisory?>>
+
 * Audio-only content may be delivered as a downloadable file, streamed, or other means.
 * Per Conformance Requirement 5, SC 1.4.2 applies to all audio content that automatically plays for more than 3 seconds. 
 
@@ -35,7 +35,7 @@ Audio that automatically plays for more than 3 seconds,
 * If any of the above checks fail, SC 1.4.2 and this baseline fail.
 
 ## Selector (Identify Content) for 1.3.3
-Instructions provided for understanding and operating content. 
+Instructions provided for understanding and operating content. References to short sounds used to notify the user, such as confirmation beeps and error notifications, are included in this requirement.
 
 ### Tests for SC 1.3.3
 1. Check that instructions do not rely soley on sounds or audible cues.
@@ -44,3 +44,4 @@ Instructions provided for understanding and operating content.
 * If any of the above checks fail, SC 1.3.3 and this baseline fail.
 
 ## Advisory Tips
+* The proximity of the audio content to any control to reveal the transcript is covered by the focus (order) test (i.e., whether there is a logical order for content).<<KE: what is the specific test here?>>
