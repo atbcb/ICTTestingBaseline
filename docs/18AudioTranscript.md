@@ -45,3 +45,4 @@ Instructions provided for understanding and operating content. References to sho
 
 ## Advisory Tips
 * The proximity of the audio content to any control to reveal the transcript is covered by the focus (order) test (i.e., whether there is a logical order for content).<<KE: what is the specific test here?>>
+* A failure of SC 1.4.2 would also fail Conformance Requirement 5: Non-Interference, should be highlighted in test reports to indicate the severe impact on accessibility.
