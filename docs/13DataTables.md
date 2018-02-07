@@ -1,7 +1,7 @@
 # 13. Tables
 ## Accessibility Requirements
 * **[WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)** -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
-* **[2.4.6 Headings and Labels](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)** -- Headings and Labels provide topic and purpose
+* **[WCAG SC 2.4.6 Headings and Labels](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)** -- Headings and Labels provide topic and purpose
 
 ## Test Method Rationale
 For assistive technology (AT) users, data tables must explicitly associate table data with table row and column headers via programmatic markup. Table markup also facilitates navigation for AT users by providing programmatic landmarks via column and row headers.
