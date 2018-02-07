@@ -12,11 +12,9 @@
 ## Test Mehod Rationale
 The accessible alternate version must contain the same information as the primary page. The information should be 'equivalent', but by definition this is not going to be 'exactly the same'. The main points, themes, concepts etc. that the authors are trying to get across in the primary content should also come across in the alternate page.
 
-## Limitations, Assumptions, or Exceptions
-
 ## Test Procedure for Conformance Requirement 1 - Conforming alternate version
 
-### Selector (Identify Content)
+### Select/Identify Content
 1. Any alternate pages/sites for content (pay particular attention to content containing maps, directions, complex charts etc.).
 
 ### Test Instructions
