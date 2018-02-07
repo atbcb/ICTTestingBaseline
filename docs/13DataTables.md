@@ -1,22 +1,22 @@
 # 13. Tables
 ## Accessibility Requirements
-* [WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html) -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
+* **[WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html)** -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
+* **[2.4.6 Headings and Labels](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html)** -- Headings and Labels provide topic and purpose
 
 ## Test Method Rationale
-Programmatic evaluation of row and column headers association with data cells.
+For assistive technology (AT) users, data tables must explicitely associate table data with table row and column headers via programmatic markup. Table markup also facilitates navigation for AT users by providing programmatic landmarks via column and row headers.
 
 ## Limitations, Assumptions, Exceptions
 * Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table. This requirement applies to data tables only.
+* Some content may be presented visually in a table structure, using CSS and/or other styling methods, while the information conveyed does not rely on interrelationships between row and column headers to understand the information. In such cases, headings, labels, and other associations may be sufficient to convey relationship information without the need for data cell and header information facilitated by the use of the `<table>` element, ARIA `role="table"`, and associated programmatic attributes. The same information, could also be presented using alternative styling (e.g., presented in tabs, accordion sections, etc.), without losing any relationship information conveyed via the table structure alone. This baseline, therefore, is limited only to evaluation of data tables using the `<table>` element or ARIA `role="table"`. Other methods to evaluation information and relationships should follow the baseline tests in [15. Headings](15Headings.md), [11. Forms (associated instructions)](11Forms.md), and elsewhere.
 * Rows of data that are related must have a row header so assistive technology users can understand the relationship of the row's data cells. While row headers are often in the first column, it is not a requirement. An example of an exception to this rule: a calendar month is a data table, typically with the days of the week as column headers. The dates in a row are not related so typically, there is no row header present.
+* The use of `<table>` elements for layout purposes is discouraged. No other elements associated with data tables are permitted to be used for table layout purposes, such as `<th>`, `<td>`, `<summary>`, or `<caption>`.
 
-## Test Procedures 
+## Test Procedures for 1.3.1 Info and Relationships
+### Select/Identify Content
+All content/data presented in columns and/or rows where understanding of the content requires association to column and/or row headers, including data organized in tables designated with explicit programmatic markup, i.e., using the `<table>` element or ARIA `role="table"`
 
-### Selector (Identify Content)
-All content/data visually presented in columns and/or rows where understanding of the content requires association to column and/or row headers, including:
-* Data organized in tables designated with explicit programmatic markup, i.e., using the `<table>` element
-* Data organized with a visual column or row structure using other techniques, e.g., using CSS or spacing to visually denote data and header relationships <<KE: http://divtable.com/generator/ creates div and css tables. [Accessible aria div tables by level access](https://labs.ssbbartgroup.com/index.php/ARIA_Table_Role) >>
-
-### Test Instructions for 1.3.1
+### Test Instructions
 1. Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques:
    * HTML `<table>`. 
    * ARIA `role="table"` (must not be combined with HTML `<table>`)
@@ -31,11 +31,22 @@ All content/data visually presented in columns and/or rows where understanding o
    * For any HTML `<table>`, each header cell (`<th>` or `<td>`) can be marked up with a unique `ID` attribute AND associated to its data cells by including the ID value in the `<td headers=>` attribute.
    * For ARIA `role="table"`: each column header must have `role=columnheader` and each row header must have `role="rowheader"`.
 
-#### Test Results
-* If any of the above tests fail, this SC and baseline fail
+### Test Results
+* If any of the above tests fail, SC 1.3.1 fails and Baseline 13 fails.
+
+## Test Procedures for 2.4.6 Headings and Labels
+### Select/Identify Content
+All content/data presented in columns and/or rows where understanding of the content requires association to column and/or row headers, including data organized in tables designated with explicit programmatic markup, i.e., using the `<table>` element or ARIA `role="table"`
+
+### Test Instructions
+1. Check that the text provided for the data table column and row headers describes its section of the content. 
+
+### Test Results
+* If the above test fails, SC 2.4.6 fails and Baseline 13 fails.
 
 ## Advisory
-### Techniques
-  * H43: Using id and headers attributes to associate data cells with header cells in data tables
-  * H51: Using table markup to present tabular information
-  * H63: Using the scope attribute to associate header cells and data cells in data tables
+### WCAG 2.0 Techniques
+The following sufficient techniques  were considered when developing this test procedure for this baseline requirement:
+  * [H43](https://www.w3.org/TR/WCAG20-TECHS/H43.html): Using id and headers attributes to associate data cells with header cells in data tables
+  * [H51](https://www.w3.org/TR/WCAG20-TECHS/H51.html): Using table markup to present tabular information
+  * [H63](https://www.w3.org/TR/WCAG20-TECHS/H63.html): Using the scope attribute to associate header cells and data cells in data tables
