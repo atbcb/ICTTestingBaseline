@@ -50,8 +50,7 @@ Live synchronized multimedia
 * If any of the above checks fail, SC 1.2.4 and this baseline fail
 
 ## Advisory: Tips for streamlined test processes
-* Testing synchronized media is different to testing audio-only content (test #18).
-* It is preferable to have the media on the main page for all users captioned and audio described, as current technology permits this. It is acceptable to have separate files for captioned and/or audio described versions.
+* Testing synchronized media is different to testing audio-only content (test #18) and video-only content (test #19).
 * Synchronized media players may software or HTML.
 
 ### Sufficient Techniques
