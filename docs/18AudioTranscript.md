@@ -11,10 +11,11 @@
 * If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline test 20. Synchronized Media (Captions) and 21. Synchronized Media (Descriptions)
 * A text equivalent is not required for audio that is provided as an equivalent for video-only content. For example, it is not required to transcribe audio that is provided as an alternative to a silent movie.
 * Audio-only content may be delivered as a downloadable file, streamed, or other means.
+* Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
 * Per Conformance Requirement 5, SC 1.4.2 applies to all audio content that automatically plays for more than 3 seconds. 
 
 ## Selector (Identify Content) for 1.2.1
-Pre-recorded audio-only content. Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
+Pre-recorded audio-only content. 
 
 ### Tests for SC 1.2.1
 1. Check that the page provides transcript(s) for audio-only content.
@@ -35,10 +36,10 @@ Audio that automatically plays for more than 3 seconds,
 * If any of the above checks fail, SC 1.4.2 and this baseline fail.
 
 ## Selector (Identify Content) for 1.3.3
-Instructions provided for understanding and operating content. References to short sounds used to notify the user, such as confirmation beeps and error notifications, are included in this requirement.
+Instructions provided for understanding and operating content. 
 
 ### Tests for SC 1.3.3
-1. Check that instructions do not rely soley on sounds or audible cues.
+1. Check that instructions do not rely soley on sounds or audible cues from audio-only content, e.g., listen to the audio file and then answer the knowledge checks.
 
 #### Test Results for SC 1.3.3
 * If any of the above checks fail, SC 1.3.3 and this baseline fail.
