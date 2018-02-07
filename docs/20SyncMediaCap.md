@@ -10,7 +10,7 @@
 ## Limitations, Assumptions, or Exceptions
 * Synchronized media is audio or video synchronized with another format for presenting information and/or with time-based interactive components, unless the media is a media alternative for text that is clearly labeled as such. Synchronized media includes Web casts, press conferences, and online training presentations.
 * Captions are synchronized visual and/or text alternative for both speech and non-speech audio information needed to understand the media content
-* Audio descriptions are narration added to the soundtrack to describe important visual details that cannot be understood from the main soundtrack alone
+* Audio descriptions are narration added to the soundtrack to describe important visual details that cannot be understood from the main soundtrack alone.
 * Captions and audio descriptions need to be available but do not need to be turned on by default.
 * Captions and audio descriptions can be provided in separate media files, i.e., an audio described and captioned versions are different files.
 * Multimedia player must support captions and audio description for this test.
@@ -22,7 +22,7 @@
 Pre-recorded synchronized multimedia
 
 ### Tests for SC 1.2.2
-1. Enable captions through multimedia player functions and play the media.
+1. Enable captions through multimedia player functions and play the media. If a separate media file with captions is provided, test that one.
 2.	Check that captions are accurate and include all dialogue and important sounds.
     1. Listen to the audio of the entire synchronized media.
     2. Compare the audio to the captions for accuracy and equivalence. 
@@ -31,8 +31,8 @@ Pre-recorded synchronized multimedia
 * If any of the above checks fail, SC 1.2.2 and this baseline fail.
 
 ### Tests for SC 1.2.5
-1. Enable audio descriptions through multimedia player functions and play the media.
-1. Check that the soundtrack (narration and audio descriptions) adequately describes visual content in the media.
+1. Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that one.
+1. Check that the soundtrack (narration and audio descriptions) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content..
 
 #### Test Results SC 1.2.5
 If any of the above checks fail, SC 1.2.5 and this baseline fail.
