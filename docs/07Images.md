@@ -12,9 +12,10 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
   * Image formats include .jpg, .png, .svg, .gif, .tiff, .bmp.
   * Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
  * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.   
- * Google icon fonts are exempt from this test; they are accessible without image properties. One way to determine the use of these fonts is to check CSS for google icon reference and exempt them from this test.
+ * Google icon fonts are exempt from this test; they are accessible without image properties. One way to determine the use of these fonts is to check CSS for google icon reference and exempt them from this test. << Align with test for icon fonts >>
  * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
  * Equivalent descriptions for an image within page text would render an image decorative.
+ * While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficent technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html), the technique [is not universally accessibility supported](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
  
 ## Test Procedures 
 ### Select/Identify Content
@@ -28,11 +29,8 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 
 ### Test Instructions 
 1. If the image is meaningful: (SC 1.1.1 and SC 4.1.2) 
-   1. Check that the alt text provides an equivalent description of the image. (1.1.1)
-   1. Check that the longdesc attribute conveys the information provided in the image. (1.1.1)
    1. Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. (1.1.1) 
    [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
- 
    1. Check that the role is not "presentation". (SC 4.1.2)
    1. Check that aria-hidden state is not set to true. (SC 4.1.2) 
 
@@ -40,13 +38,14 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
    1. Check that one of the following is true:
       1. the role is "presentation". (1.1.1)
       1. the aria-hidden state is set to true. (1.1.1)
-      1. the combination of accessible name and accessible description is empty.(1.1.1) 
+      1. the combination of accessible name and accessible description is empty. (1.1.1) 
          * Numerous attributes contribute to the computation of the accessible name and accessible description. 
          * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
   
 1. If the image is an icon font (SC 1.1.1)
-   1. Check that the icon font has aria-hidden set to true. (SC 1.1.1)
-   1. Check that meaningful icon fonts have a text equivalent (accessible name/description). (1.1.1)
+   1. Check that one of the following is true: 
+       1. The icon font has aria-hidden set to true AND the icon provides a text equivalent via at `title=` attribute. (1.1.1)
+       1. << Add language related CSS replacement method, i.e., Google icon font method >>
 
 1. If the image is of text: (SC 1.4.5)
    1. Check that the image of text can be visually customized to a user's requirements. (SC 1.4.5)
