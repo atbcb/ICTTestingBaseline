@@ -17,6 +17,11 @@ All content/data visually presented in columns and/or rows where understanding o
 * Data organized with a visual column or row structure using other techniques, e.g., using CSS or spacing to visually denote data and header relationships <<KE: http://divtable.com/generator/ creates div and css tables. [Accessible aria div tables by level access](https://labs.ssbbartgroup.com/index.php/ARIA_Table_Role) >>
 
 ### Test Instructions for 1.3.1
+* Confirm content requires programmatic table markup:
+    * Linearize the content
+    * If the linearized reading order of the content has a meaningful sequence, programmatic table markup is not necessary. This test does not apply to the content.
+    * If the linearized reading order of the content does not have a meaningful sequence, data table markup is required. Continue testing.
+
 1. Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques:
    * HTML `<table>`. 
    * ARIA `role="table"` (must not be combined with HTML `<table>`)
@@ -39,3 +44,4 @@ All content/data visually presented in columns and/or rows where understanding o
   * H43: Using id and headers attributes to associate data cells with header cells in data tables
   * H51: Using table markup to present tabular information
   * H63: Using the scope attribute to associate header cells and data cells in data tables
+  * F49: Failure of Success Criterion 1.3.2 due to using an HTML layout table that does not make sense when linearized 
