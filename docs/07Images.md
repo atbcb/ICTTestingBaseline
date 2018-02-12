@@ -83,10 +83,10 @@ Identify any images of text, except where a particular presentation of text  is 
 ### Test Results
 * If any of the above checks fail, then SC 1.4.5 fails, and Baseline 7 fails.
 
-## Advisory Tips:
+## Advisory: Tips for streamlined test processes
 * An example of an accessible CAPTCHA is [recaptcha](https://www.google.com/recaptcha/api2/demo?invisible=true)
 
-## Techniques
+## WCAG 2.0 Techniques
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
   * [ARIA6: Using aria-label to provide labels for objects](https://www.w3.org/TR/WCAG20-TECHS/ARIA6.html)
   * [ARIA15: Using aria-describedby to provide descriptions of images](https://www.w3.org/TR/WCAG20-TECHS/ARIA15.html)
