@@ -5,8 +5,10 @@
 ## Accessibility Requirements
 * [WCAG SC 1.2.2 Captions (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html) -- Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
 * [WCAG SC 1.2.4 Captions (Live)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-real-time-captions.html) -- Captions are provided for all live audio content in synchronized media.
- * [WCAG SC 1.2.5 Audio Description (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html) -- Audio description is provided for all prerecorded video content in synchronized media.
- 
+* [WCAG SC 1.2.5 Audio Description (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html) -- Audio description is provided for all prerecorded video content in synchronized media.
+* [WCAG SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html): For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential.
+  * All content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
+  
 ## Limitations, Assumptions, or Exceptions
 * Synchronized media is audio or video synchronized with another format for presenting information and/or with time-based interactive components, unless the media is a media alternative for text that is clearly labeled as such. Synchronized media includes Web casts, press conferences, and online training presentations.
 * Captions are synchronized visual and/or text alternative for both speech and non-speech audio information needed to understand the media content
@@ -49,9 +51,18 @@ Live synchronized multimedia
 #### Test Results for 1.2.4
 * If any of the above checks fail, SC 1.2.4 and this baseline fail
 
+## Selector for SC 2.2.2
+Synchronized multimedia that plays automatically for more than 5 seconds and is not the only content on the page
+
+### Test for SC 2.2.2
+Check for a mechanism for the user to pause, stop, or hide the multimedia
+
+#### Test Results for 2.2.2
+* If any of the above checks fail, SC 2.2.2 and this baseline fail
+
 ## Advisory: Tips for streamlined test processes
 * Testing synchronized media is different to testing audio-only content (test #18) and video-only content (test #19).
-* Synchronized media players may software or HTML.
+* Synchronized media players may be software or HTML.
 
 ### Sufficient Techniques
 * Technique G93: Providing open (always visible) captions
