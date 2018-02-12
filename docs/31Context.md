@@ -1,3 +1,6 @@
+<<KE: Move 3.2.2 to Forms, if 3.2.1 cannot fit under focus (order) or changing content, then it can be its own test: On Focus...>>
+
+
 # 31. Context Changes
 Navigation through a user interface and interaction with interface components should be predictable for all users. Unexpected changes in context can be disorienting for users with visual or cognitive limitations and can make it difficult to use or consume content. Changes in context should only occur with sufficient warning of changes and/or when it is clear to users that specific actions will lead to context changes.
 
