@@ -14,7 +14,7 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
  * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.   
  * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
  * Equivalent descriptions for an image within page text would render an image decorative.
- * While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficent technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not well accessibility supported](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
+ * While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficent technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
  
 ## Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 ### Select/Identify Content
