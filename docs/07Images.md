@@ -45,7 +45,7 @@ If the image is decorative, check that at least one of the following is true:
 1. The aria-hidden state is set to "true".
 1. The combination of accessible name and accessible description is an empty string (i.e., "").
     * Numerous attributes contribute to the computation of the accessible name and accessible description. 
-    * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+    * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)
 
 #### Test Results
 * If all of the above checks fail, then SC 1.1.1 fails and Baseline 7 fails.
