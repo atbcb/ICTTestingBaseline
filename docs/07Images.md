@@ -88,7 +88,7 @@ Identify any images of text, except where a particular presentation of text  is 
 
 ## WCAG 2.0 Techniques
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-  * [ARIA6: Using aria-label to provide labels for objects](https://www.w3.org/TR/WCAG20-TECHS/ARIA6.html)
+  * [ARIA6: Using aria-label to provide labels for objects](https://www.w3.org/TR/WCAG20-TECHS/ARIA6.html)
   * [ARIA15: Using aria-describedby to provide descriptions of images](https://www.w3.org/TR/WCAG20-TECHS/ARIA15.html)
   * [H36: Using alt attributes on images used as submit buttons](https://www.w3.org/TR/WCAG20-TECHS/H36.html)
   * [H37: Using alt attributes on img elements](https://www.w3.org/TR/WCAG20-TECHS/H37.html)
