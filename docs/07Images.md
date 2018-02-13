@@ -30,7 +30,7 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 #### Test Instructions
 If the image is meaningful:
 1. Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description.
-   [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/2017/WD-html-aam-1.0-20171027/#img-element)
+   [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)
 1. Check that the role is NOT "presentation".
 1. Check that aria-hidden is NOT set to true.
 
