@@ -11,7 +11,8 @@
 View the content of the visual information and compare to alternatives for equivalence.
 
 ## Limitations, Assumptions or Exceptions 
-* In a video-only presentation, information is presented in a variety of ways including animation, text or graphics, the setting and background, the actions and expressions of people, animals, etc. 
+* In a video-only presentation, information is presented in a variety of ways including animation, text or graphics, the setting and background, the actions and expressions of people, animals, etc.
+* A series of pictures displayed as a slide show or carousel, lasting more than 5 seconds, and where a user cannot control the rate of display are considered video-only and must meet this baseline's success criteria. 
 * A description is not required for video intended as a media alternative for text and it is clearly labeled as such. 
 * Video-only content may be delivered as a downloadable file, streamed, or other means.
 * If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Multimedia (B20 and B21) requirements.
@@ -19,7 +20,7 @@ View the content of the visual information and compare to alternatives for equiv
 * An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.
 
 ## Selector for SC 1.2.1
-Pre-recorded video-only content
+Pre-recorded video-only content and carousel/slide shows
 
 ### Tests for SC 1.2.1
 1. Check that video-only content information is also available through an alternative method.
@@ -32,7 +33,7 @@ Pre-recorded video-only content
 * If any of the above checks fail, SC 1.2.1 and this baseline fail
 
 ## Selector for 2.2.2
-Video-only content that is not essential AND (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content
+Video-only content and carousel/slide shows that is not essential AND (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content
 
 ### Tests for 2.2.2
 Check that there is a mechanism for the user to pause, stop, or hide the video-only content.
