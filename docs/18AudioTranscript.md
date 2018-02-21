@@ -33,8 +33,8 @@ Identify and select audio that automatically plays for more than 3 seconds.
 
 ### Test Instructions
 1. Check that either 
-    1. a mechanism is available within the page content or media player to pause or stop the audio, **OR**
-    1. a mechanism is available within the page content or media player to control audio volume independently from the overall system volume level.
+    1. a mechanism is available within the page content, browser, media player, or operating system to pause or stop the audio, **OR**
+    1. a mechanism is available within the page content, browser, media player, or operating system to control audio volume independently from the overall system volume level.
 
 ### Test Results
 * If the above check fails, SC 1.4.2, WCAG Conformance Requirement 5: Non-interference, and Baseline 18 fail.
