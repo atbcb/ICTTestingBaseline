@@ -12,7 +12,7 @@
 * Audio-only content may be delivered as a downloadable file, streamed, or other means.
 * Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
 * Per Conformance Requirement 5, SC 1.4.2 applies to all audio content that automatically plays for more than 3 seconds. 
-* Some information and/or instructions may come in the form of audio-only content, in which case, the web page/site must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline 8. Color and Sensory Characteristics.
+* Some information and/or instructions may come in the form of audio-only content, in which case, the web page/site must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline 8. Sensory Characteristics.
 
 ## Test Procedure for SC 1.2.1 Audio-only and Video-only (Prerecorded)
 ### Select/Identify Content
