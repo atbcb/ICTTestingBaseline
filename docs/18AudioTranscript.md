@@ -6,6 +6,11 @@
 * [WCAG SC 1.4.2 Audio Control](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html) --  If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
    * [WCAG Conformance Requirement 5: Non-interference](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html) -- [... 1.4.2 - Audio Control] apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page [...].
 
+## Test Method Rationale
+Evaluation of alternative content to assess its equivalence to audio-only or video-only content generally involves a manual, congnitive comparison of the original content and its alternative(s). 
+
+Evaluation to identify the existence of a mechanism to control audio (pause, stop, or control volume), also generally requires a congnitive evaluation, given the variety of techniques or mechanisms that could facilitate audio control.
+
 ## Limitations, Assumptions, or Exceptions
 ### Audio
 * If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline test 20. Synchronized Media (Captions) and 21. Synchronized Media (Descriptions)
