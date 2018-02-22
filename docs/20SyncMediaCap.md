@@ -1,5 +1,3 @@
-<<KE: combine 20 captions and 21 audio desc into this one baseline for sync'd media>>
-
 # 20. Synchronized media 
 ## Accessibility Requirements
 * [WCAG SC 1.2.2 Captions (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html) -- Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
