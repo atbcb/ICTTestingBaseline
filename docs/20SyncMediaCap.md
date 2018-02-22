@@ -1,64 +1,59 @@
 <<KE: combine 20 captions and 21 audio desc into this one baseline for sync'd media>>
 
 # 20. Synchronized media 
-
 ## Accessibility Requirements
 * [WCAG SC 1.2.2 Captions (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html) -- Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
 * [WCAG SC 1.2.4 Captions (Live)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-real-time-captions.html) -- Captions are provided for all live audio content in synchronized media.
 * [WCAG SC 1.2.5 Audio Description (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html) -- Audio description is provided for all prerecorded video content in synchronized media.
-* [WCAG SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html): For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential.
-  * All content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
-  
+
+## Test Method Rationale
+Evaluation of captions and audio descriptions to assess its equivalence to synchronized media content generally involves a manual, congnitive comparison of the original content with its alternative(s).
+
 ## Limitations, Assumptions, or Exceptions
 * Synchronized media is audio or video synchronized with another format for presenting information and/or with time-based interactive components, unless the media is a media alternative for text that is clearly labeled as such. Synchronized media includes Web casts, press conferences, and online training presentations.
 * Captions are synchronized visual and/or text alternative for both speech and non-speech audio information needed to understand the media content
 * Audio descriptions are narration added to the soundtrack to describe important visual details that cannot be understood from the main soundtrack alone.
 * Captions and audio descriptions need to be available but do not need to be turned on by default.
 * Captions and audio descriptions can be provided in separate media files, i.e., an audio described and captioned versions are different files.
-* Multimedia player must support captions and audio description for this test.
+* Multimedia players must support captions and audio description for this test.
 * Transcripts and non-synchronized alternatives will not meet this requirement. 
 * Exception: Two-way multimedia calls between two or more individuals through web apps are not included in this test.
 * Level A Success Criterion 1.2.3 requires either an audio description or a full text alternative. Level AA Success Criterion 1.2.5 requires audio description. Revised Section 508 is WCAG 2.0 Level AA so SC 1.2.5 is the applicable requirement in this test.
+* Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under 6. Changing Content.
 
-## Selector for 1.2.2 and 1.2.5
-Pre-recorded synchronized multimedia
+## Test Procedure for SC 1.2.2 Captions (Prerecorded)
+### Select/Identify Content
+Identify and select pre-recorded synchronized multimedia
 
-### Tests for SC 1.2.2
+### Test Instructions
 1. Enable captions through multimedia player functions and play the media. If a separate media file with captions is provided, test that one.
 2.	Check that captions are accurate and include all dialogue and important sounds.
     1. Listen to the audio of the entire synchronized media.
     2. Compare the audio to the captions for accuracy and equivalence. 
 
-#### Test Results for 1.2.2
-* If any of the above checks fail, SC 1.2.2 and this baseline fail.
+### Test Results
+* If any of the above checks fail, SC 1.2.2 and Baseline 20 fail.
 
-### Tests for SC 1.2.5
+## Test Procedure for SC 1.2.5 Audio Description (Prerecorded)
+### Test Instructions
 1. Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that one.
 1. Check that the soundtrack (narration and audio descriptions) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content..
 
-#### Test Results SC 1.2.5
-If any of the above checks fail, SC 1.2.5 and this baseline fail.
+### Test Results
+If any of the above checks fail, SC 1.2.5 and Baseline 20 fail.
 
-## Selector (Identify Content) for 1.2.4
-Live synchronized multimedia
+## Test Procedure for SC 1.2.4 Captions (Live)
+### Select/Identify Content)
+Identify and select live synchronized multimedia
 
-### Tests for SC 1.2.4
+### Test Instructions
 1. Enable captions through multimedia player functions and play the media.
 2.	Check that provided captions include dialogue and important sounds.
     1. Listen to the audio of the entire synchronized media.
     2. Compare the audio to the captions for accuracy and equivalence. Lower accuracy of captions for live broadcasts is acceptable due limitations of real-time captioning techniques.
 
-#### Test Results for 1.2.4
+### Test Results
 * If any of the above checks fail, SC 1.2.4 and this baseline fail
-
-## Selector for SC 2.2.2
-Synchronized multimedia that plays automatically for more than 5 seconds and is not the only content on the page
-
-### Test for SC 2.2.2
-Check for a mechanism for the user to pause, stop, or hide the multimedia
-
-#### Test Results for 2.2.2
-* If any of the above checks fail, SC 2.2.2 and this baseline fail
 
 ## Advisory: Tips for streamlined test processes
 * Testing synchronized media is different to testing audio-only content (test #18) and video-only content (test #19).
