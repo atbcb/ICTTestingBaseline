@@ -72,7 +72,7 @@ Attachment C - Baseline Test Report Checklists
 5. [Repetitive Content](05RepetitiveContent.md)
 6. [Dynamic Content](06Dynamic.md)
 7. [Images](07Images.md)
-8. [Color (meaning)](08ColorMeaning.md)
+8. [Sensory Characteristics](08Sensory.md)
 9. [Contrast](09Contrast.md)
 10. [Flashing](10Flashing.md)
 11. [Forms (associated instructions)](11Forms.md)
