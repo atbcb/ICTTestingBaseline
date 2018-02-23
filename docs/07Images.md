@@ -102,3 +102,6 @@ Identify any images of text, except where a particular presentation of text  is 
   * [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on `img` elements, `area` elements, and `input` elements of `type = "image"`](https://www.w3.org/TR/WCAG20-TECHS/F65.html) 
   * [F67: Failure of Success Criterion 1.1.1 due to providing long descriptions for non-text content that does not serve the same purpose of does not present the same information](https://www.w3.org/TR/WCAG20-TECHS/F67.html) 
   * [H45: Using longdesc to provide a long description on the same or a separate page](http://www.w3.org/TR/WCAG20-TECHS/H45.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](06Changing.md) | [Next Baseline](08Sensory.md)
