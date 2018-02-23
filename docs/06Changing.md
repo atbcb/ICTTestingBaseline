@@ -58,3 +58,6 @@ Identify changes in presented content (both user driven and automatic). Examples
 ## Advisory Tip:
 * Changing content might also include changes in color to convey information. If so, this test should check that the name is updated to reflect the meaning of the changed color. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 8. Sensory Characteristics](08Sensory.md))
 * If the number of changes to an element is unknown or very large, a sampling approach may be used.
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](05RepetitiveContent.md) | [Next Baseline](07Images.md)
