@@ -35,8 +35,8 @@ If the image is meaningful:
 1. Check that aria-hidden is NOT set to true.
 
 #### Test Results
-* If check 1 fails, then SC 1.1.1 fails and Baseline Requirement 7 fails.
-* If check 2 or 3 fails, then SC 4.1.2 fails and Baseline Requirement 7 fails.
+* If check 1 fails, then SC 1.1.1 and Baseline Requirement 7 fail.
+* If check 2 or 3 fails, then SC 4.1.2 and Baseline Requirement 7 fail.
 
 ### Decorative Images
 #### Test Instructions
@@ -48,7 +48,7 @@ If the image is decorative, check that at least one of the following is true:
     * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)
 
 #### Test Results
-* If all of the above checks fail, then SC 1.1.1 fails and Baseline Requirement 7 fails.
+* If all of the above checks fail, then SC 1.1.1 and Baseline Requirement 7 fail.
 
 ### Icon Fonts
 #### Test Instructions
@@ -60,7 +60,7 @@ If the image is an icon font, check that one of the following is true:
         * Google Icons uses CSS styling to replace the inner text of an inline element with an icon image when rendered in the browser; therefore, there is no need to hide the icon, and the inner text would generally serve to provide the text equivalent. If, however, the inner text of the Google Icon is not sufficiently descriptive, then the developer would still need to provide an accurate text equivalent via an alternative technique.
 
 #### Test Results
-* If any of the above checks fail, then SC 1.1.1 fails and Baseline 7 fails.
+* If any of the above checks fail, then SC 1.1.1 and Baseline Requirement 7 fail.
 
 ### Captcha Images
 #### Test Instructions
@@ -69,7 +69,7 @@ If the Image is a Captcha image:
 1. Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing.
 
 #### Test Results
-* If any of the above checks fail, then SC 1.1.1, and Baseline 7 fails.
+* If any of the above checks fail, then SC 1.1.1 and Baseline Requirement 7 fail.
 
 ## Test Procedures for SC 1.4.5 Images of Text
 ### Select/Identify Content
@@ -81,7 +81,7 @@ Identify any images of text, except where a particular presentation of text  is 
    * For example, a Web site allows users to specify font settings and all images of text on the site are then provided based on those settings.
 
 ### Test Results
-* If any of the above checks fail, then SC 1.4.5 fails, and Baseline 7 fails.
+* If any of the above checks fail, then SC 1.4.5 and Baseline Requirement 7 fail.
 
 ## Advisory: Tips for streamlined test processes
 * An example of an accessible CAPTCHA is [recaptcha](https://www.google.com/recaptcha/api2/demo?invisible=true)
