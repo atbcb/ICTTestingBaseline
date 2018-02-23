@@ -65,7 +65,7 @@ Attachment C - Baseline Test Report Checklists
 * Version 3.0, September 2017
 
 # Contents: The Baseline Tests (\#1 - \#28)
-1. [Keyboard navigation](01KeyboardNavigation.md)
+1. [Keyboard Access](01Keyboard.md)
 2. [Focus (visible)](02FocusVisible.md)
 3. [Focus (order)](03FocusOrder.md)
 4. [Focus (Revealing hidden content)](04FocusHidden.md)
