@@ -53,3 +53,6 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
     * [G96: Providing textual identification of items that otherwise rely only on sensory information to be understood](https://www.w3.org/TR/WCAG20-TECHS/G96.html)
     * [F14: Failure of Success Criterion 1.3.3 due to identifying content only by its shape or location](https://www.w3.org/TR/WCAG20-TECHS/F14.html)
     * [F26: Failure of Success Criterion 1.3.3 due to using a graphical symbol alone to convey information](https://www.w3.org/TR/WCAG20-TECHS/F26.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](07Images.md) | [Next Baseline](09Contrast.md)
