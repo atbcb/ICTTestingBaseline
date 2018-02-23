@@ -29,7 +29,7 @@ If the content moves, blinks, or scrolls, **and ALL of the following are true:**
 -------------------------------------
 
 If the content auto-updates, **and ALL of the following are true:**
-* The auto-updating is NOT part of an activity where the auto-updateing is essential to the activity
+* The auto-updating is NOT part of an activity where the auto-updating is essential to the activity
 * The auto-updating is presented in parallel with other content
 
 **then**
