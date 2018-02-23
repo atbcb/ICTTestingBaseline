@@ -82,16 +82,16 @@ Attachment C - Baseline Test Report Checklists
 15. [Headings](15Headings.md)
 16. [Links and User controls](16LinksControls.md)
 17. [Language](17Language.md)
-18. [Audio (transcripts)](18AudioTranscript.md)
-19. [Video (descriptions)](19VideoDescription.md)
-20. [Synchronized media (captions)](20SyncMediaCap.md)
-21. [Synchronized media (descriptions)](21SyncMedia.md)
+18. [Audio and Video-Only](18AudioVideo.md)
+19. Video-only -- **Removed and combined with 18. Audio**
+20. [Synchronized Media](20SyncMediaCap.md)
+21. Synchronized Media (descriptions) -- **Removed and combined with 20. Synchronized Media**
 22. [Style-sheet non-dependence](22Stylesheet.md)
 23. [Frames](23Frames.md)
 24. [Alternate pages](24AlternatePages.md)
 25. [Time outs](25Timeout.md)
-26. *Image maps -- **removed and included under 7. Images***
-27. *Plug-in Links -- **removed***
+26. *Image maps -- **Removed and included under 7. Images***
+27. *Plug-in Links -- **Removed***
 28. [Built-in accessibility features](28Built-inAccessibilityFeatures.md)
 29. **PLACEHOLDER** -- [Pause, Stop, Hide, Control](29Control.md)
 30. **PLACEHOLDER** -- [Multiple Ways](30MultipleWays.md)
