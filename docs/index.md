@@ -39,9 +39,8 @@ Document status, review comments, and feedback
 [*The Baseline Tests (\#1 - \#28)*](#contents-the-baseline-tests-1---28)
 
 Attachment A - Cross-Reference Tables
-* Baseline tests (cross-reference table)
-* Section 508 (cross-reference table
-* WCAG 2.0 (cross-reference table)
+* Baseline Tests (Cross-Reference Table)
+* WCAG 2.0 (Cross-Reference Table)
 
 Attachment B - Flashing content test advisory notes
 * Why to include a flashing content test in a test process
@@ -55,18 +54,16 @@ Attachment C - Baseline Test Report Checklists
 * Web+Software test
 * Summary of failures
 
-[Document Content Change Log](DocumentChange.md)
-
 [Document Content Change Log](DocumentChange1.md)
 * Version 1.0.6, March 2015
 * Version 1.1, February 2016
 * Version 2.0, October 2016
 * Version 2.0.1, November 2016
-* Version 3.0, September 2017
+* Version 3.0, April 2018 (tentative)
 
 # Contents: The Baseline Tests (\#1 - \#28)
 1. [Keyboard Access](01Keyboard.md)
-2. [Focus (visible)](02FocusVisible.md)
+2. [Focus (Visible)](02FocusVisible.md)
 3. [Focus (order)](03FocusOrder.md)
 4. [Focus (Revealing hidden content)](04FocusHidden.md)
 5. [Repetitive Content](05RepetitiveContent.md)
@@ -78,22 +75,18 @@ Attachment C - Baseline Test Report Checklists
 11. [Forms (associated instructions)](11Forms.md)
 12. [Page Titles](12PageTitles.md)
 13. [Data Tables](13DataTables.md)
-14. *Data Tables (cell-header association) -- **Removed and included with 13. Data Tables***
-15. [Headings](15Headings.md)
-16. [Links and User controls](16LinksControls.md)
-17. [Language](17Language.md)
-18. [Audio and Video-Only](18AudioVideo.md)
-19. Video-only -- **Removed and combined with 18. Audio**
-20. [Synchronized Media](20SyncMediaCap.md)
-21. Synchronized Media (descriptions) -- **Removed and combined with 20. Synchronized Media**
-22. [Style-sheet non-dependence](22Stylesheet.md)
-23. [Frames](23Frames.md)
-24. [Alternate pages](24AlternatePages.md)
-25. [Time outs](25Timeout.md)
-26. *Image maps -- **Removed and included under 7. Images***
-27. *Plug-in Links -- **Removed***
-28. [Built-in accessibility features](28Built-inAccessibilityFeatures.md)
-29. **PLACEHOLDER** -- [Pause, Stop, Hide, Control](29Control.md)
-30. **PLACEHOLDER** -- [Multiple Ways](30MultipleWays.md)
-31. **PLACEHOLDER** -- [Context Changes](31Context.md)
-32. **PLACEHOLDER** -- [Parsing](32Parsing.md)
+14. [Headings](14Headings.md)
+15. [Links and User controls](15LinksControls.md)
+16. [Language](17Language.md)
+17. [Audio and Video-Only](18AudioVideo.md)
+18. [Synchronized Media](20SyncMediaCap.md)
+19. [Style-sheet non-dependence](22Stylesheet.md)
+20. [Frames](23Frames.md)
+21. [Alternate pages](24AlternatePages.md)
+22. [Time outs](25Timeout.md)
+23. [Built-in accessibility features](28Built-inAccessibilityFeatures.md)
+24. [Pause, Stop, Hide, Control](29Control.md)
+25. [Multiple Ways](30MultipleWays.md)
+26. [Context Changes](31Context.md)
+27. [Parsing](32Parsing.md)
+28. **PLACEHOLDER** -- Conformance Requirements
