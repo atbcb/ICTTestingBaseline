@@ -36,7 +36,7 @@ If the content auto-updates, **and ALL of the following are true:**
 1. Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update
 
 ### Test Results
-* If any of the above checks fails, then SC 2.2.2 and Baseline 6 fail.
+* If any of the above checks fails, then SC 2.2.2 and Baseline Requirement 6 fail.
 
 ## Test Procedure for SC 4.1.2 Name, Role, Value
 ## Select/Identify Content
@@ -53,7 +53,7 @@ Identify changes in presented content (both user driven and automatic). Examples
 1. Check that the page provides a programmatic notification of the change at a level appropriate for the importance of the change for users of assistive technology (e.g., using ARIA live regions).
 
 ### Test Results
-* If any of the above checks fails, then SC 4.1.2 and Baseline 6 fail.
+* If any of the above checks fails, then SC 4.1.2 and Baseline Requirement 6 fail.
 
 ## Advisory Tip:
 * Changing content might also include changes in color to convey information. If so, this test should check that the name is updated to reflect the meaning of the changed color. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 8. Sensory Characteristics](08Sensory.md))
