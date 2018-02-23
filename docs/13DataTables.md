@@ -47,7 +47,7 @@ All content/data presented in columns and/or rows where understanding of the con
 1. Check that the text provided for the data table column and row headers describes its section of the content. 
 
 ### Test Results
-* If the above test fails, SC 2.4.6 fails and Baseline 13 fails.
+* If the above test fails, SC 2.4.6 and Baseline Requirement 13 fail.
 
 ## Advisory
 ### WCAG 2.0 Techniques
@@ -56,3 +56,6 @@ The following sufficient techniques  were considered when developing this test p
   * [H51: Using table markup to present tabular information](https://www.w3.org/TR/WCAG20-TECHS/H51.html)
   * [H63: Using the scope attribute to associate header cells and data cells in data tables](https://www.w3.org/TR/WCAG20-TECHS/H63.html)
   * [F49: Failure of Success Criterion 1.3.2 due to using an HTML layout table that does not make sense when linearized](https://www.w3.org/TR/WCAG20-TECHS/F49.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](12PageTitles.md) | [Next Baseline](14Headings.md)
