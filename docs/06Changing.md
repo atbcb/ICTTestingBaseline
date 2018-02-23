@@ -29,7 +29,7 @@ If the content moves, blinks, or scrolls, **and ALL of the following are true:**
 -------------------------------------
 
 If the content auto-updates, **and ALL of the following are true:**
-* The auto-updating is NOT part of an activity where the auto-updateing is essential to the activity
+* The auto-updating is NOT part of an activity where the auto-updating is essential to the activity
 * The auto-updating is presented in parallel with other content
 
 **then**
@@ -44,7 +44,7 @@ Identify changes in presented content (both user driven and automatic). Examples
 * It may be necessary to use the mouse to determine whether state changes occur on hover or on click.
 * Depending on the component, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.
 
-### Test Instructions for SC 4.1.2
+### Test Instructions
 1. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate and provides adequate information about the change programmatically.
    * Name: the name is accurate after a change. Apply the [accessible name and description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) computation, if applicable.
    * Role: the role accurately describes the purpose of the element after a change, if applicable.
@@ -52,7 +52,7 @@ Identify changes in presented content (both user driven and automatic). Examples
    * Value: the value is updated after a change, if applicable.
 1. Check that the page provides a programmatic notification of the change at a level appropriate for the importance of the change for users of assistive technology (e.g., using ARIA live regions).
 
-#### Test Results for SC 4.1.2
+### Test Results
 * If any of the above checks fails, then SC 4.1.2 and Baseline 6 fail.
 
 ## Advisory Tip:

@@ -17,22 +17,22 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 Blocks of content that are repeated on multiple pages including navigation links, page headers and banners.
 
 ### Test Instructions 
-1.	Use the keyboard to navigate toward repetitive blocks of content. Some bypass functions may not be visible until they receive focus.
+1.	Use [standard keyboard commands]((https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts#User_interface_navigation_(widgets_and_controls))) to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.
 2.	Check that a keyboard-accessible method is provided to bypass repetitive content.
 3.	Use the keyboard to verify the functionality of the bypass function.
     * Activate the bypass method. 
-    * Check that the focus is shifted past the repetitive content. If there is only text/no interactive component to recieve the shift of focus, it may not be evident that a focus shift occurred.
+    * Check that the focus is shifted past the repetitive content. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
 
 ### Test Results
 If any of the above checks fail, then this SC fails and the Baseline Requirement fails.
 
 ## Test Procedure for SC 3.2.3 Consistent Navigation
 ### Select/Identify Content
-Components that are repeated on multiple pages (which may or may not be contained within a block of content)
+Interface components that are repeated on multiple pages (which may or may not be contained within a block of content)
 
 ### Test Instructions
-1. Check that each component appears in the same relative order with regard to other repeated components on each Web page where it appears.
-1. Check that each link or programmatic reference within a navigational component that is on multiple pages is in the same relative order as other navigational components.
+1. Check that each interface component appears in the same relative order with regard to other repeated interface components on each Web page where it appears.
+1. Check that each link or programmatic reference within a navigational interface component that is on multiple pages is in the same relative order as other navigational interface components.
 
 ### Test Results
 If any of the above checks fail, then this SC fails and the Baseline Requirement fails.
@@ -41,7 +41,7 @@ If any of the above checks fail, then this SC fails and the Baseline Requirement
 * Some bypass methods may require a specific keyboard shortcut (i.e., the F6 key is the browser default for navigating between frames).
 * If bypass method is provided but cannot be activated by keyboard, this is also a failure of the Keyboard test (#1).
 * If bypass method is in the focus order but is not visible when it has keyboard focus, this is a failure of the Focus (visible) test (#2). 
-* If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with the links requirement (#16). For example, a page with repetitive links should have a descritive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
+* If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with the links requirement (#16). For example, a page with repetitive links should have a descriptive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
 
 ### WCAG 2.0 Techniques
 * This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques require additional assistive tools to function as bypass methods:
@@ -51,3 +51,6 @@ If any of the above checks fail, then this SC fails and the Baseline Requirement
     * [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
     * [H70: Using frame elements to group blocks of repeated material](https://www.w3.org/TR/WCAG20-TECHS/H70.html) AND [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/TR/WCAG20-TECHS/H64.html)
     * [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/TR/WCAG20-TECHS/G61.html)
+
+-------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](04FocusHidden.md) | [Next Baseline](06Changing.md)

@@ -33,7 +33,7 @@ Select all data tables where data in the table requires column and/or row header
 * If any of the above tests fail, this SC fails
 
 ### Test Intructions for 2.4. Navigable
-1. Check that when navigating data presented in a table, the table provides sufficient programmtic information and/or availalbe text to enable the user to determine relative location within the table
+1. Check that when navigating data presented in a table, the table provides sufficient programmtic information and/or available text to enable the user to determine relative location within the table
 
 #### Test Results
 * If any of the above tests fail, this SC fails

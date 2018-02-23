@@ -14,11 +14,11 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
 1. If the order of content presented affects understanding or function of the content, then check that the focus order matches the same logical order as the order presented visually. 
 
 ### Test Results
-If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
+If any of the above checks fail, then this SC 2.4.3 and Baseline Requirement 3 fail.
 
 ## Advisory: Tips for streamlined test processes
-* Common keys used to move focus include the Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, and directional arrow keys.
-* Tab order that initially appears illogical may still meet this requirment due to an application specific business logic. 
+* [Standard keys]((https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts#User_interface_navigation_(widgets_and_controls)) used to move focus include the Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, and directional arrow keys.
+* Tab order that initially appears illogical may still meet this requirement due to an application specific business logic. 
 * For web content that is in layout tables, it is possible to produce a linearized representation that may be useful in determining whether a logical order is used.
 
 ### WCAG 2.0 Techniques
@@ -26,3 +26,6 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
     * [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](http://www.w3.org/TR/WCAG20-TECHS/G59.html) 
     * [H4: Creating a logical tab order through links, form controls, and objects](http://www.w3.org/TR/WCAG20-TECHS/H4.html)
     * [F44: Failure of Success Criterion 2.4.3 due to using tabindex to create a tab order that does not preserve meaning and operability](http://www.w3.org/TR/WCAG20-TECHS/F44.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](02FocusVisible.md) | [Next Baseline](04FocusHidden.md)

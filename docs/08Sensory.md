@@ -1,4 +1,4 @@
-# 8. Color and Sensory Characteristics
+# 8. Sensory Characteristics
 ## Accessibility Requirements
 * [WCAG SC 1.4.1 Use of Color](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html) -- Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
 * [WCAG SC 1.3.3 Sensory Characteristics](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html) -- Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.
@@ -25,7 +25,7 @@ If any of the above checks fail, then this SC fails, and the Baseline Requiremen
 
 ## Test Procedure for SC 1.3.3 Sensory Characteristics
 ### Select/Identify Content
-Identify any instances where information or instructions rely on sensory information to be understood. This may include references to shape, size, visual location, orientation, or sound.
+Identify any instances where instructions provided for understanding and operating content rely solely on sensory information to be understood. This may include references to shape, size, visual location, orientation, or sound.
 
 ### Test Instructions
 1. Check that the reference contains additional information that allows the item to be located and identified without any knowledge of its shape, size, or relative position. For instance, 
