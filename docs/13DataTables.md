@@ -33,8 +33,12 @@ All content/data visually presented in columns and/or rows where understanding o
 3. Header cells and data cell association: Identify all column and row headers for each data cell. Check that each column header and row header has programmatic markup to identify it as a column/row header for the data cell.
    * For a simple HTML `<table>` with all column headers in the first row and/or all row headers in the first column: each header cell can be marked up with `<th>` without additional attributes.
    * For a HTML `<table>` that has up to two levels of headers (column or row), the header cells can be marked up with `<th scope=>`. In HTML4, `<td scope>` is supported. In HTML5, `<td scope>` is not supported so all header cells must be `<th>`. Acceptable values for `scope` are `col|row|colgroup|rowgroup`.
-   * For any HTML `<table>`, each header cell (`<th>` or `<td>`) can be marked up with a unique `ID` attribute AND associated to its data cells by including the ID value in the `<td headers=>` attribute.
+   * For any HTML `<table>`, each header cell (`<th>` or `<td>`) can be marked up with a unique `id` attribute AND associated to its data cells by including the ID value in the `<td headers=>` attribute.
    * For ARIA `role="table"`: each column header must have `role=columnheader` and each row header must have `role="rowheader"`.
+   
+**Note:** tables cannot mix use of scope and id/headers. If `id` is used, data cells must refer to the associated header cell's `id` via the headers attribute in order for the row and column headers to be properly associated and identified. The order of the IDs references in the headers attribute must be in a meaningful sequence. 
+
+Not all tables require row headers.  A row header is only needed when there is a cell in a row that acts as a header for other cells in the row.  Row headers are not required to be in the first column. The scope of “row” only applies to cells to the right of that cell.
 
 ### Test Results
 * If any of the above tests fail, SC 1.3.1 and Baseline Requirement 13 fail.
