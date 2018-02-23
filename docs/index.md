@@ -70,7 +70,7 @@ Attachment C - Baseline Test Report Checklists
 3. [Focus (order)](03FocusOrder.md)
 4. [Focus (Revealing hidden content)](04FocusHidden.md)
 5. [Repetitive Content](05RepetitiveContent.md)
-6. [Dynamic Content](06Dynamic.md)
+6. [Changing Content](06Changing.md)
 7. [Images](07Images.md)
 8. [Sensory Characteristics](08Sensory.md)
 9. [Contrast](09Contrast.md)
