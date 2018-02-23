@@ -18,15 +18,19 @@ Identify the page title element for the page, if any.
 1. If a page title element was found, 
     1. Check that the Page Title identifies the contents or purpose of the Web page.
     1. Check that the Page Title can be used to distinguish pages within a site.
+    1. Check that there is only one Page Title.
 
 ### Test Results
-* If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
+* If any of the above checks fail, then SC 2.4.2 and Baseline Requirement 12 fail.
 
 ## Advisory Tips for a Streamlined Test Process
-* The `<TITLE>` element is required for validate HTML and can be included as a test for 4.1.1 Parsing.
+* The `<TITLE>` element must be located as a child of the `<head>` element and is not accessibility supported in other locations (see [Conformance Requirement 4. Accessibility Support](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head)  
 
 ### WCAG 2.0 Techniques
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-    * [Technique G88: Providing descriptive titles for Web page](https://www.w3.org/TR/WCAG20-TECHS/G88.html)
-    * [Technique H25: Providing a title using the title element](https://www.w3.org/TR/WCAG20-TECHS/H25.html)
+    * [G88: Providing descriptive titles for Web page](https://www.w3.org/TR/WCAG20-TECHS/G88.html)
+    * [H25: Providing a title using the title element](https://www.w3.org/TR/WCAG20-TECHS/H25.html)
     * [F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents](https://www.w3.org/TR/WCAG20-TECHS/F25.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](11Forms.md) | [Next Baseline](13DataTables.md)
