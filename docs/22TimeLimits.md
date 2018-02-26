@@ -1,4 +1,4 @@
-# 25. Time outs
+# 22. Time Limits
 ## Accessibility Requirements
 * [WCAG SC 2.2.1 Timing Adjustable](http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html) -- For each time limit that is set by the content, at least one of the following is true:
     * Turn off: The user is allowed to turn off the time limit before encountering it; or
@@ -32,7 +32,7 @@ For each instance of an identified time limit for content:
 6.	Check that the time limit is longer than 20 hours.
 
 ### Test Results
-* If any of the above checks fail, then SC 2.2.1 fails and Baseline 25 fails.
+* If any of the above checks fail, then SC 2.2.1 and Baseline Requirement 25 fail.
 
 ## Advisory: Tips for streamlined test processes
 * Remind testers that when the time-out occurs, visible focus should shift to the time-out alert to comply with success criteria for keyboard accessibility and focus order.
@@ -41,3 +41,12 @@ For each instance of an identified time limit for content:
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+* [G198: Providing a way for the user to turn the time limit off](https://www.w3.org/TR/WCAG20-TECHS/G198.html)
+* [G180: Providing the user with a means to set the time limit to 10 times the default time limit](https://www.w3.org/TR/WCAG20-TECHS/G180.html)
+* [SCR16: Providing a script that warns the user a time limit is about to expire](https://www.w3.org/TR/WCAG20-TECHS/SCR16.html) AND [SCR1: Allowing the user to extend the default time limit](https://www.w3.org/TR/WCAG20-TECHS/SCR1.html)
+* [G4: Allowing the content to be paused and restarted from where it was paused](https://www.w3.org/TR/WCAG20-TECHS/G4.html)
+* [SCR33: Using script to scroll content, and providing a mechanism to pause it](https://www.w3.org/TR/WCAG20-TECHS/SCR33.html)
+* [SCR36: Providing a mechanism to allow users to display moving, scrolling, or auto-updating text in a static window or area](https://www.w3.org/TR/WCAG20-TECHS/SCR36.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](21AlternatePages.md) | [Next Baseline](23Built-InAccessibilityFeatures.md)
