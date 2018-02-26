@@ -52,4 +52,4 @@ Programmatically defined headings and visually apparent content, which denotes s
     * [Technique H88: Using HTML according to spec](https://www.w3.org/TR/WCAG20-TECHS/H88.html) (Accessibility Support Conformance Requirement related to use of `<h1>` in combination with role="heading" and aria-level="#")
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](13DataTables.md) | [Next Baseline](15LinksControls.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](13DataTables.md) | [Next Baseline](15Links.md)
