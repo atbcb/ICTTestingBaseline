@@ -76,7 +76,7 @@ Attachment C - Baseline Test Report Checklists
 12. [Page Titles](12PageTitles.md)
 13. [Data Tables](13DataTables.md)
 14. [Headings](14Headings.md)
-15. [Links and User controls](15LinksControls.md)
+15. [Links](15Links.md)
 16. [Language](17Language.md)
 17. [Audio and Video-Only](18AudioVideo.md)
 18. [Synchronized Media](20SyncMediaCap.md)
