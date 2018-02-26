@@ -34,3 +34,6 @@ Web pages that are not the result of, or a step in, a process.
 * [G161: Providing a search function to help users find content](https://www.w3.org/TR/WCAG20-TECHS/G161.html)
 * [G126: Providing a list of links to all other Web pages](https://www.w3.org/TR/WCAG20-TECHS/G126.html)
 * [G185: Linking to all of the pages on the site from the home page](https://www.w3.org/TR/WCAG20-TECHS/G185.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](23Built-InAccessibilityFeatures.md) | [Next Baseline](26Parsing.md)
