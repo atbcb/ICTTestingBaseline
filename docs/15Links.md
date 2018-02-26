@@ -34,3 +34,6 @@ The following sufficient techniques and/or common failures were considered when 
 * [H79: Identifying the purpose of a link in a data table using the link text combined with its enclosing table cell and associated table header cells](https://www.w3.org/TR/WCAG20-TECHS/H79.html)
 * [F89: Failure of Success Criteria 2.4.4, 2.4.9 and 4.1.2 due to not providing an accessible name for an image which is the only content in a link](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F89)
 * [F42: Failure of Success Criteria 1.3.1, 2.1.1, 2.1.3, or 4.1.2 when emulating links](https://www.w3.org/TR/WCAG20-TECHS/F42.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](14Headings.md) | [Next Baseline](16Language.md)
