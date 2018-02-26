@@ -1,4 +1,4 @@
-# 22. Stylesheet non-dependence
+# 19. Stylesheet non-dependence
 ## Accessibility Requirements
 - [WCAG SC 1.1.1 Non-Text Content](http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.  
     - Controls, Input: If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Guideline 4.1 for additional requirements for controls and content that accepts user input.)
@@ -24,7 +24,7 @@ Meaningful background images rendered by CSS
     1. Is able to substitute for the meaningful background image
 
 ### Test Results
-- If any of the above checks fail, then SC 1.1.1 fails and Baseline 22 fails.
+- If any of the above checks fail, then SC 1.1.1 and Baseline Requirement 22 fail.
 
 ## Test Procedure for SC 1.3.1
 ### Select/Identify Content
@@ -37,7 +37,7 @@ Meaningful page content inserted by CSS using `:before` or `:after`
     1. Is able to substitute for the meaningful CSS content
 
 ### Test Results
-- If any of the above checks fail, then SC 1.3.1 fails and Baseline 22 fails.
+- If any of the above checks fail, then SC 1.3.1 and Baseline Requirement 22 fail.
 
 ## Test Procedure for SC 1.3.2
 ### Selector (Identify Content)
@@ -49,12 +49,15 @@ Content positioned with CSS `position: absolute`
 3. Check that the meaning of the content (in context) is preserved without the absolute position property.
 
 #### Test Results
-- If any of the above checks fail, then SC 1.3.2 fails and Baseline 22 fails.
+- If any of the above checks fail, then SC 1.3.2 and Baseline Requirement 22 fail.
 
 ## Advisory: Tips for streamlined test processes
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-- Failure [F3](https://www.w3.org/TR/WCAG20-TECHS/F3.html): Using CSS to include images that convey important information
-- Failure [F87](https://www.w3.org/TR/WCAG20-TECHS/F87.html):Inserting non-decorative content by using :before and :after pseudo-elements and the &#39;content&#39; property in CSS
-- Failure [F1](https://www.w3.org/TR/WCAG20-TECHS/F1.html): Changing the meaning of content by positioning information with CSS
-- Sufficient Technique [G57](https://www.w3.org/TR/WCAG20-TECHS/G57.html): Ordering the content in a meaningful sequence
+* [G57: Ordering the content in a meaningful sequence](https://www.w3.org/TR/WCAG20-TECHS/G57.html)
+* [F3: Using CSS to include images that convey important information](https://www.w3.org/TR/WCAG20-TECHS/F3.html)
+* [F87:Inserting non-decorative content by using :before and :after pseudo-elements and the &#39;content&#39; property in CSS](https://www.w3.org/TR/WCAG20-TECHS/F87.html)
+* [F1: Changing the meaning of content by positioning information with CSS](https://www.w3.org/TR/WCAG20-TECHS/F1.html)
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](18SyncMedia.md) | [Next Baseline](20Frames.md)
