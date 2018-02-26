@@ -46,3 +46,6 @@ Content text or alternative text segment(s) that differs from the default langua
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     * Technique [H57](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H57.html): Using language attributes on the html element
     * Technique [H58](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H58.html): Using language attributes to identify changes in the human language
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](15Links.md) | [Next Baseline](17AudioVideo.md)
