@@ -3,6 +3,7 @@
 ## Accessibility Requirements
 * [WCAG SC 2.4.1 Bypass Blocks](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html) -- A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
 * [WCAG SC 3.2.3 Consistent Navigation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html) -- Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+* [WCAG 3.2.4 Consistent Identification](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html) -- Components that have the same functionality within a set of Web pages are identified consistently.
 
 ### Test Method Rationale
 To enable equitable use by keyboard-only users, there must be a keyboard-accessible method to bypass repetitive content. The methods covered for bypassing blocks of repeated content are keyboard accessible, with no additional tools required. A common method used to bypass repetitive content is internal (same page) links, but other methods such as a hide menu option and a navigation tree are acceptable. Repeated content is also evaluated for consistent relative order. 
@@ -11,6 +12,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 * Small repeated sections such as individual words, phrases or single links are not considered blocks for the purposes of this provision.
 * Most web browsers provide keyboard shortcuts to move the user focus to the top of the page, so if a set of navigation links is provided at the bottom of a web page providing a "skip" link may be unnecessary. 
 * [Same relative order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html#samerelorderdef) is defined as same position relative to other items. Note: Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
+* Consistent text alternatives for interface elements that perform the same function are not always truly “identical.” For instance, in the use of a graphical arrow at the bottom of a Web page that links to the next Web page, the text alternative may be: “Go to page 4.” However, the same arrow image on the next page should then state "Go to page 5."
 
 ## Test Procedure for SC 2.4.1 Bypass Blocks
 ### Select/Identify Content
@@ -24,7 +26,7 @@ Blocks of content that are repeated on multiple pages including navigation links
     * Check that the focus is shifted past the repetitive content. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
 
 ### Test Results
-If any of the above checks fail, then this SC fails and the Baseline Requirement fails.
+If any of the above checks fail, then SC 2.4.1 and Baseline Requirement 5 fail.
 
 ## Test Procedure for SC 3.2.3 Consistent Navigation
 ### Select/Identify Content
@@ -35,7 +37,17 @@ Interface components that are repeated on multiple pages (which may or may not b
 1. Check that each link or programmatic reference within a navigational interface component that is on multiple pages is in the same relative order as other navigational interface components.
 
 ### Test Results
-If any of the above checks fail, then this SC fails and the Baseline Requirement fails.
+If any of the above checks fail, then SC 3.2.3 and Baseline Requirement 5 fail.
+
+## Test Procedure for SC 3.2.4 Consistent Identification
+### Select/Identify Content
+Functional interface components that are repeated on multiple pages (which may or may not be contained within a block of content)
+
+### Test Instructions
+1. Check that associated text (i..e, label, name, or text alternative) for selected content is identical for each instance where an interface component performs the same function.
+
+### Test Results
+If any of the above checks fail, then SC 3.2.4 and Baseline Requirement 5 fail.
 
 ## Advisory: Tips for streamlined test processes
 * Some bypass methods may require a specific keyboard shortcut (i.e., the F6 key is the browser default for navigating between frames).
@@ -50,7 +62,8 @@ If any of the above checks fail, then this SC fails and the Baseline Requirement
 * The following sufficient techniques and/or common failures were also considered when developing this test procedure for this baseline requirement:
     * [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
     * [H70: Using frame elements to group blocks of repeated material](https://www.w3.org/TR/WCAG20-TECHS/H70.html) AND [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/TR/WCAG20-TECHS/H64.html)
-    * [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/TR/WCAG20-TECHS/G61.html)
+    * [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/TR/WCAG20-TECHS/G61.html)\
+    * [G197: Using labels, names, and text alternatives consistently for content that has the same functionality](https://www.w3.org/TR/WCAG20-TECHS/G197.html)
 
 -------------------------------------
 [Home/Table of Contents](index.md) | [Previous Baseline](04FocusHidden.md) | [Next Baseline](06Changing.md)
