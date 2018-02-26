@@ -44,10 +44,10 @@ Programmatically defined headings and visually apparent content, which denotes s
 ## Advisory: Tips for streamlined test processes
 ### WCAG 2.0 Techniques
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-    * [Technique ARIA12: Using `role=”heading”` and `aria-level=”#”` to identify heading levels](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html)
-    * [Technique H42: Using `<h1>` to `<h6>` to identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html)
-    * [Technique G130: Providing descriptive headings](https://www.w3.org/TR/WCAG20-TECHS/G130.html)
-    * [Technique H88: Using HTML according to spec](https://www.w3.org/TR/WCAG20-TECHS/H88.html) (Accessibility Support Conformance Requirement related to use of `<h1>` in combination with role="heading" and aria-level="#")
+    * [ARIA12: Using `role=”heading”` and `aria-level=”#”` to identify heading levels](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html)
+    * [H42: Using `<h1>` to `<h6>` to identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html)
+    * [G130: Providing descriptive headings](https://www.w3.org/TR/WCAG20-TECHS/G130.html)
+    * [H88: Using HTML according to spec](https://www.w3.org/TR/WCAG20-TECHS/H88.html) (Accessibility Support Conformance Requirement related to use of `<h1>` in combination with role="heading" and aria-level="#")
 
 ----------------------------------------
 [Home/Table of Contents](index.md) | [Previous Baseline](13DataTables.md) | [Next Baseline](15Links.md)
