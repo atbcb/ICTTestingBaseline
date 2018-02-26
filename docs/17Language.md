@@ -14,21 +14,21 @@ The default language for each page must be programmatically identified. Passages
 
 ## Test Procedure for SC 3.1.1 Language of Page
 ### Select/Identify Content
-Page content
+Text and alternative text on pages.
 
 ### Test Instructions
 1. Check that the `lang` attribute is defined on the `<html>` tag for the page (H57).
-1. Identify the default language of the page by reviewing the page content. 
-1. Check that the value of the 'lang' attribute is correctly defined for the page.
+1. Identify the default language of the page by reviewing the page content. The default language of the page is the language in which most of the content is presented.
+1. Check that the value of the 'lang' attribute matches the determined default language for the page.
     1. The primary language subtag is the first 2 or 3 character code in the value of the `lang` attribute. (Do not test additional language specifications that may follow the primary language subtag.)
     1. Check that the primary language subtag conforms to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).  
 
 ### Test Results
-* If any of the above checks fail, this SC fails, and this Baseline fails.
+* If any of the above checks fail, SC 3.1.1 and Baseline Requirement 16 fail.
 
 ## Test Procedure for SC 3.1.2 Language of Parts
 ### Select/Identify Content
-Content segment that differs from the default language of the page
+Content text or alternative text segment(s) that differs from the default language of the page.
 
 ### Test Instructions
 1. Check that the `lang` attribute is specified for any HTML element that contains a content segment that differs from the default language of the page (H58). An element without a set language inherits its language attribute from parent elements.
@@ -38,7 +38,7 @@ Content segment that differs from the default language of the page
     1. Check that the primary language subtag conforms to the Internet Assigned Numbers Authority's [IANA  Language subtag registry](http://www.iana.org/assignments/language-subtag-registry). 
 
 ### Test Results
-* If any of the above checks fail, this SC fails, and this Baseline fails.
+* If any of the above checks fail, SC 3.1.2 and Baseline Requirement 16 fail.
 
 ## Advisory: Tips for streamlined test processes
 
