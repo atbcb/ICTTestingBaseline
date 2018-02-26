@@ -15,6 +15,7 @@ Evaluation to identify the existence of a mechanism to control audio (pause, sto
 ### Audio
 * If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline test 20. Synchronized Media (Captions) and 21. Synchronized Media (Descriptions)
 * A text equivalent is not required for audio that is provided as an equivalent for video-only content. For example, it is not required to transcribe audio that is provided as an alternative to a silent movie.
+* Audio-only content may be stored in file formats typcially used for synchronized media. For example, a speech may be stored in a file where the video is simply a static graphic of the speaker's name and location. If the video component is static, and the information displayed in the video is also available as screen text, then treat the file as audio-only.
 * Audio-only content may be delivered as a downloadable file, streamed, or other means.
 * Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
 * Per Conformance Requirement 5, SC 1.4.2 applies to all audio content that automatically plays for more than 3 seconds. 
@@ -38,7 +39,7 @@ Identify and select pre-recorded audio-only content.
 1. Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, indentification of speakers in dialogue, etc.
 
 ### Test Results
-* If any of the above checks fail, SC 1.2.1 and Baseline 18 fail.
+* If any of the above checks fail, SC 1.2.1 and Baseline 17 fail.
 
 ## Test Procedure for SC 1.4.2 Audio Control
 ### Select/Identify Content
@@ -50,7 +51,7 @@ Identify and select audio that automatically plays for more than 3 seconds.
     1. a mechanism is available within the page content, browser, media player, or operating system to control audio volume independently from the overall system volume level.
 
 ### Test Results
-* If the above check fails, SC 1.4.2, WCAG Conformance Requirement 5: Non-interference, and Baseline 18 fail.
+* If the above check fails, SC 1.4.2, WCAG Conformance Requirement 5: Non-interference, and Baseline 17 fail.
 
 ## Test Procedure for SC 1.2.1 Video-only (Prerecorded)
 ### Select/Identify Content
@@ -63,7 +64,18 @@ Identify and select pre-recorded video-only content
 1. View the video-only content while referring to the alternative and check that the information in the alternative includes the same information that the video-only presentation displays (e.g., if the video includes multiple characters, the alternative must identify which character is associated with each depicted action).
 
 ### Test Results
-* If any of the above checks fail, SC 1.2.1 and Baseline 18 fail.
+* If any of the above checks fail, SC 1.2.1 and Baseline 17 fail.
 
 ## Advisory Tips
 * A failure of SC 1.4.2 would also fail Conformance Requirement 5: Non-Interference and should be highlighted in test reports to indicate the severe impact on accessibility.
+
+### WCAG 2.0 Techniques
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+* [G158: Providing an alternative for time-based media for audio-only content](https://www.w3.org/TR/WCAG20-TECHS/G158.html)
+* [G159: Providing an alternative for time-based media for video-only content](https://www.w3.org/TR/WCAG20-TECHS/G159.html)
+* [G166: Providing audio that describes the important video content and describing it as such](https://www.w3.org/TR/WCAG20-TECHS/G166.html)
+* [H96: Using the track element to provide audio descriptions](https://www.w3.org/TR/WCAG20-TECHS/H96.html)
+
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](16Language.md) | [Next Baseline](18SyncMedia.md)
