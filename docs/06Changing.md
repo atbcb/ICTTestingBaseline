@@ -12,6 +12,8 @@ Content that may be visually distracting must include a mechanism to pause, stop
 
 ## Limitations, Assumptions, or Exceptions
 * The state of form elements (checked, unchecked, etc.) are included in this Baseline.
+* Changing content is considered to be "in parallel" when it appears alongside static content. For example, a news flash updating across the bottom of a web page would be considered changing content in parallel with other content when the page also presents a news video and text news articles (both examples of static content). A button allowing users to pause the changing content would not be considered other static content.
+* Changing content is considered part of "an essential activity" when it is required to continue to the next step or a dynamic response to a user selection. 
 
 ## Test Procedure for SC 2.2.2 Pause, Stop, Hide
 ### Select/Identify Content
