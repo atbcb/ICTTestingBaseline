@@ -14,17 +14,17 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
  * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.   
  * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
  * Equivalent descriptions for an image within page text would render an image decorative.
- * While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficent technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
+ * While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
  
 ## Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 ### Select/Identify Content
-1. Identify all images
+1. Identify all images (.jpg, .png, .svg, .gif, .tiff, .bmp)
 1. Review the context of the image to determine the purpose of the image:
-  * **Meaningful:** conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.)
-  * **Decorative:** conveys no meaningful information or is described in text content 
-  * **Icon Fonts:** decorative font rendered as an image
-  * **Text:** image of text, except where the text is part of a logo
-  * **CAPTCHA:** designed to determine if content is being accessed by a person rather than a computer
+    * **Meaningful:** conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.)
+    * **Decorative:** conveys no meaningful information or is described in text content 
+    * **Icon Fonts:** decorative font rendered as an image
+    * **Text:** image of text, except where the text is part of a logo
+    * **CAPTCHA:** designed to determine if content is being accessed by a person rather than a computer
 
 ### Meaningful Images
 #### Test Instructions
@@ -55,7 +55,7 @@ If the image is decorative, check that at least one of the following is true:
 If the image is an icon font, check that one of the following is true: 
 1. Check that the icon provides an accurate text equivalent, e.g., via a `title=` attribute (with FontAwesome) or via inner text of the inline element (for Google icons).
 2. Check that the icon semantic information does not duplicate, confuse, or contradict the text alternative evaluated in the check above.
-    * Note: different icon fonts may use different techniquest to "hide" icon semantic information; for example:
+    * Note: different icon fonts may use different techniques to "hide" icon semantic information; for example:
         * FontAwesome directs developers to set `aria-hidden` to "true" while providing a descriptive `title` attribute for the icon element
         * Google Icons uses CSS styling to replace the inner text of an inline element with an icon image when rendered in the browser; therefore, there is no need to hide the icon, and the inner text would generally serve to provide the text equivalent. If, however, the inner text of the Google Icon is not sufficiently descriptive, then the developer would still need to provide an accurate text equivalent via an alternative technique.
 
