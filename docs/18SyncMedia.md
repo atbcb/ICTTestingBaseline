@@ -1,4 +1,4 @@
-# 20. Synchronized media 
+# 18. Synchronized Media 
 ## Accessibility Requirements
 * [WCAG SC 1.2.2 Captions (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html) -- Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
 * [WCAG SC 1.2.4 Captions (Live)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-real-time-captions.html) -- Captions are provided for all live audio content in synchronized media.
@@ -67,3 +67,6 @@ Identify and select live synchronized multimedia
 * Technique G9: Creating captions for live synchronized media
 * G78: providing a second, user-selectable, audio track that includes audio descriptions
 * G8: Providing a movie with extended audio descriptions
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](17AudioVideo.md) | [Next Baseline](19Stylesheet.md)
