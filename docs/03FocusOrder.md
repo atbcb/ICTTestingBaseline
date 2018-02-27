@@ -29,7 +29,7 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
 ### Test Results
 If any of the above checks fail, then SC 2.4.3 and Baseline Requirement 3 fail.
 
-## Test Procedure for SC 3.2.1
+## Test Procedure for SC 3.2.1 On Focus
 ### Selector (identify Content)
 * Select all focusable interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).
 
