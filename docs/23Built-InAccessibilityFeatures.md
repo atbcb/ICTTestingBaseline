@@ -1,4 +1,4 @@
-# 23 Built-In Accessibility Features
+# 23. Built-In Accessibility Features
 ## Accessibility Requirements
 **[Appendix C to Part 1194 – Functional Performance Criteria and Technical Requirements: 502 Interoperabiltiy with Assistive Tehcnology:](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#502-interoperability-assistive-technology)** 
 * 502.2.1 User Control of Accessibility Features: Platform software shall provide user control over platform features that are defined in the platform documentation as accessibility features. 
