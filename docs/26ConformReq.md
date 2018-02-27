@@ -1,4 +1,4 @@
-# WCAG Conformance Requirements
+# 26. WCAG Conformance Requirements
 ## Accessibility Requirements
 1. Conformance Level: One of the following levels of conformance is met in full.
     * Level A: For Level A conformance (the minimum level of conformance), the Web page satisfies all the Level A Success Criteria, or a conforming alternate version is provided.
