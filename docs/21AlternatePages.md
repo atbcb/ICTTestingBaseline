@@ -36,4 +36,4 @@ The following sufficient techniques and/or common failures were considered when 
 * [C29](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/C29): Using a style switcher to provide a conforming alternate version (CSS)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](20Frames.md) | [Next Baseline](22Timeout.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](20Frames.md) | [Next Baseline](22TimeLimits.md)
