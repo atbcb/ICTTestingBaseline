@@ -72,37 +72,50 @@ Entire Web page **OR** set of Web pages within a series of Web pages presenting 
     * [Level AAA Success Criteria](https://www.w3.org/WAI/WCAG20/quickref/?showtechniques=324&currentsidebar=%23col_customize&levels=a%2Caa#ensure-compat-parses) (not required for conformance to Section 508 of the Rehabilitation Act
       
 ### Validation Results
+If any portion of the selected content fails **ANY** Level A or AA Success Criterion, the content fails Conformance Requirement 1 and Baseline Requirement 26.
+
 If any portion of the selected content fails **ANY** Level A or AA Success Criterion, the content **IS NOT CONFORMANT** to 36 CFR 1194 and thereby **DOES NOT Conform** to Section 508 of the Rehabilitation Act
 
 ## Validation Procedure for Conformance Requirement 2. Full Pages
 ### Select/Identify Content
-Entire Web page **OR** set of Web pages within a series of Web pages presenting a complete process
+ENTIRE Web page.
 
 ### Validation Instructions
+1. Check that **ALL** of the selected content meets **ALL** of the Level A and Level AA WCAG 2.0 Success Criteria.
 
 ### Validation Results
+If any portion of the selected content fails **ANY** Level A or AA Success Criterion, the content fails Conformance Requirement 2 and Baseline Requirement 26.
+
+If any portion of the selected content fails **ANY** Level A or AA Success Criterion, the content **IS NOT CONFORMANT** to 36 CFR 1194 and thereby **DOES NOT Conform** to Section 508 of the Rehabilitation Act.
 
 ## Validation Procedure for Conformance Requirement 3. Complete Processes
 ### Select/Identify Content
-Entire Web page **OR** set of Web pages within a series of Web pages presenting a complete process
+ENTIRE set of Web pages within a series of Web pages presenting a complete process.
 
 ### Validation Instructions
+1. Check that **ALL** of the selected content meets **ALL** of the Level A and Level AA WCAG 2.0 Success Criteria.
 
 ### Validation Results
+If any portion of the selected content fails **ANY** Level A or AA Success Criterion, the content fails Conformance Requirement 3 and Baseline Requirement 26.
+
+If any portion of the selected content fails **ANY** Level A or AA Success Criterion, the content **IS NOT CONFORMANT** to 36 CFR 1194 and thereby **DOES NOT Conform** to Section 508 of the Rehabilitation Act.
 
 ## Validation Procedure for Conformance Requirement 4. Only Accessibility-Supported Ways of Using Technologies
 ### Select/Identify Content
-Entire Web page **OR** set of Web pages within a series of Web pages presenting a complete process
+Content that provides accessibility through assistive technologies or special accessibility features in mainstream user agents (i.e., content for which the WCAG Success Criteria require that the content make it possible for assistive technologies to successfully present the content's information to the user).
 
 ### Validation Instructions
+1. Verify that selected content is designed in a way that user agents, including assistive technologies, can access all the information they need to present the content to the user.
 
 ### Validation Results
+If the above check fails, then the content fails Conformance Requirment 4 and Baseline Requirement 26.
 
 ## Validation Procedure for Conformance Requirement 5. Non-Interference
 ### Select/Identify Content
 Entire Web page **OR** set of Web pages within a series of Web pages presenting a complete process
 
 ### Validation Instructions
+
 
 ### Validation Results
 
