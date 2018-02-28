@@ -112,14 +112,18 @@ If the above check fails, then the content fails Conformance Requirment 4 and Ba
 
 ## Validation Procedure for Conformance Requirement 5. Non-Interference
 ### Select/Identify Content
-Entire Web page **OR** set of Web pages within a series of Web pages presenting a complete process
+Content that is not accessibility supported (see Conformance Requirement 4, above), or is used in a non-conforming way.
 
 ### Validation Instructions
-
+1. Check that when the selected content is turned ON or accessed by a user agent (including assistive technologies), the content
+    1. **DOES NOT** block the ability of users to access the rest of the page. 
+    1. **DOES NOT** cause the Web page as a whole to fail any conformance requirements
+1. Check that when the selected content is turned OFF or disabled by a user agent (including assistive technologies), the content
+    1. **DOES NOT** block the ability of users to access the rest of the page. 
+    1. **DOES NOT** cause the Web page as a whole to fail any conformance requirements
+1. Check that if the selected content is not supported by a user agent (including assistive technologies), the content
+    1. **DOES NOT** block the ability of users to access the rest of the page. 
+    1. **DOES NOT** cause the Web page as a whole to fail any conformance requirements
 
 ### Validation Results
-
-
-## Advisory: Tips for streamlined test processes
-### WCAG 2.0 Techniques
-* The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+If the above check fails, then the content fails Conformance Requirment 5 and Baseline Requirement 26.
