@@ -25,4 +25,4 @@
 | 23 | Built-In Accessibility Features | Not Started | Not Started |
 | 24 | Multiple Ways | Not Started | Not Started |
 | 25 | Parsing | Not Started | Not Started |
-| 26 | PLACEHOLDER -- Parsing | Not Started | Not Started |
+| 26 | PLACEHOLDER -- WCAG Conformance Requirements | Not Started | Not Started |
