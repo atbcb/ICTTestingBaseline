@@ -126,4 +126,4 @@ Content that is not accessibility supported (see Conformance Requirement 4, abov
     1. **DOES NOT** cause the Web page as a whole to fail any conformance requirements
 
 ### Validation Results
-If the above check fails, then the content fails Conformance Requirment 5 and Baseline Requirement 26.
+If any of the above checks fail, then the content fails Conformance Requirment 5 and Baseline Requirement 26.
