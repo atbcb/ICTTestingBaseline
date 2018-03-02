@@ -1,0 +1,53 @@
+# 14. Headings
+## Accessibility Requirements
+* [WCAG SC 2.4.6 Headings and Labels](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html) -- Headings and labels describe topic or purpose.
+* [WCAG SC 1.3.1 Info and Relationships](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html) -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
+
+## Test Method Rationale
+Headings must be programmatically determinable. Heading levels must be programmatically determinable and communicate the visual importance of the heading or visual level of the heading structure. Headings must be descriptive.
+
+## Limitations, Assumptions, or Exceptions
+* A page with only one heading on the page does not have a heading level structure and would not be tested for heading structure.
+* Pages can have more than one heading level 1
+* The heading level 1 on a page is not required to match the page title
+* The order of headings may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an `<h2>` heading may be used for a navigation structure that precedes an `<h1>` title on a page.
+
+## Test Procedure for SC 2.4.6 Headings and Labels
+### Select/Identify Content
+Visually apparent content, which denotes sections of content.
+
+### Test Instructions
+1. Check that each heading describes its section of the content. 
+      1. Descriptive headings identify sections of the content in relation both to the Web page as a whole and to other sections of the same Web page. 
+      1. Descriptive headings also help users find specific content and orient themselves within the Web page.
+      
+### Test Results
+* If any of the above checks fail, SC 2.4.6 and Baseline Requirement 14 fail.
+
+## Test Procedure for SC 1.3.1 Info and Relationships
+### Select/Identify Content
+Programmatically defined headings and visually apparent content, which denotes sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.
+
+### Test Instructions
+1. Check that each visual heading is identified programmatically as a heading AND that its heading level logically matches the visual heading presentation within the heading structure. 
+    1. The most important heading should have the level of 1, and the least important heading should have a level less than the next least important level (up to `<h6>`. 
+    1. Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section. 
+    1. Either of these techniques is acceptable for each heading:
+          * [H42](https://www.w3.org/TR/WCAG20-TECHS/H42.html): each heading is marked with `<h1>` to `<h6>`.
+          * [ARIA12](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html): each heading is marked with `role=”heading”` and `aria-level=”#”`. If all headings on the page are at the same level, the additional `aria-level=”#”` is not required.
+    1. Check that each programmatic heading uses **EITHER** the HTML heading technique H42 `<h1>` to `<h6>` **OR** the ARIA technique `<role="heading" aria-level="#">`. A heading cannot use both techniques per [W3C specification ARIA in HTML](http://w3c.github.io/html-aria/#docconformance) and is not accessibility supported (see [Conformance Requirement 4. Accessibility Support](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head).
+1. Check that each programmatically determinable heading is also visually distinguishable as a heading on the page. Content that is not a visual heading should not have a role of heading (for example, heading markup should not be used to communicate something that would otherwise be emphasized but not act as a heading to content after it).
+
+### Test Results
+* If any of the above checks fail, SC 1.3.1 and Baseline Requirement 14 fail.
+
+## Advisory: Tips for streamlined test processes
+### WCAG 2.0 Techniques
+* The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+    * [ARIA12: Using `role=”heading”` and `aria-level=”#”` to identify heading levels](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html)
+    * [H42: Using `<h1>` to `<h6>` to identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html)
+    * [G130: Providing descriptive headings](https://www.w3.org/TR/WCAG20-TECHS/G130.html)
+    * [H88: Using HTML according to spec](https://www.w3.org/TR/WCAG20-TECHS/H88.html) (Accessibility Support Conformance Requirement related to use of `<h1>` in combination with role="heading" and aria-level="#")
+
+----------------------------------------
+[Home/Table of Contents](index.md) | [Previous Baseline](13DataTables.md) | [Next Baseline](15Links.md)

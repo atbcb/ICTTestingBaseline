@@ -22,14 +22,14 @@ All functionality of the content that is available by mouse control must be keyb
 
 ### Test Instructions
 1. Check that all functionality can be accessed and executed using only the keyboard.
-    1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to perform functions available by mouse (including drop-down menus, form fields, hidden content, tooltips, AND all interactive interface components).
+    1. Use the [standard keyboard commands](https://en.wikipedia.org/wiki/Table_of_keyboard_shortcuts#User_interface_navigation_(widgets_and_controls)) (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to perform functions available by mouse (including drop-down menus, form fields, hidden content, tooltips, AND all interactive interface components).
     1. Check that individual keystrokes do not require specific timings for activation.
     1. Each of the individual mouse activated controls do not require keyboard access as long as there is a keyboard accessible method to perform the same function available on the page. 
 1. Inspect any help (contextual help, application help) and documentation for available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys) to perform a function.
-    1. If alternate keyboard commands are required for navigating or performing a function, check that the commands work. 
+    1. If nonstandard keyboard commands are required for navigating or performing a function, check that the commands work. 
  
 ### Test Results
-If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
+If any of the above checks fail, then SC 2.1.1 and Baseline Requirement 1 fail.
 
 ## Test Procedure for SC 2.1.2 No Keyboard Trap
 ### Select/Identify Content
@@ -37,12 +37,12 @@ Visible and hidden interactive interface components (links, form fields, drop do
 
 ### Test Instructions
 1. Use the standard keyboard commands (Tab, [Shift+Tab], Space bar, ALT, arrow keys, Enter, etc.) to navigate through each interactive interface component (including form drop-down lists and form fields), reveal hidden content, and activate all interface components. 
-    1. Check that it is possible to move focus away from the interface component in both directions (forward and in reverse) using standard keyboard commands. There must be NO “TRAP” that disrupts keyboard navigation.
+    1. Check that you can move focus into and out of each interface component using standard keyboard commands. There must be NO “TRAP” that disrupts keyboard navigation.
 1. If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).    
-    1. If alternate keyboard commands are required to navigate away from a component, check that the commands work. 
+    1. If nonstandard keyboard commands are required to navigate into our out of one or more components, check that the commands work. 
 
 ### Test Results
-•	If any of the above checks fail, then this SC fails, and the Baseline Requirement fails.
+If any of the above checks fail, then SC 2.1.2 and Baseline Requirement 1 fail.
 
 ## Advisory: Tips for streamlined test processes
 * Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
@@ -55,3 +55,6 @@ Visible and hidden interactive interface components (links, form fields, drop do
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     * [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
     * [G21: Ensuring users are not trapped in content](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
+
+-------------------------------------------------
+[Home/Table of Contents](index.md)    |    [Next Baseline](02FocusVisible.md)
