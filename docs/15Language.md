@@ -12,7 +12,7 @@ The default human language for each page must be programmatically identified. Pa
 * Exception: Proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text are not covered by the Language of Parts.
 
 ## Test Procedure for SC 3.1.1 Language of Page
-### Select/Identify Content
+### Identify Content
 Pages with text.
 
 ### Test Instructions
