@@ -26,7 +26,7 @@ Page `<title>` element for the page, if any.
 ### Test Results
 If any of the above checks fail, then SC 2.4.2 and Baseline Requirement 11 fail.
 
-## Advisory Tips for a Streamlined Test Process
+## Advisory Tips for streamlined test processes
 * HTML5 specification stipulates that “there must be no more than one `<title>` element per document.”  
 
 ### WCAG 2.0 Techniques
