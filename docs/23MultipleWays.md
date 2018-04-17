@@ -24,7 +24,7 @@ Web page within a set of related Web pages.
 ### Test Results
 If the above check fails, then SC 2.4.5 and Baseline Requirement 23 fail.
 
-## Advisory Tips
+## Advisory: Tips for streamlined test processes
 * Additional techniques for locating a Web page may be available beyond those listed in the test instructions.
 
 ### Sufficient Techniques:
