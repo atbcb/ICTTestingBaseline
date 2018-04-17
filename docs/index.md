@@ -77,14 +77,12 @@ Attachment C - Baseline Test Report Checklists
 13. [Headings](13Headings.md)
 14. [Links](14Links.md)
 15. [Language](15Language.md)
-
 16. [Audio-Only and Video-Only](16AudioVideo.md)
-
 17. [Synchronized Media](17SyncMedia.md)
 18. [Stylesheet Non-Dependence](18Stylesheet.md)
 19. [Frames and iFrames](19Frames.md)
 20. [Alternate Pages](20AlternatePages.md)
 21. [Timed Events](21TimedEvents.md)
-22. [Resze Text](22Resize.md)
+22. [Resize Text](22Resize.md)
 23. [Multiple Ways](23MultipleWays.md)
 24. [Parsing](24Parsing.md)
