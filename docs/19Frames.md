@@ -7,7 +7,7 @@
 While users with vision can recognize the structure presented by frames and iframes, users without vision rely on programmatic elements to determine their content. This test method determines the adequacy of the code to describe the contents of any `<frame>` or `<iframe>` for Assistive Technology.
 
 ## Limitations, Assumptions, or Exceptions
-In HTML5 the `<frame>` element is marked as obsolete. The `<iframe>` element remains part of the HTML5 specification. While the `<frame>` element has been deprecated in HTML5, testers may still encounter web pages and/or web applications with code that while outdated, can and should still be accessible.
+In HTML5 the `<frame>` element is marked as obsolete. The `<iframe>` element remains part of the HTML5 specification. While the `<frame>` element has been deprecated in HTML5, testers may still encounter web pages and/or web applications with code that, while outdated, can and should still be accessible.
 
 ## Test Procedure for SC 4.1.2 Name, Role, Value
 ### Frames
@@ -30,7 +30,7 @@ iFrames
 #### Test Results
 If any of the above checks fail, then SC 4.1.2 and Baseline Requirement 19 fail.
 
-## Advisory: Tips for a streamlined test process
+## Advisory: Tips for streamlined test processes
 ### WCAG 2.0 Techniques
 The following techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 * [H64: Using the title attribute of the frame and iframe elements](http://www.w3.org/TR/WCAG20-TECHS/H64.html)
