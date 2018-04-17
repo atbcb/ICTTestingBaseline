@@ -1,30 +1,30 @@
-# 24. Multiple Ways
+# 23. Multiple Ways
 ## Accessibility Requirements
 * [WCAG SC 2.4.5 Multiple Ways](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html) -- More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.
 
 ## Test Method Rationale
-Manual check for multiple techniques to locate a web page.
+This baseline requires a manual check for multiple techniques to locate a web page.
 
 ## Limitations, Assumptions, or Exceptions
-* Exceptions: web pages that are the result of, or a step in, a process.
+* Exceptions: web pages that are the result of, or a step in, a process are not included in this test.
 
 ## Test Procedure for SC 2.4.5 Multiple Ways
-### Select/Identify Content
-Web pages that are not the result of, or a step in, a process.
+### Identify Content
+Web page within a set of related Web pages.
 
 ### Test Instructions
 1. Check that the page provides two or more ways to locate a Web page within a set of web pages; these may include (but are not limited to) techniques such as:
-   * site maps
-   * site search
-   * tables of contents
-   * navigation menus or dropdowns
-   * navigation trees
-   * links between pages
+    * site maps
+    * site search
+    * tables of contents
+    * navigation menus or dropdowns
+    * navigation trees
+    * links between pages
 
 ### Test Results
-* If the above check fails, then SC 2.4.5 and Baseline Requirement 24 fail.
+If the above check fails, then SC 2.4.5 and Baseline Requirement 23 fail.
 
-## Advisory Tips
+## Advisory: Tips for streamlined test processes
 * Additional techniques for locating a Web page may be available beyond those listed in the test instructions.
 
 ### Sufficient Techniques:
@@ -36,4 +36,4 @@ Web pages that are not the result of, or a step in, a process.
 * [G185: Linking to all of the pages on the site from the home page](https://www.w3.org/TR/WCAG20-TECHS/G185.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](23Built-InAccessibilityFeatures.md) | [Next Baseline](25Parsing.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](22Resize.md) | [Next Baseline](24Parsing.md)

@@ -1,4 +1,4 @@
-# 21. Alternate Pages
+# 20. Alternate Pages
 ## Accessibility Requirements
 * [WCAG Conformance requirement #1](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head): Conforming alternate version - Level AA: For Level AA conformance, the Web page satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided. The conforming version must
    1. conform at the designated level, and
@@ -12,23 +12,29 @@
 ## Test Method Rationale
 The accessible alternate version must contain the same information as the primary page. The information should be 'equivalent', but by definition this is not going to be 'exactly the same'. The main points, themes, concepts etc. that the authors are trying to get across in the primary content should also come across in the alternate page.
 
+## Limitations, Assumptions, or Exceptions
+None
+
 ## Test Procedure for Conformance Requirement 1 - Conforming Alternate Version
-### Select/Identify Content
-1. Any alternate pages/sites for content (pay particular attention to content containing maps, directions, complex charts etc.).
+### Identify Content
+Any alternate pages/sites for content (pay particular attention to content containing maps, directions, complex charts etc.).
 
 ### Test Instructions
 1. Check that the alternate page/site provides all of the same information and functionality in the same human language.
 1. Check that the alternate page/site is as up to date as the non-conforming content.
-1. Check that the alternate page/site passes the other baseline tests.
-1. Check that at least one of the following is true: 
-   1. the alternate version be reached from the non-conforming page via an accessibility-supported mechanism, or
-   1. the non-conforming version can only be reached from the alternate version, or
-   1. the non-conforming version can only be reached from a conforming page that also provides a mechanism to reach the alternate version.
+1. Check that the alternate page/site passes all other baseline tests.
+1. Check that at least one of the following is true:
+    1. the alternate version can be reached from the non-conforming page via an accessibility-supported mechanism, or
+    1. the non-conforming version can only be reached from the alternate version, or
+    1. the non-conforming version can only be reached from a conforming page that also provides a mechanism to reach the alternate version.
 
 ### Test Results
-* If any of the above tests fail, Conformance Requirement 1 fails and Baseline 24 fails.
+If any of the above tests fail, Conformance Requirement 1 and Baseline Requirement 20 fail.
 
 ## Advisory: Tips for streamlined test processes
+* Setting user preferences within the content to produce a conforming version is an acceptable mechanism for reaching another version as long as the method used to set the preferences is accessibility supported.
+* Conformance testing of pages that are clearly identified as non-conforming and that have alternative versions is not necessary.
+
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 * [G136: Providing a link at the beginning of a nonconforming Web page that points to a conforming alternate version](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G136)
@@ -36,4 +42,4 @@ The following sufficient techniques and/or common failures were considered when 
 * [C29: Using a style switcher to provide a conforming alternate version (CSS)](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/C29)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](20Frames.md) | [Next Baseline](22TimeLimits.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](19Frames.md) | [Next Baseline](21TimedEvents.md)
