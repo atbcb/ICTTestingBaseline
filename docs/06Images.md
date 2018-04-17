@@ -14,7 +14,7 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
 * Equivalent descriptions for an image within page text would render an image decorative.
-* While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
+* While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
  
 ## Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 ### Identify Content
@@ -34,8 +34,8 @@ If the image is meaningful:
 1. Check that aria-hidden is NOT set to true.
 
 #### Test Results
-* If check 1 fails, then SC 1.1.1 and Baseline Requirement 7 fail.
-* If check 2 or 3 fails, then SC 4.1.2 and Baseline Requirement 7 fail.
+* If check 1 fails, then SC 1.1.1 and Baseline Requirement 6 fail.
+* If check 2 or 3 fails, then SC 4.1.2 and Baseline Requirement 6 fail.
 
 ### Decorative Images
 #### Test Instructions
@@ -95,7 +95,7 @@ Identify any images of text, except where a particular presentation of text is e
   * [H37: Using alt attributes on img elements](https://www.w3.org/TR/WCAG20-TECHS/H37.html)
   * [H67: Using null alt text and no title attribute on img elements for images that AT should ignore](https://www.w3.org/TR/WCAG20-TECHS/H67.html)
   * [G143: Providing a text alternative that describes the purpose of the CAPTCHA](https://www.w3.org/TR/WCAG20-TECHS/G143.html)
-  * [G144: Ensuring that the Web Page contains another CAPTCHA serving the same purpose using a different modality](https://www.w3.org/TR/WCAG20-TECHS/G144.html) are specific to captchas.
+  * [G144: Ensuring that the Web Page contains another CAPTCHA serving the same purpose using a different modality](https://www.w3.org/TR/WCAG20-TECHS/G144.html)
   * [H86: Providing text alternatives for ASCII art, emoticons, and leetspeak](https://www.w3.org/TR/WCAG20-TECHS/H86.html)
   * [F30: Failure of Success Criterion 1.1.1 due to using text alternatives that are not alternatives (e.g., filenames or placeholder text)](https://www.w3.org/TR/WCAG20-TECHS/F30.html)
   * [F38: Failure of Success Criterion 1.1.1 due to not marking up decorative images in HTML in a way that allows assistive technology to ignore them](https://www.w3.org/TR/WCAG20-TECHS/F38.html) 
