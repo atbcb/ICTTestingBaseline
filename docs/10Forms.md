@@ -13,7 +13,7 @@
 ## Test Method Rationale
 Review form instructions for completeness and programmatic association to their inputs. Enter erroneous inputs and review error notifications provided to the user.
 
-## Limitations, Assumptions, Exceptions
+## Limitations, Assumptions, or Exceptions
 * Read-only (e.g. pre-filled) form fields receive keyboard focus and are selectable but cannot be modified. These must be labeled and programmatically determinable, and are tested under SC 1.3.1.
 * Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not included in this test.
 * Clicking a control may also activate the control (e.g. button), which may, in turn, initiate a change in context. Controls that are clearly intended to initiate a change in context when activated do not fail under this test.
