@@ -1,6 +1,6 @@
 # 14. Links 
 ## Accessibility Requirements
-* [WCAG2 2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html) - The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.
+* [WCAG 2.4.4 Link Purpose (In Context)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html) - The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.
 
 ## Test Method Rationale
 Links, including scripted elements, must have meaningful text (either directly associated or available in context) that describe its purpose or function. In order for associated text to be available to assistive technologies, the link information must be determinable programmatically.
