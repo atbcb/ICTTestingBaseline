@@ -32,7 +32,7 @@ Media player that displays video with synchronized audio
 1. Check that user controls for the selection of captions are at the same menu level as the user controls for volume or program selection. 
 
 ### Test Results
-If any of the above checks fail, Section 508 503.4.1 and Baseline 17 fail.
+If any of the above checks fail, Section 508 503.4.1 and Baseline Requirement 17 fail.
 
 ## Test Procedure for Section 508 503.4.2
 ### Identify Content
@@ -42,7 +42,7 @@ Media player that displays video with synchronized audio
 1. Check that user controls for the selection of audio descriptions are at the same menu level as the user controls for volume or program selection.
 
 ### Test Results
-If any of the above checks fail, Section 508 503.4.2 and Baseline 17 fail.
+If any of the above checks fail, Section 508 503.4.2 and Baseline Requirement 17 fail.
 
 ## Test Procedure for SC 1.2.2 Captions (Prerecorded)
 ### Identify Content
@@ -67,7 +67,7 @@ If any of the above checks fail, SC 1.2.2 and Baseline 17 fail.
 If any of the above checks fail, SC 1.2.5 and Baseline 17 fail.
 
 ## Test Procedure for SC 1.2.4 Captions (Live)
-### Identify Content)
+### Identify Content
 Live synchronized multimedia.
 
 ### Test Instructions
