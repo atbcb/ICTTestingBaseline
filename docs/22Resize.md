@@ -37,4 +37,4 @@ The following sufficient techniques and/or common failures were considered when 
 * [F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%](https://www.w3.org/TR/WCAG20-TECHS/F80.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](22TimeLimits.md) | [Next Baseline](24MultipleWays.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](21TimedEvents.md) | [Next Baseline](23MultipleWays.md)
