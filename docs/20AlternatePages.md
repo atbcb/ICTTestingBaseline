@@ -29,7 +29,7 @@ Any alternate pages/sites for content (pay particular attention to content conta
     1. the non-conforming version can only be reached from a conforming page that also provides a mechanism to reach the alternate version.
 
 ### Test Results
-If any of the above tests fail, Conformance Requirement 1 fails and Baseline 20 fails.
+If any of the above tests fail, Conformance Requirement 1 and Baseline Requirement 20 fail.
 
 ## Advisory: Tips for streamlined test processes
 * Setting user preferences within the content to produce a conforming version is an acceptable mechanism for reaching another version as long as the method used to set the preferences is accessibility supported.
