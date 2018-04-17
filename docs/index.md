@@ -3,7 +3,7 @@ April 2018 | Version 3.0 (DRAFT)
 Harmonized Processes for Section 508 Testing: Baseline Tests for Software & Web Accessibility
 ==============================================
 
-# Document status, review, comments, and feedback
+## Document status, review, comments, and feedback
 This version is a DRAFT of version 3.0, not yet approved for distribution by the Interagency Trusted Tester Program (ITTP) Technical Working Group.
 
 For more information on the baseline tests and links to published streamlined test processes, training and certification programs, visit:
@@ -17,7 +17,7 @@ For questions or to provide feedback, contact the DHS Accessibility Helpdesk at:
 
 202-447-5857 (TTY)
 
-# Contents:
+## Contents:
 Document status, review comments, and feedback
 
 [Introduction](introduction.md)
@@ -61,7 +61,7 @@ Attachment C - Baseline Test Report Checklists
 * Version 2.0.1, November 2016
 * Version 3.0, April 2018 (tentative)
 
-# Contents: The Baseline Tests (\#1 - \#28)
+## Contents: The Baseline Tests (\#1 - \#28)
 1. [Keyboard Access](01Keyboard.md)
 2. [Focus Visible](02FocusVisible.md)
 3. [Focus Order](03FocusOrder.md)
