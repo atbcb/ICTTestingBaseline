@@ -59,7 +59,7 @@ If any of the above checks fail, then SC 3.2.4 and Baseline Requirement 4 fail.
 ### WCAG 2.0 Techniques
 * This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques, which require additional assistive tools to function as bypass methods, were not included:
     * [H69: Providing heading elements at the beginning of each section of content](http://www.w3.org/TR/WCAG20-TECHS/H69.html)
-    * [ARIA11: Using ARIA landmarks to identify regions of a page. These may be included in test processes with test environments that support these techniques](http://www.w3.org/TR/WCAG20-TECHS/H69.html)
+    * [ARIA11: Using ARIA landmarks to identify regions of a page](http://www.w3.org/TR/WCAG20-TECHS/H69.html)
 * The following sufficient techniques and/or common failures were also considered when developing this test procedure for this baseline requirement:
     * [G1: Adding a link at the top of each page that goes directly to the main content area](http://www.w3.org/TR/WCAG20-TECHS/G1.html)
     * [G123: Adding a link at the beginning of a block of repeated content to go to the end of the block](http://www.w3.org/TR/WCAG20-TECHS/G123.html)
