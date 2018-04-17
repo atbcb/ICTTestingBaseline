@@ -9,8 +9,6 @@ This baseline test requires visual inspection of text to evaluate page content a
 * Exception: Captions and images of text are not included in the test.
 
 ## Test Procedure for 1.4.4 Resize Text
-If the application has built-in accessibility features, test for 502.2.1 alone. Otherwise, testing for 502.2.2 requires access to the Operating Systems (OS) accessibility features.
-
 ### Identify Content
 All text on Web pages
 
