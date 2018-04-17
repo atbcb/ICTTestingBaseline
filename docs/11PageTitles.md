@@ -3,17 +3,17 @@
 * [WCAG2 SC 2.4.2 Page Titled](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html) -- Web pages have titles that describe topic or purpose.
 
 ## Test Method Rationale
-The `<TITLE>` element defines the title of the document, and is required in all HTML/XHTML documents. This test evaluates the presence of a descriptive title for the document. 
+The `<title>` element defines the title of the document, and is required in all HTML/XHTML documents. This test evaluates the presence of a descriptive title for the document. 
 
 ## Limitations, Assumptions, Exceptions
 * Assumption: every page should have a descriptive title.
-* The `<TITLE>` element in this test is different from the `title` attribute used to add extra information about an element and is often shown as a tooltip text when the mouse moves over the element.
+* The `<title>` element in this test is different from the `title` attribute used to add extra information about an element and is often shown as a tooltip text when the mouse moves over the element.
 * The `<title>` element must be located as a child of the `<head>` element and is not accessibility supported in other locations (see [Conformance Requirement 4. Accessibility Support](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head)).
 * Some web applications and may include content that changes dynamically. In such cases, the page title should be sufficient to describe the purpose of the web application.
 
 ## Test Procedure for SC 2.4.2 Page Titled 
 ### Identify Content
-Page `<titl>`e element for the page, if any.
+Page `<title>` element for the page, if any.
 
 ### Test Instructions
 1. Check that the `<title>` element is located as a child of the `<head>` element
