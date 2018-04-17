@@ -1,4 +1,4 @@
-# 16. Audio and Video-Only
+# 16. Audio-Only and Video-Only
 ## Accessibility Requirements
 *	[WCAG SC 1.2.1 Audio-only and Video-only (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-av-only-alt.html) -- For prerecorded audio-only and prerecorded video-only media, the following are true, except when the audio or video is a media alternative for text and is clearly labeled as such:
     * **Prerecorded Audio-only:** An alternative for time-based media is provided that presents equivalent information for prerecorded audio-only content.
@@ -47,8 +47,6 @@ Pre-recorded video-only content
 * If any of the above checks fail, then SC 1.2.1 and Baseline Requirement 16 fail.
 
 ## Advisory: Tips for streamlined test processes
-* A failure of SC 1.4.2 would also fail Conformance Requirement 5: Non-Interference and should be highlighted in test reports to indicate the severe impact on accessibility.
-
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 * [G158: Providing an alternative for time-based media for audio-only content](https://www.w3.org/TR/WCAG20-TECHS/G158.html)
