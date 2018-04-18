@@ -16,7 +16,7 @@ Within Section 508, the Fundamental Alteration exception may be applied to cover
 ## Limitations, Assumptions, or Exceptions
 * This test was written to be performed on a standard physical keyboard for a Windows PC. While keyboard emulators (such as on-screen keyboards, alternate keyboards, speech input, etc.) may be utilized, testing instructions may differ. Mouse Keys (a Windows and Mac OS feature that enables control of the mouse pointer by keyboard) is not a keyboard emulator.
 * The determination for the exception in 2.1.1 whether "the underlying function requires input that depends on the path of the user's movement and not just the endpoints" is not included in this test.
-* Per Conformance Requirement 5, all content on the Web page (whether or not it is used to meet other success criteria) must meet SC 2.1.2
+* Per Conformance Requirement 5, all content on the screen or Web page (whether or not it is used to meet other success criteria) must meet SC 2.1.2
 
 ## Test Procedure for SC 2.1.1 Keyboard
 ### Identify Content
@@ -26,7 +26,7 @@ All functionality of the content that is available by mouse control must be keyb
 1.	Check that all functionality can be accessed and executed using only the keyboard.
     1. Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components).
     1. Check that individual keystrokes do not require specific timings for activation.
-    1. Each of the individual mouse activated controls do not require keyboard access as long as there is a keyboard accessible method to perform the same function available on the page. 
+    1. Each of the individual mouse activated controls do not require keyboard access as long as there is a keyboard accessible method to perform the same function available on the page or screen.
  
 ### Test Results
 If any of the above checks fail, then SC 2.1.1 and Baseline Requirement 1 fail.
