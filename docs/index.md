@@ -86,3 +86,4 @@ Attachment C - Baseline Test Report Checklists
 22. [Resize Text](22Resize.md)
 23. [Multiple Ways](23MultipleWays.md)
 24. [Parsing](24Parsing.md)
+26. [User Preferences](26UserPreferences.md)
