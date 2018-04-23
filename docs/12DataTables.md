@@ -5,7 +5,7 @@
 ## Test Method Rationale
 For assistive technology (AT) users, data tables must explicitly associate table data with table row and column headers via programmatic markup. Table markup also facilitates navigation for AT users by providing programmatic landmarks via column and row headers.
 
-When `<table>` elements are used for layout purposes, data table structure elements are not permitted, such as `<th>`, `<summary>`, or `<caption>`.
+When `<table>` elements are used for layout purposes, data table structure elements are not permitted, such as `<th>`, `summary=` (HTML4), or `<caption>`.
 
 ## Limitations, Assumptions, Exceptions
 * Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table. This requirement applies to data tables only.
@@ -39,7 +39,7 @@ Note: Linearization of table content is the presentation of a table’s two-dime
 #### Layout Tables
 1. Check that tables used purely for layout purposes:
     1. Do NOT designate the layout as a table using ARIA `role="table"` and associated ARIA table attributes. 
-    1. Do NOT include table structure and relationship elements and/or associated attributes (i.e., `<th>`, `<summary>`, `<caption>`, `scope=`, and/or `headers=`).
+    1. Do NOT include table structure and relationship elements and/or associated attributes (i.e., `<th>`, `summary=` (HTML4), `<caption>`, `scope=`, and/or `headers=`).
 
 ### Test Results
 If any of the above tests fail, SC 1.3.1 and Baseline Requirement 12 fail.
