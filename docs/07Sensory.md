@@ -28,7 +28,7 @@ If any of the above checks fail, then SC 1.4.1 Baseline Requirement 7 fail.
 Identify instructions for understanding and operating content that use sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.
 
 ### Test Instructions
-1. Check that the instructions contain additional information that allows it to be located and identified without any knowledge of its shape, size, or relative position. For instance,
+1. Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. For instance,
     * To see your changes, select the round button labeled "Go".
     * The links on the right, with the heading "Resources", provide further information.
     * Select the lower-right [Cancel] button to close this session.
