@@ -21,7 +21,7 @@ Page `<title>` element for the page, if any.
     1. Check that the Page Title identifies the contents or purpose of the Web page
         1. For pages within a Web site, check that the Page Title can be used to distinguish among the pages.
         1. For documents or a Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.
-    1. Check that there is only one Page Title.
+    1. Check that there is only one page `<title>` element.
 
 ### Test Results
 If any of the above checks fail, then SC 2.4.2 and Baseline Requirement 11 fail.
