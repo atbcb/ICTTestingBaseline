@@ -14,7 +14,7 @@ Visual headings must be programmatically determinable, represent the content str
 
 ## Test Procedure for SC 2.4.6 Headings and Labels
 ### Identify Content
-Visually apparent headings.
+Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.
 
 ### Test Instructions
 1. Check that each heading describes the topic or purpose of its content.
