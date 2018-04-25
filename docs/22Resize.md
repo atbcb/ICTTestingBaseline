@@ -13,7 +13,7 @@ This baseline test requires visual inspection of text to evaluate page content a
 All text on Web pages
 
 ### Test Instructions
-1. Check that there is a mechanism to resize, scale, or zoom in on the content. Known approaches include
+1. Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. Known approaches include
     * Browser zoom function
     * Page controls to change text size. (If browser’s zoom function is not supported by the page, the page must provide the resize mechanism.)
 2. Modify the font size appearance to twice the width and height, or 200% larger.
