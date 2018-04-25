@@ -25,7 +25,7 @@ Evaluation to identify the existence of a mechanism to control audio (pause, sto
   * **Essential Exception:** The time limit is essential and extending it would invalidate the activity; or
   * **20 Hour Exception:** The time limit is longer than 20 hours.
 * Changing content is considered to be "in parallel" when it appears alongside other content. For example, a news flash updating across the bottom of a web page would be considered changing content in parallel with other content when the page also presents a news video and text news articles (both examples of static content). A button allowing users to pause the changing content would not be considered other static content.
-* Changing content is considered part of "an essential activity" when it is required to continue to the next step or a dynamic response to a user selection.
+* Moving, blinking, scrolling, and/or auto-updating is considered "essential" to an activity when, if removed, it would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform.
 
 ## Test Procedure for SC 2.2.1
 ### Identify Content
