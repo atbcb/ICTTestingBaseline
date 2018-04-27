@@ -81,7 +81,7 @@ Attachment C - Baseline Test Report Checklists
 17. [Synchronized Media](17SyncMedia.md)
 18. [Stylesheet Non-Dependence](18Stylesheet.md)
 19. [Frames and iFrames](19Frames.md)
-20. [Alternate Pages](20AlternatePages.md)
+20. [Alternate Versions](20AlternateVersions.md)
 21. [Timed Events](21TimedEvents.md)
 22. [Resize Text](22Resize.md)
 23. [Multiple Ways](23MultipleWays.md)
