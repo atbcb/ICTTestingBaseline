@@ -36,4 +36,4 @@ The following techniques and/or common failures were considered when developing 
 * [H64: Using the title attribute of the frame and iframe elements](http://www.w3.org/TR/WCAG20-TECHS/H64.html)
     
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](18Stylesheet.md) | [Next Baseline](20AlternatePages.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](18Stylesheet.md) | [Next Baseline](20AlternateVersions.md)
