@@ -1,4 +1,4 @@
-# 20. Alternate Pages
+# 20. Alternate Versions
 ## Accessibility Requirements
 * [WCAG Conformance requirement #1](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head): Conforming alternate version - Level AA: For Level AA conformance, the Web page satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided. The conforming version must
    1. conform at the designated level, and
