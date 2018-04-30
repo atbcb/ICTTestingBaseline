@@ -9,9 +9,9 @@ Status of updates to the Baseline test to add tests for software or modify exist
 | 4. Repetitive Content | Complete | Added language to Assumptions section that SCs 2.4.1 Bypass Blocks, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification **DO NOT** apply to non-Web documents and software |
 | 5. Changing Content | Complete | Very minor update to reference software in addition to Web pages; larger question remains with Web pages with regard to identifying events |
 | 6. Images | | |
-| 7. Sensory Characteristics | | |
-| 8. Contrast | | |
-| 9. Flashing | | |
+| 7. Sensory Characteristics | Complete | Minor revision to add reference to software screen in Advisory section |
+| 8. Contrast | Complete | No changes necessary |
+| 9. Flashing | Complete | Minor revisions to incorporate references to software in addition to Web pages |
 | 10. Forms | | |
 | 11. Page Titles | | |
 | 12. Tables | | |
