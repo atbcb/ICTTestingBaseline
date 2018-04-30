@@ -7,7 +7,7 @@ Status of updates to the Baseline test to add tests for software or modify exist
 | 2. Focus Visible | Complete | Test applies to both software and Web - added reference to software screens/windows |
 | 3. Focus Order | Complete | Test applies to both software and Web - added reference to software screens/windows |
 | 4. Repetitive Content | Complete | Added language to Assumptions section that SCs 2.4.1 Bypass Blocks, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification **DO NOT** apply to non-Web documents and software |
-| 5. Changing Content | | |
+| 5. Changing Content | Complete | Very minor update to reference software in addition to Web pages; larger question remains with Web pages with regard to identifying events |
 | 6. Images | | |
 | 7. Sensory Characteristics | | |
 | 8. Contrast | | |
