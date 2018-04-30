@@ -21,7 +21,7 @@ distinguish a visual element, or identify errors.
     1. The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning
 
 ### Test Results
-If any of the above checks fail, then SC 1.4.1 Baseline Requirement 7 fail.
+If BOTH of the above checks fail, then SC 1.4.1 Baseline Requirement 7 fail.
 
 ## Test Procedure for SC 1.3.3 Sensory Characteristics
 ### Identify Content
@@ -41,7 +41,7 @@ If any of the above checks fail, then SC 1.3.3 and Baseline Requirement 7 fail.
 ## Advisory: Tips for streamlined test processes
 * Content that uses color with other visual differentiation must also provide textual cues to convey the same information to satisfy both SC 1.3.3 and 1.4.1; therefore, it is recommended to combine both requirements in a single test.
 * Related tests might include dynamic content, images, links, and alternate pages.
-* Displaying a Web page in greyscale may help identify content that uses only color to convey information.
+* Displaying a Web page or software screen in greyscale may help identify content that uses only color to convey information.
 
 ### WCAG 2.0 Techniques
 * The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
