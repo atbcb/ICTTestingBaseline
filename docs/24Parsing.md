@@ -6,11 +6,13 @@
 If the content cannot be parsed into a data structure, then different user agents, including assistive technologies, may present it differently or be completely unable to parse it. In markup languages, errors in element and attribute syntax and failure to provide properly nested start/end tags lead to errors that prevent user agents from parsing the content reliably. Therefore, the Success Criterion requires that the content can be parsed using only the rules of the formal grammar.
 
 ## Limitations, Assumptions, or Exceptions
-None
+* When applying SC 4.1.1 Parsing to software applications, the requirement is modified as following: For non-web documents or software that use markup languages, in such a way that the markup is separately exposed and available to assistive technologies and accessibility features of software or to a user-selectable user agent, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
+* **Note:** Markup is not always available to assistive technologies or to user selectable user agents such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
+* As noted in the requirement language, some specifications may allow duplicate IDs. For example some markup languages may allow duplicate IDs, provided that IDs are unique for peer elements under the same parent element.
 
 ## Test Procedure for SC 4.1.1 Parsing
 ### Identify Content
-The entire web page
+The entire source code for a web page or software application
 
 ### Test Instructions
 1. Check that (except where the specifications allow these features)
