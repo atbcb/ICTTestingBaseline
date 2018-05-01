@@ -3,7 +3,7 @@
 * [Section 508 503.2 User Preferences](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#503-applications) -- Applications shall permit user preferences from platform settings for color, contrast, font type, font size, and focus cursor.
 
 ## Test Method Rationale
-Modify the operating system and browser accessibility settings for color, contrast, font type, font size, and focus cursor and check the application adopts changes.
+This test involves modifying the operating system, browser, and/or platform accessibility settings for color, contrast, font type, font size, and focus cursor to verify that the application adopts changes.
 
 ## Limitations, Assumptions, or Exceptions
 * **EXCEPTION:** Applications that are designed to be isolated from their underlying platform software, including Web applications, shall not be required to conform to 503.2.
@@ -14,7 +14,7 @@ Modify the operating system and browser accessibility settings for color, contra
 All Web applications (except those identified as Exceptions above)
 
 ### Test Instructions
-1. Make changes in the browser and OS to modify each of the following settings:
+1. Make changes in the browser/platform and OS to modify each of the following settings:
     * Color: make changes to links, visited links, unvisited links, 
     * Contrast: select a high contrast option (note this may override the color settings)
     * Font type: select “Ariel Bold” or a different font style than the current setting
