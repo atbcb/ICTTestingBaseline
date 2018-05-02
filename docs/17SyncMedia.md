@@ -26,7 +26,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 ## Test Procedure for Section 508 503.4.1
 ### Identify Content
-Media player that displays video with synchronized audio
+Media player that displays video with synchronized audio.
 
 ### Test Instructions
 1. Check that user controls for the selection of captions are at the same menu level as the user controls for volume or program selection. 
@@ -36,7 +36,7 @@ If any of the above checks fail, Section 508 503.4.1 and Baseline Requirement 17
 
 ## Test Procedure for Section 508 503.4.2
 ### Identify Content
-Media player that displays video with synchronized audio
+Media player that displays video with synchronized audio.
 
 ### Test Instructions
 1. Check that user controls for the selection of audio descriptions are at the same menu level as the user controls for volume or program selection.
