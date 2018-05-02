@@ -18,8 +18,8 @@ Status of updates to the Baseline test to add tests for software or modify exist
 | 13. Headings | In progress | |
 | 14. Links | In progress | |
 | 15. Language | Not started | |
-| 16. Audio-Only and Video-Only | Not started | |
-| 17. Synchronized Media | Not started | |
+| 16. Audio-Only and Video-Only | Completed | Minor update to include reference to software |
+| 17. Synchronized Media | Completed | No changes necessary to apply directly to software |
 | 18. Stylesheet Non-dependence | Complete | Added language in Assumptions stating that the tests do not apply to native software applications |
 | 19. Frames and iFrames | Complete | Added language in Assumptions stating that the tests do not apply to native software applications |
 | 20. Alternate Versions | Complete | Added language to refer to alternate versions rather than to alternate pages/sites |
