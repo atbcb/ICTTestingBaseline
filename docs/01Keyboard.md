@@ -38,7 +38,7 @@ Visible and hidden interactive interface components (links, form fields, drop do
 ### Test Instructions
 1.	Check that focus can be moved away from the selected component. There must be NO “TRAP” that disrupts keyboard navigation.
 2.	If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).
-    1. If nonstandard keyboard commands are required to navigate into our out of one or more components, check that the commands work.
+    1. If nonstandard keyboard commands are required to navigate into or out of one or more components, check that the commands work.
 
 ### Test Results
 If any of the above checks fail, then SC 2.1.2, Conformance Requirement 5, and Baseline Requirement 1 fail.
