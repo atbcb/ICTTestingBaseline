@@ -13,7 +13,7 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 * Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
 * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
-* Equivalent descriptions for an image within page text would render an image decorative.
+* Equivalent descriptions for an image within page or software screen text would render an image decorative.
 * While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
  
 ## Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
@@ -27,18 +27,33 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
     * **CAPTCHA:** designed to determine if content is being accessed by a person rather than a computer
 
 ### Meaningful Images
-#### Test Instructions
+#### Meaningful Images - Web
+##### Test Instructions
 If the image is meaningful:
 1. Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)
 1. Check that the role is NOT "presentation".
 1. Check that aria-hidden is NOT set to true.
 
-#### Test Results
+##### Test Results
 * If check 1 fails, then SC 1.1.1 and Baseline Requirement 6 fail.
 * If check 2 or 3 fails, then SC 4.1.2 and Baseline Requirement 6 fail.
 
+#### Meaningful Images - Windows-Native Software
+##### Test Instructions
+If the image is meaningful:
+1. Check that the combination of values from the following UIA properties provides an equivalent description:
+    * LocalizedControlType
+    * Name
+    * HelpText
+    * The static text from elements referenced by the image's LabeledBy property
+1. Check that the image is included in the control view of the UIA tree, i.e., IsControlElement = TRUE.
+
+##### Test Results
+* If any of the above checks fail, then SC 1.1.1 and Baseline Requirement 6 fail.
+
 ### Decorative Images
-#### Test Instructions
+#### Decorative Images - Web
+##### Test Instructions
 If the image is decorative, check that at least one of the following is true:
 1. The ARIA role is "presentation".
 1. The aria-hidden state is set to "true".
@@ -47,11 +62,20 @@ If the image is decorative, check that at least one of the following is true:
     * [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)
 1. The image is inserted via CSS (e.g., using a background image)
 
-#### Test Results
+##### Test Results
 * If all of the above checks fail, then SC 1.1.1 and Baseline Requirement 6 fail.
 
+#### Decorative Images - Windows-Native Software
+##### Test Instructions
+If the image is decorative:
+1. Check that the image does NOT appear in the Control view of the UIA tree.
+
+##### Test Results
+* If the above check fails, then SC 1.1.1 and Baseline Requirement 6 fail.
+
 ### Icon Fonts
-#### Test Instructions
+#### Icon Fonts - Web
+##### Test Instructions
 If the icon font is meaningful, check that ALL of the following are true:  
 1. The icon has ARIA role=”img” 
 2. The icon’s aria-label value provides an accurate text equivalent
@@ -62,10 +86,17 @@ If the icon font is decorative:
 
 **Note:** Methods to provide alternative text for icon fonts must be accessibility supported (see [Conformance Requirement 4. Accessibility Support](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head)).
 
-#### Test Results
+##### Test Results
 * If any of the above checks fail, then SC 1.1.1 and Baseline Requirement 6 fail.
 
-### Captcha Images
+#### Icon Fonts - Windows-Native Software
+##### Test Instructions
+TBD
+
+##### Test Results
+* If any of the above checks fail, then SC 1.1.1 and Baseline Requirement 6 fail.
+
+### Captcha Images (Web Only)
 #### Test Instructions
 If the Image is a Captcha image:
 1. Check that the combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA.
@@ -81,7 +112,7 @@ Identify any images of text, except where a particular presentation of text is e
 ### Test Instructions 
 1. Check that the technologies being used CANNOT achieve the visual presentation using text to convey information rather than images of text.
 2. Check that the image of text can be visually customized to a user's requirements.
-    * For example, a Web site allows users to specify font settings and all images of text on the site are then provided based on those settings.
+    * For example, a Web site or native software allows users to specify font settings, and all images of text are then provided based on those settings.
 
 ### Test Results
 * If any of the above checks fail, then SC 1.4.5 and Baseline Requirement 6 fail.
