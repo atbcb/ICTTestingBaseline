@@ -5,7 +5,7 @@
 * [WCAG2 3.3.1 Error Identification](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html): If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
 * [WCAG2 3.3.2 Labels or Instructions](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): Labels or instructions are provided when content requires user input.
 * [WCAG2 3.3.3 Error Suggestion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html): If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.
-* [WCAG2 3.3.4 Error Prevention (Legal, Financial, Data)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html): For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
+* [WCAG2 3.3.4 Error Prevention (Legal, Financial, Data)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html): For Web pages [or software] that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
    1. Reversible: Submissions are reversible.
    1. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
    1. Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
@@ -17,24 +17,38 @@ Review form instructions for completeness and programmatic association to their 
 * Read-only (e.g. pre-filled) form fields receive keyboard focus and are selectable but cannot be modified. These must be labeled and programmatically determinable, and are tested under SC 1.3.1.
 * Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not included in this test.
 * Clicking a control may also activate the control (e.g. button), which may, in turn, initiate a change in context. Controls that are clearly intended to initiate a change in context when activated do not fail under this test.
-* [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined as: major changes in the content of the Web page that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
+* [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined as: major changes in the content of the Web page [or software] that, if made without user awareness, can disorient users who are not able to view the entire page[/screen] simultaneously. Changes in context include changes of:
     1. User agent
     2. Viewport
     3. Focus
-    4. Content that changes the meaning of the Web page
+    4. Content that changes the meaning of the Web page [or software screen]
 
 * **Note:** A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus). 
-  * Example: Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context. (Above definition from https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html)
+  * Example: Opening a new window, moving focus to a different component, going to a new page[/screen] (including anything that would look to a user as if they had moved to a new page[/screen]) or significantly re-arranging the content of a page[/screen] are examples of changes of context. (Above definition from https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html)
 
 ## Test Procedure for 1.3.1 Info and Relationships
 ### Identify Content
 1. Find all form input components. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.
 2. Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
-### Test Instructions
+### 1.3.1 Info and Relathionships - Web
+#### Test Instructions
 1. Check that the combination of the accessible name, accessible description, and other programmatic associations (e.g., table column and/or row associations) describes each input field and includes all relevant instructions and cues (textual and graphical). Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description.
 
-### Test Results
+#### Test Results
+If any of the above checks fail, then SC 1.3.1 and Baseline Requirement 10 fail.
+
+### 1.3.1 Info and Relathionships - Windows-Native Software
+#### Test Instructions
+1. Check that the combination of the following UIA properties, and other programmatic associations (e.g., table column and/or row associations) describes each input field and includes all relevant instructions and cues (textual and graphical). 
+    * LocalizedControlType
+    * Name
+    * HelpText
+    * The static text from elements referenced by the element's LabeledBy property
+    * The static text from elements referenced by the element's DescribedBy property
+1. Check that the element is included in the Control View AND the Content View of the UIA tree, i.e., IsControlElement = TRUE and IsContentElement = TRUE
+
+#### Test Results
 If any of the above checks fail, then SC 1.3.1 and Baseline Requirement 10 fail.
 
 ## Test Procedure for SC 3.2.2 On Input
@@ -44,7 +58,7 @@ All active form components.
 ### Test Instructions
 1. Enter data in all form fields, and exit (tab out of) the field
 2. Change selections and/or values for form controls, such as radio buttons, check boxes, select lists, etc.
-3. Check that navigating away from a field and/or changing field values/selections (e.g., entering data in a text field, changing a radio button selection) does NOT initiate a change of context unless the user has been advised of the behavior before using the component. Examples of a change of context could include:
+3. Check that navigating away from a field and/or changing field values/selections (e.g., entering data in a text field, changing a radio button selection) **does NOT** initiate a change of context unless the user has been advised of the behavior before using the component. Examples of a change of context could include:
     * Forms submitted automatically when exiting the field
     * Forms submitted automatically when exiting the last field in a form
     * New windows launched when changing a radio button selection
@@ -69,13 +83,13 @@ If any of the above checks fail, then SC 3.3.2 and Baseline Requirement 10 fail.
 1. Input fields with automatic error detection and notification.
 
 ### Test Instructions
-1. Enter incorrect values in input fields in order to trigger automatic error detection that result in error notifications. Examples include but are not limited to:
+1. Enter incorrect values in input fields in order to trigger automatic error detection that results in error notifications. Examples include but are not limited to:
     * required fields
     * date (format)
     * state (abbreviations in an address)
     * password
-2. If an input error is automatically detected, check the error notification meets all of the following:
-    1. the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form) , and
+2. If an input error is automatically detected, check that the error notification meets all of the following:
+    1. the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form), and
     1. the error is described to the user in text, and
     1. the item that is in error is identified in text.
 
@@ -100,7 +114,7 @@ If any of the above checks fail, then SC 3.3.3 and Baseline Requirement 10 fail.
 
 ## Test Procedure for 3.3.4 Error Prevention (Legal, Financial, Data)
 ### Identify Content
-Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses.
+Web pages and software that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses.
 
 ### Test Instructions
 1. Complete the form fields necessary to submit.
@@ -114,7 +128,7 @@ If any of the above checks fail, then SC 3.3.4 and Baseline Requirement 10 fail.
 
 ## Advisory: Tips for streamlined test processes
 * Re-displaying the form and indicating the fields in error within the form is insufficient to meet this requirement. The user should not need to search through the form to find where errors were made.
-* For SC 3.3.1, acceptable techniques include a) shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error, b)refreshing the page upon form submission, then listing the error descriptions and locations at the top of the page.
+* For SC 3.3.1, acceptable techniques include a) shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error, b)refreshing the page/screen upon form submission, then listing the error descriptions and locations at the top of the page/screen.
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
