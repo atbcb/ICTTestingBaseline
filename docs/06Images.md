@@ -46,6 +46,7 @@ If the image is meaningful:
     * Name
     * HelpText
     * The static text from elements referenced by the image's LabeledBy property
+    * The static text from elements referenced by the image's DescribedBy property
 1. Check that the image is included in the control view of the UIA tree, i.e., IsControlElement = TRUE.
 
 ##### Test Results
