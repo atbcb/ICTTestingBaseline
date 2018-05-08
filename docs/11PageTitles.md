@@ -32,7 +32,7 @@ If any of the above checks fail, then SC 2.4.2 and Baseline Requirement 11 fail.
 The application window’s title.
 
 #### Test Instructions
-1. Check that the application window title identifies the contents or purpose of the window.
+1. Check that the application window title identifies the contents or purpose of the window (e.g., via the UIA Name property of a Window control in a Windows-native software application).
 2. For windows within a collection of application windows or screens (for the same application), check that the application window title can be used to distinguish among the windows.
 
 #### Test Results
