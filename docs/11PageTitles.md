@@ -12,7 +12,7 @@ The `<title>` element defines the title of the document, and is required in all 
 * Some Web and non-Web applications and may include content that changes dynamically. In such cases, the page title should be sufficient to describe the purpose of the application.
 
 ## Test Procedure for SC 2.4.2 Page Titled 
-### Web
+### 2.4.2 Page Titled - Web
 #### Identify Content
 Page `<title>` element for the page, if any.
 
@@ -27,7 +27,7 @@ Page `<title>` element for the page, if any.
 #### Test Results
 If any of the above checks fail, then SC 2.4.2 and Baseline Requirement 11 fail.
 
-### Software
+### 2.4.2 Page Titled - Software
 #### Identify Content
 The application window’s title.
 
