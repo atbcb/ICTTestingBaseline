@@ -14,8 +14,8 @@ Status of updates to the Baseline test to add tests for software or modify exist
 | 9. Flashing | Complete | Minor revisions to incorporate references to software in addition to Web pages | No |
 | 10. Forms | Complete | Added Windows-native test for 1.3.1 Info and relationships; revised other tests to incorporate software | Yes |
 | 11. Page Titles | Complete | Added Software test for 2.4.2 Page Titled | Yes |
-| 12. Tables | In progress | | |
-| 13. Headings | In progress | | |
+| 12. Tables | Complete | Added Software test for 1.3.1 Info and Relationships for both data tables and layout tables | Yes |
+| 13. Headings | Complete | Added Software-specific tests | Yes |
 | 14. Links | Complete | Added Windows-native test for 2.4.4 Link Purpose | Yes |
 | 15. Language | Complete | This will require further review/clarification from Microsoft. I believe the test added for Windows-Native software is correct according to UIA guidelines, but I was unsuccesful testing with Inspect. | Yes |
 | 16. Audio-Only and Video-Only | Completed | Minor update to include reference to software | No |
