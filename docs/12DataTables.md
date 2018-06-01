@@ -41,6 +41,9 @@ Note: Linearization of table content is the presentation of a table’s two-dime
 1. Check that tables used purely for layout purposes:
     1. Do NOT designate the layout as a table using ARIA `role="table"` and associated ARIA table attributes. 
     1. Do NOT include table structure and relationship elements and/or associated attributes (i.e., `<th>`, `summary=` (HTML4), `<caption>`, `scope=`, and/or `headers=`).
+    
+##### Test Results
+If any of the above tests fail, SC 1.3.1 and Baseline Requirement 12 fail.
 
 #### 1.3.1 Info and Relationships - Software
 ##### Data Tables
@@ -59,7 +62,7 @@ Note: Linearization of table content is the presentation of a table’s two-dime
 ##### Layout Tables
 1. Check that tables used purely for layout purposes DO NOT associate headers to cells in the table or grid. 
 
-### Test Results
+##### Test Results
 If any of the above tests fail, SC 1.3.1 and Baseline Requirement 12 fail.
 
 ## Advisory
