@@ -5,7 +5,7 @@
 ## Test Method Rationale
 For assistive technology (AT) users, data tables must explicitly associate table data with table row and column headers via programmatic markup. Table markup also facilitates navigation for AT users by providing programmatic landmarks via column and row headers.
 
-When `<table>` elements are used for layout purposes, data table structure elements are not permitted, such as `<th>`, `<summary>`, or `<caption>`.
+When `<table>` elements are used for layout purposes, data table structure elements are not permitted, such as `<th>`, `summary=` (HTML4), or `<caption>`.
 
 ## Limitations, Assumptions, Exceptions
 * Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table. This requirement applies to data tables only.
@@ -19,7 +19,8 @@ All content/data visually presented in a table with column and/or row headers wh
 Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom. 
 
 ### Test Instructions
-#### Data Tables
+#### 1.3.1 Info and Relationships - Web
+##### Data Tables
 1. Table: Check that each data table has programmatic markup to identify it as a table using only one of the following techniques:
    * HTML `<table>`. 
    * ARIA `role="table"`
@@ -36,12 +37,32 @@ Note: Linearization of table content is the presentation of a table’s two-dime
     * For any HTML `<table>` that uses BOTH `<th scope=>` AND refers to header IDs using `<td headers=>` attributes in the same table, any data cell with a `headers=` reference will override any scope= attributes for associated table headers for that particular data cell. Therefore, data cells with a `headers=` reference, must identify all relevant headers, independent from and regardless of scope= attributes in associated headers.
     * For ARIA `role="table"`: each column header must have `role=”columnheader”` and each row header must have `role="rowheader"`. 
 
-#### Layout Tables
+##### Layout Tables
 1. Check that tables used purely for layout purposes:
     1. Do NOT designate the layout as a table using ARIA `role="table"` and associated ARIA table attributes. 
-    1. Do NOT include table structure and relationship elements and/or associated attributes (i.e., `<th>`, `<summary>`, `<caption>`, `scope=`, and/or `headers=`).
+    1. Do NOT include table structure and relationship elements and/or associated attributes (i.e., `<th>`, `summary=` (HTML4), `<caption>`, `scope=`, and/or `headers=`).
+    
+##### Test Results
+If any of the above tests fail, SC 1.3.1 and Baseline Requirement 12 fail.
 
-### Test Results
+#### 1.3.1 Info and Relationships - Software
+##### Data Tables
+1. Table: Check that each data table has programmatic markup to identify it as a table or grid using one of the following techniques:
+   * Define the table using the UIA Control Type of Table or Grid
+   * Support the following Control Patterns (each property value must be true):
+      * IGridProvider for the table/grid object, and IGridItemProvider for each of the table's child objects
+      * ITableProvider for the table/grid object, and ITableItemProvider for each of the table's child objects
+2. Table data cell: Check that each data cell uses one of the following methods to identify it as a data cell within a table or grid:
+   * Define the data cell using the UIA Control Type of DataItem
+   * Support the following Control Patterns (each property value must be true):
+      * IGridItemProvider
+      * ITableItemProvider
+3. Header cells and data cell association: Identify all column and row headers for each data cell. Check that each data cell programmatically identifies all associated column and row headers in the data cell's Table.ItemColumnHeaderItems and/or the Table.ItemRowHeaderItems properties, respectively.
+
+##### Layout Tables
+1. Check that tables used purely for layout purposes DO NOT associate headers to cells in the table or grid. 
+
+##### Test Results
 If any of the above tests fail, SC 1.3.1 and Baseline Requirement 12 fail.
 
 ## Advisory

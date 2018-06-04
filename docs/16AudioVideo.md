@@ -19,7 +19,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 * In a video-only presentation, information is presented in a variety of ways including animation, text or graphics, the setting and background, the actions and expressions of people, animals, etc.
 * Video intended as a media alternative for text does not require additional description if it is clearly labeled as such.
 * Media that present video content accompanied by sounds that do not contribute meaning may be considered video-only content. An example would be a media file that provides a visual demonstration of how to fold a paper airplane with background music.
-* If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Synchronized Multimedia ([Baseline 17](17SyncMedia.md)) requirements.
+* If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Synchronized Media ([Baseline 17](17SyncMedia.md)) requirements.
 * Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under [5. Changing Content](05Changing.md).
 
 ## Test Procedure for SC 1.2.1 Audio-only (Prerecorded)
@@ -27,7 +27,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 Pre-recorded audio-only content.
 
 ### Test Instructions
-1. Check that the page provides transcript(s) for audio-only content.
+1. Check that the software/Web page provides transcript(s) for audio-only content.
 2. Check that the transcript is text (i.e., an image of a transcript would not be sufficient to pass this test).
 3. Play the audio-only content entirely.
 4. Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc.
@@ -37,7 +37,7 @@ Pre-recorded audio-only content.
 
 ## Test Procedure for SC 1.2.1 Video-only (Prerecorded)
 ### Identify Content
-Pre-recorded video-only content
+Pre-recorded video-only content.
 
 ### Test Instructions
 1.	Check that video-only content information is also available through a text alternative (e.g., text that provides description of video content and actions). **Note**: An audio alternative may be provided, but is not sufficient alone to meet this requirement.

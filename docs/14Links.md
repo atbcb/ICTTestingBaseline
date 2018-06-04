@@ -12,15 +12,27 @@ Links, including scripted elements, must have meaningful text (either directly a
 ### Identify Content
 All links, including those that are scripted elements and assigned a role of a link.
 
-### Test Instructions
+### 2.4.4 Link Purpose - Web
+#### Test Instructions
 1. Check that the purpose of each link can be determined from any combination of the link text, [accessible name, accessible description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), and/or preceding page context (same paragraph, list, or table cell as the link or in a table header cell that is associated with the table cell that contains the link).
 
-### Test Results
+#### Test Results
+* If any of the above checks fail, then SC 2.4.4 and Baseline 14 fails
+
+### 2.4.4 Link Purpose - Windows-Native Software
+#### Test Instructions
+1. Check that the purpose of each link can be determined from any combination of the following UIA properties, and/or preceding page/screen context (same paragraph, list, or table cell as the link or in a table header cell that is associated with the table cell that contains the link):
+    * Name
+    * The static text from elements referenced by the element's LabeledBy property
+    * Value
+1. Check that the element is included in the Control View AND the Content View of the UIA tree, i.e., IsControlElement = TRUE and IsContentElement = TRUE
+
+#### Test Results
 * If any of the above checks fail, then SC 2.4.4 and Baseline 14 fails
 
 ## Advisory: Tips for streamlined test processes
 * In cases where the link/control takes one to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link (which is to take you to the document or web application).
-* Test pages for different link techniques include [ARIA link example](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/examples/link/link.html) and [Link accessible name](http://not.webaccessibility.com/link-accessible-name.html). 
+* Test pages for different link techniques for Web include [ARIA link example](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/examples/link/link.html) and [Link accessible name](http://not.webaccessibility.com/link-accessible-name.html). 
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:

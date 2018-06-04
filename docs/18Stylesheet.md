@@ -10,7 +10,8 @@
 Meaningful information provided solely through CSS content may not be in the Document Object Model (DOM). Equivalent information must be available without CSS.
 
 ## Limitations, Assumptions, or Exceptions
-Only the CSS techniques identified as Failures in WCAG 2.0 Level A and Level AA are included in this test. There may be other CSS techniques that affect conformance.
+* Only the CSS techniques identified as Failures in WCAG 2.0 Level A and Level AA are included in this test. There may be other CSS techniques that affect conformance.
+* The tests described in this Baseline requirement do not apply to native software applications.
 
 ## Test Procedure for SC 1.1.1 Non-Text Content
 ### Identify Content

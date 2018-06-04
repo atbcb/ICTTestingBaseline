@@ -36,7 +36,7 @@ Document status, review comments, and feedback
 * Test tool instructions
 * Reporting results
 
-[*The Baseline Tests (\#1 - \#28)*](#contents-the-baseline-tests-1---28)
+[*The Baseline Tests (\#1 - \#26)*](#contents-the-baseline-tests-1---26)
 
 Attachment A - Cross-Reference Tables
 * Baseline Tests (Cross-Reference Table)
@@ -61,7 +61,7 @@ Attachment C - Baseline Test Report Checklists
 * Version 2.0.1, November 2016
 * Version 3.0, April 2018 (tentative)
 
-## Contents: The Baseline Tests (\#1 - \#28)
+## Contents: The Baseline Tests (\#1 - \#26)
 1. [Keyboard Access](01Keyboard.md)
 2. [Focus Visible](02FocusVisible.md)
 3. [Focus Order](03FocusOrder.md)
@@ -81,8 +81,10 @@ Attachment C - Baseline Test Report Checklists
 17. [Synchronized Media](17SyncMedia.md)
 18. [Stylesheet Non-Dependence](18Stylesheet.md)
 19. [Frames and iFrames](19Frames.md)
-20. [Alternate Pages](20AlternatePages.md)
+20. [Alternate Versions](20AlternateVersions.md)
 21. [Timed Events](21TimedEvents.md)
 22. [Resize Text](22Resize.md)
 23. [Multiple Ways](23MultipleWays.md)
 24. [Parsing](24Parsing.md)
+25. Authoring Tools (Placeholder)
+26. [User Preferences](26UserPreferences.md)
