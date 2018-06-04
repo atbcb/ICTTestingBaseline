@@ -73,7 +73,7 @@ Attachment C - Baseline Test Report Checklists
 9. [Flashing](09Flashing.md)
 10. [Forms](10Forms.md)
 11. [Page Titles](11PageTitles.md)
-12. [Data Tables](12DataTables.md)
+12. [Tables](12DataTables.md)
 13. [Headings](13Headings.md)
 14. [Links](14Links.md)
 15. [Language](15Language.md)
