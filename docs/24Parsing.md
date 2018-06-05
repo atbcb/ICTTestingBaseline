@@ -2,6 +2,8 @@
 ## Accessibility Requirements
 * [WCAG SC 4.1.1 Parsing](http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html) -- In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
 
+**This Baseline Requirement applies to both software and Web content implemented using markup languages.**
+
 ## Test Method Rationale
 If the content cannot be parsed into a data structure, then different user agents, including assistive technologies, may present it differently or be completely unable to parse it. In markup languages, errors in element and attribute syntax and failure to provide properly nested start/end tags lead to errors that prevent user agents from parsing the content reliably. Therefore, the Success Criterion requires that the content can be parsed using only the rules of the formal grammar.
 
