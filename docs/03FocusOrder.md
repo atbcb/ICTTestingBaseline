@@ -32,7 +32,7 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
         2.	Advance the focus through the revealed content.
     2.	Use the keyboard to close/hide the revealed content. 
         1.	Check that focus is returned to the trigger control. (It is acceptable to [Shift+ TAB] once or use an arrow key to move the focus backward to the trigger control.
-2.	Check that the focus order preserves the meaning and operability of the Web page or sofware screen. 
+2.	Check that the focus order preserves the meaning and usability of the Web page or sofware screen. 
 
 ### Test Results
 If any of the above checks fail, then SC 2.4.3 and Baseline Requirement 3 fail.
