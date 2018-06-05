@@ -3,8 +3,10 @@
 * [WCAG SC 3.1.1 Language of Page](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html) -- The default human language of each Web page [or software application] can be programmatically determined.
 * [WCAG SC 3.1.2 Language of Parts](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html) -- The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text. 
 
+**This Baseline Requirement applies to both software and Web content.**
+
 ## Test Method Rationale
-The default human language for each page/screen must be programmatically identified. Passages that use a language other than the default must be programmatically identified.
+The default human language for each page or software application must be programmatically identified. Passages that use a language other than the default must be programmatically identified.
 
 ## Limitations, Assumptions or Exceptions
 * The requirement to identify page or software language is applicable to all Web pages and software applications.
@@ -14,7 +16,7 @@ The default human language for each page/screen must be programmatically identif
 
 ## Test Procedure for SC 3.1.1 Language of Page
 ### Identify Content
-Pages/screens with text.
+Pages/software with text.
 
 ### 3.1.1 Language of Page - Web
 #### Test Instructions
