@@ -4,6 +4,8 @@
     * Large Text: Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;
     * Incidental: Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
     * Logotypes: Text that is part of a logo or brand name has no minimum contrast requirement.
+    
+**This Baseline Requirement applies to both software and Web content.**
 
 ## Test Method Rationale
 This test is conducted to evaluate equal access to information for all users, including those who may experience difficulty in discerning between items with low contrast.
