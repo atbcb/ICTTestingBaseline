@@ -6,7 +6,7 @@
 * [WCAG SC 2.1.2 No Keyboard Trap](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html) – If keyboard focus can be moved to a component of the [content] using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
     * Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page [or software application], all content on the Web page [or in software] (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
-**This Baseline Requirement applies to both software and Web content**
+**This Baseline Requirement applies to both software and Web content.**
 
 ## Test Method Rationale
 This requirement relies on use of a keyboard to validate access and control of all functionality of the content first by checking use of standard keyboard commands (TAB, Space Bar, Enter, Escape, etc.). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist.
