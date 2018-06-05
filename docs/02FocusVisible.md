@@ -3,6 +3,8 @@
 ## Accessibility Requirements
 * [WCAG SC 2.4.7 Focus Visible](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html) -- Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
 
+**This Baseline Requirement applies to software and Web content.
+
 ## Test Method Rationale
 Manually navigating or controlling the interface by keyboard only will enable a tester to identify when there is no visual differentiation between a focused item and the rest of the interface or content.
 
