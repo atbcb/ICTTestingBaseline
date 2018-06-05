@@ -1,6 +1,6 @@
 # 3. Focus Order
 ## Accessibility Requirements
-* [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If a Web page [or software screen] can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+* [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If a [content] can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
 * [WCAG SC 3.2.1 On Focus](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) -- When any component receives focus, it does not initiate a change of context.
 
 ## Test Method Rationale
@@ -8,22 +8,23 @@ Using the keyboard to navigate facilitates inspection of focus order.
 
 ## Limitations, Assumptions, or Exceptions
 * Focus may be moved to a control either via the keyboard (e.g. tabbing to a control) or the mouse (e.g. clicking on a text field). Moving the mouse over a control does not move the focus unless scripting implements this behavior. 
+* While it is common and a best practice for some, Focus Order is not required to move left to right, top to bottom.
 * Without exception, focus must shift to modal dialog boxes and remain within the dialog box until the box is closed by the user.
 * Assistive technology will process aria live regions without a focus shift. Live regions that do not contain interactive content do not require a focus shift and would not be included in this test.
 * For some types of controls, clicking a control may also activate the control (e.g. button), which may, in turn, initiate a change in context. Controls that are clearly intended to initiate a change in context do not fail under this test.
 * This test evaluates 3.2.1 On Focus using only the keyboard to avoid unintentional activation of controls with a mouse.
-* [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined as: major changes in the content of the Web page or software screen that, if made without user awareness, can disorient users who are not able to view the entire page/screen simultaneously. Changes in context include changes of:
+* [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined as: major changes in the content that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
     1. User agent
     2. Viewport
     3. Focus
-    4. Content that changes the meaning of the Web page or sowftware screen
+    4. Content that changes the meaning of the page
 
 * **Note:** A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
-* On Focus context change examples: Opening a new window, moving focus to a different component, going to a new page or software window (including anything that would look to a user as if they had moved to a new page/screen) or significantly re-arranging the content of a page/screen are examples of changes of context. (Above definition from [Understanding SC 3.2.1 On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html))
+* On Focus context change examples: Opening a new window, moving focus to a different component, going to a new page or window (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page/screen are examples of changes of context. (Above definition from [Understanding SC 3.2.1 On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html))
 
 ## Test Procedure for SC 2.4.3 Focus Order
 ### Identify Content
-Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).
+Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.
 
 ### Test Instructions
 1.	Use the keyboard to navigate through interface components.
@@ -32,7 +33,7 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
         2.	Advance the focus through the revealed content.
     2.	Use the keyboard to close/hide the revealed content. 
         1.	Check that focus is returned to the trigger control. (It is acceptable to [Shift+ TAB] once or use an arrow key to move the focus backward to the trigger control.
-2.	Check that the focus order preserves the meaning and usability of the Web page or sofware screen. 
+2.	Check that the focus order preserves the meaning and usability of the page.
 
 ### Test Results
 If any of the above checks fail, then SC 2.4.3 and Baseline Requirement 3 fail.
