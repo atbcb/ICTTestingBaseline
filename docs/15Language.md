@@ -33,7 +33,7 @@ If any of the above checks fail, SC 3.1.1 and Baseline Requirement 15 fail.
 #### Test Instructions
 1. Identify the default human language of the software application by reviewing the software content. The default human language of the software application is the language in which most of the content is presented.
 2. Check that the UIA Culture property is defined on the primary application node of the UIA tree and/or the primary node that contains all of the text content for the application.
-3. Check that the value of the UIA Culture property attribute matches the determined default human language for the software. See [Language Identifier Constants and Strings](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318693(v=vs.85).aspx) for Cultore property value definitions.   
+3. Check that the value of the UIA Culture property attribute matches the determined default human language for the software. See [Language Identifier Constants and Strings](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318693(v=vs.85).aspx) for Culture property value definitions.   
 
 #### Test Results
 If any of the above checks fail, SC 3.1.1 and Baseline Requirement 15 fail.
@@ -57,7 +57,7 @@ Text content that differs from the default human language of the page/software i
 #### Test Instructions
 1. Identify the human language of the text content that differs from the default human language of the software application.
 2. Check that the UIA Culture property is specified for any control element node or control ancestor node in the UIA tree that contains a content segment that differs from the default human language of the software. Note: An element without a set Culture property inherits its language/locale from parent elements.
-3. Check that the value of the UIA Culture property is correctly defined for the content segment. See [Language Identifier Constants and Strings](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318693(v=vs.85).aspx) for Cultore property value definitions.
+3. Check that the value of the UIA Culture property is correctly defined for the content segment. See [Language Identifier Constants and Strings](https://msdn.microsoft.com/en-us/library/windows/desktop/dd318693(v=vs.85).aspx) for Culture property value definitions.
 
 #### Test Results
 * If any of the above checks fail, SC 3.1.2 and Baseline Requirement 15 fail.
