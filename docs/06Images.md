@@ -37,7 +37,7 @@ If the image is meaningful:
 1. Check that aria-hidden is NOT set to true.
 
 ##### Test Results
-* If check 1 fails, then SC 1.1.1, SC 1.4.2, and Baseline Requirement 6 fail.
+* If check 1 fails, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
 * If check 2 or 3 fails, then SC 4.1.2 and Baseline Requirement 6 fail.
 
 #### Meaningful Images - Windows-Native Software
@@ -52,7 +52,7 @@ If the image is meaningful:
 1. Check that the image is included in the control view of the UIA tree, i.e., IsControlElement = TRUE.
 
 ##### Test Results
-* If any of the above checks fail, then SC 1.1.1, SC 1.4.2, and Baseline Requirement 6 fail.
+* If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
 
 ### Decorative Images
 #### Decorative Images - Web
@@ -66,7 +66,7 @@ If the image is decorative, check that at least one of the following is true:
 1. The image is inserted via CSS (e.g., using a background image)
 
 ##### Test Results
-* If all of the above checks fail, then SC 1.1.1, SC 1.4.2, and Baseline Requirement 6 fail.
+* If all of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
 
 #### Decorative Images - Windows-Native Software
 ##### Test Instructions
@@ -74,7 +74,7 @@ If the image is decorative:
 1. Check that the image does NOT appear in the Control view of the UIA tree.
 
 ##### Test Results
-* If the above check fails, then SC 1.1.1, SC 1.4.2, and Baseline Requirement 6 fail.
+* If the above check fails, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
 
 ### Icon Fonts
 #### Icon Fonts - Web
@@ -90,14 +90,14 @@ If the icon font is decorative:
 **Note:** Methods to provide alternative text for icon fonts must be accessibility supported (see [Conformance Requirement 4. Accessibility Support](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head)).
 
 ##### Test Results
-* If any of the above checks fail, then SC 1.1.1, SC 1.4.2, and Baseline Requirement 6 fail.
+* If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
 
 #### Icon Fonts - Windows-Native Software
 ##### Test Instructions
 TBD
 
 ##### Test Results
-* If any of the above checks fail, then SC 1.1.1, SC 1.4.2, and Baseline Requirement 6 fail.
+* If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
 
 ### Captcha Images (Web Only)
 #### Test Instructions
@@ -106,7 +106,7 @@ If the Image is a Captcha image:
 2. Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing.
 
 #### Test Results
-* If any of the above checks fail, then SC 1.1.1, SC 1.4.2, and Baseline Requirement 6 fail.
+* If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
 
 ## Test Procedures for SC 1.4.5 Images of Text
 ### Identify Content
