@@ -7,7 +7,7 @@ Status of updates to the Baseline test to add tests for software or modify exist
 | 2. Focus Visible | Complete | Added reference to software screens/windows | No | No |
 | 3. Focus Order | Complete | Added reference to software screens/windows | No | No |
 | 4. Repetitive Content | Complete | Not applicable - Added language to Assumptions section that SCs 2.4.1 Bypass Blocks, 3.2.3 Consistent Navigation, and 3.2.4 Consistent Identification **DO NOT** apply to non-Web documents and software | No | No |
-| 5. Changing Content | Complete | Minor update to reference software in addition to Web pages; larger question remains with Web pages with regard to identifying events | Yes | Yes |
+| 5. Changing Content | Complete | Minor update to reference software in addition to Web pages; larger question remains with Web pages with regard to identifying events | Yes | No |
 | 6. Images | Complete - kind of | Added windows-native test for meaningful and decorative images. Not sure what to do about icon fonts. | Yes | Yes |
 | 7. Sensory Characteristics | Complete | Minor revision to add reference to software screen in Advisory section | No | No |
 | 8. Contrast | Complete | No changes necessary | No | No |
