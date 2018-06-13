@@ -9,7 +9,7 @@
 Links, including scripted elements, must have meaningful text (either directly associated or available in context) that describe its purpose or function. In order for associated text to be available to assistive technologies, the link information must be determinable programmatically.
 
 ## Limitations, Assumptions, Exceptions
-* [From Understanding SC 2.4.4](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html): There may be situations where the purpose of the link is is supposed to be unknown or obscured. For instance, a game may have links identified only as door #1, door #2, and door #3. This link text would be sufficient because the purpose of the links is to create suspense for all users.
+* [From Understanding SC 2.4.4](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html): There may be situations where the purpose of the link is supposed to be unknown or obscured. For instance, a game may have links identified only as door #1, door #2, and door #3. This link text would be sufficient because the purpose of the links is to create suspense for all users.
 
 ## Test Procedure for SC 2.4.4 Link Purpose (In Context)
 ### Identify Content
