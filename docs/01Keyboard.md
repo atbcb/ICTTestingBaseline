@@ -28,8 +28,8 @@ All functionality of the content that is available by mouse control must be keyb
 1.	Check that all functionality can be accessed and executed using only the keyboard.
     1. Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components). 
         1. If a function is not available by mouse, check if another control is provided on the page with the same functionality which is available by mouse. (At least one must meet this requirement.)
-    1. Check that individual keystrokes do not require specific timings for activation.
-        1. If activation requires specific timings, check if another control is provided on the page with the same functionality which does not require specific timings for activation. (At least one must be available without specific timings to activate.)
+1. Check that individual keystrokes do not require specific timings for activation.
+     1. If activation requires specific timings, check if another control is provided on the page with the same functionality which does not require specific timings for activation. (At least one must be available without specific timings to activate.)
  
 ### Test Results
 If any of the above checks fail, then SC 2.1.1 and Baseline Requirement 1 fail.
