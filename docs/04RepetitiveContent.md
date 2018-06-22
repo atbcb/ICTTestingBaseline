@@ -15,8 +15,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 * Small sections, such as repeated individual words, phrases, or single links are not considered blocks for the purposes of this Baseline Requirement.
 * Most web browsers provide keyboard shortcuts to move the user focus to the top of the page, so if a set of navigation links is provided at the bottom of a web page providing a "skip" link may be unnecessary.
 * [Same relative order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html#samerelorderdef) is defined as same position relative to other items. Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
-* Consistent text alternatives for interface elements that perform the same function are not always truly “identical.” This
-is acceptable if they follow a consistent format. For instance, in the use of a graphical arrow at the bottom of a Web page that links to the next Web page, the text alternative may be: “Go to page 4.” However, the same arrow image on the next page should then state "Go to page 5."
+* Consistent text alternatives for interface elements that perform the same function are not always truly “identical.” This is acceptable if they follow a consistent format. For instance, in the use of a graphical arrow at the bottom of a Web page that links to the next Web page, the text alternative may be: “Go to page 4.” However, the same arrow image on the next page should then state "Go to page 5."
 
 ## Test Procedure for SC 2.4.1 Bypass Blocks (Web Only)
 ### Identify Content
