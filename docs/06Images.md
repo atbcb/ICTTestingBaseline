@@ -15,7 +15,7 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 * Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
 * CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 * Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
-* Equivalent descriptions for an image within page text would render an image decorative.
+* Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attrivbutes from the image.
 * While a `longdesc` attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
  
 ## Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
@@ -33,6 +33,8 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 ##### Test Instructions
 If the image is meaningful:
 1. Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)
+   1. Equivalent description of the image on the page is acceptable. 
+       1. If this is the **only** method used for an image, check that the image passes **Decorative Images - Web**.
 1. Check that the role is NOT "presentation".
 1. Check that aria-hidden is NOT set to true.
 
