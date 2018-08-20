@@ -7,6 +7,8 @@
 * [Section 508 503.4.1 Caption Controls](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#503-applications) -- Where user controls are provided for volume adjustment, ICT shall provide user controls for the selection of captions at the same menu level as the user controls for volume or program selection.
 * [Section 508 503.4.2 Audio Description Controls](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#503-applications) -- Where user controls are provided for program selection, ICT shall provide user controls for the selection of audio descriptions at the same menu level as the user controls for volume or program selection.
 
+**This Baseline Requirement applies to both software and Web content.**
+
 ## Test Method Rationale
 Evaluation of captions and audio descriptions to assess its equivalence to synchronized media content generally involves a manual, cognitive comparison of the original content with its alternative(s).
 
