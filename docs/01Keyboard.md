@@ -26,9 +26,10 @@ All functionality of the content that is available by mouse control must be keyb
 
 ### Test Instructions
 1.	Check that all functionality can be accessed and executed using only the keyboard.
-    1. Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components).
-    1. Check that individual keystrokes do not require specific timings for activation.
-    1. Each of the individual mouse activated controls do not require keyboard access as long as there is a keyboard accessible method to perform the same function available on the page or screen.
+    1. Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components). 
+        1. If a function is not available by mouse, check if another control is provided on the page with the same functionality which is available by mouse. (At least one must meet this requirement.)
+1. Check that individual keystrokes do not require specific timings for activation.
+     1. If activation requires specific timings, check if another control is provided on the page with the same functionality which does not require specific timings for activation. (At least one must be available without specific timings to activate.)
  
 ### Test Results
 If any of the above checks fail, then SC 2.1.1 and Baseline Requirement 1 fail.
@@ -39,11 +40,11 @@ Visible and hidden interactive interface components (links, form fields, drop do
 
 ### Test Instructions
 1.	Check that focus can be moved away from the selected component. There must be NO “TRAP” that disrupts keyboard navigation.
-2.	If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).
+    1. If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).
     1. If nonstandard keyboard commands are required to navigate into or out of one or more components, check that the commands work.
 
 ### Test Results
-If any of the above checks fail, then SC 2.1.2, Conformance Requirement 5, and Baseline Requirement 1 fail.
+If the above check fails, then SC 2.1.2, Conformance Requirement 5, and Baseline Requirement 1 fail.
 
 ## Advisory: Tips for streamlined test processes
 * Keyboard commands include standard and any nonstandard keyboard commands found. 
