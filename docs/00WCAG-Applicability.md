@@ -4,6 +4,8 @@ Section 508, E207.2.1 addresses applying WCAG 2.0 to Non-Web Software:
 
 In this Baseline document, this distinction has been applied as follows:
 1. Beneath the Success Criteria in the Accessibility Requirements section, a statement will clearly indicate when the baseline "applies to both web and software applications".
-2. Where applicable, web-only baselines are titled accordingly, e.g., “Bypass Blocks (Web only)".
-3. The term "page" will be used to indicate both web and software pages. In instances where the term only applies to the web, "web page" shall be used. 
-4. Where necessitated by significant differences between web and non-web testing, separate steps or sections were added. For example, under 11. Forms, Test Procedure for 1.3.1 Info and Relationships, separate sections under the Test Procedures heading: Test Instructions (Web), Test Instructions (Windows Native), and Test Instructions (Mac).
+1. Where applicable, web-only baselines are titled accordingly, e.g., “Bypass Blocks (Web only)".
+1. The term "content" will be substituted to indicate both web and software content. 
+1. In instances where the term only applies to the web, "web" or "web page" shall be used. 
+1. In limited instances, the terms "software" or "software screen" may be added to WCAG references for clarity.
+1. Where necessitated by significant differences between web and non-web testing, separate steps or sections were added. For example, under 11. Forms, Test Procedure for 1.3.1 Info and Relationships, separate sections under the Test Procedures heading: Test Instructions (Web), Test Instructions (Windows Native), and Test Instructions (Mac).
