@@ -36,6 +36,8 @@ Document status, review comments, and feedback
 * Test tool instructions
 * Reporting results
 
+[WCAG 2.0 Applicability to Software](00WCAG-Applicability.md)
+
 [*The Baseline Tests (\#1 - \#26)*](#contents-the-baseline-tests-1---26)
 
 Attachment A - Cross-Reference Tables
