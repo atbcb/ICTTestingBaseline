@@ -2,6 +2,8 @@
 ## Accessibility Requirements
 * [WCAG2 SC 2.4.2 Page Titled](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html) -- Web pages have titles that describe topic or purpose.
 
+**This Baseline Requirement applies to both software and Web content.**
+
 ## Test Method Rationale
 The `<title>` element defines the title of the document, and is required in all HTML/XHTML documents. Client-based software applications provide window or screen titles to describe and differentiate content and purpose. This test evaluates the presence of a descriptive title for the Web page or application window. 
 

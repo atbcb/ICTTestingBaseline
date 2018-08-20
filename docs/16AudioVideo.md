@@ -4,6 +4,8 @@
     * **Prerecorded Audio-only:** An alternative for time-based media is provided that presents equivalent information for prerecorded audio-only content.
     * **Prerecorded Video-only:** Either an alternative for time-based media or an audio track is provided that presents equivalent information for prerecorded video-only content.
 
+**This Baseline Requirement applies to both software and Web content.**
+
 ## Test Method Rationale
 Evaluation of alternative content to assess its equivalence to audio-only or video-only content generally involves a manual, cognitive comparison of the original content and its alternative(s).
 
@@ -27,7 +29,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 Pre-recorded audio-only content.
 
 ### Test Instructions
-1. Check that the software/Web page provides transcript(s) for audio-only content.
+1. Check that the content provides transcript(s) for audio-only content.
 2. Check that the transcript is text (i.e., an image of a transcript would not be sufficient to pass this test).
 3. Play the audio-only content entirely.
 4. Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc.
