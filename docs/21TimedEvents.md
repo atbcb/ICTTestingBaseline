@@ -7,27 +7,30 @@
 * [WCAG SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html) -- For moving, blinking, scrolling, or auto-updating information, all of the following are true:
   * Moving, blinking, scrolling: For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential.
   * Auto-updating: For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
-  * Note 2: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 * [WCAG SC 1.4.2 Audio Control](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html) -- If any audio on a page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
-  * Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
-
-**This Baseline Requirement applies to both software and Web content.**
 
 ## Test Method Rationale
-Content that may be distracting must include a mechanism to pause, stop, hide, or control the frequency of the update, unless it is part of an activity that is essential.
-
-Determine how time limits can be modified by a user and execute the modifications. 
-
-Evaluation to identify the existence of a mechanism to control audio (pause, stop, or control volume), generally requires a cognitive evaluation, given the variety of techniques or mechanisms that could facilitate audio control.
+Determine how time limits, auto-play, and auto-update can be modified by a user and execute the modifications. 
 
 ## Limitations, Assumptions, or Exceptions
-* Per Conformance Requirement 5, all content (whether or not it is used to meet other success criteria) must meet SC 1.4.2 and SC 2.2.2
 * Time limits set by the content that meet any of the following are not included in this test:
   * **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
   * **Essential Exception:** The time limit is essential and extending it would invalidate the activity; or
   * **20 Hour Exception:** The time limit is longer than 20 hours.
+ * To meet Conformance Requirement 5, all content (whether or not it is used to meet other success criteria) must meet the following SC's:
+  * 1.4.2 - Audio Control,
+  * 2.1.2 - No Keyboard Trap,
+  * 2.3.1 - Three Flashes or Below Threshold, and
+  * 2.2.2 - Pause, Stop, Hide.
 * Changing content is considered to be "in parallel" when it appears alongside other content. For example, a news flash updating across the bottom of a page would be considered changing content in parallel with other content when the page also presents a news video and text news articles (both examples of static content). A button allowing users to pause the changing content would not be considered other static content.
 * Moving, blinking, scrolling, and/or auto-updating is considered "essential" to an activity when, if removed, it would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform.
+* Notes from SC 2.2.2 Pause, Stop, Hide:
+ * Note 1: For requirements related to flickering or flashing content, refer to Guideline 2.3.
+ * Note 2: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
+ * Note 3: Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.
+* Note 4: An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.
+* Note from SC 1.4.2 Audio Control:
+ * Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
 ## Test Procedure for SC 2.2.1 Timing Adjustable
 ### Identify Content
@@ -52,7 +55,7 @@ Any moving, blinking, or scrolling information that meets ALL of the following:
 * Starts automatically, AND
 * Lasts more than 5 seconds, AND
 * Is presented in parallel with other content, AND
-* Is not part of an activity where it is essential
+* Moving, blinking, scrolling is not essential
 
 #### Test Instructions
 1. Check that there is a mechanism for the user to pause, stop, or hide it
