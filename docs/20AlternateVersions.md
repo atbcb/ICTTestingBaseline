@@ -1,4 +1,4 @@
-# 20. Conforming Alternate Versions
+# 20. Conforming Alternate Version
 ## Accessibility Requirements
 * [WCAG Conforming Alternate Version](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head): Conforming alternate version - Level AA: For Level AA conformance, the [content] satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided. Conformance requirement #1 allows non-conforming pages to be included within the scope of conformance as long as there is a "conforming alternate version", which is a version that
    1. conforms at the designated level, and
@@ -10,7 +10,7 @@
       1. the non-conforming version can only be reached from a conforming page that also provides a mechanism to reach the conforming version.
 
 ## Test Method Rationale
-The conforming alternate version and non-conforming version(s) must contain equivalent information, but does be 'exactly the same'. The main points, themes, concepts etc. that the authors are trying to get across in the primary content should also come across in the alternate version. 
+The conforming alternate version and non-conforming version(s) must contain equivalent information, but does need to be 'exactly the same'. The main points, themes, concepts etc. that the authors are trying to get across in the primary content should also come across in the alternate version. 
 
 ## Limitations, Assumptions, or Exceptions
 * Notes from the Conforming Alternate Version definition:
@@ -21,28 +21,27 @@ The conforming alternate version and non-conforming version(s) must contain equi
    * Note 5: The conforming alternative version does not need to reside within the scope of conformance, or even on the same Web site, as long as it is as freely available as the non-conforming version.
    * Note 6: Alternate versions should not be confused with supplementary content, which support the original page and enhance comprehension.
    * Note 7: Setting user preferences within the content to produce a conforming version is an acceptable mechanism for reaching another version as long as the method used to set the preferences is accessibility supported.
-* It is not a WCAG requirement to provide a conforming alternate version. This test only checks that a conforming alternate version is present. If there is not conforming alternate version, the result for this baseline test is Does Not Apply. (It does not fail.)
+* It is not a WCAG requirement to provide a conforming alternate version. This test only checks that a conforming alternate version is present. If there is not a conforming alternate version, the result for this baseline test is Does Not Apply. (It would not be a failure.)
 * When a conforming alternate version is provided, it is not necessary to test other versions of that content.
 
 ## Test Procedure for Conformance Requirement 1 - Conforming Alternate Version
 ### Identify Content
-Multiple versions of content.
+Multiple versions of the same content. 
 
 ### Test Instructions
-1. Check that the conforming alternate version provides all of the same information and functionality in the same human language.
-1. Check that the conforming alternate version is as up to date as the non-conforming content.
-1. Check that the conforming alternate version passes all other baseline tests.
+1. Check that the alternate version provides all of the same information and functionality in the same human language.
+1. Check that the alternate version is as up to date as the non-conforming content.
+1. Check that the alternate version passes all other baseline tests.
 1. Check that at least one of the following is true:
     1. the conforming alternate version can be reached from the non-conforming version via an accessibility-supported mechanism, or
     1. the non-conforming version can only be reached from the alternate version, or
     1. the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.
 
 ### Test Results
-If any of the above tests fail, Conforming Alternate Version and Baseline Requirement 20 DOES NOT APPLY.
+If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20 DOES NOT APPLY.
 
 ## Advisory: Tips for streamlined test processes
-* Setting user preferences within the content to produce a conforming version is an acceptable mechanism for reaching another version as long as the method used to set the preferences is accessibility supported.
-* Conformance testing of pages that are clearly identified as non-conforming and that have alternative versions is not necessary.
+* Conformance testing of content that is non-conforming and that has a conforming alternate version is not necessary.
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
