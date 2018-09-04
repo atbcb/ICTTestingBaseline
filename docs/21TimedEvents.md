@@ -17,20 +17,20 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
   * **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
   * **Essential Exception:** The time limit is essential and extending it would invalidate the activity; or
   * **20 Hour Exception:** The time limit is longer than 20 hours.
- * To meet Conformance Requirement 5, all content (whether or not it is used to meet other success criteria) must meet the following SC's:
-  * 1.4.2 - Audio Control,
-  * 2.1.2 - No Keyboard Trap,
-  * 2.3.1 - Three Flashes or Below Threshold, and
-  * 2.2.2 - Pause, Stop, Hide.
+* To meet Conformance Requirement 5, all content (whether or not it is used to meet other success criteria) must meet the following SC's:
+   * 1.4.2 - Audio Control,
+   * 2.1.2 - No Keyboard Trap,
+   * 2.3.1 - Three Flashes or Below Threshold, and
+   * 2.2.2 - Pause, Stop, Hide.
 * Changing content is considered to be "in parallel" when it appears alongside other content. For example, a news flash updating across the bottom of a page would be considered changing content in parallel with other content when the page also presents a news video and text news articles (both examples of static content). A button allowing users to pause the changing content would not be considered other static content.
 * Moving, blinking, scrolling, and/or auto-updating is considered "essential" to an activity when, if removed, it would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform.
 * Notes from SC 2.2.2 Pause, Stop, Hide:
- * Note 1: For requirements related to flickering or flashing content, refer to Guideline 2.3.
- * Note 2: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
- * Note 3: Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.
-* Note 4: An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.
+  * Note 1: For requirements related to flickering or flashing content, refer to Guideline 2.3.
+  * Note 2: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
+  * Note 3: Content that is updated periodically by software or that is streamed to the user agent is not required to preserve or present information that is generated or received between the initiation of the pause and resuming presentation, as this may not be technically possible, and in many situations could be misleading to do so.
+  * Note 4: An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.
 * Note from SC 1.4.2 Audio Control:
- * Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
+  * Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
 ## Test Procedure for SC 2.2.1 Timing Adjustable
 ### Identify Content
