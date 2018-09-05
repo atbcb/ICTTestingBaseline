@@ -1,7 +1,7 @@
 # 1. Keyboard Access
 
 ## Accessibility Requirements
-* [WCAG SC  2.1.1 Keyboard](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html) – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes[...].  
+* [WCAG SC  2.1.1 Keyboard](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html) – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.  
 
 * [WCAG SC 2.1.2 No Keyboard Trap](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html) – If keyboard focus can be moved to a component of the [content] using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
     * Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page [or software application], all content on the Web page [or in software] (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
@@ -13,12 +13,12 @@ This requirement relies on use of a keyboard to validate access and control of a
 
 Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard. 
 
-Within Section 508, the Fundamental Alteration exception may be applied to cover an application "where the underlying function requires input that depends on the path of the user's movement and not just the endpoints."
-
 ## Limitations, Assumptions, or Exceptions
 * This test was written to be performed on a standard physical keyboard for a Windows PC. While keyboard emulators (such as on-screen keyboards, alternate keyboards, speech input, etc.) may be utilized, testing instructions may differ. Mouse Keys (a Windows and Mac OS feature that enables control of the mouse pointer by keyboard) is not a keyboard emulator.
-* The determination for the exception in 2.1.1 whether "the underlying function requires input that depends on the path of the user's movement and not just the endpoints" is not included in this test.
-* Per Conformance Requirement 5, all content (whether or not it is used to meet other success criteria) must meet SC 2.1.2
+* Per Conformance Requirement 5, all content (whether or not it is used to meet other success criteria) must meet SC 2.1.2.
+* Notes from SC 2.1.1:
+   * Note 1: This exception relates to the underlying function, not the input technique. For example, if using handwriting to enter text, the input technique (handwriting) requires path-dependent input but the underlying function (text input) does not.
+   * Note 2: This does not forbid and should not discourage providing mouse input or other input methods in addition to keyboard operation.
 
 ## Test Procedure for SC 2.1.1 Keyboard
 ### Identify Content
