@@ -105,7 +105,7 @@ If any of the above checks fail, then SC 3.3.3 and Baseline Requirement 10 fail.
 Pages that causes legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses.
 
 ### Test Instructions
-1. Complete the form fields necessary to submit.
+1. Complete the form fields necessary to submit. Include errors.
 2. Check that at least one of the following is true:
     1. Reversible: Submissions are reversible.
     1. Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
