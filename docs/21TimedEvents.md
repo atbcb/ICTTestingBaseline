@@ -8,6 +8,7 @@
   * Moving, blinking, scrolling: For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential.
   * Auto-updating: For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
 * [WCAG SC 1.4.2 Audio Control](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html) -- If any audio on a page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
+* [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
 ## Test Method Rationale
 Determine how time limits, auto-play, and auto-update can be modified by a user and execute the modifications. 
@@ -17,11 +18,6 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
   * **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
   * **Essential Exception:** The time limit is essential and extending it would invalidate the activity; or
   * **20 Hour Exception:** The time limit is longer than 20 hours.
-* To meet Conformance Requirement 5, all content (whether or not it is used to meet other success criteria) must meet the following SC's:
-   * 1.4.2 - Audio Control,
-   * 2.1.2 - No Keyboard Trap,
-   * 2.3.1 - Three Flashes or Below Threshold, and
-   * 2.2.2 - Pause, Stop, Hide.
 * Changing content is considered to be "in parallel" when it appears alongside other content. For example, a news flash updating across the bottom of a page would be considered changing content in parallel with other content when the page also presents a news video and text news articles (both examples of static content). A button allowing users to pause the changing content would not be considered other static content.
 * Moving, blinking, scrolling, and/or auto-updating is considered "essential" to an activity when, if removed, it would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform.
 * Notes from SC 2.2.2 Pause, Stop, Hide:
@@ -92,6 +88,7 @@ If the above check fails, then SC 1.4.2, WCAG Conformance Requirement 5: Non-int
 * In some cases, it may be necessary to contact the application authors to clarify the conditions under which time-outs occur.
 * A failure of SC 1.4.2 or 2.2.2 would also fail Conformance Requirement 5: Non-Interference and should be highlighted in test reports to indicate the severe impact on accessibility.
 * Browsers must be configured to disable autoplay of audio prior to testing of content. Provide instructions for conformant browser mechanisms only. Test results may vary depending on browser. 
+* Content that is found non-conformant with SC 2.2.2 where auto-update is considered essential may be marked for further review for a Section 508 exception. However, an exception for SC 2.2.2 should be considered carefully as Conformance Requirement 5: Non Interference requires its conformance.
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
