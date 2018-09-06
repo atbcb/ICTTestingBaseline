@@ -88,7 +88,7 @@ If the above check fails, then SC 1.4.2, WCAG Conformance Requirement 5: Non-int
 * In some cases, it may be necessary to contact the application authors to clarify the conditions under which time-outs occur.
 * A failure of SC 1.4.2 or 2.2.2 would also fail Conformance Requirement 5: Non-Interference and should be highlighted in test reports to indicate the severe impact on accessibility.
 * Browsers must be configured to disable autoplay of audio prior to testing of content. Provide instructions for conformant browser mechanisms only. Test results may vary depending on browser. 
-* Content that is found non-conformant with SC 2.2.2 where auto-update is considered essential may be marked for further review for a Section 508 exception. However, an exception for SC 2.2.2 should be considered carefully as Conformance Requirement 5: Non Interference requires its conformance.
+* Content that is found non-conformant with SC 2.2.2 may be marked for further review for a Section 508 exception if the auto-update is essential. However, an exception for SC 2.2.2 should be considered carefully as Conformance Requirement 5: Non Interference requires its conformance.
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
