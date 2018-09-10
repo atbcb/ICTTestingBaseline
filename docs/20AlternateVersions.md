@@ -43,6 +43,7 @@ If any of the above tests fail, a Conforming Alternate Version does not exist an
 
 ## Advisory: Tips for streamlined test processes
 * It is not necessary to test non-conforming content when a conforming alternate version of that content is provided.
+* The presence of a conforming alternate version can determine whether other versions of the content need to be tested. To save on time and effort, it is advised that this be one of the first tests performed.
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
