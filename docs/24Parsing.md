@@ -2,8 +2,6 @@
 ## Accessibility Requirements
 * [WCAG SC 4.1.1 Parsing](http://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html) -- In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
 
-**This Baseline Requirement applies to both software and Web content implemented using markup languages.**
-
 ## Test Method Rationale
 If the content cannot be parsed into a data structure, then different user agents, including assistive technologies, may present it differently or be completely unable to parse it. In markup languages, errors in element and attribute syntax and failure to provide properly nested start/end tags lead to errors that prevent user agents from parsing the content reliably. Therefore, the Success Criterion requires that the content can be parsed using only the rules of the formal grammar.
 
@@ -14,7 +12,7 @@ If the content cannot be parsed into a data structure, then different user agent
 
 ## Test Procedure for SC 4.1.1 Parsing
 ### Identify Content
-The entire source code for a web page or software application
+The entire source code for a web page
 
 ### Test Instructions
 1. Check that (except where the specifications allow these features)
@@ -27,7 +25,7 @@ The entire source code for a web page or software application
 If any of the above checks fail, then SC 4.1.1 and Baseline Requirement 24 fail.
 
 ## Advisory: Tips for streamlined test processes
-While validators can be great tools for catching errors, they usually cannot catch all cases where content fails to fully conform to a specification. 
+While validators can be great tools for catching errors, they may not catch all cases where content fails to fully conform to a specification. 
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
