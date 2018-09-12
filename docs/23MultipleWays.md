@@ -2,14 +2,11 @@
 ## Accessibility Requirements
 * [WCAG SC 2.4.5 Multiple Ways](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html) -- More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.
 
-**This Baseline Requirement applies only to Web content.**
-
 ## Test Method Rationale
 This baseline requires a manual check for multiple techniques to locate a web page.
 
 ## Limitations, Assumptions, or Exceptions
 * Exceptions: web pages that are the result of, or a step in, a process are not included in this test.
-* As defined in [E204.5](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E205-content) and [E207](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines#E207-software) of 36 CFR 1194, WCAG SC 2.4.5 Multiple Ways **DOES NOT** apply to non-Web documents and software.
 
 ## Test Procedure for SC 2.4.5 Multiple Ways
 ### Identify Content
