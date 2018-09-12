@@ -11,6 +11,7 @@ Meaningful information provided solely through CSS content may not be in the Doc
 
 ## Limitations, Assumptions, or Exceptions
 * Only the CSS techniques identified as Failures in WCAG 2.0 Level A and Level AA are included in this test. There may be other CSS techniques that affect conformance.
+* Inline styling is included in this test.
 
 ## Test Procedure for SC 1.1.1 Non-Text Content
 ### Identify Content
