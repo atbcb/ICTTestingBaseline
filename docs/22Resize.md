@@ -2,8 +2,6 @@
 ## Accessibility Requirements
 * [WCAG SC 1.4.4 Resize text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html) -- Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
 
-**This Baseline Requirement applies to both software and Web content.**
-
 ## Test Method Rationale
 This baseline test requires visual inspection of text to evaluate content and functionality.
 
@@ -12,7 +10,7 @@ This baseline test requires visual inspection of text to evaluate content and fu
 
 ## Test Procedure for 1.4.4 Resize Text
 ### Identify Content
-All text on a page .
+All text on a page.
 
 ### Test Instructions
 1. Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. Known approaches include:
