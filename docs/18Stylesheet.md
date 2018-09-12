@@ -1,4 +1,4 @@
-# 18. Stylesheet non-dependence
+# 18. CSS Content and Positioning
 ## Accessibility Requirements
 * [WCAG SC 1.1.1 Non-Text Content](http://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.  
     * **Decoration, Formatting, Invisible:** If non-text content is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
