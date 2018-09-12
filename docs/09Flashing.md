@@ -1,9 +1,7 @@
 # 9. Flashing
 ## Accessibility Requirements
-* [WCAG SC 2.3.1 Three Flashes or Below Threshold](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) -- [Pages] do not contain anything that flashes more than three times in any one second period, or the flash is below the general [flash and red flash thresholds](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
-* **Note:** Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
-
-**This Baseline Requirement applies to both software and Web content.**
+* [WCAG SC 2.3.1 Three Flashes or Below Threshold](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) - [Pages] do not contain anything that flashes more than three times in any one second period, or the flash is below the general [flash and red flash thresholds](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
+* [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
 ## Test Method Rationale
 Flashing can be caused by factors beyond the control of authors (e.g., the user's display, the computer rendering of the image, or connectivity issues). There is no reliable, freely or widely available solution for determining the resulting flash frequency for these types of factors.
@@ -12,15 +10,14 @@ This test addresses flashing caused by the content itself, including:
 * Determining the flash rate from programmatically available information
 * Determining if any flashing element is within the "small safe area" -- smaller than a contiguous area of 25% of a 10 degree viewing angle of the total screen size at intended viewing distance
 * Determining if the [relative luminance](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef) changes by more than 10% for a pair of opposing changes in a flash
-* Determining if flashing elements include a [saturated red](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#general-thresholddef)
+* Determining if flashing elements include a [saturated red](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#general-thresholddef) 
    
 ## Limitations, Assumptions, or Exceptions
-* There is no reliable, widely available method to test the flash rate resulting from the computer or hardware. However, no tool is necessary to evaluate for this condition if flashing is less than or equal to 3 flashes in any one second. Content automatically passes ([Understanding SC 3.2.1](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html)).
 * It is possible that users could view content at a resolution or from a distance much different from the intended resolution and viewing distance.
 * For the purposes of this baseline, the terms flicker and blink may be used synonymously with the term flash.
 * Blinking elements that conform to this requirement are still required to conform to SC 2.2.2 Pause Stop Hide, if the blinking lasts longer than 5 seconds ([Baseline 29. Pause, Stop, Hide, Control](29Control.md)).
-* Per Conformance Requirement 5, all content on the Web page (whether or not it is used to meet other success criteria) must meet SC 2.3.1.
-* **Exception:** Flashing that is a fine, balanced, pattern such as white noise or an alternating checkerboard pattern with "squares" smaller than 0.1 degree (of visual field at typical viewing distance) on a side does not violate the thresholds ([Understanding SC 3.2.1](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html)).
+* Note from SC 2.3.1:
+   * Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
 ## Test Procedure for SC 2.3.1 Three Flashes or Below Threshold
 ### Identify Content
