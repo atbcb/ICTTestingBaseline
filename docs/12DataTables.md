@@ -47,7 +47,7 @@ Note: Linearization of table content is the presentation of a table’s two-dime
 ##### Layout Tables
 1. Check that tables used purely for layout purposes:
     1. Do NOT designate the layout as a table using ARIA `role="table"` and associated ARIA table attributes. 
-    1. Do NOT include table structure and relationship elements and/or associated attributes (i.e., `<th>`, `summary=` (HTML4), `<caption>`, `scope=`, and/or `headers=`).
+    1. If the table does not have `role="presentation"`, Do NOT include table structure and relationship elements and/or associated attributes (i.e., `<th>`, `summary=` (HTML4), `<caption>`, `scope=`, and/or `headers=`).
     1. Do NOT identify column or row headers using `role="columnheader"` or `role="rowheader"` in an ARIA grid (where the data grid is identified using `role="grid"`).
     
 ##### Test Results
