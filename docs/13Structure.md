@@ -61,7 +61,7 @@ Visually apparent lists. For each list, determine if it appears to be ordered, u
 * Description lists (dl) are used to group terms with their descriptions.
 
 #### Test Instructions
-1. For each visually apparent heading:
+1. For each visually apparent list:
     1. Check that content that has the visual appearance of a list (with or without bullets) is marked as an unordered list.
     2. Check that content that has the visual appearance of a numbered list is marked as an ordered list.
     3. Check that content is marked as a description list when terms and their descriptions are presented in the form of a list.
