@@ -18,14 +18,15 @@ Identify changes in presented content (both user driven and automatic). Examples
 * Depending on the component, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.
 
 ### Test Instructions
-1. Check that the page provides a programmatic event notification of each change (e.g., using ARIA live regions for Web or raising the event to the accessibility API).
-2. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate and provides adequate information about the change programmatically.
+1. Check that the page provides a notification of the change in content programmatically. 
+   * Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions.
+1. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate.
     * Name: the name is accurate after a change. 
         * Apply the [accessible name and description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) computation, if applicable. 
     * Role: the role accurately describes the purpose of the element after a change, if applicable.
         * Consider ARIA role, element type, and other descriptive text.
     * State: the state of the element is accurate after a change, if applicable 
-        * Evaluate ARIA and element-specific attributes (e.g., <option selected=”true”>)
+        * Evaluate ARIA and element-specific attributes (e.g., `<option selected=”true”>`)
     * Value: the value is updated after a change, if applicable.
 
 ### Test Results
