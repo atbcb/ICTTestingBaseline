@@ -28,5 +28,7 @@ If any of the above checks fail, then Conformance Requirement 5 and Baseline Req
 
 ### WCAG 2.0 Techniques
 NA.
+
+
 ----------------------------------------
 [Home/Table of Contents](index.md) | [Previous Baseline](24Parsing.md)
