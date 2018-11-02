@@ -81,7 +81,7 @@ Attachment C - Baseline Test Report Checklists
 15. [Language](15Language.md)
 16. [Audio-Only and Video-Only](16AudioVideo.md)
 17. [Synchronized Media](17SyncMedia.md)
-18. [Stylesheet Non-Dependence](18Stylesheet.md)
+18. [CSS Content and Positioning](18Stylesheet.md)
 19. [Frames and iFrames](19Frames.md)
 20. [Alternate Versions](20AlternateVersions.md)
 21. [Timed Events](21TimedEvents.md)
