@@ -66,4 +66,4 @@ The following sufficient techniques  were considered when developing this test p
 * [F46: Failure of Success Criterion 1.3.1 due to using th elements, caption elements, or non-empty summary attributes in layout tables](http://www.w3.org/TR/WCAG20-TECHS/F46.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](11PageTitles.md) | [Next Baseline](13Headings.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](11PageTitles.md) | [Next Baseline](13Structure.md)
