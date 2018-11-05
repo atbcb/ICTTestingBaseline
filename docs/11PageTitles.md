@@ -11,11 +11,10 @@ The `<title>` element defines the title of the document, and is required in all 
 * Some Web and non-Web applications and may include content that changes dynamically. In such cases, the page title should be sufficient to describe the purpose of the application.
 
 ## Test Procedure for SC 2.4.2 Page Titled 
-### 2.4.2 Page Titled
-#### Identify Content
+### Identify Content
 Page `<title>` element for the page, if any.
 
-#### Test Instructions
+### Test Instructions
 1. Check that the `<title>` element is located as a child of the `<head>` element
 2. If a page `<title>` element was found:
     1. Check that the Page Title identifies the contents or purpose of the Web page
@@ -23,7 +22,7 @@ Page `<title>` element for the page, if any.
         1. For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.
     1. Check that there is only one page `<title>` element.
 
-#### Test Results
+### Test Results
 If any of the above checks fail, then SC 2.4.2 and Baseline Requirement 11 fail.
 
 ## Advisory Tips for streamlined test processes
