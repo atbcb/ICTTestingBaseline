@@ -2,7 +2,7 @@ United States Federal Chief Information Officers Council (CIOC)
 
 Accessibility Community of Practice (ACOP)
 
-April 2018 | Version 3.0 (DRAFT)
+November 2018 | Version 3.0 (DRAFT)
 
 Harmonized Processes for Section 508 Testing: Baseline Tests for Software & Web Accessibility
 ==============================================
