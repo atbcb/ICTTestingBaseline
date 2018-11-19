@@ -124,3 +124,6 @@ Each baseline test includes instructions with test conditions or “checks” fo
 The method used in the baseline is to provide test procedures for specific applicable standards or requirements. An agency developing a streamlined test process can present findings in a way that meets their testing needs. However, failures must be explained in the report and must tie to Section 508 conformance requirements and applicable Baseline test. Reports will generally include things like the type of failure, the location of the failure, and supporting screen captures with test tool results. Reports may also describe any peer review process used.
 
 It is not required that the conformance determinations that result from test results be included in any test reports that are shared between agencies. Including such information is not discouraged, however.
+
+-------------------------------------------------
+[Home/Table of Contents](index.md)    |    [Baseline Test 1. Keyboard Access](01Keyboard.md)
