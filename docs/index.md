@@ -25,7 +25,7 @@ For questions or to provide feedback, contact the DHS Accessibility Helpdesk at:
 
 [Developing a streamlined test process from this baseline — a primer](introduction.md#developing-a-streamlined-test-process-from-this-baseline--a-primer)
 
-[*The Baseline Tests (\#1 - \#25)*](#contents-the-baseline-tests-1---25)
+[The Baseline Tests (\#1 - \#25)](#contents-the-baseline-tests-1---25)
 
 [Appendix A - Cross-Reference Tables](AppendixA.md)
 
