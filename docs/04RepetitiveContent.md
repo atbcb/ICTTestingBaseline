@@ -17,8 +17,8 @@ Limitations, Assumptions, or Exceptions
 -   [Same relative order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html#samerelorderdef) is defined as same position relative to other items. Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
 -   Consistent text alternatives for interface components that perform the same function are not always truly “identical.” This is acceptable if they follow a consistent format. For instance, in the use of a graphical arrow at the bottom of a Web page that links to the next Web page, the text alternative may be: “Go to page 4.” However, the same arrow image on the next page should then state "Go to page 5."
 
-Test Procedure for SC 2.4.1 Bypass Blocks (Web Only)
-----------------------------------------------------
+Test Procedure for SC 2.4.1 Bypass Blocks
+-----------------------------------------
 ### Identify Content
 Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.
 
@@ -29,7 +29,7 @@ Blocks of content that are repeated on multiple pages, including navigation link
     -   Activate the bypass method.
     -   Check that the method works as intended. For example:
         -   The block of repeated content is hidden, closed or skipped.
-        -   If the method is intended to skip, check that the focus is shifted past the repetitive content. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
+        -   If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
 
 ### Test Results
 If any of the above checks fail, then SC 2.4.1 and Baseline Requirement 4 fail.
