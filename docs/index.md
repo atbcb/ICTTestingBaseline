@@ -56,4 +56,4 @@ For questions or to provide feedback, contact the DHS Accessibility Helpdesk at:
 22. [Resize Text](22Resize.md)
 23. [Multiple Ways](23MultipleWays.md)
 24. [Parsing](24Parsing.md)
-25. [Non-Interferenece](25Noninterference.md)
+25. [Non-Interference](25Noninterference.md)
