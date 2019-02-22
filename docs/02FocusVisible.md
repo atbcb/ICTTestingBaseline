@@ -12,7 +12,7 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   Some interface components (e.g., screen text for form filling instructions), which are not normally considered interactive, may be in the tab order. Such interface components should receive a visible indication of focus when the user navigates to them using a keyboard.
 -   Skip link visual focus is a part of this test.
--   Focus-shift to revealed hidden content is not tested here. See [4. Focus (revealing hidden content)](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/04FocusHidden)
+-   Focus-shift to revealed hidden content is not tested here. See Test Procedure for SC 2.4.3, baseline 3. Focus Order [insert url]).
 -   Loss of visible focus should not occur while manually shifting focus through the page (using the TAB or arrow keys). However, when a function that moves the focus is executed (such as an internal page link or hidden content is revealed), it may be necessary to manually shift focus once with the keyboard before focus becomes visible again. This is not considered a failure.
 
 Test Procedure for SC 2.4.7 Focus Visible
