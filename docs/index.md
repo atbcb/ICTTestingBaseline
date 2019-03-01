@@ -4,7 +4,7 @@ Accessibility Community of Practice (ACOP)
 
 November 2018 | Version 3.0 (DRAFT)
 
-Harmonized Processes for Revised Section 508 Testing: Baseline Tests for Web Accessibility
+Harmonized Processes for Revised Section 508: Baseline Tests for Web Accessibility
 ==============================================
 
 ## Document status, review, comments, and feedback
