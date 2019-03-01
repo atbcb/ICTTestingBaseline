@@ -4,11 +4,11 @@ Accessibility Community of Practice (ACOP)
 
 November 2018 | Version 3.0 (DRAFT)
 
-Harmonized Processes for Section 508 Testing: Baseline Tests for Software & Web Accessibility
+Harmonized Processes for Revised Section 508 Testing: Baseline Tests for Web Accessibility
 ==============================================
 
 ## Document status, review, comments, and feedback
-This version is a DRAFT of version 3.0, not yet approved for distribution by the Federal Chief Information Officers Council (CIOC) Accessibility Community of Practice (ACOP).
+This version is a DRAFT of version 3.0 and not yet approved for distribution by the Federal Chief Information Officers Council (CIOC) Accessibility Community of Practice (ACOP).
 
 For more information on the baseline tests and links to published streamlined test processes, training and certification programs, visit: <http://www.dhs.gov/compliance-test-processes>
 
