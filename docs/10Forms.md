@@ -102,7 +102,7 @@ Input fields with automatic error detection and notification.
     3.  state (abbreviations in an address)
     4.  password
 2.  Review error notifications provided.
-3.  Check that additional guidance (e.g., suggestion for corrected input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content.
+3.  Check that additional guidance (e.g., suggestion for corrected input, guidance on how to correct the user's input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content.
 
 ### Test Results
 If any of the above checks fail, then SC 3.3.3 and Baseline Requirement 10 fail.
@@ -122,10 +122,14 @@ Pages that causes legal commitments or financial transactions for the user to oc
 ### Test Results
 If any of the above checks fail, then SC 3.3.4 and Baseline Requirement 10 fail.
 
+Test Procedure for 4.1.2 Name, Role, Value
+------------------------------------------------------------------
+Refer to [Baseline 5. Changing Content](05Changing.md)
+
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
--   Re-displaying the form and indicating the fields in error within the form is insufficient to meet this requirement. The user should not need to search through the form to find where errors were made.
--   For SC 3.3.1, acceptable techniques include a) shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error, b)refreshing the page upon form submission, then listing the error descriptions and locations at the top of the page.
+-   For SC 3.3.1, acceptable techniques include a) shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error, b)refreshing the page upon form submission, then listing the error descriptions and locations at the top of the page. Re-displaying the form and indicating the fields in error within the form is insufficient to meet this requirement. The user should not need to search through the form to find where errors were made.
+-   For SC 3.3.4, because the user can review a simple, 1-page form before pressing the submit button on the page, another review mechanism is not required. 
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
