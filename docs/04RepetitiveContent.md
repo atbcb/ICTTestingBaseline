@@ -10,12 +10,13 @@ Test Method Rationale
 ---------------------
 To enable equitable use by keyboard-only users, there must be a keyboard-accessible method to bypass repetitive content, with no additional tools required. A common method used to bypass repetitive content is internal (same page) links, but other methods such as a hide menu option and a navigation tree are acceptable. Repeated content is also evaluated for consistent relative order.
 
-Limitations, Assumptions, or Exceptions
----------------------------------------
--   Small sections, such as repeated individual words, phrases, or single links are not considered blocks for the purposes of this Baseline Requirement.
--   Most web browsers provide keyboard shortcuts to move the user focus to the top of the page or browser, so providing a "skip" link may be unnecessary if a set of navigation links is at the bottom of a web page.
--   [Same relative order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html#samerelorderdef) is defined as same position relative to other items. Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
--   Consistent text alternatives for interface components that perform the same function are not always truly “identical.” This is acceptable if they follow a consistent format. For instance, in the use of a graphical arrow at the bottom of a Web page that links to the next Web page, the text alternative may be: “Go to page 4.” However, the same arrow image on the next page should then state "Go to page 5."
+## Limitations, Assumptions, or Exceptions
+* Small sections, such as repeated individual words, phrases, or single links are not considered blocks for the purposes of this Baseline Requirement.
+* Most web browsers provide keyboard shortcuts to move the user focus to the top of the page or browser, so providing a "skip" link may be unnecessary if a set of navigation links is at the bottom of a web page.
+* [Same relative order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html#samerelorderdef) is defined as same position relative to other items. Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
+* Consistent text alternatives for interface components that perform the same function are not always truly “identical.” This is acceptable if they follow a consistent format. For instance, in the use of a graphical arrow at the bottom of a Web page that links to the next Web page, the text alternative may be: “Go to page 4.” However, the same arrow image on the next page should then state "Go to page 5."
+* "Navigational mechanisms" as referenced in SC 3.2.3 includes both interactive and non-interactive components repeated on pages. Consistent presentation and layout benefit users who interact with repeated content within a set of Web pages and need to locate specific information or functionality more than once. 
+
 
 Test Procedure for SC 2.4.1 Bypass Blocks
 -----------------------------------------
@@ -37,11 +38,11 @@ If any of the above checks fail, then SC 2.4.1 and Baseline Requirement 4 fail.
 Test Procedure for SC 3.2.3 Consistent Navigation
 -------------------------------------------------
 ### Identify Content
-Interface components that are repeated on multiple pages (which may or may not be contained within a block of content).
+Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).
 
 ### Test Instructions
-1.  Review multiple Web pages. Do not initiate changes to the content.
-2.  Check that each repeated interface component is in the same relative order as other repeated interface components on each Web page where it appears.
+1. Review multiple Web pages. Do not initiate changes to the content.
+2. Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears.
 
 ### Test Results
 If any of the above checks fail, then SC 3.2.3 and Baseline Requirement 4 fail.
