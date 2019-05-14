@@ -60,7 +60,7 @@ All active form components.
 ### Test Results
 If any of the above checks fail, then SC 3.2.2 and Baseline Requirement 10 fail.
 
-Test Procedure for 3.3.2 Labels or Instructions and 2.4.6 Headings and Labels
+Test Procedure for 3.3.2 Labels or Instructions
 -----------------------------------------------
 ### Identify Content
 1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
@@ -69,13 +69,19 @@ Test Procedure for 3.3.2 Labels or Instructions and 2.4.6 Headings and Labels
 ### Test Instructions
 1.  Check that each form input has label(s) or instructions.
 
-#### Test Results
+### Test Results
 If any of the above checks fail, then SC 3.3.2 and Baseline Requirement 10 fail.
 
-### Test Instructions
-2.  Check that provided labels and/or instructions for each form input inform users what input data is expected and, if applicable, what format is required.
+Test Procedure for 2.4.6 Headings and Labels
+-----------------------------------------------
+### Identify Content
+1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
+2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
-#### Test Results
+### Test Instructions
+1.  Check that provided labels and/or instructions for each form input inform users what input data is expected and, if applicable, what format is required.
+
+### Test Results
 If any of the above checks fail, then SC 2.4.6 and Baseline Requirement 10 fail.
 
 Test Procedure for 3.3.1 Error Identification
