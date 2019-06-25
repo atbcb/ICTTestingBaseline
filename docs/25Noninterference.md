@@ -19,7 +19,7 @@ None.
 Test Procedure for WCAG Conformance Requirement 5
 -------------------------------------------------
 ### Identify Content
-Baseline tests for [1.4.2 and 2.2.2](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/21TimedEvents), [2.1.2](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/01Keyboard), [2.3.1](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/09Flashing).
+Baseline tests for [1.4.2 and 2.2.2](21TimedEvents.md), [2.1.2](01Keyboard.md), [2.3.1](09Flashing.md).
 
 ### Test Instructions
 1.  Check that all of test results are pass.
