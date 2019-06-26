@@ -18,20 +18,20 @@ Limitations, Assumptions, or Exceptions
 -   Notes from SC 2.1.1:
     -   Note 1: This exception relates to the underlying function, not the input technique. For example, if using handwriting to enter text, the input technique (handwriting) requires path-dependent input but the underlying function (text input) does not.
     -   Note 2: This does not forbid and should not discourage providing mouse input or other input methods in addition to keyboard operation.
--   Note from SC 2.1.1:
+-   Note from SC 2.1.2:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
 Test Procedure for SC 2.1.1 Keyboard
 ------------------------------------
 ### Identify Content
-All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) available using a mouse (hover and/or click).
+All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).
 
 ### Test Instructions
 1.  Check that all functionality can be accessed and executed using only the keyboard.
     1.  Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components).
-        1.  If a function is not available by mouse, check if another control is provided on the page with the same functionality which is available by mouse. (At least one must meet this requirement.)
+        1.  If an interactive interface component is not available by keyboard, check if another control is provided on the page with the same functionality which is available by keyboard. (All functionality must meet this requirement.)
 2.  Check that individual keystrokes do not require specific timings for activation.
-    1.  If activation requires specific timings, check if another control is provided on the page with the same functionality which does not require specific timings for activation. (At least one must be available without specific timings to activate.)
+    1.  If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)
 
 ### Test Results
 If any of the above checks fail, then SC 2.1.1 and Baseline Requirement 1 fail.
@@ -42,16 +42,16 @@ Test Procedure for SC 2.1.2 No Keyboard Trap
 Visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that can be navigated to by keyboard.
 
 ### Test Instructions
-1.  Check that focus can be moved away from the selected component. There must be NO “TRAP” that disrupts keyboard navigation.
+1.  Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.
     1.  If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).
-    2.  If nonstandard keyboard commands are required to navigate into or out of one or more components, check that the commands work.
+    2.  If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.
 
 ### Test Results
 If the above check fails, then SC 2.1.2, Conformance Requirement 5, and Baseline Requirement 1 fail.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
--   Keyboard commands include standard and any nonstandard keyboard commands found.
+-   Keyboard commands include standard and any nonstandard keyboard commands.
 -   Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
 -   This test may be combined with tests for focus.
 -   Tips and techniques for finding hidden content may be useful for testers.
