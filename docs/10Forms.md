@@ -22,14 +22,15 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   Read-only (e.g. pre-filled) form fields receive keyboard focus and are selectable but cannot be modified. These must be labeled and programmatically determinable, and are tested under SC 1.3.1.
 -   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not included in this test.
+-   Both SC 1.3.1 and SC 4.1.2 require form elements to have a programmatically determinable label. Test Instructions to evaluate the form element's accessible name are provided only for SC 1.3.1 test procedure, but the test result would be for both SC 1.3.1 and SC 4.1.2.
 -   Clicking an option or selecting an option in a form should select the option, but should not initiate a change in context.
--   [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined as: major changes in the content of \[a page\] that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
+-   [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined in [Understanding SC 3.2.1: On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) as: major changes in the content of \[a page\] that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
     1.  User agent
     2.  Viewport
     3.  Focus
     4.  Content that changes the meaning of the \[page\]
--   **Note:** A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
-    -   Example: Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context. (Above definition from <https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html>)
+    - Note: A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
+    - Example: Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.
 
 Test Procedure for 1.3.1 Info and Relationships
 -----------------------------------------------
@@ -42,6 +43,18 @@ Test Procedure for 1.3.1 Info and Relationships
 
 ### Test Results
 If any of the above checks fail, then SC 1.3.1, SC 4.1.2, and Baseline Requirement 10 fail.
+
+Test Procedure for 2.4.6 Headings and Labels
+-----------------------------------------------
+### Identify Content
+1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
+2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
+
+### Test Instructions
+1.  Check that provided labels and/or instructions for each form input inform users what input data is expected and, if applicable, what format is required.
+
+### Test Results
+If any of the above checks fail, then SC 2.4.6 and Baseline Requirement 10 fail.
 
 Test Procedure for SC 3.2.2 On Input
 ------------------------------------
@@ -60,30 +73,6 @@ All active form components.
 ### Test Results
 If any of the above checks fail, then SC 3.2.2 and Baseline Requirement 10 fail.
 
-Test Procedure for 3.3.2 Labels or Instructions
------------------------------------------------
-### Identify Content
-1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
-2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
-
-### Test Instructions
-1.  Check that each form input has label(s) or instructions.
-
-### Test Results
-If any of the above checks fail, then SC 3.3.2 and Baseline Requirement 10 fail.
-
-Test Procedure for 2.4.6 Headings and Labels
------------------------------------------------
-### Identify Content
-1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
-2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
-
-### Test Instructions
-1.  Check that provided labels and/or instructions for each form input inform users what input data is expected and, if applicable, what format is required.
-
-### Test Results
-If any of the above checks fail, then SC 2.4.6 and Baseline Requirement 10 fail.
-
 Test Procedure for 3.3.1 Error Identification
 ---------------------------------------------
 ### Identify Content
@@ -99,6 +88,18 @@ Test Procedure for 3.3.1 Error Identification
     -   the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form), and
     -   the error is described to the user in text, and
     -   the item that is in error is identified in text.
+
+Test Procedure for 3.3.2 Labels or Instructions
+-----------------------------------------------
+### Identify Content
+1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
+2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
+
+### Test Instructions
+1.  Check that each form input has label(s) or instructions.
+
+### Test Results
+If any of the above checks fail, then SC 3.3.2 and Baseline Requirement 10 fail.
 
 ### Test Results
 If any of the above checks fail, then SC 3.3.1 and Baseline Requirement 10 fail.
