@@ -39,15 +39,15 @@ Identify any instances of content time limits (excluding exceptions described ab
 
 ### Test Instructions
 For each instance of an identified time limit for content:
-1.  Check that one of the following is true before time expires:
-    1.  The user has the ability to turn off the time limit.
-    2.  The user has the ability to adjust the time limit, with at least ten times the length of the default setting.
-    3.  The user is warned about the time limit AND:
+1.  Check that at least one of the following is true before time expires:
+    -  The user has the ability to turn off the time limit.
+    -  The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.
+    -  The user is warned before time expires AND:
         -   Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), AND
         -   Allowed to extend the time limit at least ten times.
 
 ### Test Results
-If any of the above checks fail, then SC 2.2.1 and Baseline Requirement 21 fail.
+If the above check fails, then SC 2.2.1 and Baseline Requirement 21 fail.
 
 Test Procedure for SC 2.2.2 Pause, Stop, Hide
 ---------------------------------------------
@@ -63,7 +63,7 @@ Any moving, blinking, or scrolling information that meets ALL of the following:
 1.  Check that there is a mechanism for the user to pause, stop, or hide it
 
 #### Test Results
-If any of the above checks fails, then SC 2.2.2, Conformance Requirement 5, and Baseline Requirement 21 fail.
+If the above check fails, then SC 2.2.2, Conformance Requirement 5, and Baseline Requirement 21 fail.
 
 ### Auto-updating information
 #### Identify Content
@@ -76,7 +76,7 @@ Any auto-updating information that meets ALL of the following:
 1.  Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update
 
 #### Test Results
-If any of the above checks fails, then SC 2.2.2, Conformance Requirement 5, and Baseline Requirement 21 fail.
+If the above check fails, then SC 2.2.2, Conformance Requirement 5, and Baseline Requirement 21 fail.
 
 Test Procedure for SC 1.4.2 Audio Control
 -----------------------------------------
