@@ -28,7 +28,7 @@ Identify changes in presented content (both user driven and automatic). Examples
    * Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions.
 1. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate.
     * Name: the name is accurate after a change. 
-        * Apply the [accessible name and description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) computation, if applicable. 
+        * Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable. 
     * Role: the role accurately describes the purpose of the element after a change, if applicable.
         * Consider ARIA role, element type, and other descriptive text.
     * State: the state of the element is accurate after a change, if applicable 
@@ -40,7 +40,7 @@ Identify changes in presented content (both user driven and automatic). Examples
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
--   Changing content might also include changes in color to convey information. If so, this test should check that the name is updated to reflect the meaning of the changed color. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 8. Sensory Characteristics](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/08Sensory.md))
+-   Changing content might also include changes in color to convey information. If so, this test should check that the name is updated to reflect the meaning of the changed color. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 7. Sensory Characteristics](07Sensory.md).
 -   The number of event notifications can be very large; if the number of changes to an element is unknown or very large, a sampling approach may be necessary.
 
 ----------------------------------------
