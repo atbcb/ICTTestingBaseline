@@ -25,6 +25,10 @@ All links and buttons, including those that are scripted elements and assigned a
 ### Test Results
 -   If any of the above checks fail, then SC 2.4.4, SC 4.1.2, and Baseline 14 fails
 
+Test Procedure for SC 4.1.2 Name, Role, Value
+---------------------------------------------
+Refer to [Baseline 5. Changing Content](5Changing.md).
+
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
 -   In cases where the link/button takes one to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link/button (which is to take you to the document or web application).
