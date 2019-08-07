@@ -11,7 +11,7 @@ The &lt;title&gt; element defines the title of the document, and is required i
 Limitations, Assumptions, Exceptions
 ------------------------------------
 -   Every Web page should have a descriptive title.
--   The &lt;title&gt; element must be located as a child of the &lt;head&gt; element and is not accessibility supported in other locations (see [Conformance Requirement 4. Accessibility Support](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-accessibility-support-head)). The &lt;title&gt; element in this test is different from the title attribute used to add extra information about an element.
+-   The &lt;title&gt; element in this test is different from the title attribute used to add tooltip/extra information about an element.
 -   Some Web and non-Web applications and may include content that changes dynamically. In such cases, the page title should be sufficient to describe the purpose of the application.
 
 Test Procedure for SC 2.4.2 Page Titled
