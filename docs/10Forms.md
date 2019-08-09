@@ -22,7 +22,6 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   Read-only (e.g. pre-filled) form fields receive keyboard focus and are selectable but cannot be modified. These must be labeled and programmatically determinable, and are tested under SC 1.3.1.
 -   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not included in this test.
--   Both SC 1.3.1 and SC 4.1.2 require form elements to have a programmatically determinable label. Test Instructions to evaluate the form element's accessible name are provided only for SC 1.3.1 test procedure, but the test result would be for both SC 1.3.1 and SC 4.1.2.
 -   Clicking an option or selecting an option in a form should select the option, but should not initiate a change in context.
 -   [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined in [Understanding SC 3.2.1: On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) as: major changes in the content of \[a page\] that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
     1.  User agent
@@ -32,7 +31,7 @@ Limitations, Assumptions, or Exceptions
     - Note: A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
     - Example: Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.
 
-Test Procedure for 1.3.1 Info and Relationships
+Test Procedure for 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value
 -----------------------------------------------
 ### Identify Content
 1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.
