@@ -6,7 +6,7 @@ Accessibility Requirements
 
 Test Method Rationale
 ---------------------
-This baseline test requires visual inspection of text to evaluate content and functionality.
+This baseline test requires an evaluation of visual content and functionality after text has been resized.
 
 Limitations, Assumptions, or Exceptions
 ---------------------------------------
