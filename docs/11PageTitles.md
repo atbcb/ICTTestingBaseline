@@ -10,9 +10,10 @@ The &lt;title&gt; element defines the title of the document, and is required i
 
 Limitations, Assumptions, Exceptions
 ------------------------------------
--   Every Web page should have a descriptive title.
+-   Every Web page must have a descriptive title. This test always applies.
 -   The &lt;title&gt; element in this test is different from the title attribute used to add tooltip/extra information about an element.
 -   Some Web and non-Web applications and may include content that changes dynamically. In such cases, the page title should be sufficient to describe the purpose of the application.
+-   [HTML5 specification](https://www.w3.org/TR/html50/document-metadata.html#the-title-element) stipulates that an HTML document should have only one &lt;title&gt; element, AND the &lt;title&gt; element should be a child of the &lt;head&gt; element. However, in practice all modern browsers correct syntax errors related to location and nesting of the &lt;title&gt; element. Therefore, user agents that rely on the Document Object Model (DOM) will encounter the &lt;title&gt; in the correct location and will typically present only the first &lt;title&gt; element (if there is more than one) to the user.
 
 Test Procedure for SC 2.4.2 Page Titled
 ---------------------------------------
@@ -20,19 +21,13 @@ Test Procedure for SC 2.4.2 Page Titled
 Page &lt;title&gt; element for the page, if any.
 
 ### Test Instructions
-1.  Check that the &lt;title&gt; element is located as a child of the &lt;head&gt; element
-2.  If a page &lt;title&gt; element was found:
-    1.  Check that the Page Title identifies the contents or purpose of the Web page
-        1.  For pages within a Web site, check that the Page Title can be used to distinguish among the pages.
-        2.  For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.
-    2.  Check that there is only one page &lt;title&gt; element.
+1.  Check that a page &lt;title&gt; element is defined for the page.
+1.  Check that the Page Title identifies the contents or purpose of the Web page.
+    1.  For pages within a Web site, check that the Page Title can be used to distinguish among the pages.
+    2.  For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.
 
 ### Test Results
 If any of the above checks fail, then SC 2.4.2 and Baseline Requirement 11 fail.
-
-Advisory: Tips for streamlined test processes
----------------------------------------------
--   HTML5 specification stipulates that “there must be no more than one &lt;title&gt; element per document.”
 
 ### WCAG 2.0 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
