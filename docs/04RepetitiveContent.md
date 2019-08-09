@@ -26,11 +26,10 @@ Blocks of content that are repeated on multiple pages, including navigation link
 ### Test Instructions
 1.  Use standard keyboard commands to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.
 2.  Check that a keyboard-accessible method is provided to bypass repetitive content.
-3.  Use the keyboard to verify the functionality of the bypass function.
-    -   Activate the bypass method.
-    -   Check that the method works as intended. For example:
-        -   The block of repeated content is hidden, closed or skipped.
-        -   If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
+3.  Use the keyboard to activate the bypass method and verify the functionality of the bypass function.
+4.  Check that the method works as intended. For example:
+    -   The block of repeated content is hidden, closed or skipped.
+    -   If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
 
 ### Test Results
 If any of the above checks fail, then SC 2.4.1 and Baseline Requirement 4 fail.
@@ -68,7 +67,7 @@ Advisory: Tips for streamlined test processes
 ### WCAG 2.0 Techniques
 -   This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques, which require additional assistive tools to function as bypass methods, were not included:
     -   [H69: Providing heading elements at the beginning of each section of content](http://www.w3.org/TR/WCAG20-TECHS/H69.html)
-    -   [ARIA11: Using ARIA landmarks to identify regions of a page](http://www.w3.org/TR/WCAG20-TECHS/H69.html)
+    -   [ARIA11: Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11.html)
 -   The following sufficient techniques and/or common failures were also considered when developing this test procedure for this baseline requirement:
     -   [G1: Adding a link at the top of each page that goes directly to the main content area](http://www.w3.org/TR/WCAG20-TECHS/G1.html)
     -   [G123: Adding a link at the beginning of a block of repeated content to go to the end of the block](http://www.w3.org/TR/WCAG20-TECHS/G123.html)
