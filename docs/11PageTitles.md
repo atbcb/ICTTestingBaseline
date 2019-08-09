@@ -18,9 +18,10 @@ Limitations, Assumptions, Exceptions
 Test Procedure for SC 2.4.2 Page Titled
 ---------------------------------------
 ### Identify Content
-Page &lt;title&gt; element for the page, if any.
+Page &lt;title&gt; element for the page.
 
 ### Test Instructions
+
 1.  Check that a page &lt;title&gt; element is defined for the page.
 1.  Check that the Page Title identifies the contents or purpose of the Web page.
     1.  For pages within a Web site, check that the Page Title can be used to distinguish among the pages.

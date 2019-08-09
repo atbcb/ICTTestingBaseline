@@ -2,7 +2,7 @@
 
 Accessibility Requirements
 --------------------------
--   [WCAG SC 2.3.1 Three Flashes or Below Threshold](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) - \[Pages\] do not contain anything that flashes more than three times in any one second period, or the flash is below the general [flash and red flash thresholds](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
+-   [WCAG SC 2.3.1 Three Flashes or Below Threshold](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) - \[Pages\] do not contain anything that flashes more than three times in any one second period, or the flash is below the [general flash and red flash thresholds](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
 -   [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
 Test Method Rationale
@@ -19,7 +19,7 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   It is possible that users could view content at a resolution or from a distance much different from the intended resolution and viewing distance.
 -   For the purposes of this baseline, the terms flicker and blink may be used synonymously with the term flash.
--   Blinking elements that conform to this requirement are still required to conform to SC 2.2.2 Pause Stop Hide, if the blinking lasts longer than 5 seconds ([Baseline 29. Pause, Stop, Hide, Control](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/29Control.md)).
+-   Blinking elements that conform to this requirement are still required to conform to SC 2.2.2 Pause Stop Hide, if the blinking lasts longer than 5 seconds ([Baseline 21. Timed Events](21TimedEvents.md)).
 -   Note from SC 2.3.1:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
@@ -37,7 +37,7 @@ Visually identify content that [flashes](https://www.w3.org/TR/UNDERSTANDING-WC
         2.  The darkest image’s relative luminance is below 0.80 and the maximum change in relative luminance between the darkest image and the brightest image is less than 10%.
 
 ### Test Results
-If any of the above checks fail, then SC 2.3.1, Conformance Requirement 5, and Baseline Requirement 9 fail.
+If all of the above checks fail, then SC 2.3.1, Conformance Requirement 5, and Baseline Requirement 9 fail.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

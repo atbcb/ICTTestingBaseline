@@ -25,7 +25,6 @@ Limitations, Assumptions, or Exceptions
     -   Note 5: The conforming alternative version does not need to reside within the scope of conformance, or even on the same Web site, as long as it is as freely available as the non-conforming version.
     -   Note 6: Alternate versions should not be confused with supplementary content, which support the original page and enhance comprehension.
     -   Note 7: Setting user preferences within the content to produce a conforming version is an acceptable mechanism for reaching another version as long as the method used to set the preferences is accessibility supported.
--   When a conforming alternate version is provided, it is not necessary to test other versions of that content.
 -   It is not a WCAG requirement to provide a conforming alternate version. This test only checks that a conforming alternate version is present. If there is not a conforming alternate version, the result for this baseline test is Does Not Apply. (It would not be a failure.)
 -   To meet Conformance Requirement 1 for Level AA conformance, the Web page satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided.
 
@@ -48,7 +47,7 @@ If any of the above tests fail, a Conforming Alternate Version does not exist an
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
--   It is not necessary to test non-conforming content when a conforming alternate version of that content is provided.
+-   When a conforming alternate version is provided, non-conforming versions of that content are tested only for [Conformance Requirement 5](25Noninterference.html). It is not necessary to test the non-conforming versions of that content for other baseline tests.
 -   The presence of a conforming alternate version can determine whether other versions of the content need to be tested. To save on time and effort, it is advised that this be one of the first tests performed.
 
 ### WCAG 2.0 Techniques

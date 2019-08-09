@@ -17,7 +17,7 @@ Limitations, Assumptions or Exceptions
 Test Procedure for SC 3.1.1 Language of Page
 --------------------------------------------
 ### Identify Content
-Pages with text.
+Pages with text (including text alternatives).
 
 ### Test Instructions
 1.  Identify the default human language of the page by reviewing the page content. The default human language of the page is the language in which most of the content is presented.

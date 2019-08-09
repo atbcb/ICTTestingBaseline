@@ -28,7 +28,7 @@ All links and buttons, including those that are scripted elements and assigned a
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
 -   In cases where the link/button takes one to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link/button (which is to take you to the document or web application).
--   Test pages for different link techniques for Web include [ARIA link example](https://www.w3.org/TR/2016/WD-wai-aria-practices-1.1-20161214/examples/link/link.html) and [Link accessible name](http://not.webaccessibility.com/link-accessible-name.html).
+
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:

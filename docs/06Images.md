@@ -16,9 +16,9 @@ Limitations, Assumptions, Exceptions
 -   Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
 -   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 -   Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
--   The definition of image of text contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
+-   The [definition of image of text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
 -   Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image.
--   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm); therefore, this Baseline does not accept the technique.
+-   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
 
 Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 -----------------------------------------------------------------
@@ -27,13 +27,14 @@ Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 2.  Review the context of the image to determine the purpose of the image:
     -   **Meaningful:** conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.)
     -   **Decorative:** conveys no meaningful information or is described in text content
-    -   **Text:** image of text, except where the text is part of a logo
     -   **CAPTCHA:** designed to determine if content is being accessed by a person rather than a computer
+    -   **Text:** image of text, except where the text is part of a logo
+    
 
 ### Meaningful Images
 #### Test Instructions
 If the image is meaningful:
-1.  Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)
+1.  Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
     1.  Descriptions of the image that are provided by page content must be programmatically associated.
 2.  Check that the role is NOT "presentation".
 3.  Check that aria-hidden is NOT set to true.
@@ -46,15 +47,13 @@ If the image is meaningful:
 If the image is decorative, check that at least one of the following is true:
 1.  The ARIA role is "presentation".
 2.  The aria-hidden state is set to "true".
-3.  The combination of accessible name and accessible description is empty (e.g. "").
-    -   Numerous attributes contribute to the computation of the accessible name and accessible description.
-    -   [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)
-4.  The image is inserted via CSS (e.g., using a background image)
+3.  The combination of accessible name and accessible description is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
+4.  The image is inserted via CSS (e.g., using a background image).
 
 #### Test Results
 -   If all of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
 
-### Captcha Images
+### CAPTCHA Images
 #### Test Instructions
 If the Image is a Captcha image:
 1.  Check that the combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA.
