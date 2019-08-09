@@ -6,17 +6,18 @@ Accessibility Requirements
 
 Test Method Rationale
 ---------------------
-If the content cannot be parsed into a data structure, then different user agents, including assistive technologies, may present it differently or be completely unable to parse it. In markup languages, errors in element and attribute syntax and failure to provide properly nested start/end tags lead to errors that prevent user agents from parsing the content reliably. Therefore, the Success Criterion requires that the content can be parsed using only the rules of the formal grammar.
+This baseline test requires that the content has no errors in element and attribute syntax and provides properly nested start/end tags to avoid errors that prevent user agents from parsing the content reliably. If the content cannot be parsed into a data structure, then different user agents, including assistive technologies, may present it differently or be completely unable to parse it. 
 
 Limitations, Assumptions, or Exceptions
 ---------------------------------------
--   **Note:** Markup is not always available to assistive technologies or to user selectable user agents such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
--   As noted in the requirement language, some specifications may allow duplicate IDs. For example some markup languages may allow duplicate IDs, provided that IDs are unique for peer elements under the same parent element.
+-   Note: Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.
+-   Markup is not always available to assistive technologies or to user selectable user agents such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
+-   As stated in the requirement language, some specifications may allow duplicate IDs. For example some markup languages may allow duplicate IDs, provided that IDs are unique for peer elements under the same parent element.
 
 Test Procedure for SC 4.1.1 Parsing
 -----------------------------------
 ### Identify Content
-The entire source code for a web page
+All web pages
 
 ### Test Instructions
 1.  Check that (except where the specifications allow these features)
@@ -30,7 +31,7 @@ If any of the above checks fail, then SC 4.1.1 and Baseline Requirement 24 fail.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
-While validators can be great tools for catching errors, they may not catch all cases where content fails to fully conform to a specification.
+While validators can be great tools for catching errors, they may not specify which are only parsing errors or catch all cases where content fails to fully conform to a specification.
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
