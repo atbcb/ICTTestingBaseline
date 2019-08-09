@@ -25,7 +25,7 @@ Content that relies on color to convey meaning, indicate an action, prompt a res
     2.  The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning
 
 ### Test Results
-If BOTH of the above checks fail, then SC 1.4.1 Baseline Requirement 7 fail.
+If BOTH of the above checks fail, then SC 1.4.1 and Baseline Requirement 7 fail.
 
 Test Procedure for SC 1.3.3 Sensory Characteristics
 ---------------------------------------------------
