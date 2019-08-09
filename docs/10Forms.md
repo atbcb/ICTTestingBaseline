@@ -89,6 +89,9 @@ Test Procedure for 3.3.1 Error Identification
     -   the error is described to the user in text, and
     -   the item that is in error is identified in text.
 
+### Test Results
+If any of the above checks fail, then SC 3.3.1 and Baseline Requirement 10 fail.
+
 Test Procedure for 3.3.2 Labels or Instructions
 -----------------------------------------------
 ### Identify Content
@@ -100,9 +103,6 @@ Test Procedure for 3.3.2 Labels or Instructions
 
 ### Test Results
 If any of the above checks fail, then SC 3.3.2 and Baseline Requirement 10 fail.
-
-### Test Results
-If any of the above checks fail, then SC 3.3.1 and Baseline Requirement 10 fail.
 
 Test Procedure for 3.3.3 Error Suggestion
 -----------------------------------------
