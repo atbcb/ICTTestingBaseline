@@ -12,9 +12,9 @@ This version is a DRAFT of version 3.0 and not yet approved for distribution by 
 
 For more information on the baseline tests and links to published streamlined test processes, training and certification programs, visit: <http://www.dhs.gov/compliance-test-processes>
 
-For questions or to provide feedback, contact the DHS Accessibility Helpdesk at:
+For questions or to provide feedback, contact the DHS Accessibility Helpdesk at: 
 
-<accessibility@dhs.gov>; [http://accessibility.dhs.gov](http://accessibility.dhs.gov/)
+<accessibility@hq.dhs.gov> 
 
 202-447-0440 (Voice)
 
