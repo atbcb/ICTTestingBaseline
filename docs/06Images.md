@@ -50,7 +50,7 @@ If the image is decorative, check that at least one of the following is true:
 2.  The ARIA role is "none".
 3.  The aria-hidden state/value is set to "true".
 4.  The combination of accessible name and accessible description is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
-4.  The image is inserted via CSS (e.g., using a background image).
+5.  The image is inserted via CSS (e.g., using a background image).
 
 #### Test Results
 -   If all of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
