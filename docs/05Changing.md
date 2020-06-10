@@ -14,6 +14,7 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   The state of form elements (checked, unchecked, etc.) are included in this Baseline.
 -   User initiated changes and automatic updates are included in this test.
+- If an ARIA live region is used to provide programmatic notification of changes in content, a value of `"off"` for an `aria-live` attribute is ***NOT*** sufficient to provide programmatic notification (whether implicitly or explicitly defined).
 
 Test Procedure for SC 4.1.2 Name, Role, Value
 ---------------------------------------------
@@ -24,14 +25,14 @@ Identify changes in presented content (both user driven and automatic). Examples
 
 ### Test Instructions
 
-1. Check that the page provides a notification of the change in content programmatically. 
-   * Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions.
+1. Check that the page provides a notification of the change in content programmatically.
+   * Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions (with `aria-live` for the live region having a valid value other than `"off"`).
 1. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate.
-    * Name: the name is accurate after a change. 
-        * Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable. 
+    * Name: the name is accurate after a change.
+        * Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable.
     * Role: the role accurately describes the purpose of the element after a change, if applicable.
         * Consider ARIA role, element type, and other descriptive text.
-    * State: the state of the element is accurate after a change, if applicable 
+    * State: the state of the element is accurate after a change, if applicable
         * Evaluate ARIA and element-specific attributes (e.g., `<option selected=”true”>`)
     * Value: the value is updated after a change, if applicable.
 
