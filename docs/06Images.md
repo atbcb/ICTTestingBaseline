@@ -29,15 +29,16 @@ Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
     -   **Decorative:** conveys no meaningful information or is described in text content
     -   **CAPTCHA:** designed to determine if content is being accessed by a person rather than a computer
     -   **Text:** image of text, except where the text is part of a logo
-    
+
 
 ### Meaningful Images
 #### Test Instructions
 If the image is meaningful:
 1.  Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
     1.  Descriptions of the image that are provided by page content must be programmatically associated.
-2.  Check that the role is NOT "presentation".
-3.  Check that aria-hidden is NOT set to true.
+2.  Check that the ARIA role is NOT "presentation".
+3.  Check that the ARIA role is NOT "none".
+4.  Check that aria-hidden is NOT set to "true".
 
 #### Test Results
 -   If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
@@ -46,8 +47,9 @@ If the image is meaningful:
 #### Test Instructions
 If the image is decorative, check that at least one of the following is true:
 1.  The ARIA role is "presentation".
-2.  The aria-hidden state is set to "true".
-3.  The combination of accessible name and accessible description is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
+2.  The ARIA role is "none".
+3.  The aria-hidden state/value is set to "true".
+4.  The combination of accessible name and accessible description is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
 4.  The image is inserted via CSS (e.g., using a background image).
 
 #### Test Results
