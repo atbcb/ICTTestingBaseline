@@ -22,6 +22,7 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   Read-only (e.g. pre-filled) form fields receive keyboard focus and are selectable but cannot be modified. These must be labeled and programmatically determinable, and are tested under SC 1.3.1.
 -   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not included in this test.
+-   The combination of an element's accessible name and accessible description is its text alternative.
 -   Clicking an option or selecting an option in a form should select the option, but should not initiate a change in context.
 -   [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined in [Understanding SC 3.2.1: On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) as: major changes in the content of \[a page\] that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
     1.  User agent
@@ -38,6 +39,7 @@ Test Procedure for 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value
 2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
 ### Test Instructions
+1.  Check that the combination of the accessible name and accessible description is not empty.
 1.  Check that the combination of the accessible name, accessible description, and other programmatic associations (e.g., table column and/or row associations) describes each input field and includes all relevant instructions and cues (textual and graphical). Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description.
 
 ### Test Results
@@ -137,7 +139,7 @@ If any of the above checks fail, then SC 3.3.4 and Baseline Requirement 10 fail.
 
 Test Procedure for 4.1.2 Name, Role, Value
 ------------------------------------------------------------------
-Refer to [Baseline 5. Changing Content](05Changing.md)
+Form elements that change are tested in [Baseline 5. Changing Content](05Changing.md)
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
