@@ -19,7 +19,7 @@ Limitations, Assumptions, Exceptions
 -   The [definition of image of text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
 -   Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image.
 -   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
--   The text alternative of an element consists of both the accessible name and accessible description. 
+-   The combination of the accessible name and accessible description of an element is its text alternative. 
 
 Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 -----------------------------------------------------------------
