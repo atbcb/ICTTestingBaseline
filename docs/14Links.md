@@ -27,6 +27,9 @@ All links and buttons, including those that are scripted elements and assigned a
 
 Test Procedure for SC 4.1.2 Name, Role, Value
 ---------------------------------------------
+### Identify Content
+All buttons, including those that are scripted elements and assigned a role of a role of a button, that have a change in visual label.
+### Test Instructions
 Refer to [Baseline 5. Changing Content](5Changing.md).
 
 Advisory: Tips for streamlined test processes
