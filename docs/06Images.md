@@ -19,6 +19,7 @@ Limitations, Assumptions, Exceptions
 -   The [definition of image of text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
 -   Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image.
 -   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
+-   The combination of an element's accessible name and accessible description is its text alternative. 
 
 Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 -----------------------------------------------------------------
@@ -34,6 +35,7 @@ Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 ### Meaningful Images
 #### Test Instructions
 If the image is meaningful:
+1.  Check that the combination of the accessible name and accessible description is not empty.
 1.  Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
     1.  Descriptions of the image that are provided by page content must be programmatically associated.
 2.  Check that the role is NOT "presentation".
@@ -56,6 +58,7 @@ If the image is decorative, check that at least one of the following is true:
 ### CAPTCHA Images
 #### Test Instructions
 If the Image is a Captcha image:
+1.  Check that the combination of the accessible name and accessible description is not empty.
 1.  Check that the combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA.
 2.  Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing.
 

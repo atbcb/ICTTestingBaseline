@@ -10,6 +10,7 @@ While users with vision can recognize the structure presented by frames and ifra
 Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   In HTML5 the &lt;frame&gt; element is marked as obsolete. The &lt;iframe&gt; element remains part of the HTML5 specification. While the &lt;frame&gt; element has been deprecated in HTML5, testers may still encounter web pages and/or web applications with code that, while outdated, can and should still be accessible.
+-   The combination of accessible name and accessible description of an iframe is its text alternative.
 
 Test Procedure for SC 4.1.2 Name, Role, Value
 ---------------------------------------------
@@ -28,6 +29,7 @@ If any of the above checks fail, then SC 4.1.2 and Baseline Requirement 19 fail.
 iFrames
 
 #### Test Instructions
+1.  Check that the combination of the accessible name and accessible description is not empty.
 1.  Check if the combination of [accessible name and description](https://www.w3.org/TR/html-aam-1.0/#iframe-element) for each &lt;iframe&gt; describes its content
 
 #### Test Results

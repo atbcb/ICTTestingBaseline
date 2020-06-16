@@ -12,18 +12,31 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 Limitations, Assumptions, Exceptions
 ------------------------------------
 -   [From Understanding SC 2.4.4](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-refs.html): There may be situations where the purpose of the link is supposed to be unknown or obscured. For instance, a game may have links identified only as door \#1, door \#2, and door \#3. This link text would be sufficient because the purpose of the links is to create suspense for all users.
--   Buttons are included in this test. Sufficient Techniques for SC 2.4.4 include "Providing button labels that describe the purpose of a button".
+-   The combination of an element's accessible name and accessible description is its text alternative.
 
 Test Procedure for SC 2.4.4 Link Purpose (In Context)
 -----------------------------------------------------
 ### Identify Content
-All links and buttons, including those that are scripted elements and assigned a role of a link and role of a button.
+All links including those that are scripted elements and assigned a role of a link.
 
 ### Test Instructions
-1.  Check that the purpose of each link/button can be determined from any combination of the link text, [accessible name, accessible description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), and/or preceding page context (same paragraph, list, or table cell as the link or in a table header cell that is associated with the table cell that contains the link).
+1.  Check that the combination of accessible name and accessible description is not empty.
+1.  Check that the purpose of each link can be determined from any combination of the link text, [accessible name, accessible description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), and/or preceding page context (same paragraph, list, or table cell as the link or in a table header cell that is associated with the table cell that contains the link).
 
 ### Test Results
--   If any of the above checks fail, then SC 2.4.4, SC 4.1.2, and Baseline 14 fails
+-   If any of the above checks fail, then SC 2.4.4 and Baseline 14 fails
+
+Test Procedure for SC 4.1.2 Name, Role, Value
+-----------------------------------------------------
+### Identify Content
+All buttons, including those that are scripted elements and assigned a role of a button.
+
+### Test Instructions
+1.  Check that the combination of accessible name and accessible description is not empty.
+1.  Check that the [accessible name, accessible description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) describes the purpose of each button.
+
+### Test Results
+-   If any of the above checks fail, then SC 4.1.2, and Baseline 14 fails
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
