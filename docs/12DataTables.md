@@ -31,7 +31,7 @@ Note: Linearization of table content is the presentation of a table’s two-dime
     -   ARIA role="grid"
     -   **NOTE**: according to HTML5 specifications, the &lt;table&gt; element and associated elements and attributes may not be used in combination with ARIA role="table" and associated roles and attributes. If a table combines these techniques, it fails this test. ARIA role="grid", on the other hand, **may** be used on a &lt;table&gt; element.
 > For example, if an author applies the grid role to an HTML table element, the author does not need to apply the row and gridcell roles to the descendant HTML &lt;tr&gt; and &lt;td&gt; elements because the user agent will automatically make the appropriate translations. When the author is reusing a native host language table element and needs a gridcell element to span multiple rows or columns, the author SHOULD apply the appropriate host language attributes instead of WAI-ARIA aria-rowspan or aria-colspan properties (from [Accessible Rich Internet Applications (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria-1.1/#grid)).
-1.  Check that an ARIA role="presentation" is NOT assigned to a data &lt;table&gt; element.
+1.  Check that the data &lt;table&gt; element DOES NOT have role="presentation" or role="none".
 2.  Table data cell: Check that each data cell uses only one of the following methods to identify it as a data cell within a table row depending on the technique identified in the first step:
     -   For HTML &lt;table&gt;: &lt;td&gt; for the cell, which must be within a &lt;tr&gt; row.
     -   For ARIA role="table": ARIA role="cell", which must be within an ARIA role="row".
@@ -49,7 +49,9 @@ Note: Linearization of table content is the presentation of a table’s two-dime
 #### Layout Tables
 1.  Check that tables used purely for layout purposes:
     1.  Do NOT designate the layout as a table using ARIA role="table" and associated ARIA table attributes.
-    2.  If the table does not have role="presentation", do NOT include table structure and relationship elements and/or associated attributes (i.e., &lt;th&gt;, summary= (HTML4), &lt;caption&gt;, scope=, and/or headers=).
+    2.  Do NOT include table structure and relationship elements and/or associated attributes (e.g, &lt;th&gt;, summary, &lt;caption&gt;, scope, and/or headers) UNLESS at least one of the following is true:
+        * the table has role="presentation"
+        * the table has role="none"
     3.  Do NOT identify column or row headers using role="columnheader" or role="rowheader" in an ARIA grid (where the data grid is identified using role="grid").
 
 ### Test Results
