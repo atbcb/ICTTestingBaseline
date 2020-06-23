@@ -30,17 +30,6 @@ Meaningful background images rendered by CSS
 ### Test Results
 If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 18 fail.
 
-Test Procedure for SC 1.3.1 Info Relationships
-----------------------------------------------
-### Identify Content
-Meaningful page content inserted by CSS using ::before or ::after
-
-### Test Instructions
-1.  For meaningful content provided via CSS, check that equivalent information is available without the CSS content.
-
-### Test Results
-If any of the above checks fail, then SC 1.3.1 and Baseline Requirement 18 fail.
-
 Test Procedure for SC 1.3.2 Meaningful Sequence
 -----------------------------------------------
 ### Identify Content
@@ -63,7 +52,6 @@ Advisory: Tips for streamlined test processes
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G57: Ordering the content in a meaningful sequence](https://www.w3.org/TR/WCAG20-TECHS/G57.html)
 -   [F3: Using CSS to include images that convey important information](https://www.w3.org/TR/WCAG20-TECHS/F3.html)
--   [F87:Inserting non-decorative content by using :before and :after pseudo-elements and the 'content' property in CSS](https://www.w3.org/TR/WCAG20-TECHS/F87.html)
 -   [F1: Changing the meaning of content by positioning information with CSS](https://www.w3.org/TR/WCAG20-TECHS/F1.html)
 
 ----------------------------------------
