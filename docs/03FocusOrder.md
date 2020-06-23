@@ -13,6 +13,7 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   Focus may be moved to a control either via the keyboard (e.g. tabbing to a control) or the mouse (e.g. clicking on a text field). Moving the mouse over a control does not move the focus unless scripting implements this behavior.
 -   While it may be a common best practice, Focus Order is not required to move left to right, top to bottom.
+-   Focus order includes forward and backward navigation.
 -   Without exception, focus must shift to modal dialog boxes and remain within the dialog box until the box is closed by the user.
 -   Assistive technology will process aria live regions without a focus shift. Live regions that do not contain interactive content do not require a focus shift and would not be included in this test.
 -   For some types of controls, clicking a control may also activate the control (e.g. button), which may, in turn, initiate a change in context. Controls that are clearly labeled and intended to initiate a change in context do not fail under this test.
@@ -33,7 +34,7 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
 ### Test Instructions
 1.  Use the keyboard to navigate through interface components.
     1.  Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
-        1.  Check that focus is moved to the revealed content. (It is acceptable to TAB once or use an arrow key to move the focus forward into the revealed content.)
+        1.  Check that the revealed focusable content is included in the focus order. 
         2.  Advance the focus through the revealed content.
     2.  Use the keyboard to close/hide the revealed content.
         1.  Check that focus is returned to the trigger control. (It is acceptable to \[Shift+ TAB\] once or use an arrow key to move the focus backward to the trigger control.
