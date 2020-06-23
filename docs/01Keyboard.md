@@ -39,7 +39,7 @@ If any of the above checks fail, then SC 2.1.1 and Baseline Requirement 1 fail.
 Test Procedure for SC 2.1.2 No Keyboard Trap
 --------------------------------------------
 ### Identify Content
-Visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that can be navigated to by keyboard.
+Components that receive keyboard focus
 
 ### Test Instructions
 1.  Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.
@@ -51,9 +51,10 @@ If the above check fails, then SC 2.1.2, Conformance Requirement 5, and Baseline
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
+-   Keyboard focusable components include links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, and iframes. Focusable components may also be "hidden", positioned off-screen, and/or have no visible indication of focus.
 -   Keyboard commands include standard and any nonstandard keyboard commands.
 -   Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
--   This test may be combined with tests for focus.
+-   This test may be combined with tests for keyboard focus.
 -   Tips and techniques for finding hidden content may be useful for testers.
 -   It may be useful to provide a Windows keyboard reference guide to testers.
 -   Content that is found non-conformant with SC 2.1.1 may be marked for further review for a Section 508 exception if “the underlying function requires input that depends on the path of the user's movement and not just the endpoints".
