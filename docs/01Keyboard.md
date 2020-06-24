@@ -39,7 +39,7 @@ If any of the above checks fail, then SC 2.1.1 and Baseline Requirement 1 fail.
 Test Procedure for SC 2.1.2 No Keyboard Trap
 --------------------------------------------
 ### Identify Content
-Components that receive keyboard focus
+Components that receive keyboard focus.
 
 ### Test Instructions
 1.  Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.
