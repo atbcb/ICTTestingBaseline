@@ -30,7 +30,7 @@ iFrames
 
 #### Test Instructions
 1.  Check that the combination of the accessible name and accessible description is not empty.
-1.  Check if the combination of [accessible name and description](https://www.w3.org/TR/html-aam-1.0/#iframe-element) for each &lt;iframe&gt; describes its content
+1.  Check that the non-empty combination of [accessible name and description](https://www.w3.org/TR/html-aam-1.0/#iframe-element) for each &lt;iframe&gt; describes its content
 
 #### Test Results
 If any of the above checks fail, then SC 4.1.2 and Baseline Requirement 19 fail.
