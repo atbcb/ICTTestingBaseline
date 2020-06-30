@@ -21,7 +21,7 @@ All links including those that are scripted elements and assigned a role of a li
 
 ### Test Instructions
 1.  Check that the combination of accessible name and accessible description is not empty.
-1.  Check that the purpose of each link can be determined from any combination of the link text, [accessible name, accessible description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), and/or preceding page context (same paragraph, list, or table cell as the link or in a table header cell that is associated with the table cell that contains the link).
+1.  Check that the purpose of each link can be determined from any combination of the link text, non-empty combination of [accessible name and accessible description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), and/or preceding page context (same paragraph, list, or table cell as the link or in a table header cell that is associated with the table cell that contains the link).
 
 ### Test Results
 -   If any of the above checks fail, then SC 2.4.4 and Baseline 14 fails
@@ -33,7 +33,7 @@ All buttons, including those that are scripted elements and assigned a role of a
 
 ### Test Instructions
 1.  Check that the combination of accessible name and accessible description is not empty.
-1.  Check that the [accessible name, accessible description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) describes the purpose of each button.
+1.  Check that the non-empty combination of [accessible name and accessible description](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation) describes the purpose of each button.
 
 ### Test Results
 -   If any of the above checks fail, then SC 4.1.2, and Baseline 14 fails
