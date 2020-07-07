@@ -42,7 +42,7 @@ Navigational mechanisms that are repeated on multiple pages (which may or may no
 
 ### Test Instructions
 1. Review multiple Web pages. Do not initiate changes to the content.
-2. Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SCSC 3.2.3]
+2. Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]
 
 ### Test Results
 If any of the above checks fail, then Baseline Test 4.2 fails.
