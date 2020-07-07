@@ -34,7 +34,7 @@ All functionality of the content that is available by mouse control must be keyb
     1.  If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)
 
 ### Test Results
-If any of the above checks fail, then SC 2.1.1 and Baseline Requirement 1 fail.
+If any of the above checks fail, then Baseline Requirement 1 fails.
 
 Test Procedure for SC 2.1.2 No Keyboard Trap
 --------------------------------------------
@@ -47,7 +47,7 @@ Components that receive keyboard focus.
     2.  If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.
 
 ### Test Results
-If the above check fails, then SC 2.1.2, Conformance Requirement 5, and Baseline Requirement 1 fail.
+If the above check fails, then Baseline Requirement 1 fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
