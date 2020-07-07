@@ -36,7 +36,7 @@ Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
 #### Test Instructions
 If the image is meaningful:
 1.  Check that the combination of the accessible name and accessible description is not empty.
-1.  Check that the combination of accessible name and accessible description provide an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
+1.  Check that the non-empty combination of accessible name and accessible description provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
     1.  Descriptions of the image that are provided by page content must be programmatically associated.
 2.  Check that the ARIA role is NOT "presentation".
 3.  Check that the ARIA role is NOT "none".
@@ -61,7 +61,7 @@ If the image is decorative, check that at least one of the following is true:
 #### Test Instructions
 If the Image is a Captcha image:
 1.  Check that the combination of the accessible name and accessible description is not empty.
-1.  Check that the combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA.
+1.  Check that the non-empty combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA.
 2.  Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing.
 
 #### Test Results

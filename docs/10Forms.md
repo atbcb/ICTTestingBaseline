@@ -40,7 +40,7 @@ Test Procedure for 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value
 
 ### Test Instructions
 1.  Check that the combination of the accessible name and accessible description is not empty.
-1.  Check that the combination of the accessible name, accessible description, and other programmatic associations (e.g., table column and/or row associations) describes each input field and includes all relevant instructions and cues (textual and graphical). Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description.
+1.  Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each input field and includes all relevant instructions and cues (textual and graphical). Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description.
 
 ### Test Results
 If any of the above checks fail, then SC 1.3.1, SC 4.1.2, and Baseline Requirement 10 fail.
