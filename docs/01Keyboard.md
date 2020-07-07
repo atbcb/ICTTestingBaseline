@@ -21,7 +21,7 @@ Limitations, Assumptions, or Exceptions
 -   Note from SC 2.1.2:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
-Test Procedure for SC 2.1.1 Keyboard
+Test Procedure for Keyboard Access
 ------------------------------------
 ### Identify Content
 All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).
@@ -36,7 +36,7 @@ All functionality of the content that is available by mouse control must be keyb
 ### Test Results
 If any of the above checks fail, then Baseline Requirement 1 fails.
 
-Test Procedure for SC 2.1.2 No Keyboard Trap
+Test Procedure for No Keyboard Trap
 --------------------------------------------
 ### Identify Content
 Components that receive keyboard focus.
