@@ -38,6 +38,7 @@ If the image is meaningful:
 1.  Check that the combination of the accessible name and accessible description is not empty.
 1.  Check that the non-empty combination of accessible name and accessible description provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
     1.  Descriptions of the image that are provided by page content must be programmatically associated.
+    1.  When an image is updated to convey a new meaning, its text alternative must be updated at the same time.
 2.  Check that the ARIA role is NOT "presentation".
 3.  Check that the ARIA role is NOT "none".
 4.  Check that aria-hidden is NOT set to "true".
@@ -96,6 +97,7 @@ Advisory: Tips for streamlined test processes
     -   [F38: Failure of Success Criterion 1.1.1 due to not marking up decorative images in HTML in a way that allows assistive technology to ignore them](https://www.w3.org/TR/WCAG20-TECHS/F38.html)
     -   [F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null (e.g., alt="spacer" or alt="image") for images that should be ignored by assistive technology](https://www.w3.org/TR/WCAG20-TECHS/F39.html)
     -   [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type = "image"](https://www.w3.org/TR/WCAG20-TECHS/F65.html)
+    -   [F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F20.html)
     -   [C9: Using CSS to include decorative images](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
 
 ----------------------------------------
