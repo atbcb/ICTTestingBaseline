@@ -32,7 +32,7 @@ Keyboard accessible interface components (e.g., links, form fields, drop down me
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
 -   The clarity of visible focus is subjective and the minimum level is the browser’s (or OS platform) default display setting for indicating focus. Browsers may also represent visual focus differently in specific situations.
--   This test may be performed simultaneously with [Baseline 1: Keyboard Access](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/01Keyboard).
+-   This test may be performed simultaneously with [Baseline 1: Keyboard Access](01Keyboard.md).
 -   No focus modifications should be enabled in the test environment during testing. Some testing tools will add a visible outline around elements that receive focus. While testing tools may help testers to track focus, any markup provided by a testing tool should not be used as an indicator of visible focus for meeting this requirement.
 -   Given the variability in how browsers may present visual focus in specific situations, test reports should include details about testing environment, including browser and version.
 
