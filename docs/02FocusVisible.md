@@ -15,7 +15,7 @@ Limitations, Assumptions, or Exceptions
 -   Focus-shift to revealed hidden content is not tested here. See [5. Changing Content](05Changing.md)
 -   Loss of visible focus should not occur while manually shifting focus through the page (using the TAB or arrow keys). However, when a function that moves the focus is executed (such as an internal page link or hidden content is revealed), it may be necessary to manually shift focus once with the keyboard before focus becomes visible again. This is not considered a failure.
 
-Test Procedure for Focus Visible
+2.1 Test Procedure for Focus Visible
 -----------------------------------------
 
 ### Identify Content
@@ -27,7 +27,7 @@ Keyboard accessible interface components (e.g., links, form fields, drop down me
 2.  Check that a visible indication of focus is provided when focus is on the interface component.[SC 2.4.7]
 
 ### Test Results
--   If any of the above checks fail, then Baseline Requirement 2 fails.
+-   If any of the above checks fail, then Baseline Test 2.1 fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
