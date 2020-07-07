@@ -1,4 +1,4 @@
-# 1. Keyboard Access
+# 1. Keyboard Accessible
 
 Accessibility Requirements
 --------------------------
@@ -21,7 +21,7 @@ Limitations, Assumptions, or Exceptions
 -   Note from SC 2.1.2:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
-Test Procedure for Keyboard Access
+1.1 Test Procedure for Keyboard Access
 ------------------------------------
 ### Identify Content
 All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).
@@ -34,9 +34,9 @@ All functionality of the content that is available by mouse control must be keyb
     1.  If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)
 
 ### Test Results
-If any of the above checks fail, then Baseline Requirement 1 fails.
+If any of the above checks fail, then Baseline Test 1.1 fails.
 
-Test Procedure for No Keyboard Trap
+1.2 Test Procedure for No Keyboard Trap
 --------------------------------------------
 ### Identify Content
 Components that receive keyboard focus.
@@ -47,7 +47,7 @@ Components that receive keyboard focus.
     2.  If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.
 
 ### Test Results
-If the above check fails, then Baseline Requirement 1 fails.
+If the above check fails, then Baseline Test 1.2 fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
