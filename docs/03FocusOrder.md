@@ -2,7 +2,7 @@
 
 Accessibility Requirements
 --------------------------
--   [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If a \[content\] can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+-   [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If \[content\] can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
 -   [WCAG SC 3.2.1 On Focus](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) -- When any component receives focus, it does not initiate a change of context.
 
 Test Method Rationale
@@ -26,7 +26,7 @@ Limitations, Assumptions, or Exceptions
     -   **Note:** A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
     -   **Examples:** Opening a new window, moving focus to a different component, going to a new page or window (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page/screen are examples of changes of context. (Above definition from [Understanding SC 3.2.1 On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html))
 
-Test Procedure for Focus Order
+3.1 Test Procedure for Focus Order
 ---------------------------------------
 ### Identify Content
 Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.
@@ -34,16 +34,16 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
 ### Test Instructions
 1.  Use the keyboard to navigate through interface components.
     1.  Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
-        1.  Check that the revealed focusable content is included in the focus order. 
+        1.  Check that the revealed focusable content is included in the focus order. [SC 2.4.3]
         2.  Advance the focus through the revealed content.
     2.  Use the keyboard to close/hide the revealed content.
-        1.  Check that focus is returned to the trigger control. (It is acceptable to \[Shift+ TAB\] once or use an arrow key to move the focus backward to the trigger control.
-2.  Check that the focus order preserves the meaning and usability of the page [SC 2.4.3].
+        1.  Check that focus is returned to the trigger control. (It is acceptable to \[Shift+ TAB\] once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]
+2.  Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]
 
 ### Test Results
-If any of the above checks fail, then Baseline Requirement 3.1 fails.
+If any of the above checks fail, then Baseline Test 3.1 fails.
 
-Test Procedure for On Focus
+3.2 Test Procedure for On Focus
 ------------------------------------
 ### Identify Content
 Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).
@@ -57,7 +57,7 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
         -   Focus is moved to another component
 
 ### Test Results
-If any of the above checks fail, then Baseline Requirement 3.2 fails.
+If any of the above checks fail, then Baseline Test 3.2 fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
