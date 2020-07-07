@@ -26,7 +26,7 @@ Limitations, Assumptions, or Exceptions
     -   **Note:** A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
     -   **Examples:** Opening a new window, moving focus to a different component, going to a new page or window (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page/screen are examples of changes of context. (Above definition from [Understanding SC 3.2.1 On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html))
 
-Test Procedure for SC 2.4.3 Focus Order
+Test Procedure for Focus Order
 ---------------------------------------
 ### Identify Content
 Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.
@@ -38,25 +38,26 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
         2.  Advance the focus through the revealed content.
     2.  Use the keyboard to close/hide the revealed content.
         1.  Check that focus is returned to the trigger control. (It is acceptable to \[Shift+ TAB\] once or use an arrow key to move the focus backward to the trigger control.
-2.  Check that the focus order preserves the meaning and usability of the page.
+2.  Check that the focus order preserves the meaning and usability of the page [SC 2.4.3].
 
 ### Test Results
-If any of the above checks fail, then SC 2.4.3 and Baseline Requirement 3 fail.
+If any of the above checks fail, then Baseline Requirement 3.1 fails.
 
-Test Procedure for SC 3.2.1 On Focus
+Test Procedure for On Focus
 ------------------------------------
 ### Identify Content
 Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).
 
 ### Test Instructions
 1.  Use the keyboard to move focus to and navigate through each interactive interface component (including form drop-down lists and form fields).
-2.  Check that when an interface component receives focus, it does not initiate an unexpected change of context. Examples of a change of context include:
-    -   Forms submitted automatically when a component receives focus
-    -   New windows launched when a component receives focus
-    -   Focus is moved to another component
+2.  Check that when an interface component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1] 
+    1. Examples of a change of context include:
+        -   Forms submitted automatically when a component receives focus
+        -   New windows launched when a component receives focus
+        -   Focus is moved to another component
 
 ### Test Results
-If any of the above checks fail, then SC 3.2.1 and Baseline Requirement 3 fail.
+If any of the above checks fail, then Baseline Requirement 3.2 fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
