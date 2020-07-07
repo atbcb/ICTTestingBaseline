@@ -24,7 +24,7 @@ Keyboard accessible interface components (e.g., links, form fields, drop down me
 
 ### Tests Instructions
 1.  Use the keyboard to navigate through each interface component.
-2.  Check that a visible indication of focus is provided when focus is on the interface component.
+2.  Check that a visible indication of focus is provided when focus is on the interface component.[SC 2.4.7]
 
 ### Test Results
 -   If any of the above checks fail, then Baseline Requirement 2 fails.
