@@ -73,12 +73,12 @@ Check that at least one of the following is true [SC 1.1.1]:
 Identify any images of text, except where a particular presentation of text is essential to the information being conveyed (e.g., logotypes or text that is part of a logo or brand name).
 
 ### Test Instructions
-1.  Check that using text cannot achieve the same visual presentation and effect as images of text. [SC 1.1.1]
-2.  Check that the image of text can be visually customized to a user's requirements. [SC 1.1.1]
+1.  Check that using text cannot achieve the same visual presentation and effect as images of text. [SC 1.4.5]
+2.  Check that the image of text can be visually customized to a user's requirements. [SC 1.4.5]
     -   For example, web content allows users to specify font, size, color, and background settings, and all images of text are then provided based on those settings.
 
 ### Test Results
--   If any of the above checks fail, then SC 1.4.5 and Baseline Test 6.4-ImageText fail.
+-   If any of the above checks fail, then Baseline Test 6.4-ImageText fail.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
