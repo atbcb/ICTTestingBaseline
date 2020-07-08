@@ -21,22 +21,14 @@ Limitations, Assumptions, Exceptions
 -   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
-Test Procedures for SC 1.1.1 Non-Text and 4.1.2 Name, Role, Value
+## 6.1 Test Procedures for Meaningful Image
 -----------------------------------------------------------------
 ### Identify Content
-1.  Identify all images
-2.  Review the context of the image to determine the purpose of the image:
-    -   **Meaningful:** conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.)
-    -   **Decorative:** conveys no meaningful information or is described in text content
-    -   **CAPTCHA:** designed to determine if content is being accessed by a person rather than a computer
-    -   **Text:** image of text, except where the text is part of a logo
+1.  Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.)
 
-
-### Meaningful Images
 #### Test Instructions
-If the image is meaningful:
-1.  Check that the combination of the accessible name and accessible description is not empty.
-1.  Check that the non-empty combination of accessible name and accessible description provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
+1.  Check that the combination of the accessible name and accessible description is not empty. [SC 1.1.1]
+1.  Check that the non-empty combination of accessible name and accessible description provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element). [SC 1.1.1]
     1.  Descriptions of the image that are provided by page content must be programmatically associated.
     1.  When an image is updated to convey a new meaning, its text alternative must be updated at the same time.
 2.  Check that the ARIA role is NOT "presentation".
@@ -44,11 +36,15 @@ If the image is meaningful:
 4.  Check that aria-hidden is NOT set to "true".
 
 #### Test Results
--   If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
+-   If any of the above checks fail, then Baseline Test 6.1-MeaningfulImage fails.
 
-### Decorative Images
+## 6.2 Test Procedures for Decorative Image 
+-----------------------------------------------------------------
+### Identify Content
+1.  Identify any decorative image that conveys no meaningful information or is described in text content
+
 #### Test Instructions
-If the image is decorative, check that at least one of the following is true:
+Check that at least one of the following is true [SC 1.1.1]:
 1.  The ARIA role is "presentation".
 2.  The ARIA role is "none".
 3.  The aria-hidden state/value is set to "true".
@@ -56,30 +52,33 @@ If the image is decorative, check that at least one of the following is true:
 5.  The image is inserted via CSS (e.g., using a background image).
 
 #### Test Results
--   If all of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
+-   If all of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.
 
-### CAPTCHA Images
+## 6.3 Test Procedures for Captcha
+-----------------------------------------------------------------
+### Identify Content
+1.  Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer
+
 #### Test Instructions
-If the Image is a Captcha image:
-1.  Check that the combination of the accessible name and accessible description is not empty.
-1.  Check that the non-empty combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA.
-2.  Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing.
+1.  Check that the combination of the accessible name and accessible description is not empty. [SC 1.1.1]
+1.  Check that the non-empty combination of accessible name and accessible description identify and describe the purpose of the CAPTCHA. [SC 1.1.1]
+2.  Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. [SC 1.1.1]
 
 #### Test Results
--   If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 6 fail.
+-   If any of the above checks fail, then Baseline Test 6.3-Captcha fails.
 
-Test Procedures for SC 1.4.5 Images of Text
+## 6.4 Test Procedures for Images of Text
 -------------------------------------------
 ### Identify Content
 Identify any images of text, except where a particular presentation of text is essential to the information being conveyed (e.g., logotypes or text that is part of a logo or brand name).
 
 ### Test Instructions
-1.  Check that using text cannot achieve the same visual presentation and effect as images of text.
-2.  Check that the image of text can be visually customized to a user's requirements.
+1.  Check that using text cannot achieve the same visual presentation and effect as images of text. [SC 1.1.1]
+2.  Check that the image of text can be visually customized to a user's requirements. [SC 1.1.1]
     -   For example, web content allows users to specify font, size, color, and background settings, and all images of text are then provided based on those settings.
 
 ### Test Results
--   If any of the above checks fail, then SC 1.4.5 and Baseline Requirement 6 fail.
+-   If any of the above checks fail, then SC 1.4.5 and Baseline Test 6.4-ImageText fail.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
