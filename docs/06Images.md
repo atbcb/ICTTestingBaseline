@@ -22,7 +22,7 @@ Limitations, Assumptions, Exceptions
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
 ## 6.1 Test Procedures for Meaningful Image
------------------------------------------------------------------
+
 ### Identify Content
 1.  Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.)
 
