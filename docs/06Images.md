@@ -24,7 +24,7 @@ Limitations, Assumptions, Exceptions
 ## 6.1 Test Procedures for Meaningful Image
 
 ### Identify Content
-1.  Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.)
+1.  Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.).
 
 #### Test Instructions
 1.  Check that the combination of the accessible name and accessible description is not empty. [SC 1.1.1]
@@ -41,7 +41,7 @@ Limitations, Assumptions, Exceptions
 ## 6.2 Test Procedures for Decorative Image 
 
 ### Identify Content
-1.  Identify any decorative image that conveys no meaningful information or is described in text content
+1.  Identify any decorative image that conveys no meaningful information or is described in text content.
 
 #### Test Instructions
 Check that at least one of the following is true [SC 1.1.1]:
@@ -57,7 +57,7 @@ Check that at least one of the following is true [SC 1.1.1]:
 ## 6.3 Test Procedures for Captcha
 
 ### Identify Content
-1.  Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer
+1.  Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer.
 
 #### Test Instructions
 1.  Check that the combination of the accessible name and accessible description is not empty. [SC 1.1.1]
