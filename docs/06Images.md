@@ -39,7 +39,7 @@ Limitations, Assumptions, Exceptions
 -   If any of the above checks fail, then Baseline Test 6.1-MeaningfulImage fails.
 
 ## 6.2 Test Procedures for Decorative Image 
------------------------------------------------------------------
+
 ### Identify Content
 1.  Identify any decorative image that conveys no meaningful information or is described in text content
 
@@ -55,7 +55,7 @@ Check that at least one of the following is true [SC 1.1.1]:
 -   If all of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.
 
 ## 6.3 Test Procedures for Captcha
------------------------------------------------------------------
+
 ### Identify Content
 1.  Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer
 
@@ -68,7 +68,7 @@ Check that at least one of the following is true [SC 1.1.1]:
 -   If any of the above checks fail, then Baseline Test 6.3-Captcha fails.
 
 ## 6.4 Test Procedures for Images of Text
--------------------------------------------
+
 ### Identify Content
 Identify any images of text, except where a particular presentation of text is essential to the information being conveyed (e.g., logotypes or text that is part of a logo or brand name).
 
