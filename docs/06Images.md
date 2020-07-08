@@ -47,7 +47,7 @@ Limitations, Assumptions, Exceptions
 Check that at least one of the following is true [SC 1.1.1]:
 1.  The ARIA role is "presentation".
 2.  The ARIA role is "none".
-3.  The aria-hidden state/value is set to "true".
+3.  The aria-hidden is set to "true".
 4.  The combination of accessible name and accessible description is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
 5.  The image is inserted via CSS (e.g., using a background image).
 
