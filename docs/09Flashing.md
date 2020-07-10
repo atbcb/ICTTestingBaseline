@@ -23,21 +23,21 @@ Limitations, Assumptions, or Exceptions
 -   Note from SC 2.3.1:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
-Test Procedure for SC 2.3.1 Three Flashes or Below Threshold
+## 9.1 Test Procedure for Three Flashes or Below Threshold
 ------------------------------------------------------------
 ### Identify Content
 Visually identify content that [flashes](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#flash-def) (excluding exception noted in Limitations, Assumptions, or Exceptions above).
 
 ### Test Instructions
 1.  Determine the flashing frequency. If the flashing frequency is at or below 3Hz (three flashes in any one second period), no further testing is necessary.
-2.  If the content flashes above 3Hz or the frequency cannot be determined, check that it meets one of the following:
+2.  If the content flashes above 3Hz or the frequency cannot be determined, check that it meets one of the following: [SC 2.3.1]
     1.  The combined, contiguous area that is flashing simultaneously within any 10 degree angle of view is less than the equivalent of the small safe area for flashing (i.e., less than 25% of a 10 degree viewing angle of the total screen size at intended viewing distance).
     2.  The opposing transitions that flash do not involve a saturated red AND
         1.  The darkest image’s relative luminance is above 0.80, or
         2.  The darkest image’s relative luminance is below 0.80 and the maximum change in relative luminance between the darkest image and the brightest image is less than 10%.
 
 ### Test Results
-If all of the above checks fail, then SC 2.3.1, Conformance Requirement 5, and Baseline Requirement 9 fail.
+If all of the above checks fail, then Baseline Test 9.1-Flashes fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
