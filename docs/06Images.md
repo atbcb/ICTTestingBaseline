@@ -21,7 +21,8 @@ Limitations, Assumptions, Exceptions
 -   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
-## 6.1 Test Procedures for Meaningful Image
+## 6.1 Test Procedure for Meaningful Image
+**Baseline Test ID:** 6.1-MeaningfulImage
 
 ### Identify Content
 1.  Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.).
