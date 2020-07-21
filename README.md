@@ -19,7 +19,6 @@ In January of 2017, the U.S. Access-Board released the final rule to revise the 
 * The ITBWG will support federal agencies that wish to align their test processes to the Baseline.
 * The ITBWG will update the Baseline document by committee. Agency representatives are encouraged to participate, suggest and review updates and modifications to the Baseline, and evaluate the impact of updates to the Baseline.
 * The ITBWG will promote the use of the Baseline to encourage agencies to evaluate their test processes and improve Section 508 conformance testing accuracy.
-* More stuff needed from the CSUN planning document
 
 ### How you can contribute
 You are welcome to monitor progress, create forks of the proposed Baseline tests and test cases, propose improvements (via issues and pull requests), and submit test cases to help validate test processes and tools. The working group will post the ICT Testing Baseline for Web to this [repository](https://github.com/Section508Coordinators/ICTTestingBaseline/) in GitHub. We will review and share results as progress is made.  
