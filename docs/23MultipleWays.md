@@ -12,22 +12,24 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 -   Exceptions: web pages that are the result of, or a step in, a process are not included in this test.
 
-Test Procedure for SC 2.4.5 Multiple Ways
+23.1 Test Procedure for Related Web Pages
 -----------------------------------------
+**Baseline Test ID:** 23.1-MultipleWays
 ### Identify Content
 Web page within a set of related Web pages.
 
 ### Test Instructions
-1.  Check that the page provides two or more ways to locate a Web page within a set of web pages; these may include (but are not limited to) techniques such as:
-    -   site maps
-    -   site search
-    -   tables of contents
-    -   navigation menus or dropdowns
-    -   navigation trees
-    -   links between pages
+1.  Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]
+    - These may include (but are not limited to) techniques such as:
+        -   site maps
+        -   site search
+        -   tables of contents
+        -   navigation menus or dropdowns
+        -   navigation trees
+        -   links between pages
 
 ### Test Results
-If the above check fails, then SC 2.4.5 and Baseline Requirement 23 fail.
+If the above check fails, then Baseline Test 23.1-MultipleWays fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

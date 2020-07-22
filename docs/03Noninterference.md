@@ -1,6 +1,4 @@
-**This test is has moved to Test #3. Do not use this file.**
-
-# 25. Non-Interference
+# 3. Non-Interference
 
 Accessibility Requirements
 --------------------------
@@ -18,9 +16,9 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------
 None.
 
-25.1 Test Procedure for WCAG Conformance Requirement 5
+3.1 Test Procedure for Non-Interference
 -------------------------------------------------
-**Baseline Test ID:** 25.1-NonInterference
+**Baseline Test ID:** 3.1-NonInterference
 ### Identify Content
 Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.
 
@@ -28,7 +26,7 @@ Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInf
 1.  Check that all of test results are pass.
 
 ### Test Results
-If any of the above checks fail, then Baseline Requirement 25.1-NonInterference fails.
+If any of the above checks fail, then Baseline Requirement 3.1-NonInterference fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
@@ -39,4 +37,4 @@ Advisory: Tips for streamlined test processes
 NA.
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](24Parsing.md) | [Appendix A - Cross Reference Tables](AppendixA.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](02FocusVisible.md) | [Next Baseline](04RepetitiveContent.md)

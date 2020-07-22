@@ -1,8 +1,11 @@
+**This test is obsolete and has been merged into Test 2.** 
+
+
 # 3. Focus Order
 
 Accessibility Requirements
 --------------------------
--   [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If \[content\] can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
+-   [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
 -   [WCAG SC 3.2.1 On Focus](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) -- When any component receives focus, it does not initiate a change of context.
 
 Test Method Rationale
@@ -28,6 +31,7 @@ Limitations, Assumptions, or Exceptions
 
 3.1 Test Procedure for Focus Order
 ---------------------------------------
+**Baseline Test ID:** 3.1-FocusOrder
 ### Identify Content
 Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.
 
@@ -36,15 +40,16 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
     1.  Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
         1.  Check that the revealed focusable content is included in the focus order. [SC 2.4.3]
         2.  Advance the focus through the revealed content.
-    2.  Use the keyboard to close/hide the revealed content.
-        1.  Check that focus is returned to the trigger control. (It is acceptable to \[Shift+ TAB\] once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]
+    1.  Use the keyboard to close/hide the revealed content.
+        1.  Check that focus is returned to the trigger control. (It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]
 2.  Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 3.1 fails.
+If any of the above checks fail, then Baseline Test 3.1-FocusOrder fails.
 
 3.2 Test Procedure for On Focus
 ------------------------------------
+**Baseline Test ID:** 3.2-OnFocus
 ### Identify Content
 Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).
 
@@ -57,7 +62,7 @@ Keyboard accessible interface components (links, form fields, drop down menus, s
         -   Focus is moved to another component
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 3.2 fails.
+If any of the above checks fail, then Baseline Test 3.2-OnFocus fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

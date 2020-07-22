@@ -7,8 +7,8 @@ Accessibility Requirements
     -   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.
     -   **Extend:** The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, "press the space bar"), and the user is allowed to extend the time limit at least ten times.
 -   [WCAG SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html) -- For moving, blinking, scrolling, or auto-updating information, all of the following are true:
-    -   Moving, blinking, scrolling: For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential.
-    -   Auto-updating: For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
+    -   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential.
+    -   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
 -   [WCAG SC 1.4.2 Audio Control](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html) -- If any audio on a page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
 -   [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
@@ -32,14 +32,15 @@ Limitations, Assumptions, or Exceptions
 -   Note from SC 1.4.2 Audio Control:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
-Test Procedure for SC 2.2.1 Timing Adjustable
+21.1 Test Procedure for Timing Adjustable
 ---------------------------------------------
+**Baseline Test ID:** 21.1-TimingAdjustable
 ### Identify Content
 Identify any instances of content time limits (excluding exceptions described above).
 
 ### Test Instructions
 For each instance of an identified time limit for content:
-1.  Check that at least one of the following is true before time expires:
+1.  Check that at least one of the following is true before time expires [SC 2.2.1]:
     -  The user has the ability to turn off the time limit.
     -  The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.
     -  The user is warned before time expires AND:
@@ -47,11 +48,12 @@ For each instance of an identified time limit for content:
         -   Allowed to extend the time limit at least ten times.
 
 ### Test Results
-If the above check fails, then SC 2.2.1 and Baseline Requirement 21 fail.
+If the above check fails, then Baseline Test 21.1-TimingAdjustable fails.
 
-Test Procedure for SC 2.2.2 Pause, Stop, Hide
+21.2 Test Procedure for Moving Information
 ---------------------------------------------
-### Moving, blinking, or scrolling information
+**Baseline Test ID:** 21.2-MovingInfo
+
 #### Identify Content
 Any moving, blinking, or scrolling information that meets ALL of the following:
 -   Starts automatically, AND
@@ -60,12 +62,13 @@ Any moving, blinking, or scrolling information that meets ALL of the following:
 -   Moving, blinking, scrolling is not essential
 
 #### Test Instructions
-1.  Check that there is a mechanism for the user to pause, stop, or hide it
+1.  Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]
 
 #### Test Results
-If the above check fails, then SC 2.2.2, Conformance Requirement 5, and Baseline Requirement 21 fail.
+If the above check fails, then Baseline Test 21.2-MovingInfo fails.
 
-### Auto-updating information
+### 21.3 Test Procedure for Auto-updating information
+**Baseline Test ID:** 21.3-AutoUpdate
 #### Identify Content
 Any auto-updating information that meets ALL of the following:
 -   Starts automatically, AND
@@ -73,23 +76,24 @@ Any auto-updating information that meets ALL of the following:
 -   Is not part of an activity where it is essential
 
 #### Test Instructions
-1.  Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update
+1.  Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]
 
 #### Test Results
-If the above check fails, then SC 2.2.2, Conformance Requirement 5, and Baseline Requirement 21 fail.
+If the above check fails, then Baseline Test 21.2-AutoUpdate fails.
 
-Test Procedure for SC 1.4.2 Audio Control
+21.4 Test Procedure for Audio Control
 -----------------------------------------
+**Baseline Test ID:** 21.4-AudioControl
 ### Identify Content
 Audio that automatically plays for more than 3 seconds.
 
 ### Test Instructions
-1.  Check that either
+1.  Check that either [SC 1.4.2]
     1.  a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio, **OR**
     2.  a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.
 
 ### Test Results
-If the above check fails, then SC 1.4.2, WCAG Conformance Requirement 5: Non-interference, and Baseline Requirement 21 fail.
+If the above check fails, then Baseline Test 21.4-AudioControl fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

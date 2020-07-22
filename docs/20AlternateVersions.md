@@ -2,7 +2,7 @@
 
 Accessibility Requirements
 --------------------------
--   [WCAG Conforming Alternate Version](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head): Conforming alternate version - Level AA: For Level AA conformance, the \[content\] satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided. Conformance requirement \#1 allows non-conforming pages to be included within the scope of conformance as long as there is a "conforming alternate version", which is a version that
+-   [WCAG Conforming Alternate Version](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head): Conformance requirement \#1 allows non-conforming pages to be included within the scope of conformance as long as there is a "conforming alternate version", which is defined as a version that
     1.  conforms at the designated level, and
     2.  provides all of the same information and functionality in the same human language, and
     3.  is as up to date as the non-conforming content, and
@@ -13,7 +13,7 @@ Accessibility Requirements
 
 Test Method Rationale
 ---------------------
-The alternate version must meet all parts of the definition in order to be considered a "conforming alternate version".
+An alternate version must meet all parts of the definition in order to be considered a "conforming alternate version".
 
 Limitations, Assumptions, or Exceptions
 ---------------------------------------
@@ -28,13 +28,14 @@ Limitations, Assumptions, or Exceptions
 -   It is not a WCAG requirement to provide a conforming alternate version. This test only checks that a conforming alternate version is present. If there is not a conforming alternate version, the result for this baseline test is Does Not Apply. (It would not be a failure.)
 -   To meet Conformance Requirement 1 for Level AA conformance, the Web page satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided.
 
-Test Procedure for Conforming Alternate Version
+20.1 Test Procedure for Conforming Alternate Version
 -----------------------------------------------
+**Baseline Test ID:** 20.1-ConformingAltVersion
 ### Identify Content
 Multiple versions of the same content.
 
 ### Test Instructions
-1.  Check that the alternate version provides all of the same information and functionality in the same human language.
+1.  Check that the alternate version provides all of the same information and functionality in the same human language. 
 2.  Check that the alternate version is as up to date as the non-conforming content.
 3.  Check that the alternate version passes all other baseline tests.
 4.  Check that at least one of the following is true:
@@ -43,7 +44,7 @@ Multiple versions of the same content.
     3.  the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.
 
 ### Test Results
-If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20 DOES NOT APPLY.
+If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20.1-ConformingAltVersion DOES NOT APPLY.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

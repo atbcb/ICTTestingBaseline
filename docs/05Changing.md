@@ -17,6 +17,7 @@ Limitations, Assumptions, or Exceptions
 
 5.1 Test Procedure for Changes in Content
 ---------------------------------------------
+**Baseline Test ID:** 5.1-ChangeContent
 ### Identify Content
 Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.
 -   It may be necessary to use the mouse to determine whether state changes occur on hover or on click.

@@ -20,6 +20,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 
 4.1 Test Procedure for Bypass Blocks
 -----------------------------------------
+**Baseline Test ID:** 4.1-BypassBlocks
 ### Identify Content
 Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.
 
@@ -33,10 +34,11 @@ Blocks of content that are repeated on multiple pages, including navigation link
         -   If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 4.1 fails.
+If any of the above checks fail, then Baseline Test 4.1-BypassBlocks fails.
 
 4.2 Test Procedure for Consistent Navigation
 -------------------------------------------------
+**Baseline Test ID:** 4.2-ConsistentNavigation
 ### Identify Content
 Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).
 
@@ -45,10 +47,11 @@ Navigational mechanisms that are repeated on multiple pages (which may or may no
 2. Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 4.2 fails.
+If any of the above checks fail, then Baseline Test 4.2-ConsistentNavigation fails.
 
 4.3 Test Procedure for Consistent Identification
 -----------------------------------------------------
+**Baseline Test ID:** 4.3-ConsistentIdentification
 ### Identify Content
 Components that have the same functionality within a set of Web pages.
 
@@ -56,7 +59,7 @@ Components that have the same functionality within a set of Web pages.
 1.  Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] 
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 4.3 fails.
+If any of the above checks fail, then Baseline Test 4.3-ConsistentIdentification fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

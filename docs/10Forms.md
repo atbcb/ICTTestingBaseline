@@ -8,7 +8,7 @@ Accessibility Requirements
 -   [WCAG2 3.3.1 Error Identification](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html): If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
 -   [WCAG2 3.3.2 Labels or Instructions](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): Labels or instructions are provided when content requires user input.
 -   [WCAG2 3.3.3 Error Suggestion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html): If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.
--   [WCAG2 3.3.4 Error Prevention (Legal, Financial, Data)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html): For \[pages\] that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
+-   [WCAG2 3.3.4 Error Prevention (Legal, Financial, Data)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-reversible.html): For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, at least one of the following is true:
     1.  Reversible: Submissions are reversible.
     2.  Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
     3.  Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
@@ -24,58 +24,61 @@ Limitations, Assumptions, or Exceptions
 -   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not included in this test.
 -   The combination of an element's accessible name and accessible description is its text alternative.
 -   Clicking an option or selecting an option in a form should select the option, but should not initiate a change in context.
--   [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined in [Understanding SC 3.2.1: On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) as: major changes in the content of \[a page\] that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
+-   [Change of context](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html#context-changedef) is defined in [Understanding SC 3.2.1: On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) as: major changes in the content of the Web page that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
     1.  User agent
     2.  Viewport
     3.  Focus
-    4.  Content that changes the meaning of the \[page\]
+    4.  Content that changes the meaning of the Web page
     - Note: A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
     - Example: Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.
 
-Test Procedure for 1.3.1 Info and Relationships and 4.1.2 Name, Role, Value
------------------------------------------------
+## 10.1 Test Procedure for Form Names 
+**Baseline Test ID:** 10.1-FormName
 ### Identify Content
 1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.
 2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
 ### Test Instructions
-1.  Check that the combination of the accessible name and accessible description is not empty.
-1.  Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each input field and includes all relevant instructions and cues (textual and graphical). Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description.
+1.  Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]
+1.  Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each input field and includes all relevant instructions and cues (textual and graphical). Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description. [SC 1.3.1]
 
 ### Test Results
-If any of the above checks fail, then SC 1.3.1, SC 4.1.2, and Baseline Requirement 10 fail.
+If any of the above checks fail, then Baseline Test 10.1-FormName fails.
 
-Test Procedure for 2.4.6 Headings and Labels
------------------------------------------------
+## 10.2 Test Procedure for Form Labels Descriptive 
+**Baseline Test ID:** 10.2-FormDescriptiveLabel
 ### Identify Content
 1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
 2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
 ### Test Instructions
-1.  Check that provided labels and/or instructions for each form input inform users what input data is expected and, if applicable, what format is required.
+1.  Check that provided labels and/or instructions for each form input inform users what input data is expected and, if applicable, what format is required. [SC 2.4.6]
 
 ### Test Results
-If any of the above checks fail, then SC 2.4.6 and Baseline Requirement 10 fail.
+If any of the above checks fail, then Baseline Test 10.2-FormDescriptiveLabel fails.
 
-Test Procedure for SC 3.2.2 On Input
+10.3 Test Procedure for On Input
 ------------------------------------
+**Baseline Test ID:** 10.3-OnInput
 ### Identify Content
 All active form components.
 
 ### Test Instructions
 1.  Enter data in all form fields, and exit (tab out of) the field
 2.  Change selections and/or values for form controls, such as radio buttons, check boxes, select lists, etc.
-3.  Check that navigating away from a field and/or changing field values/selections (e.g., entering data in a text field, changing a radio button selection) **does NOT** initiate a change of context unless the user has been advised of the behavior before using the component. Examples of a change of context could include:
-    -   Forms submitted automatically when exiting the field
-    -   Forms submitted automatically when exiting the last field in a form
-    -   New windows launched when changing a radio button selection
-    -   Focus is changed to another component when a select list item is selected
+3.  Check that navigating away from a field and/or changing field values/selections (e.g., entering data in a text field, changing a radio button selection) **does NOT** initiate a change of context unless the user has been advised of the behavior before using the component. [SC 3.2.2]
+    - Examples of a change of context could include:
+        -   Forms submitted automatically when exiting the field
+        -   Forms submitted automatically when exiting the last field in a form
+        -   New windows launched when changing a radio button selection
+        -   Focus is changed to another component when a select list item is selected
 
 ### Test Results
-If any of the above checks fail, then SC 3.2.2 and Baseline Requirement 10 fail.
+If any of the above checks fail, then Baseline Test 10.3-OnInput fails.
 
-Test Procedure for 3.3.1 Error Identification
+10.4 Test Procedure for Error Identification
 ---------------------------------------------
+**Baseline Test ID:** 10.4-ErrorIdentification
 ### Identify Content
 1.  Input fields with automatic error detection and notification.
 
@@ -85,28 +88,30 @@ Test Procedure for 3.3.1 Error Identification
     -   date (format)
     -   state (abbreviations in an address)
     -   password
-2.  If an input error is automatically detected, check that the error notification meets all of the following:
+2.  If an input error is automatically detected, check that the error notification meets all of the following [SC 3.3.1]:
     -   the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form), and
     -   the error is described to the user in text, and
     -   the item that is in error is identified in text.
 
 ### Test Results
-If any of the above checks fail, then SC 3.3.1 and Baseline Requirement 10 fail.
+If any of the above checks fail, then Baseline Test 10.4-ErrorIdentification fails.
 
-Test Procedure for 3.3.2 Labels or Instructions
+10.5 Test Procedure for Form has a Label
 -----------------------------------------------
+**Baseline Test ID:** 10.5-FormHasLabel
 ### Identify Content
 1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
 2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
 ### Test Instructions
-1.  Check that each form input has label(s) or instructions.
+1.  Check that each form input has label(s) or instructions. [SC 3.3.2]
 
 ### Test Results
-If any of the above checks fail, then SC 3.3.2 and Baseline Requirement 10 fail.
+If any of the above checks fail, then Baseline Test 10.5-FormHasLabel fails.
 
-Test Procedure for 3.3.3 Error Suggestion
+10.6 Test Procedure for Error Suggestion
 -----------------------------------------
+**Baseline Test ID:** 10.6-ErrorSuggestion
 ### Identify Content
 Input fields with automatic error detection and notification.
 
@@ -117,27 +122,28 @@ Input fields with automatic error detection and notification.
     3.  state (abbreviations in an address)
     4.  password
 2.  Review error notifications provided.
-3.  Check that additional guidance (e.g., suggestion for corrected input, guidance on how to correct the user's input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content.
+3.  Check that additional guidance (e.g., suggestion for corrected input, guidance on how to correct the user's input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content. [SC 3.3.3]
 
 ### Test Results
-If any of the above checks fail, then SC 3.3.3 and Baseline Requirement 10 fail.
+If any of the above checks fail, then Baseline Test 10.6-ErrorSuggestion fails.
 
-Test Procedure for 3.3.4 Error Prevention (Legal, Financial, Data)
+10.7 Test Procedure for Error Prevention (Legal, Financial, Data)
 ------------------------------------------------------------------
+**Baseline Test ID:** 10.7-ErrorPrevention
 ### Identify Content
 Pages that causes legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses.
 
 ### Test Instructions
 1.  Complete the form fields necessary to submit. Include errors.
-2.  Check that at least one of the following is true:
+2.  Check that at least one of the following is true [SC 3.3.4]:
     1.  Reversible: Submissions are reversible.
     2.  Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
     3.  Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
 
 ### Test Results
-If any of the above checks fail, then SC 3.3.4 and Baseline Requirement 10 fail.
+If any of the above checks fail, then Baseline Test 10.7-ErrorPrevention fails.
 
-Test Procedure for 4.1.2 Name, Role, Value
+Test Procedure for Form Changes
 ------------------------------------------------------------------
 Form elements that change are tested in [Baseline 5. Changing Content](05Changing.md)
 

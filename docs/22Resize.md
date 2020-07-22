@@ -10,27 +10,29 @@ This baseline test requires an evaluation of visual content and functionality af
 
 Limitations, Assumptions, or Exceptions
 ---------------------------------------
--   Exception: Captions and images of text are not included in the test.
+-   Exception: captions and images of text are not included in the test.
 
-Test Procedure for 1.4.4 Resize Text
+22.1 Test Procedure for Resize Text
 ------------------------------------
+**Baseline Test ID:** 22.1-ResizeText
 ### Identify Content
 All text on a page.
 
 ### Test Instructions
-1.  Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. Known approaches include:
-    -   Browser zoom function
-    -   Accessibility features provided by the platform or Operating System
-    -   Controls to change text size. (If browser, operating system, or platform’s zoom function is not supported by the page, the page must provide the resize mechanism.)
+1.  Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] 
+    - Known approaches include:
+        -   Browser zoom function
+        -   Accessibility features provided by the platform or Operating System
+        -   Controls to change text size. (If browser, operating system, or platform’s zoom function is not supported by the page, the page must provide the resize mechanism.)
 2.  Modify the font size appearance to twice the width and height, or 200% larger.
-3.  Check for all of the following:
+3.  Check for all of the following [SC 1.4.4]:
     -   Text is not clipped, truncated or obscured
     -   Text entered in text-based form controls resize fully
     -   All functionality is available
     -   All content is available
 
 ### Test Results
-If any of the above checks fail, then SC 1.4.4 and Baseline Requirement 22 fail.
+If any of the above checks fail, then Baseline Test 22.1-ResizeText fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

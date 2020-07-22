@@ -22,8 +22,9 @@ Limitations, Assumptions, or Exceptions
 -   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not required to meet contrast ratio requirements. **Note:** Read-only and disabled interface components are not the same. Disabled interface components can be considered inactive interface components; read-only interface components are active interface components and must meet contrast ratio requirements.
 -   Large scale text is defined as at least 18 point text or 14 point bold text.
 
-## 8.1 Test Procedure Contrast (minimum)
+8.1 Test Procedure for Contrast (minimum)
 ----------------------------------------------
+**Baseline Test ID:** 8.1-ContrastMinimum
 ### Identify Content
 All visible text AND images of text (except those noted in Limitations, Assumptions, or Exceptions above)
 

@@ -3,7 +3,7 @@
 Accessibility Requirements
 --------------------------
 -   [WCAG SC 2.1.1 Keyboard](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html) – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
--   [WCAG SC 2.1.2 No Keyboard Trap](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html) – If keyboard focus can be moved to a component of the \[content\] using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
+-   [WCAG SC 2.1.2 No Keyboard Trap](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html) – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
 -   [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
 Test Method Rationale
@@ -23,6 +23,7 @@ Limitations, Assumptions, or Exceptions
 
 1.1 Test Procedure for Keyboard Access
 ------------------------------------
+**Baseline Test ID:** 1.1-KeyboardAccess
 ### Identify Content
 All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).
 
@@ -34,10 +35,11 @@ All functionality of the content that is available by mouse control must be keyb
     1.  If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 1.1 fails.
+If any of the above checks fail, then Baseline Test 1.1-KeyboardAccess fails.
 
 1.2 Test Procedure for No Keyboard Trap
 --------------------------------------------
+**Baseline Test ID:** 1.2-NoKeyboardTrap
 ### Identify Content
 Components that receive keyboard focus.
 
@@ -47,7 +49,7 @@ Components that receive keyboard focus.
     2.  If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.
 
 ### Test Results
-If the above check fails, then Baseline Test 1.2 fails.
+If the above check fails, then Baseline Test 1.2-NoKeyboardTrap fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
