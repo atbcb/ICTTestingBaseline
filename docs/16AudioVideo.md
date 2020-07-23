@@ -13,43 +13,45 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 Limitations, Assumptions, or Exceptions
 ---------------------------------------
 ### Audio-Only
--   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline [17. Synchronized Media](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/17SyncMedia.md).
+-   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline [17. Synchronized Media](17SyncMedia.md).
 -   Audio intended as a media alternative for text does not require additional description if it is clearly labeled as such.
 -   Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
--   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline [7. Sensory Characteristics](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/07Sensory.md).
+-   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline [7. Sensory Characteristics](07Sensory.md).
 
 ### Video-Only
 -   In a video-only presentation, information is presented in a variety of ways including animation, text or graphics, the setting and background, the actions and expressions of people, animals, etc.
 -   Video intended as a media alternative for text does not require additional description if it is clearly labeled as such.
--   If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Baseline [17. Synchronized Media](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/17SyncMedia.md) requirements.
--   Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under Baseline [21. Timed Events](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/21TimedEvents.md).
+-   If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Baseline [17. Synchronized Media](17SyncMedia.md) requirements.
+-   Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under Baseline [21. Timed Events](21TimedEvents.md).
 
-Test Procedure for SC 1.2.1 Audio-only (Prerecorded)
+16.1 Test Procedure for Audio-only (Prerecorded)
 ----------------------------------------------------
+**Baseline Test ID:** 16.1-AudioOnlyTranscript
 ### Identify Content
 Pre-recorded audio-only content.
 
 ### Test Instructions
-1.  Check that the content provides transcript(s) for audio-only content.
-2.  Check that the transcript is text (i.e., an image of a transcript would not be sufficient to pass this test).
+1.  Check that the content provides transcript(s) for audio-only content. [SC 1.2.1]
+2.  Check that the transcript is text (i.e., an image of a transcript would not be sufficient to pass this test). [SC 1.2.1]
 3.  Play the audio-only content entirely.
-4.  Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc.
+4.  Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc. [SC 1.2.1]
 
 ### Test Results
--   If any of the above checks fail, then SC 1.2.1 and Baseline Requirement 16 fail.
+-   If any of the above checks fail, then Baseline Test 16.1-AudioOnlyTranscript fails.
 
-Test Procedure for SC 1.2.1 Video-only (Prerecorded)
+16.2 Test Procedure for SC 1.2.1 Video-only (Prerecorded)
 ----------------------------------------------------
+**Baseline Test ID:** 16.2-VideoOnlyAlt
 ### Identify Content
 Pre-recorded video-only content.
 
 ### Test Instructions
-1.  Check that all video-only content information is also available through a text alternative (e.g., text that provides description of video content and actions) or an audio track that describes the video content.
+1.  Check that all video-only content information is also available through a text alternative (e.g., text that provides description of video content and actions) or an audio track that describes the video content. [SC 1.2.1]
 2.  View the video-only content while referring to the alternative.
-3.  Check that the information in the alternative includes the same information that the video-only presentation displays (e.g., if the video includes multiple characters, the alternative must identify which character is associated with each depicted action).
+3.  Check that the information in the alternative includes the same information that the video-only presentation displays (e.g., if the video includes multiple characters, the alternative must identify which character is associated with each depicted action). [SC 1.2.1]
 
 ### Test Results
--   If any of the above checks fail, then SC 1.2.1 and Baseline Requirement 16 fail.
+-   If any of the above checks fail, then Baseline Test 16.2-VideoOnlyAlt fail.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

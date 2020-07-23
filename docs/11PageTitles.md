@@ -6,29 +6,30 @@ Accessibility Requirements
 
 Test Method Rationale
 ---------------------
-The &lt;title&gt; element defines the title of the document, and is required in all HTML/XHTML documents. This test evaluates the presence of a descriptive title for the Web page.
+The `<title>` element defines the title of the document, and is required in all HTML/XHTML documents. This test evaluates the presence of a descriptive title for the Web page.
 
 Limitations, Assumptions, Exceptions
 ------------------------------------
 -   Every Web page must have a descriptive title. This test always applies.
--   The &lt;title&gt; element in this test is different from the title attribute used to add tooltip/extra information about an element.
+-   The `<title>` element in this test is different from the title attribute used to add tooltip/extra information about an element.
 -   Some Web and non-Web applications and may include content that changes dynamically. In such cases, the page title should be sufficient to describe the purpose of the application.
--   [HTML5 specification](https://www.w3.org/TR/html50/document-metadata.html#the-title-element) stipulates that an HTML document should have only one &lt;title&gt; element, AND the &lt;title&gt; element should be a child of the &lt;head&gt; element. However, in practice all modern browsers correct syntax errors related to location and nesting of the &lt;title&gt; element. Therefore, user agents that rely on the Document Object Model (DOM) will encounter the &lt;title&gt; in the correct location and will typically present only the first &lt;title&gt; element (if there is more than one) to the user.
+-   [HTML5 specification](https://www.w3.org/TR/html50/document-metadata.html#the-title-element) stipulates that an HTML document should have only one `<title>` element, AND the `<title>` element should be a child of the `<head>` element. However, in practice all modern browsers correct syntax errors related to location and nesting of the `<title>` element. Therefore, user agents that rely on the Document Object Model (DOM) will encounter the `<title>` in the correct location and will typically present only the first `<title>` element (if there is more than one) to the user.
 
-Test Procedure for SC 2.4.2 Page Titled
+11.1 Test Procedure for Page Titled
 ---------------------------------------
+**Baseline Test ID:** 11.1-PageTitled
 ### Identify Content
-Page &lt;title&gt; element for the page.
+Page `<title>` element for the page.
 
 ### Test Instructions
 
-1.  Check that a page &lt;title&gt; element is defined for the page.
-1.  Check that the Page Title identifies the contents or purpose of the Web page.
+1.  Check that a page `<title>` element is defined for the page. [SC 2.4.2]
+1.  Check that the Page Title identifies the contents or purpose of the Web page. [SC 2.4.2]
     1.  For pages within a Web site, check that the Page Title can be used to distinguish among the pages.
     2.  For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.
 
 ### Test Results
-If any of the above checks fail, then SC 2.4.2 and Baseline Requirement 11 fail.
+If any of the above checks fail, then Baseline Test 11.1-PageTitled fails.
 
 ### WCAG 2.0 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:

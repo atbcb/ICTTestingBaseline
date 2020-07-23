@@ -17,34 +17,36 @@ Limitations, Assumptions, or Exceptions
 -   Only the CSS techniques identified as Failures in WCAG 2.0 Level A and Level AA are included in this test. There may be other CSS techniques that affect conformance.
 -   Inline styling is included in this test.
 
-Test Procedure for SC 1.1.1 Non-Text Content and 4.1.2 Name, Role, Value
+18.1 Test Procedure for Meaningful Background Image
 ------------------------------------------------------------------------
+**Baseline Test ID:** 18.1-CSSMeaningfulImage
 ### Identify Content
 Meaningful background images rendered by CSS
 
 ### Test Instructions
-1.  Check that the meaningful CSS image provides an equivalent text alternative description:
-    1.  ARIA role=”img” and non-empty aria-label value, and
-    2.  The aria-label value provides the same information as the meaningful background image
+1.  Check that the meaningful CSS image provides an equivalent text alternative description: [SC 1.1.1]
+    - ARIA role=”img” and non-empty aria-label value, and
+    - The aria-label value provides the same information as the meaningful background image
 
 ### Test Results
-If any of the above checks fail, then SC 1.1.1, SC 4.1.2, and Baseline Requirement 18 fail.
+If any of the above checks fail, then Baseline Test 18.1-CSSMeaningfulImage fails.
 
-Test Procedure for SC 1.3.2 Meaningful Sequence
+18.2 Test Procedure for CSS Positioned Content
 -----------------------------------------------
+**Baseline Test ID:** 18.2-CSSPositionedContent
 ### Identify Content
 Content positioned with CSS position:
 
 ### Test Instructions
-1.  Check that the reading order of the content (in context) is correct without the CSS position property.
-2.  Check that the meaning of the content (in context) is preserved without the CSS position property.
+1.  Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]
+2.  Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]
 
 ### Test Results
-If any of the above checks fail, then SC 1.3.2 and Baseline Requirement 18 fail.
+If any of the above checks fail, then Baseline Test 18.2-CSSPositionedContent fail.
 
-Test Procedure for SC 4.1.2 Name, Role, Value
+Test Reference for Changes to Meaningful CSS Content
 -----------------------------------------------
-Refer to [Baseline 5. Changing Content](5Changing.md).
+Meaningful CSS content that changes is tested with [Baseline 5. Changing Content](5Changing.md).
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

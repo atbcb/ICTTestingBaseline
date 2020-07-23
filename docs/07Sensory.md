@@ -14,34 +14,37 @@ Limitations, Assumptions, or Exceptions
 -   This requirement does not prohibit the use of color or sensory characteristics to provide information, directions, or cues. However, they must be used in conjunction with contextual, textual, and/or other visual cues.
 -   This is not a test of alternative text descriptions which require assistive technology access. Users with color deficiency do not typically use AT.
 
-Test Procedure for SC 1.4.1 Use of Color
+7.1 Test Procedure for Use of Color
 ----------------------------------------
+**Baseline Test ID:** 7.1-Color
 ### Identify Content
 Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors.
 
 ### Test Instructions
 1.  Check if one or more of the following is true:
-    1.  The element using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color
-    2.  The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning
+    1.  The element using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color [SC 1.4.1]
+    2.  The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning [SC 1.4.1]
 
 ### Test Results
-If BOTH of the above checks fail, then SC 1.4.1 and Baseline Requirement 7 fail.
+If BOTH of the above checks fail, then Baseline Test 7.1-Color fails.
 
-Test Procedure for SC 1.3.3 Sensory Characteristics
----------------------------------------------------
+## 7.2 Test Procedure for Sensory Characteristics
+**Baseline Test ID:** 7.2-SensoryCharacteristics
 ### Identify Content
 Identify instructions for understanding and operating content that use sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.
 
 ### Test Instructions
-1.  Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. For instance,
-    -   To see your changes, select the round button labeled "Go".
-    -   The links on the right, with the heading "Resources", provide further information.
-    -   Select the lower-right \[Cancel\] button to close this session.
-2.  Check that any auditory cues also provide programmatically determinable visual and/or textual cues. For instance,
-    -   At the sound of the beep and the appearance of the timer, begin the quiz.
+1.  Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]
+    - For example:
+        -   To see your changes, select the round button labeled "Go".
+        -   The links on the right, with the heading "Resources", provide further information.
+        -   Select the lower-right "Cancel" button to close this session.
+2.  Check that any auditory cues also provide programmatically determinable visual and/or textual cues. [SC 1.3.3]
+    - For instance,
+        -   At the sound of the beep and the appearance of the timer, begin the quiz.
 
 ### Test Results
-If any of the above checks fail, then SC 1.3.3 and Baseline Requirement 7 fail.
+If any of the above checks fail, then Baseline Test 7.2-SensoryCharacteristics fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

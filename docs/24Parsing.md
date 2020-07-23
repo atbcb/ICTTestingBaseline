@@ -14,20 +14,21 @@ Limitations, Assumptions, or Exceptions
 -   Markup is not always available to assistive technologies or to user selectable user agents such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
 -   As stated in the requirement language, some specifications may allow duplicate IDs. For example some markup languages may allow duplicate IDs, provided that IDs are unique for peer elements under the same parent element.
 
-Test Procedure for SC 4.1.1 Parsing
+24.1 Test Procedure for Parsing
 -----------------------------------
+**Baseline Test ID:** 24.1-Parsing
 ### Identify Content
 All web pages
 
 ### Test Instructions
-1.  Check that (except where the specifications allow these features)
+1.  Check that (except where the specifications allow these features): [SC 4.1.1]
     1.  elements have complete start and end tags,
     2.  elements are nested according to their specifications,
     3.  elements do not contain duplicate attributes, and
     4.  any IDs are unique.
 
 ### Test Results
-If any of the above checks fail, then SC 4.1.1 and Baseline Requirement 24 fail.
+If any of the above checks fail, then Baseline Test 24.1-Parsing fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
@@ -41,4 +42,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [H74: Ensuring that opening and closing tags are used according to specification](https://www.w3.org/TR/WCAG20-TECHS/H74.html) AND [H93: Ensuring that id attributes are unique on a Web page](https://www.w3.org/TR/WCAG20-TECHS/H93.html) AND [H94: Ensuring that elements do not contain duplicate attributes](https://www.w3.org/TR/WCAG20-TECHS/H94.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](23MultipleWays.md) | [Next Baseline](25Noninterference.md)
+[Home/Table of Contents](index.md) | [Previous Baseline](23MultipleWays.md) | [Appendix A - Cross Reference Tables](AppendixA.md)

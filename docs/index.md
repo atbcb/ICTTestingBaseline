@@ -25,16 +25,16 @@ For questions or to provide feedback, contact the DHS Accessibility Helpdesk at:
 
 [Developing a streamlined test process from this baseline — a primer](introduction.md#developing-a-streamlined-test-process-from-this-baseline--a-primer)
 
-[The Baseline Tests (\#1 - \#25)](#contents-the-baseline-tests-1---25)
+[The Baseline Tests (\#1 - \#24)](#contents-the-baseline-tests-1---24)
 
 [Appendix A - Cross-Reference Tables](AppendixA.md)
 
 [Appendix B - Document Change Log](AppendixB.md)
 
-## Contents: The Baseline Tests (\#1 - \#25)
+## Contents: The Baseline Tests (\#1 - \#24)
 1. [Keyboard Access](01Keyboard.md)
-2. [Focus Visible](02FocusVisible.md)
-3. [Focus Order](03FocusOrder.md)
+2. [Focus](02FocusVisible.md)
+3. [Non-Interference](03Noninterference.md)
 4. [Repetitive Content](04RepetitiveContent.md)
 5. [Changing Content](05Changing.md)
 6. [Images](06Images.md)
@@ -56,4 +56,4 @@ For questions or to provide feedback, contact the DHS Accessibility Helpdesk at:
 22. [Resize Text](22Resize.md)
 23. [Multiple Ways](23MultipleWays.md)
 24. [Parsing](24Parsing.md)
-25. [Non-Interference](25Noninterference.md)
+

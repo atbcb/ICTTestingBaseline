@@ -18,51 +18,55 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 * "Navigational mechanisms" as referenced in SC 3.2.3 includes both interactive and non-interactive components repeated on pages. Consistent presentation and layout benefit users who interact with repeated content within a set of Web pages and need to locate specific information or functionality more than once. 
 
 
-Test Procedure for SC 2.4.1 Bypass Blocks
+4.1 Test Procedure for Bypass Blocks
 -----------------------------------------
+**Baseline Test ID:** 4.1-BypassBlocks
 ### Identify Content
 Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.
 
 ### Test Instructions
 1.  Use standard keyboard commands to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.
-2.  Check that a keyboard-accessible method is provided to bypass repetitive content.
+2.  Check that a keyboard-accessible method is provided to bypass repetitive content. [SC 2.4.1]
 3.  Use the keyboard to activate the bypass method and verify the functionality of the bypass function.
-4.  Check that the method works as intended. For example:
-    -   The block of repeated content is hidden, closed or skipped.
-    -   If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
+4.  Check that the method works as intended. [SC 2.4.1]
+    1. For example:
+        -   The block of repeated content is hidden, closed or skipped.
+        -   If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
 
 ### Test Results
-If any of the above checks fail, then SC 2.4.1 and Baseline Requirement 4 fail.
+If any of the above checks fail, then Baseline Test 4.1-BypassBlocks fails.
 
-Test Procedure for SC 3.2.3 Consistent Navigation
+4.2 Test Procedure for Consistent Navigation
 -------------------------------------------------
+**Baseline Test ID:** 4.2-ConsistentNavigation
 ### Identify Content
 Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).
 
 ### Test Instructions
 1. Review multiple Web pages. Do not initiate changes to the content.
-2. Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears.
+2. Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]
 
 ### Test Results
-If any of the above checks fail, then SC 3.2.3 and Baseline Requirement 4 fail.
+If any of the above checks fail, then Baseline Test 4.2-ConsistentNavigation fails.
 
-Test Procedure for SC 3.2.4 Consistent Identification
+4.3 Test Procedure for Consistent Identification
 -----------------------------------------------------
+**Baseline Test ID:** 4.3-ConsistentIdentification
 ### Identify Content
 Components that have the same functionality within a set of Web pages.
 
 ### Test Instructions
-1.  Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function.
+1.  Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] 
 
 ### Test Results
-If any of the above checks fail, then SC 3.2.4 and Baseline Requirement 4 fail.
+If any of the above checks fail, then Baseline Test 4.3-ConsistentIdentification fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
 -   Some bypass methods may require a specific keyboard shortcut (i.e., the F6 key is the browser default for navigating between frames).
--   If bypass method is provided but cannot be activated by keyboard, this is also a failure of Baseline 1. Keyboard Access.
--   If bypass method is in the focus order but is not visible when it has keyboard focus, this is a failure of Baseline 2. Focus Visible.
--   If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with Baseline 14. Links. For example, a page with repetitive links should have a descriptive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
+-   If bypass method is provided but cannot be activated by keyboard, this is also a failure of Baseline Test 1.1 Keyboard Access.
+-   If bypass method is in the focus order but is not visible when it has keyboard focus, this is a failure of Baseline 2.1 Focus Visible.
+-   If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with Baseline 14.1 Links. For example, a page with repetitive links should have a descriptive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
 
 ### WCAG 2.0 Techniques
 -   This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques, which require additional assistive tools to function as bypass methods, were not included:

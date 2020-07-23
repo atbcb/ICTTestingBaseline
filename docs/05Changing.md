@@ -15,8 +15,9 @@ Limitations, Assumptions, or Exceptions
 -   The state of form elements (checked, unchecked, etc.) are included in this Baseline.
 -   User initiated changes and automatic updates are included in this test.
 
-Test Procedure for SC 4.1.2 Name, Role, Value
+5.1 Test Procedure for Changes in Content
 ---------------------------------------------
+**Baseline Test ID:** 5.1-ChangeContent
 ### Identify Content
 Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.
 -   It may be necessary to use the mouse to determine whether state changes occur on hover or on click.
@@ -24,9 +25,9 @@ Identify changes in presented content (both user driven and automatic). Examples
 
 ### Test Instructions
 
-1. Check that the page provides a notification of the change in content programmatically. 
+1. Check that the page provides a notification of the change in content programmatically. [SC 4.1.2]
    * Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions.
-1. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate.
+1. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate. [SC 4.1.2]
     * Name: the name is accurate after a change. 
         * Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable. 
     * Role: the role accurately describes the purpose of the element after a change, if applicable.
@@ -36,11 +37,11 @@ Identify changes in presented content (both user driven and automatic). Examples
     * Value: the value is updated after a change, if applicable.
 
 ### Test Results
-- If any of the above checks fail, then SC 4.1.2 and Baseline Requirement 5 fail.
+- If any of the above checks fail, then Baseline Test 5.1-ChangeContent fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
--   Changing content might also include changes in color to convey information. If so, this test should check that the name is updated to reflect the meaning of the changed color. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 7. Sensory Characteristics](07Sensory.md).
+-   Changing content might also include changes in color to convey information. If so, this test should check that the name is updated to reflect the meaning of the changed color. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 7. Sensory Characteristics](07Sensory.md)).
 -   The number of event notifications can be very large; if the number of changes to an element is unknown or very large, a sampling approach may be necessary.
 
 ----------------------------------------

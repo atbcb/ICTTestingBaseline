@@ -11,38 +11,41 @@ The default human language for each page must be programmatically identified. Pa
 
 Limitations, Assumptions or Exceptions
 --------------------------------------
--   For Web content, the language attribute lang can be an attribute for many HTML tags. The structure for it is &lt;\[HTML tag\] lang="\[primary language subtag\]"&gt;. The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. Dialects specified after the primary language subtag (additional 2 or 3 character codes) are not part of this test.
+-   For Web content, the language attribute lang can be an attribute for many HTML tags. The structure for it is HTML tag `lang="[primary language subtag]"`. The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. Dialects specified after the primary language subtag (additional 2 or 3 character codes) are not part of this test.
 -   Exception: Proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text are not covered by the Language of Parts.
 
-Test Procedure for SC 3.1.1 Language of Page
+15.1 Test Procedure for Language of Page
 --------------------------------------------
+**Baseline Test ID:** 15.1-LanguagePage
 ### Identify Content
 Pages with text (including text alternatives).
 
 ### Test Instructions
 1.  Identify the default human language of the page by reviewing the page content. The default human language of the page is the language in which most of the content is presented.
-2.  Check that the lang attribute is defined on the &lt;html&gt; tag for the page.
-3.  Check that the value of the lang attribute matches the determined default human language for the page.
-    1.  The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)
-    2.  The primary language subtag must conform to the Internet Assigned Numbers Authority's [IANA Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).
+2.  Check that the lang attribute is defined on the `<html>` tag for the page. [SC 3.1.1]
+3.  Check that the value of the lang attribute matches the determined default human language for the page. [SC 3.1.1]
+    -  The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)
+    -  The primary language subtag must conform to the Internet Assigned Numbers Authority's [IANA Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).
 
 ### Test Results
-If any of the above checks fail, SC 3.1.1 and Baseline Requirement 15 fail.
+If any of the above checks fail, then Baseline Test 15.1-LanguagePage fails.
 
-Test Procedure for SC 3.1.2 Language of Parts
+15.2 Test Procedure for Language of Parts
 ---------------------------------------------
+**Baseline Test ID:** 15.2-LanguagePart
 ### Identify Content
 Text content that differs from the default human language of the page including alternative text for non-text content.
 
 ### Test Instructions
 1.  Identify the human language of the text content that differs from the default human language of the page.
-2.  Check that the lang attribute is specified for any HTML element that contains a content segment that differs from the default human language of the page. Note: An element without a set language inherits its language attribute from parent elements.
-3.  Check that the value of the lang attribute is correctly defined for the content segment.
+2.  Check that the lang attribute is specified for any HTML element that contains a content segment that differs from the default human language of the page. [SC 3.1.2]
+    - Note: An element without a set language inherits its language attribute from parent elements.
+3.  Check that the value of the lang attribute is correctly defined for the content segment. [SC 3.1.2]
     1.  The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)
     2.  The primary language subtag must conform to the Internet Assigned Numbers Authority's [IANA Language subtag registry](http://www.iana.org/assignments/language-subtag-registry).
 
 ### Test Results
--   If any of the above checks fail, SC 3.1.2 and Baseline Requirement 15 fail.
+-   If any of the above checks fail, then Baseline Test 15.2-LanguagePart fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
