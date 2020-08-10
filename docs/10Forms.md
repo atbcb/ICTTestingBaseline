@@ -35,12 +35,12 @@ Limitations, Assumptions, or Exceptions
 ## 10.1 Test Procedure for Form Names 
 **Baseline Test ID:** 10.1-FormName
 ### Identify Content
-1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.
+1.  Find all form components/controls. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.
 2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
 ### Test Instructions
 1.  Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]
-1.  Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each input field and includes all relevant instructions and cues (textual and graphical). Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description. [SC 1.3.1]
+1.  Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each form component/control and includes all relevant instructions and cues (textual and graphical). Reference [HTML Accessibility API Mappings 1.0](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element) for details on techniques that contribute to the computation of the accessible name and accessible description. [SC 1.3.1]
 
 ### Test Results
 If any of the above checks fail, then Baseline Test 10.1-FormName fails.
@@ -48,11 +48,11 @@ If any of the above checks fail, then Baseline Test 10.1-FormName fails.
 ## 10.2 Test Procedure for Form Labels Descriptive 
 **Baseline Test ID:** 10.2-FormDescriptiveLabel
 ### Identify Content
-1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
+1.  Find all form components/controls. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.
 2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
 ### Test Instructions
-1.  Check that provided labels and/or instructions for each form input inform users what input data is expected and, if applicable, what format is required. [SC 2.4.6]
+1.  Check that provided labels and/or instructions for each form component/control inform users what input data is expected and, if applicable, what format is required. [SC 2.4.6]
 
 ### Test Results
 If any of the above checks fail, then Baseline Test 10.2-FormDescriptiveLabel fails.
@@ -100,7 +100,7 @@ If any of the above checks fail, then Baseline Test 10.4-ErrorIdentification fai
 -----------------------------------------------
 **Baseline Test ID:** 10.5-FormHasLabel
 ### Identify Content
-1.  Find all form input components. Examples include text fields, radio buttons, checkboxes, multi-select lists.
+1.  Find all form components/controls. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.
 2.  Find all instructions and cues (textual and graphical) that are related to form components/controls, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
 
 ### Test Instructions
