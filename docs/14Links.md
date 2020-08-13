@@ -28,7 +28,7 @@ All links including those that are scripted elements and assigned a role of a li
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
--   In cases where the link takes one to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link (which is to take you to the document or web application).
+-   In cases where the link is to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link (which is to take you to the document or web application).
 
 ### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
