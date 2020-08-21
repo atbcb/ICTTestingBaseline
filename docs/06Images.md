@@ -43,7 +43,7 @@ Limitations, Assumptions, Exceptions
 **Baseline Test ID:** 6.2-DecorativeImage
 
 ### Identify Content
-1.  Identify any decorative image that conveys no meaningful information or is described in text content.
+1.  Identify any decorative image that is pure decoration, is used only for visual formatting, or is not presented to users.
 
 #### Test Instructions
 Check that at least one of the following is true [SC 1.1.1]:
