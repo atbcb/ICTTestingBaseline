@@ -15,62 +15,65 @@ Limitations, Assumptions, or Exceptions
 -   A page with only one heading on the page does not have a heading level structure and would not be tested for heading structure.
 -   Pages can have more than one heading level 1 or no heading level 1.
 -   The heading level 1 on a page is not required to match the page title.
--   The order of heading levels may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an &lt;h2&gt; heading may be used for a navigation structure that precedes an &lt;h1&gt; title on a page. Similarly, &lt;h1&gt; may be followed by &lt;h3&gt; without &lt;h2&gt; between them. 
+-   The order of heading levels may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an `<h2>` heading may be used for a navigation structure that precedes an `<h1>` title on a page. Similarly, `<h1>` may be followed by `<h3>` without `<h2>` between them. 
 -   Not all lists need markup. For instance, sentences that contain comma-separated lists may not need list markup ([H48: Using ol, ul and dl for lists or groups of links](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)).
 
-Test Procedure for SC 2.4.6 Headings and Labels
+13.1 Test Procedure for Descriptive Headings
 -----------------------------------------------
+**Baseline Test ID:** 13.1-HeadingDescriptive
 ### Identify Content
 Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page or screen.
 
 ### Test Instructions
-1.  Check that each heading describes the topic or purpose of its content.
+1.  Check that each heading describes the topic or purpose of its content. [SC 2.4.6]
 
 ### Test Results
-If any of the above checks fail, SC 2.4.6 and Baseline Requirement 13 fail.
+If any of the above checks fail, then Baseline Test 13.1-HeadingDescriptive fails.
 
-Test Procedure for SC 1.3.1 Info and Relationships
+13.2 Test Procedure for Visual Headings Programmatic   
 --------------------------------------------------
-### Visually Apparent Headings
+**Baseline Test ID:** 13.2-VisHeadingProg
 #### Identify Content
 Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.
 
 #### Test Instructions
-1.  Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure:
-    1.  The most important heading(s) should have the highest priority level. For example, &lt;h1&gt; is a higher level than &lt;h2&gt;, which is higher than &lt;h3&gt;.
+1.  Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:
+    1.  The most important heading(s) should have the highest priority level. For example, `<h1>` is a higher level than `<h2>`, which is higher than `<h3>`.
     1.  Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.
     1.  HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
-        -   [H42](https://www.w3.org/TR/WCAG20-TECHS/H42.html): each heading is marked with &lt;h1&gt; to &lt;h6&gt;.
-        -   [ARIA12](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html): each heading is marked with role=”heading” and aria-level=”\#”. The default heading level is "2" when none is specified.
+        -   [H42](https://www.w3.org/TR/WCAG20-TECHS/H42.html): each heading is marked with `<h1>` to `<h6>`.
+        -   [ARIA12](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html): each heading is marked with `role="heading"` and `aria-level="#"`. The default heading level is "2" when none is specified.
 
 #### Test Results
-If the above check fails, SC 1.3.1 and Baseline Requirement 13 fail.
+If the above check fails, then Baseline Test 13.2-VisHeadingProg fails.
 
-### Programmatically Identified Headings
+### 13.3 Test Procedure for Programmatic Headings Visual
+**Baseline Test ID:** 13.3-ProgHeadingVisual
 #### Identify Content
-Programmatically determined headings: &lt;h1&gt; to &lt;h6&gt; or ARIA role=”heading”.
+Programmatically determined headings: `<h1>` to `<h6>` or ARIA `role="heading"`.
 
 #### Test Instructions
-1.  Check that each programmatically determinable heading is also serving as a visual heading on the page. Content that is not a visual heading cannot have a role of heading (for example, heading markup should not be used for emphasis on an element that is not a heading for content after it).
+1.  Check that each programmatically determinable heading is also serving as a visual heading on the page. Content that is not a visual heading cannot have a role of heading (for example, heading markup should not be used for emphasis on an element that is not a heading for content after it). [SC 1.3.1]
 
 #### Test Results
-If the above check fails, SC 1.3.1 and Baseline Requirement 13 fail.
+If the above check fails, then Baseline Test 13.3-ProgHeadingVisual fails.
 
-### Visually Apparent Lists
+### 13.4 Test Procedure for Visually Apparent Lists
+**Baseline Test ID:** 13.4-List
 #### Identify Content
 Visually apparent lists. For each list, determine if it appears to be ordered, unordered, or a description list.
--   Ordered lists are numbered sequentially and, if necessary, hierarchically (e.g., 1, 2, 2a, 2ai, etc.) and are used where sequence or the ability to reference specific items by number/letter is important.
--   Unordered lists are not numbered and are used where sequence or the ability to reference specific items by number/letter is not important.
--   Description lists (dl) are used to group terms with their descriptions.
+-   Ordered lists `<ol>` are numbered sequentially and, if necessary, hierarchically (e.g., 1, 2, 2a, 2ai, etc.) and are used where sequence or the ability to reference specific items by number/letter is important.
+-   Unordered lists `<ul>` are not numbered and are used where sequence or the ability to reference specific items by number/letter is not important.
+-   Description lists `<dl>` are used to group terms with their descriptions.
 
 #### Test Instructions
 1.  For each visually apparent list:
-    1.  Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is marked as an unordered list.
-    2.  Check that content that has the visual appearance of a numbered list is marked as an ordered list.
-    3.  Check that content is marked as a description list when terms and their descriptions are presented in the form of a list.
+    1.  Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is marked as an unordered list. [SC 1.3.1]
+    2.  Check that content that has the visual appearance of a numbered list is marked as an ordered list. [SC 1.3.1]
+    3.  Check that content is marked as a description list when terms and their descriptions are presented in the form of a list. [SC 1.3.1]
 
 #### Test Results
-If the above check fails, SC 1.3.1 and Baseline Requirement 13 fail.
+If the above check fails, Baseline Test 13.4-List fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

@@ -16,8 +16,9 @@ Limitations, Assumptions, or Exceptions
 -   User initiated changes and automatic updates are included in this test.
 - If an ARIA live region is used to provide programmatic notification of changes in content, a value of `"off"` for an `aria-live` attribute is ***NOT*** sufficient to provide programmatic notification (whether implicitly or explicitly defined).
 
-Test Procedure for SC 4.1.2 Name, Role, Value
+5.1 Test Procedure for Changes in Content
 ---------------------------------------------
+**Baseline Test ID:** 5.1-ChangeContent
 ### Identify Content
 Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.
 -   It may be necessary to use the mouse to determine whether state changes occur on hover or on click.
@@ -25,11 +26,12 @@ Identify changes in presented content (both user driven and automatic). Examples
 
 ### Test Instructions
 
-1. Check that the page provides a notification of the change in content programmatically.
-   * Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions (with `aria-live` set to a valid value other than `"off"`).
-1. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate.
-    * Name: the name is accurate after a change.
-        * Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable.
+1. Check that the page provides a notification of the change in content programmatically. [SC 4.1.2]
+   * Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions.
+1. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate. [SC 4.1.2]
+    * Name: the name is accurate after a change. 
+        * Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable. 
+
     * Role: the role accurately describes the purpose of the element after a change, if applicable.
         * Consider ARIA role, element type, and other descriptive text.
     * State: the state of the element is accurate after a change, if applicable
@@ -37,13 +39,13 @@ Identify changes in presented content (both user driven and automatic). Examples
     * Value: the value is updated after a change, if applicable.
 
 ### Test Results
-- If any of the above checks fail, then SC 4.1.2 and Baseline Requirement 5 fail.
+- If any of the above checks fail, then Baseline Test 5.1-ChangeContent fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
+
 - Changing content might also include changes in color to convey information. If so, this test should check that the information is programmatically determinable. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 7. Sensory Characteristics](07Sensory.md).
 - The number of event notifications can be very large; if the number of changes to an element is unknown or very large, a sampling approach may be necessary.
 - Although an ARIA live region with an `aria-live` attribute set to `"off"` is not sufficient to provide programmatic notification of content changes, a web page may provide the user with an option to change the value of the `aria-live` politeness setting to provide desired level of notification. Such an option must meet all of the requirements defined in [20. Conforming Alternate Version](20AlternateVersions.md) in order to be considered a "conforming alternate version". It would be helpful to provide instructions for the tester to change the aria-live from "off" before testing the page.
-
 ----------------------------------------
 [Home/Table of Contents](index.md) | [Previous Baseline](04RepetitiveContent.md) | [Next Baseline](06Images.md)

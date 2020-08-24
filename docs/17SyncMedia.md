@@ -31,76 +31,82 @@ Limitations, Assumptions, or Exceptions
     -   Note 2: 1.2.3, 1.2.5, and 1.2.8 overlap somewhat with each other. This is to give the author some choice at the minimum conformance level, and to provide additional requirements at higher levels. At Level A in Success Criterion 1.2.3, authors do have the choice of providing either an audio description or a full text alternative. If they wish to conform at Level AA, under Success Criterion 1.2.5 authors must provide an audio description - a requirement already met if they chose that alternative for 1.2.3, otherwise an additional requirement.
 -   For this Section 508 baseline, synchronized media is tested for SC 1.2.5; (Level A) SC 1.2.3 is not tested. At the higher conformance level AA, SC 1.2.5 requires audio descriptions and is more restrictive than SC 1.2.3.
 
-Test Procedure for Section 508 503.4
+17.1 Test Procedure for Media Player Controls
 ------------------------------------
+**Baseline Test ID:** 17.1-MediaPlayerCCADControls
 ### Identify Content
 Media player that displays video with synchronized audio.
 
 ### Test Instructions
-1.  Check that user controls for the selection of captions and audio descriptions are provided.
+1.  Check that user controls for the selection of captions and audio descriptions are provided. [Section 508 503.4]
 
 ### Test Results
-If any of the above checks fail, Section 508 503.4 and Baseline Requirement 17 fail.
+If any of the above checks fail, then Baseline Requirement 17.1-MediaPlayerCCADControls fails.
 
-Test Procedure for Section 508 503.4.1
+17.2 Test Procedure for Media Player Caption Control Level
 --------------------------------------
+**Baseline Test ID:** 17.2-MediaPlayerCCLevel
 ### Identify Content
 Media player that displays video with synchronized audio and has volume adjustment controls.
 
 ### Test Instructions
-1.  Check that user controls for the selection of captions are at the same menu level as the user controls for volume adjustment or program selection.
+1.  Check that user controls for the selection of captions are at the same menu level as the user controls for volume adjustment or program selection. [Section 508 503.4.1]
 
 ### Test Results
-If any of the above checks fail, Section 508 503.4.1 and Baseline Requirement 17 fail.
+If any of the above checks fail, then Baseline Test 17.2-MediaPlayerCCLevel fails.
 
-Test Procedure for Section 508 503.4.2
+17.3 Test Procedure for Media Player Audio Description Control Level
 --------------------------------------
+**Baseline Test ID:** 17.3-MediaPlayerADLevel
 ### Identify Content
 Media player that displays video with synchronized audio and has program selection controls.
 
 ### Test Instructions
-1.  Check that user controls for the selection of audio descriptions are at the same menu level as the user controls for volume or program selection.
+1.  Check that user controls for the selection of audio descriptions are at the same menu level as the user controls for volume or program selection. [Section 508 503.4.2]
 
 ### Test Results
-If any of the above checks fail, Section 508 503.4.2 and Baseline Requirement 17 fail.
+If any of the above checks fail, then Baseline Test 17.3-MediaPlayerADLevel fails.
 
-Test Procedure for SC 1.2.2 Captions (Prerecorded)
+17.4 Test Procedure for SC 1.2.2 Captions (Prerecorded)
 --------------------------------------------------
+**Baseline Test ID:** 17.4-CaptionsPrerecorded
 ### Identify Content
 Pre-recorded synchronized multimedia.
 
 ### Test Instructions
 1.  Enable captions through multimedia player functions and play the media. If a separate media file with captions is provided, test that file.
-2.  Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location.
+2.  Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location. [SC 1.2.2]
     1.  Listen to the audio of the entire synchronized media.
     2.  Compare the audio to the captions for accuracy, time-synchronization, and equivalence.
-3.  Check that the captions do not obscure or obstruct relevant information in the video.
+3.  Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]
 
 ### Test Results
-If any of the above checks fail, SC 1.2.2 and Baseline 17 fail.
+If any of the above checks fail, then Baseline 17.4-CaptionsPrerecorded fails.
 
-Test Procedure for SC 1.2.5 Audio Description (Prerecorded)
+17.5 Test Procedure for Audio Description (Prerecorded)
 -----------------------------------------------------------
+**Baseline Test ID:** 17.5-ADPrerecorded
 ### Test Instructions
 1.  Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that file.
-2.  Check that the audio (with audio descriptions enabled) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content.
+2.  Check that the audio (with audio descriptions enabled) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content. [SC 1.2.5]
 
 ### Test Results
-If any of the above checks fail, SC 1.2.5 and Baseline 17 fail.
+If any of the above checks fail, then Baseline 17.5-ADPrerecorded fails.
 
-Test Procedure for SC 1.2.4 Captions (Live)
+17.6 Test Procedure for SC 1.2.4 Captions (Live)
 -------------------------------------------
+**Baseline Test ID:** 17.6-CaptionsLive
 ### Identify Content
 Live synchronized multimedia.
 
 ### Test Instructions
 1.  Enable captions through multimedia player functions and start the live session.
-2.  Check that provided captions include dialogue and important sounds.
+2.  Check that provided captions include dialogue and important sounds. [SC 1.2.4]
     1.  Listen to the audio of the entire synchronized media.
     2.  Compare the audio to the captions for accuracy, time-synchronization, and equivalence. Lower accuracy of captions for live broadcasts may be acceptable due to limitations of real-time caption capabilities.
 
 ### Test Results
-If any of the above checks fail, SC 1.2.4 and Baseline Requirement 17 fail.
+If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
