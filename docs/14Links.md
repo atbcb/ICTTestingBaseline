@@ -1,4 +1,4 @@
-# 14. Links and Buttons
+# 14. Links
 
 Accessibility Requirements
 --------------------------
