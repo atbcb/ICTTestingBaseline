@@ -30,8 +30,6 @@ Note: Linearization of table content is the presentation of a table’s two-dime
     -   HTML `<table>`
     -   ARIA `role="table"`
     -   ARIA `role="grid"`
-    -   **NOTE**: according to [HTML5 specifications](https://www.w3.org/TR/html52/tabular-data.html#ref-for-allowed-aria-role-attribute-values%E2%91%A6%E2%91%A3), the `<table>` element and associated elements and attributes may not be used in combination with ARIA `role="table"` and associated roles and attributes. If a table combines these techniques, it fails this test. ARIA `role="grid"`, on the other hand, **may** be used on a `<table>` element.
-        > For example, if an author applies the grid role to an HTML table element, the author does not need to apply the row and gridcell roles to the descendant HTML `<tr>` and `<td>` elements because the user agent will automatically make the appropriate translations. When the author is reusing a native host language table element and needs a gridcell element to span multiple rows or columns, the author SHOULD apply the appropriate host language attributes instead of WAI-ARIA aria-rowspan or aria-colspan properties (from [Accessible Rich Internet Applications (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria-1.1/#grid)).
 1.  Check that the data `<table>` element DOES NOT have `role="presentation"` or `role="none"`. [SC 1.3.1]
 2.  Table data cell: Check that each data cell uses only one of the following methods to identify it as a data cell within a table row depending on the technique identified in the first step [SC 1.3.1]:
     -   For HTML `<table>`: `<td>` for the cell, which must be within a `<tr>` row.
