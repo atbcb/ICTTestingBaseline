@@ -19,7 +19,7 @@ Updates to the ICT Testing Baseline for Web are in progress. This is a DRAFT of 
 You are welcome to monitor progress, create forks of the proposed Testing Baseline and test cases, propose improvements (via issues and pull requests), and submit test cases to help validate test processes and tools. The working group will post the ICT Testing Baseline for Web to [this GitHub repository](https://github.com/Section508Coordinators/ICTTestingBaseline/).  
 
 ### How to contact the working group:
-Please email ictbaseline@gsa.gov and include in the subject "ICT Baseline Update" wiht any comments or suggestions.
+Please [email ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in the subject "ICT Baseline Update" with any comments or suggestions.
 
 ## Contents:
 [Introduction](introduction.md)
