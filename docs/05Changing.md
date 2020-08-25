@@ -47,5 +47,6 @@ Advisory: Tips for streamlined test processes
 - Changing content might also include changes in color to convey information. If so, this test should check that the information is programmatically determinable. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 7. Sensory Characteristics](07Sensory.md).
 - The number of event notifications can be very large; if the number of changes to an element is unknown or very large, a sampling approach may be necessary.
 - Although an ARIA live region with an `aria-live` attribute set to `"off"` is not sufficient to provide programmatic notification of content changes, a web page may provide the user with an option to change the value of the `aria-live` politeness setting to provide desired level of notification. Such an option must meet all of the requirements defined in [20. Conforming Alternate Version](20AlternateVersions.md) in order to be considered a "conforming alternate version". It would be helpful to provide instructions for the tester to change the aria-live from "off" before testing the page.
+
 ----------------------------------------
 [Home/Table of Contents](index.md) | [Previous Baseline](04RepetitiveContent.md) | [Next Baseline](06Images.md)
