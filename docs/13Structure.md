@@ -47,7 +47,8 @@ Visually apparent headings, which denote sections of content. Headings are often
 #### Test Results
 If the above check fails, then Baseline Test 13.2-VisHeadingProg fails.
 
-### 13.3 Test Procedure for Programmatic Headings Visual
+13.3 Test Procedure for Programmatic Headings Visual
+--------------------------------------------------
 **Baseline Test ID:** 13.3-ProgHeadingVisual
 #### Identify Content
 Programmatically determined headings: `<h1>` to `<h6>` or ARIA `role="heading"`.
@@ -58,7 +59,8 @@ Programmatically determined headings: `<h1>` to `<h6>` or ARIA `role="headi
 #### Test Results
 If the above check fails, then Baseline Test 13.3-ProgHeadingVisual fails.
 
-### 13.4 Test Procedure for Visually Apparent Lists
+13.4 Test Procedure for Visually Apparent Lists
+--------------------------------------------------
 **Baseline Test ID:** 13.4-List
 #### Identify Content
 Visually apparent lists. For each list, determine if it appears to be ordered, unordered, or a description list.
