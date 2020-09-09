@@ -46,7 +46,7 @@ Please [email ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in t
 11. [Page Titles](11PageTitles.md)
 12. [Tables](12DataTables.md)
 13. [Content Structure](13Structure.md)
-14. [Links and Buttons](14Links.md)
+14. [Links](14Links.md)
 15. [Language](15Language.md)
 16. [Audio-Only and Video-Only](16AudioVideo.md)
 17. [Synchronized Media](17SyncMedia.md)
