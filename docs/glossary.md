@@ -53,6 +53,13 @@ Label
 Name
 : Text by which software can identify a component to the user. A name may be hidden and only exposed by assistive technology, whereas a label is presented to all users. In many cases, the label and the name are the same. Name is unrelated to the name attribute in HTML. (*Update link!* Source [Section 508 Definitions](https://beta.access-board.gov/ict/ch1e/#E103-Definitions))
 
+Non-text content
+: any content that is not a sequence of characters that can be programmatically determined or where the sequence is not expressing something in human language
+
+  >Note: This includes ASCII Art (which is a pattern of characters), emoticons, leetspeak (which uses character substitution), and images representing text
+  
+  (Source [WCAG 2.0 Glossary](https://www.w3.org/TR/WCAG20/#non-text-contentdef))
+
 Programmatically Determinable
 : Ability to be determined by software from author-supplied data that is provided in a way that different user agents, including assistive technologies, can extract and present the information to users in different modalities. (*Update link!* Source [Section 508 Definitions](https://beta.access-board.gov/ict/ch1e/#E103-Definitions))
 
