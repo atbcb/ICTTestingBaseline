@@ -30,7 +30,7 @@ Please [email ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in t
 
 [Appendix A - Cross-Reference Tables](AppendixA.md)
 
-[Appendix B - Document Change Log](AppendixB.md)
+[Appendix B - Document Change Log](ChangeLog3.md)
 
 [Appendix C - References](references.md)
 
