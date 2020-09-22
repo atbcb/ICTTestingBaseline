@@ -25,6 +25,20 @@ Aria-live (property)
 : Indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region.(Source [W3C Accessible Rich Internet Applications (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria-1.1/#aria-live))
 : The values of this attribute are expressed in degrees of importance. When regions are specified as polite, assistive technologies will notify users of updates but generally do not interrupt the current task, and updates take low priority. When regions are specified as assertive, assistive technologies will immediately notify the user, and could potentially clear the speech queue of previous updates. When regions are specified as off, this ndicates that updates to the region should not be presented to the user unless the user is currently focused on that region.
 
+Changes of context
+: major changes in the content of the Web page that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously
+
+: Changes in context include changes of: 1) user agent; 2) viewport; 3) focus; 4) content that changes the meaning of the Web page.
+
+  >Note: A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
+
+  >Example: Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.
+
+  (Source [WCAG 2.0 Glossary](https://www.w3.org/TR/WCAG20/#context-changedef))
+
+Decorative image
+: an [image](#image) that is pure decoration or is used only for visual formatting
+
 ICT Testing Baseline Portfolio
 : tbd
 
@@ -36,16 +50,24 @@ ICT Baseline Test Cases
 
 * Equivalent description
 
-* Form components (examples given in [TC10-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-001-fail.html), [-008-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-008-dna.html), and [-009-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-009-dna.html))
-* Form component instructions and cues (examples given in [TC10-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-001-fail.html), [-008-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-008-dna.html), and [-009-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-009-dna.html))
+Form components
+: (examples given in [TC10-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-001-fail.html), [-008-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-008-dna.html), and [-009-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-009-dna.html))
+
+Form component instructions and cues
+: (examples given in [TC10-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-001-fail.html), [-008-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-008-dna.html), and [-009-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-009-dna.html))
+
+<a id="image">Image</a>
+: non-text content available in file formats that include JPEG, GIF, TIFF, and SVG.  
+:([TC06-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC06-001-fail.html) and [TC06-002-pass](https://section508coordinators.github.io/BaselineTestPages/testcases/TC06-002-pass.html) have a list of examples)
 
 Information and Communication Technology (ICT)
 : Information technology and other equipment, systems, technologies, or processes, for which the principal function is the creation, manipulation, storage, display, receipt, or transmission of electronic data and information, as well as any associated content. Examples of ICT include, but are not limited to: computers and peripheral equipment; information kiosks and transaction machines; telecommunications equipment; customer premises equipment; multifunction office machines; software; applications; Web sites; videos; and, electronic documents. (*Update link!* Source [Section 508 Definitions](https://beta.access-board.gov/ict/ch1e/#E103-Definitions))
 
-* Image ([TC06-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC06-001-fail.html) and [TC06-002-pass](https://section508coordinators.github.io/BaselineTestPages/testcases/TC06-002-pass.html) have a list of examples)
-  * Decorative image
-  * Meaningful image
-* Input element
+Meaningful image
+: an [image](#image) that conveys information
+
+Input element
+: a form that 
 
 Label
 : Text, or a component with a text alternative, that is presented to a user to identify content. A label is presented to all users, whereas a name may be hidden and only exposed by assistive technology. In many cases, the name and the label are the same. (*Update link!* Source [Section 508 Definitions](https://beta.access-board.gov/ict/ch1e/#E103-Definitions))
@@ -57,7 +79,7 @@ Non-text content
 : any content that is not a sequence of characters that can be programmatically determined or where the sequence is not expressing something in human language
 
   >Note: This includes ASCII Art (which is a pattern of characters), emoticons, leetspeak (which uses character substitution), and images representing text
-  
+
   (Source [WCAG 2.0 Glossary](https://www.w3.org/TR/WCAG20/#non-text-contentdef))
 
 Programmatically Determinable
@@ -65,6 +87,13 @@ Programmatically Determinable
 
 Revised 508 Standards
 : The standards for ICT developed, procured, maintained, or used by agencies subject to Section 508 of the Rehabilitation Act as set forth in 508 Chapters 1 and 2 (36 CFR part 1194, Appendix A), and Chapters 3 through 7 (36 CFR part 1194, Appendix C). (*Update link!* Source [Section 508 Definitions](https://beta.access-board.gov/ict/ch1e/#E103-Definitions))
+
+Same relative order
+: same position relative to other items
+
+  >Note: Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
+
+    (Source [WCAG 2.0 Glossary](https://www.w3.org/TR/WCAG20/#samerelorderdef))
 
 Standard keyboard navigation
 : Entails using one or more of the following - Tab key, Shift+Tab, Arrow keys, Esc key, Enter key, Space key. (Source [ACT Rules Glossary](https://act-rules.github.io/glossary/#standard-keyboard-navigation))
