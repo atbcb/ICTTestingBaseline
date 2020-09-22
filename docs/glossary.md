@@ -16,14 +16,17 @@ Accessible name
 Accessible name and accessible description computation
 : The accessible name and description computation is used to generate both the accessible name and accessible description. There are different rules provided for several different types of elements, nodes, and combinations of markup. Text alternatives are built up, when appropriate, from all the relevant content contained within an element. This is accomplished via steps 2B and 2F, which are recursive, using the full set of rules to retrieve text from its own children or nodes it references.
 
-: The purpose of the computation is to create a perceivable label or description for alternative presentations, in the form of a flat string of space separated textual tokens.(Source [W3C Accessible Name and Description Computation 1.1](https://www.w3.org/TR/accname-1.1/#mapping_additional_nd))
+: The purpose of the computation is to create a perceivable label or description for alternative presentations, in the form of a flat string of space separated textual tokens.
+
+: (Source [W3C Accessible Name and Description Computation 1.1](https://www.w3.org/TR/accname-1.1/#mapping_additional_nd))
 
 ARIA
 : WAI-ARIA, the Accessible Rich Internet Applications Suite, defines a way to make Web content and Web applications more accessible to people with disabilities. It especially helps with dynamic content and advanced user interface controls developed with Ajax, HTML, JavaScript, and related technologies. (Source [W3C WAI-ARIA Overview](https://www.w3.org/WAI/standards-guidelines/aria/))
 
 Aria-live (property)
-: Indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region.(Source [W3C Accessible Rich Internet Applications (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria-1.1/#aria-live))
+: Indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region.
 : The values of this attribute are expressed in degrees of importance. When regions are specified as polite, assistive technologies will notify users of updates but generally do not interrupt the current task, and updates take low priority. When regions are specified as assertive, assistive technologies will immediately notify the user, and could potentially clear the speech queue of previous updates. When regions are specified as off, this ndicates that updates to the region should not be presented to the user unless the user is currently focused on that region.
+: (Source [W3C Accessible Rich Internet Applications (WAI-ARIA) 1.1](https://www.w3.org/TR/wai-aria-1.1/#aria-live))
 
 Changes of context
 : major changes in the content of the Web page that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously
@@ -40,37 +43,42 @@ Decorative image
 : an [image](#image) that is pure decoration or is used only for visual formatting
 
 ICT Testing Baseline Portfolio
-: tbd
+: a suite of Testing Baselines that identify all requirements for Section 508 conformance testing of [ICT](#ict)
 
 ICT Baseline Test Cases
-: tbd
+: Code examples that pass, fail, or are inapplicable for each Baseline Test
 
-* Changes in presented content: driven and automatic
-* Change of state
+Changes in presented content: driven and automatic
+: updates made to content that are within a page, i.e., a new page is not loaded.
 
-* Equivalent description
+Change of state
+: update to an element's state property. Examples include checked/unchecked, expanded/collapsed.
+
+Equivalent description
+: a text alternative that provides the same information conveyed by non-text content
 
 Form components
-: (examples given in [TC10-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-001-fail.html), [-008-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-008-dna.html), and [-009-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-009-dna.html))
+: any interactive control that functions to accept user data 
+: includes, but not limited to, `<input>`, `<select>`, `<textarea>`, `<button>`, `<fieldset>`, `<legend>`, `<option>`, `<optgroup>`.
 
 Form component instructions and cues
-: (examples given in [TC10-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-001-fail.html), [-008-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-008-dna.html), and [-009-dna](https://section508coordinators.github.io/BaselineTestPages/testcases/TC10-009-dna.html))
+: guide a user to complete a form component
 
 <a id="image">Image</a>
 : non-text content available in file formats that include JPEG, GIF, TIFF, and SVG.  
-:([TC06-001-fail](https://section508coordinators.github.io/BaselineTestPages/testcases/TC06-001-fail.html) and [TC06-002-pass](https://section508coordinators.github.io/BaselineTestPages/testcases/TC06-002-pass.html) have a list of examples)
 
-Information and Communication Technology (ICT)
+<a id="ict">Information and Communication Technology (ICT)</a>
 : Information technology and other equipment, systems, technologies, or processes, for which the principal function is the creation, manipulation, storage, display, receipt, or transmission of electronic data and information, as well as any associated content. Examples of ICT include, but are not limited to: computers and peripheral equipment; information kiosks and transaction machines; telecommunications equipment; customer premises equipment; multifunction office machines; software; applications; Web sites; videos; and, electronic documents. (*Update link!* Source [Section 508 Definitions](https://beta.access-board.gov/ict/ch1e/#E103-Definitions))
 
-Meaningful image
-: an [image](#image) that conveys information
-
 Input element
-: a form that 
+: an interactive control that functions to accept data from the user. 
+: Examples of `<input>` types include button, date, password, radio, checkbox.
 
 Label
 : Text, or a component with a text alternative, that is presented to a user to identify content. A label is presented to all users, whereas a name may be hidden and only exposed by assistive technology. In many cases, the name and the label are the same. (*Update link!* Source [Section 508 Definitions](https://beta.access-board.gov/ict/ch1e/#E103-Definitions))
+
+Meaningful image
+: an [image](#image) that conveys information
 
 Name
 : Text by which software can identify a component to the user. A name may be hidden and only exposed by assistive technology, whereas a label is presented to all users. In many cases, the label and the name are the same. Name is unrelated to the name attribute in HTML. (*Update link!* Source [Section 508 Definitions](https://beta.access-board.gov/ict/ch1e/#E103-Definitions))
