@@ -122,11 +122,6 @@ User interface component
   (Source [WCAG 2.0 Glossary](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html#user-interface-componentdef))
 
 Web Content Accessibility Guidelines (WCAG) 2.0
-: 
+: web accessibility guidelines published in 2008 by the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C), the main international standards organization for the Internet. 
+: Incorporated by reference in Revised Section 508 Standards (2017), Level A and AA
 
-# Additional Resources
-- [Accessibility Conformance Testing glossary](https://act-rules.github.io/glossary/)
-
-- *Update link!* [US Access Board Section 508 glossary](https://beta.access-board.gov/ict/ch1e/#E103.4)
-
-- [WCAG 2.0 glossary](https://www.w3.org/TR/WCAG20/#glossary)
