@@ -32,6 +32,10 @@ Please [email ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in t
 
 [Appendix B - Document Change Log](AppendixB.md)
 
+[Appendix C - References](references.md)
+
+[Glossary](glossary.md)
+
 ## Contents: The Baseline Tests (\#1 - \#24)
 1. [Keyboard Access](01Keyboard.md)
 2. [Focus](02FocusVisible.md)
