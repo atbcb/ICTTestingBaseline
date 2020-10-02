@@ -80,4 +80,4 @@ Section 508/WCAG Requirement to Baseline
 | WCAG Conformance Requirement 5. Non-Interference                   | [3. Non-Interference](03Noninterference.md); [1. Keyboard Access]](01Keyboard.md); [9. Flashing](09Flashing.md); [21. Timed Events](21TimedEvents.md)         |
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Appendix B - Document Content Change Log](AppendixB.md)
+[Home/Table of Contents](index.md) | [Appendix B - Document Content Change Log](ChangeLog3.md)
