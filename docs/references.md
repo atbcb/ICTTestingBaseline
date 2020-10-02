@@ -1,4 +1,4 @@
-# ICT Testing Baseline for Web References
+# Appendix C - ICT Testing Baseline for Web References
 
 ## Technical References
 
@@ -14,6 +14,10 @@
 
 - [Accessibility Conformance Testing glossary](https://act-rules.github.io/glossary/)
 
-- *Update link!* [US Access Board Section 508 glossary](https://beta.access-board.gov/ict/ch1e/#E103.4)
+- *Link will be updated:* [US Access Board Section 508 glossary](https://beta.access-board.gov/ict/ch1e/#E103.4)
 
 - [WCAG 2.0 glossary](https://www.w3.org/TR/WCAG20/#glossary)
+
+
+----------------------------------------------------------------
+[Home/Table of Contents](index.md) | [Previous Section (Appendix B - Change Log)](ChangeLog3.md) | [Next Section (Glossary)](glossary.md)
