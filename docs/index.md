@@ -2,7 +2,7 @@ United States Federal Chief Information Officers Council (CIOC)
 
 Accessibility Community of Practice (ACOP)
 
-August 2020 | Version 3.0 (DRAFT)
+October 2020 | Version 3.0
 
 ICT Testing Baseline for Web Accessibility
 ==============================================
@@ -12,14 +12,23 @@ This is the Section 508 ICT Testing Baseline ***for Web***, which determines con
 ## Background
 In January of 2017, the U.S. Access Board released the final rule to revise the Section 508 standards from 2001.  The Revised Section 508 Standards reference the World Wide Web Consortium's (W3C) Web Content Accessibility Guidelines (WCAG) 2.0, Level (A) and (AA) Success Criteria and conformance requirements as the “new” Section 508 standards for Web content.  The ICT Testing Baseline for Web was originally developed as the foundation to update the [DHS Trusted Tester test process](https://section508.gov/test/trusted-tester). With the Trusted Tester process and training completed, the ICT Testing Baseline Working Group (ITBWG) resumed efforts to finalize the Baseline and continue promoting the Baseline as a unified foundation for conformance test processes to improve 508 testing across government. The Baseline for Web was written for those creating a comprehensive test process. However, Federal agencies that have a 508 test process can use the Baseline to determine how well their test process accurately tests for all Section 508 requirements. As part of the Federal Chief Information Officers Council, Accessibility Community of Practice (ACOP), the ITBWG is led by US federal government representatives from [General Services Administration (GSA) Government-wide IT Accessibility Program](https://www.section508.gov/) and the [US Access Board](https://www.access-board.gov/).
 
+With the 508 refresh in 2017 and a change to the Section 508 requirements, the Baseline was updated to incorporate the Revised Section 508 Standards (and WCAG 2.0 Level A and AA). The ICT Testing Baseline for Web, which specifies what must be evaluated for Section 508 conformance, was originally developed as the foundation to update the [DHS Trusted Tester test process](https://section508.gov/test/trusted-tester). However, the Baseline can be used for more than test process development.
+
+Federal agencies that have a different Section 508 test process can also use the Baseline for Web to determine how well their test process accurately tests for all Section 508 requirements. Updates were made to the Baseline to prepare it for use and adoption by all federal agencies. With more test processes aligned to the Baseline, test results from these processes will be more accurate and consistent, allowing agencies to share and trust each other’s accessibility test results.
+
+The Baseline work was led by the US Access Board and GSA representatives with significant contributions from Department of Homeland Security.
+
+With the ICT Testing Baseline for Web now complete, additional components are in development to support how agencies can verify alignment of their test processes with the ICT Baseline. Plans for developing the ICT Testing Baseline Portfolio include coverage for software, hardware, mobile, and other types of ICT that have applicable Section 508 requirements.
+
+
 ## Document status and feedback
-Updates to the ICT Testing Baseline for Web are in progress. This is a DRAFT of version 3.0 and not yet approved for distribution by the Federal Chief Information Officers Council (CIOC) Accessibility Community of Practice (ACOP).
+This is version 3.0 of the ICT Testing Baseline for Web.
 
 ### How to contribute
-You are welcome to monitor progress, create forks of the proposed Testing Baseline and test cases, propose improvements (via issues and pull requests), and submit test cases to help validate test processes and tools. The working group will post the ICT Testing Baseline for Web to [this GitHub repository](https://github.com/Section508Coordinators/ICTTestingBaseline/).  
+You are welcome to create forks of the proposed Testing Baseline, propose improvements (via issues and pull requests), and submit test cases to help validate test processes and tools. The working group will post the ICT Testing Baseline for Web to [this GitHub repository](https://github.com/Section508Coordinators/ICTTestingBaseline/).  
 
 ### How to contact the working group:
-Please [email ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in the subject "ICT Baseline Update" with any comments or suggestions.
+Please [email ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in the subject "ICT Baseline Update" with any comments or suggestions. Thank you for your interest!
 
 ## Contents:
 [Introduction](introduction.md)
@@ -61,4 +70,3 @@ Please [email ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in t
 22. [Resize Text](22Resize.md)
 23. [Multiple Ways](23MultipleWays.md)
 24. [Parsing](24Parsing.md)
-

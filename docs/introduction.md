@@ -6,11 +6,11 @@ ICT Testing Baseline for Web
 
 This document contains baseline tests for conformance to Revised 508 Standards for Web, which incorporates by reference the [WCAG 2.0 Level A and AA Success Criteria](https://www.w3.org/TR/WCAG20/). The baseline tests establish the minimum tests and evaluation guidance that determine whether Web content meets Section 508 requirements. The ICT Testing Baseline is not intended to be a test process itself.
 
-Federal agencies (and other groups) are at liberty to develop test processes that incorporate all the baseline tests and any additional test criteria specific to their needs. Agencies have the option to streamline and combine tests if needed. Although agencies may include non-baseline tests in their processes, all test processes that claim to align to this baseline must include all baseline tests and provide baseline test results. Test processes aligned to the baseline will produce the same baseline test results and will provide consistency across government and confidence in test results shared between agencies. Agency-specific non-baseline tests must be identified and these results must be reported separately from the baseline results.
+Federal agencies (and other groups) are at liberty to develop test processes that incorporate all the baseline tests and any additional test criteria specific to their needs. Agencies have the option to streamline and combine tests if needed. Although agencies may include non-baseline tests in their processes, all test processes that claim to align to this baseline must include all baseline tests and provide baseline test results. Test processes aligned to the baseline will produce the same baseline test results and will provide consistency across government and confidence in test results shared between agencies. Agency-specific non-baseline tests must be identified, and these results must be reported separately from the baseline results.
 
 Use of the ICT Testing Baseline will harmonize testing processes for Section 508 conformance. Test processes that align with this Baseline will produce test results that followed known evaluation procedures.
 
-Background 
+Background
 -----------
 
 The first version of the harmonized baseline was developed in 2009 to establish consistency in Section 508 conformance testing within the US federal government. More details of that effort and outcome are available in the "[Harmonized Testing Process for Section 508 Compliance: Baseline Tests for Software and Web Accessibility](https://www.dhs.gov/sites/default/files/publications/Baseline_Tests_for_Software_and_Web_Accessibility_v2_0_2.pdf)". The Baseline was developed as part of a collaborative project between the accessibility teams at the US Department of Homeland Security (DHS) and the US Social Security Administration (SSA).
@@ -20,7 +20,13 @@ The result of this collaboration was an agreed upon, harmonized baseline tests f
 Updates in this Baseline
 ------------------------
 
-The baseline tests were first developed to cover the original Section 508 technical requirements for both Web and Software. With the Revised Section 508 Standards released in 2017, the baseline required an update.
+The baseline tests were first developed to cover the original Section 508 technical requirements for both Web and Software. Version 3.0 is a major change to the Section 508 ICT Testing Baseline and supporting content. This version contains significant changes to address the Section 508 Refresh and incorporation of the WCAG 2.0 Level A and Level AA Success Criteria.
+
+However, the document also includes a number of other changes to improve the organization and flow of the document, Baseline test logic, and readability of test steps. These changes include:
+  * General alignment of Test Condition construction with the draft W3C Accessibility Conformance Testing (ACT) Task Force Test Rules Format.
+  * Removed references to Failure Conditions and reconstructed as "Checks" in test instructions, with positive pass/fail construction to eliminate double negatives.
+  * The revised instructions include conditions for identifying content to test. If those conditions are not met, the test does not apply.
+  * Addition of unique Baseline Test IDs for easier reference and traceability.
 
 ### Revised 508 Standards
 
@@ -44,7 +50,7 @@ The baseline tests in this document are not intended to be followed in a linear 
 Examine example test processes first
 ------------------------------------
 
-Other federal groups have developed streamlined test processes. The work you are planning may already have been done. Agencies publishing their test processes usually allow other agencies to adopt and use them.
+Other federal groups have developed streamlined test processes. The work you are planning may already have been done. Agencies publishing their test processes usually allow other agencies to adopt and use them. Trusted Tester version 5 is a test process that is in alignment with this Web Baseline.
 
 Examine the advisory notes on each baseline test
 ------------------------------------------------
@@ -54,7 +60,7 @@ Each baseline test in this document has a section entitled “Advisory: Tips for
 Target audiences, requirement and test instruction wording
 ----------------------------------------------------------
 
-The baseline tests have been produced with the assumption that testers have training / skills in accessibility, and have a basic understanding of HTML and the construction of Web pages. Testers must also have knowledge of the content that they are testing, or they must be able to follow an informed test plan.
+The baseline tests have been produced with the assumption that testers have training/skills in accessibility, and have a basic understanding of HTML and the construction of Web pages. Testers must also have knowledge of the content that they are testing, or they must be able to follow an informed test plan.
 
 It is also assumed that testers have necessary skills to evaluate subjective information in context (e.g., the suitability of alternate text for images). Any agency adopting the ICT Testing Baseline and producing their own streamlined process (or adopting a published process) must ensure that testers are given proper documentation, test plans, demonstrations, and access to developers for clarifications and explanations, as appropriate. Any test process incorporating these baseline tests must therefore be tailored to the specific needs of its developers and/or testers.
 
@@ -75,7 +81,7 @@ The test process contains instructions that a tester needs to completely test a 
 
     a.  All baseline tests must be included
 
-    b.  Advisory tips for streamlined test processes may be incorporated
+    b.  Advisory tips for streamlined test processes from this Baseline may be incorporated
 
     c.  Agency-specific, non-baseline tests must be identified and not affect baseline test results
 
@@ -102,7 +108,7 @@ Additional agency-specific tests (see below) must be identified as agency-specif
 
 ### Wording changes, yes; Meaning changes, no
 
-It may be desirable to change wording from the baseline tests. For example, it may be desirable to change passive voice to active voice. Wording changes to create a smooth-flowing, easy to read document are acceptable. However, care should be taken to ensure that the meaning remains the same even though the words used are different. A reviewer of any streamlined test should be able to compare the content to the ICT Testing Baseline and conclude that the meaning and results that would come from a test process remain the same. Any errors or suggested improvements to the baseline should be submitted to [the ICT TEsting Baseline GitHub repository](https://github.com/Section508Coordinators/ICTTestingBaseline/) or emailed to ictbaseline@gsa.gov.
+It may be desirable to change wording from the baseline tests. For example, it may be desirable to change passive voice to active voice. Wording changes to create a smooth-flowing, easy to read document are acceptable. However, care should be taken to ensure that the meaning remains the same even though the words used are different. A reviewer of any streamlined test should be able to compare the content to the ICT Testing Baseline and conclude that the meaning and results that would come from a test process remain the same. Any errors or suggested improvements to the baseline should be submitted to [the ICT Testing Baseline GitHub repository](https://github.com/Section508Coordinators/ICTTestingBaseline/) or emailed to ictbaseline@gsa.gov.
 
 ### Separating out seldom used information
 
@@ -114,14 +120,6 @@ Agencies have the option to enhance their test processes to include more than th
 
 An agency may also create a streamlined process that includes guidance for their accessibility test teams and other personnel on when a given baseline test failure does not result in an agency conformance determination failure. As stated earlier (see Agency issues beyond the test process), test results are only one factor in making internal conformance determinations. An agency policy that accepts a certain baseline failure is the decision of that agency only. While the streamlined process may include such information and guidance for an agency’s internal use, results from it should similarly be separated out from reports when sharing baseline test results between agencies (in other words, report the ICT Testing Baseline results; not the agency's conformance determination).
 
-Reporting Results
------------------
-
-Each baseline test includes instructions with test conditions or “checks” followed by a test results section that describes how to determine whether content passes or fails the test.
-
-The method used in the baseline is to provide test procedures for specific applicable standards or requirements. An agency developing a streamlined test process can present findings in a way that meets their testing needs. However, failures must be explained in the report and must tie to Section 508 conformance requirements and applicable baseline test. Reports will generally include things like the type of failure, the location of the failure, and supporting screen captures with test tool results. Reports may also describe any peer review process used.
-
-It is not required that agency conformance determinations that result from test results be included in any test reports that are shared between agencies. Including such information is not discouraged, however.
 
 -------------------------------------------------
 [Home/Table of Contents](index.md)    |    [Baseline Test 1. Keyboard Access](01Keyboard.md)
