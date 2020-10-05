@@ -77,7 +77,7 @@ Section 508/WCAG Requirement to Baseline
 | 36 CFR 1194 503.4.1 Caption Controls                               | [17. Synchronized Media](17SyncMedia.md)        |
 | 36 CFR 1194 503.4.2 Audio Description Controls                     | [17. Synchronized Media](17SyncMedia.md)        |
 | WCAG Conformance Requirement 1. Conformance Level                  | [20. Alternate Versions](20AlternateVersions.md)        |
-| WCAG Conformance Requirement 5. Non-Interference                   | [3. Non-Interference](03Noninterference.md); [1. Keyboard Access]](01Keyboard.md); [9. Flashing](09Flashing.md); [21. Timed Events](21TimedEvents.md)         |
+| WCAG Conformance Requirement 5. Non-Interference                   | [3. Non-Interference](03Noninterference.md); [1. Keyboard Access](01Keyboard.md); [9. Flashing](09Flashing.md); [21. Timed Events](21TimedEvents.md)         |
 
 ----------------------------------------
 [Home/Table of Contents](index.md) | [Appendix B - Document Content Change Log](ChangeLog3.md)
