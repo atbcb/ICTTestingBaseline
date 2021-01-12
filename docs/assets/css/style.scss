@@ -2,6 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-a {text-decoration: underline!important;}
+a {text-decoration: underline!important; color: #0670c7!important;}
 ol ol{list-style-type: lower-roman;}
 ol ol ol{list-style-type: lower-alpha;}
