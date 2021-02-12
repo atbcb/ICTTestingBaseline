@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 a {text-decoration: underline; color: #0670c7;}
-a #forkme_banner, .footer_wrap a {text-decoration: none; color: #ffffff;}
+a #forkme_banner, a .footer_wrap {text-decoration: none; color: #ffffff;}
 ol ol{list-style-type: lower-roman;}
 ol ol ol{list-style-type: lower-alpha;}
