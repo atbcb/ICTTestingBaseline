@@ -29,7 +29,6 @@ Limitations, Assumptions, or Exceptions
 </ol>
 
 ### Test Instructions
-
 <ol>
 <li id="TI-1">Check that the page provides a notification of the change in content programmatically. [SC 4.1.2]</li>
    <ul>
