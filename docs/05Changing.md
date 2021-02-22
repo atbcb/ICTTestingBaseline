@@ -53,7 +53,7 @@ Limitations, Assumptions, or Exceptions
 </ol>
 
 ### Test Results
-- If any of the above checks fail, then Baseline Test 5.1-ChangeContent fails.{#results}
+- If any of the above checks fail, then Baseline Test 5.1-ChangeContent fails.
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
