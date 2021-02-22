@@ -53,9 +53,7 @@ Limitations, Assumptions, or Exceptions
 </ol>
 
 ### Test Results
-<ul id="TR" style="list-style: none;">
-   <li id="TR-1" style=">If any of the above checks fail, then Baseline Test 5.1-ChangeContent fails.</li>
-</ul>
+<p id="TR-1">If any of the above checks fail, then Baseline Test 5.1-ChangeContent fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
