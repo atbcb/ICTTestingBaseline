@@ -31,12 +31,15 @@ Identify changes in presented content (both user driven and automatic). Examples
 2. For each change in content, check that the combination of name, role, state, and value of the changed content is accurate. [SC 4.1.2]
 
     a. Name: the name is accurate after a change. 
+    
         - Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable.
          
     b. Role: the role accurately describes the purpose of the element after a change, if applicable.
+    
         - Consider ARIA role, element type, and other descriptive text.
         
     c. State: the state of the element is accurate after a change, if applicable
+    
         - Evaluate ARIA and element-specific attributes (e.g., `<option selected=”true”>`)
        
     d. Value: the value is updated after a change, if applicable.
