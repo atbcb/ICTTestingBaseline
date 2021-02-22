@@ -20,7 +20,7 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------------
 **Baseline Test ID:** 5.1-ChangeContent
 ### Identify Content
-<ol>
+<ol id="IC">
    <li id="IC-1">Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.</li>
    <ul>
       <li>It may be necessary to use the mouse to determine whether state changes occur on hover or on click.</li>
@@ -29,7 +29,7 @@ Limitations, Assumptions, or Exceptions
 </ol>
 
 ### Test Instructions
-<ol>
+<ol id="TI">
 <li id="TI-1">Check that the page provides a notification of the change in content programmatically. [SC 4.1.2]</li>
    <ul>
       <li>Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions.</li>
@@ -53,7 +53,9 @@ Limitations, Assumptions, or Exceptions
 </ol>
 
 ### Test Results
-- If any of the above checks fail, then Baseline Test 5.1-ChangeContent fails.
+<ul id="TR" style="list-style: none;">
+   <li id="TR-1" style=">If any of the above checks fail, then Baseline Test 5.1-ChangeContent fails.</li>
+</ul>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
