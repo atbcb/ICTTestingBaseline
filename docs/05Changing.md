@@ -21,7 +21,7 @@ Limitations, Assumptions, or Exceptions
 **Baseline Test ID:** 5.1-ChangeContent
 ### Identify Content
 <ol>
-   <li>Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.</li>
+   <li id="IC-1">Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.</li>
    <ul>
       <li>It may be necessary to use the mouse to determine whether state changes occur on hover or on click.</li>
       <li>Depending on the component, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
@@ -31,25 +31,25 @@ Limitations, Assumptions, or Exceptions
 ### Test Instructions
 
 <ol>
-<li>Check that the page provides a notification of the change in content programmatically. [SC 4.1.2]</li>
+<li id="TI-1">Check that the page provides a notification of the change in content programmatically. [SC 4.1.2]</li>
    <ul>
       <li>Programmatic event notifications include alert dialogs, focus shifts to the content that changed, and ARIA live regions.</li>
    </ul>
-<li>For each change in content, check that the combination of name, role, state, and value of the changed content is accurate. [SC 4.1.2]</li>
+<li id="TI-2">For each change in content, check that the combination of name, role, state, and value of the changed content is accurate. [SC 4.1.2]</li>
    <ol>
-      <li>Name: the name is accurate after a change. </li>
+      <li id="TI-2i">Name: the name is accurate after a change. </li>
          <ul>
             <li>Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable.</li>
          </ul>
-      <li>Role: the role accurately describes the purpose of the element after a change, if applicable.</li>
+      <li id="TI-2ii">Role: the role accurately describes the purpose of the element after a change, if applicable.</li>
          <ul>
             <li>Consider ARIA role, element type, and other descriptive text.</li>
          </ul>
-      <li>State: the state of the element is accurate after a change, if applicable.</li>
+      <li id="TI-2iii">State: the state of the element is accurate after a change, if applicable.</li>
          <ul>
             <li>Evaluate ARIA and element-specific attributes (e.g., `<option selected=”true”>`).</li>
          </ul>
-      <li>Value: the value is updated after a change, if applicable.</li>
+      <li id="TI-2iv">Value: the value is updated after a change, if applicable.</li>
    </ol>
 </ol>
 
