@@ -38,7 +38,7 @@ Limitations, Assumptions, or Exceptions
    <ol>
       <li id="TI-2i">Name: the name is accurate after a change. </li>
          <ul>
-            <li>Apply the [accessible name and description computation](https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation), if applicable.</li>
+            <li>Apply the <a href="https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation">accessible name and description computation]</a>, if applicable.</li>
          </ul>
       <li id="TI-2ii">Role: the role accurately describes the purpose of the element after a change, if applicable.</li>
          <ul>
