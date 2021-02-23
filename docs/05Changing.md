@@ -46,7 +46,7 @@ Limitations, Assumptions, or Exceptions
          </ul>
       <li id="TI-2iii">State: the state of the element is accurate after a change, if applicable.</li>
          <ul>
-            <li>Evaluate ARIA and element-specific attributes (e.g., `&#060;option selected=”true”&#062;`).</li>
+            <li>Evaluate ARIA and element-specific attributes (e.g., <code>&#060;option selected=”true”&#062;</code>).</li>
          </ul>
       <li id="TI-2iv">Value: the value is updated after a change, if applicable.</li>
    </ol>
