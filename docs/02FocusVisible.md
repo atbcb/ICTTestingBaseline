@@ -36,50 +36,62 @@ Limitations, Assumptions, or Exceptions
 **Baseline Test ID:** 2.1-FocusVisible
 
 ### Identify Content
-
-Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).
+<p id="1IC">
+Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).</p>
 
 ### Tests Instructions
-1.  Use the keyboard to navigate through each interface component.
-2.  Check that a visible indication of focus is provided when focus is on the interface component.[SC 2.4.7]
-
+<ol id="1TI">
+    <li id="1TI-1">Use the keyboard to navigate through each interface component.</li>
+    <li id="1T-2">Check that a visible indication of focus is provided when focus is on the interface component.[SC 2.4.7]</li>
+</ol>
 ### Test Results
--   If any of the above checks fail, then Baseline Test 2.1-FocusVisible fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 2.1-FocusVisible fails.</p>
 
 2.2 Test Procedure for Focus Order
 ---------------------------------------
 **Baseline Test ID:** 2.2-FocusOrder
 ### Identify Content
-Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.
+<p id="2IC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.</p>
 
 ### Test Instructions
-1.  Use the keyboard to navigate through interface components.
-    1.  Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
-        1.  Check that the revealed focusable content is included in the focus order. [SC 2.4.3]
-        2.  Advance the focus through the revealed content.
-    1.  Use the keyboard to close/hide the revealed content.
-        1.  Check that focus is returned to the trigger control. (It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]
-2.  Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]
-
+<ol id="2TI">
+    <li id="2TI-1">Use the keyboard to navigate through interface components.</li>
+    <ol>
+        <li id="2TI-1i">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).</li>
+        <ol>
+            <li id="2TI-1ia">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
+            <li id="2TI-1ib">Advance the focus through the revealed content.</li>
+        </ol>
+        <li id="2TI-1ii">Use the keyboard to close/hide the revealed content.</li>
+        <ol>
+            <li id="2TI-1iia">Check that focus is returned to the trigger control. (It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
+        </ol>
+    </ol>
+    <li id="2TI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
+</ol>
 ### Test Results
-If any of the above checks fail, then Baseline Test 2.2-FocusOrder fails.
+<p id="2TR">If any of the above checks fail, then Baseline Test 2.2-FocusOrder fails.</p>
 
 2.3 Test Procedure for On Focus
 ------------------------------------
 **Baseline Test ID:** 2.3-OnFocus
 ### Identify Content
-Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).
+<p id="3IC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).</p>
 
 ### Test Instructions
-1.  Use the keyboard to move focus to and navigate through each interactive interface component (including form drop-down lists and form fields).
-2.  Check that when an interface component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1] 
-    1. Examples of a change of context include:
-        -   Forms submitted automatically when a component receives focus
-        -   New windows launched when a component receives focus
-        -   Focus is moved to another component
-
+<ol id="3TI">
+    <li id="3TI-1">Use the keyboard to move focus to and navigate through each interactive interface component (including form drop-down lists and form fields).</li>
+    <li id="3TI-2">Check that when an interface component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1]<br>
+    Examples of a change of context include:</li>
+        <ul>
+            <li>Forms submitted automatically when a component receives focus</li>
+            <li>New windows launched when a component receives focus</li>
+            <li>Focus is moved to another component</li>
+        </ul>
+    <ol>
+</ol>
 ### Test Results
-If any of the above checks fail, then Baseline Test 2.3-OnFocus fails.
+<p id="3TR">If any of the above checks fail, then Baseline Test 2.3-OnFocus fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

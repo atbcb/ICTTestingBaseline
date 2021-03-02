@@ -22,44 +22,50 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 -----------------------------------------
 **Baseline Test ID:** 4.1-BypassBlocks
 ### Identify Content
-Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.
+<p id="1IC">Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.</p>
 
 ### Test Instructions
-1.  Use standard keyboard commands to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.
-2.  Check that a keyboard-accessible method is provided to bypass repetitive content. [SC 2.4.1]
-3.  Use the keyboard to activate the bypass method and verify the functionality of the bypass function.
-4.  Check that the method works as intended. [SC 2.4.1]
-    1. For example:
-        -   The block of repeated content is hidden, closed or skipped.
-        -   If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.
-
+<ol id="1TI">
+    <li id="1TI-1">Use standard keyboard commands to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.</li>
+    <li id="1TI-2">Check that a keyboard-accessible method is provided to bypass repetitive content. [SC 2.4.1]</li>
+    <li id="1TI-3">Use the keyboard to activate the bypass method and verify the functionality of the bypass function.</li>
+    <li id="1TI-4">Check that the method works as intended. [SC 2.4.1]<br>
+        For example:</li>
+        <ul>
+            <li>The block of repeated content is hidden, closed or skipped.</li>
+            <li>If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.</li>
+        </ul>
+</ol>
 ### Test Results
-If any of the above checks fail, then Baseline Test 4.1-BypassBlocks fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 4.1-BypassBlocks fails.</p>
 
 4.2 Test Procedure for Consistent Navigation
 -------------------------------------------------
 **Baseline Test ID:** 4.2-ConsistentNavigation
 ### Identify Content
-Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).
+<p id="2IC">Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).</p>
 
 ### Test Instructions
-1. Review multiple Web pages. Do not initiate changes to the content.
-2. Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]
+<ol id="2TI">
+    <li id="2TI-1">Review multiple Web pages. Do not initiate changes to the content.</li>
+    <li id="2TI-2">Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]</li>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 4.2-ConsistentNavigation fails.
+<p id="2TR">If any of the above checks fail, then Baseline Test 4.2-ConsistentNavigation fails.</p>
 
 4.3 Test Procedure for Consistent Identification
 -----------------------------------------------------
 **Baseline Test ID:** 4.3-ConsistentIdentification
 ### Identify Content
-Components that have the same functionality within a set of Web pages.
+<p id="3IC">Components that have the same functionality within a set of Web pages.</p>
 
 ### Test Instructions
-1.  Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] 
-
+<ol id="3TI">
+    <li id="3TI-1">Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] </li>
+</ol>
 ### Test Results
-If any of the above checks fail, then Baseline Test 4.3-ConsistentIdentification fails.
+<p id="3TR">If any of the above checks fail, then Baseline Test 4.3-ConsistentIdentification fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
