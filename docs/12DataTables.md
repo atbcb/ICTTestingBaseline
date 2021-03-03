@@ -20,17 +20,20 @@ Limitations, Assumptions, Exceptions
 ------------------------------------------------
 **Baseline Test ID:** 12.1-DataTable
 ### Identify Content
-All content/data visually presented in a table with column and/or row headers where the content is not in a meaningful sequence when linearized.
+<p id="1IC">All content/data visually presented in a table with column and/or row headers where the content is not in a meaningful sequence when linearized.<br>
 
-Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.
+Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 
 ### Test Instructions
-
-1.  Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques [SC 1.3.1]:
-    -   HTML `<table>`
-    -   ARIA `role="table"`
-    -   ARIA `role="grid"`
-1.  Check that the data `<table>` element DOES NOT have `role="presentation"` or `role="none"`. [SC 1.3.1]
+<ol id="1TI">
+    <li id="1TI-1">Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques [SC 1.3.1]:</li>
+        <ul>
+            <li>HTML <code>&lt;table&gt;</code></li>
+            <li>ARIA <code>>role="table"</code></li>
+            <li>ARIA <code>role="grid"</code></li>
+        </ul>
+    <li id="1TI-2">Check that the data `<table>` element DOES NOT have `role="presentation"` or `role="none"`. [SC 1.3.1]</li>
+    <li id="1TI-3">
 2.  Table data cell: Check that each data cell uses only one of the following methods to identify it as a data cell within a table row depending on the technique identified in the first step [SC 1.3.1]:
     -   For HTML `<table>`: `<td>` for the cell, which must be within a `<tr>` row.
     -   For ARIA `role="table"`: ARIA `role="cell"`, which must be within an ARIA `role="row"`.
