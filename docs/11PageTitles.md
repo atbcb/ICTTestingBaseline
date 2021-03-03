@@ -19,7 +19,7 @@ Limitations, Assumptions, Exceptions
 ---------------------------------------
 **Baseline Test ID:** 11.1-PageTitled
 ### Identify Content
-<p id="1IC">Page <code>title</code> element for the page.</p>
+<p id="1IC">Page <code><title></code> element for the page.</p>
 
 ### Test Instructions
 <ol id="1TI">
