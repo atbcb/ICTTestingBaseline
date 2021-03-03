@@ -17,27 +17,31 @@ Limitations, Assumptions, or Exceptions
 **Baseline Test ID:** 19.1-FrameTitle
 
 #### Identify Content
-Frames
+<p id="1IC">Frames</p>
 
 #### Test Instructions
-1.  Check if each `<frame>` has a title attribute that describes its content. [SC 4.1.2]
+<ol id="1TI">
+    <li id="1TI-1">Check if each <code>&lt;frame&gt;</code> has a title attribute that describes its content. [SC 4.1.2]</li>
+</ol>
 
 #### Test Results
-If any of the above checks fail, then Baseline Test 19.1-FrameTitle fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 19.1-FrameTitle fails.</p>
 
 19.2 Test Procedure for iFrames
 ---------------------------------------------
 **Baseline Test ID:** 19.2-iFrameName
 
 #### Identify Content
-iFrames
+<p id="2IC">iFrames</p>
 
 #### Test Instructions
-1.  Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]
-1.  Check that the non-empty combination of [accessible name and description](https://www.w3.org/TR/html-aam-1.0/#iframe-element) for each `<iframe>` describes its content. [SC 4.1.2]
+<ol id="2TI">
+    <li id="2TI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="2TI-2">Check that the non-empty combination of <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element" target="_blank" rel="noopener">accessible name and description</a> for each <code>&lt;iframe&gt;</code> describes its content. [SC 4.1.2]</li>
+</ol>
 
 #### Test Results
-If any of the above checks fail, then Baseline Test 19.2-iFrameName fails.
+<p id="2TR">If any of the above checks fail, then Baseline Test 19.2-iFrameName fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

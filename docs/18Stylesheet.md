@@ -20,28 +20,34 @@ Limitations, Assumptions, or Exceptions
 ------------------------------------------------------------------------
 **Baseline Test ID:** 18.1-CSSMeaningfulImage
 ### Identify Content
-Meaningful background images rendered by CSS
+<p id="1IC">Meaningful background images rendered by CSS</p>
 
 ### Test Instructions
-1.  Check that the meaningful CSS image provides an equivalent text alternative description: [SC 1.1.1]
-    - ARIA role=”img” and non-empty aria-label value, and
-    - The aria-label value provides the same information as the meaningful background image
+<ol id="1TI">
+    <li id="1TI-1">Check that the meaningful CSS image provides an equivalent text alternative description: [SC 1.1.1]</li>
+        <ul>
+            <li>ARIA role=”img” and non-empty aria-label value, and</li>
+            <li>The aria-label value provides the same information as the meaningful background image</li>
+        </ul>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 18.1-CSSMeaningfulImage fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 18.1-CSSMeaningfulImage fails.</p>
 
 18.2 Test Procedure for CSS Positioned Content
 -----------------------------------------------
 **Baseline Test ID:** 18.2-CSSPositionedContent
 ### Identify Content
-Content positioned with CSS position:
+<p id="2IC">Content positioned with CSS position</p>
 
 ### Test Instructions
-1.  Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]
-2.  Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]
+<ol id="2TI">
+    <li id="2TI-1">Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]</li>
+    <li id="2TI-2">Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]</li>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 18.2-CSSPositionedContent fail.
+<p id="2TR">If any of the above checks fail, then Baseline Test 18.2-CSSPositionedContent fail.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

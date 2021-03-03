@@ -32,19 +32,23 @@ Limitations, Assumptions, or Exceptions
 -----------------------------------------------
 **Baseline Test ID:** 20.1-ConformingAltVersion
 ### Identify Content
-Multiple versions of the same content.
+<p id="1IC">Multiple versions of the same content</p>
 
 ### Test Instructions
-1.  Check that the alternate version provides all of the same information and functionality in the same human language. 
-2.  Check that the alternate version is as up to date as the non-conforming content.
-3.  Check that the alternate version passes all other baseline tests.
-4.  Check that at least one of the following is true:
-    1.  the conforming alternate version can be reached from the non-conforming version via an accessibility-supported mechanism, or
-    2.  the non-conforming version can only be reached from the alternate version, or
-    3.  the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.
+<ol id="1TI">
+    <li id="1TI-1">Check that the alternate version provides all of the same information and functionality in the same human language.</li>
+    <li id="1TI-2">Check that the alternate version is as up to date as the non-conforming content.</li>
+    <li id="1TI-3">Check that the alternate version passes all other baseline tests.</li>
+    <li id="1TI-4">Check that at least one of the following is true:</li>
+        <ol>
+        <li id="1TI-4i">the conforming alternate version can be reached from the non-conforming version via an accessibility-supported mechanism, or</li>
+        <li id="1TI-4ii">the non-conforming version can only be reached from the alternate version, or</li>
+        <li id="1TI-4iii">the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.</li>
+        </ol>
+</ol>
 
 ### Test Results
-If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20.1-ConformingAltVersion DOES NOT APPLY.
+<p id="1TR">If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20.1-ConformingAltVersion DOES NOT APPLY.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
