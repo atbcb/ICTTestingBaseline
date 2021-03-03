@@ -96,6 +96,10 @@ Limitations, Assumptions, or Exceptions
 17.5 Test Procedure for Audio Description (Prerecorded)
 -----------------------------------------------------------
 **Baseline Test ID:** 17.5-ADPrerecorded
+
+### Identify Content
+<p id="5IC">Pre-recorded synchronized multimedia.</p>
+
 ### Test Instructions
 <ol id="5TI">
     <li id="5TI-1">Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that file.</li>
