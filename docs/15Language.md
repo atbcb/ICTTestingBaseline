@@ -23,11 +23,11 @@ Limitations, Assumptions or Exceptions
 ### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Identify the default human language of the page by reviewing the page content. The default human language of the page is the language in which most of the content is presented.</li>
-    <li id="1TI-2">Check that the lang attribute is defined on the `<html>` tag for the page. [SC 3.1.1]</li>
+    <li id="1TI-2">Check that the lang attribute is defined on the <code>&lt;html&gt;</code> tag for the page. [SC 3.1.1]</li>
     <li id="1TI-3">Check that the value of the lang attribute matches the determined default human language for the page. [SC 3.1.1]</li>
     <ul>
         <li>The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)</li>
-        <li>The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="http://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.
+        <li>The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="http://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.</li>
     </ul>
 </ol>
 
