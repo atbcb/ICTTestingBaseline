@@ -22,14 +22,14 @@ Limitations, Assumptions, or Exceptions
 <ol id="1TI">
     <li id="1TI-1">Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]<br>
     These may include (but are not limited to) techniques such as:</li>
-        <ol>
+        <ul>
         <li id="1TI-1i">site maps</li>
         <li id="1TI-1ii">site search</li>
         <li id="1TI-1iii">tables of contents</li>
         <li id="1TI-1iv">navigation menus or dropdowns</li>
         <li id="1TI-1v">navigation trees</li>
         <li id="1TI-1vi">links between pages</li>
-        </ol>
+        </ul>
 </ol>
 
 ### Test Results

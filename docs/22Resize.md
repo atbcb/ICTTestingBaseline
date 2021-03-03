@@ -22,11 +22,11 @@ Limitations, Assumptions, or Exceptions
 <ol id="1TI">
     <li id="1TI-1">Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] <br>
     Known approaches include:</li>
-        <ol>
+        <ul>
         <li id="1TI-1i">Browser zoom function</li>
         <li id="1TI-1ii">Accessibility features provided by the platform or Operating System</li>
         <li id="1TI-1iii">Controls to change text size. (If browser, operating system, or platform’s zoom function is not supported by the page, the page must provide the resize mechanism.)</li>
-        </ol>
+        </ul>
     <li id="1TI-2">Modify the font size appearance to twice the width and height, or 200% larger.</li>
     <li id="1TI-3">Check for all of the following [SC 1.4.4]:</li>
         <ol>
