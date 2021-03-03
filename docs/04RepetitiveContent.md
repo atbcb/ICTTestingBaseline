@@ -36,6 +36,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
             <li>If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.</li>
         </ul>
 </ol>
+
 ### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Test 4.1-BypassBlocks fails.</p>
 
@@ -64,6 +65,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 <ol id="3TI">
     <li id="3TI-1">Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] </li>
 </ol>
+
 ### Test Results
 <p id="3TR">If any of the above checks fail, then Baseline Test 4.3-ConsistentIdentification fails.</p>
 

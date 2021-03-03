@@ -25,63 +25,75 @@ Limitations, Assumptions, Exceptions
 **Baseline Test ID:** 6.1-MeaningfulImage
 
 ### Identify Content
-1.  Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.).
+<p id="1IC">Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.).</p>
 
 #### Test Instructions
-1.  Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]
-1.  Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <ins>[HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element)</ins>. [SC 1.1.1]
-    1.  Descriptions of the image that are provided by page content must be programmatically associated.
-    1.  When an image is updated to convey a new meaning, check that its text alternative is updated at the same time. [SCs 1.1.1 and 4.1.2]
-2.  Check that the ARIA role is NOT "presentation".
-3.  Check that the ARIA role is NOT "none".
-4.  Check that aria-hidden is NOT set to "true".
+<ol id="1TI">
+    <li id="1TI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
+    <li id="1TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>. [SC 1.1.1]</li>
+    <ol>
+        <li id="1TI-2i">Descriptions of the image that are provided by page content must be programmatically associated.</li>
+        <li id="1TI-2ii">When an image is updated to convey a new meaning, check that its text alternative is updated at the same time. [SCs 1.1.1 and 4.1.2]</li>
+    </ol>
+    <li id="1TI-3">Check that the ARIA role is NOT "presentation".</li>
+    <li id="1TI-4">Check that the ARIA role is NOT "none".</li>
+    <li id="1TI-5">Check that aria-hidden is NOT set to "true".</li>
+</ol>
 
 #### Test Results
--   If any of the above checks fail, then Baseline Test 6.1-MeaningfulImage fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 6.1-MeaningfulImage fails.</p>
 
 ## 6.2 Test Procedure for Decorative Images
 **Baseline Test ID:** 6.2-DecorativeImage
 
 ### Identify Content
-1.  Identify any decorative image that is pure decoration, is used only for visual formatting, or is not presented to users.
+<p id="2IC">Identify any decorative image that is pure decoration, is used only for visual formatting, or is not presented to users.</p>
 
 #### Test Instructions
-Check that at least one of the following is true [SC 1.1.1]:
-1.  The ARIA role is "presentation".
-2.  The ARIA role is "none".
-3.  The aria-hidden is set to "true".
-4.  The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to [HTML Accessibility API Mappings 1.0 for img](https://www.w3.org/TR/html-aam-1.0/#img-element).
-5.  The image is inserted via CSS (e.g., using a background image).
+<p id="2TI">
+Check that at least one of the following is true [SC 1.1.1]:<br>
+<ol>
+    <li id="2TI-1">The ARIA role is "presentation".</li>
+    <li id="2TI-2">The ARIA role is "none".</li>
+    <li id="2TI-3">The aria-hidden is set to "true".</li>
+    <li id="2TI-4">The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>.</li>
+    <li id="2TI-5">The image is inserted via CSS (e.g., using a background image).</li>
+</ol>
+</p>
 
 #### Test Results
--   If all of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.
+<p id="2TR">If all of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>
 
 ## 6.3 Test Procedure for Captchas
 **Baseline Test ID:** 6.3-Captcha
 
 ### Identify Content
-1.  Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer.
+<p id="3IC">Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer.</p>
 
 #### Test Instructions
-1.  Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]
-1.  Check that the non-empty text alternative (combination of accessible name and accessible description) identify and describe the purpose of the CAPTCHA. [SC 1.1.1]
-2.  Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. [SC 1.1.1]
+<ol id="3TI">
+    <li id="3TI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
+    <li id="3TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) identify and describe the purpose of the CAPTCHA. [SC 1.1.1]</li>
+    <li id="3TI-3">Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. [SC 1.1.1]</li>
+</ol>
 
 #### Test Results
--   If any of the above checks fail, then Baseline Test 6.3-Captcha fails.
+<p id="3TR">If any of the above checks fail, then Baseline Test 6.3-Captcha fails.</p>
 
 ## 6.4 Test Procedure for Images of Text
 **Baseline Test ID:** 6.4-ImageText
 ### Identify Content
-Identify any images of text, except where a particular presentation of text is essential to the information being conveyed (e.g., logotypes or text that is part of a logo or brand name).
+<p id="4IC">Identify any images of text, except where a particular presentation of text is essential to the information being conveyed (e.g., logotypes or text that is part of a logo or brand name).</p>
 
 ### Test Instructions
-1.  Check that using text cannot achieve the same visual presentation and effect as images of text. [SC 1.4.5]
-2.  Check that the image of text can be visually customized to a user's requirements. [SC 1.4.5]
-    -   For example, web content allows users to specify font, size, color, and background settings, and all images of text are then provided based on those settings.
+<ol id="4TI">
+    <li id="4TI-1">Check that using text cannot achieve the same visual presentation and effect as images of text. [SC 1.4.5]</li>
+    <li id="4TI-2">Check that the image of text can be visually customized to a user's requirements. [SC 1.4.5]. <br>
+    For example, web content allows users to specify font, size, color, and background settings, and all images of text are then provided based on those settings.</li>
+</ol>
 
 ### Test Results
--   If any of the above checks fail, then Baseline Test 6.4-ImageText fail.
+<p id="4TR">If any of the above checks fail, then Baseline Test 6.4-ImageText fail.</p>
 
 
 Advisory: Tips for streamlined test processes

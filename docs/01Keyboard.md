@@ -41,6 +41,7 @@ Limitations, Assumptions, or Exceptions
         <li id="1TI-2i">If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)</li>
     </ol>
 </ol>
+
 ### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Test 1.1-KeyboardAccess fails.</p>
 
@@ -52,7 +53,7 @@ Limitations, Assumptions, or Exceptions
 
 ### Test Instructions
 <ol id="2TI">
-<li id="2TI-1">1.  Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]</li>
+<li id="2TI-1">Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]</li>
     <ol>
         <li id="2TI-1i">If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).</li>
         <li id="2TI-1ii">If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.</li>

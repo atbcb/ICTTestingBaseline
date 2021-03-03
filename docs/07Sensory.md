@@ -18,33 +18,45 @@ Limitations, Assumptions, or Exceptions
 ----------------------------------------
 **Baseline Test ID:** 7.1-Color
 ### Identify Content
-Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors.
+<p id="1IC">Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors.</p>
 
 ### Test Instructions
-1.  Check if one or more of the following is true:
-    1.  The element using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color [SC 1.4.1]
-    2.  The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning [SC 1.4.1]
+<ol id="1TI">
+    <li id="1TI-1">Check if one or more of the following is true:</li>
+    <ol>
+        <li id="1TI-1i">The element using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color [SC 1.4.1]</li>
+        <li id="1TI-1II">The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning [SC 1.4.1]</li>
+    </ol>
+</ol>
 
 ### Test Results
-If BOTH of the above checks fail, then Baseline Test 7.1-Color fails.
+<p id="1TR">If BOTH of the above checks fail, then Baseline Test 7.1-Color fails.</p>
 
 ## 7.2 Test Procedure for Sensory Characteristics
 **Baseline Test ID:** 7.2-SensoryCharacteristics
 ### Identify Content
-Identify instructions for understanding and operating content that use sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.
+<p id="2IC">Identify instructions for understanding and operating content that use sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.</p>
 
 ### Test Instructions
-1.  Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]
-    - For example:
-        -   To see your changes, select the round button labeled "Go".
-        -   The links on the right, with the heading "Resources", provide further information.
-        -   Select the lower-right "Cancel" button to close this session.
-2.  Check that any auditory cues also provide programmatically determinable visual and/or textual cues. [SC 1.3.3]
-    - For instance,
-        -   At the sound of the beep and the appearance of the timer, begin the quiz.
+<ol id="2TI">
+    <li id="2TI-1">Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]<br>
+    <p>For example:</p>
+        <ul>
+            <li>To see your changes, select the round button labeled "Go".</li>
+            <li>The links on the right, with the heading "Resources", provide further information.</li>
+            <li>Select the lower-right "Cancel" button to close this session.</li>
+        </ul>
+    </li>
+    <li id="2TI-2">Check that any auditory cues also provide programmatically determinable visual and/or textual cues. [SC 1.3.3].<br>
+    <p>For instance:</p>
+        <ul>
+            <li>At the sound of the beep and the appearance of the timer, begin the quiz.</li>
+        </ul>
+    </li>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 7.2-SensoryCharacteristics fails.
+<p id="2TR">If any of the above checks fail, then Baseline Test 7.2-SensoryCharacteristics fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

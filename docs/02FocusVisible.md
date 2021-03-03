@@ -36,14 +36,14 @@ Limitations, Assumptions, or Exceptions
 **Baseline Test ID:** 2.1-FocusVisible
 
 ### Identify Content
-<p id="1IC">
-Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).</p>
+<p id="1IC">Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).</p>
 
 ### Tests Instructions
 <ol id="1TI">
     <li id="1TI-1">Use the keyboard to navigate through each interface component.</li>
-    <li id="1T-2">Check that a visible indication of focus is provided when focus is on the interface component.[SC 2.4.7]</li>
+    <li id="1TI-2">Check that a visible indication of focus is provided when focus is on the interface component.[SC 2.4.7]</li>
 </ol>
+
 ### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Test 2.1-FocusVisible fails.</p>
 
@@ -69,6 +69,7 @@ Keyboard accessible interface components (e.g., links, form fields, drop down me
     </ol>
     <li id="2TI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
 </ol>
+
 ### Test Results
 <p id="2TR">If any of the above checks fail, then Baseline Test 2.2-FocusOrder fails.</p>
 
@@ -88,8 +89,8 @@ Keyboard accessible interface components (e.g., links, form fields, drop down me
             <li>New windows launched when a component receives focus</li>
             <li>Focus is moved to another component</li>
         </ul>
-    <ol>
 </ol>
+
 ### Test Results
 <p id="3TR">If any of the above checks fail, then Baseline Test 2.3-OnFocus fails.</p>
 
