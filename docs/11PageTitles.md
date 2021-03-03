@@ -19,11 +19,11 @@ Limitations, Assumptions, Exceptions
 ---------------------------------------
 **Baseline Test ID:** 11.1-PageTitled
 ### Identify Content
-<p id="1IC">Page <code><title></code> element for the page.</p>
+<p id="1IC">Page <code>&lt;title&gt;</code> element for the page.</p>
 
 ### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that a page <code><title></code> element is defined for the page. [SC 2.4.2]</li>
+    <li id="1TI-1">Check that a page <code>&lt;title&gt;</code> element is defined for the page. [SC 2.4.2]</li>
     <li id="1TI-2">Check that the Page Title identifies the contents or purpose of the Web page. [SC 2.4.2]</li>
         <ol>
             <li id="1TI-2i">For pages within a Web site, check that the Page Title can be used to distinguish among the pages.</li>
