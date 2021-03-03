@@ -26,8 +26,8 @@ Limitations, Assumptions, or Exceptions
 <ol id="1TI">
     <li id="1TI-1">Check that the meaningful CSS image provides an equivalent text alternative description: [SC 1.1.1]</li>
         <ul>
-            <li>ARIA role=”img” and non-empty aria-label value, and</li>
-            <li>The aria-label value provides the same information as the meaningful background image</li>
+            <li>ARIA <code>role=”img”</code> and non-empty <code>aria-label</code> value, and</li>
+            <li>The <code>aria-label</code> value provides the same information as the meaningful background image</li>
         </ul>
 </ol>
 
