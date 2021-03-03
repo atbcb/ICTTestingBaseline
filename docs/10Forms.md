@@ -82,7 +82,7 @@ Limitations, Assumptions, or Exceptions
 <ol id="3TI">
     <li id="3TI-1">Enter data in all form fields, and exit (tab out of) the field</li>
     <li id="3TI-2">Change selections and/or values for form components, such as radio buttons, check boxes, select lists, etc.</li>
-    <li id="3TI-3">Check that navigating away from a component and/or changing component values/selections (e.g., entering data in a text field, changing a radio button selection) **does NOT** initiate a change of context unless the user has been advised of the behavior before using the component. [SC 3.2.2]<br>
+    <li id="3TI-3">Check that navigating away from a component and/or changing component values/selections (e.g., entering data in a text field, changing a radio button selection) <strong>does NOT</strong> initiate a change of context unless the user has been advised of the behavior before using the component. [SC 3.2.2]<br>
     Examples of a change of context could include:</li>
     <ul>
         <li>Forms submitted automatically when exiting the field</li>
