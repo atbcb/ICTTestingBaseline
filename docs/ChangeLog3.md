@@ -3,7 +3,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 
 ## Version 3.0.1, March 2021
 All of the changes made in this version were made to the structure of the Baseline test pages to enable anchor references to a specific part of the tests.
-  * Added IDs to Identify Content, Test Instructions, Test Results
+  * Added IDs to Identify Content, Test Instructions, Test Results of all Tests
   * Improved consistency of outline numbers in the Tests
   * Added an Identify Content section to Baseline Test 17.5. No other content changes were made.
 
