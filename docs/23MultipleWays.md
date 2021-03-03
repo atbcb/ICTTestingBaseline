@@ -16,20 +16,24 @@ Limitations, Assumptions, or Exceptions
 -----------------------------------------
 **Baseline Test ID:** 23.1-MultipleWays
 ### Identify Content
-Web page within a set of related Web pages.
+<p id="1IC">Web page within a set of related Web pages.</p>
 
 ### Test Instructions
-1.  Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]
-    - These may include (but are not limited to) techniques such as:
-        -   site maps
-        -   site search
-        -   tables of contents
-        -   navigation menus or dropdowns
-        -   navigation trees
-        -   links between pages
+<ol id="1TI">
+    <li id="1TI-1">Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]<br>
+    These may include (but are not limited to) techniques such as:</li>
+        <ol>
+        <li id="1TI-1i">site maps</li>
+        <li id="1TI-1ii">site search</li>
+        <li id="1TI-1iii">tables of contents</li>
+        <li id="1TI-1iv">navigation menus or dropdowns</li>
+        <li id="1TI-1v">navigation trees</li>
+        <li id="1TI-1vi">links between pages</li>
+        </ol>
+</ol>
 
 ### Test Results
-If the above check fails, then Baseline Test 23.1-MultipleWays fails.
+<p id="1TR">If the above check fails, then Baseline Test 23.1-MultipleWays fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

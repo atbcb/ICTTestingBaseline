@@ -18,17 +18,21 @@ Limitations, Assumptions, or Exceptions
 -----------------------------------
 **Baseline Test ID:** 24.1-Parsing
 ### Identify Content
-All web pages
+<p id="1IC">All web pages</p>
 
 ### Test Instructions
-1.  Check that (except where the specifications allow these features): [SC 4.1.1]
-    1.  elements have complete start and end tags,
-    2.  elements are nested according to their specifications,
-    3.  elements do not contain duplicate attributes, and
-    4.  any IDs are unique.
+<ol id="1TI">
+    <li id="1TI-1">Check that (except where the specifications allow these features): [SC 4.1.1]</li>
+        <ol>
+        <li id="1TI-1i">elements have complete start and end tags,</li>
+        <li id="1TI-1ii">elements are nested according to their specifications,</li>
+        <li id="1TI-1iii">elements do not contain duplicate attributes, and</li>
+        <li id="1TI-1iv">any IDs are unique.</li>
+        </ol>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 24.1-Parsing fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 24.1-Parsing fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

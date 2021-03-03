@@ -36,64 +36,85 @@ Limitations, Assumptions, or Exceptions
 ---------------------------------------------
 **Baseline Test ID:** 21.1-TimingAdjustable
 ### Identify Content
-Identify any instances of content time limits (excluding exceptions described above).
+<p id="1IC">Identify any instances of content time limits (excluding exceptions described above).</p>
 
 ### Test Instructions
-For each instance of an identified time limit for content:
-1.  Check that at least one of the following is true before time expires [SC 2.2.1]:
-    -  The user has the ability to turn off the time limit.
-    -  The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.
-    -  The user is warned before time expires AND:
-        -   Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), AND
-        -   Allowed to extend the time limit at least ten times.
+<p id="1TI">For each instance of an identified time limit for content:
+    <ol>
+    <li id="1TI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:</li>
+        <ol>
+        <li id="1TI-1i">The user has the ability to turn off the time limit.</li>
+        <li id="1TI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
+        <li id="1TI-1iii">The user is warned before time expires AND:</li>
+            <ol>
+            <li id="1TI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), AND</li>
+            <li id="1TI-1iiib">Allowed to extend the time limit at least ten times.</li>
+            </ol>
+        </ol>
+    </ol>
+</p>
 
 ### Test Results
-If the above check fails, then Baseline Test 21.1-TimingAdjustable fails.
+<p id="1TR">If the above check fails, then Baseline Test 21.1-TimingAdjustable fails.</p>
 
 21.2 Test Procedure for Moving Information
 ---------------------------------------------
 **Baseline Test ID:** 21.2-MovingInfo
 
 #### Identify Content
-Any moving, blinking, or scrolling information that meets ALL of the following:
--   Starts automatically, AND
--   Lasts more than 5 seconds, AND
--   Is presented in parallel with other content, AND
--   Moving, blinking, scrolling is not essential
+<p id="2IC">Any moving, blinking, or scrolling information that meets ALL of the following:
+    <ul>
+    <li>Starts automatically, AND</li>
+    <li>Lasts more than 5 seconds, AND</li>
+    <li>Is presented in parallel with other content, AND</li>
+    <li>Moving, blinking, scrolling is not essential</li>
+    </ul>
+</p>
 
 #### Test Instructions
-1.  Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]
+<ol id="2TI">
+    <li id="2TI-1">Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]</li>
+</ol>
 
 #### Test Results
-If the above check fails, then Baseline Test 21.2-MovingInfo fails.
+<p id="2TR">If the above check fails, then Baseline Test 21.2-MovingInfo fails.</p>
 
 ### 21.3 Test Procedure for Auto-updating information
 **Baseline Test ID:** 21.3-AutoUpdate
 #### Identify Content
-Any auto-updating information that meets ALL of the following:
--   Starts automatically, AND
--   Is presented in parallel with other content, AND
--   Is not part of an activity where it is essential
+<p id="3IC">Any auto-updating information that meets ALL of the following:
+    <ul>
+    <li>Starts automatically, AND</li>
+    <li>Is presented in parallel with other content, AND</li>
+    <li>Is not part of an activity where it is essential</li>
+    </ul>
+</p>
 
 #### Test Instructions
-1.  Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]
+<ol id="3TI">
+    <li id="3TI-1">Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]</li>
+</ol>
 
 #### Test Results
-If the above check fails, then Baseline Test 21.2-AutoUpdate fails.
+<p id="3TR">If the above check fails, then Baseline Test 21.2-AutoUpdate fails.</p>
 
 21.4 Test Procedure for Audio Control
 -----------------------------------------
 **Baseline Test ID:** 21.4-AudioControl
 ### Identify Content
-Audio that automatically plays for more than 3 seconds.
+<p id="4IC">Audio that automatically plays for more than 3 seconds.</p>
 
 ### Test Instructions
-1.  Check that either [SC 1.4.2]
-    1.  a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio, **OR**
-    2.  a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.
+<ol id="4TI">
+    <li id="4TI-1">Check that either [SC 1.4.2]</li>
+        <ol>
+        <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio, **OR**</li>
+        <li id="4TI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
+        </ol>
+</ol>
 
 ### Test Results
-If the above check fails, then Baseline Test 21.4-AudioControl fails.
+<p id="4TR">If the above check fails, then Baseline Test 21.4-AudioControl fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
