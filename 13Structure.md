@@ -22,60 +22,77 @@ Limitations, Assumptions, or Exceptions
 -----------------------------------------------
 **Baseline Test ID:** 13.1-HeadingDescriptive
 ### Identify Content
-Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page or screen.
+<p id="1IC">Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page or screen.</p>
 
 ### Test Instructions
-1.  Check that each heading describes the topic or purpose of its content. [SC 2.4.6]
+<ol id="1TI">
+    <li id="1TI-1">Check that each heading describes the topic or purpose of its content. [SC 2.4.6]</li>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 13.1-HeadingDescriptive fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 13.1-HeadingDescriptive fails.</p>
 
 13.2 Test Procedure for Visual Headings Programmatic   
 --------------------------------------------------
 **Baseline Test ID:** 13.2-VisHeadingProg
 #### Identify Content
-Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.
+<p id="2IC">Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.</p>
 
 #### Test Instructions
-1.  Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:
-    1.  The most important heading(s) should have the highest priority level. For example, `<h1>` is a higher level than `<h2>`, which is higher than `<h3>`.
-    1.  Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.
-    1.  HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
-        -   [H42](https://www.w3.org/TR/WCAG20-TECHS/H42.html): each heading is marked with `<h1>` to `<h6>`.
-        -   [ARIA12](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html): each heading is marked with `role="heading"` and `aria-level="#"`. The default heading level is "2" when none is specified.
+<ol id="2IC">
+    <li id="2IC-1">1.  Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:</li>
+        <ol>
+            <li id="2IC-1i">The most important heading(s) should have the highest priority level. For example, <code>&lt;h1&gt;</code> is a higher level than <code>&lt;h2&gt;</code>, which is higher than <code>&lt;h3&gt;</code>.</li>
+            <li id="2IC-1ii">Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.</li>
+            <li id="2IC-1iii">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.</li>
+            <ul>
+                <li><a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html" target="_blank" rel="noopener">H42</a>: each heading is marked with <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</li>
+                <li><a href="https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html" target="_blank" rel="noopener">ARIA12</a>: each heading is marked with <code>role="heading"</code> and <code>aria-level="#"</code>. The default heading level is "2" when none is specified.</li>
+            </ul>
+        </ol>
+</ol>
 
 #### Test Results
-If the above check fails, then Baseline Test 13.2-VisHeadingProg fails.
+<p id="2TR">If the above check fails, then Baseline Test 13.2-VisHeadingProg fails.</p>
 
 13.3 Test Procedure for Programmatic Headings Visual
 --------------------------------------------------
 **Baseline Test ID:** 13.3-ProgHeadingVisual
 #### Identify Content
-Programmatically determined headings: `<h1>` to `<h6>` or ARIA `role="heading"`.
+<p id="3IC">Programmatically determined headings: <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> or ARIA <code>role="heading"</code>.</p>
 
 #### Test Instructions
-1.  Check that each programmatically determinable heading is also serving as a visual heading on the page. Content that is not a visual heading cannot have a role of heading (for example, heading markup should not be used for emphasis on an element that is not a heading for content after it). [SC 1.3.1]
+<ol id="3TI">
+    <li id="3TI-1">Check that each programmatically determinable heading is also serving as a visual heading on the page. Content that is not a visual heading cannot have a role of heading (for example, heading markup should not be used for emphasis on an element that is not a heading for content after it). [SC 1.3.1]</li>
+</ol>
 
 #### Test Results
-If the above check fails, then Baseline Test 13.3-ProgHeadingVisual fails.
+<p id="3TR">If the above check fails, then Baseline Test 13.3-ProgHeadingVisual fails.</p>
 
 13.4 Test Procedure for Visually Apparent Lists
 --------------------------------------------------
 **Baseline Test ID:** 13.4-List
 #### Identify Content
-Visually apparent lists. For each list, determine if it appears to be ordered, unordered, or a description list.
--   Ordered lists `<ol>` are numbered sequentially and, if necessary, hierarchically (e.g., 1, 2, 2a, 2ai, etc.) and are used where sequence or the ability to reference specific items by number/letter is important.
--   Unordered lists `<ul>` are not numbered and are used where sequence or the ability to reference specific items by number/letter is not important.
--   Description lists `<dl>` are used to group terms with their descriptions.
+<p id="4IC">Visually apparent lists. For each list, determine if it appears to be ordered, unordered, or a description list.
+    <ul>
+        <li>Ordered lists <code>&lt;ol&gt;</code> are numbered sequentially and, if necessary, hierarchically (e.g., 1, 2, 2a, 2ai, etc.) and are used where sequence or the ability to reference specific items by number/letter is important.</li>
+        <li>Unordered lists <code>&lt;ul&gt;</code> are not numbered and are used where sequence or the ability to reference specific items by number/letter is not important.</li>
+        <li>Description lists <code>&lt;dl&gt;</code> are used to group terms with their descriptions.</li>
+    </ul>
+</p>
 
 #### Test Instructions
-1.  For each visually apparent list:
-    1.  Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is marked as an unordered list. [SC 1.3.1]
-    2.  Check that content that has the visual appearance of a numbered list is marked as an ordered list. [SC 1.3.1]
-    3.  Check that content is marked as a description list when terms and their descriptions are presented in the form of a list. [SC 1.3.1]
+<ol id="4TI">
+    <li id="4TI-1">For each visually apparent list:</li>
+        <ol>
+        <li id="4TI-1i">Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is marked as an unordered list. [SC 1.3.1]</li>
+        <li id="4Ti-1ii">Check that content that has the visual appearance of a numbered list is marked as an ordered list. [SC 1.3.1]</li>
+        <li id="4TI-1iii">Check that content is marked as a description list when terms and their descriptions are presented in the form of a list. [SC 1.3.1]</li>
+        </ol>
+</ol>
 
 #### Test Results
-If the above check fails, Baseline Test 13.4-List fails.
+<p id="4TR">If the above check fails, Baseline Test 13.4-List fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

@@ -28,30 +28,34 @@ Limitations, Assumptions, or Exceptions
 ----------------------------------------------------
 **Baseline Test ID:** 16.1-AudioOnlyTranscript
 ### Identify Content
-Pre-recorded audio-only content.
+<p id="1IC">Pre-recorded audio-only content.</p>
 
 ### Test Instructions
-1.  Check that the content provides transcript(s) for audio-only content. [SC 1.2.1]
-2.  Check that the transcript is text (i.e., an image of a transcript would not be sufficient to pass this test). [SC 1.2.1]
-3.  Play the audio-only content entirely.
-4.  Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc. [SC 1.2.1]
+<ol id="1TI">
+    <li id="1TI-1">Check that the content provides transcript(s) for audio-only content. [SC 1.2.1]</li>
+    <li id="1TI-2">Check that the transcript is text (i.e., an image of a transcript would not be sufficient to pass this test). [SC 1.2.1]</li>
+    <li id="1TI-3">Play the audio-only content entirely.</li>
+    <li id="1TI-4">Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc. [SC 1.2.1]</li>
+</ol>
 
 ### Test Results
--   If any of the above checks fail, then Baseline Test 16.1-AudioOnlyTranscript fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 16.1-AudioOnlyTranscript fails.</p>
 
 16.2 Test Procedure for SC 1.2.1 Video-only (Prerecorded)
 ----------------------------------------------------
 **Baseline Test ID:** 16.2-VideoOnlyAlt
 ### Identify Content
-Pre-recorded video-only content.
+<p id="2IC">Pre-recorded video-only content.</p>
 
 ### Test Instructions
-1.  Check that all video-only content information is also available through a text alternative (e.g., text that provides description of video content and actions) or an audio track that describes the video content. [SC 1.2.1]
-2.  View the video-only content while referring to the alternative.
-3.  Check that the information in the alternative includes the same information that the video-only presentation displays (e.g., if the video includes multiple characters, the alternative must identify which character is associated with each depicted action). [SC 1.2.1]
+<ol id="2TI">
+    <li id="2TI-1">Check that all video-only content information is also available through a text alternative (e.g., text that provides description of video content and actions) or an audio track that describes the video content. [SC 1.2.1]</li>
+    <li id="2TI-2">View the video-only content while referring to the alternative.</li>
+    <li id="2TI-3">Check that the information in the alternative includes the same information that the video-only presentation displays (e.g., if the video includes multiple characters, the alternative must identify which character is associated with each depicted action). [SC 1.2.1]</li>
+</ol>
 
 ### Test Results
--   If any of the above checks fail, then Baseline Test 16.2-VideoOnlyAlt fail.
+<p id="2TR">If any of the above checks fail, then Baseline Test 16.2-VideoOnlyAlt fail.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

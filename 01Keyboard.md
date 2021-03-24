@@ -25,31 +25,44 @@ Limitations, Assumptions, or Exceptions
 ------------------------------------
 **Baseline Test ID:** 1.1-KeyboardAccess
 ### Identify Content
-All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).
+<p id="IC">All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).</p>
 
 ### Test Instructions
-1.  Check that all functionality can be accessed and executed using only the keyboard. [SC 2.1.1]
-    1.  Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components).
-        1.  If an interactive interface component is not available by keyboard, check if another control is provided on the page with the same functionality which is available by keyboard. (All functionality must meet this requirement.)
-2.  Check that individual keystrokes do not require specific timings for activation.[SC 2.1.1]
-    1.  If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)
+<ol id="1TI">
+<li id="1TI-1">Check that all functionality can be accessed and executed using only the keyboard. [SC 2.1.1]</li>
+    <ol>
+        <li id="1TI-1i">Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components).</li>
+            <ol>
+                <li id="1TI-1ia">If an interactive interface component is not available by keyboard, check if another control is provided on the page with the same functionality which is available by keyboard. (All functionality must meet this requirement.)</li>
+            </ol>
+    </ol>
+<li id="1TI-2">Check that individual keystrokes do not require specific timings for activation.[SC 2.1.1]</li>
+    <ol>
+        <li id="1TI-2i">If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)</li>
+    </ol>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 1.1-KeyboardAccess fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 1.1-KeyboardAccess fails.</p>
 
 1.2 Test Procedure for No Keyboard Trap
 --------------------------------------------
 **Baseline Test ID:** 1.2-NoKeyboardTrap
 ### Identify Content
-Components that receive keyboard focus.
+<p id="2IC">Components that receive keyboard focus.</p>
 
 ### Test Instructions
-1.  Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]
-    1.  If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).
-    2.  If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.
+<ol id="2TI">
+<li id="2TI-1">Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]</li>
+    <ol>
+        <li id="2TI-1i">If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).</li>
+        <li id="2TI-1ii">If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.</li>
+    </ol>
+</ol>
 
 ### Test Results
-If the above check fails, then Baseline Test 1.2-NoKeyboardTrap fails.
+<p id="2TR">If the above check fails, then Baseline Test 1.2-NoKeyboardTrap fails.
+</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

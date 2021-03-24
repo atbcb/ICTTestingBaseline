@@ -26,18 +26,24 @@ Limitations, Assumptions, or Exceptions
 ## 9.1 Test Procedure for Three Flashes or Below Threshold
 **Baseline Test ID:** 9.1-Flashes
 ### Identify Content
-Visually identify content that [flashes](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#flash-def) (excluding exception noted in Limitations, Assumptions, or Exceptions above).
+<p id="1IC">Visually identify content that [flashes](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#flash-def) (excluding exception noted in Limitations, Assumptions, or Exceptions above).</p>
 
 ### Test Instructions
-1.  Determine the flashing frequency. If the flashing frequency is at or below 3Hz (three flashes in any one second period), no further testing is necessary.
-2.  If the content flashes above 3Hz or the frequency cannot be determined, check that it meets one of the following: [SC 2.3.1]
-    1.  The combined, contiguous area that is flashing simultaneously within any 10 degree angle of view is less than the equivalent of the small safe area for flashing (i.e., less than 25% of a 10 degree viewing angle of the total screen size at intended viewing distance).
-    2.  The opposing transitions that flash do not involve a saturated red AND
-        1.  The darkest image’s relative luminance is above 0.80, or
-        2.  The darkest image’s relative luminance is below 0.80 and the maximum change in relative luminance between the darkest image and the brightest image is less than 10%.
+<ol id="1TI">
+    <li id="1TI-1">Determine the flashing frequency. If the flashing frequency is at or below 3Hz (three flashes in any one second period), no further testing is necessary.</li>
+    <li id="1TI-2">If the content flashes above 3Hz or the frequency cannot be determined, check that it meets one of the following: [SC 2.3.1]</li>
+    <ol>
+        <li id="1TI-2i">The combined, contiguous area that is flashing simultaneously within any 10 degree angle of view is less than the equivalent of the small safe area for flashing (i.e., less than 25% of a 10 degree viewing angle of the total screen size at intended viewing distance).</li>
+        <li id="1TI-2ii">The opposing transitions that flash do not involve a saturated red AND</li>
+        <ol>
+            <li id="1TI-2iia">The darkest image’s relative luminance is above 0.80, or</li>
+            <li id="1TI-2iib">The darkest image’s relative luminance is below 0.80 and the maximum change in relative luminance between the darkest image and the brightest image is less than 10%.</li>
+        </ol>
+    </ol>
+</ol>
 
 ### Test Results
-If all of the above checks fail, then Baseline Test 9.1-Flashes fails.
+<p id="1TR">If all of the above checks fail, then Baseline Test 9.1-Flashes fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

@@ -20,52 +20,66 @@ Limitations, Assumptions, Exceptions
 ------------------------------------------------
 **Baseline Test ID:** 12.1-DataTable
 ### Identify Content
-All content/data visually presented in a table with column and/or row headers where the content is not in a meaningful sequence when linearized.
+<p id="1IC">All content/data visually presented in a table with column and/or row headers where the content is not in a meaningful sequence when linearized.</p>
 
-Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.
+<p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 
 ### Test Instructions
-
-1.  Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques [SC 1.3.1]:
-    -   HTML `<table>`
-    -   ARIA `role="table"`
-    -   ARIA `role="grid"`
-1.  Check that the data `<table>` element DOES NOT have `role="presentation"` or `role="none"`. [SC 1.3.1]
-2.  Table data cell: Check that each data cell uses only one of the following methods to identify it as a data cell within a table row depending on the technique identified in the first step [SC 1.3.1]:
-    -   For HTML `<table>`: `<td>` for the cell, which must be within a `<tr>` row.
-    -   For ARIA `role="table"`: ARIA `role="cell"`, which must be within an ARIA `role="row"`.
-    -   For ARIA `role="grid"`: ARIA `role="gridcell"`, which must be within an ARIA `role="row"` (if the ARIA grid is not making use of the native HTML `<table>` element and structure).
-3.  Header cells and data cell association: Identify all column and row headers for each data cell. Check that all data cells are programmatically associated with relevant headers using one of the following techniques [SC 1.3.1]:
-    -   For a simple HTML `<table>`, with all headers in the first row OR column, each header cell can be marked up with `<th>` without additional attributes.
-    -   For any HTML `<table>`, header cells can be marked up with `<scope>` if all data cells that follow the header belong to the header. In HTML4, `<td scope>` is supported. In HTML5, `<td scope>` is not supported so all header cells must be `<th>`. Acceptable values for `scope` are `col|row|colgroup|rowgroup`. The `scope` only applies to cells that occur after the header cell(s) in the reading order.
-    -   For any HTML `<table>`, data cells can be associated to a header cell by including the header cell's unique id value in `<td headers>`.
-        -   Data cells must refer to the id(s) of all relevant header cells via the headers attribute in order for the row and column headers to be properly associated.
-        -   The order of the IDs referenced in the headers attribute are consistent and in a meaningful sequence.
-    -   For any HTML `<table>` that uses BOTH `<scope>` AND refers to header IDs using `<td headers>` attributes in the same table, any data cell with a `headers` reference will override any `scope` attributes for associated table headers for that particular data cell. Therefore, data cells with a `headers` reference, must identify all relevant headers, independent from and regardless of `scope` attributes in associated headers.
-    -   For ARIA `role="table"`: each column header must have `role="columnheader"` and each row header must have `role="rowheader"`.
-    -   For ARIA `role="grid"`: each column header must have `role="columnheader"` and each row header must have `role="rowheader"` (if the ARIA grid is not making use of the native HTML `<table>` element and structure).
+<ol id="1TI">
+    <li id="1TI-1">Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques [SC 1.3.1]:</li>
+        <ul>
+            <li>HTML <code>&lt;table&gt;</code></li>
+            <li>ARIA <code>role="table"</code></li>
+            <li>ARIA <code>role="grid"</code></li>
+        </ul>
+    <li id="1TI-2">Check that the data <code>&lt;table&gt;</code> element DOES NOT have <code>role="presentation"</code> or <code>role="none"</code>. [SC 1.3.1]</li>
+    <li id="1TI-3">Table data cell: Check that each data cell uses only one of the following methods to identify it as a data cell within a table row depending on the technique identified in the first step [SC 1.3.1]:</li>
+        <ul>
+            <li>For HTML <code>&lt;table&gt;</code>: <code>&lt;td&gt;</code> for the cell, which must be within a <code>&lt;tr&gt;</code> row.</li>
+            <li>For ARIA <code>role="table"</code>: ARIA <code>role="cell"</code>, which must be within an ARIA <code>role="row"</code>.</li>
+            <li>For ARIA <code>role="grid"</code>: ARIA <code>role="gridcell"</code>, which must be within an ARIA <code>role="row"</code> (if the ARIA grid is not making use of the native HTML <code>&lt;table&gt;</code> element and structure).</li>
+        </ul>
+    <li id="1TI-4">Header cells and data cell association: Identify all column and row headers for each data cell. Check that all data cells are programmatically associated with relevant headers using one of the following techniques [SC 1.3.1]:</li>
+    <ul>
+        <li>For a simple HTML <code>&lt;table&gt;</code>, with all headers in the first row OR column, each header cell can be marked up with <code>&lt;th&gt;</code> without additional attributes.</li>
+        <li>For any HTML <code>&lt;table&gt;</code>, header cells can be marked up with <code>scope</code> if all data cells that follow the header belong to the header. In HTML4, <code>&lt;td scope&gt;</code> is supported. In HTML5, <code>&lt;td scope&gt;</code> is not supported so all header cells must be <code>&lt;th&gt;</code>. Acceptable values for <code>scope</code> are <code>col|row|colgroup|rowgroup</code>. The <code>scope</code> only applies to cells that occur after the header cell(s) in the reading order.</li>
+        <li>For any HTML <code>&lt;table&gt;</code>, data cells can be associated to a header cell by including the header cell's unique id value in <code>&lt;td headers&gt;</code>.</li>
+            <ul>
+                <li>Data cells must refer to the id(s) of all relevant header cells via the headers attribute in order for the row and column headers to be properly associated.</li>
+                <li>The order of the IDs referenced in the headers attribute are consistent and in a meaningful sequence.</li>
+            </ul>
+        <li>For any HTML <code>&lt;table&gt;</code> that uses BOTH <code>scope</code> AND refers to header IDs using <code>&lt;td headers&gt;</code> attributes in the same table, any data cell with a <code>headers</code> reference will override any <code>scope</code> attributes for associated table headers for that particular data cell. Therefore, data cells with a <code>headers</code> reference, must identify all relevant headers, independent from and regardless of <code>scope</code> attributes in associated headers.</li>
+        <li>For ARIA <code>role="table"</code>: each column header must have <code>role="columnheader"</code> and each row header must have <code>role="rowheader"</code>.</li>
+        <li>For ARIA <code>role="grid"</code>: each column header must have <code>role="columnheader"</code> and each row header must have <code>role="rowheader"</code> (if the ARIA grid is not making use of the native HTML <code>&lt;table&gt;</code> element and structure).</li>
+</ol>
 
 ### Test Results
-If any of the above tests fail, Baseline Test 12.1-DataTable fails.
+<p id="1TR">If any of the above tests fail, Baseline Test 12.1-DataTable fails.</p>
 
 12.2 Test Procedure for Layout Tables
 ------------------------------------------------
 **Baseline Test ID:** 12.2-LayoutTable
 ### Identify Content
-All content/data visually presented in a table that retains any meanigful sequence when linearized.
+<p id="2IC">All content/data visually presented in a table that retains any meanigful sequence when linearized.</p>
 
-Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.
+<p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 
 ### Test Instructions
-1.  Check that tables used purely for layout purposes [SC 1.3.1]:
-    1.  Do NOT designate the layout as a table using ARIA role="table" and associated ARIA table attributes.
-    2.  Do NOT include table structure and relationship elements and/or associated attributes (e.g, `<th>`, summary, `<caption>`, `scope`, and/or `headers`) UNLESS at least one of the following is true:
-        * the table has `role="presentation"`
-        * the table has `role="none"`
-    3.  Do NOT identify column or row headers using `role="columnheader"` or `role="rowheader"` in an ARIA grid (where the data grid is identified using `role="grid"`).
+<ol id="2TI">
+    <li id="2TI-1">Check that tables used purely for layout purposes [SC 1.3.1]:</li>
+        <ol>
+            <li id="2TI-1i">Do NOT designate the layout as a table using ARIA role="table" and associated ARIA table attributes.</li>
+            <li id="2TI-1ii">Do NOT include table structure and relationship elements and/or associated attributes (e.g, <code>&lt;th&gt;</code>, summary, <code>&lt;caption&gt;</code>, <code>scope</code>, and/or <code>headers</code>) UNLESS at least one of the following is true:</li>
+            <ol>
+                <li id="2TI-1iia">the table has <code>role="presentation"</code></li>
+                <li id="2TI-1iib">the table has <code>role="none"</code></li>
+            </ol>
+            <li id="2TI-1iii">Do NOT identify column or row headers using <code>role="columnheader"</code> or <code>role="rowheader"</code> in an ARIA grid (where the data grid is identified using <code>role="grid"</code>).</li>
+        </ol>
+</ol>
 
 ### Test Results
-If any of the above tests fail, Baseline Test 12.2-LayoutTable fails.
+<p id="2TR">If any of the above tests fail, Baseline Test 12.2-LayoutTable fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

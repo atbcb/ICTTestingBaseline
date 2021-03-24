@@ -35,122 +35,154 @@ Limitations, Assumptions, or Exceptions
 ## 10.1 Test Procedure for Form Names 
 **Baseline Test ID:** 10.1-FormName
 ### Identify Content
-1.  Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.
-2.  Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
+<ol id="1IC">
+    <li id="1IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.</li>
+    <li id="1IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
+</ol>
 
 ### Test Instructions
-1.  Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]
-1.  Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each form component and includes all relevant instructions and cues (textual and graphical).  [SC 1.3.1]  For details on the computation of the accessible name and accessible description, references include:
-       - [HTML Accessibility API Mappings 1.0 for text `input`](https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element)
-       - [HTML Accessibility API Mappings for `input` controls](https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset)
-       - [HTML Accessibility API Mappings for `button` element](https://www.w3.org/TR/html-aam-1.0/#button-element) 
-       - [HTML Accessibility API Mappings for `input type="image"`](https://www.w3.org/TR/html-aam-1.0/#input-type-image)
-       - [HTML Accessibility API Mappings for Other Form Elements](https://www.w3.org/TR/html-aam-1.0/#other-form-elements) 
+<ol id="1TI">
+    <li id="1TI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="1TI-2">Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each form component and includes all relevant instructions and cues (textual and graphical).  [SC 1.3.1]  For details on the computation of the accessible name and accessible description, references include:</li>
+    <ul>
+        <li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
+        <li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
+        <li><a href="https://www.w3.org/TR/html-aam-1.0/#button-element" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>button</code> element</a>
+        <li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-image" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input type="image"</code></a></li>
+        <li><a href="https://www.w3.org/TR/html-aam-1.0/#other-form-elements" target="_blank" rel="noopener">HTML Accessibility API Mappings for Other Form Elements</a></li>
+    </ul>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 10.1-FormName fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 10.1-FormName fails.</p>
 
 ## 10.2 Test Procedure for Form Labels Descriptive 
 **Baseline Test ID:** 10.2-FormDescriptiveLabel
 ### Identify Content
-1.  Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.
-2.  Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
+<ol id="2IC">
+    <li id="2IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
+    <li id="2IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
+</ol>
 
 ### Test Instructions
-1.  Check that provided labels (instructions and cues) for each form component describe purpose, inform users what input data is expected and, if applicable, what format is required. [SC 2.4.6]
+<ol id="2TI">
+    <li id="2TI-1">Check that provided labels (instructions and cues) for each form component describe purpose, inform users what input data is expected and, if applicable, what format is required. [SC 2.4.6]</li>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 10.2-FormDescriptiveLabel fails.
+<p id="2TR">If any of the above checks fail, then Baseline Test 10.2-FormDescriptiveLabel fails.</p>
 
 10.3 Test Procedure for On Input
 ------------------------------------
 **Baseline Test ID:** 10.3-OnInput
 ### Identify Content
-All active form components.
+<p id="3IC">All active form components.</p>
 
 ### Test Instructions
-1.  Enter data in all form fields, and exit (tab out of) the field
-2.  Change selections and/or values for form components, such as radio buttons, check boxes, select lists, etc.
-3.  Check that navigating away from a component and/or changing component values/selections (e.g., entering data in a text field, changing a radio button selection) **does NOT** initiate a change of context unless the user has been advised of the behavior before using the component. [SC 3.2.2]
-    - Examples of a change of context could include:
-        -   Forms submitted automatically when exiting the field
-        -   Forms submitted automatically when exiting the last field in a form
-        -   New windows launched when changing a radio button selection
-        -   Focus is changed to another component when a select list item is selected
+<ol id="3TI">
+    <li id="3TI-1">Enter data in all form fields, and exit (tab out of) the field</li>
+    <li id="3TI-2">Change selections and/or values for form components, such as radio buttons, check boxes, select lists, etc.</li>
+    <li id="3TI-3">Check that navigating away from a component and/or changing component values/selections (e.g., entering data in a text field, changing a radio button selection) <strong>does NOT</strong> initiate a change of context unless the user has been advised of the behavior before using the component. [SC 3.2.2]<br>
+    Examples of a change of context could include:</li>
+    <ul>
+        <li>Forms submitted automatically when exiting the field</li>
+        <li>Forms submitted automatically when exiting the last field in a form</li>
+        <li>New windows launched when changing a radio button selection</li>
+        <li>Focus is changed to another component when a select list item is selected</li>
+    </ul>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 10.3-OnInput fails.
+<p id="3TR">If any of the above checks fail, then Baseline Test 10.3-OnInput fails.</p>
 
 10.4 Test Procedure for Error Identification
 ---------------------------------------------
 **Baseline Test ID:** 10.4-ErrorIdentification
 ### Identify Content
-1.  Input form components with automatic error detection and notification.
+<p id="4IC">Input form components with automatic error detection and notification.</p>
 
 ### Test Instructions
-1.  Enter incorrect values in input form components in order to trigger automatic error detection that results in error notifications. Examples include but are not limited to:
-    -   required fields
-    -   date (format)
-    -   state (abbreviations in an address)
-    -   password
-2.  If an input error is automatically detected, check that the error notification meets all of the following [SC 3.3.1]:
-    -   the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form), and
-    -   the error is described to the user in text, and
-    -   the item that is in error is identified in text.
+<ol id="4TI">
+    <li id="4TI-1">Enter incorrect values in input form components in order to trigger automatic error detection that results in error notifications. <br> Examples include but are not limited to:</li>
+        <ul>
+            <li>required fields</li>
+            <li>date (format)</li>
+            <li>state (abbreviations in an address)</li>
+            <li>password</li>
+        </ul>
+    <li id="4TI-2">If an input error is automatically detected, check that the error notification meets all of the following [SC 3.3.1]:</li>
+        <ul>
+            <li>the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form), and</li>
+            <li>the error is described to the user in text, and</li>
+            <li>the item that is in error is identified in text.</li>
+        </ul>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 10.4-ErrorIdentification fails.
+<p id="4TR">If any of the above checks fail, then Baseline Test 10.4-ErrorIdentification fails.</p>
 
 10.5 Test Procedure for Form has a Label
 -----------------------------------------------
 **Baseline Test ID:** 10.5-FormHasLabel
 ### Identify Content
-1.  Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.
-2.  Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.
+<ol id="5IC">
+    <li id="5IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
+    <li id="5IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
+</ol>
 
 ### Test Instructions
-1.  Check that each form component has label(s) or instructions. [SC 3.3.2]
+<ol id="5TI">
+    <li id="5TI-1">Check that each form component has label(s) or instructions. [SC 3.3.2]</li>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 10.5-FormHasLabel fails.
+<p id="5TR">If any of the above checks fail, then Baseline Test 10.5-FormHasLabel fails.</p>
 
 10.6 Test Procedure for Error Suggestion
 -----------------------------------------
 **Baseline Test ID:** 10.6-ErrorSuggestion
 ### Identify Content
-Input form components with automatic error detection and notification.
+<p id="6IC">Input form components with automatic error detection and notification.</p>
 
 ### Test Instructions
-1.  Enter incorrect values in input form components in order to trigger automatic error detection that result in error notifications. Examples include but are not limited to:
-    1.  required fields
-    2.  date (format)
-    3.  state (abbreviations in an address)
-    4.  password
-2.  Review error notifications provided.
-3.  Check that additional guidance (e.g., suggestion for corrected input, guidance on how to correct the user's input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content. [SC 3.3.3]
+<ol id="6TI">
+    <li id="6TI-1">Enter incorrect values in input form components in order to trigger automatic error detection that result in error notifications. Examples include but are not limited to:</li>
+        <ul>
+            <li>required fields</li>
+            <li>date (format)</li>
+            <li>state (abbreviations in an address)</li>
+            <li>password</li>
+        </ul>
+    <li id="6TI-2">Review error notifications provided.</li>
+    <li id="6TI-3">Check that additional guidance (e.g., suggestion for corrected input, guidance on how to correct the user's input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content. [SC 3.3.3]</li>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 10.6-ErrorSuggestion fails.
+<p id="6TR">If any of the above checks fail, then Baseline Test 10.6-ErrorSuggestion fails.</p>
 
 10.7 Test Procedure for Error Prevention (Legal, Financial, Data)
 ------------------------------------------------------------------
 **Baseline Test ID:** 10.7-ErrorPrevention
 ### Identify Content
-Page that causes legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses.
+<p id="7IC">Page that causes legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses.</p>
 
 ### Test Instructions
-1.  Complete the form components necessary to submit. Include errors.
-2.  Check that at least one of the following is true [SC 3.3.4]:
-    1.  Reversible: Submissions are reversible.
-    2.  Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.
-    3.  Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.
+<ol id="7TI">
+    <li id="7TI-1">Complete the form components necessary to submit. Include errors.</li>
+    <li id="7TI-2">Check that at least one of the following is true [SC 3.3.4]:</li>
+    <ol>
+        <li id="7TI-2i">Reversible: Submissions are reversible.</li>
+        <li id="7TI-2ii">Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</li>
+        <li id="7TI-2iii">Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</li>
+    </ol>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 10.7-ErrorPrevention fails.
+<p id="7TR">If any of the above checks fail, then Baseline Test 10.7-ErrorPrevention fails.</p>
 
 Test Procedure for Form Changes
 ------------------------------------------------------------------
-Form components that change are tested in [Baseline 5. Changing Content](05Changing.md)
+<p>Form components that change are tested in [Baseline 5. Changing Content](05Changing.md).</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

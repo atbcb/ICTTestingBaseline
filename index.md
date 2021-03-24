@@ -2,7 +2,7 @@ United States Federal Chief Information Officers Council (CIOC)
 
 Accessibility Community of Practice (ACOP)
 
-October 2020 | Version 3.0
+March 2021 | Version 3.0.1
 
 ICT Testing Baseline for Web Accessibility
 ==============================================
@@ -22,7 +22,7 @@ With the ICT Testing Baseline for Web now complete, additional components are in
 
 
 ## Document status and feedback
-This is version 3.0 of the ICT Testing Baseline for Web.
+This is version 3.0.1 of the ICT Testing Baseline for Web.
 
 ### How to contribute
 You are welcome to create forks of the proposed Testing Baseline, propose improvements (via issues and pull requests), and submit test cases to help validate test processes and tools. The working group will post the ICT Testing Baseline for Web to [this GitHub repository](https://github.com/Section508Coordinators/ICTTestingBaseline/).  

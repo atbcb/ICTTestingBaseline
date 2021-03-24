@@ -26,17 +26,21 @@ Limitations, Assumptions, or Exceptions
 ----------------------------------------------
 **Baseline Test ID:** 8.1-ContrastMinimum
 ### Identify Content
-All visible text AND images of text (except those noted in Limitations, Assumptions, or Exceptions above)
+<p id="1IC">All visible text AND images of text (except those noted in Limitations, Assumptions, or Exceptions above)</p>
 
 ### Test Instructions
-1.  Determine the [contrast ratio](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef) of foreground text and background.
-2.  Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]
-3.  If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 AND the font meets one of the following criteria: [SC 1.4.3]
-    -   At least 18 point (23.94 pixels)
-    -   At least 14 point (18.62 pixels) AND bold (at least 700 font weight)
+<ol id="1TI">
+    <li id="1TI-1">Determine the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef" target="_blank" rel="noopener">contrast ratio</a> of foreground text and background.</li>
+    <li id="1TI-2">Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]</li>
+    <li id="1TI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 AND the font meets one of the following criteria: [SC 1.4.3]</li>
+        <ul>
+            <li>At least 18 point (23.94 pixels)</li>
+            <li>At least 14 point (18.62 pixels) AND bold (at least 700 font weight)</li>
+        </ul>
+</ol>
 
 ### Test Results
-If both of the above checks fail, then Baseline Test 8.1-ContrastMinimum fails.
+<p id="1TR">If both of the above checks fail, then Baseline Test 8.1-ContrastMinimum fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------

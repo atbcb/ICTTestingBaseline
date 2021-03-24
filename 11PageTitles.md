@@ -19,17 +19,20 @@ Limitations, Assumptions, Exceptions
 ---------------------------------------
 **Baseline Test ID:** 11.1-PageTitled
 ### Identify Content
-Page `<title>` element for the page.
+<p id="1IC">Page <code>&lt;title&gt;</code> element for the page.</p>
 
 ### Test Instructions
-
-1.  Check that a page `<title>` element is defined for the page. [SC 2.4.2]
-1.  Check that the Page Title identifies the contents or purpose of the Web page. [SC 2.4.2]
-    1.  For pages within a Web site, check that the Page Title can be used to distinguish among the pages.
-    2.  For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.
+<ol id="1TI">
+    <li id="1TI-1">Check that a page <code>&lt;title&gt;</code> element is defined for the page. [SC 2.4.2]</li>
+    <li id="1TI-2">Check that the Page Title identifies the contents or purpose of the Web page. [SC 2.4.2]</li>
+        <ol>
+            <li id="1TI-2i">For pages within a Web site, check that the Page Title can be used to distinguish among the pages.</li>
+            <li id="1TI-2ii">For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.</li>
+        </ol>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Test 11.1-PageTitled fails.
+<p id="1TR">If any of the above checks fail, then Baseline Test 11.1-PageTitled fails.</p>
 
 ### WCAG 2.0 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:

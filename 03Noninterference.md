@@ -20,13 +20,15 @@ None.
 -------------------------------------------------
 **Baseline Test ID:** 3.1-NonInterference
 ### Identify Content
-Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.
+<p id="1IC">Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.</p>
 
 ### Test Instructions
-1.  Check that all of test results are pass.
+<ol id="1TI">
+    <li id="1TI-1">Check that all of test results are pass.</li>
+</ol>
 
 ### Test Results
-If any of the above checks fail, then Baseline Requirement 3.1-NonInterference fails.
+<p id="1TR">If any of the above checks fail, then Baseline Requirement 3.1-NonInterference fails.</p>
 
 Advisory: Tips for streamlined test processes
 ---------------------------------------------
