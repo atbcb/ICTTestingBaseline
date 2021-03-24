@@ -51,6 +51,7 @@ Limitations, Assumptions, Exceptions
         <li>For any HTML <code>&lt;table&gt;</code> that uses BOTH <code>scope</code> AND refers to header IDs using <code>&lt;td headers&gt;</code> attributes in the same table, any data cell with a <code>headers</code> reference will override any <code>scope</code> attributes for associated table headers for that particular data cell. Therefore, data cells with a <code>headers</code> reference, must identify all relevant headers, independent from and regardless of <code>scope</code> attributes in associated headers.</li>
         <li>For ARIA <code>role="table"</code>: each column header must have <code>role="columnheader"</code> and each row header must have <code>role="rowheader"</code>.</li>
         <li>For ARIA <code>role="grid"</code>: each column header must have <code>role="columnheader"</code> and each row header must have <code>role="rowheader"</code> (if the ARIA grid is not making use of the native HTML <code>&lt;table&gt;</code> element and structure).</li>
+    </ul>
 </ol>
 
 ### Test Results
