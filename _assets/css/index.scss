@@ -38,6 +38,44 @@ h5, h6 { // default was xs and 2xs
 
 // Add your SASS/CSS here
 
+// Default table styles
+table {
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+table th,
+table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+table tbody tr:hover {
+  color: #212529;
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+table th {
+  color: #fff;
+  background-color: #162e51;
+  border-color: #454d55;
+}
+
 // stylish faux 'page-breaks'
 hr {
   border: solid;
