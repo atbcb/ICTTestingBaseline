@@ -1,0 +1,71 @@
+---
+permalink: /search/
+layout: page
+title: Search
+---
+
+
+<script>
+//<![CDATA[
+
+  var urlParams = new URLSearchParams(window.location.search);
+  var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
+  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: urlParams.get('query') }
+
+
+  Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
+
+  fetch(searchEndpoint).then(function(result) {
+      return result.json()
+    }).then(function(posts) {
+      for (item in posts.web.results){
+        render_result(`
+          <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title']}</a></b>
+            <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
+          </li>
+          `, true)
+
+      }
+    }).catch(function(ex) {
+      console.log('parsing failed', ex);
+    }).finally(function(e){
+
+      if(document.getElementById('search-results').childNodes.length == 0){
+        render_result(`<h4 class="title">No results found</h4>`, false)
+      }
+
+    })
+
+    function render_result(content, append = true){
+      const previous = document.getElementById('search-results').innerHTML;
+      document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
+    }
+
+//]]>
+</script>
+
+
+{% if site.searchgov %}
+  <h1>Search Results</h1>
+  <ol id="search-results"></ol>
+
+  {% if site.searchgov.affiliate == "federalist-uswds-example" %}
+    <div class="usa-alert usa-alert--info">
+      <div class="usa-alert__body">
+        This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
+        <ol>
+          <li>Create an account with Search.gov at <a href="https://search.usa.gov/signup">https://search.usa.gov/signup</a></li>
+          <li>Go to the "Activate" section and get "API Access Key"</a></li>
+          <li>Open <code>_config.yml</code> and look for <code>searchgov</code> fields</li>
+          <li>Add your <code>affiliate</code> and <code>access_key</code></li>
+          <li>Your results will not show up immediately. Make sure you follow <a href="https://search.gov/manual/searchgov-for-federalist.html">instructions to index your site</a>.</li>
+        </ol>
+      </div>
+    </div>
+  {% endif %}
+{% else %}
+  <script>
+    window.location = "/";
+  </script>
+{% endif %}

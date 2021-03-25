@@ -1,0 +1,17 @@
+{% comment %}
+Public board member listing. 
+{% endcomment %}
+<section class="usa-graphic-list usa-section">
+    <div class="grid-container maxw-desktop">
+        {% for member in site.data.members %}
+        <div class="usa-media-block tablet:grid-col">
+            <img src="{{ site.baseurl }}{{ member.image-file }}"
+                class="usa-media-block__img circle-15 border-2px" alt="photo of {{ member.lastname }}" width="150">
+            <div class="usa-media-block__body">
+                <h3 class="usa-graphic-list__heading">{{ member.firstname }} {{ member.lastname }}</h3>
+                <p> {{ member.bio }} </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

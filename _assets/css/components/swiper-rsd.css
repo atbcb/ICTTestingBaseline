@@ -1,0 +1,109 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide-custom-homepage {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: 10rem;
+    border-radius: .5rem;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* background image styling */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+  }
+
+  .swiper-slide-custom-single {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* height: 10rem; */
+    border-radius: .5rem;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* background image styling */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+  }
+
+
+.swiper-button-prev, .swiper-button-next {
+    color: #fee685;
+    align-self: stretch;
+    height:  100%;
+    top: 0;
+    margin-top: 0;
+    padding: 0 1rem;
+    margin: 0 -1rem;
+    background-color: black;
+    opacity: 85%;
+}
+
+.swiper-button-disabled {
+    color: black;
+    opacity: 0 !important;
+}
+
+.swiper-pagination {
+    position: static;
+}
+
+.swiper-pagination-bullet {
+    background: white;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: #73b3e7;
+    border-radius: 0;
+    opacity: 1;
+}
+
+a.swiper-slide {
+    text-decoration: none;
+}
+
+.label-overlay {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    opacity: 70%;
+ }
+
+.filmstrip {
+  height: 1rem;
+  background: repeating-linear-gradient(90deg, black, black 70%, white, white 100%);
+  background-size: 4rem;
+}

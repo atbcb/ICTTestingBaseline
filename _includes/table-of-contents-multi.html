@@ -1,0 +1,42 @@
+
+{% assign ordered_chapters = site[page.collection-folder] | where: "group-title",  {{page.group-title}} | sort:"order-number" %}
+
+{% if ordered_chapters %}
+<aside id="toc-aside" class="desktop:grid-col-3 margin-bottom-2 bg-white sticky">
+  <nav role="navigation" class="toc-subnav usa-accordion" aria-multiselectable="true" aria-label="Table of contents subnavigation">
+    <ul class="usa-sidenav">
+      <li class="usa-sidenav__item">
+        <button class="top-level-accordion usa-accordion__button"
+          aria-expanded="true"
+          aria-controls="subnav-list"
+        >
+          Table of Contents
+        </button>
+        <ul id="subnav-list" class="usa-accordion__content usa-sidenav__sublist">
+          {% for chapter in ordered_chapters %}
+          <li class="usa-sidenav__item">
+            {% if page.title == chapter.title %}
+            <button class="subnav-anchor usa-current usa-accordion__button"
+              aria-expanded="true"
+              aria-controls="subsections"
+            >
+              {{ chapter.title }}
+            </button>
+              <ul id="subsections" class="usa-accordion__content usa-sidenav__sublist" aria-label="Page sections navigation">
+              </ul>
+            {% else %}
+            <a
+              class="subnav-anchor"
+              href="{{site.baseurl}}{{ chapter.url }}"
+            >
+              {{ chapter.title }}
+            </a>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</aside>
+{% endif %}

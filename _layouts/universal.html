@@ -1,0 +1,60 @@
+---
+layout: base
+---
+
+{% comment %}
+
+This is a universal layout that will create the page based on what front matter is or is not available
+
+
+
+toc:
+  This is where you can specify what type of table of contents you want. If TOC is null, no table of contents is created and the page with is reduced to desktop instead of wide. TOC options include:
+  /toc/auto.html
+  sidenav.html
+  toc-data.html
+   and anything else you create input in the _includes folder
+
+
+toc-group:
+  This is used to create a group of pages within the same collection (ex _research ) and uses order-number to create the table of contents. You must have this front matter, and all of the pages must have the same exact TOC-group for the toc: toc-multi.html to work properly
+
+
+{% endcomment %}
+
+<main class="usa-layout-docs bg-base-lightest ">
+
+  {% include section-title.html %}
+
+  <div class="{% if page.width == 'desktop' %}grid-container maxw-desktop{% else %}maxw-full{% endif %}">
+    <div class="grid-row">
+      {% if page.toc %}
+      {% include {{ page.toc }} %}
+      {% endif %}
+      <div class="desktop:grid-col padding-0">
+        <div id="content" class="usa-prose margin-3 padding-3 bg-white border anchored">
+          {% if page.file %}
+
+          <div class="pdf-button-container">
+
+              <a class="usa-button pdf-button float-right" title="{{ page.file-description }}" href="{{ site.baseurl }}{{ page.file }}" target="_blank" rel="noreferrer">
+              PDF
+              </a>
+
+          </div>
+          {% endif %}
+
+          <div id="{% if page.toc == '/toc/auto.html' %}toc-source-content{% endif %}">{{ content }}</div>
+
+          {% include back-to-top.html %}
+
+        </div>
+      </div>
+
+      {% if page.right-sidenav %}
+        {% include {{ page.right-sidenav }} %}
+      {% endif %}
+
+    </div>
+  </div>
+</main>

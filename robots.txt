@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: https://www.access-board.gov/sitemap.xml

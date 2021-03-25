@@ -1,0 +1,10 @@
+<div class="border-top-1 border-accent-cool-darker padding-top-2 margin-bottom-4 usa-prose">
+    <h4 class="">Most Recent Posts</h4>
+    <ul class="usa-list usa-list--unstyled padding-top-2">
+      {% for post in site.posts limit:10 %}
+      <li class="padding-bottom-1">
+        <a class="usa-link" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+</div>

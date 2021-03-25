@@ -1,0 +1,7 @@
+  {% assign tags = site.tags | where: "name", include.tag %}
+
+  {% for tag in tags %}
+    <span class="text-uppercase padding-05 margin-1 border-2px radius-lg " style="border-color: {{ tag.color }}; color: {{ tag.color }};">
+      {{ tag.name }}
+    </span>
+  {% endfor %}

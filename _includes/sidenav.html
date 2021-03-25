@@ -1,0 +1,212 @@
+{% comment %}
+The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
+_layouts/page.html layout template, or you can add "toc: sidenav.html" in the front-matter of your pages.
+BB 5/29/20: visually, adding padding-left:2em to menu items that are not links would also work
+{% endcomment %}
+
+<aside id="toc" class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-2">
+  <div class="bg-white height-viewport overflow-y-scroll sticky">
+    <nav>
+      <ul class="usa-sidenav">
+        <li class="usa-sidenav__item">
+          <a href="{{ site.baseurl }}/">Home</a>
+        </li>
+        <li class="usa-sidenav__item">
+          <a href="{{ site.baseurl }}/about/" class="usa-current">About</a>
+          <ul class="usa-sidenav__sublist">
+            <li class="usa-sidenav__item">
+              {% if page.title == "Board Meetings" %}
+              <a name="meetings" class="usa-current">Board Meetings &rarr;</a>
+              {% else %}
+              <a href="{{ site.baseurl }}/about/meetings.html">Board Meetings</a>
+              {% endif %}
+            </li>
+            <li class="usa-sidenav__item">
+              <a href="{{ site.baseurl }}/about/board-members/">Board Members</a>
+            </li>
+            <li class="usa-sidenav__item">
+              {% if page.title == "Board History" %}
+              <a name="history" class="usa-current">Board History &rarr;</a>
+              {% else %}
+              <a href="{{ site.baseurl }}/about/history.html">Board History</a>
+              {% endif %}
+            </li>
+            <li class="usa-sidenav__item">
+              {% if page.title == "Rulemaking Process" %}
+              <a name="rulemaking" class="usa-current">Rulemaking Process &rarr;</a>
+              {% else %}
+              <a href="{{ site.baseurl }}/about/rulemaking.html">Rulemaking Process</a>
+              {% endif %}
+            </li>
+            <li class="usa-sidenav__item">
+              <a name="bp">Budget and Performance</a>
+              <ul class="usa-sidenav__sublist">
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Performance and Accountability Report" %}
+                  <a name="par" class="usa-current">Performance and Accountability Report &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/par.html">Performance and Accountability Report</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Budget Justification" %}
+                  <a name="cj" class="usa-current">Budget Justification &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/cj/">Budget Justification</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "FOIA Annual Report" %}
+                  <a name="foia-report" class="usa-current">FOIA Annual Report &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/foia-report.html">FOIA Annual Report</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Chief FOIA Officer Report" %}
+                  <a name="foia-cfor" class="usa-current">Chief FOIA Officer Report &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/foia-cfor.html">Chief FOIA Officer Report</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "No FEAR Act Data" %}
+                  <a name="nfad" class="usa-current">No FEAR Act Data &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/no-fear-data.html">No FEAR Act Data</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "No FEAR Act Report" %}
+                  <a name="nfar" class="usa-current">No FEAR Act Report &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/no-fear-report.html">No FEAR Act Report</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Employee Survey Results" %}
+                  <a name="fevs" class="usa-current">Employee Survey Results &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/fevs.html">Employee Survey Results</a>
+                  {% endif %}
+                </li>
+              </ul>
+            </li>
+            <li class="usa-sidenav__item">
+              {% if page.title == "Laws" %}
+              <a name="laws" class="usa-current">Laws &rarr;</a>
+              {% else %}
+              <a href="{{ site.baseurl }}/law/">Laws</a>
+              {% endif %}
+              <ul class="usa-sidenav__sublist">
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Americans with Disabilities Act" %}
+                  <a name="ada" class="usa-current">ADA &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/law/ada.html">ADA</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Architectural Barriers Act" %}
+                  <a name="aba" class="usa-current">ABA &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/law/aba.html">ABA</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Rehabilitation Act" %}
+                  <a name="ra" class="usa-current">Rehabilitation Act &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/law/ra.html">Rehabilitation Act</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Telecommunications Act" %}
+                  <a name="ta" class="usa-current">Telecommunications Act &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/law/ta.html">Telecommunications Act</a>
+                  {% endif %}
+                </li>
+              </ul>
+            </li>
+            <li class="usa-sidenav__item">
+              <a name="policy">Policies</a>
+              <ul class="usa-sidenav__sublist">
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Accessibility Statement" %}
+                  <a name="accessibility" class="usa-current">Accessibility Statement &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/accessibility.html">Accessibility Statement</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Fragrance-Free Environment" %}
+                  <a name="ffe" class="usa-current">Fragrance-Free Environment &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/ffe.html">Fragrance-Free Environment</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Freedom of Information Act" %}
+                  <a name="foia" class="usa-current">Freedom of Information Act &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/foia.html">Freedom of Information Act</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "No FEAR Act Notice" %}
+                  <a name="nfan" class="usa-current">No FEAR Act Notice &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/no-fear-notice.html">No FEAR Act Notice</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Information Quality" %}
+                  <a name="iq" class="usa-current">Information Quality &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/iq.html">Information Quality</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Plain Language" %}
+                  <a name="plain" class="usa-current">Plain Language &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/plain.html">Plain Language</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Privacy Policy" %}
+                  <a name="privacy" class="usa-current">Privacy Policy &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/privacy.html">Privacy Policy</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Reasonable Accommodation Procedures" %}
+                  <a name="ra" class="usa-current">Reasonable Accommodation Procedures &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/ra.html">Reasonable Accommodation Procedures</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Shutdown Plan" %}
+                  <a name="shutdown" class="usa-current">Shutdown Plan &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/about/policy/shutdown.html">Shutdown Plan</a>
+                  {% endif %}
+                </li>
+                <li class="usa-sidenav__item">
+                  {% if page.title == "Vulnerability Disclosure Policy" %}
+                  <a name="vdp" class="usa-current">Vulnerability Disclosure Policy &rarr;</a>
+                  {% else %}
+                  <a href="{{ site.baseurl }}/vulnerability-disclosure-policy/">Vulnerability Disclosure Policy</a>
+                  {% endif %}
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</aside>

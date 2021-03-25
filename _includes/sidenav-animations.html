@@ -1,0 +1,42 @@
+{% comment %}
+ this right side navigation is specific to animation pages 
+{% endcomment %}
+
+
+
+    <div class="padding-2 border bg-white shadow">
+      <div class="text-center">
+        {% asset stock/animation.svg class="maxh-15" alt="" %}
+        
+        <div class="text-center">
+          <h4 class="padding-1 bg-secondary-darker text-white">Animations</h4>
+          <ul class="usa-list padding-left-1 text-left">
+            {% for animation in site.animations %}
+            <li><a href="{{ site.baseurl }}{{animation.url}}">{{ animation.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% comment %}
+          <span class="font-body-3xs">For more information on the Board’s research program, contact Dave Yanchulis</span>
+          <br>
+          <ul class="usa-list usa-list--unstyled padding-top-1 font-body-3xs">
+          <li class="padding-bottom-0">(202) 272-0026 (v)</li>
+          <li class="padding-bottom-0">(202) 272-0027  (tty)</li>
+          <li class="padding-bottom-0"><a href="mailto:ta@access-board.gov">ta@access-board.gov</a></li>
+          </ul>
+          {% endcomment %}
+        </div>
+
+      </div>
+      <div class="text-center padding-y-2">
+        <a class="usa-link" href="{{ site.baseurl }}/ada/guides/">
+          {% asset stock/guide.svg class="maxh-15" alt="" %}
+        <span class="usa-button">View ADA Guides</span>
+        </a>
+      </div>
+      <div class="text-center padding-y-2">
+        <a class="usa-link" href="{{ site.baseurl }}/ada/">
+          {% asset stock/ada.svg class="maxh-15" alt="" %}
+        <span class="usa-button">View ADA Standards</span>
+        </a>
+      </div>
+    </div>

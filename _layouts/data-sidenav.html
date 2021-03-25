@@ -1,0 +1,70 @@
+---
+layout: default
+---
+
+
+<div class="usa-layout-docs">
+  <div class="grid-container">
+     <h1 class="padding-top-0">{{ page.collection-title }}</h1>
+     <div class="grid-row grid-gap">
+       <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4">
+        <nav>
+          <h2>Table of contents</h2>
+          <ul class="usa-sidenav">
+          {% for item in site.data[page.datafile] %}
+            <li class="usa-sidenav__item">
+            {% if page.url == item.url %}
+              <a href="{{item.url}}" class="usa-current">{{ item.name }}</a>
+              <ul id="subsections" class="usa-sidenav__sublist">
+              </ul>
+            {% else %}
+            <a href="{{ item.url }}"><b>{{ item.name }}</b></a>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </aside>
+    <div id="standard" class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+      <h2>{{page.title}}</h2>
+      {% if page.file %}
+      <span  class="" >{{ page.file-description }} <a href="{{ site.baseurl }}{{ page.file-directory }}{{ page.file }}" download="{{ page.file }}">
+        <button class="usa-button ">Download</button>
+        </a>
+      </span>
+      {% endif %}
+      {% if page.right-sidenav %}
+        {% include {{ page.right-sidenav }} %}
+      {% endif %}
+
+      {{ content }}
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- <script>
+  {
+    console.log("toc script")
+    var x = document.getElementById("standard").querySelectorAll("h3");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      var section = x[i].innerText;
+      console.log(section);
+
+
+      var idtag = section.replace(/ /g,"-");
+      x[i].setAttribute("id",idtag);
+
+      console.log(idtag);
+
+    var li = "<li><a href=\"#" + idtag + "\">" + section + "</a></li>";
+      console.log(li);
+    document.getElementById("subsections").innerHTML += li;
+
+    };
+    //alert("TOC successfully loaded!");
+  };
+  </script> -->

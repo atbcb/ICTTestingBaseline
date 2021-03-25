@@ -1,0 +1,15 @@
+<div class="padding-2 border bg-white shadow">
+  <h3 class="border-bottom-05 border-primary-dark margin-bottom-2 text-left">{{ include.name }}</h3>
+  <video
+    id="{{ include.name | replace: " ", "-" }}-video"
+    class="video-js vjs-default-skin vjs-fluid"
+    data-setup='{}'
+    poster="{{ site.baseurl }}{{ include.image }}"
+    controls
+    fluid
+    preload
+  >
+    <source src="{{ site.baseurl }}{{ include.video_path }}" type="video/mp4" />
+    <track src=" {{ site.baseurl }}{{ include.caption_path }}" kind="captions" srclang="en" default="default" ></track>
+  </video>  
+</div>

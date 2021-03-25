@@ -1,0 +1,546 @@
+// Import individual theme settings
+
+//@import "uswds-theme-general";
+@import "uswds-theme-typography";
+@import "uswds-theme-spacing";
+//@import "uswds-theme-color";
+//@import "uswds-theme-utilities";
+
+// components import needs to be last
+//@import "uswds-theme-components";
+
+$theme-hero-image: asset_path("hero-wc-temp.jpg");
+
+// Import the US Web Design System SASS
+@import "uswds";
+
+// Import component SASS
+@import "components/sticky";
+@import "components/table-of-contents-subnav";
+
+// Set fonts
+h1, h2 { // default was 2xl
+  @include u-font('heading', 'xl');
+  @include u-margin-y(1)
+}
+h3 { // default was 2xl
+  @include u-font('heading', 'lg');
+  @include u-margin-y(1)
+}
+h4 { // default was sm
+  @include u-font('heading', 'md');
+  @include u-margin-y(1)
+}
+h5, h6 { // default was xs and 2xs
+  @include u-font('heading', 'sm');
+  @include u-margin-y(1)
+}
+
+// Add your SASS/CSS here
+
+// stylish faux 'page-breaks'
+hr {
+  border: solid;
+  border-bottom: solid 1px; // same thickness as "paper" border (outside div border thickness = 1px)
+  border-top: solid 1px; // same thickness as "paper" border
+  box-sizing: border-box;
+  margin-left: -1.6rem; // just larger than 1/2 "paper" padding (outside div padding = 2)
+  margin-right: -1.6rem; // just larger than 1/2 "paper" padding
+  margin-top: 2rem; // desired space above faux page break
+  margin-bottom: 2rem;
+  padding: 1rem; // thickness of background behind "paper"
+  background-color: #f0f0f0; //  must match background color
+  color: black; // must much outside div border color
+  border-left-color: #f0f0f0; // must match background color
+  border-right-color: #f0f0f0; // must match background color
+}
+
+a.usa-current::after {
+  content: "→" !important;
+}
+
+fieldset {
+  border: thin solid color(primary-darker);
+}
+fieldset legend {
+  color: color(primary-darker);
+  background-color: white;
+  border: thin solid color(primary-darker);
+  padding-left:.5em;
+  padding-right:.5em;
+}
+fieldset input {
+  color: black;
+  background-color: color(gray-cool-5);
+  border: thin solid color(primary-darker);
+}
+fieldset button {
+  color: white;
+  background-color: color(primary-darker);
+  border-radius: .5em;
+  margin-top:.5em;
+}
+
+ol li ol li {
+  list-style-type: lower-alpha;
+}
+ol li ol li ol li {
+  list-style-type: lower-roman;
+}
+
+// table styles for Performance and Accountability Report
+table.par, table.par-money, table.par-prose {
+	border: none;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+}
+table.par caption, table.par-money caption, table.par-prose caption {
+	font-weight: bold;
+	text-align: left;
+}
+table.par thead th, table.par-money thead th, table.par thead par-prose {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+table.par thead th, table.par-money thead th {
+	color: white;
+	background-color: color(primary);
+}
+table.par th, table.par td, table.par-money th, table.par-money td {
+	border: thin solid color(primary);
+}
+table.par td {
+	text-align: center;
+}
+table.par-money td {
+	text-align: right;
+}
+table.par tbody th, table.par tfoot th, table.par td:first-child, table.par-money tbody th, table.par-money tfoot th, table.par-money td:first-child {
+	text-align: left;
+}
+table.par tr:nth-child(odd), table.par-money tr:nth-child(odd) {
+ background-color: color(primary-lighter);
+}
+table.par-money tfoot tr:first-child {
+	border-top: medium solid color(primary);
+}
+table.par tfoot td, table.par-money tfoot td {
+	font-weight: bold;
+}
+table.par-prose thead th {
+	color: black;
+	background-color: color(primary-lighter);
+	border-bottom: medium solid color(primary);
+}
+table.par-prose tbody th {
+	text-align: left;
+	border-top: thin solid color(primary);
+	border-bottom: thin solid color(primary);
+}
+table.par-prose tbody td {
+	text-align: center;
+	border-left: thin solid color(primary);
+	border-top: thin solid color(primary);
+	border-bottom: thin solid color(primary);
+}
+table.par-prose td:first-child {
+	text-align: left;
+	border-left: none;
+}
+ul.check {
+	list-style: none;
+}
+ul.check li:before {
+	content: '✓ ';
+}
+ul.check li {
+	text-indent: -1em;
+}
+td ul.check {
+	text-align: left;
+	margin-left: -1em;
+}
+
+// Page header USAB logo override
+.star-logo {
+  height: 100%;
+  width: 100%;
+}
+.site-title {
+  font-weight: bold;
+  @include u-text("primary-darker");
+}
+.site-subtitle {
+  font-weight: bold;
+  font-style: italic;
+  @include u-text("secondary-darker");
+}
+@media screen and (max-width: 1024px) {
+  .site-logo {
+    max-height: 3rem;
+  }
+  .star-logo-box {
+    max-height: 3rem;
+     max-width: 4rem;
+  }
+  .star-logo {
+    max-height: 3rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .star-logo-box {
+    max-width: 6rem;
+  }
+  .site-subtitle {
+    @include u-font('sans', 'md');
+  }
+}
+@media (min-width: 30em) {
+  .site-title-short {
+  display: none;
+  }
+}
+@media screen and (max-width: 29.99em) {
+  .site-title {
+    position: absolute;
+    left: -999em;
+  }
+}
+
+
+//usa hero custom styling
+
+@media (min-width: 40em) {
+  .usa-hero__callout {
+  max-width: 30rem;
+  }
+}
+
+.usa-hero__callout {
+  padding: 1rem;
+  }
+
+  
+/* .usa-logo__text::before {
+  background-image: url(../images/usab-logo.svg);
+  background-repeat: no-repeat;
+} */
+
+// override default gray to get a little more contrast
+li.usa-nav__secondary-item a {
+  color: color(gray-cool-60);
+}
+// change submenu (Guidelines) font color for better contrast
+li.usa-nav__submenu-item>a {
+  color: white !important;
+}
+
+// override light blue heading used in highlights.html to get a little more contrast 
+h3.usa-graphic-list__heading {
+  color: white;
+}
+
+// temporary blue class to see how grids work
+.blue {
+  background-color: cyan;
+}
+
+// advisory boxes, might be P or DIV
+.advisory {
+  background-color: color(primary-lighter);
+  border: thin solid color(primary);
+  padding: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+div.advisory p.first {
+  margin-top: -0.5em;
+}
+div.advisory p.last {
+  margin-bottom: -0.5em;
+}
+
+// create class that combines about page img classes
+.bold,
+dt {
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shadow {
+  box-shadow: 10px 10px 5px #dfe1e2;
+}
+
+.img-right {
+  float: right;
+  display: block;
+  margin: 0rem 0rem 1rem 2rem;
+  max-width: 50%;
+}
+
+.img-left {
+  float: left;
+  display: block;
+  margin: 0rem 2rem 1rem 0rem;
+  max-width: 50%;
+}
+
+.img-medium {
+  padding: 1rem;
+  width: 40%;
+}
+
+.img-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.img-grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: block;
+}
+
+.img-grid-left {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  display: block;
+  padding-top: 20px;
+}
+
+.grid-line {
+  display: block;
+  text-align: center;
+}
+
+// overide grid-line-left with text-left display-block instead
+.grid-line-left {
+  display: block;
+  text-align: left;
+}
+
+.img-large {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: block;
+}
+
+.img-large-caption {
+  margin: auto;
+  text-align: center;
+  width: 85%;
+  font-size: 90%;
+  font-style: italic;
+}
+
+.img-full {
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+}
+
+.thumbnail {
+  width: 15%;
+  height: auto;
+  padding-bottom: 5px;
+  //vertical-align: 30%;
+  //max-height: 100px;
+  @include u-margin(2);
+  &-box {
+    &-box { // nested &-box syntax does not seems odd
+      @extend .thumbnail;
+      @include u-border(2px);
+      @include u-radius('lg');
+      @include u-padding(2);
+    }
+  }
+}
+
+.thumbnail-wide {
+  width: 15%;
+  height: auto;
+}
+
+.align-bottom {
+  vertical-align: text-bottom;
+}
+
+.align-top {
+  vertical-align: text-top;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+// sticky fill js
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.sticky:before,
+.sticky:after {
+  content: '';
+  display: table;
+}
+
+// add shading to even rows in data tables -- does not seem to be working
+table.data tr:nth-child(even) {
+ background-color: #f2f2f2;
+} // zebra stripping by default */
+// layout tables used in ict preamble
+table.layouttable {
+  border-collapse: collapse;
+}
+table.layouttable,
+table.layouttable tr {
+  border: 1px solid black;
+}
+
+// doesn't seem to work; added style to include figure-caption.html
+figcaption {
+  font-weight: bold;
+  text-align: center;
+}
+
+// default mode hide banner
+.usa-banner__content {
+  display: hidden;
+}
+
+@media screen and (min-width: 640px) {
+  .tablet\:width-1\/3 {
+    width: 33%;
+  }
+  .tablet\:float-left {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .paginate-link {
+    display: initial;
+  }
+  .paginate-button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .paginate-link {
+  display: none;
+  }
+  .paginate-button {
+  display: block;
+  }
+}
+
+// Board member profile cards
+.card-header {
+  @extend .usa-card__header;
+  text-align: center;
+  @include u-bg('secondary-darker');
+  @include u-text('white');
+  padding: 1rem;
+}
+.gray-to-color {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.gray-to-color:hover {
+  -webkit-filter: none;
+  filter: none;
+  @include u-bg('primary-lighter');
+}
+
+a.style-inherit:focus>div.gray-to-color {
+  -webkit-filter: none;
+  filter: none;
+  @include u-bg('primary-lighter');
+  border: 3px solid lightskyblue;
+}
+.card-shadow {
+  box-shadow: 0 0 10px -3px #666;
+}
+.card-name {
+  @include u-font('serif', '2xs');
+  @include u-text('center');
+  @include u-text('primary');
+  @include u-margin-bottom(0);
+}
+
+.card-text {
+  @include u-font('serif', '3xs');
+  @include u-text('center');
+  @include u-text('primary-darker');
+  @include u-margin-bottom(0);
+}
+a.style-inherit {
+  color: inherit; // blue colors for links too
+  text-decoration: inherit; // no underline
+}
+
+.pdf-button-container {
+  position: relative;
+  height: 5rem;
+  overflow: hidden;
+  
+}
+
+.pdf-button {
+  margin-right: .5rem;
+  margin-top: .5rem;
+}
+
+.pdf-button:focus:before {
+  content:attr(title);
+  position: absolute; 
+  bottom: .1rem; 
+  right: .1rem;
+  padding: .1em .2em;
+  background: #ffffff; color: #005EA2;
+  border: 2px solid black;
+  font-size: 80%;
+  font-weight: 800;
+}
+
+//table of contents styling
+.toc-subnav .usa-accordion__button {
+  background-color: white;
+}
+
+.toc-subnav .usa-accordion__content {
+  @include u-bg('base-lightest');
+}
+
+.toc-subnav .usa-sidenav a:hover {
+  @include u-bg('primary-lighter');
+  color: black;
+}
+
+//filmstrip
+.filmstrip {
+  background: repeating-linear-gradient(45deg, #FFE11A, #FFE11A 50%, #FD7400 50%, #FD7400);
+  background-size: 20px 20px;
+}
+

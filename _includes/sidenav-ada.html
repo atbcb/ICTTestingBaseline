@@ -1,0 +1,13 @@
+<div class="desktop:grid-col-2 margin-top-3 margin-x-1">
+  <div class="padding-2 bg-white border sticky">
+    <div class="">
+        {% if page.url == '/ada/' %}
+        <a class="usa-link" href="{{ site.baseurl }}/ada/guides/"><button class="usa-button">Guide to the Standards</button></a>
+        {% else %}
+        <a class="usa-link" href="{{ site.baseurl }}/ada/"><button class="usa-button">Back to ADA Standards</button></a>
+        {% endif %}
+    </div>
+    {% include technical-assistance.html %}
+    {% include back-to-top.html %}
+  </div>
+</div>

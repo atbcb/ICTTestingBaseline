@@ -1,2 +1,176 @@
-theme: jekyll-theme-slate
-title: "Section 508 ICT Testing Baseline"
+title: Section 508 ICT Testing Baseline
+email: ictbaseline@gsa.gov
+description: >-
+  The tests included in the Section 508 ICT Testing Baseline reduce ambiguity, 
+  increase consistency of results, and emphasize testing of the methods and 
+  techniques that can reliably meet the Section 508 ICT Accessibility requirements, 
+  given the current state and compatibility of underlying technologies.
+baseurl: "/ICTTestingBaseline" # the subpath of your site, e.g. /blog
+url: "https://www.access-board.gov"
+
+# Twitter handle. Only the handle, not the URL.
+twitter: AccessBoard
+
+# Configuration for Google Analytics, add your UA code here:
+google_analytics_ua: UA-33523145-1
+
+# Digital Analytics Program (DAP) configuration
+dap:
+ agency: U.S. Access Board
+
+# Site Navigation
+primary_navigation:
+  - name: About
+    url: https://www.access-board.gov/about/
+  - name: News
+    url: https://www.access-board.gov/news/
+  - name: Guidelines & Standards
+    url: https://www.access-board.gov/gs/
+    children:
+      - name: ICT (§508 and §255)
+        url: https://www.access-board.gov/ict/
+      - name: Americans with Disabilities Act
+        url: https://www.access-board.gov/ada/
+      - name: Architectural Barriers Act
+        url: https://www.access-board.gov/aba/
+      - name: Transportation Vehicles
+        url: https://www.access-board.gov/ada/vehicles/
+      - name: Public Rights-of-Way
+        url: https://www.access-board.gov/prowag/
+      - name: Passenger Vessels
+        url: https://www.access-board.gov/pvag/
+      - name: Medical Diagnostic Equipment
+        url: https://www.access-board.gov/mde/
+      - name: Prescription Drug Labels
+        url: https://www.access-board.gov/rx.html
+  - name: Training & Webinars
+    url: https://www.access-board.gov/webinars/
+  - name: File an ABA Complaint
+    url: https://www.access-board.gov/enforcement/
+  - name: Research
+    url: https://www.access-board.gov/research/
+  - name: Contact Us
+    url: https://www.access-board.gov/contact/
+
+secondary_navigation:
+  - name: En Español
+    url: https://www.access-board.gov/es/
+
+# Search.gov configuration
+# 1. Create an account with Search.gov https://search.usa.gov/signup
+# 2. Add a new site.
+# 3. Add your site/affiliate name here.
+searchgov:
+  endpoint: https://search.usa.gov # You should not change this.
+  affiliate: usab # replace this with your search.gov account
+  access_key: 2ptOZyLyu778gjQEYJAYBc-0b0wXGJ8XylYt-LhPTXc= # this is usab API Access Key 2020-09-17
+  inline: true #this renders the results on the same domain. Otherwise, it will render the results in the search.gov domain
+
+collections:
+  baselines:
+    output: true
+    permalink: /ICTTestingBaseline/:path/
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: ""
+      type: "baselines"
+    values:
+      banner-title: "Section 508 ICT Testing Baseline"
+      collection-folder: baselines
+      layout: universal
+      toc: /toc/auto.html
+      toc-group: baselines
+      right-sidenav: sidenav-right-universal.html
+      ta-text: Contact the Access Board for guidance on these Baseline tests
+      ta-email-pre: ta
+
+future: true
+
+markdown: kramdown
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  # Site-wide kill switch, disabled here it doesn't run at all
+  enabled: false
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: "posts"
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 10
+  # The permalink structure for the paginated pages (this can be any level deep)
+  permalink: "/page/:num/" # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ":title - page :num"
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: "date"
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  category: "posts"
+  # Optional, the default tag to use, omit to disable
+  tag: ""
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts,
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: ""
+  # Optional,omit or set both before and after to zero to disable.
+  # Controls how the pagination trail for the paginated pages look like.
+  trail:
+    before: 2
+    after: 2
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: html
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: "index.html"
+
+exclude:
+  - package.json
+  - package-lock.json
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - degit.json
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+
+assets:
+  sources:
+    - node_modules/dompurify/dist/
+    - node_modules/stickyfilljs/dist
+    - node_modules/uswds/dist/img
+    - node_modules/uswds/dist/js
+    - node_modules/uswds/dist/scss
+    - node_modules/netlify-cms/dist
+    - node_modules/stickyfilljs/dist
+    - node_modules/stickyfilljs/dist
+    - node_modules/video.js/dist
+    - node_modules/videojs-youtube/dist
+    - node_modules/anchor-js
+    - node_modules/jquery/dist
+    - node_modules/datatables/dist/js
+    - node_modules/datatables/dist/css
+    - node_modules/jquery-toast-plugin/dist
+    - node_modules/@fortawesome/fontawesome-free/css
+    - node_modules/@fortawesome/fontawesome-free/js
+    - node_modules/swiper
+    - images

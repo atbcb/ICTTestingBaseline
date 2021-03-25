@@ -1,0 +1,29 @@
+<div class="border-top-1 border-accent-cool-darker padding-top-2 margin-bottom-4 usa-prose">
+    <h4>Featured News</h4>
+    <ul class=" usa-list usa-list--unstyled padding-top-2">
+      {% assign featured-news = site.posts | where: "featured", true  %}
+      {% for featured in featured-news limit:10 %}
+        <li class="padding-bottom-1 text-center">
+          <a class="usa-link" href="{{site.baseurl}}{{featured.url}}">
+          {% if featured.image %}<img src="{{featured.image}}" class="maxh-15" alt="{{featured.image_alt_text}}"><br>{% endif %}
+          {{ featured.title }}</a>
+        </li>
+      {% endfor %}
+
+      {%- comment -%}
+      <li class="padding-bottom-1"><span class=""><i class="fas fa-newspaper fa-2x margin-right-2"></i></span></li>
+
+      <li class="padding-bottom-1">
+        <a class="usa-link" href="{% post_url news/2010-07-21-name-of-post %}">Link to a featured coast</a>
+      </li>
+      <li class="padding-bottom-1">
+        <a class="usa-link" href="{% link _collection/name-of-document.md %}">Link to a page on this website</a>
+      </li>
+      <li class="padding-bottom-1">
+        <a class="usa-link" href="{% link /assets/files/doc.pdf %}">Link to a file</a>
+      </li>
+{%- endcomment -%}
+
+
+    </ul>
+  </div>

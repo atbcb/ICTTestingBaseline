@@ -1,0 +1,20 @@
+<div class="usa-sign-up">
+  <h3 id="subscribe-news" class="usa-sign-up__heading">Subscribe to {{include.name}} updates</h3>
+  <form action="https://public.govdelivery.com/accounts/USACCESS/subscribers/qualify" method="get" class="usa-form">
+    <input name="topic_id" type="hidden" value="{{include.value}}">
+    <label for="email" class="usa-label">Your email address</label>
+    <input id="email" name="email" type="email" title="addy@example.com" class="usa-input">
+    <button type="submit" name="commit" value="Subscribe" class="usa-button">Sign up</button>
+  </form>
+</div>
+
+
+{% comment %}
+Name:	Value
+Access Board News:	USACCESS_1
+Buildings and Sites:	USACCESS_28
+Health Care:	USACCESS_20
+Information and Communication Technology:	USACCESS_3
+Streets and Sidewalks:	USACCESS_12
+Transportation:	USACCESS_13
+{% endcomment %}

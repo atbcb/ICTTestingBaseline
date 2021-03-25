@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+
+<div class="usa-layout-docs">
+  <div id="section-title" class="bg-primary-darker usa-content font-serif-lg padding-y-3">
+    <div class="grid-container text-center maxw-desktop">
+      <h1 class="text-normal text-white margin-0">{{ page.collection-title }}</h1>
+      {%- if page.collection-subtitle -%}
+      <h3 class="text-italic text-white margin-0 padding-top-1">{{ page.collection-subtitle }}</h3>
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+
+
+
+
+        <aside id="toc-aside" class="desktop:grid-col-3 margin-bottom-2 bg-white sticky">
+          <nav role="navigation" class="toc-subnav usa-accordion" aria-multiselectable="true" aria-label="Table of contents subnavigation">
+            <ul class="usa-sidenav">
+              <li class="usa-sidenav__item">
+                <button class="top-level-accordion usa-accordion__button"
+                  aria-expanded="true"
+                  aria-controls="subnav-list"
+                >
+                  Table of Contents
+                </button>
+                <ul id="subnav-list" class="usa-accordion__content usa-sidenav__sublist">
+                  <li class="usa-sidenav__item">
+                    <button class="subnav-anchor usa-current usa-accordion__button"
+                      aria-expanded="true"
+                      aria-controls="subsections"
+                    >
+                      {{ page.title }}
+                    </button>
+                      <ul id="subsections" class="usa-accordion__content usa-sidenav__sublist" aria-label="Page sections navigation">
+                      </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </aside>
+
+
+
+
+      <div id="standard" class="desktop:grid-col usa-prose">
+        <h2 class="">{{page.title}}</h2>
+        {% if page.file %}
+        <div class="clearfix">
+            <span class="float-right">{{ page.file-description }}
+            <a href="{{ site.baseurl }}{{ page.file-directory }}{{ page.file }}" target="_blank" rel="noreferrer">
+            <button class="usa-button ">Download</button>
+            </a>
+            </span>
+        </div>
+
+
+        {% endif %}
+        <div>{{ content }}</div>
+        {% include back-to-top.html %}
+
+      </div>
+
+      {% if page.right-sidenav %}
+      {% include {{ page.right-sidenav }} %}
+      {% endif %}
+    </div>
+  </div>
+</div>

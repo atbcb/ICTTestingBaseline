@@ -1,0 +1,45 @@
+{% comment %}
+add this right side navigation to any page using front matter. Easiest to apply it to the entire collection in the _config.yml file by adding  right-sidenav: sidenav-right-universal.html 
+ then add the information you want in the side navigation
+
+s-url:
+s-image:
+ta-text:
+ta-email-pre:
+
+{% endcomment %}
+
+
+<div class="desktop:grid-col-2 margin-top-3 margin-x-1">
+  <div class="height-viewport sticky">
+    <div class="padding-2 bg-white border maxh-viewport">
+      <div class="text-center">
+        {% if page.s-image %}
+        <a class="usa-link" href="{{ site.baseurl }}{{ page.s-url }}">
+          {% asset {{page.s-image}} class="maxh-15" alt="" %}
+        <span class="usa-button">{{ page.s-url-text }}</span>
+        </a>
+        {% endif %}
+      </div>
+      <div class="margin-top-2 text-center">
+        {% asset stock/question.svg class="maxh-15" alt="" %}
+        
+        <div class="text-center">
+          <h4 class="padding-1 bg-secondary-darker text-white">Technical Assistance</h4>
+          <span class="font-body-3xs">{{ page.ta-text }}</span>
+          <br>
+          <ul class="usa-list usa-list--unstyled padding-top-1 font-body-3xs">
+          <li class="padding-bottom-0">800-872-2253 (v)</li>
+          <li class="padding-bottom-0">800-993-2822 (tty)</li>
+          <li class="padding-bottom-0"><a href="mailto:{{ page.ta-email-pre }}@access-board.gov">{{ page.ta-email-pre }}@access-board.gov</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      {% include back-to-top.html %}
+    </div>
+
+  </div>
+
+  </div>

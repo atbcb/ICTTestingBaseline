@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+{% comment %}
+This is used in news and webinar posts. The index page can be found at _news/index.html and _webinars/index.html
+{% endcomment %}
+<div class="grid-container usa-section maxw-desktop">
+  <div class="grid-row">
+    <div class="desktop:grid-col-8 usa-prose padding-right-4">
+      <h1 class="title">{{page.title}}</h1>
+      <div class="margin-bottom-2">
+        <div class="margin-y-2">
+          <span class="text-bold">{{ page.date | date: '%B %d, %Y' }}</span>
+          {% if page.authors %}
+            <br>
+            <span>By {% for author in page.authors %}{% include staff.html staff=author %}{% endfor %}</span>
+          {% endif %}
+          {% if page.webinar == true %}
+            {% assign today_date = 'now' | date: '%s' %}
+            {% assign webinar_date = page.date | date: '%s' %}
+            {% if webinar_date > today_date %}
+              {% if page.webinar-start %}
+                <br>
+                <span class="text-bold text-italic">{{ page.webinar-start | date: '%I:%M %p' }}{% if page.webinar-end %} - {{ page.webinar-end | date: '%I:%M %p' }}{% endif %}</span>
+              {% endif %}
+              {% if page.registration-link %}
+                <br>
+                <span>
+                  <a href="{{ page.registration-link }}">Registration Link</a>
+                </span>
+              {% endif %}
+            {% else %}
+              <span>Presented on: {{ page.date | date: '%B %d, %Y' }}</span>
+              {% if page.video-link %}
+                <br>
+                <span><a href="{{ page.video-link }}">Watch recorded webinar</a></span>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        </div>
+
+        <div>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <aside class="desktop:grid-col-fill margin-top-4 padding-right-4">
+      {%- if page.webinar == true -%}
+        {%- include sidenav-webinars.html -%}
+      {%- else -%}
+        {%- include sidenav-posts.html -%}
+      {%- endif -%}
+    </aside>
+  </div>
+</div>

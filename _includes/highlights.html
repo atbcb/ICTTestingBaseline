@@ -1,0 +1,26 @@
+{% comment %}
+Use this section to highlight key elements of your site.
+Some sites will only have two while others may have six to eight.
+{% endcomment %}
+<section class="usa-graphic-list usa-section usa-section--dark">
+  <div class="grid-container maxw-desktop">
+    {% for highlight in site.data.highlights %}
+      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+      {% if forloop.first or thecycle == 'odd' %}
+        <div class="usa-graphic-list__row grid-row grid-gap">
+      {% endif %}
+      <div class="usa-media-block tablet:grid-col">
+        {% asset {{highlight.image-file}} class="usa-media-block__img circle-15 border-2px" alt="{{ highlight.alt }}" %}
+        <div class="usa-media-block__body">
+          <a style="text-decoration:none" href="{{ site.baseurl }}{{ highlight.link }}">
+            <h3 class="usa-graphic-list__heading">{{ highlight.title }}</h3>
+            {{ highlight.description }}
+          </a>
+        </div>
+      </div>
+      {% if forloop.last or thecycle == 'even' %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

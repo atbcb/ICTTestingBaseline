@@ -1,0 +1,60 @@
+{% comment %}
+ This auto generates a table of contents. Front matter of toc-group is required for this to work. toc-group is the group of pages within the same collection that you want to show up in the table of contents. They are sorted by order-number. If you only want a single page with auto generated table of contents based on h3 and the toc-subnav.js give toc-group a unique name. If toc-group is null all pages in the entire collection are shown
+
+ Ex:
+ toc: /toc/auto.html
+ toc-group: Indoor Environmental Quality
+
+   This creates a table of contents for all pages in the _research collection with front matter toc-group: Indoor Environmental Quality. (The collection also needs to be assigned default front matter of collection-folder: research)
+
+{% endcomment %}
+{% if page.collection-folder %}
+  {% if page.toc-group %}
+    {% if page.order-number %}
+      {% assign chapters = site[page.collection-folder] | where: "toc-group",  {{page.toc-group}}  | sort:"order-number"%}
+    {% else %}
+      {% assign chapters = site[page.collection-folder] | where: "toc-group",  {{page.toc-group}} %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+{% if chapters %}
+<aside id="toc" class="desktop:grid-col-3 margin-bottom-2 padding-right-2 border-right-width-2">
+  <div class="padding-2 bg-white height-viewport overflow-y-scroll sticky">
+    <nav role="navigation" class="toc-subnav usa-accordion" aria-multiselectable="true" aria-label="Table of contents subnavigation">
+      <ul class="usa-sidenav">
+        <li class="usa-sidenav__item">
+          <button class="top-level-accordion usa-accordion__button text-center text-uppercase text-heavy"
+            aria-expanded="true"
+            aria-controls="subnav-list"
+          >
+            Table of Contents
+          </button>
+          <ul id="subnav-list" class="usa-accordion__content usa-sidenav__sublist">
+            {% for chapter in chapters %}
+            <li class="usa-sidenav__item">
+              {% if page.title == chapter.title %}
+              <button class="subnav-anchor usa-current usa-accordion__button"
+                aria-expanded="true"
+                aria-controls="subsections"
+              >
+                {{ chapter.title }}
+              </button>
+                <ul id="subsections" class="usa-accordion__content usa-sidenav__sublist" aria-label="Page sections navigation">
+                </ul>
+              {% else %}
+              <a
+                class="subnav-anchor bg-white"
+                href="{{site.baseurl}}{{ chapter.url }}"
+              >
+                {{ chapter.title }}
+              </a>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</aside>
+{% endif %}

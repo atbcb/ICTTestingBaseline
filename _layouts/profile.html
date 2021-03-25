@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+{% comment %}
+  This is used for individula Board Member and Staff pages. Banner title is defined in the _config.yml
+{% endcomment %}
+
+<h1 class="title">{{ page.full_name }}</h1>
+  {% if page.job-title %}<span class="text-base text-italic text-bold">{{ page.job-title }}</span><br>{% endif %}  
+  {% if page.office %}<span class="text-base text-bold">{{ page.office }}</span><br>{% endif %}  
+  {% if page.agency %}<span class="text-base text-bold">{{ page.agency }}</span><br>{% endif %}  
+  {% if page.department %}<span class="text-base text-bold">{{ page.department }}</span><br>{% endif %}  
+  <div id="bio" class="margin-y-2 usa-prose">
+    {% if page.image %}<img class="float-right maxw-card-lg margin-left-2 margin-bottom-2 shadow radius-lg" src="{{ site.baseurl }}{{ page.image }}">{% endif %} 
+    {{ content }}
+  </div>
+

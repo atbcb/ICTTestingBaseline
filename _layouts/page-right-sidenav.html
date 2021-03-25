@@ -1,0 +1,34 @@
+---
+layout: base
+---
+
+{% comment %}
+This template is for a single page that does not have a date associated with it. For example, an about page.
+
+banner-title or title used by include section-title.html
+toc: file name of toc, or null for no left side table of contents
+
+{% endcomment %}
+
+
+{% include section-title.html %}
+
+<div class="">
+  <div class="grid-container maxw-desktop">
+    <div class="grid-row grid-gap usa-prose">
+      <main id="main-content"class="desktop:grid-col-9 margin-y-5">
+        <div id="content">
+          
+            {{ content }}
+          
+        </div>
+      </main>
+      <aside class="desktop:grid-col-3 margin-y-5">
+      {% if page.right-sidenav %}
+      {% include {{page.right-sidenav}} %}
+      {% endif %}
+      </aside>
+
+    </div>
+  </div>
+</div>

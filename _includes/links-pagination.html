@@ -1,0 +1,17 @@
+      <!-- Pagination links -->
+      <div class="grid-row padding-y-2">
+        <div class="tablet:grid-col-4 tablet:order-2 margin-y-auto ">
+          <p class="text-center font-body-xs">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
+        </div>
+        <div class="tablet:grid-col-4 text-right tablet:order-3">
+          {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="paginate-button usa-button margin-top-3 tablet:margin-y-1">Next Page &rsaquo;</a>
+          {% endif %}
+        </div>
+        <div class="tablet:grid-col-4 text-left tablet:order-1">
+          {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="paginate-button usa-button margin-y-1">&lsaquo;
+            Previous Page</a>
+          {% endif %}
+        </div>
+      </div>

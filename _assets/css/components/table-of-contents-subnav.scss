@@ -1,0 +1,49 @@
+#toc-aside {  //this might not be used and can be removed in the future
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 100vh;
+  z-index: 300;
+}
+
+.toc-subnav {
+  #subsections {
+    li > a {
+      @include u-text('normal');
+      @include u-padding-left(3);
+    }
+  }
+
+  .top-level-accordion.usa-accordion__button {
+    background-color: white;
+
+    @include at-media('desktop') {
+      background-image: none;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  }
+
+  .usa-sidenav {
+    @include u-border-bottom('05');
+  }
+
+  .usa-accordion__content {
+    @include u-padding(0);
+  }
+
+  .usa-sidenav__sublist {
+    .usa-sidenav__item:first-child {
+      @include u-border-top('05');
+    }
+
+    a {
+      @include u-padding-left(2);
+    }
+  }
+}
+
+.usa-sidenav__item {
+  a {
+    @include u-text('bold')
+  }
+}

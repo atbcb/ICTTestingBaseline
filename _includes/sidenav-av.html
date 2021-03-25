@@ -1,0 +1,19 @@
+{% comment %}
+ this right side navigation is specific to the AV page 
+{% endcomment %}
+
+
+
+    <div class="padding-2 border bg-white shadow">
+      <div class="text-center">
+        {% asset stock/av.svg class="maxh-15" alt="autonomous vehicle icon" %}
+        <div class="text-center">
+          <p class="padding-1 bg-secondary-darker text-white text-bold">Autonomous Vehicles</p>
+          <p class="font-body-3xs">For more information on the AV Information Series, contact:
+          <p class="text-bold">Randall Duchesneau</p>
+          <p class="font-body-3xs">(202) 272-0044 (v)</p>
+          <p class="font-body-3xs"><a href="mailto:duchesneau@access-board.gov">duchesneau@access-board.gov</a></p>
+        </div>
+      </div>
+      {% include subscribe.html name='Transportation' value='USACCESS_13' %}
+    </div>
