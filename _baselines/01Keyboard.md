@@ -82,4 +82,4 @@ Keyboard access and control includes the ability to navigate to AND away from in
     -   [G21: Ensuring users are not trapped in content](http://www.w3.org/TR/WCAG20-TECHS/G21.html)
 
 -------------------------------------------------
-[Home/Table of Contents](index)    |    [Next Baseline](02FocusVisible)
+[Home/Table of Contents](/index)    |    [Next Baseline](/02FocusVisible)
