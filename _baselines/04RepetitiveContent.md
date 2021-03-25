@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "4. Repetitive Content"
 order-number: 5
 ---
 # 4. Repetitive Content

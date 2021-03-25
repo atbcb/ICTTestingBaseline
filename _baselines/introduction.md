@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "Introduction"
 order-number: 1
 ---
 

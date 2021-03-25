@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "20. Conforming Alternate Version"
 order-number: 21
 ---
 # 20. Conforming Alternate Version

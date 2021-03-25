@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "6. Images"
 order-number: 7
 ---
 # 6. Images

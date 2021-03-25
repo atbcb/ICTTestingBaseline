@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "13. Content Structure"
 order-number: 14
 ---
 # 13. Content Structure

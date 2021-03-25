@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "Glossary"
 order-number: 103
 ---
 # Glossary

@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "24. Parsing"
 order-number: 25
 ---
 # 24. Parsing

@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "11. Page Titles"
 order-number: 12
 ---
 # 11. Page Titles

@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "15. Language"
 order-number: 16
 ---
 # 15. Language

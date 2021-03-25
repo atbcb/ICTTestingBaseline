@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "1. Keyboard Accessible"
 order-number: 2
 ---
 # 1. Keyboard Accessible

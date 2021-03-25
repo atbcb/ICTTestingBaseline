@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "23. Multiple Ways"
 order-number: 24
 ---
 # 23. Multiple Ways

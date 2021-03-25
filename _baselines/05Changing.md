@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "5. Changing Content"
 order-number: 6
 ---
 # 5. Changing Content

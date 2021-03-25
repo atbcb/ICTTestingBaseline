@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "Appendix B - Section 508 ICT Testing Baseline Change Log"
 order-number: 101
 ---
 # Appendix B - Section 508 ICT Testing Baseline Change Log

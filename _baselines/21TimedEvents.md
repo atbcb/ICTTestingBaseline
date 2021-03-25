@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "21. Timed Events"
 order-number: 22
 ---
 # 21. Timed Events

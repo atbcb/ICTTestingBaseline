@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "16. Audio-Only and Video-Only"
 order-number: 17
 ---
 # 16. Audio-Only and Video-Only

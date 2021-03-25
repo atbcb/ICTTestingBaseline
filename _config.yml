@@ -69,7 +69,7 @@ searchgov:
 collections:
   baselines:
     output: true
-    permalink: /ICTTestingBaseline/:path/
+    permalink: /:path/
 
 permalink: pretty
 

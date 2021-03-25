@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "17. Synchronized Media"
 order-number: 18
 ---
 # 17. Synchronized Media

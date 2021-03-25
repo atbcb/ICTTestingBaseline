@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "12. Tables"
 order-number: 13
 ---
 # 12. Tables

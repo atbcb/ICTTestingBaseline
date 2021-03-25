@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "Appendix A – Cross Reference Tables"
 order-number: 100
 ---
 Appendix A – Cross Reference Tables

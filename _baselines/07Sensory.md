@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: Using the ADA Standards"
+title: "7. Sensory Characteristics"
 order-number: 8
 ---
 # 7. Sensory Characteristics
