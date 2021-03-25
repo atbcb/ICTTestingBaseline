@@ -142,4 +142,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G186: Using a control in the Web page that stops moving, blinking, or auto-updating content](http://www.w3.org/TR/WCAG20-TECHS/G186)
 
 ----------------------------------------
-[Home/Table of Contents](index) | [Previous Baseline](20AlternateVersions) | [Next Baseline](22Resize)
+[Home/Table of Contents](../) | [Previous Baseline](../20AlternateVersions) | [Next Baseline](../22Resize)

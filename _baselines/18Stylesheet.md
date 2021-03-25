@@ -62,4 +62,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [F1: Changing the meaning of content by positioning information with CSS](https://www.w3.org/TR/WCAG20-TECHS/F1.html)
 
 ----------------------------------------
-[Home/Table of Contents](index) | [Previous Baseline](17SyncMedia) | [Next Baseline](19Frames)
+[Home/Table of Contents](../) | [Previous Baseline](../17SyncMedia) | [Next Baseline](../19Frames)

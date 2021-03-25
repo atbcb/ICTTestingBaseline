@@ -186,7 +186,7 @@ Review form instructions for completeness and programmatic association to their 
 
 ### Test Procedure for Form Changes
 
-<p>Form components that change are tested in [Baseline 5. Changing Content](05Changing).</p>
+<p>Form components that change are tested in [Baseline 5. Changing Content](../05Changing).</p>
 
 ### Advisory: Tips for streamlined test processes
 
@@ -209,4 +209,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [F37: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the selection of a radio button, check box or select list is changed](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F37)
 
 ----------------------------------------
-[Home/Table of Contents](index) | [Previous Baseline](09Flashing) | [Next Baseline](11PageTitles)
+[Home/Table of Contents](../) | [Previous Baseline](../09Flashing) | [Next Baseline](../11PageTitles)

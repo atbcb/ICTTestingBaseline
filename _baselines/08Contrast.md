@@ -57,4 +57,4 @@ This test is conducted to evaluate equal access to information for all users, in
     -   [G145: Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text](http://www.w3.org/TR/WCAG20-TECHS/G145.html) (when the text is at least 18 point if not bold and at least 14 point if bold).
 
 ----------------------------------------
-[Home/Table of Contents](index) | [Previous Baseline](07Sensory) | [Next Baseline](09Flashing)
+[Home/Table of Contents](../) | [Previous Baseline](../07Sensory) | [Next Baseline](../09Flashing)

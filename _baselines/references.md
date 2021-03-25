@@ -24,4 +24,4 @@ order-number: 102
 
 
 ----------------------------------------------------------------
-[Home/Table of Contents](index) | [Previous Section (Appendix B - Change Log)](ChangeLog3) | [Next Section (Glossary)](glossary)
+[Home/Table of Contents](../) | [Previous Section (Appendix B - Change Log)](../ChangeLog3) | [Next Section (Glossary)](../glossary)

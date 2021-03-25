@@ -134,7 +134,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 ### Advisory: Tips for streamlined test processes
 
--   Testing synchronized media is different from testing Baseline [16. Audio-Only and Video-Only content](16AudioVideo).
+-   Testing synchronized media is different from testing Baseline [16. Audio-Only and Video-Only content](../16AudioVideo).
 -   Synchronized media players may be software or HTML.
 -   At Level AA, SC 1.2.5 applies to synchronized media. The related Level A requirement, SC 1.2.3, should be marked as ‘Not Tested’ in the test report. It is permissible for test processes to add a test for SC 1.2.3 (evaluate a full text alternative for equivalence). Adding such a test would exceed baseline test requirements and would not affect Baseline 18’s outcome.
 
@@ -146,4 +146,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G78: providing a second, user-selectable, audio track that includes audio descriptions](http://www.w3.org/TR/WCAG20-TECHS/G78.html)
 
 ----------------------------------------
-[Home/Table of Contents](index) | [Previous Baseline](16AudioVideo) | [Next Baseline](18Stylesheet)
+[Home/Table of Contents](../) | [Previous Baseline](../16AudioVideo) | [Next Baseline](../18Stylesheet)
