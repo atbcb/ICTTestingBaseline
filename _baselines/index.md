@@ -1,7 +1,7 @@
 ---
 title: "Section 508 ICT Testing Basline for Web"
 order-number: 0
-permalink: /baselines/
+permalink: /
 ---
 
 United States Federal Chief Information Officers Council (CIOC)
