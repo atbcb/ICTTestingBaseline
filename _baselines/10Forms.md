@@ -51,7 +51,7 @@ Review form instructions for completeness and programmatic association to their 
 		<ul>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
-			<li><a href="https://www.w3.org/TR/html-aam-1.0/#button-element" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>button</code> element</a>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#button-element" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>button</code> element</a></li>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-image" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input type="image"</code></a></li>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#other-form-elements" target="_blank" rel="noopener">HTML Accessibility API Mappings for Other Form Elements</a></li>
 		</ul></li>
