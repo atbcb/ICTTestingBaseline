@@ -2,33 +2,33 @@
 title: "12. Tables"
 order-number: 13
 ---
-# 12. Tables
+## 12. Tables
 
-Accessibility Requirements
---------------------------
+### Accessibility Requirements
+
 -   [WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html): Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
 
-Test Method Rationale
----------------------
+### Test Method Rationale
+
 For assistive technology (AT) users, data tables must explicitly associate table data with table row and column headers via programmatic markup. Table markup also facilitates navigation for AT users by providing programmatic landmarks via column and row headers.
 
 When `<table>` elements are used for layout purposes, data table structure elements are not permitted, such as `<th>`, `<caption>`, or `<summary>` (HTML4).
 
-Limitations, Assumptions, Exceptions
-------------------------------------
+### Limitations, Assumptions, Exceptions
+
 -   Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table.
 -   Some content may visually appear to require a data table structure, but, linearizing the content and/or viewing the code reveals that the content is understandable without the table. This technique may be used for responsive design. These elements use CSS and/or other styling methods to present content in columns or rows. The information conveyed does not rely on programmatic relationships between column or row headers to be understood. This content is not a data table and should not use the element, ARIA role="table", and associated programmatic table attributes. It should be tested using other baseline tests, such as [13.Structure.md](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/13Headings.md) and/or possibly [10. Forms (associated instructions)](https://github.com/Section508Coordinators/ICTTestingBaseline/blob/master/docs/10Forms.md).
 -   Rows of data that are related must have a row header so assistive technology users can understand the relationship of the row's data cells. Not every table requires a row header. For example, a calendar month is a data table, typically with the days of the week as column headers. The dates in a row are not related so typically, there is no row header present. However, if there was a cell in each row to indicate the week of the year, this cell would serve as a row header for the dates within that row.
 
-12.1 Test Procedure for Data Tables
-------------------------------------------------
+### 12.1 Test Procedure for Data Tables
+
 **Baseline Test ID:** 12.1-DataTable
-### Identify Content
+#### Identify Content
 <p id="1IC">All content/data visually presented in a table with column and/or row headers where the content is not in a meaningful sequence when linearized.</p>
 
 <p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques [SC 1.3.1]:</li>
         <ul>
@@ -57,18 +57,18 @@ Limitations, Assumptions, Exceptions
         <li>For ARIA <code>role="grid"</code>: each column header must have <code>role="columnheader"</code> and each row header must have <code>role="rowheader"</code> (if the ARIA grid is not making use of the native HTML <code>&lt;table&gt;</code> element and structure).</li>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="1TR">If any of the above tests fail, Baseline Test 12.1-DataTable fails.</p>
 
-12.2 Test Procedure for Layout Tables
-------------------------------------------------
+### 12.2 Test Procedure for Layout Tables
+
 **Baseline Test ID:** 12.2-LayoutTable
-### Identify Content
+#### Identify Content
 <p id="2IC">All content/data visually presented in a table that retains any meanigful sequence when linearized.</p>
 
 <p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="2TI">
     <li id="2TI-1">Check that tables used purely for layout purposes [SC 1.3.1]:</li>
         <ol>
@@ -82,14 +82,14 @@ Limitations, Assumptions, Exceptions
         </ol>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="2TR">If any of the above tests fail, Baseline Test 12.2-LayoutTable fails.</p>
 
-Advisory: Tips for streamlined test processes
----------------------------------------------
+### Advisory: Tips for streamlined test processes
+
 Content that is presented with a CSS table appearance, but does not rely on header association, can most easily be identified by linearization. Another helpful indicator is the table only has row headers or column headers but not both.
 
-### WCAG 2.0 Techniques
+#### WCAG 2.0 Techniques
 The following sufficient techniques were considered when developing this test procedure for this baseline requirement:
 -   [H43: Using id and headers attributes to associate data cells with header cells in data tables](https://www.w3.org/TR/WCAG20-TECHS/H43.html)
 -   [H51: Using table markup to present tabular information](https://www.w3.org/TR/WCAG20-TECHS/H51.html)

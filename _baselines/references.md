@@ -2,9 +2,9 @@
 title: "Appendix C - ICT Testing Baseline for Web References"
 order-number: 102
 ---
-# Appendix C - ICT Testing Baseline for Web References
+## Appendix C - ICT Testing Baseline for Web References
 
-## Technical References
+### Technical References
 
 - [Accessible Name and Description Computation 1.1](https://www.w3.org/TR/accname-1.1/)
 
@@ -14,7 +14,7 @@ order-number: 102
 
 - [Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/)
 
-## Glossary References
+### Glossary References
 
 - [Accessibility Conformance Testing glossary](https://act-rules.github.io/glossary/)
 

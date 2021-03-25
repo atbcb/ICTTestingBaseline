@@ -1,28 +1,28 @@
 ---
-title: "21. Timed Events"
+title: "22. Resize Text"
 order-number: 23
 ---
-# 22. Resize Text
+## 22. Resize Text
 
-Accessibility Requirements
---------------------------
+### Accessibility Requirements
+
 -   [WCAG SC 1.4.4 Resize text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html) -- Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
 
-Test Method Rationale
----------------------
+### Test Method Rationale
+
 This baseline test requires an evaluation of visual content and functionality after text has been resized.
 
-Limitations, Assumptions, or Exceptions
----------------------------------------
+### Limitations, Assumptions, or Exceptions
+
 -   Exception: captions and images of text are not included in the test.
 
-22.1 Test Procedure for Resize Text
-------------------------------------
+### 22.1 Test Procedure for Resize Text
+
 **Baseline Test ID:** 22.1-ResizeText
-### Identify Content
+#### Identify Content
 <p id="1IC">All text on a page.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] <br>
     Known approaches include:</li>
@@ -41,12 +41,12 @@ Limitations, Assumptions, or Exceptions
         </ol>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Test 22.1-ResizeText fails.</p>
 
-Advisory: Tips for streamlined test processes
----------------------------------------------
-### WCAG 2.0 Techniques
+### Advisory: Tips for streamlined test processes
+
+#### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G178: Providing controls on the Web page that allow users to incrementally change the size of all text on the page up to 200 percent](https://www.w3.org/TR/WCAG20-TECHS/G178.html)
 -   [G179: Ensuring that there is no loss of content or functionality when the text resizes and text containers do not change their width](https://www.w3.org/TR/WCAG20-TECHS/G179.html)

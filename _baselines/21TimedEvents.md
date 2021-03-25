@@ -2,10 +2,10 @@
 title: "21. Timed Events"
 order-number: 22
 ---
-# 21. Timed Events
+## 21. Timed Events
 
-Accessibility Requirements
---------------------------
+### Accessibility Requirements
+
 -   [WCAG SC 2.2.1 Timing Adjustable](http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html) -- For each time limit that is set by the content, at least one of the following is true:
     -   **Turn off:** The user is allowed to turn off the time limit before encountering it.
     -   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.
@@ -16,12 +16,12 @@ Accessibility Requirements
 -   [WCAG SC 1.4.2 Audio Control](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html) -- If any audio on a page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
 -   [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
-Test Method Rationale
----------------------
+### Test Method Rationale
+
 Determine how time limits, auto-play, and auto-update can be modified by a user and execute the modifications.
 
-Limitations, Assumptions, or Exceptions
----------------------------------------
+### Limitations, Assumptions, or Exceptions
+
 -   Time limits set by the content that meet any of the following are not included in this test:
     -   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
     -   **Essential Exception:** The time limit is essential and extending it would invalidate the activity; or
@@ -36,13 +36,13 @@ Limitations, Assumptions, or Exceptions
 -   Note from SC 1.4.2 Audio Control:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
-21.1 Test Procedure for Timing Adjustable
----------------------------------------------
+### 21.1 Test Procedure for Timing Adjustable
+
 **Baseline Test ID:** 21.1-TimingAdjustable
-### Identify Content
+#### Identify Content
 <p id="1IC">Identify any instances of content time limits (excluding exceptions described above).</p>
 
-### Test Instructions
+#### Test Instructions
 <p id="1TI">For each instance of an identified time limit for content:
     <ol>
     <li id="1TI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:</li>
@@ -58,14 +58,14 @@ Limitations, Assumptions, or Exceptions
     </ol>
 </p>
 
-### Test Results
+#### Test Results
 <p id="1TR">If the above check fails, then Baseline Test 21.1-TimingAdjustable fails.</p>
 
-21.2 Test Procedure for Moving Information
----------------------------------------------
+### 21.2 Test Procedure for Moving Information
+
 **Baseline Test ID:** 21.2-MovingInfo
 
-#### Identify Content
+##### Identify Content
 <p id="2IC">Any moving, blinking, or scrolling information that meets ALL of the following:
     <ul>
     <li>Starts automatically, AND</li>
@@ -75,17 +75,17 @@ Limitations, Assumptions, or Exceptions
     </ul>
 </p>
 
-#### Test Instructions
+##### Test Instructions
 <ol id="2TI">
     <li id="2TI-1">Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]</li>
 </ol>
 
-#### Test Results
+##### Test Results
 <p id="2TR">If the above check fails, then Baseline Test 21.2-MovingInfo fails.</p>
 
-### 21.3 Test Procedure for Auto-updating information
+#### 21.3 Test Procedure for Auto-updating information
 **Baseline Test ID:** 21.3-AutoUpdate
-#### Identify Content
+##### Identify Content
 <p id="3IC">Any auto-updating information that meets ALL of the following:
     <ul>
     <li>Starts automatically, AND</li>
@@ -94,21 +94,21 @@ Limitations, Assumptions, or Exceptions
     </ul>
 </p>
 
-#### Test Instructions
+##### Test Instructions
 <ol id="3TI">
     <li id="3TI-1">Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]</li>
 </ol>
 
-#### Test Results
+##### Test Results
 <p id="3TR">If the above check fails, then Baseline Test 21.2-AutoUpdate fails.</p>
 
-21.4 Test Procedure for Audio Control
------------------------------------------
+### 21.4 Test Procedure for Audio Control
+
 **Baseline Test ID:** 21.4-AudioControl
-### Identify Content
+#### Identify Content
 <p id="4IC">Audio that automatically plays for more than 3 seconds.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="4TI">
     <li id="4TI-1">Check that either [SC 1.4.2]</li>
         <ol>
@@ -117,18 +117,18 @@ Limitations, Assumptions, or Exceptions
         </ol>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="4TR">If the above check fails, then Baseline Test 21.4-AudioControl fails.</p>
 
-Advisory: Tips for streamlined test processes
----------------------------------------------
+### Advisory: Tips for streamlined test processes
+
 -   Remind testers that when the time-out occurs, visible focus should shift to the time-out alert to comply with success criteria for keyboard accessibility and focus order.
 -   In some cases, it may be necessary to contact the application authors to clarify the conditions under which time-outs occur.
 -   A failure of SC 1.4.2 or 2.2.2 would also fail Conformance Requirement 5: Non-Interference and should be highlighted in test reports to indicate the severe impact on accessibility.
 -   Browsers must be configured to disable autoplay of audio prior to testing of content. Provide instructions for conformant browser mechanisms only. Test results may vary depending on browser.
 -   Content that is found non-conformant with SC 2.2.2 may be marked for further review for a Section 508 exception if the auto-update is essential. However, an exception for SC 2.2.2 should be considered carefully as Conformance Requirement 5: Non Interference requires its conformance.
 
-### WCAG 2.0 Techniques
+#### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G198: Providing a way for the user to turn the time limit off](https://www.w3.org/TR/WCAG20-TECHS/G198.html)
 -   [G180: Providing the user with a means to set the time limit to 10 times the default time limit](https://www.w3.org/TR/WCAG20-TECHS/G180.html)

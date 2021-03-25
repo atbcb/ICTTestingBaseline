@@ -2,10 +2,10 @@
 title: "17. Synchronized Media"
 order-number: 18
 ---
-# 17. Synchronized Media
+## 17. Synchronized Media
 
-Accessibility Requirements
---------------------------
+### Accessibility Requirements
+
 -   [WCAG SC 1.2.2 Captions (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html) -- Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
 -   [WCAG SC 1.2.3 Audio Description or Media Alternative (Prerecorded)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc.html) -- An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
 -   [WCAG SC 1.2.4 Captions (Live)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-real-time-captions.html) -- Captions are provided for all live audio content in synchronized media.
@@ -14,12 +14,12 @@ Accessibility Requirements
 -   [Section 508 503.4.1 Caption Controls](https://www.federalregister.gov/d/2017-00395/p-631) -- Where user controls are provided for volume adjustment, ICT shall provide user controls for the selection of captions at the same menu level as the user controls for volume or program selection.
 -   [Section 508 503.4.2 Audio Description Controls](https://www.federalregister.gov/d/2017-00395/p-632) -- Where user controls are provided for program selection, ICT shall provide user controls for the selection of audio descriptions at the same menu level as the user controls for volume or program selection.
 
-Test Method Rationale
----------------------
+### Test Method Rationale
+
 Evaluation of captions and audio descriptions to assess its equivalence to synchronized media content generally involves a manual, cognitive comparison of the original content with its alternative(s).
 
-Limitations, Assumptions, or Exceptions
----------------------------------------
+### Limitations, Assumptions, or Exceptions
+
 -   [Synchronized media](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html#synchronizedmediadef) is audio or video synchronized with another format for presenting information and/or with time-based interactive components, unless the media is a media alternative for text that is clearly labeled as such. Synchronized media includes, but is not limited to Web casts, press conferences, and online training presentations.
 -   [Captions](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-captions.html#captionsdef) are synchronized visual and/or text alternative for both speech and non-speech audio information needed to understand the media content. Additional notes from definition:
     -   Note 1: Captions...convey not only the content of spoken dialogue, but also equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location.
@@ -35,55 +35,55 @@ Limitations, Assumptions, or Exceptions
     -   Note 2: 1.2.3, 1.2.5, and 1.2.8 overlap somewhat with each other. This is to give the author some choice at the minimum conformance level, and to provide additional requirements at higher levels. At Level A in Success Criterion 1.2.3, authors do have the choice of providing either an audio description or a full text alternative. If they wish to conform at Level AA, under Success Criterion 1.2.5 authors must provide an audio description - a requirement already met if they chose that alternative for 1.2.3, otherwise an additional requirement.
 -   For this Section 508 baseline, synchronized media is tested for SC 1.2.5; (Level A) SC 1.2.3 is not tested. At the higher conformance level AA, SC 1.2.5 requires audio descriptions and is more restrictive than SC 1.2.3.
 
-17.1 Test Procedure for Media Player Controls
-------------------------------------
+### 17.1 Test Procedure for Media Player Controls
+
 **Baseline Test ID:** 17.1-MediaPlayerCCADControls
-### Identify Content
+#### Identify Content
 <p id="1IC">Media player that displays video with synchronized audio.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that user controls for the selection of captions and audio descriptions are provided. [Section 508 503.4]</li>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Requirement 17.1-MediaPlayerCCADControls fails.</p>
 
-17.2 Test Procedure for Media Player Caption Control Level
---------------------------------------
+### 17.2 Test Procedure for Media Player Caption Control Level
+
 **Baseline Test ID:** 17.2-MediaPlayerCCLevel
-### Identify Content
+#### Identify Content
 <p id="2IC">Media player that displays video with synchronized audio and has volume adjustment controls.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="2TI">
     <li id="2TI-1">Check that user controls for the selection of captions are at the same menu level as the user controls for volume adjustment or program selection. [Section 508 503.4.1]</li>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="2TR">If any of the above checks fail, then Baseline Test 17.2-MediaPlayerCCLevel fails.</p>
 
-17.3 Test Procedure for Media Player Audio Description Control Level
---------------------------------------
+### 17.3 Test Procedure for Media Player Audio Description Control Level
+
 **Baseline Test ID:** 17.3-MediaPlayerADLevel
-### Identify Content
+#### Identify Content
 <p id="3IC">Media player that displays video with synchronized audio and has program selection controls.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="3TI">
     <li id="3TI-1">Check that user controls for the selection of audio descriptions are at the same menu level as the user controls for volume or program selection. [Section 508 503.4.2]</li>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="3TR">If any of the above checks fail, then Baseline Test 17.3-MediaPlayerADLevel fails.</p>
 
-17.4 Test Procedure for SC 1.2.2 Captions (Prerecorded)
---------------------------------------------------
+### 17.4 Test Procedure for SC 1.2.2 Captions (Prerecorded)
+
 **Baseline Test ID:** 17.4-CaptionsPrerecorded
-### Identify Content
+#### Identify Content
 <p id="4IC">Pre-recorded synchronized multimedia.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="4TI">
     <li id="4TI-1">Enable captions through multimedia player functions and play the media. If a separate media file with captions is provided, test that file.</li>
     <li id="4TI-2">Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location. [SC 1.2.2]</li>
@@ -94,32 +94,32 @@ Limitations, Assumptions, or Exceptions
     <li id="4Ti-3">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="4TR">If any of the above checks fail, then Baseline 17.4-CaptionsPrerecorded fails.</p>
 
-17.5 Test Procedure for Audio Description (Prerecorded)
------------------------------------------------------------
+### 17.5 Test Procedure for Audio Description (Prerecorded)
+
 **Baseline Test ID:** 17.5-ADPrerecorded
 
-### Identify Content
+#### Identify Content
 <p id="5IC">Pre-recorded synchronized multimedia.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="5TI">
     <li id="5TI-1">Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that file.</li>
     <li id="5TI-2">Check that the audio (with audio descriptions enabled) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content. [SC 1.2.5]</li>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="5TR">If any of the above checks fail, then Baseline 17.5-ADPrerecorded fails.</p>
 
-17.6 Test Procedure for SC 1.2.4 Captions (Live)
--------------------------------------------
+### 17.6 Test Procedure for SC 1.2.4 Captions (Live)
+
 **Baseline Test ID:** 17.6-CaptionsLive
-### Identify Content
+#### Identify Content
 <p id="6IC">Live synchronized multimedia.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="6TI">
     <li id="6TI-1">Enable captions through multimedia player functions and start the live session.</li>
     <li id="6TI-2">Check that provided captions include dialogue and important sounds. [SC 1.2.4]</li>
@@ -129,16 +129,16 @@ Limitations, Assumptions, or Exceptions
         </ol>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="6TR">If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.</p>
 
-Advisory: Tips for streamlined test processes
----------------------------------------------
+### Advisory: Tips for streamlined test processes
+
 -   Testing synchronized media is different from testing Baseline [16. Audio-Only and Video-Only content](16AudioVideo.md).
 -   Synchronized media players may be software or HTML.
 -   At Level AA, SC 1.2.5 applies to synchronized media. The related Level A requirement, SC 1.2.3, should be marked as ‘Not Tested’ in the test report. It is permissible for test processes to add a test for SC 1.2.3 (evaluate a full text alternative for equivalence). Adding such a test would exceed baseline test requirements and would not affect Baseline 18’s outcome.
 
-### WCAG 2.0 Techniques
+#### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G93: Providing open (always visible) captions](http://www.w3.org/TR/WCAG20-TECHS/G93.html)
 -   [G87: Providing closed captions](http://www.w3.org/TR/WCAG20-TECHS/G87.html)

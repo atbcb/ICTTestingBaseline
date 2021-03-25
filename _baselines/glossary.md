@@ -2,7 +2,7 @@
 title: "Glossary"
 order-number: 103
 ---
-# Glossary
+## Glossary
 
 
 Accessibility object model (AOM)

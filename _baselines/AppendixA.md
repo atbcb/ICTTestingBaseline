@@ -2,11 +2,11 @@
 title: "Appendix A – Cross Reference Tables"
 order-number: 100
 ---
-Appendix A – Cross Reference Tables
-===================================
+## Appendix A – Cross Reference Tables
 
-Baseline to Section 508/WCAG Requirement
-----------------------------------------
+
+### Baseline to Section 508/WCAG Requirement
+
 
 | Baseline Test                 | Section 508 / WCAG Requirement                                     |
 |-------------------------------|--------------------------------------------------------------------|
@@ -35,8 +35,8 @@ Baseline to Section 508/WCAG Requirement
 | [23. Multiple Ways](23MultipleWays.md)             | 2.4.5 Multiple Ways                                                |
 | [24. Parsing](24Parsing.md)                   | 4.1.1 Parsing                                                      |
 
-Section 508/WCAG Requirement to Baseline
-----------------------------------------
+### Section 508/WCAG Requirement to Baseline
+
 
 | Section 508 / WCAG Requirement                                     | Baseline Test                 |
 |--------------------------------------------------------------------|-------------------------------|

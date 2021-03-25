@@ -2,29 +2,29 @@
 title: "7. Sensory Characteristics"
 order-number: 8
 ---
-# 7. Sensory Characteristics
+## 7. Sensory Characteristics
 
-Accessibility Requirements
---------------------------
+### Accessibility Requirements
+
 -   [WCAG SC 1.4.1 Use of Color](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html) -- Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
 -   [WCAG SC 1.3.3 Sensory Characteristics](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html) -- Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.
 
-Test Method Rationale
----------------------
+### Test Method Rationale
+
 Users affected by this requirement are not limited to users of assistive technology (AT), and include those with Color Vision Deficiency. Others using AT may not have a way to determine shape, size, location, or perceive sound. Visual inspection is required to determine the adequacy of instructions or content to account for any limitations of sensory or color perceptions.
 
-Limitations, Assumptions, or Exceptions
----------------------------------------
+### Limitations, Assumptions, or Exceptions
+
 -   This requirement does not prohibit the use of color or sensory characteristics to provide information, directions, or cues. However, they must be used in conjunction with contextual, textual, and/or other visual cues.
 -   This is not a test of alternative text descriptions which require assistive technology access. Users with color deficiency do not typically use AT.
 
-7.1 Test Procedure for Use of Color
-----------------------------------------
+### 7.1 Test Procedure for Use of Color
+
 **Baseline Test ID:** 7.1-Color
-### Identify Content
+#### Identify Content
 <p id="1IC">Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check if one or more of the following is true:</li>
     <ol>
@@ -33,15 +33,15 @@ Limitations, Assumptions, or Exceptions
     </ol>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="1TR">If BOTH of the above checks fail, then Baseline Test 7.1-Color fails.</p>
 
-## 7.2 Test Procedure for Sensory Characteristics
+### 7.2 Test Procedure for Sensory Characteristics
 **Baseline Test ID:** 7.2-SensoryCharacteristics
-### Identify Content
+#### Identify Content
 <p id="2IC">Identify instructions for understanding and operating content that use sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.</p>
 
-### Test Instructions
+#### Test Instructions
 <ol id="2TI">
     <li id="2TI-1">Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]<br>
     <p>For example:</p>
@@ -59,16 +59,16 @@ Limitations, Assumptions, or Exceptions
     </li>
 </ol>
 
-### Test Results
+#### Test Results
 <p id="2TR">If any of the above checks fail, then Baseline Test 7.2-SensoryCharacteristics fails.</p>
 
-Advisory: Tips for streamlined test processes
----------------------------------------------
+### Advisory: Tips for streamlined test processes
+
 -   Content that uses color with other visual differentiation must also provide textual cues to convey the same information to satisfy both SC 1.3.3 and 1.4.1; therefore, it is recommended to combine both requirements in a single test.
 -   Related tests might include dynamic content, images, links, and alternate pages.
 -   Displaying content in greyscale may help identify content that uses only color to convey information.
 
-### WCAG 2.0 Techniques
+#### WCAG 2.0 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     -   [G14: Ensuring that information conveyed by color differences is also available in text](https://www.w3.org/TR/WCAG20-TECHS/G14.html)
     -   [G205: Including a text cue for colored form control labels](https://www.w3.org/TR/WCAG20-TECHS/G205.html)
