@@ -45,16 +45,16 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 #### Test Instructions
 <p id="1TI">For each instance of an identified time limit for content:
     <ol>
-    <li id="1TI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:</li>
-        <ol>
-        <li id="1TI-1i">The user has the ability to turn off the time limit.</li>
-        <li id="1TI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
-        <li id="1TI-1iii">The user is warned before time expires AND:</li>
-            <ol>
-            <li id="1TI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), AND</li>
-            <li id="1TI-1iiib">Allowed to extend the time limit at least ten times.</li>
-            </ol>
-        </ol>
+		<li id="1TI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:
+			<ol>
+			<li id="1TI-1i">The user has the ability to turn off the time limit.</li>
+			<li id="1TI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
+			<li id="1TI-1iii">The user is warned before time expires AND:
+				<ol>
+				<li id="1TI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), AND</li>
+				<li id="1TI-1iiib">Allowed to extend the time limit at least ten times.</li>
+				</ol></li>
+			</ol></li>
     </ol>
 </p>
 
@@ -88,9 +88,9 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 ##### Identify Content
 <p id="3IC">Any auto-updating information that meets ALL of the following:
     <ul>
-    <li>Starts automatically, AND</li>
-    <li>Is presented in parallel with other content, AND</li>
-    <li>Is not part of an activity where it is essential</li>
+		<li>Starts automatically, AND</li>
+		<li>Is presented in parallel with other content, AND</li>
+		<li>Is not part of an activity where it is essential</li>
     </ul>
 </p>
 
@@ -110,11 +110,11 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 
 #### Test Instructions
 <ol id="4TI">
-    <li id="4TI-1">Check that either [SC 1.4.2]</li>
+    <li id="4TI-1">Check that either [SC 1.4.2]
         <ol>
         <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio, **OR**</li>
         <li id="4TI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
-        </ol>
+        </ol></li>
 </ol>
 
 #### Test Results

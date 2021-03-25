@@ -34,11 +34,11 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
     <li id="1TI-2">Check that a keyboard-accessible method is provided to bypass repetitive content. [SC 2.4.1]</li>
     <li id="1TI-3">Use the keyboard to activate the bypass method and verify the functionality of the bypass function.</li>
     <li id="1TI-4">Check that the method works as intended. [SC 2.4.1]<br>
-        For example:</li>
+        For example:
         <ul>
             <li>The block of repeated content is hidden, closed or skipped.</li>
             <li>If the method is intended to skip, check that the focus is shifted past the repetitive content only. Content that is not repetitive should not be skipped. If there is only text/no interactive component to receive the shift of focus, it may not be evident that a focus shift occurred.</li>
-        </ul>
+        </ul></li>
 </ol>
 
 #### Test Results

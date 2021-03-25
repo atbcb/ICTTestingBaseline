@@ -59,18 +59,18 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 
 #### Test Instructions
 <ol id="2TI">
-    <li id="2TI-1">Use the keyboard to navigate through interface components.</li>
+    <li id="2TI-1">Use the keyboard to navigate through interface components.
     <ol>
-        <li id="2TI-1i">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).</li>
+        <li id="2TI-1i">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
         <ol>
             <li id="2TI-1ia">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
             <li id="2TI-1ib">Advance the focus through the revealed content.</li>
-        </ol>
-        <li id="2TI-1ii">Use the keyboard to close/hide the revealed content.</li>
+        </ol></li>
+        <li id="2TI-1ii">Use the keyboard to close/hide the revealed content.
         <ol>
             <li id="2TI-1iia">Check that focus is returned to the trigger control. (It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
-        </ol>
-    </ol>
+        </ol></li>
+    </ol></li>
     <li id="2TI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
 </ol>
 
@@ -87,12 +87,12 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 <ol id="3TI">
     <li id="3TI-1">Use the keyboard to move focus to and navigate through each interactive interface component (including form drop-down lists and form fields).</li>
     <li id="3TI-2">Check that when an interface component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1]<br>
-    Examples of a change of context include:</li>
+    Examples of a change of context include:
         <ul>
             <li>Forms submitted automatically when a component receives focus</li>
             <li>New windows launched when a component receives focus</li>
             <li>Focus is moved to another component</li>
-        </ul>
+        </ul></li>
 </ol>
 
 #### Test Results

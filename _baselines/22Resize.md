@@ -25,20 +25,20 @@ This baseline test requires an evaluation of visual content and functionality af
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] <br>
-    Known approaches include:</li>
+    Known approaches include:
         <ul>
         <li id="1TI-1i">Browser zoom function</li>
         <li id="1TI-1ii">Accessibility features provided by the platform or Operating System</li>
         <li id="1TI-1iii">Controls to change text size. (If browser, operating system, or platform’s zoom function is not supported by the page, the page must provide the resize mechanism.)</li>
-        </ul>
+        </ul></li>
     <li id="1TI-2">Modify the font size appearance to twice the width and height, or 200% larger.</li>
-    <li id="1TI-3">Check for all of the following [SC 1.4.4]:</li>
+    <li id="1TI-3">Check for all of the following [SC 1.4.4]:
         <ol>
         <li id="1TI-3i">Text is not clipped, truncated or obscured</li>
         <li id="1TI-3ii">Text entered in text-based form controls resize fully</li>
         <li id="1TI-3iii">All functionality is available</li>
         <li id="1TI-3iv">All content is available</li>
-        </ol>
+        </ol></li>
 </ol>
 
 #### Test Results

@@ -36,11 +36,11 @@ This test is conducted to evaluate equal access to information for all users, in
 <ol id="1TI">
     <li id="1TI-1">Determine the <a href="https://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef" target="_blank" rel="noopener">contrast ratio</a> of foreground text and background.</li>
     <li id="1TI-2">Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]</li>
-    <li id="1TI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 AND the font meets one of the following criteria: [SC 1.4.3]</li>
+    <li id="1TI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 AND the font meets one of the following criteria: [SC 1.4.3]
         <ul>
             <li>At least 18 point (23.94 pixels)</li>
             <li>At least 14 point (18.62 pixels) AND bold (at least 700 font weight)</li>
-        </ul>
+        </ul></li>
 </ol>
 
 #### Test Results

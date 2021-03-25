@@ -26,11 +26,11 @@ Users affected by this requirement are not limited to users of assistive technol
 
 #### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check if one or more of the following is true:</li>
+    <li id="1TI-1">Check if one or more of the following is true:
     <ol>
         <li id="1TI-1i">The element using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color [SC 1.4.1]</li>
         <li id="1TI-1II">The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning [SC 1.4.1]</li>
-    </ol>
+    </ol></li>
 </ol>
 
 #### Test Results

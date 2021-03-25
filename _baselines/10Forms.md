@@ -47,14 +47,14 @@ Review form instructions for completeness and programmatic association to their 
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="1TI-2">Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each form component and includes all relevant instructions and cues (textual and graphical).  [SC 1.3.1]  For details on the computation of the accessible name and accessible description, references include:</li>
-    <ul>
-        <li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
-        <li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
-        <li><a href="https://www.w3.org/TR/html-aam-1.0/#button-element" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>button</code> element</a>
-        <li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-image" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input type="image"</code></a></li>
-        <li><a href="https://www.w3.org/TR/html-aam-1.0/#other-form-elements" target="_blank" rel="noopener">HTML Accessibility API Mappings for Other Form Elements</a></li>
-    </ul>
+    <li id="1TI-2">Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each form component and includes all relevant instructions and cues (textual and graphical).  [SC 1.3.1]  For details on the computation of the accessible name and accessible description, references include:
+		<ul>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#button-element" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>button</code> element</a>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-image" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input type="image"</code></a></li>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#other-form-elements" target="_blank" rel="noopener">HTML Accessibility API Mappings for Other Form Elements</a></li>
+		</ul></li>
 </ol>
 
 #### Test Results
@@ -87,13 +87,13 @@ Review form instructions for completeness and programmatic association to their 
     <li id="3TI-1">Enter data in all form fields, and exit (tab out of) the field</li>
     <li id="3TI-2">Change selections and/or values for form components, such as radio buttons, check boxes, select lists, etc.</li>
     <li id="3TI-3">Check that navigating away from a component and/or changing component values/selections (e.g., entering data in a text field, changing a radio button selection) <strong>does NOT</strong> initiate a change of context unless the user has been advised of the behavior before using the component. [SC 3.2.2]<br>
-    Examples of a change of context could include:</li>
-    <ul>
-        <li>Forms submitted automatically when exiting the field</li>
-        <li>Forms submitted automatically when exiting the last field in a form</li>
-        <li>New windows launched when changing a radio button selection</li>
-        <li>Focus is changed to another component when a select list item is selected</li>
-    </ul>
+    Examples of a change of context could include:
+		<ul>
+			<li>Forms submitted automatically when exiting the field</li>
+			<li>Forms submitted automatically when exiting the last field in a form</li>
+			<li>New windows launched when changing a radio button selection</li>
+			<li>Focus is changed to another component when a select list item is selected</li>
+		</ul></li>
 </ol>
 
 #### Test Results
@@ -107,19 +107,19 @@ Review form instructions for completeness and programmatic association to their 
 
 #### Test Instructions
 <ol id="4TI">
-    <li id="4TI-1">Enter incorrect values in input form components in order to trigger automatic error detection that results in error notifications. <br> Examples include but are not limited to:</li>
+    <li id="4TI-1">Enter incorrect values in input form components in order to trigger automatic error detection that results in error notifications. <br> Examples include but are not limited to:
         <ul>
             <li>required fields</li>
             <li>date (format)</li>
             <li>state (abbreviations in an address)</li>
             <li>password</li>
-        </ul>
-    <li id="4TI-2">If an input error is automatically detected, check that the error notification meets all of the following [SC 3.3.1]:</li>
+        </ul></li>
+    <li id="4TI-2">If an input error is automatically detected, check that the error notification meets all of the following [SC 3.3.1]:
         <ul>
             <li>the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form), and</li>
             <li>the error is described to the user in text, and</li>
             <li>the item that is in error is identified in text.</li>
-        </ul>
+        </ul></li>
 </ol>
 
 #### Test Results
@@ -150,13 +150,13 @@ Review form instructions for completeness and programmatic association to their 
 
 #### Test Instructions
 <ol id="6TI">
-    <li id="6TI-1">Enter incorrect values in input form components in order to trigger automatic error detection that result in error notifications. Examples include but are not limited to:</li>
+    <li id="6TI-1">Enter incorrect values in input form components in order to trigger automatic error detection that result in error notifications. Examples include but are not limited to:
         <ul>
             <li>required fields</li>
             <li>date (format)</li>
             <li>state (abbreviations in an address)</li>
             <li>password</li>
-        </ul>
+        </ul></li>
     <li id="6TI-2">Review error notifications provided.</li>
     <li id="6TI-3">Check that additional guidance (e.g., suggestion for corrected input, guidance on how to correct the user's input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content. [SC 3.3.3]</li>
 </ol>
@@ -173,12 +173,12 @@ Review form instructions for completeness and programmatic association to their 
 #### Test Instructions
 <ol id="7TI">
     <li id="7TI-1">Complete the form components necessary to submit. Include errors.</li>
-    <li id="7TI-2">Check that at least one of the following is true [SC 3.3.4]:</li>
+    <li id="7TI-2">Check that at least one of the following is true [SC 3.3.4]:
     <ol>
         <li id="7TI-2i">Reversible: Submissions are reversible.</li>
         <li id="7TI-2ii">Checked: Data entered by the user is checked for input errors and the user is provided an opportunity to correct them.</li>
         <li id="7TI-2iii">Confirmed: A mechanism is available for reviewing, confirming, and correcting information before finalizing the submission.</li>
-    </ol>
+    </ol></li>
 </ol>
 
 #### Test Results

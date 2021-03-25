@@ -35,15 +35,15 @@ This test addresses flashing caused by the content itself, including:
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Determine the flashing frequency. If the flashing frequency is at or below 3Hz (three flashes in any one second period), no further testing is necessary.</li>
-    <li id="1TI-2">If the content flashes above 3Hz or the frequency cannot be determined, check that it meets one of the following: [SC 2.3.1]</li>
+    <li id="1TI-2">If the content flashes above 3Hz or the frequency cannot be determined, check that it meets one of the following: [SC 2.3.1]
     <ol>
         <li id="1TI-2i">The combined, contiguous area that is flashing simultaneously within any 10 degree angle of view is less than the equivalent of the small safe area for flashing (i.e., less than 25% of a 10 degree viewing angle of the total screen size at intended viewing distance).</li>
-        <li id="1TI-2ii">The opposing transitions that flash do not involve a saturated red AND</li>
+        <li id="1TI-2ii">The opposing transitions that flash do not involve a saturated red AND
         <ol>
             <li id="1TI-2iia">The darkest image’s relative luminance is above 0.80, or</li>
             <li id="1TI-2iib">The darkest image’s relative luminance is below 0.80 and the maximum change in relative luminance between the darkest image and the brightest image is less than 10%.</li>
-        </ol>
-    </ol>
+        </ol></li>
+    </ol></li>
 </ol>
 
 #### Test Results

@@ -26,13 +26,13 @@ This baseline test requires that the content has no errors in element and attrib
 
 #### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that (except where the specifications allow these features): [SC 4.1.1]</li>
+    <li id="1TI-1">Check that (except where the specifications allow these features): [SC 4.1.1]
         <ol>
         <li id="1TI-1i">elements have complete start and end tags,</li>
         <li id="1TI-1ii">elements are nested according to their specifications,</li>
         <li id="1TI-1iii">elements do not contain duplicate attributes, and</li>
         <li id="1TI-1iv">any IDs are unique.</li>
-        </ol>
+        </ol></li>
 </ol>
 
 #### Test Results

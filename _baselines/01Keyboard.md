@@ -33,15 +33,15 @@ Keyboard access and control includes the ability to navigate to AND away from in
 <ol id="1TI">
 <li id="1TI-1">Check that all functionality can be accessed and executed using only the keyboard. [SC 2.1.1]</li>
     <ol>
-        <li id="1TI-1i">Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components).</li>
+        <li id="1TI-1i">Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components).
             <ol>
                 <li id="1TI-1ia">If an interactive interface component is not available by keyboard, check if another control is provided on the page with the same functionality which is available by keyboard. (All functionality must meet this requirement.)</li>
-            </ol>
+            </ol></li>
     </ol>
-<li id="1TI-2">Check that individual keystrokes do not require specific timings for activation.[SC 2.1.1]</li>
+<li id="1TI-2">Check that individual keystrokes do not require specific timings for activation.[SC 2.1.1]
     <ol>
         <li id="1TI-2i">If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)</li>
-    </ol>
+    </ol></li>
 </ol>
 
 #### Test Results
@@ -55,11 +55,11 @@ Keyboard access and control includes the ability to navigate to AND away from in
 
 #### Test Instructions
 <ol id="2TI">
-<li id="2TI-1">Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]</li>
+<li id="2TI-1">Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]
     <ol>
         <li id="2TI-1i">If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).</li>
         <li id="2TI-1ii">If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.</li>
-    </ol>
+    </ol></li>
 </ol>
 
 #### Test Results

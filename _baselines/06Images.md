@@ -34,11 +34,11 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 ##### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
-    <li id="1TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>. [SC 1.1.1]</li>
+    <li id="1TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>. [SC 1.1.1]
     <ol>
         <li id="1TI-2i">Descriptions of the image that are provided by page content must be programmatically associated.</li>
         <li id="1TI-2ii">When an image is updated to convey a new meaning, check that its text alternative is updated at the same time. [SCs 1.1.1 and 4.1.2]</li>
-    </ol>
+    </ol></li>
     <li id="1TI-3">Check that the ARIA role is NOT "presentation".</li>
     <li id="1TI-4">Check that the ARIA role is NOT "none".</li>
     <li id="1TI-5">Check that aria-hidden is NOT set to "true".</li>

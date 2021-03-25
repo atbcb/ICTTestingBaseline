@@ -28,11 +28,11 @@ The default human language for each page must be programmatically identified. Pa
 <ol id="1TI">
     <li id="1TI-1">Identify the default human language of the page by reviewing the page content. The default human language of the page is the language in which most of the content is presented.</li>
     <li id="1TI-2">Check that the lang attribute is defined on the <code>&lt;html&gt;</code> tag for the page. [SC 3.1.1]</li>
-    <li id="1TI-3">Check that the value of the lang attribute matches the determined default human language for the page. [SC 3.1.1]</li>
+    <li id="1TI-3">Check that the value of the lang attribute matches the determined default human language for the page. [SC 3.1.1]
     <ul>
         <li>The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)</li>
         <li>The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="http://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.</li>
-    </ul>
+    </ul></li>
 </ol>
 
 #### Test Results
@@ -49,11 +49,11 @@ The default human language for each page must be programmatically identified. Pa
     <li id="2TI-1">Identify the human language of the text content that differs from the default human language of the page.</li>
     <li id="2TI-2">Check that the lang attribute is specified for any HTML element that contains a content segment that differs from the default human language of the page. [SC 3.1.2]<br>
     Note: An element without a set language inherits its language attribute from parent elements.</li>
-    <li id="2TI-3">Check that the value of the lang attribute is correctly defined for the content segment. [SC 3.1.2]</li>
+    <li id="2TI-3">Check that the value of the lang attribute is correctly defined for the content segment. [SC 3.1.2]
         <ol>
             <li id="2TI-3i">The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)</li>
             <li id="2TI-3ii">The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="http://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.</li>
-        </ol>
+        </ol></li>
 </ol>
 
 #### Test Results

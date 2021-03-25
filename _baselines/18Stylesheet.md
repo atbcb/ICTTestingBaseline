@@ -28,11 +28,11 @@ Meaningful information provided solely through CSS content may not be in the Doc
 
 #### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that the meaningful CSS image provides an equivalent text alternative description: [SC 1.1.1]</li>
+    <li id="1TI-1">Check that the meaningful CSS image provides an equivalent text alternative description: [SC 1.1.1]
         <ul>
             <li>ARIA <code>role=”img”</code> and non-empty <code>aria-label</code> value, and</li>
             <li>The <code>aria-label</code> value provides the same information as the meaningful background image</li>
-        </ul>
+        </ul></li>
 </ol>
 
 #### Test Results

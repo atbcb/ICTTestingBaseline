@@ -25,7 +25,7 @@ This baseline requires a manual check for multiple techniques to locate a web pa
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]<br>
-    These may include (but are not limited to) techniques such as:</li>
+    These may include (but are not limited to) techniques such as:
         <ul>
         <li id="1TI-1i">site maps</li>
         <li id="1TI-1ii">site search</li>
@@ -33,7 +33,7 @@ This baseline requires a manual check for multiple techniques to locate a web pa
         <li id="1TI-1iv">navigation menus or dropdowns</li>
         <li id="1TI-1v">navigation trees</li>
         <li id="1TI-1vi">links between pages</li>
-        </ul>
+        </ul></li>
 </ol>
 
 #### Test Results

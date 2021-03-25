@@ -28,11 +28,11 @@ The `<title>` element defines the title of the document, and is required in al
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that a page <code>&lt;title&gt;</code> element is defined for the page. [SC 2.4.2]</li>
-    <li id="1TI-2">Check that the Page Title identifies the contents or purpose of the Web page. [SC 2.4.2]</li>
+    <li id="1TI-2">Check that the Page Title identifies the contents or purpose of the Web page. [SC 2.4.2]
         <ol>
             <li id="1TI-2i">For pages within a Web site, check that the Page Title can be used to distinguish among the pages.</li>
             <li id="1TI-2ii">For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.</li>
-        </ol>
+        </ol></li>
 </ol>
 
 #### Test Results

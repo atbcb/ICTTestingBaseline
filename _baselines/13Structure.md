@@ -44,16 +44,16 @@ order-number: 14
 
 ##### Test Instructions
 <ol id="2IC">
-    <li id="2IC-1">1.  Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:</li>
+    <li id="2IC-1">1.  Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:
         <ol>
             <li id="2IC-1i">The most important heading(s) should have the highest priority level. For example, <code>&lt;h1&gt;</code> is a higher level than <code>&lt;h2&gt;</code>, which is higher than <code>&lt;h3&gt;</code>.</li>
             <li id="2IC-1ii">Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.</li>
-            <li id="2IC-1iii">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.</li>
+            <li id="2IC-1iii">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
             <ul>
                 <li><a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html" target="_blank" rel="noopener">H42</a>: each heading is marked with <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</li>
                 <li><a href="https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html" target="_blank" rel="noopener">ARIA12</a>: each heading is marked with <code>role="heading"</code> and <code>aria-level="#"</code>. The default heading level is "2" when none is specified.</li>
-            </ul>
-        </ol>
+            </ul></li>
+        </ol></li>
 </ol>
 
 ##### Test Results
@@ -87,12 +87,12 @@ order-number: 14
 
 ##### Test Instructions
 <ol id="4TI">
-    <li id="4TI-1">For each visually apparent list:</li>
+    <li id="4TI-1">For each visually apparent list:
         <ol>
         <li id="4TI-1i">Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is marked as an unordered list. [SC 1.3.1]</li>
         <li id="4Ti-1ii">Check that content that has the visual appearance of a numbered list is marked as an ordered list. [SC 1.3.1]</li>
         <li id="4TI-1iii">Check that content is marked as a description list when terms and their descriptions are presented in the form of a list. [SC 1.3.1]</li>
-        </ol>
+        </ol></li>
 </ol>
 
 ##### Test Results
