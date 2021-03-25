@@ -47,4 +47,4 @@ The `<title>` element defines the title of the document, and is required in al
     -   [F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents](https://www.w3.org/TR/WCAG20-TECHS/F25.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](10Forms.md) | [Next Baseline](12DataTables.md)
+[Home/Table of Contents](index) | [Previous Baseline](10Forms) | [Next Baseline](12DataTables)

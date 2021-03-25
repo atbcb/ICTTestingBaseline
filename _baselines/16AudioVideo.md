@@ -17,16 +17,16 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 ### Limitations, Assumptions, or Exceptions
 
 #### Audio-Only
--   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline [17. Synchronized Media](17SyncMedia.md).
+-   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline [17. Synchronized Media](17SyncMedia).
 -   Audio intended as a media alternative for text does not require additional description if it is clearly labeled as such.
 -   Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
--   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline [7. Sensory Characteristics](07Sensory.md).
+-   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline [7. Sensory Characteristics](07Sensory).
 
 #### Video-Only
 -   In a video-only presentation, information is presented in a variety of ways including animation, text or graphics, the setting and background, the actions and expressions of people, animals, etc.
 -   Video intended as a media alternative for text does not require additional description if it is clearly labeled as such.
--   If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Baseline [17. Synchronized Media](17SyncMedia.md) requirements.
--   Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under Baseline [21. Timed Events](21TimedEvents.md).
+-   If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Baseline [17. Synchronized Media](17SyncMedia) requirements.
+-   Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under Baseline [21. Timed Events](21TimedEvents).
 
 ### 16.1 Test Procedure for Audio-only (Prerecorded)
 
@@ -69,4 +69,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G159: Providing an alternative for time-based media for video-only content](https://www.w3.org/TR/WCAG20-TECHS/G159.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](15Language.md) | [Next Baseline](17SyncMedia.md)
+[Home/Table of Contents](index) | [Previous Baseline](15Language) | [Next Baseline](17SyncMedia)

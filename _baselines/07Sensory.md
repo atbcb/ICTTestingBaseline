@@ -81,4 +81,4 @@ Users affected by this requirement are not limited to users of assistive technol
     -   [F26: Failure of Success Criterion 1.3.3 due to using a graphical symbol alone to convey information](https://www.w3.org/TR/WCAG20-TECHS/F26.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](06Images.md) | [Next Baseline](08Contrast.md)
+[Home/Table of Contents](index) | [Previous Baseline](06Images) | [Next Baseline](08Contrast)

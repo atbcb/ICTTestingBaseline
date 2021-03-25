@@ -19,7 +19,7 @@ where we provide an easy way to manage your navigation system
           {% assign nav_id = 'primary-nav-' | append: forloop.index %}
           <li role="none" class="usa-nav__primary-item">
             <a onfocus="expandedFalse()" role="menuitem" id="{{ nav_id }}" class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-              href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+              href="{{ nav_item.url }}"><span>{{ nav_item.name | escape }}</span></a>
           </li>
         {% else %}
         {% assign nav_id = 'primary-nav-' | append: forloop.index %}
@@ -33,7 +33,7 @@ where we provide an easy way to manage your navigation system
             {% assign subitem_id = submenunav_item | append: forloop.index %}
             
             <li class="usa-nav__submenu-item">
-              <a role="menuitem" id="{{ subitem_id }}" href="{{ subnav_item.url | prepend: site.baseurl }}">{{ subnav_item.name | escape }}</a>
+              <a role="menuitem" id="{{ subitem_id }}" href="{{ subnav_item.url}}">{{ subnav_item.name | escape }}</a>
             </li>
             {% endfor %}
           </ul>
@@ -45,7 +45,7 @@ where we provide an easy way to manage your navigation system
         <ul class="usa-nav__secondary-links">
           {% for nav_item in include.secondary_navigation %}
           <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url | prepend: site.baseurl }}">{{ nav_item.name | escape }}</a>
+            <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
           </li>
           {% endfor %}
         </ul>

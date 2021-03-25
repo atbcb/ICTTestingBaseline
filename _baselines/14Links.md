@@ -48,4 +48,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [F89: Failure of Success Criteria 2.4.4, 2.4.9 and 4.1.2 due to not providing an accessible name for an image which is the only content in a link](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F89)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](13Structure.md) | [Next Baseline](15Language.md)
+[Home/Table of Contents](index) | [Previous Baseline](13Structure) | [Next Baseline](15Language)

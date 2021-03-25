@@ -25,4 +25,4 @@ Finally, the test instructions have entirely removed any reference to any testin
 | [page] |	[description] |
 
 ----------------------------------------------------------------
-[Home/Table of Contents](index.md) | [Previous Section (Appendix A)](AppendixA.md) | [Next Section (Appendix C)](references.md)
+[Home/Table of Contents](index) | [Previous Section (Appendix A)](AppendixA) | [Next Section (Appendix C)](references)

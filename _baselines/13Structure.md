@@ -110,4 +110,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [H48: Using ol, ul and dl for lists or groups of links](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](12DataTables.md) | [Next Baseline](14Links.md)
+[Home/Table of Contents](index) | [Previous Baseline](12DataTables) | [Next Baseline](14Links)

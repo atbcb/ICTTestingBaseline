@@ -120,4 +120,4 @@ Check that at least one of the following is true [SC 1.1.1]:<br>
     -   [C9: Using CSS to include decorative images](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](05Changing.md) | [Next Baseline](07Sensory.md)
+[Home/Table of Contents](index) | [Previous Baseline](05Changing) | [Next Baseline](07Sensory)

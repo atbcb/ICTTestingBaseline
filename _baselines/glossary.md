@@ -128,4 +128,4 @@ Web Content Accessibility Guidelines (WCAG) 2.0
 
 
 ----------------------------------------------------------------
-[Home/Table of Contents](index.md) | [Previous Section (Appendix C - References)](references.md)
+[Home/Table of Contents](index) | [Previous Section (Appendix C - References)](references)

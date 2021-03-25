@@ -43,4 +43,4 @@ None.
 NA.
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](02FocusVisible.md) | [Next Baseline](04RepetitiveContent.md)
+[Home/Table of Contents](index) | [Previous Baseline](02FocusVisible) | [Next Baseline](04RepetitiveContent)

@@ -18,7 +18,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 
 -   Some interface components (e.g., screen text for form filling instructions), which are not normally considered interactive, may be in the tab order. Such interface components should receive a visible indication of focus when the user navigates to them using a keyboard.
 -   Skip link visual focus is a part of this test.
--   Focus-shift to revealed hidden content is not tested here. See [5. Changing Content](05Changing.md)
+-   Focus-shift to revealed hidden content is not tested here. See [5. Changing Content](05Changing)
 -   Loss of visible focus should not occur while manually shifting focus through the page (using the TAB or arrow keys). However, when a function that moves the focus is executed (such as an internal page link or hidden content is revealed), it may be necessary to manually shift focus once with the keyboard before focus becomes visible again. This is not considered a failure.
 -   Focus may be moved to a control either via the keyboard (e.g. tabbing to a control) or the mouse (e.g. clicking on a text field). Moving the mouse over a control does not move the focus unless scripting implements this behavior.
 -   While it may be a common best practice, Focus Order is not required to move left to right, top to bottom.
@@ -101,7 +101,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 ### Advisory: Tips for streamlined test processes
 
 -   The clarity of visible focus is subjective and the minimum level is the browser’s (or OS platform) default display setting for indicating focus. Browsers may also represent visual focus differently in specific situations.
--   This test may be performed simultaneously with [Baseline 1: Keyboard Access](01Keyboard.md).
+-   This test may be performed simultaneously with [Baseline 1: Keyboard Access](01Keyboard).
 -   No focus modifications should be enabled in the test environment during testing. Some testing tools will add a visible outline around elements that receive focus. While testing tools may help testers to track focus, any markup provided by a testing tool should not be used as an indicator of visible focus for meeting this requirement.
 -   Given the variability in how browsers may present visual focus in specific situations, test reports should include details about testing environment, including browser and version.
 -   Tab order that initially appears illogical may still meet this requirement due to an application-specific business logic.
@@ -121,4 +121,4 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
     -   [F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order](https://www.w3.org/TR/WCAG20-TECHS/F85.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](01Keyboard.md) | [Next Baseline](03Noninterference.md)
+[Home/Table of Contents](index) | [Previous Baseline](01Keyboard) | [Next Baseline](03Noninterference)

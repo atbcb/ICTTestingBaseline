@@ -69,4 +69,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [H58: Using language attributes to identify changes in the human language](https://www.w3.org/TR/WCAG20-TECHS/H58.html)
 
 ----------------------------------------
-[Home/Table of Contents](index.md) | [Previous Baseline](14Links.md) | [Next Baseline](16AudioVideo.md)
+[Home/Table of Contents](index) | [Previous Baseline](14Links) | [Next Baseline](16AudioVideo)

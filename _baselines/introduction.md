@@ -127,4 +127,4 @@ An agency may also create a streamlined process that includes guidance for their
 
 
 -------------------------------------------------
-[Home/Table of Contents](index.md)    |    [Baseline Test 1. Keyboard Access](01Keyboard.md)
+[Home/Table of Contents](index)    |    [Baseline Test 1. Keyboard Access](01Keyboard)
