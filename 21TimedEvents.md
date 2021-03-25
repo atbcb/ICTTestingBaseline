@@ -79,7 +79,8 @@ Limitations, Assumptions, or Exceptions
 #### Test Results
 <p id="2TR">If the above check fails, then Baseline Test 21.2-MovingInfo fails.</p>
 
-### 21.3 Test Procedure for Auto-updating information
+21.3 Test Procedure for Auto-updating information
+---------------------------------------------
 **Baseline Test ID:** 21.3-AutoUpdate
 #### Identify Content
 <p id="3IC">Any auto-updating information that meets ALL of the following:
