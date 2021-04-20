@@ -65,7 +65,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 
 **Baseline Test ID:** 21.2-MovingInfo
 
-##### Identify Content
+#### Identify Content
 <p id="2IC">Any moving, blinking, or scrolling information that meets ALL of the following:
     <ul>
     <li>Starts automatically, AND</li>
@@ -75,17 +75,17 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
     </ul>
 </p>
 
-##### Test Instructions
+#### Test Instructions
 <ol id="2TI">
     <li id="2TI-1">Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]</li>
 </ol>
 
-##### Test Results
+#### Test Results
 <p id="2TR">If the above check fails, then Baseline Test 21.2-MovingInfo fails.</p>
 
-#### 21.3 Test Procedure for Auto-updating information
+### 21.3 Test Procedure for Auto-updating information
 **Baseline Test ID:** 21.3-AutoUpdate
-##### Identify Content
+#### Identify Content
 <p id="3IC">Any auto-updating information that meets ALL of the following:
     <ul>
 		<li>Starts automatically, AND</li>
@@ -94,12 +94,12 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
     </ul>
 </p>
 
-##### Test Instructions
+#### Test Instructions
 <ol id="3TI">
     <li id="3TI-1">Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]</li>
 </ol>
 
-##### Test Results
+#### Test Results
 <p id="3TR">If the above check fails, then Baseline Test 21.2-AutoUpdate fails.</p>
 
 ### 21.4 Test Procedure for Audio Control
