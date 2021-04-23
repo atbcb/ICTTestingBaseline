@@ -93,7 +93,7 @@ hr {
   border-right-color: #f0f0f0; // must match background color
 }
 
-a.usa-current::after {
+a.usa-current::before {
   content: "→" !important;
 }
 
@@ -202,32 +202,58 @@ td ul.check {
 }
 
 // Page header USAB logo override
+
+.usa-header {
+  @include u-bg("primary-darker");
+}
+
 .star-logo {
   height: 100%;
   width: 100%;
 }
 .site-title {
   font-weight: bold;
-  @include u-text("primary-darker");
+  @include u-text("base-lightest");
 }
+
+.site-title-short {
+  @include u-text("base-lightest")
+}
+
 .site-subtitle {
   font-weight: bold;
   font-style: italic;
-  @include u-text("secondary-darker");
+  @include u-text("primary-light");
 }
+
+@media (min-width: 64em) {
+  .usa-header--extended .usa-logo {
+    margin: 1rem 0 .25rem!important;
+  }
+}
+
 @media screen and (max-width: 1024px) {
+  .usa-header--extended .usa-logo {
+    max-width: 75%;
+  }
+
   .site-logo {
     max-height: 3rem;
   }
   .star-logo-box {
     max-height: 3rem;
-     max-width: 4rem;
+    max-width: 4rem;
+    padding: 5px 10px 5px 10px;
   }
   .star-logo {
     max-height: 3rem;
   }
 }
 @media screen and (min-width: 1024px) {
+  .usa-header--extended .usa-logo {
+    max-width: 75%;
+  }
+
   .star-logo-box {
     max-width: 6rem;
   }
@@ -235,6 +261,13 @@ td ul.check {
     @include u-font('sans', 'md');
   }
 }
+
+@media (max-width: 35em) {
+  .site-subtitle {
+    display: none;
+  }
+}
+
 @media (min-width: 30em) {
   .site-title-short {
   display: none;
@@ -266,9 +299,22 @@ td ul.check {
   background-repeat: no-repeat;
 } */
 
+// customize usa-nav colors
+.usa-nav {
+  @include u-bg("base-lighter");
+  @include u-text("base-dark")
+}
+
+// get rid of navbar border
+@media (max-width: 63.99em) {
+  .usa-navbar {
+    border-bottom: 0px solid white;
+  }
+}
+
 // override default gray to get a little more contrast
 li.usa-nav__secondary-item a {
-  color: color(gray-cool-60);
+  color: color(gray-cool-20);
 }
 // change submenu (Guidelines) font color for better contrast
 li.usa-nav__submenu-item>a {
