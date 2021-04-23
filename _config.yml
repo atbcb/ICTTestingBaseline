@@ -20,41 +20,14 @@ dap:
 
 # Site Navigation
 primary_navigation:
-  - name: About
-    url: https://www.access-board.gov/about/
-  - name: News
-    url: https://www.access-board.gov/news/
-  - name: Guidelines & Standards
-    url: https://www.access-board.gov/gs/
-    children:
-      - name: ICT (§508 and §255)
-        url: https://www.access-board.gov/ict/
-      - name: Americans with Disabilities Act
-        url: https://www.access-board.gov/ada/
-      - name: Architectural Barriers Act
-        url: https://www.access-board.gov/aba/
-      - name: Transportation Vehicles
-        url: https://www.access-board.gov/ada/vehicles/
-      - name: Public Rights-of-Way
-        url: https://www.access-board.gov/prowag/
-      - name: Passenger Vessels
-        url: https://www.access-board.gov/pvag/
-      - name: Medical Diagnostic Equipment
-        url: https://www.access-board.gov/mde/
-      - name: Prescription Drug Labels
-        url: https://www.access-board.gov/rx.html
-  - name: Training & Webinars
-    url: https://www.access-board.gov/webinars/
-  - name: File an ABA Complaint
-    url: https://www.access-board.gov/enforcement/
-  - name: Research
-    url: https://www.access-board.gov/research/
+  - name: Return to Access Board Home
+    url: https://www.access-board.gov/
+  - name: ICT Baseline Home
+    url: /
+  - name: Baseline Alignment Framework (external link)
+    url: https://section508coordinators.github.io/baselinealignment/
   - name: Contact Us
     url: https://www.access-board.gov/contact/
-
-secondary_navigation:
-  - name: En Español
-    url: https://www.access-board.gov/es/
 
 # Search.gov configuration
 # 1. Create an account with Search.gov https://search.usa.gov/signup

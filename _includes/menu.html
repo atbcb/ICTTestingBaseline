@@ -42,13 +42,6 @@ where we provide an easy way to manage your navigation system
         {% endfor %}
       </ul>
       <div class="usa-nav__secondary">
-        <ul class="usa-nav__secondary-links">
-          {% for nav_item in include.secondary_navigation %}
-          <li class="usa-nav__secondary-item">
-            <a href="{{ nav_item.url }}">{{ nav_item.name | escape }}</a>
-          </li>
-          {% endfor %}
-        </ul>
         {% include searchgov/form.html searchgov=site.searchgov %}
       </div>
     </div>

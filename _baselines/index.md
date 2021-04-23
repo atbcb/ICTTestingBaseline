@@ -8,7 +8,7 @@ United States Federal Chief Information Officers Council (CIOC)
 
 Accessibility Community of Practice (ACOP)
 
-March 2021 | Version 3.0.1
+March 2021 `|` Version 3.0.1
 
 ## ICT Testing Baseline for Web Accessibility
 
@@ -34,7 +34,7 @@ This is version 3.0.1 of the ICT Testing Baseline for Web.
 You are welcome to create forks of the proposed Testing Baseline, propose improvements (via issues and pull requests), and submit test cases to help validate test processes and tools. The working group will post the ICT Testing Baseline for Web to [this GitHub repository](https://github.com/Section508Coordinators/ICTTestingBaseline/).  
 
 #### How to contact the working group:
-Please [email ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in the subject "ICT Baseline Update" with any comments or suggestions. Thank you for your interest!
+Please email [ictbaseline@gsa.gov](mailto: ictbaseline@gsa.gov) and include in the subject "ICT Baseline Update" with any comments or suggestions. Thank you for your interest!
 
 ### Contents:
 [Introduction](introduction)
