@@ -23,7 +23,7 @@ primary_navigation:
   - name: Access Board Home
     url: https://www.access-board.gov/
   - name: ICT Baseline Home
-    url: /
+    url: {{site.baseurl}}/
   - name: Baseline Alignment Framework
     url: https://section508coordinators.github.io/baselinealignment/
   - name: Contact Us
