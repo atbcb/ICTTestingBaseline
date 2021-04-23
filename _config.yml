@@ -20,11 +20,11 @@ dap:
 
 # Site Navigation
 primary_navigation:
-  - name: Return to Access Board Home
+  - name: Access Board Home
     url: https://www.access-board.gov/
   - name: ICT Baseline Home
     url: /
-  - name: Baseline Alignment Framework (external link)
+  - name: Baseline Alignment Framework
     url: https://section508coordinators.github.io/baselinealignment/
   - name: Contact Us
     url: https://www.access-board.gov/contact/
