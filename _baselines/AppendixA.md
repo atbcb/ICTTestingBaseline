@@ -82,6 +82,3 @@ order-number: 100
 | 36 CFR 1194 503.4.2 Audio Description Controls                     | [17. Synchronized Media](../17SyncMedia)        |
 | WCAG Conformance Requirement 1. Conformance Level                  | [20. Alternate Versions](../20AlternateVersions)        |
 | WCAG Conformance Requirement 5. Non-Interference                   | [3. Non-Interference](../03Noninterference); [1. Keyboard Access](../01Keyboard); [9. Flashing](../09Flashing); [21. Timed Events](../21TimedEvents)         |
-
-----------------------------------------
-[Home/Table of Contents](../) | [Appendix B - Document Content Change Log](../ChangeLog3)

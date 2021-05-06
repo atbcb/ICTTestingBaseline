@@ -55,6 +55,3 @@ This test is conducted to evaluate equal access to information for all users, in
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     -   [G18: Ensuring that a contrast ratio of at least 4.5:1 exists between text (and images of text) and background behind the text](https://www.w3.org/TR/WCAG20-TECHS/G18.html)
     -   [G145: Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text](http://www.w3.org/TR/WCAG20-TECHS/G145.html) (when the text is at least 18 point if not bold and at least 14 point if bold).
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../07Sensory) | [Next Baseline](../09Flashing)

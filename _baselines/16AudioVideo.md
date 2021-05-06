@@ -67,6 +67,3 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G158: Providing an alternative for time-based media for audio-only content](https://www.w3.org/TR/WCAG20-TECHS/G158.html)
 -   [G159: Providing an alternative for time-based media for video-only content](https://www.w3.org/TR/WCAG20-TECHS/G159.html)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../15Language) | [Next Baseline](../17SyncMedia)

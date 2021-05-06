@@ -52,6 +52,3 @@ While users with vision can recognize the structure presented by frames and ifra
 #### WCAG 2.0 Techniques
 The following techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [H64: Using the title attribute of the frame and iframe elements](http://www.w3.org/TR/WCAG20-TECHS/H64.html)
-    
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../18Stylesheet) | [Next Baseline](../20AlternateVersions)

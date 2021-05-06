@@ -51,6 +51,3 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G161: Providing a search function to help users find content](https://www.w3.org/TR/WCAG20-TECHS/G161.html)
 -   [G126: Providing a list of links to all other Web pages](https://www.w3.org/TR/WCAG20-TECHS/G126.html)
 -   [G185: Linking to all of the pages on the site from the home page](https://www.w3.org/TR/WCAG20-TECHS/G185.html)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../22Resize) | [Next Baseline](../24Parsing)

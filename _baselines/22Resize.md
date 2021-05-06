@@ -52,6 +52,3 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G179: Ensuring that there is no loss of content or functionality when the text resizes and text containers do not change their width](https://www.w3.org/TR/WCAG20-TECHS/G179.html)
 -   [F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured](https://www.w3.org/TR/WCAG20-TECHS/F69.html)
 -   [F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%](https://www.w3.org/TR/WCAG20-TECHS/F80.html)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../21TimedEvents) | [Next Baseline](../23MultipleWays)

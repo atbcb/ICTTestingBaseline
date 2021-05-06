@@ -125,7 +125,3 @@ User interface component
 Web Content Accessibility Guidelines (WCAG) 2.0
 : web accessibility guidelines published in 2008 by the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C), the main international standards organization for the Internet.
 : Incorporated by reference in Revised Section 508 Standards (2017), Level A and AA
-
-
-----------------------------------------------------------------
-[Home/Table of Contents](../) | [Previous Section (Appendix C - References)](references)

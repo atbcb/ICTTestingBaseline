@@ -119,6 +119,3 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
     -   [F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F55)
     -   [SCR26: Inserting dynamic content into the Document Object Model immediately following its trigger element](https://www.w3.org/TR/WCAG20-TECHS/SCR26.html)
     -   [F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order](https://www.w3.org/TR/WCAG20-TECHS/F85.html)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../01Keyboard) | [Next Baseline](../03Noninterference)

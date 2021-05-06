@@ -94,6 +94,3 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
     -   [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/TR/WCAG20-TECHS/G61.html)
     -   [G197: Using labels, names, and text alternatives consistently for content that has the same functionality](https://www.w3.org/TR/WCAG20-TECHS/G197.html)
     -   [F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages](http://www.w3.org/TR/WCAG20-TECHS/F31.html)
-
--------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../03Noninterference) | [Next Baseline](../05Changing)

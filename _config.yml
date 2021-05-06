@@ -26,8 +26,8 @@ primary_navigation:
     url: https://ictbaseline.access-board.gov/
   - name: Baseline Alignment Framework
     url: https://section508coordinators.github.io/baselinealignment/
-  - name: Contact Us
-    url: https://www.access-board.gov/contact/
+  - name: Section508.gov
+    url: https://www.section508.gov/
 
 # Search.gov configuration
 # 1. Create an account with Search.gov https://search.usa.gov/signup
@@ -57,7 +57,7 @@ defaults:
       image-directory: /images/
       toc: /toc/auto.html
       toc-group: baselines
-      right-sidenav: sidenav-right-universal.html
+      right-sidenav: sidenavitbwg-right-universal.html
       ta-text: Contact the Access Board for guidance on these Baseline tests
       ta-email-pre: ta
 

@@ -60,6 +60,3 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G57: Ordering the content in a meaningful sequence](https://www.w3.org/TR/WCAG20-TECHS/G57.html)
 -   [F3: Using CSS to include images that convey important information](https://www.w3.org/TR/WCAG20-TECHS/F3.html)
 -   [F1: Changing the meaning of content by positioning information with CSS](https://www.w3.org/TR/WCAG20-TECHS/F1.html)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../17SyncMedia) | [Next Baseline](../19Frames)

@@ -118,6 +118,3 @@ Check that at least one of the following is true [SC 1.1.1]:<br>
     -   [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type = "image"](https://www.w3.org/TR/WCAG20-TECHS/F65.html)
     -   [F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F20.html)
     -   [C9: Using CSS to include decorative images](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../05Changing) | [Next Baseline](../07Sensory)

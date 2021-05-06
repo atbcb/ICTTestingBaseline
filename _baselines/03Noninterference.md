@@ -41,6 +41,3 @@ None.
 
 #### WCAG 2.0 Techniques
 NA.
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../02FocusVisible) | [Next Baseline](../04RepetitiveContent)

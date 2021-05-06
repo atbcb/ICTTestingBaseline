@@ -140,6 +140,3 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G60: Playing a sound that turns off automatically within three seconds](https://www.w3.org/TR/WCAG20-TECHS/G60.html)
 -   [G171: Playing sounds only on user request](https://www.w3.org/TR/WCAG20-TECHS/G171.html)
 -   [G186: Using a control in the Web page that stops moving, blinking, or auto-updating content](http://www.w3.org/TR/WCAG20-TECHS/G186)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../20AlternateVersions) | [Next Baseline](../22Resize)

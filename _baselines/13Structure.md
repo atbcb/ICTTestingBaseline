@@ -108,6 +108,3 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G115: Using semantic elements to mark up structure](http://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
 -   [G117: Using text to convey information that is conveyed by variations in presentation of text](http://www.w3.org/TR/WCAG20-TECHS/G117.html)
 -   [H48: Using ol, ul and dl for lists or groups of links](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../12DataTables) | [Next Baseline](../14Links)

@@ -18,11 +18,3 @@ Version 3.0 is a major change to the Section 508 ICT Testing Baseline and suppor
   * The revised Baseline test instructions include conditions to "identify content" to test. If those conditions are not met, the test does not apply.
   * Addition of unique Baseline Test IDs for easier reference and traceability.
 Finally, the test instructions have entirely removed any reference to any testing tools. The revised ICT Testing Baseline is a tool-agnostic set of test instructions that describe what to test and what conditions web content must meet to be considered conformant, without prescribing specific procedures or tools. Federal agencies and other organizations may define their own test procedures, using their preferred test tools while still maintaining alignment with the ICT Testing Baseline. 
-
-### For future releases: Version [3.x], [Release Date]
-| Location | Change |
-|:---------|:-------|
-| [page] |	[description] |
-
-----------------------------------------------------------------
-[Home/Table of Contents](../) | [Previous Section (Appendix A)](../AppendixA) | [Next Section (Appendix C)](../references)

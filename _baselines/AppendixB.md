@@ -55,6 +55,3 @@ Version 3.0, November 2018
 --------------------------
 
 Version 3.0 is a wholesale revision to the Baseline test process. The primary change to the document includes significant changes to the test processes to address the Section 508 Refresh and incorporation of the WCAG 2.0 Level A and Level AA Success Criteria. The document also includes other changes to improve the organization and flow of the document, and readability of test instructions.
-
-----------------------------------------
-[Home/Table of Contents](index.md) | [Appendix B - Document Content Change Log](AppendixB.md)

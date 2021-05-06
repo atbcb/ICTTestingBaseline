@@ -144,6 +144,3 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G87: Providing closed captions](http://www.w3.org/TR/WCAG20-TECHS/G87.html)
 -   [G9: Creating captions for live synchronized media](http://www.w3.org/TR/WCAG20-TECHS/G9.html)
 -   [G78: providing a second, user-selectable, audio track that includes audio descriptions](http://www.w3.org/TR/WCAG20-TECHS/G78.html)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../16AudioVideo) | [Next Baseline](../18Stylesheet)

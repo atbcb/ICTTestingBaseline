@@ -67,6 +67,3 @@ None.
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [H57: Using language attributes on the html element](https://www.w3.org/TR/WCAG20-TECHS/H57.html)
 -   [H58: Using language attributes to identify changes in the human language](https://www.w3.org/TR/WCAG20-TECHS/H58.html)
-
-----------------------------------------
-[Home/Table of Contents](../) | [Previous Baseline](../14Links) | [Next Baseline](../16AudioVideo)
