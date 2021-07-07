@@ -109,7 +109,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rouge (3.22.0)
     safe_yaml (1.0.5)
     sass (3.7.4)
@@ -127,7 +127,6 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2020.1)
       tzinfo (>= 1.0.0)
-    wdm (0.1.1)
     yell (2.2.2)
 
 PLATFORMS
@@ -147,7 +146,6 @@ DEPENDENCIES
   kramdown-parser-gfm
   sprockets (~> 3.7)
   tzinfo-data
-  wdm (~> 0.1.0)
 
 RUBY VERSION
    ruby 2.6.3p62
