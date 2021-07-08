@@ -21,7 +21,7 @@ dap:
 # Site Navigation
 primary_navigation:
   - name: ICT Baseline Home
-    url: https://ictbaseline.access-board.gov/
+    url: https://baseline.access-board.gov/
   - name: Baseline Alignment Framework
     url: https://section508coordinators.github.io/baselinealignment/
   - name: Section508.gov
