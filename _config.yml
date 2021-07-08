@@ -20,15 +20,14 @@ dap:
 
 # Site Navigation
 primary_navigation:
-  - name: Access Board Home
-    url: https://www.access-board.gov/
   - name: ICT Baseline Home
     url: https://ictbaseline.access-board.gov/
   - name: Baseline Alignment Framework
     url: https://section508coordinators.github.io/baselinealignment/
   - name: Section508.gov
     url: https://www.section508.gov/
-
+  - name: Access Board Home
+    url: https://www.access-board.gov/
 # Search.gov configuration
 # 1. Create an account with Search.gov https://search.usa.gov/signup
 # 2. Add a new site.
