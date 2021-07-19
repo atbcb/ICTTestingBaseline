@@ -43,7 +43,8 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 #### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that user controls for the selection of captions and audio descriptions are provided. [Section 508 503.4]</li>
+    <li id="1TI-1">Check that user control for the selection of captions is provided. [Section 508 503.4]</li>
+    <li id="1TI-2">Check that user control for the selection of audio descriptions is provided. [Section 508 503.4]</li>
 </ol>
 
 #### Test Results
@@ -86,12 +87,13 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 #### Test Instructions
 <ol id="4TI">
     <li id="4TI-1">Enable captions through multimedia player functions and play the media. If a separate media file with captions is provided, test that file.</li>
-    <li id="4TI-2">Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location. [SC 1.2.2]
+    <li id="4TI-2">Check that captions are provided.</li>
+    <li id="4TI-3">Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location. [SC 1.2.2]
         <ol>
-        <li id="4TI-2i">Listen to the audio of the entire synchronized media.</li>
-        <li id="4Ti-2ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence.</li>
+        <li id="4TI-3i">Listen to the audio of the entire synchronized media.</li>
+        <li id="4Ti-3ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence.</li>
         </ol></li>
-    <li id="4Ti-3">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
+    <li id="4Ti-4">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
 </ol>
 
 #### Test Results
@@ -122,10 +124,11 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 #### Test Instructions
 <ol id="6TI">
     <li id="6TI-1">Enable captions through multimedia player functions and start the live session.</li>
-    <li id="6TI-2">Check that provided captions include dialogue and important sounds. [SC 1.2.4]
+    <li id="6TI-2">Check that captions are provided</li>
+    <li id="6TI-3">Check that provided captions include dialogue and important sounds. [SC 1.2.4]
         <ol>
-        <li id="6TI-2i">Listen to the audio of the entire synchronized media.</li>
-        <li id="6TI-2ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence. Lower accuracy of captions for live broadcasts may be acceptable due to limitations of real-time caption capabilities.</li>
+        <li id="6TI-3i">Listen to the audio of the entire synchronized media.</li>
+        <li id="6TI-4ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence. Lower accuracy of captions for live broadcasts may be acceptable due to limitations of real-time caption capabilities.</li>
         </ol></li>
 </ol>
 
