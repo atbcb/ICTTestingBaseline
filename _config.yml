@@ -43,6 +43,9 @@ collections:
   baselines:
     output: true
     permalink: /:path/
+  files:
+    output: true
+    permalink: /:path/
 
 permalink: pretty
 
