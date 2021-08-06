@@ -21,7 +21,7 @@ In January of 2017, the U.S. Access-Board released the final rule to revise the 
 * The ITBWG will promote the use of the Baseline to encourage agencies to evaluate their test processes and improve Section 508 conformance testing accuracy.
 
 ### How you can contribute
-You are welcome to monitor progress, create forks of the proposed Baseline tests and test cases, propose improvements (via issues and pull requests), and submit test cases to help validate test processes and tools. The working group will post the ICT Testing Baseline for Web to this [repository](https://github.com/Section508Coordinators/ICTTestingBaseline/) in GitHub. We will review and share results as progress is made.  
+You are welcome to monitor progress, create forks of the proposed Baseline tests and test cases, propose improvements (via issues and pull requests), and submit test cases to help validate test processes and tools. The working group will post the ICT Testing Baseline for Web to this [repository](https://github.com/atbcb/ICTTestingBaseline) in GitHub. We will review and share results as progress is made.  
 
 ### How to contact the working group:
 If you wish to contact the working group with suggestions, please email ictbaseline@gsa.gov and include in the subject "ICT Baseline Update."  
