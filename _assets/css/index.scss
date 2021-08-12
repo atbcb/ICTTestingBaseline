@@ -260,6 +260,9 @@ td ul.check {
   .site-subtitle {
     @include u-font('sans', 'md');
   }
+  .onlymobile {
+    display: none;
+  }
 }
 
 @media (max-width: 35em) {
