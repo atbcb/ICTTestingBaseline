@@ -253,7 +253,11 @@ td ul.check {
   .usa-header--extended .usa-logo {
     max-width: 75%;
   }
-
+  .tocsticky {
+    position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;
+  }
   .star-logo-box {
     max-width: 6rem;
   }
