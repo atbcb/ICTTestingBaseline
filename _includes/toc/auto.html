@@ -18,17 +18,27 @@
   {% endif %}
 {% endif %}
 {% if chapters %}
-<aside id="toc" class="desktop:grid-col-3 margin-bottom-2 padding-right-2 border-right-width-2">
-  <div class="padding-2 bg-white height-viewport overflow-y-scroll sticky">
-    <nav role="navigation" class="toc-subnav usa-accordion" aria-multiselectable="true" aria-label="Table of contents subnavigation">
-      <ul class="usa-sidenav">
+<!-- <div class="usa-navbar">
+  <button class="usa-menu-btn">Page Menu</button>
+</div> -->
+<nav id="nav2" role="navigation" class="desktop:grid-col-3 usa-nav site-nav sidenav-mobile">
+<div class="usa-nav__inner">
+  <div class="usa-nav__secondary">
+    {% include searchgov/form.html searchgov=site.searchgov %}
+  </div>
+    <!-- <button class="usa-nav__close">{% asset close.svg alt="close" %}</button> -->
+<aside id="toc" class="sidenav margin-bottom-2 padding-right-2 border-right-width-2">
+  <div class="padding-1 bg-white height-viewport overflow-y-scroll sticky">
+    <nav role="navigation" class="toc-subnav usa-accordion" aria-multiselectable="true" aria-label="Page navigation">
+      <!-- <div class="usa-nav__inner"> -->
+      <ul class="usa-sidenav site-sidenav">
         <li class="usa-sidenav__item">
-          <button class="top-level-accordion usa-accordion__button text-center text-uppercase text-heavy"
+          <!-- <button class="top-level-accordion usa-accordion__button text-center text-uppercase text-heavy"
             aria-expanded="true"
             aria-controls="subnav-list"
           >
             Table of Contents
-          </button>
+          </button> -->
           <ul id="subnav-list" class="usa-accordion__content usa-sidenav__sublist">
             {% for chapter in chapters %}
             <li class="usa-sidenav__item">
@@ -54,7 +64,11 @@
           </ul>
         </li>
       </ul>
+      <!-- </div> -->
     </nav>
   </div>
 </aside>
+
+ </div>
+</nav>
 {% endif %}
