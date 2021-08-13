@@ -1,0 +1,49 @@
+{% comment %}
+To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
+where we provide an easy way to manage your navigation system
+{% endcomment %}
+
+<header class="usa-header usa-header--extended" role="banner">
+  <div class="usa-navbar">
+    {% include logo.html %}
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+ <nav id="nav1" role="navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
+      <!-- <ul class="usa-nav__primary usa-accordion" role="menu">
+        {% for nav_item in include.primary_navigation %}
+        {% unless nav_item.children %}
+          {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
+          {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+          {% assign nav_id = 'primary-nav-' | append: forloop.index %}
+          <li role="none" class="usa-nav__primary-item">
+            <a onfocus="expandedFalse()" role="menuitem" id="{{ nav_id }}" class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
+              href="{{ nav_item.url }}"><span>{{ nav_item.name | escape }}</span></a>
+          </li>
+        {% else %}
+        {% assign nav_id = 'primary-nav-' | append: forloop.index %}
+        {% assign sub_id = 'sub-nav-' | append: forloop.index %}
+        {% assign submenunav_item = '-subnav-item-' | prepend: forloop.index %}
+        <li role="none" class="usa-nav__primary-item">
+          <button role="menuitem" id="{{ nav_id }}" class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-haspopup="true"
+            aria-controls="{{ sub_id }}"><span>{{ nav_item.name | escape }}</span></button>
+          <ul role="menu" hidden id="{{ sub_id }}" class="usa-nav__submenu bg-primary">
+            {% for subnav_item in nav_item.children %}
+            {% assign subitem_id = submenunav_item | append: forloop.index %}
+            
+            <li class="usa-nav__submenu-item">
+              <a role="menuitem" id="{{ subitem_id }}" href="{{ subnav_item.url}}">{{ subnav_item.name | escape }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endunless %}
+        {% endfor %}
+      </ul> -->
+      <div class="usa-nav__secondary">
+        {% include searchgov/form.html searchgov=site.searchgov %}
+      </div>
+    </div>
+  </nav>
+</header>
