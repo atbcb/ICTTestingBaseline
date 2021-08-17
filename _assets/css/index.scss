@@ -93,9 +93,9 @@ hr {
   border-right-color: #f0f0f0; // must match background color
 }
 
-a.usa-current::before {
-  content: "→" !important;
-}
+// a.usa-current::before {
+//   content: "→" !important;
+// }
 
 fieldset {
   border: thin solid color(primary-darker);
@@ -236,7 +236,11 @@ td ul.check {
   .usa-header--extended .usa-logo {
     max-width: 75%;
   }
-
+  .stickyheader {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
   .site-logo {
     max-height: 3rem;
   }
@@ -253,12 +257,19 @@ td ul.check {
   .usa-header--extended .usa-logo {
     max-width: 75%;
   }
-
+  .tocsticky {
+    position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0;
+  }
   .star-logo-box {
     max-width: 6rem;
   }
   .site-subtitle {
     @include u-font('sans', 'md');
+  }
+  .onlymobile {
+    display: none;
   }
 }
 

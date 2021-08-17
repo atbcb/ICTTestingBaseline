@@ -3,7 +3,7 @@ To modify the menu system, you are welcome to edit this HTML directly or you can
 where we provide an easy way to manage your navigation system
 {% endcomment %}
 
-<header class="usa-header usa-header--extended" role="banner">
+<header class="usa-header usa-header--extended stickyheader" role="banner">
   <div class="usa-navbar">
     {% include logo.html %}
     <button class="usa-menu-btn">Menu</button>
@@ -11,7 +11,7 @@ where we provide an easy way to manage your navigation system
  <nav id="nav1" role="navigation" class="usa-nav">
     <div class="usa-nav__inner">
       <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
-      <ul class="usa-nav__primary usa-accordion" role="menu">
+      <!-- <ul class="usa-nav__primary usa-accordion" role="menu">
         {% for nav_item in include.primary_navigation %}
         {% unless nav_item.children %}
           {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
@@ -40,7 +40,7 @@ where we provide an easy way to manage your navigation system
         </li>
         {% endunless %}
         {% endfor %}
-      </ul>
+      </ul> -->
       <div class="usa-nav__secondary">
         {% include searchgov/form.html searchgov=site.searchgov %}
       </div>

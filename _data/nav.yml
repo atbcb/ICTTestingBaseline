@@ -1,0 +1,22 @@
+# Site Navigation
+primary_navigation:
+  - name: ICT Baseline Home
+    url: /
+  - name: Baseline Alignment Framework
+    url: https://section508coordinators.github.io/baselinealignment/
+  - name: Section508.gov
+    url: https://www.section508.gov/
+  - name: Access Board Home
+    url: https://www.access-board.gov/
+# Mobile Menu
+mobile:
+  - href: /
+    collapsible: true
+  - href: https://section508coordinators.github.io/baselinealignment/
+  - href: https://www.section508.gov/
+  - href: https://www.access-board.gov/    
+
+Baselines:
+  - href: /introduction/
+  - href: /01Keyboard/
+  
