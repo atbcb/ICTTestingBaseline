@@ -8,10 +8,11 @@ order-number: 100
 ### Baseline to Section 508/WCAG Requirement
 
 
-| Baseline Test                 | Section 508 / WCAG Requirement                                     |
-|-------------------------------|--------------------------------------------------------------------|
-| [1. Keyboard Access](../01Keyboard)            | 2.1.1 Keyboard; 2.1.2 No Keyboard Trap; Conformance Requirement 5: Non-Interference                                              |
-| [2. Focus](../02FocusVisible)                      | 2.4.3 Focus Order; 2.4.7 Focus Visible; 3.2.1 On Focus                                                |
+| Baseline Test                 | Baseline Test Instruction ID(s) | Section 508 / WCAG Requirement                                     |
+|-------------------------------|----------------------|----------------------------------------------|
+| [1.1 Keyboard Access](../01Keyboard/#11-test-procedure-for-keyboard-access)  | 1.1-1, 1.1-2 |2.1.1 Keyboard|
+| [1.2 No Keyboard Trap](../01Keyboard/#12-test-procedure-for-no-keyboard-trap) | 1.2-1 | 2.1.2 No Keyboard Trap; Conformance Requirement 5: Non-Interference     |                                         |
+| [2.1 Focus Visible](../02FocusVisible/#21-test-procedure-for-focus-visible)                      | 2.4.3 Focus Order; 2.4.7 Focus Visible; 3.2.1 On Focus                                                |
 | [3. Non-Interference](../03Noninterference)           | Conformance Requirement 5: Non-Interference                                                    |
 | [4. Repetitive Content](../04RepetitiveContent)         | 2.4.1 Bypass Blocks; 3.2.3 Consistent Navigation; 3.2.4 Consistent Identification                                     |
 | [5. Changing Content](../05Changing)           | 4.1.2 Name, Role, Value                                            |
