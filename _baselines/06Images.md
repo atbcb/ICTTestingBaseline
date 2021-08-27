@@ -54,16 +54,17 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 <p id="2IC">Identify any decorative image that is pure decoration, is used only for visual formatting, or is not presented to users.</p>
 
 ##### Test Instructions
-<p id="2TI">
-Check that at least one of the following is true [SC 1.1.1]:<br>
 <ol>
-    <li id="2TI-1">The ARIA role is "presentation".</li>
-    <li id="2TI-2">The ARIA role is "none".</li>
-    <li id="2TI-3">The aria-hidden is set to "true".</li>
-    <li id="2TI-4">The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>.</li>
-    <li id="2TI-5">The image is inserted via CSS (e.g., using a background image).</li>
+<li id="2TI">Check that at least one of the following is true [SC 1.1.1]:
+    <ol>
+        <li id="2TI-1">The ARIA role is "presentation".</li>
+        <li id="2TI-2">The ARIA role is "none".</li>
+        <li id="2TI-3">The aria-hidden is set to "true".</li>
+        <li id="2TI-4">The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>.</li>
+        <li id="2TI-5">The image is inserted via CSS (e.g., using a background image).</li>
+    </ol>
+</li>
 </ol>
-</p>
 
 ##### Test Results
 <p id="2TR">If all of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>

@@ -2,6 +2,8 @@
 title: "Section 508 ICT Testing Baseline for Web"
 order-number: 0
 permalink: /
+file: allbaselines.html
+file-description: Single file version of the ICT Testing Baseline for Web
 ---
 ## ICT Testing Baseline for Web Accessibility
 
