@@ -8,15 +8,19 @@ order-number: 100
 ### Baseline to Section 508/WCAG Requirement
 
 
-| Baseline Test                 | Baseline Test Instruction ID(s) | Section 508 / WCAG Requirement                                     |
+| Baseline Test                 | Baseline Test Instruction ID(s) | Section 508 / WCAG Requirement    |
 |-------------------------------|----------------------|----------------------------------------------|
 | [1.1 Keyboard Access](../01Keyboard/#11-test-procedure-for-keyboard-access)  | 1.1-1, 1.1-2 |2.1.1 Keyboard|
-| [1.2 No Keyboard Trap](../01Keyboard/#12-test-procedure-for-no-keyboard-trap) | 1.2-1 | 2.1.2 No Keyboard Trap; Conformance Requirement 5: Non-Interference     |                                         |
-| [2.1 Focus Visible](../02FocusVisible/#21-test-procedure-for-focus-visible)                      | 2.4.3 Focus Order; 2.4.7 Focus Visible; 3.2.1 On Focus                                                |
-| [3. Non-Interference](../03Noninterference)           | Conformance Requirement 5: Non-Interference                                                    |
-| [4. Repetitive Content](../04RepetitiveContent)         | 2.4.1 Bypass Blocks; 3.2.3 Consistent Navigation; 3.2.4 Consistent Identification                                     |
-| [5. Changing Content](../05Changing)           | 4.1.2 Name, Role, Value                                            |
-| [6. Images](../06Images)                     | 1.1.1 Non-text Content; 1.4.5 Images of Text; 4.1.2 Name, Role, Value                                             |
+| [1.2 No Keyboard Trap](../01Keyboard/#12-test-procedure-for-no-keyboard-trap)| 1.2-1 | 2.1.2 No Keyboard Trap; Conformance Requirement 5: Non-Interference|
+| [2.1 Focus Visible](../02FocusVisible/#21-test-procedure-for-focus-visible)  | 2.1-2 | 2.4.7 Focus Visible |
+| [2.2 Focus Order](../02FocusVisible/#22-test-procedure-for-focus-order)      | 2.2-1ai, 2.2-1bi, 2.2-1 | 2.4.3 Focus Order |
+| [2.3 On Focus](../02FocusVisible/#23-test-procedure-for-on-focus)            | 2.3-2 | 3.2.1 On Focus |
+| [3.1 Non-Interference](../03Noninterference/#31-test-procedure-for-non-interference) | 3.1-1 |Conformance Requirement 5: Non-Interference |
+| [4.1 Bypass Blocks](../04RepetitiveContent/#41-test-procedure-for-bypass-blocks) | 4.1-2, 4.1-4 | 2.4.1 Bypass Blocks |
+| [4.2 Consistent Navigation](../04RepetitiveContent/#42-test-procedure-for-consistent-navigation) |4.2-2 | 3.2.3 Consistent Navigation |
+| [4.3 Consistent Identification](../04RepetitiveContent/#43-test-procedure-for-consistent-identification)| 4.3-1 | 3.2.4 Consistent Identification |
+| [5.1 Changes in Content](../05Changing/#51-test-procedure-for-changes-in-content) | 5.1-1, 5.1-2 | 4.1.2 Name, Role, Value|
+| [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-1, 6.1-2, 6.1-1-2b, 6.1-3, 6.1-4, 6.1-5  |1.1.1 Non-text Content; 1.4.5 Images of Text; 4.1.2 Name, Role, Value                                             |
 | [7. Sensory Characteristics](../07Sensory)    | 1.3.3 Sensory Characteristics; 1.4.1 Use of Color                                                  |
 | [8. Contrast](../08Contrast)                   | 1.4.3 Contrast (Minimum)                                           |
 | [9. Flashing](../09Flashing)                   | 2.3.1 Three Flashes or Below Threshold; Conformance Requirement 5: Non-Interference                             |
