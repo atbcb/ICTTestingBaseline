@@ -45,7 +45,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 #### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Test 16.1-AudioOnlyTranscript fails.</p>
 
-### 16.2 Test Procedure for SC 1.2.1 Video-only (Prerecorded)
+### 16.2 Test Procedure for Video-only (Prerecorded)
 
 **Baseline Test ID:** 16.2-VideoOnlyAlt
 #### Identify Content
