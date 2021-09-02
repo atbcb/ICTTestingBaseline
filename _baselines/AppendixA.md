@@ -13,7 +13,7 @@ order-number: 100
 | [1.1 Keyboard Access](../01Keyboard/#11-test-procedure-for-keyboard-access)  | 1.1-1, 1.1-2 |2.1.1 Keyboard|
 | [1.2 No Keyboard Trap](../01Keyboard/#12-test-procedure-for-no-keyboard-trap)| 1.2-1 | 2.1.2 No Keyboard Trap; Conformance Requirement 5: Non-Interference|
 | [2.1 Focus Visible](../02FocusVisible/#21-test-procedure-for-focus-visible)  | 2.1-2 | 2.4.7 Focus Visible |
-| [2.2 Focus Order](../02FocusVisible/#22-test-procedure-for-focus-order)      | 2.2-1ai, 2.2-1bi, 2.2-1 | 2.4.3 Focus Order |
+| [2.2 Focus Order](../02FocusVisible/#22-test-procedure-for-focus-order)      | 2.2-1ai, 2.2-1bi, 2.2-2 | 2.4.3 Focus Order |
 | [2.3 On Focus](../02FocusVisible/#23-test-procedure-for-on-focus)            | 2.3-2 | 3.2.1 On Focus |
 | [3.1 Non-Interference](../03Noninterference/#31-test-procedure-for-non-interference) | 3.1-1 |Conformance Requirement 5: Non-Interference |
 | [4.1 Bypass Blocks](../04RepetitiveContent/#41-test-procedure-for-bypass-blocks) | 4.1-2, 4.1-4 | 2.4.1 Bypass Blocks |
@@ -55,7 +55,7 @@ order-number: 100
 | [17.4 Captions (Prerecorded)](../17SyncMedia/#174-test-procedure-for-sc-122-captions-prerecorded) | 17.4-3, 17.4-4 | 1.2.2 Captions (Prerecorded) |
 | [17.5 Audio Description (Prerecorded)](../17SyncMedia/#175-test-procedure-for-audio-description-prerecorded) | 17.5-2 | 1.2.5 Audio Description (Prerecorded) |
 | [17.6 Captions (Live)](../17SyncMedia/#176-test-procedure-for-sc-124-captions-live) | 17.6-3 | 1.2.4 Captions (Live) |
-| [18.1 Meaningful Background Image](../18Stylesheet/#181-test-procedure-for-meaningful-background-image) | 18.1 | 1.1.1. Non-Text Content |
+| [18.1 Meaningful Background Image](../18Stylesheet/#181-test-procedure-for-meaningful-background-image) | 18.1-1 | 1.1.1. Non-Text Content |
 | [18.2 CSS Positioned Content](../18Stylesheet/#182-test-procedure-for-css-positioned-content) | 18.2-1, 18.2-2 |  1.3.2 Meaningful Sequence      |
 | [19.1 Frames](../19Frames/#191-test-procedure-for-frames)   | 19.1-1, 19.1-2 | 4.1.2 Name, Role, Value  |
 | [19.2 iFrames](../19Frames/#192-test-procedure-for-iframes) | 19.2-1, 19.2-2 | 4.1.2 Name, Role, Value  |
@@ -76,7 +76,7 @@ order-number: 100
 | 1.1.1 Non-text Content                                             | [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-1, 6.1-2, 6.1-3, 6.1-4, 6.1-5  |
 | 1.1.1 Non-text Content                                             | [6.2 Decorative Images](../06Images/#62-test-procedure-for-decorative-images) | 6.2-1 |
 | 1.1.1 Non-text Content                                             | [6.3 Captchas](../06Images/#63-test-procedure-for-captchas) | 6.3-1, 6.3-2, 6.3-3 |
-| 1.1.1 Non-text Content                                             | [18.1 Meaningful Background Image](../18Stylesheet/#181-test-procedure-for-meaningful-background-image) | 18.1 |
+| 1.1.1 Non-text Content                                             | [18.1 Meaningful Background Image](../18Stylesheet/#181-test-procedure-for-meaningful-background-image) | 18.1-1 |
 | 1.2.1 Audio-only and Video-only                                    | [16.1 Audio-Only (Prerecorded)](../16AudioVideo/#161-test-procedure-for-audio-only-prerecorded) | 16.1-1, 16.1-2, 16.1-4 |
 | 1.2.1 Audio-only and Video-only                                    | [16.2 Video-only (Prerecorded)](../16AudioVideo/#162-test-procedure-for-sc-121-video-only-prerecorded) | 16.2-1, 16.2-3 | 
 | 1.2.2 Captions (Prerecorded)                                       | [17.4 Captions (Prerecorded)](../17SyncMedia/#174-test-procedure-for-sc-122-captions-prerecorded) | 17.4-3, 17.4-4 |
@@ -102,7 +102,7 @@ order-number: 100
 | 2.3.1 Three Flashes or Below Threshold                            | [9.1 Three Flashes or Below Threshold](../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold) | 9.1-2 |
 | 2.4.1 Bypass Blocks                                               | [4.1 Bypass Blocks](../04RepetitiveContent/#41-test-procedure-for-bypass-blocks) | 4.1-2, 4.1-4 |
 | 2.4.2 Page Titled                                                  |  [11.1 Page Titled](../11PageTitles/#111-test-procedure-for-page-titled) | 11.1-1, 11.1-2 | 
-| 2.4.3 Focus Order                                                  | [2.2 Focus Order](../02FocusVisible/#22-test-procedure-for-focus-order)      | 2.2-1ai, 2.2-1bi, 2.2-1 |
+| 2.4.3 Focus Order                                                  | [2.2 Focus Order](../02FocusVisible/#22-test-procedure-for-focus-order)      | 2.2-1ai, 2.2-1bi, 2.2-2 |
 | 2.4.4 Link Purpose (In Context)                                    |  [14.1 Link Purpose (In Context)](../14Links/#141-test-procedure-for-link-purpose-in-context) | 14.1-2 |
 | 2.4.5 Multiple Ways                                                | [23.1 Related Web Pages](../23MultipleWays/#231-test-procedure-for-related-web-pages)  | 23.1-1 |
 | 2.4.6 Headings and Labels | [10.2 Form Labels Descriptive](../10Forms/#102-test-procedure-for-form-labels-descriptive) | 10.2-1 |
