@@ -43,16 +43,18 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 <p id="1IC">Identify any instances of content time limits (excluding exceptions described above).</p>
 
 #### Test Instructions
-<p id="1TI">Check that at least one of the following is true before time expires [SC 2.2.1] (for each instance of an identified time limit for content), 
+<p id="1TI">For each instance of an identified time limit for content:
     <ol>
-		<li id="1TI-1">The user has the ability to turn off the time limit.</li>
-		<li id="1TI-2">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
-		<li id="1TI-3">The user is warned before time expires AND:
+		<li id="1TI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:
 			<ol>
-				<li id="1TI-3a">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), AND</li>
-				<li id="1TI-3b">Allowed to extend the time limit at least ten times.</li>
-			</ol>
-        </li>	
+			<li id="1TI-1i">The user has the ability to turn off the time limit.</li>
+			<li id="1TI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
+			<li id="1TI-1iii">The user is warned before time expires AND:
+				<ol>
+				<li id="1TI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), AND</li>
+				<li id="1TI-1iiib">Allowed to extend the time limit at least ten times.</li>
+				</ol></li>
+			</ol></li>
     </ol>
 </p>
 

@@ -78,7 +78,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 #### Test Results
 <p id="3TR">If any of the above checks fail, then Baseline Test 17.3-MediaPlayerADLevel fails.</p>
 
-### 17.4 Test Procedure for SC 1.2.2 Captions (Prerecorded)
+### 17.4 Test Procedure for Captions (Prerecorded)
 
 **Baseline Test ID:** 17.4-CaptionsPrerecorded
 #### Identify Content
@@ -115,7 +115,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 #### Test Results
 <p id="5TR">If any of the above checks fail, then Baseline 17.5-ADPrerecorded fails.</p>
 
-### 17.6 Test Procedure for SC 1.2.4 Captions (Live)
+### 17.6 Test Procedure for Captions (Live)
 
 **Baseline Test ID:** 17.6-CaptionsLive
 #### Identify Content

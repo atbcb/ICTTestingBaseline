@@ -24,13 +24,11 @@ The purpose of this Baseline test is to identify visual changes to content and c
 
 **Baseline Test ID:** 5.1-ChangeContent
 #### Identify Content
-<ol id="1IC">
-   <li id="1IC-1">Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.
+<p id="1IC">Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.</p>
    <ul>
       <li>It may be necessary to use the mouse to determine whether state changes occur on hover or on click.</li>
       <li>Depending on the component, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
-   </ul></li>
-</ol>
+   </ul>
 
 #### Test Instructions
 <ol id="1TI">
