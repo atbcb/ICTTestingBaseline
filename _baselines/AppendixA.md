@@ -20,7 +20,8 @@ order-number: 100
 | [4.2 Consistent Navigation](../04RepetitiveContent/#42-test-procedure-for-consistent-navigation) |4.2-2 | 3.2.3 Consistent Navigation |
 | [4.3 Consistent Identification](../04RepetitiveContent/#43-test-procedure-for-consistent-identification)| 4.3-1 | 3.2.4 Consistent Identification |
 | [5.1 Changes in Content](../05Changing/#51-test-procedure-for-changes-in-content) | 5.1-1, 5.1-2 | 4.1.2 Name, Role, Value|
-| [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-1, 6.1-2, 6.1-3, 6.1-4, 6.1-5  |1.1.1 Non-text Content |
+| [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-1, 6.1-2  |1.1.1 Non-text Content |
+| [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-3, 6.1-4, 6.1-5  |4.1.2 Name, Role, Value|
 | [6.2 Decorative Images](../06Images/#62-test-procedure-for-decorative-images) | 6.2-1 | 1.1.1 Non-text Content |
 | [6.3 Captchas](../06Images/#63-test-procedure-for-captchas) | 6.3-1, 6.3-2, 6.3-3 | 1.1.1 Non-text Content |
 | [6.4 Images of Text](../06Images/#64-test-procedure-for-images-of-text) | 6.4-1, 6.4-2 | 1.4.5 Images of Text |
@@ -73,7 +74,7 @@ order-number: 100
 
 | Section 508 / WCAG Requirement      | Baseline Test                 | Baseline Test ID(s) |
 |--------------------------------------|------------------------------|-------------------------------|
-| 1.1.1 Non-text Content                                             | [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-1, 6.1-2, 6.1-3, 6.1-4, 6.1-5  |
+| 1.1.1 Non-text Content                                             | [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-1, 6.1-2 |
 | 1.1.1 Non-text Content                                             | [6.2 Decorative Images](../06Images/#62-test-procedure-for-decorative-images) | 6.2-1 |
 | 1.1.1 Non-text Content                                             | [6.3 Captchas](../06Images/#63-test-procedure-for-captchas) | 6.3-1, 6.3-2, 6.3-3 |
 | 1.1.1 Non-text Content                                             | [18.1 Meaningful Background Image](../18Stylesheet/#181-test-procedure-for-meaningful-background-image) | 18.1-1 |
@@ -120,6 +121,7 @@ order-number: 100
 | 3.3.4 Error Prevention (Legal, Financial, Data)                    | [10.7 Error Preventions](../10Forms/#107-test-procedure-for-error-prevention-legal-financial-data) | 10.7-2 |
 | 4.1.1 Parsing                                                      | [24.1 Parsing](../24Parsing/#241-test-procedure-for-parsing)  | 24.1-1 | 
 | 4.1.2 Name, Role, Value                                            | [5.1 Changes in Content](../05Changing/#51-test-procedure-for-changes-in-content) | 5.1-1, 5.1-2 |
+| 4.1.2 Name, Role, Value                                            | [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-3, 6.1-4, 6.1-5
 | 4.1.2 Name, Role, Value                                            | [10.1 Form Names](../10Forms/#101-test-procedure-for-form-names)   | 10.1-1 |
 | 4.1.2 Name, Role, Value                                            | [14.1 Link Purpose (In Context)](../14Links/#141-test-procedure-for-link-purpose-in-context) | 14.1-1 |
 | 4.1.2 Name, Role, Value                                            | [19.1 Frames](../19Frames/#191-test-procedure-for-frames)   | 19.1-1, 19.1-2 |
