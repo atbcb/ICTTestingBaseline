@@ -14,7 +14,7 @@ order-number: 4
 
 ### Test Method Rationale
 
-The test results for SC's 1.4.2 (21.4-AudioControl), 2.1.2 (1.2-NoKeyboadTrap), 2.3.1 (9.1-Flashes), and 2.2.2 (21.2-MovingInfo and 21.3-AutoUpdate) determine the result of this baseline test.
+The test results for SC's 1.4.2 (Baseline Test 21.4-AudioControl), 2.1.2 (1.2-NoKeyboadTrap), 2.3.1 (9.1-Flashes), and 2.2.2 (21.2-MovingInfo and 21.3-AutoUpdate) determine the result of this baseline test.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -24,7 +24,7 @@ None.
 
 **Baseline Test ID:** 3.1-NonInterference
 #### Identify Content
-<p id="1IC">Results for Baseline Tests [21.4-AudioControl](../21TimedEvents/#214-test-procedure-for-audio-control), [1.2-NoKeyboadTrap](../01Keyboard/#12-test-procedure-for-no-keyboard-trap), [9.1-Flashes](../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold), [21.2-MovingInfo](../21TimedEvents/#212-test-procedure-for-moving-information) and [21.3-AutoUpdate](../21TimedEvents/#213-test-procedure-for-auto-updating-information).</p>
+<p id="1IC">Results for Baseline Tests <a href="../21TimedEvents/#214-test-procedure-for-audio-control">21.4-AudioControl</a>, <a href="../01Keyboard/#12-test-procedure-for-no-keyboard-trap">1.2-NoKeyboadTrap</a>, <a href="../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold">9.1-Flashes</a>, <a href="../21TimedEvents/#212-test-procedure-for-moving-information">21.2-MovingInfo</a> and <a href="../21TimedEvents/#213-test-procedure-for-auto-updating-information">21.3-AutoUpdate</a>.</p>
 
 #### Test Instructions
 <ol id="1TI">
