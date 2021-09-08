@@ -59,7 +59,7 @@ order-number: 100
 | [18.2 CSS Positioned Content](../18Stylesheet/#182-test-procedure-for-css-positioned-content) | 18.2-1, 18.2-2 |  1.3.2 Meaningful Sequence      |
 | [19.1 Frames](../19Frames/#191-test-procedure-for-frames)   | 19.1-1, 19.1-2 | 4.1.2 Name, Role, Value  |
 | [19.2 iFrames](../19Frames/#192-test-procedure-for-iframes) | 19.2-1, 19.2-2 | 4.1.2 Name, Role, Value  |
-| [20.1 Conforming Alternate Version](../20AlternateVersions/#201-test-procedure-for-conforming-alternate-version) | 20.1-1, 20.1-2, 20.1-3, 20.1-4 | WCAG Conformance Requirement 1.Conforming Alternate Version |
+| [20.1 Conforming Alternate Version](../20AlternateVersions/#201-test-procedure-for-conforming-alternate-version) | 20.1-1, 20.1-2, 20.1-3, 20.1-4 | WCAG Conforming Alternate Version |
 | [21.1 Timing Adjustable](../21TimedEvents/#211-test-procedure-for-timing-adjustable)  | 21.1-1 | 2.2.1 Timing Adjustable |                                            |
 | [21.2 Moving Information](../21TimedEvents/#212-test-procedure-for-moving-information) | 21.2-1 | 2.2.2 Pause, Stop, Hide |
 | [21.3 Auto-updating Information](../21TimedEvents/#213-test-procedure-for-auto-updating-information) | 21.3-1 |  2.2.2 Pause, Stop, Hide |
@@ -127,5 +127,5 @@ order-number: 100
 | Section 508: 503.4 User Controls for Captions and Audio Description | [17.1 Media Player Controls](../17SyncMedia/#171-test-procedure-for-media-player-controls) | 17.1-1, 17.1-2 | 
 | Section 508: 503.4.1 Caption Controls                               |  [17.2 Media Player Caption Control Level](../17SyncMedia/#172-test-procedure-for-media-player-caption-control-level) | 17.2-1 |
 | Section 508: 503.4.2 Audio Description Controls                     | [17.3 Media Player Audio Description Control Level](..17SyncMedia/#173-test-procedure-for-media-player-audio-description-control-level) | 17.3-1 |
-| WCAG Conformance Requirement 1. Conforming Alternate Version        | [20.1 Conforming Alternate Version](../20AlternateVersions/#201-test-procedure-for-conforming-alternate-version) | 20.1-1, 20.1-2, 20.1-3, 20.1-4 |
+| WCAG Conforming Alternate Version        | [20.1 Conforming Alternate Version](../20AlternateVersions/#201-test-procedure-for-conforming-alternate-version) | 20.1-1, 20.1-2, 20.1-3, 20.1-4 |
 | WCAG Conformance Requirement 5. Non-Interference                   | [3.1 Non-Interference](../03Noninterference/#31-test-procedure-for-non-interference) | 3.1-1 |
