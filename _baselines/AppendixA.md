@@ -129,4 +129,3 @@ order-number: 100
 | Section 508: 503.4.2 Audio Description Controls                     | [17.3 Media Player Audio Description Control Level](..17SyncMedia/#173-test-procedure-for-media-player-audio-description-control-level) | 17.3-1 |
 | WCAG Conformance Requirement 1. Conforming Alternate Version        | [20.1 Conforming Alternate Version](../20AlternateVersions/#201-test-procedure-for-conforming-alternate-version) | 20.1-1, 20.1-2, 20.1-3, 20.1-4 |
 | WCAG Conformance Requirement 5. Non-Interference                   | [3.1 Non-Interference](../03Noninterference/#31-test-procedure-for-non-interference) | 3.1-1 |
-| WCAG Conformance Requirement 5. Non-Interference                   | [9.1 Three Flashes or Below Threshold](../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold) | 9.1-2 |
