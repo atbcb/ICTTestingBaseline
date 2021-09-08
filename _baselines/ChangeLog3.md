@@ -5,6 +5,13 @@ order-number: 101
 ## Appendix B - Section 508 ICT Testing Baseline Change Log
 Note: Minor punctuation, formatting and spelling changes not included.
 
+### Next Version, Date
+| Location of Change | Description of Change |
+|--------------------|-----------------------|
+| Multiple Tests | Corrections to outline numbering for Test Instructions |
+| 6.1 Meaningful Image | Instruction 2: 1.1.1 and 4.1.2 mappings removed. Instructions 3, 4, 5: 4.1.2 mapping added |
+| Appendix A | Test Instruction Details with "check" added |
+
 ### Version 3.0.1, March 2021
 All of the changes made in this version were made to the structure of the Baseline test pages to enable anchor references to a specific part of the tests.
   * Added IDs to Identify Content, Test Instructions, Test Results of all Tests
