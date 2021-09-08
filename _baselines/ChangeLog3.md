@@ -6,6 +6,7 @@ order-number: 101
 Note: Minor punctuation, formatting and spelling changes not included.
 
 ### Next Version, Date
+
 | Location of Change | Description of Change |
 |--------------------|-----------------------|
 | Multiple Baseline Tests | Corrections to outline numbering and missing requirement mappings added to test instructions  |
@@ -14,7 +15,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 17.4 Captions (Prerecorded) | Identify Content: added "that is not a media alternative for text and is clearly labeled as such" |
 | 18. CSS Content and Positioning | SC 1.3.1 removed from Accessibility Requirements |
 | 19. Frames | Former instruction 1 separated to 2 test instructions |
-| Appendix A | Test Instruction Details with "check" added |
+| Appendix A | Test Instructions with "check" added |
 | Site home | Single file of all Baseline Tests added | 
 
 ### Version 3.0.1, March 2021
