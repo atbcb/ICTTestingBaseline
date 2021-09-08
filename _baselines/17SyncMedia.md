@@ -82,7 +82,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 **Baseline Test ID:** 17.4-CaptionsPrerecorded
 #### Identify Content
-<p id="4IC">Pre-recorded synchronized multimedia.</p>
+<p id="4IC">Pre-recorded synchronized multimedia that is not a media alternative for text and is clearly labeled as such.</p>
 
 #### Test Instructions
 <ol id="4TI">
