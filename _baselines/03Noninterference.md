@@ -24,11 +24,11 @@ None.
 
 **Baseline Test ID:** 3.1-NonInterference
 #### Identify Content
-<p id="1IC">Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.</p>
+<p id="1IC">Results for Baseline Tests [21.4-AudioControl](../21TimedEvents/#214-test-procedure-for-audio-control), [1.2-NoKeyboadTrap](../01Keyboard/#12-test-procedure-for-no-keyboard-trap), [9.1-Flashes](../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold), [21.2-MovingInfo](../21TimedEvents/#212-test-procedure-for-moving-information) and [21.3-AutoUpdate](../21TimedEvents/#213-test-procedure-for-auto-updating-information).</p>
 
 #### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that all of test results are pass.[CR5]</li>
+    <li id="1TI-1">Check that all of the test results are pass.[CR5]</li>
 </ol>
 
 #### Test Results
