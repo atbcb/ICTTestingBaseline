@@ -28,7 +28,7 @@ None.
 
 #### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that all of test results are pass.</li>
+    <li id="1TI-1">Check that all of test results are pass.[CR5]</li>
 </ol>
 
 #### Test Results
