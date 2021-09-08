@@ -8,9 +8,14 @@ Note: Minor punctuation, formatting and spelling changes not included.
 ### Next Version, Date
 | Location of Change | Description of Change |
 |--------------------|-----------------------|
-| Multiple Tests | Corrections to outline numbering for Test Instructions |
-| 6.1 Meaningful Image | Instruction 2: 1.1.1 and 4.1.2 mappings removed. Instructions 3, 4, 5: 4.1.2 mapping added |
+| Multiple Baseline Tests | Corrections to outline numbering and missing requirement mappings added to test instructions  |
+| 3.1 Non-Interference | Identify Content: links added to Baseline Tests |
+| 6.1 Meaningful Image | Instruction 2: 1.1.1 and 4.1.2 mappings removed |
+| 17.4 Captions (Prerecorded) | Identify Content: added "that is not a media alternative for text and is clearly labeled as such" |
+| 18. CSS Content and Positioning | SC 1.3.1 removed from Accessibility Requirements |
+| 19. Frames | Former instruction 1 separated to 2 test instructions |
 | Appendix A | Test Instruction Details with "check" added |
+| Site home | Single file of all Baseline Tests added | 
 
 ### Version 3.0.1, March 2021
 All of the changes made in this version were made to the structure of the Baseline test pages to enable anchor references to a specific part of the tests.
