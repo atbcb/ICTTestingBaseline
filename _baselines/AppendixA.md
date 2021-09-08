@@ -121,7 +121,7 @@ order-number: 100
 | 3.3.4 Error Prevention (Legal, Financial, Data)                    | [10.7 Error Preventions](../10Forms/#107-test-procedure-for-error-prevention-legal-financial-data) | 10.7-2 |
 | 4.1.1 Parsing                                                      | [24.1 Parsing](../24Parsing/#241-test-procedure-for-parsing)  | 24.1-1 | 
 | 4.1.2 Name, Role, Value                                            | [5.1 Changes in Content](../05Changing/#51-test-procedure-for-changes-in-content) | 5.1-1, 5.1-2 |
-| 4.1.2 Name, Role, Value                                            | [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-3, 6.1-4, 6.1-5
+| 4.1.2 Name, Role, Value                                            | [6.1 Meaningful Images](../06Images/#61-test-procedure-for-meaningful-images) | 6.1-3, 6.1-4, 6.1-5 |
 | 4.1.2 Name, Role, Value                                            | [10.1 Form Names](../10Forms/#101-test-procedure-for-form-names)   | 10.1-1 |
 | 4.1.2 Name, Role, Value                                            | [14.1 Link Purpose (In Context)](../14Links/#141-test-procedure-for-link-purpose-in-context) | 14.1-1 |
 | 4.1.2 Name, Role, Value                                            | [19.1 Frames](../19Frames/#191-test-procedure-for-frames)   | 19.1-1, 19.1-2 |
