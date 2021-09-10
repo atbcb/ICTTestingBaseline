@@ -11,7 +11,7 @@ order-number: 100
 | Baseline Test                 | Baseline Test Instruction ID(s) | Section 508 / WCAG Requirement    |
 |-------------------------------|----------------------|----------------------------------------------|
 | [1.1 Keyboard Access](../01Keyboard/#11-test-procedure-for-keyboard-access)  | 1.1-1, 1.1-2 |2.1.1 Keyboard|
-| [1.2 No Keyboard Trap](../01Keyboard/#12-test-procedure-for-no-keyboard-trap)| 1.2-1 | 2.1.2 No Keyboard Trap; Conformance Requirement 5: Non-Interference|
+| [1.2 No Keyboard Trap](../01Keyboard/#12-test-procedure-for-no-keyboard-trap)| 1.2-1 | 2.1.2 No Keyboard Trap|
 | [2.1 Focus Visible](../02FocusVisible/#21-test-procedure-for-focus-visible)  | 2.1-2 | 2.4.7 Focus Visible |
 | [2.2 Focus Order](../02FocusVisible/#22-test-procedure-for-focus-order)      | 2.2-1ai, 2.2-1bi, 2.2-2 | 2.4.3 Focus Order |
 | [2.3 On Focus](../02FocusVisible/#23-test-procedure-for-on-focus)            | 2.3-2 | 3.2.1 On Focus |
