@@ -28,7 +28,7 @@ order-number: 100
 | [7.1 Use of Color](../07Sensory/#71-test-procedure-for-use-of-color)    | 7.1-1 |  1.4.1 Use of Color |
 | [7.2 Sensory Characteristics](../07Sensory/#72-test-procedure-for-sensory-characteristics) | 7.2-1, 7.2-2 | 1.3.3 Sensory Characteristics |
 | [8.1 Contrast (minimum)](../08Contrast/#81-test-procedure-for-contrast-minimum)  | 8.1-2, 8.1-3 | 1.4.3 Contrast (Minimum)  |
-| [9.1 Three Flashes or Below Threshold](../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold) | 9.1-2 | 2.3.1 Three Flashes or Below Threshold; Conformance Requirement 5: Non-Interference |
+| [9.1 Three Flashes or Below Threshold](../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold) | 9.1-2 | 2.3.1 Three Flashes or Below Threshold|
 | [10.1 Form Names](../10Forms/#101-test-procedure-for-form-names)   | 10.1-1 | 4.1.2 Name, Role, Value  |
 | [10.1 Form Names](../10Forms/#101-test-procedure-for-form-names)   | 10.1-2 | 1.3.1 Info and Relationships  |
 | [10.2 Form Labels Descriptive](../10Forms/#102-test-procedure-for-form-labels-descriptive) | 10.2-1 | 2.4.6 Headings and Labels |
