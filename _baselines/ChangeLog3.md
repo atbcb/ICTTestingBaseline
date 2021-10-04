@@ -5,6 +5,19 @@ order-number: 101
 ## Appendix B - Section 508 ICT Testing Baseline Change Log
 Note: Minor punctuation, formatting and spelling changes not included.
 
+### Next Version, Date
+
+| Location of Change | Description of Change |
+|--------------------|-----------------------|
+| Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings |
+| 3.1 Non-Interference | Identify Content: added links to Baseline Tests |
+| 6.1 Meaningful Image | Instruction 2: removed mapping to 1.1.1 and 4.1.2 |
+| 17.4 Captions (Prerecorded) | Identify Content: added "that is not a media alternative for text and is clearly labeled as such" |
+| 18. CSS Content and Positioning | Accessibility Requirements: removed SC 1.3.1 |
+| 19.1 Frames | Instruction 1: separated to 2 test instructions |
+| Appendix A | Added Test Instructions with "check" |
+| Site home | Added single file of all Baseline Tests | 
+
 ### Version 3.0.1, March 2021
 All of the changes made in this version were made to the structure of the Baseline test pages to enable anchor references to a specific part of the tests.
   * Added IDs to Identify Content, Test Instructions, Test Results of all Tests
