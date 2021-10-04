@@ -30,7 +30,7 @@ This test addresses flashing caused by the content itself, including:
 ### 9.1 Test Procedure for Three Flashes or Below Threshold
 **Baseline Test ID:** 9.1-Flashes
 #### Identify Content
-<p id="1IC">Visually identify content that [flashes](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#flash-def) (excluding exception noted in Limitations, Assumptions, or Exceptions above).</p>
+<p id="1IC">Visually identify content that <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#flash-def">flashes</a> (excluding exception noted in Limitations, Assumptions, or Exceptions above).</p>
 
 #### Test Instructions
 <ol id="1TI">
