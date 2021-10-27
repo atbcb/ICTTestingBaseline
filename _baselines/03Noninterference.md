@@ -27,17 +27,17 @@ None.
 #### Identify Content
 
 Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.
-{#1IC}
+{:#1IC}
 
 #### Test Instructions
 
-1. Check that all of test results are pass.
-{#1TI}
+1.{:#1TI} Check that all of test results are pass.
+
 
 #### Test Results
 
 If any of the above checks fail, then Baseline Requirement 3.1-NonInterference fails.
-{#1TR}
+{:#1TR}
 
 ### Advisory: Tips for streamlined test processes
 
