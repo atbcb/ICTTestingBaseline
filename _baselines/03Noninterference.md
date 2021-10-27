@@ -6,11 +6,11 @@ order-number: 4
 
 ### Accessibility Requirements
 
--   [WCAG Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) -- The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page:
-    -   1.4.2 - Audio Control,
-    -   2.1.2 - No Keyboard Trap,
-    -   2.3.1 - Three Flashes or Below Threshold, and
-    -   2.2.2 - Pause, Stop, Hide.
+- [WCAG Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) -- The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page:
+    * 1.4.2 - Audio Control,
+    * 2.1.2 - No Keyboard Trap,
+    * 2.3.1 - Three Flashes or Below Threshold, and
+    * 2.2.2 - Pause, Stop, Hide.
 
 ### Test Method Rationale
 
@@ -23,21 +23,25 @@ None.
 ### 3.1 Test Procedure for Non-Interference
 
 **Baseline Test ID:** 3.1-NonInterference
+
 #### Identify Content
-<p id="1IC">Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.</p>
+
+Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.{#1IC}
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Check that all of test results are pass.</li>
-</ol>
+
+Check that all of test results are pass.{1I-1}
+{#1TI}
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Requirement 3.1-NonInterference fails.</p>
+
+If any of the above checks fail, then Baseline Requirement 3.1-NonInterference fails.{#1TR}
 
 ### Advisory: Tips for streamlined test processes
 
--   This test result is a logical AND of the identified SC's. All must pass for this test result to pass.
--   A reporting tool may be utilized to generate the result for Conformance Requirement 5.
+- This test result is a logical ***and*** of the identified SC's. All must pass for this test result to pass.
+- A reporting tool may be utilized to generate the result for Conformance Requirement 5.
 
 #### WCAG 2.0 Techniques
+
 NA.
