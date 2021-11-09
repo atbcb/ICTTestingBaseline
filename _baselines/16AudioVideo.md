@@ -17,12 +17,14 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 ### Limitations, Assumptions, or Exceptions
 
 #### Audio-Only
+
 -   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline [17. Synchronized Media](../17SyncMedia).
 -   Audio intended as a media alternative for text does not require additional description if it is clearly labeled as such.
 -   Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
 -   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline [7. Sensory Characteristics](../07Sensory).
 
 #### Video-Only
+
 -   In a video-only presentation, information is presented in a variety of ways including animation, text or graphics, the setting and background, the actions and expressions of people, animals, etc.
 -   Video intended as a media alternative for text does not require additional description if it is clearly labeled as such.
 -   If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Baseline [17. Synchronized Media](../17SyncMedia) requirements.
@@ -31,13 +33,16 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 ### 16.1 Test Procedure for Audio-only (Prerecorded)
 
 **Baseline Test ID:** 16.1-AudioOnlyTranscript
+
 #### Identify Content
+
 <p id="1IC">Pre-recorded audio-only content.</p>
 
 #### Test Instructions
+
 <ol id="1TI">
     <li id="1TI-1">Check that the content provides transcript(s) for audio-only content. [SC 1.2.1]</li>
-    <li id="1TI-2">Check that the transcript is text (i.e., an image of a transcript would not be sufficient to pass this test). [SC 1.2.1]</li>
+    <li id="1TI-2">Check that the transcript is text (e.g., an image-only PDF would not be sufficient to pass this test). [SC 1.2.1]</li>
     <li id="1TI-3">Play the audio-only content entirely.</li>
     <li id="1TI-4">Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc. [SC 1.2.1]</li>
 </ol>
@@ -48,10 +53,13 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 ### 16.2 Test Procedure for Video-only (Prerecorded)
 
 **Baseline Test ID:** 16.2-VideoOnlyAlt
+
 #### Identify Content
+
 <p id="2IC">Pre-recorded video-only content.</p>
 
 #### Test Instructions
+
 <ol id="2TI">
     <li id="2TI-1">Check that all video-only content information is also available through a text alternative (e.g., text that provides description of video content and actions) or an audio track that describes the video content. [SC 1.2.1]</li>
     <li id="2TI-2">View the video-only content while referring to the alternative.</li>
@@ -59,11 +67,13 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 </ol>
 
 #### Test Results
+
 <p id="2TR">If any of the above checks fail, then Baseline Test 16.2-VideoOnlyAlt fail.</p>
 
 ### Advisory: Tips for streamlined test processes
 
 #### WCAG 2.0 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G158: Providing an alternative for time-based media for audio-only content](https://www.w3.org/TR/WCAG20-TECHS/G158.html)
 -   [G159: Providing an alternative for time-based media for video-only content](https://www.w3.org/TR/WCAG20-TECHS/G159.html)
