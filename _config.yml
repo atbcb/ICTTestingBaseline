@@ -32,7 +32,7 @@ collections:
   baselines:
     output: true
     permalink: /:path/
-
+    
 permalink: pretty
 
 defaults:
@@ -46,6 +46,7 @@ defaults:
       image-directory: /images/
       toc: /toc/auto.html
       toc-group: baselines
+      file-directory: /files/
       right-sidenav: sidenavitbwg-right-universal.html
       ta-text: Contact the Access Board for guidance on these Baseline tests
       ta-email-pre: ta
