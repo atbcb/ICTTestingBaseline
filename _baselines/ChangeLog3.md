@@ -19,7 +19,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 17.4 Captions (Prerecorded) | Identify Content: added "that is not a media alternative for text and is clearly labeled as such" |
 | 18. CSS Content and Positioning | Accessibility Requirements: removed SC 1.3.1 |
 | 19.1 Frames | Instruction 1: separated to 2 test instructions |
-| Appendix A | Added Test Instructions with "check" and linked test instructions |
+| Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs |
 | Site home | Added single file of all Baseline Tests | 
 
 ### Version 3.0.1, March 2021
