@@ -129,7 +129,7 @@ Review form instructions for completeness and programmatic association to their 
 #### Test Results
 <p id="4TR">If any of the above checks fail, then Baseline Test 10.4-ErrorIdentification fails.</p>
 
-### 10.5 Test Procedure for Form has a Label
+### 10.5 Test Procedure for Form has a Visible Label
 
 **Baseline Test ID:** 10.5-FormHasLabel
 #### Identify Content
@@ -140,7 +140,7 @@ Review form instructions for completeness and programmatic association to their 
 
 #### Test Instructions
 <ol id="5TI">
-    <li id="5TI-1">Check that each form component has label(s) or instructions. [SC 3.3.2]</li>
+    <li id="5TI-1">Check that each form component has visible label(s) or instructions. [SC 3.3.2]</li>
 </ol>
 
 #### Test Results
