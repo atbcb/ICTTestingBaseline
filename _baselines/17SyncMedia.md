@@ -93,7 +93,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
         <li id="4TI-3i">Listen to the audio of the entire synchronized media.</li>
         <li id="4Ti-3ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence.</li>
         </ol></li>
-    <li id="4Ti-4">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
+    <li id="4TI-4">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
 </ol>
 
 #### Test Results

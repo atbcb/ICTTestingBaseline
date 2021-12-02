@@ -43,12 +43,12 @@ order-number: 14
 <p id="2IC">Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.</p>
 
 ##### Test Instructions
-<ol id="2IC">
-    <li id="2IC-1">Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:
+<ol id="2TI">
+    <li id="2TI-1">Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:
         <ol>
-            <li id="2IC-1i">The most important heading(s) should have the highest priority level. For example, <code>&lt;h1&gt;</code> is a higher level than <code>&lt;h2&gt;</code>, which is higher than <code>&lt;h3&gt;</code>.</li>
-            <li id="2IC-1ii">Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.</li>
-            <li id="2IC-1iii">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
+            <li id="2TI-1a">The most important heading(s) should have the highest priority level. For example, <code>&lt;h1&gt;</code> is a higher level than <code>&lt;h2&gt;</code>, which is higher than <code>&lt;h3&gt;</code>.</li>
+            <li id="2TI-1b">Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.</li>
+            <li id="2TI-1c">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
             <ol>
                 <li><a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html" target="_blank" rel="noopener">H42</a>: each heading is marked with <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</li>
                 <li><a href="https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html" target="_blank" rel="noopener">ARIA12</a>: each heading is marked with <code>role="heading"</code> and <code>aria-level="#"</code>. The default heading level is "2" when none is specified.</li>
