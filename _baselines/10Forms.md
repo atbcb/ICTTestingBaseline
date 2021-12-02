@@ -140,7 +140,7 @@ Review form instructions for completeness and programmatic association to their 
 
 #### Test Instructions
 <ol id="5TI">
-    <li id="5TI-1">Check that each form component has visible label(s) or instructions. [SC 3.3.2]</li>
+    <li id="5TI-1">Check that each form component has visible label(s) or instructions while the form component has focus. [SC 3.3.2]</li>
 </ol>
 
 #### Test Results
