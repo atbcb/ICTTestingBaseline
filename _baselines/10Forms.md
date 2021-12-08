@@ -119,11 +119,12 @@ Review form instructions for completeness and programmatic association to their 
             <li>password</li>
         </ul></li>
     <li id="4TI-2">If an input error is automatically detected, check that the error notification meets all of the following [SC 3.3.1]:
-        <ul>
+        <ol type="a">
             <li>the user is made aware of the error (whether immediately upon shifting focus away from the item in error or when trying to submit the form), and</li>
             <li>the error is described to the user in text, and</li>
             <li>the item that is in error is identified in text.</li>
-        </ul></li>
+        </ol>
+    </li>
 </ol>
 
 #### Test Results
