@@ -56,6 +56,7 @@ site, this is the place to do it.
 
   <!-- CSS
     ================================================== -->
+    {% asset styles.css %}
   {% asset index.scss %}
   {% asset components/toast-rsd.css %}
   {% asset all.min.css %} <!-- fontawesome -->
@@ -136,8 +137,10 @@ $(document).ready(
     "columnDefs":
     [{ type: 'natural', targets: [0, 9] }
     ],
-    "scrollY": '60vh',
-		"scrollX": true
+    fixedHeader: true,
+    "language": {
+    "search": "Dynamic Search:"
+    }
   }
   );
 }
