@@ -1,18 +1,18 @@
-// Import individual theme settings
-
-//@import "uswds-theme-general";
-@import "uswds-theme-typography";
-@import "uswds-theme-spacing";
-//@import "uswds-theme-color";
-//@import "uswds-theme-utilities";
-
-// components import needs to be last
-//@import "uswds-theme-components";
-
-$theme-hero-image: asset_path("hero-wc-temp.jpg");
-
 // Import the US Web Design System SASS
 @import "uswds";
+
+// Import individual theme settings
+@import "../../sass/uswds-theme-general";
+@import "../../sass/uswds-theme-typography";
+@import "../../sass/uswds-theme-spacing";
+@import "../../sass/uswds-theme-color";
+@import "../../sass/uswds-theme-utilities";
+
+// components import needs to be last
+@import "../../sass/uswds-theme-components";
+
+
+$theme-hero-image: asset_path("hero-wc-temp.jpg");
 
 // Import component SASS
 @import "components/sticky";
