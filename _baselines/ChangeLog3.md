@@ -10,13 +10,14 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | Location of Change | Description of Change |
 |--------------------|-----------------------|
 | Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings |
-| 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions |
-| 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
 | 3.1 Non-Interference | Identify Content: added links to Baseline Tests |
-| 6.1 Meaningful Image | Instruction 2: removed mapping to 1.1.1 and 4.1.2 |
 | 5. Changing Content | Added WCAG 2.0 Techniques section and F20 |
+| 6.1 Meaningful Image | Instruction 2: removed mapping to 1.1.1 and 4.1.2 |
+| 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
 | 10.1 Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2 |
+| 10.1, 10.2, 10.5 | Identify Content: Added "that do not have <code>visibility:hidden</code> or <code>display:none</code>" after "Find all form components". | 
 | 10.5 Form has a Label | Test Procedure name changed to "Form has a Visible Label" and instruction 1 edited to include "has visible label(s) or instructions while the form component has focus." |
+| 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions |
 | 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
 | 17.4 Captions (Prerecorded) | Identify Content: added "that is not a media alternative for text and is clearly labeled as such" |
 | 18. CSS Content and Positioning | Accessibility Requirements: removed SC 1.3.1 |

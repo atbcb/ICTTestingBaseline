@@ -42,7 +42,7 @@ Review form instructions for completeness and programmatic association to their 
 **Baseline Test ID:** 10.1-FormName
 #### Identify Content
 <ol id="1IC">
-    <li id="1IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.</li>
+    <li id="1IC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.</li>
     <li id="1IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
@@ -68,7 +68,7 @@ Review form instructions for completeness and programmatic association to their 
 **Baseline Test ID:** 10.2-FormDescriptiveLabel
 #### Identify Content
 <ol id="2IC">
-    <li id="2IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
+    <li id="2IC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
     <li id="2IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
@@ -134,7 +134,7 @@ Review form instructions for completeness and programmatic association to their 
 **Baseline Test ID:** 10.5-FormHasLabel
 #### Identify Content
 <ol id="5IC">
-    <li id="5IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
+    <li id="5IC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
     <li id="5IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
