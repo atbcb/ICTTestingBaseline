@@ -78,20 +78,20 @@ order-number: 14
 
 **Baseline Test ID:** 13.4-List
 ##### Identify Content
-<p id="4IC">Visually apparent lists. For each list, determine if it appears to be ordered, unordered, or a description list.
+<p id="4IC">Visually apparent lists, which appear as a grouping of items typically one below the other. Determine the type of list: 
     <ul>
-        <li>Ordered lists <code>&lt;ol&gt;</code> are numbered sequentially and, if necessary, hierarchically (e.g., 1, 2, 2a, 2ai, etc.) and are used where sequence or the ability to reference specific items by number/letter is important.</li>
-        <li>Unordered lists <code>&lt;ul&gt;</code> are not numbered and are used where sequence or the ability to reference specific items by number/letter is not important.</li>
-        <li>Description lists <code>&lt;dl&gt;</code> are used to group terms with their descriptions.</li>
+        <li>An unordered list is not numbered and is used where sequence or the ability to reference specific items by number/letter is not important. List items have the same visual marking or may have no marking. </li>
+        <li>An ordered lists is numbered sequentially and, if necessary, hierarchically (e.g., 1, 2, 2a, 2ai, etc.) and is used where sequence or the ability to reference specific items by a unique number/letter is important.</li>
+        <li>A description list is used to group term(s) with their description(s). These are common in a glossary.</li>
     </ul>
 </p>
 
 ##### Test Instructions
 For each visually apparent list:
 <ol id="4TI">
-    <li id="4TI-1">Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is marked as an unordered list. [SC 1.3.1]</li>
-    <li id="4TI-2">Check that content that has the visual appearance of a numbered list is marked as an ordered list. [SC 1.3.1]</li>
-    <li id="4TI-3">Check that content is marked as a description list when terms and their descriptions are presented in the form of a list. [SC 1.3.1]</li>
+    <li id="4TI-1">Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is programmatically an unordered list <code>&lt;ul&gt;</code>, and each item in the list is programmatically a list item <code>&lt;li&gt;</code>. [SC 1.3.1]</li>
+    <li id="4TI-2">Check that content that has the visual appearance of a numbered list is programmatically an ordered list <code>&lt;ol&gt;</code>, and each item in the list is programmatically a list item <code>&lt;li&gt;</code>. [SC 1.3.1]</li>
+    <li id="4TI-3">Check that content has a visual appearance of a description list is programmatically a description list <code>&lt;dl&gt;</code>, each term is programmatically a description term <code>&lt;dt&gt;</code> and each description is programmatically a definition description <code>&lt;dd&gt;</code>. [SC 1.3.1]</li>
 </ol>
 
 ##### Test Results
