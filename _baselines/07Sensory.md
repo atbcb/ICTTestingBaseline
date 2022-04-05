@@ -64,7 +64,7 @@ Users affected by this requirement are not limited to users of assistive technol
 
 ### Advisory: Tips for streamlined test processes
 
--   Content that uses color with other visual differentiation must also provide textual cues to convey the same information to satisfy both SC 1.3.3 and 1.4.1; therefore, it is recommended to combine both requirements in a single test.
+-   Content that uses color must have an additional visual cue. Instructions that rely on a sensory characteristic must have an additional visual cue. It is possible to cover both requirements in a single test.
 -   Related tests might include dynamic content, images, links, and alternate pages.
 -   Displaying content in greyscale may help identify content that uses only color to convey information.
 

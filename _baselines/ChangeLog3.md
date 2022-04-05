@@ -10,6 +10,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | Location of Change | Description of Change |
 |--------------------|-----------------------|
 | Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings |
+| 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
 | 3.1 Non-Interference | Identify Content: added links to Baseline Tests |
 | 6.1 Meaningful Image | Instruction 2: removed mapping to 1.1.1 and 4.1.2 |
 | 5. Changing Content | Added WCAG 2.0 Techniques section and F20 |
