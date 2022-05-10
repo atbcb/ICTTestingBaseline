@@ -39,9 +39,9 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
         <li id="1TI-2i">Descriptions of the image that are provided by page content must be programmatically associated.</li>
         <li id="1TI-2ii">When an image is updated to convey new meaning, its text alternative must be updated at the same time. Notification of the change must be provided per <a href="../05Changing/#51-test-procedure-for-changes-in-content">Baseline Test 5.1 Changes in Content</a>"</li>
     </ol></li>
-    <li id="1TI-3">Check that the ARIA role is NOT "presentation".[SC 4.1.2]</li>
-    <li id="1TI-4">Check that the ARIA role is NOT "none".[SC 4.1.2]</li>
-    <li id="1TI-5">Check that aria-hidden is NOT set to "true".[SC 4.1.2]</li>
+    <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
+    <li id="1TI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
+    <li id="1TI-5">Check that aria-hidden is <strong>NOT</strong> set to "true".[SC 4.1.2]</li>
 </ol>
 
 ##### Test Results

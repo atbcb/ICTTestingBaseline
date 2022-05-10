@@ -194,12 +194,12 @@ Form components that change are tested in [Baseline 5. Changing Content](05Chang
 
 ### Advisory: Tips for streamlined test processes
 
--   For SC 3.3.1, acceptable techniques include a) shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error, b)refreshing the page upon form submission, then listing the error descriptions and locations at the top of the page. Re-displaying the form and indicating the fields in error within the form is insufficient to meet this requirement. The user should not need to search through the form to find where errors were made.
+-   For SC 3.3.1, acceptable techniques include a) shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error, b) refreshing the page upon form submission, then listing the error descriptions and locations at the top of the page. Re-displaying the form and indicating the fields in error within the form is insufficient to meet this requirement. The user should not need to search through the form to find where errors were made.
 -   For SC 3.3.4, because the user can review a simple, 1-page form before pressing the submit button on the page, another review mechanism is not required. 
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G115: Using semantic elements to mark up structure](http://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
+-   [G115: Using semantic elements to mark up structure](http://www.w3.org/TR/WCAG20-TECHS/G115.html) **AND** [H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
 -   [G80: Providing a submit button to initiate a change of context](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G80)
 -   [G13: Describing what will happen before a change to a form control that causes a change of context to occur is made](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G13)
 -   [G131: Providing descriptive labels](http://www.w3.org/TR/WCAG20-TECHS/G131.html)

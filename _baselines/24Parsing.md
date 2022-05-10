@@ -47,4 +47,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G134: Validating Web pages](https://www.w3.org/TR/WCAG20-TECHS/G134.html)
 -   [G192: Fully conforming to specifications](https://www.w3.org/TR/WCAG20-TECHS/G192.html)
 -   [H88: Using HTML according to spec](https://www.w3.org/TR/WCAG20-TECHS/H88.html)
--   [H74: Ensuring that opening and closing tags are used according to specification](https://www.w3.org/TR/WCAG20-TECHS/H74.html) AND [H93: Ensuring that id attributes are unique on a Web page](https://www.w3.org/TR/WCAG20-TECHS/H93.html) AND [H94: Ensuring that elements do not contain duplicate attributes](https://www.w3.org/TR/WCAG20-TECHS/H94.html)
+-   [H74: Ensuring that opening and closing tags are used according to specification](https://www.w3.org/TR/WCAG20-TECHS/H74.html) **AND** [H93: Ensuring that id attributes are unique on a Web page](https://www.w3.org/TR/WCAG20-TECHS/H93.html) **AND** [H94: Ensuring that elements do not contain duplicate attributes](https://www.w3.org/TR/WCAG20-TECHS/H94.html)
