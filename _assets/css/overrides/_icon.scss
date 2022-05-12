@@ -1,0 +1,80 @@
+// Override USWDS mixin to use jekyll-assets asset_url()
+
+@mixin add-color-icon($icon-object, $contrast-bg: "default") {
+  $filename-base: map-get($icon-object, "name");
+  $svg-height: map-get($icon-object, "svg-height");
+  $svg-width: map-get($icon-object, "svg-width");
+  $aspect: divide($svg-width, $svg-height);
+  $height: if(
+    unitless(map-get($icon-object, "height")),
+    units(map-get($icon-object, "height")),
+    map-get($icon-object, "height")
+  );
+  $width: $height * $aspect;
+  $container-height: if(
+    map-has-key($icon-object, "container-height"),
+    units(map-get($icon-object, "container-height")),
+    null
+  );
+  $container-width: if(
+    map-has-key($icon-object, "container-width"),
+    units(map-get($icon-object, "container-width")),
+    null
+  );
+  $color: if(
+    map-has-key($icon-object, "color"),
+    map-get($icon-object, "color"),
+    "ink"
+  );
+  $color-variant: if(
+    map-has-key($icon-object, "color-variant"),
+    map-get($icon-object, "color-variant"),
+    "white"
+  );
+  $color-hover: if(
+    map-has-key($icon-object, "color-hover"),
+    map-get($icon-object, "color-hover"),
+    null
+  );
+  $rotate: if(
+    map-has-key($icon-object, "rotate"),
+    map-get($icon-object, "rotate"),
+    null
+  );
+  $path: if(
+    map-has-key($icon-object, "path"),
+    map-get($icon-object, "path"),
+    $theme-image-path
+  );
+  $ie11-variant: get-color-token-from-bg($contrast-bg, "white", "black");
+  $filename-ie11: if(
+    $ie11-variant == "white",
+    "usa-icons-bg/#{$filename-base}--white.svg",
+    "usa-icons/#{$filename-base}.svg"
+  );
+
+  $mask-props: asset_url("#{$path}/usa-icons/#{$filename-base}.svg") no-repeat center /
+    contain;
+  $image-props: asset_url("#{$path}/#{$filename-ie11}") no-repeat center / contain;
+
+  // Default background shorthand for browsers that don't support mask or supports.
+  background: $image-props;
+  display: inline-block;
+  height: if($container-height, $container-height, $height);
+  width: if($container-width, $container-width, $width);
+  @if $rotate {
+    transform: rotate($rotate);
+  }
+
+  // Mask supported styles
+  @supports (mask: url("")) {
+    background: none;
+    background-color: if($color == currentColor, $color, color($color));
+    mask: $mask-props;
+    @if $color-hover {
+      &:hover {
+        background-color: color($color-hover);
+      }
+    }
+  }
+}

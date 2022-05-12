@@ -1,9 +1,9 @@
 title: Section 508 ICT Testing Baseline
 email: itbwg@gsa.gov
 description: >-
-  The tests included in the Section 508 ICT Testing Baseline reduce ambiguity, 
-  increase consistency of results, and emphasize testing of the methods and 
-  techniques that can reliably meet the Section 508 ICT Accessibility requirements, 
+  The tests included in the Section 508 ICT Testing Baseline reduce ambiguity,
+  increase consistency of results, and emphasize testing of the methods and
+  techniques that can reliably meet the Section 508 ICT Accessibility requirements,
   given the current state and compatibility of underlying technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ictbaseline.access-board.gov"
@@ -98,12 +98,6 @@ pagination:
   trail:
     before: 2
     after: 2
-  # Optional, the default file extension for generated pages (e.g html, json, xml).
-  # Internally this is set to html by default
-  extension: html
-  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
-  # Without file extension
-  indexpage: "index.html"
 
 exclude:
   - package.json
@@ -118,12 +112,18 @@ exclude:
   - Gemfile.lock
 
 assets:
+  autoprefixer:
+    browsers:
+      - "> 2%"
+      - "last 2 versions"
+      - "IE 11"
+      - "not dead"
   sources:
     - node_modules/dompurify/dist/
     - node_modules/stickyfilljs/dist
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
+    - node_modules/uswds/dist
     - node_modules/netlify-cms/dist
     - node_modules/stickyfilljs/dist
     - node_modules/stickyfilljs/dist

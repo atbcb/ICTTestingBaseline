@@ -7,7 +7,7 @@
 ========================================
 ========================================
 ----------------------------------------
-USWDS 2.7.0
+USWDS 2.13.1
 ----------------------------------------
 TYPOGRAPHY SETTINGS
 ----------------------------------------
@@ -124,12 +124,12 @@ names to something more descriptive.
 $theme-typeface-tokens: (
   example-serif-token: (
     display-name: "Example Serif Display Name",
-    cap-height: 364px
+    cap-height: 364px,
   ),
   example-sans-token: (
     display-name: "Example Sans Display Name",
-    cap-height: 364px
-  )
+    cap-height: 364px,
+  ),
 );
 
 /*
@@ -403,8 +403,8 @@ $theme-h1-font-size: "2xl";
 $theme-h2-font-size: "xl";
 $theme-h3-font-size: "lg";
 $theme-h4-font-size: "sm";
-$theme-h5-font-size: "sm";
-$theme-h6-font-size: "sm";
+$theme-h5-font-size: "xs";
+$theme-h6-font-size: "3xs";
 $theme-heading-line-height: 2;
 $theme-small-font-size: "2xs";
 $theme-display-font-size: "3xl";
