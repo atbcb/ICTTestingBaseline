@@ -21,6 +21,7 @@ order-number: 14
 -   The heading level 1 on a page is not required to match the page title.
 -   The order of heading levels may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an `<h2>` heading may be used for a navigation structure that precedes an `<h1>` title on a page. Similarly, `<h1>` may be followed by `<h3>` without `<h2>` between them. 
 -   Not all lists need markup. For instance, sentences that contain comma-separated lists may not need list markup ([H48: Using ol, ul and dl for lists or groups of links](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)).
+-   While an unordered list structure is often used to create navigation menus, menus can be created using other techniques such as `<nav>`. The test for Visually Apparent Lists does not include navigation menus.
 
 ### 13.1 Test Procedure for Descriptive Headings
 
