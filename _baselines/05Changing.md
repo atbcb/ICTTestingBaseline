@@ -14,7 +14,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 -   Name Change
 -   Role (test not yet available) 
 -   State 
--   Value (test not yet available)
+-   Value
 
 ### Limitations, Assumptions, or Exceptions
 
