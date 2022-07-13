@@ -96,7 +96,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 <p id="3TR">If any of the above checks fail, then Baseline Test 5.3-ControlValue fails.</p>
 <!--
 #### Identify Content
-<p id="1IC">Identify changes in presented content (both user driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.</p>
+<p id="1IC">Identify changes in presented content (both user-driven and automatic). Examples include changes to images, navigation trees, data table sort controls, automatic information updates, form elements, revealed content, etc.</p>
    <ul>
       	<li>It may be necessary to use the mouse to determine whether state changes occur on hover or on click.</li>
 		<li>Depending on the component, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
