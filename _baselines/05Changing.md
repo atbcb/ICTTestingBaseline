@@ -56,7 +56,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 **Baseline Test ID:** 5.2-ControlState
 #### Identify Content
-<p id="2IC">Identify user-initiated changes to the state of user controls. Examples include changes to buttons, form labels, menu items, links.</p>
+<p id="2IC">Identify user-initiated changes to the state of user controls. Examples include changes to buttons, form labels, menu items, and links.</p>
    <ul>
       <li>Depending on the control, a change of name may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
 	  <li>Examples include a disabled "Submit" button is enabled when all required form fields are filled in, a link becomes visible after a user-initiated calculation completes, a check box changes from checked to unchecked, links that are hovered or visited.</li>
