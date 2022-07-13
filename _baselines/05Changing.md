@@ -64,7 +64,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 #### Test Instructions
 <ol id="2TI">
-	<li id="2TI-1">Check that the state of the user control is correct in its default state. [SC 4.1.2]</li>
+	<li id="2TI-1">Check that the state of the user control is correct when in its default state. [SC 4.1.2]</li>
 	<li id="2TI-2">Attributes such as <code>hidden</code>, <code>disabled</code>, and the use of <a href="https://www.w3.org/WAI/standards-guidelines/aria/">ARIA</a> to control component states must be used correctly.</li>
 	<li id="2TI-3">Modify the state of the user control.</li>
 	<li id="2TI-4">Check that the state of the user control is correct after a change of state. [SC 4.1.2]</li>
