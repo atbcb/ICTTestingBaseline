@@ -81,7 +81,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 <p id="3IC">Identify controls that have a value that can be changed by a user. Examples include forms that accept user input to modify another component.</p>
    <ul>
       <li>Depending on the control, a change of value may be performed by entering a number, selecting from a list of options, etc.</li>
-	  <li>Examples include adjusting a slider modifies a date range that is highlighted in a calendar, entering numbers in text fields determines a graph's data points, selecting colors determines the appearance of links.</li>
+	  <li>Examples include adjusting a slider modifies a date range that is highlighted in a calendar, entering numbers in text fields determines a graph's data points, and selecting colors determines the appearance of links.</li>
    </ul>
 
 #### Test Instructions
