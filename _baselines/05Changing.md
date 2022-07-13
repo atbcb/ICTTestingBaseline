@@ -88,7 +88,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 <ol id="3TI">
 	<li id="3TI-1">Check that the value of the user control is correct when at its default value. [SC 4.1.2]</li>
 	<li id="3TI-2">Modify the value of the user control.</li>
-	<li id="3TI-3">Check that the state of the user control is correct after a change of state. [SC 4.1.2]</li>
+	<li id="3TI-3">Check that the value of the user control is correct after a change of value. [SC 4.1.2]</li>
 </ol>
 
 #### Test Results
