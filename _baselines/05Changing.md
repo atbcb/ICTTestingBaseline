@@ -35,7 +35,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 #### Test Instructions
 <ol id="1TI">
-	<li id="1TI-1">Modify the name of the user control.</li>
+	<li id="1TI-1">Perform an action to modify the name of the user control.</li>
 	<li id="1TI-2">Check that the combination of the accessible name and accessible description is not empty after the change. [SC 4.1.2]</li>
     <li id="1TI-3">Check that the non-empty combination of the accessible name and accessible description describes the control's purpose after the change. [SC 1.1.1]  For details on the computation of the accessible name and accessible description, references include:
 		<ul>
