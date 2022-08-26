@@ -21,7 +21,7 @@ order-number: 14
 -   The heading level 1 on a page is not required to match the page title.
 -   The order of heading levels may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an `<h2>` heading may be used for a navigation structure that precedes an `<h1>` title on a page. Similarly, `<h1>` may be followed by `<h3>` without `<h2>` between them. 
 -   Not all lists need markup. For instance, sentences that contain comma-separated lists may not need list markup ([H48: Using ol, ul and dl for lists or groups of links](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)).
--   While an unordered list structure is often used to create navigation menus, menus can be created using other techniques such as `<nav>`. The test for Visually Apparent Lists does not include navigation menus.
+-   A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques. 
 
 ### 13.1 Test Procedure for Descriptive Headings
 
@@ -79,7 +79,7 @@ order-number: 14
 
 **Baseline Test ID:** 13.4-List
 ##### Identify Content
-<p id="4IC">Visually apparent lists, which appear as a grouping of items typically one below the other. Determine the type of list: 
+<p id="4IC">Visually apparent lists, which appear as a grouping of items typically one below the other. Exclude navigation menus. Determine the type of list: 
     <ul>
         <li>An unordered list is not numbered and is used where sequence or the ability to reference specific items by number/letter is not important. List items have the same visual marking or may have no marking. </li>
         <li>An ordered lists is numbered sequentially and, if necessary, hierarchically (e.g., 1, 2, 2a, 2ai, etc.) and is used where sequence or the ability to reference specific items by a unique number/letter is important.</li>
@@ -99,6 +99,7 @@ For each visually apparent list:
 <p id="4TR">If any of the above checks fail, Baseline Test 13.4-List fails.</p>
 
 ### Advisory: Tips for streamlined test processes
+- There is not a test to check that programmatic lists are visually apparent lists. 
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
