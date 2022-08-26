@@ -49,7 +49,7 @@ Review form instructions for completeness and programmatic association to their 
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="1TI-2">Check that the non-empty combination of the accessible name and accessible description describes the form's purpose. [SC 1.1.1]  For details on the computation of the accessible name and accessible description, references include:
+    <li id="1TI-2">Check that the non-empty combination of the accessible name and accessible description describes the form's purpose. [SC 4.1.2] [Form components that include non-text content should also map to SC 1.1.1.]  For details on the computation of the accessible name and accessible description, references include:
 		<ul>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
