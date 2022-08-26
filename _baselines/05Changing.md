@@ -11,7 +11,7 @@ order-number: 6
 ### Test Method Rationale
 
 The purpose of this Baseline test is to check the following accessibility properties of user controls:
--   Name and Description
+-   Name
 -   Role (test not yet available) 
 -   State 
 -   Value
