@@ -113,7 +113,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
     racc (1.6.0)
-    rack (2.2.3)
+    rack (2.2.4)
     rainbow (3.1.1)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
@@ -137,7 +137,6 @@ GEM
     tzinfo-data (1.2022.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
-    wdm (0.1.1)
     yell (2.2.2)
     zeitwerk (2.5.4)
 
@@ -159,7 +158,6 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown-parser-gfm
   tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.17.3
