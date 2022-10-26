@@ -18,6 +18,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 10.1 Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2 |
 | 10.1, 10.2, 10.5 | Identify Content: Added "that do not have <code>visibility:hidden</code> or <code>display:none</code>" after "Find all form components". | 
 | 10.5 Form has a Label | Test Procedure name changed to "Form has a Visible Label" and instruction 1 edited to include "has visible label(s) or instructions while the form component has focus." |
+| 13. Content Structure | Limitations, Assumptions, Exceptions: Added "A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques." |
 | 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions |
 | 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
 | 17.4 Captions (Prerecorded) | Identify Content: added "that is not a media alternative for text and is clearly labeled as such" |
