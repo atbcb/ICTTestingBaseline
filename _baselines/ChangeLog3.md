@@ -11,7 +11,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 |--------------------|-----------------------|
 | Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings |
 | 3.1 Non-Interference | Identify Content: added links to Baseline Tests |
-| 5. Changing Content | Added WCAG 2.0 Techniques section and F20 |
+| 5. Changing Content | Significant changes to this test to cover SC 4.1.2 more accurately. Name of test changed to 5. User Controls. |
 | 6. Images | Limitations, Assumptions, Exceptions: Removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
 | 6.1 Meaningful Image | Instruction 2: removed mapping to 1.1.1 and 4.1.2 |
 | 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
