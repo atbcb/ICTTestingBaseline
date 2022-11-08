@@ -134,6 +134,28 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 #### Test Results
 <p id="6TR">If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.</p>
+### 17.7 Test Procedure for Media Alternatives (Prerecorded)
+
+**Baseline Test ID:** 17.7-MediaAlternative
+#### Identify Content
+<p id="7IC">Pre-recorded synchronized multimedia that is labeled as a media alternative for text.</p>
+
+#### Test Instructions
+<ol id="7TI">
+    <li id="7TI-1">Identify the text for which the media is an alternative.</li>
+    <li id="7TI-2">Check that the media is an equivalent alternative for the text.</li>
+    <li id="7TI-3">Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location. [SC 1.2.2]
+        <ol>
+        <li id="7TI-3i">Listen to the audio of the entire synchronized media.</li>
+        <li id="7Ti-3ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence.</li>
+        </ol></li>
+    <li id="7TI-4">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
+</ol>
+
+#### Test Results
+<p id="7TR">If any of the above checks fail, then Baseline 17.4-CaptionsPrerecorded fails.</p>
+#### Test Results
+<p id="TR">If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 
