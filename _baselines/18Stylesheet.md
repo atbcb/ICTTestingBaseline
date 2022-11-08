@@ -42,7 +42,7 @@ Meaningful information provided solely through CSS content may not be in the Doc
 
 **Baseline Test ID:** 18.2-CSSPositionedContent
 #### Identify Content
-<p id="2IC">Content positioned with CSS position</p>
+<p id="2IC">Meaningful content positioned with CSS</p>
 
 #### Test Instructions
 <ol id="2TI">
@@ -54,6 +54,7 @@ Meaningful information provided solely through CSS content may not be in the Doc
 <p id="2TR">If any of the above checks fail, then Baseline Test 18.2-CSSPositionedContent fail.</p>
 
 ### Advisory: Tips for streamlined test processes
+- These tests are not to be performed by disabling all CSS. Content is not required to be perceivable and operable with all CSS disabled.
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
