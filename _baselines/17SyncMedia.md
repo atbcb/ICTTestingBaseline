@@ -82,7 +82,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 **Baseline Test ID:** 17.4-CaptionsPrerecorded
 #### Identify Content
-<p id="4IC">Pre-recorded synchronized multimedia that is not a media alternative for text and is clearly labeled as such.</p>
+<p id="4IC">Pre-recorded synchronized multimedia that is not clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 <ol id="4TI">
@@ -104,7 +104,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 **Baseline Test ID:** 17.5-ADPrerecorded
 
 #### Identify Content
-<p id="5IC">Pre-recorded synchronized multimedia.</p>
+<p id="5IC">Pre-recorded synchronized multimedia that is not clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 <ol id="5TI">
@@ -134,6 +134,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 #### Test Results
 <p id="6TR">If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.</p>
+
 ### 17.7 Test Procedure for Media Alternatives (Prerecorded)
 
 **Baseline Test ID:** 17.7-MediaAlternative
@@ -143,25 +144,23 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 #### Test Instructions
 <ol id="7TI">
     <li id="7TI-1">Identify the text for which the media is an alternative.</li>
-    <li id="7TI-2">Check that the media is an equivalent alternative for the text.</li>
-    <li id="7TI-3">Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location. [SC 1.2.2]
-        <ol>
-        <li id="7TI-3i">Listen to the audio of the entire synchronized media.</li>
-        <li id="7Ti-3ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence.</li>
-        </ol></li>
-    <li id="7TI-4">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
+    <li id="7TI-2">Play the media that is labeled as an equivalent alternative for the text.
+        <ul>
+            <li>Check that the meaningful audible information of the media is available in the text.</li>
+            <li>Check that the meaningful visual information of the media is available in the text.</li>
+        </ul>
+    </li>
 </ol>
 
 #### Test Results
-<p id="7TR">If any of the above checks fail, then Baseline 17.4-CaptionsPrerecorded fails.</p>
-#### Test Results
-<p id="TR">If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.</p>
+<p id="7TR">If any of the above checks fail, then the multimedia is not a media alternative for text. Perform Baseline Tests <a href="#174-test-procedure-for-captions-prerecorded">17.4 Test Procedure for Captions (Prerecorded)</a> and <a href="#175-test-procedure-for-audio-description-prerecorded">17.5 Test Procedure for Audio Description (Prerecorded)</a> on the pre-recorded synchronized multimedia. </p>
 
 ### Advisory: Tips for streamlined test processes
 
 -   Testing synchronized media is different from testing Baseline [16. Audio-Only and Video-Only content](../16AudioVideo).
 -   Synchronized media players may be software or HTML.
 -   At Level AA, SC 1.2.5 applies to synchronized media. The related Level A requirement, SC 1.2.3, should be marked as ‘Not Tested’ in the test report. It is permissible for test processes to add a test for SC 1.2.3 (evaluate a full text alternative for equivalence). Adding such a test would exceed baseline test requirements and would not affect Baseline 17’s outcome.
+-   All synchronized multimedia should be tested. If the pre-recorded multimedia is labeled as an media alternative for text, confirm that it provides equivalent information as text. If it does not, then it not a media alternative for text. Test the multimedia for captions and audio descriptions
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:

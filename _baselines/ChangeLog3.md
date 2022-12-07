@@ -21,7 +21,8 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 13. Content Structure | Limitations, Assumptions, Exceptions: Added "A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques." |
 | 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions |
 | 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
-| 17.4 Captions (Prerecorded) | Identify Content: added "that is not a media alternative for text and is clearly labeled as such" |
+| 17.4 Captions (Prerecorded) and 17.5 Audio Descriptions (Prerecorded) | Identify Content of both: added "that is not clearly labeled as a media alternative for text" |
+| 17.7 Media Alternatives (Prerecorded) | New test added |
 | 18. CSS Content and Positioning | Accessibility Requirements: removed SC 1.3.1 |
 | 19.1 Frames | Instruction 1: separated to 2 test instructions |
 | Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs |
