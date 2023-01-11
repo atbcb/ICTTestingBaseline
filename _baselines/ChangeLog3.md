@@ -1,8 +1,8 @@
 ---
-title: "Appendix B - Section 508 ICT Testing Baseline Change Log"
+title: "Appendix B - Change Log"
 order-number: 101
 ---
-## Appendix B - Section 508 ICT Testing Baseline Change Log
+## Appendix B - Change Log
 Note: Minor punctuation, formatting and spelling changes not included.
 
 ### Next Version, Date
@@ -15,6 +15,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 6. Images | Limitations, Assumptions, Exceptions: Removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
 | 6.1 Meaningful Image | Instruction 2: removed mapping to 1.1.1 and 4.1.2 |
 | 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
+| 7.3 Audible Cues | New test added which maps to SC 1.1.1 |
 | 10.1 Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2 |
 | 10.1, 10.2, 10.5 | Identify Content: Added "that do not have <code>visibility:hidden</code> or <code>display:none</code>" after "Find all form components". | 
 | 10.5 Form has a Label | Test Procedure name changed to "Form has a Visible Label" and instruction 1 edited to include "has visible label(s) or instructions while the form component has focus." |

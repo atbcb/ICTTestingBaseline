@@ -8,6 +8,7 @@ order-number: 8
 
 -   [WCAG SC 1.4.1 Use of Color](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-without-color.html) -- Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.
 -   [WCAG SC 1.3.3 Sensory Characteristics](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-understanding.html) -- Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.
+-   [WCAG SC 1.1.1 Non-text Content](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for [specific] situations.
 
 ### Test Method Rationale
 
@@ -16,7 +17,8 @@ Users affected by this requirement are not limited to users of assistive technol
 ### Limitations, Assumptions, or Exceptions
 
 -   This requirement does not prohibit the use of color or sensory characteristics to provide information, directions, or cues. However, they must be used in conjunction with contextual, textual, and/or other visual cues.
--   This is not a test of alternative text descriptions which require assistive technology access. Users with color deficiency do not typically use AT.
+-   Text Alternative descriptions that are not available visually would not pass these tests. 
+-   The test for audible cues covers short sounds used to notify the user, such as confirmation beeps and error notifications. Audio in time-based media is covered in Baseline [16. Audio-only and Video-only](../16AudioVideo.md).
 
 ### 7.1 Test Procedure for Use of Color
 
@@ -61,6 +63,25 @@ Users affected by this requirement are not limited to users of assistive technol
 
 #### Test Results
 <p id="2TR">If any of the above checks fail, then Baseline Test 7.2-SensoryCharacteristics fails.</p>
+
+### 7.3 Test Procedure for Audible Cues
+**Baseline Test ID:** 7.3-AudibleCues
+#### Identify Content
+<p id="3IC">Identify any short sound/audible cue that serves as a notification to the user, such as a beep that signifies an error has occurred.</p>
+
+#### Test Instructions
+<ol id="3TI">
+    <li id="3TI-1">Check that a text alternative that describe's the purpose of the sound is provided with the audible cue. [SC 1.1.1]<br>
+    For example:
+        <ul>
+            <li>A short beep and an asterisk appears on a required field to notify the user that the field must be completed. </li>
+            <li>As a timer counts down, a bell rings and a "Two minutes left!" message appears on screen.</li>
+        </ul>
+    </li>
+</ol>
+
+#### Test Results
+<p id="3TR">If any of the above checks fail, then Baseline Test 7.3-AudibleCues fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 
