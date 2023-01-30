@@ -1,8 +1,8 @@
 ---
-title: "Appendix B - Section 508 ICT Testing Baseline Change Log"
+title: "Appendix B - Baseline for Web Change Log"
 order-number: 101
 ---
-## Appendix B - Section 508 ICT Testing Baseline Change Log
+## Appendix B - Baseline for Web Change Log
 Note: Minor punctuation, formatting and spelling changes not included.
 
 ### Next Version, Date
