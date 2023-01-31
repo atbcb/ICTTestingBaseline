@@ -67,7 +67,7 @@ Users affected by this requirement are not limited to users of assistive technol
 ### 7.3 Test Procedure for Audible Cues
 **Baseline Test ID:** 7.3-AudibleCues
 #### Identify Content
-<p id="3IC">Identify any short sound/audible cue that serves as a notification to the user, such as a beep that signifies an error has occurred.</p>
+<p id="3IC">Identify any short sound/audible cue that serves as a notification to the user, such as a beep that signifies an error has occurred or a chime to indicate a new incoming message.</p>
 
 #### Test Instructions
 <ol id="3TI">
