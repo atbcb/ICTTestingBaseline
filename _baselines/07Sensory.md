@@ -71,7 +71,7 @@ Users affected by this requirement are not limited to users of assistive technol
 
 #### Test Instructions
 <ol id="3TI">
-    <li id="3TI-1">Check that a text alternative that describe's the purpose of the sound is provided with the audible cue. [SC 1.1.1]<br>
+    <li id="3TI-1">Check that a text alternative that describes the purpose of the sound is provided with the audible cue. [SC 1.1.1]<br>
     For example:
         <ul>
             <li>A short beep and an asterisk appears on a required field to notify the user that the field must be completed. </li>
