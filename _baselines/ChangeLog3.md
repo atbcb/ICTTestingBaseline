@@ -1,9 +1,32 @@
 ---
-title: "Appendix B - Section 508 ICT Testing Baseline Change Log"
+title: "Appendix B - Baseline for Web Change Log"
 order-number: 101
 ---
-## Appendix B - Section 508 ICT Testing Baseline Change Log
+## Appendix B - Baseline for Web Change Log
 Note: Minor punctuation, formatting and spelling changes not included.
+
+### Next Version, Date
+
+| Location of Change | Description of Change |
+|--------------------|-----------------------|
+| Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings |
+| 3.1 Non-Interference | Identify Content: added links to Baseline Tests |
+| 5. Changing Content | Significant changes to this test to cover SC 4.1.2 more accurately. Name of test changed to 5. User Controls. |
+| 6. Images | Limitations, Assumptions, Exceptions: Removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
+| 6.1 Meaningful Image | Instruction 2: removed mapping to 1.1.1 and 4.1.2 |
+| 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
+| 10.1 Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2 |
+| 10.1, 10.2, 10.5 | Identify Content: Added "that do not have <code>visibility:hidden</code> or <code>display:none</code>" after "Find all form components". | 
+| 10.5 Form has a Label | Test Procedure name changed to "Form has a Visible Label" and instruction 1 edited to include "has visible label(s) or instructions while the form component has focus." |
+| 10. Forms | Test Procedure for Form Changes removed. |
+| 13. Content Structure | Limitations, Assumptions, Exceptions: Added "A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques." |
+| 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions |
+| 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
+| 17.4 Captions (Prerecorded) | Identify Content: added "that is not a media alternative for text and is clearly labeled as such" |
+| 18. CSS Content and Positioning | Accessibility Requirements: removed SC 1.3.1 |
+| 19.1 Frames | Instruction 1: separated to 2 test instructions |
+| Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs |
+| Site home | Added single file of all Baseline Tests | 
 
 ### Version 3.0.1, March 2021
 All of the changes made in this version were made to the structure of the Baseline test pages to enable anchor references to a specific part of the tests.

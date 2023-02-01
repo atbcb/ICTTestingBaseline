@@ -1,8 +1,8 @@
 ---
-title: "Appendix C - ICT Testing Baseline for Web References"
+title: "Appendix C - Baseline for Web References"
 order-number: 102
 ---
-## Appendix C - ICT Testing Baseline for Web References
+## Appendix C - Baseline for Web References
 
 ### Technical References
 

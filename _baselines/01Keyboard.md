@@ -12,7 +12,7 @@ order-number: 2
 ### Test Method Rationale
 This requirement relies on use of a keyboard to validate access and control of all functionality of the content first by checking use of standard keyboard commands (TAB, Space Bar, Enter, Escape, etc.). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist.
 
-Keyboard access and control includes the ability to navigate to AND away from interactive content using only a keyboard.
+Keyboard access and control includes the ability to navigate to **AND** away from interactive content using only a keyboard.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -31,17 +31,20 @@ Keyboard access and control includes the ability to navigate to AND away from in
 
 #### Test Instructions
 <ol id="1TI">
-<li id="1TI-1">Check that all functionality can be accessed and executed using only the keyboard. [SC 2.1.1]</li>
+<li id="1TI-1">Check that all functionality can be accessed and executed using only the keyboard. [SC 2.1.1]
     <ol>
-        <li id="1TI-1i">Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, AND all interactive interface components).
+        <li id="1TI-1i">Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, **AND** all interactive interface components).
             <ol>
                 <li id="1TI-1ia">If an interactive interface component is not available by keyboard, check if another control is provided on the page with the same functionality which is available by keyboard. (All functionality must meet this requirement.)</li>
-            </ol></li>
+            </ol>
+        </li>
     </ol>
+</li>
 <li id="1TI-2">Check that individual keystrokes do not require specific timings for activation.[SC 2.1.1]
     <ol>
         <li id="1TI-2i">If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)</li>
-    </ol></li>
+    </ol>
+</li>
 </ol>
 
 #### Test Results

@@ -29,7 +29,7 @@ Users affected by this requirement are not limited to users of assistive technol
     <li id="1TI-1">Check if one or more of the following is true:
     <ol>
         <li id="1TI-1i">The element using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color [SC 1.4.1]</li>
-        <li id="1TI-1II">The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning [SC 1.4.1]</li>
+        <li id="1TI-1ii">The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning [SC 1.4.1]</li>
     </ol></li>
 </ol>
 
@@ -44,7 +44,7 @@ Users affected by this requirement are not limited to users of assistive technol
 #### Test Instructions
 <ol id="2TI">
     <li id="2TI-1">Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]<br>
-    <p>For example:</p>
+    For example:
         <ul>
             <li>To see your changes, select the round button labeled "Go".</li>
             <li>The links on the right, with the heading "Resources", provide further information.</li>
@@ -52,7 +52,7 @@ Users affected by this requirement are not limited to users of assistive technol
         </ul>
     </li>
     <li id="2TI-2">Check that any auditory cues also provide programmatically determinable visual and/or textual cues. [SC 1.3.3].<br>
-    <p>For instance:</p>
+    For example:
         <ul>
             <li>At the sound of the beep and the appearance of the timer, begin the quiz.</li>
         </ul>
@@ -64,7 +64,7 @@ Users affected by this requirement are not limited to users of assistive technol
 
 ### Advisory: Tips for streamlined test processes
 
--   Content that uses color with other visual differentiation must also provide textual cues to convey the same information to satisfy both SC 1.3.3 and 1.4.1; therefore, it is recommended to combine both requirements in a single test.
+-   Content that uses color must have an additional visual cue. Instructions that rely on a sensory characteristic must have an additional visual cue. It is possible to cover both requirements in a single test.
 -   Related tests might include dynamic content, images, links, and alternate pages.
 -   Displaying content in greyscale may help identify content that uses only color to convey information.
 

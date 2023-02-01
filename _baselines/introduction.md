@@ -79,7 +79,7 @@ The test process contains instructions that a tester needs to completely test a 
 
 1.  Testing Tools
 
-    a.  How to set up of tools to ensure consistent test results between testers
+    a.  How to set up testing tools to ensure consistent test results between testers
 
     b.  How to use the tools in the tests
 
@@ -95,7 +95,7 @@ The test process contains instructions that a tester needs to completely test a 
 
     e.  Define test conditions
 
-    f.  Define the 508 standard(s) and baseline tests that are being tested
+    f.  Define the Section 508 Standard(s) and baseline tests that are being tested
 
 ### Modifications to the Baseline Tests
 

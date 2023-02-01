@@ -49,9 +49,9 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 			<ol>
 			<li id="1TI-1i">The user has the ability to turn off the time limit.</li>
 			<li id="1TI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
-			<li id="1TI-1iii">The user is warned before time expires AND:
+			<li id="1TI-1iii">The user is warned before time expires <strong>AND</strong>:
 				<ol>
-				<li id="1TI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), AND</li>
+				<li id="1TI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), <strong>AND</strong></li>
 				<li id="1TI-1iiib">Allowed to extend the time limit at least ten times.</li>
 				</ol></li>
 			</ol></li>
@@ -68,9 +68,9 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 #### Identify Content
 <p id="2IC">Any moving, blinking, or scrolling information that meets ALL of the following:
     <ul>
-    <li>Starts automatically, AND</li>
-    <li>Lasts more than 5 seconds, AND</li>
-    <li>Is presented in parallel with other content, AND</li>
+    <li>Starts automatically, <strong>AND</strong></li>
+    <li>Lasts more than 5 seconds, <strong>AND</strong></li>
+    <li>Is presented in parallel with other content, <strong>AND</strong></li>
     <li>Moving, blinking, scrolling is not essential</li>
     </ul>
 </p>
@@ -88,8 +88,8 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 #### Identify Content
 <p id="3IC">Any auto-updating information that meets ALL of the following:
     <ul>
-		<li>Starts automatically, AND</li>
-		<li>Is presented in parallel with other content, AND</li>
+		<li>Starts automatically, <strong>AND</strong></li>
+		<li>Is presented in parallel with other content, <strong>AND</strong></li>
 		<li>Is not part of an activity where it is essential</li>
     </ul>
 </p>
@@ -112,7 +112,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 <ol id="4TI">
     <li id="4TI-1">Check that either [SC 1.4.2]
         <ol>
-        <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio, **OR**</li>
+        <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio, <strong>OR</strong></li>
         <li id="4TI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
         </ol></li>
 </ol>
@@ -132,7 +132,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G198: Providing a way for the user to turn the time limit off](https://www.w3.org/TR/WCAG20-TECHS/G198.html)
 -   [G180: Providing the user with a means to set the time limit to 10 times the default time limit](https://www.w3.org/TR/WCAG20-TECHS/G180.html)
--   [SCR16: Providing a script that warns the user a time limit is about to expire](https://www.w3.org/TR/WCAG20-TECHS/SCR16.html) AND [SCR1: Allowing the user to extend the default time limit](https://www.w3.org/TR/WCAG20-TECHS/SCR1.html)
+-   [SCR16: Providing a script that warns the user a time limit is about to expire](https://www.w3.org/TR/WCAG20-TECHS/SCR16.html) **AND** [SCR1: Allowing the user to extend the default time limit](https://www.w3.org/TR/WCAG20-TECHS/SCR1.html)
 -   [G4: Allowing the content to be paused and restarted from where it was paused](https://www.w3.org/TR/WCAG20-TECHS/G4.html)
 -   [SCR33: Using script to scroll content, and providing a mechanism to pause it](https://www.w3.org/TR/WCAG20-TECHS/SCR33.html)
 -   [SCR36: Providing a mechanism to allow users to display moving, scrolling, or auto-updating text in a static window or area](https://www.w3.org/TR/WCAG20-TECHS/SCR36.html)
