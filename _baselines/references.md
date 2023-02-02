@@ -1,8 +1,10 @@
 ---
-title: "Appendix C - Baseline for Web References"
+title: "Appendix C - References"
 order-number: 102
 ---
-## Appendix C - Baseline for Web References
+## Appendix C - References
+=======
+
 
 ### Technical References
 

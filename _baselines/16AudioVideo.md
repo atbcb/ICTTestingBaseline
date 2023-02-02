@@ -20,7 +20,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 -   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline [17. Synchronized Media](../17SyncMedia).
 -   Audio intended as a media alternative for text does not require additional description if it is clearly labeled as such.
--   Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
+-   Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement. The check for this requirement is performed under Baseline [7. Sensory Characteristics](../07Sensory).
 -   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline [7. Sensory Characteristics](../07Sensory).
 
 #### Video-Only
