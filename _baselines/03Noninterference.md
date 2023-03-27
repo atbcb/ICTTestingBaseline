@@ -14,7 +14,7 @@ order-number: 4
 
 ### Test Method Rationale
 
-The test results for SC's 1.4.2 (21.4-AudioControl), 2.1.2 (1.2-NoKeyboadTrap), 2.3.1 (9.1-Flashes), and 2.2.2 (21.2-MovingInfo and 21.3-AutoUpdate) determine the result of this baseline test.
+The test results for SC's 1.4.2 (21.4-AudioControl), 2.1.2 (1.2-NoKeyboardTrap), 2.3.1 (9.1-Flashes), and 2.2.2 (21.2-MovingInfo and 21.3-AutoUpdate) determine the result of this baseline test.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -24,7 +24,7 @@ None.
 
 **Baseline Test ID:** 3.1-NonInterference
 #### Identify Content
-<p id="1IC">Baseline Tests 21.4-AudioControl, 1.2-NoKeyboadTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.</p>
+<p id="1IC">Baseline Tests 21.4-AudioControl, 1.2-NoKeyboardTrap, 9.1-Flashes, 21.2-MovingInfo and 21.3-AutoUpdate.</p>
 
 #### Test Instructions
 <ol id="1TI">
