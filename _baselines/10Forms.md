@@ -8,7 +8,7 @@ order-number: 11
 
 -   [WCAG2 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html): Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
 -   [WCAG 2.4.6 Headings and Labels](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html): Headings and labels describe topic or purpose.
--   [WCAG 3.2.2 On Input](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html): Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.
+-   [WCAG 3.2.2 On Input](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html): Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.
 -   [WCAG2 3.3.1 Error Identification](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-identified.html): If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.
 -   [WCAG2 3.3.2 Labels or Instructions](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-cues.html): Labels or instructions are provided when content requires user input.
 -   [WCAG2 3.3.3 Error Suggestion](https://www.w3.org/TR/UNDERSTANDING-WCAG20/minimize-error-suggestions.html): If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.
@@ -195,15 +195,15 @@ Form components that change are tested in [Baseline 5. Changing Content](05Chang
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G115: Using semantic elements to mark up structure](http://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
--   [G80: Providing a submit button to initiate a change of context](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G80)
--   [G13: Describing what will happen before a change to a form control that causes a change of context to occur is made](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G13)
--   [G131: Providing descriptive labels](http://www.w3.org/TR/WCAG20-TECHS/G131.html)
--   [H44: Using label elements to associate text labels with form controls](http://www.w3.org/TR/WCAG20-TECHS/H44.html)
--   [H71: Providing a description for groups of form controls using fieldset and legend elements](http://www.w3.org/TR/WCAG20-TECHS/H71.html)
--   [H65: Using the title attribute to identify form controls when the label element cannot be used](http://www.w3.org/TR/WCAG20-TECHS/H65.html)
--   [SCR19: Using an onchange event on a select element without causing a change of context](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/SCR19)
--   [G83: Providing text descriptions to identify required fields that were not completed](http://www.w3.org/TR/WCAG20-TECHS/G83.html)
--   [G85: Providing a text description when user input falls outside the required format or values](http://www.w3.org/TR/WCAG20-TECHS/G85.html)
--   [F36: Failure of Success Criterion 3.2.2 due to automatically submitting a form and presenting new content without prior warning when the last field in the form is given a value](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F36)
--   [F37: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the selection of a radio button, check box or select list is changed](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F37)
+-   [G115: Using semantic elements to mark up structure](https://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Using semantic markup to mark emphasized or special text](https://www.w3.org/TR/WCAG20-TECHS/H49.html)
+-   [G80: Providing a submit button to initiate a change of context](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G80)
+-   [G13: Describing what will happen before a change to a form control that causes a change of context to occur is made](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G13)
+-   [G131: Providing descriptive labels](https://www.w3.org/TR/WCAG20-TECHS/G131.html)
+-   [H44: Using label elements to associate text labels with form controls](https://www.w3.org/TR/WCAG20-TECHS/H44.html)
+-   [H71: Providing a description for groups of form controls using fieldset and legend elements](https://www.w3.org/TR/WCAG20-TECHS/H71.html)
+-   [H65: Using the title attribute to identify form controls when the label element cannot be used](https://www.w3.org/TR/WCAG20-TECHS/H65.html)
+-   [SCR19: Using an onchange event on a select element without causing a change of context](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/SCR19)
+-   [G83: Providing text descriptions to identify required fields that were not completed](https://www.w3.org/TR/WCAG20-TECHS/G83.html)
+-   [G85: Providing a text description when user input falls outside the required format or values](https://www.w3.org/TR/WCAG20-TECHS/G85.html)
+-   [F36: Failure of Success Criterion 3.2.2 due to automatically submitting a form and presenting new content without prior warning when the last field in the form is given a value](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F36)
+-   [F37: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the selection of a radio button, check box or select list is changed](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F37)

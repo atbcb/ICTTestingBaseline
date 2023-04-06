@@ -6,8 +6,8 @@ order-number: 16
 
 ### Accessibility Requirements
 
--   [WCAG SC 3.1.1 Language of Page](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html) -- The default human language of each Web page can be programmatically determined.
--   [WCAG SC 3.1.2 Language of Parts](http://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html) -- The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
+-   [WCAG SC 3.1.1 Language of Page](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html) -- The default human language of each Web page can be programmatically determined.
+-   [WCAG SC 3.1.2 Language of Parts](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html) -- The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
 
 ### Test Method Rationale
 
@@ -31,7 +31,7 @@ The default human language for each page must be programmatically identified. Pa
     <li id="1TI-3">Check that the value of the lang attribute matches the determined default human language for the page. [SC 3.1.1]
     <ul>
         <li>The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)</li>
-        <li>The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="http://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.</li>
+        <li>The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="https://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.</li>
     </ul></li>
 </ol>
 
@@ -52,7 +52,7 @@ The default human language for each page must be programmatically identified. Pa
     <li id="2TI-3">Check that the value of the lang attribute is correctly defined for the content segment. [SC 3.1.2]
         <ol>
             <li id="2TI-3i">The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)</li>
-            <li id="2TI-3ii">The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="http://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.</li>
+            <li id="2TI-3ii">The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="https://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.</li>
         </ol></li>
 </ol>
 

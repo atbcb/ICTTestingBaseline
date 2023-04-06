@@ -6,7 +6,7 @@ order-number: 12
 
 ### Accessibility Requirements
 
--   [WCAG2 SC 2.4.2 Page Titled](http://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html) -- Web pages have titles that describe topic or purpose.
+-   [WCAG2 SC 2.4.2 Page Titled](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-title.html) -- Web pages have titles that describe topic or purpose.
 
 ### Test Method Rationale
 

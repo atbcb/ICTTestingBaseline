@@ -8,7 +8,7 @@ order-number: 5
 
 -   [WCAG SC 2.4.1 Bypass Blocks](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html) -- A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
 -   [WCAG SC 3.2.3 Consistent Navigation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html) -- Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
--   [WCAG 3.2.4 Consistent Identification](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html) -- Components that have the same functionality within a set of Web pages are identified consistently.
+-   [WCAG 3.2.4 Consistent Identification](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html) -- Components that have the same functionality within a set of Web pages are identified consistently.
 
 ### Test Method Rationale
 
@@ -82,15 +82,15 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 
 #### WCAG 2.0 Techniques
 -   This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques, which require additional assistive tools to function as bypass methods, were not included:
-    -   [H69: Providing heading elements at the beginning of each section of content](http://www.w3.org/TR/WCAG20-TECHS/H69.html)
+    -   [H69: Providing heading elements at the beginning of each section of content](https://www.w3.org/TR/WCAG20-TECHS/H69.html)
     -   [ARIA11: Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11.html)
 -   The following sufficient techniques and/or common failures were also considered when developing this test procedure for this baseline requirement:
-    -   [G1: Adding a link at the top of each page that goes directly to the main content area](http://www.w3.org/TR/WCAG20-TECHS/G1.html)
-    -   [G123: Adding a link at the beginning of a block of repeated content to go to the end of the block](http://www.w3.org/TR/WCAG20-TECHS/G123.html)
-    -   [G124: Adding links at the top of the page to each area of the content](http://www.w3.org/TR/WCAG20-TECHS/G124.html)
-    -   [SCR28: Using an expandable and collapsible menu to bypass block of content](http://www.w3.org/TR/WCAG20-TECHS/SCR28.html)
-    -   [G202: Ensuring keyboard control for all functionality](http://www.w3.org/TR/WCAG20-TECHS/G202.html)
+    -   [G1: Adding a link at the top of each page that goes directly to the main content area](https://www.w3.org/TR/WCAG20-TECHS/G1.html)
+    -   [G123: Adding a link at the beginning of a block of repeated content to go to the end of the block](https://www.w3.org/TR/WCAG20-TECHS/G123.html)
+    -   [G124: Adding links at the top of the page to each area of the content](https://www.w3.org/TR/WCAG20-TECHS/G124.html)
+    -   [SCR28: Using an expandable and collapsible menu to bypass block of content](https://www.w3.org/TR/WCAG20-TECHS/SCR28.html)
+    -   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/TR/WCAG20-TECHS/G202.html)
     -   [H70: Using frame elements to group blocks of repeated material](https://www.w3.org/TR/WCAG20-TECHS/H70.html) AND [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/TR/WCAG20-TECHS/H64.html)
     -   [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/TR/WCAG20-TECHS/G61.html)
     -   [G197: Using labels, names, and text alternatives consistently for content that has the same functionality](https://www.w3.org/TR/WCAG20-TECHS/G197.html)
-    -   [F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages](http://www.w3.org/TR/WCAG20-TECHS/F31.html)
+    -   [F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages](https://www.w3.org/TR/WCAG20-TECHS/F31.html)
