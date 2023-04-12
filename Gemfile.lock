@@ -101,18 +101,18 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.8.0)
+    mini_portile2 (2.8.1)
     minitest (5.18.0)
-    nokogiri (1.13.10)
+    nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.10-x64-mingw32)
+    nokogiri (1.14.3-x64-mingw32)
       racc (~> 1.4)
     parallel (1.22.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
-    racc (1.6.1)
+    racc (1.6.2)
     rack (3.0.6.1)
     rainbow (3.1.1)
     rb-fsevent (0.11.1)
@@ -137,7 +137,6 @@ GEM
     tzinfo-data (1.2022.1)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.8.0)
-    wdm (0.1.1)
     yell (2.2.2)
     zeitwerk (2.6.7)
 
@@ -159,7 +158,6 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown-parser-gfm
   tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.17.3
