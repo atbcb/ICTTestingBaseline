@@ -61,6 +61,6 @@ An alternate version must meet all parts of the definition in order to be consid
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G136: Providing a link at the beginning of a nonconforming Web page that points to a conforming alternate version](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G136)
--   [G190: Providing a link adjacent to or associated with a non-conforming object that links to a conforming alternate version](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G190)
--   [C29: Using a style switcher to provide a conforming alternate version (CSS)](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/C29)
+-   [G136: Providing a link at the beginning of a nonconforming Web page that points to a conforming alternate version](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G136)
+-   [G190: Providing a link adjacent to or associated with a non-conforming object that links to a conforming alternate version](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G190)
+-   [C29: Using a style switcher to provide a conforming alternate version (CSS)](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/C29)
