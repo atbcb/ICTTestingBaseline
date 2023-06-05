@@ -22,7 +22,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions |
 | 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
 | 16.3 and 16.4 | New tests added for media alternatives for text |
-| 17.4 Captions (Prerecorded) and 17.5 Audio Descriptions (Prerecorded) | Identify Content of both: added "that is not clearly labeled as a media alternative for text" |
+| 17.4 Captions (Prerecorded) and 17.5 Audio Descriptions (Prerecorded) | Identify Content of both: added "Do not include media that is clearly labeled as a media alternative for text." |
 | 17.7 Media Alternatives (Prerecorded) | New test added |
 | 18. CSS Content and Positioning | Accessibility Requirements: removed SC 1.3.1 |
 | 19.1 Frames | Instruction 1: separated to 2 test instructions |
