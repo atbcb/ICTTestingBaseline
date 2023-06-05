@@ -44,7 +44,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 <ol id="1TI">
     <li id="1TI-1">Check that the content provides transcript(s) for audio-only content. [SC 1.2.1]</li>
     <li id="1TI-2">Check that the transcript is text (e.g., an image-only PDF would not be sufficient to pass this test). [SC 1.2.1]</li>
-    <li id="1TI-3">Play the audio-only content entirely.</li>
+    <li id="1TI-3">Play the audio-only content entirely while referring to the alternative.</li>
     <li id="1TI-4">Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc. [SC 1.2.1]</li>
 </ol>
 
@@ -81,8 +81,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 <ol id="3TI">
     <li id="3TI-1">Identify the text for which the media is an alternative.</li>
     <li id="3TI-2">Play the media that is labeled as an equivalent alternative for the text.</li>   
-    <li id="3TI-3">Check that the meaningful audible information of the media is available in the text.</li>
-    <li>Check that the meaningful visual information of the media is available in the text.</li>  
+    <li id="3TI-3">Check that the meaningful audible information of the media is available in the text.</li>  
 </ol>
 
 #### Test Results
@@ -105,6 +104,8 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 <p id="4TR">If any of the above checks fail, then the video-only is not a media alternative for text. Perform Baseline Tests <a href="#162-test-procedure-for-video-only-prerecorded">16.2 Test Procedure for Video-only (Prerecorded)</a>. </p>
 
 ### Advisory: Tips for streamlined test processes
+- Baseline Tests 16.1 and 16.3 are tests for Audio-only files. It may make sense to perform Test 16.3 before Test 16.1.
+- Baseline Tests 16.2 and 16.4 are tests for Video-only files. It may make sense to perform Test 16.4 before Test 16.2.
 
 #### WCAG 2.0 Techniques
 
