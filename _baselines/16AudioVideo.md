@@ -37,7 +37,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 #### Identify Content
 
-<p id="1IC">Pre-recorded audio-only content.</p>
+<p id="1IC">Pre-recorded audio-only content. Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 
@@ -57,7 +57,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 #### Identify Content
 
-<p id="2IC">Pre-recorded video-only content.</p>
+<p id="2IC">Pre-recorded video-only content. Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 

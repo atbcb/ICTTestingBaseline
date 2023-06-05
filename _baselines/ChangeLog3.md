@@ -21,6 +21,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 13. Content Structure | Limitations, Assumptions, Exceptions: Added "A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques." |
 | 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions |
 | 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
+| 16.1 and 16.2 | Added "Do not include media that is clearly labeled as a media alternative for text." |
 | 16.3 and 16.4 | New tests added for media alternatives for text |
 | 17.4 Captions (Prerecorded) and 17.5 Audio Descriptions (Prerecorded) | Identify Content of both: added "Do not include media that is clearly labeled as a media alternative for text." |
 | 17.7 Media Alternatives (Prerecorded) | New test added |
