@@ -82,7 +82,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 **Baseline Test ID:** 17.4-CaptionsPrerecorded
 #### Identify Content
-<p id="4IC">Pre-recorded synchronized multimedia that is not clearly labeled as a media alternative for text.</p>
+<p id="4IC">Pre-recorded synchronized multimedia. Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 <ol id="4TI">
@@ -104,7 +104,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 **Baseline Test ID:** 17.5-ADPrerecorded
 
 #### Identify Content
-<p id="5IC">Pre-recorded synchronized multimedia that is not clearly labeled as a media alternative for text.</p>
+<p id="5IC">Pre-recorded synchronized multimedia. . Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 <ol id="5TI">
@@ -139,7 +139,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 **Baseline Test ID:** 17.7-MediaAlternative
 #### Identify Content
-<p id="7IC">Pre-recorded synchronized multimedia that is labeled as a media alternative for text.</p>
+<p id="7IC">Pre-recorded synchronized multimedia that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 <ol id="7TI">
