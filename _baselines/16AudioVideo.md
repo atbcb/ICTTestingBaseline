@@ -19,7 +19,8 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 #### Audio-Only
 
 -   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: Baseline [17. Synchronized Media](../17SyncMedia).
--   Audio intended as a media alternative for text does not require additional description if it is clearly labeled as such.
+-   Audio labeled as a media alternative for text does not require additional description if it is indeed equivalent to the text.
+-   Video labeled as a media alternative for text does not require additional description if it is indeed equivalent to the text.
 -   Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
 -   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under Baseline [7. Sensory Characteristics](../07Sensory).
 
@@ -69,6 +70,39 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 #### Test Results
 
 <p id="2TR">If any of the above checks fail, then Baseline Test 16.2-VideoOnlyAlt fail.</p>
+
+### 16.3 Test Procedure for Audio Media Alternatives (Prerecorded)
+
+**Baseline Test ID:** 16.3-AudioMediaAlternative
+#### Identify Content
+<p id="3IC">Pre-recorded audio-only that is clearly labeled as a media alternative for text.</p>
+
+#### Test Instructions
+<ol id="3TI">
+    <li id="3TI-1">Identify the text for which the media is an alternative.</li>
+    <li id="3TI-2">Play the media that is labeled as an equivalent alternative for the text.</li>   
+    <li id="3TI-3">Check that the meaningful audible information of the media is available in the text.</li>
+    <li>Check that the meaningful visual information of the media is available in the text.</li>  
+</ol>
+
+#### Test Results
+<p id="3TR">If any of the above checks fail, then the audio-only is not a media alternative for text. Perform Baseline Tests <a href="#161-test-procedure-for-audio-only-prerecorded">16.1 Test Procedure for Audio-Only (Prerecorded)</a>. </p>
+
+### 16.4 Test Procedure for Video Media Alternatives (Prerecorded)
+
+**Baseline Test ID:** 16.4-VideoMediaAlternative
+#### Identify Content
+<p id="4IC">Pre-recorded video-only that is clearly labeled as a media alternative for text.</p>
+
+#### Test Instructions
+<ol id="4TI">
+    <li id="4TI-1">Identify the text for which the media is an alternative.</li>
+    <li id="4TI-2">Play the media that is labeled as an equivalent alternative for the text.</li>   
+    <li id="4TI-3">Check that the meaningful visual information of the media is available in the text.</li>  
+</ol>
+
+#### Test Results
+<p id="4TR">If any of the above checks fail, then the video-only is not a media alternative for text. Perform Baseline Tests <a href="#162-test-procedure-for-video-only-prerecorded">16.2 Test Procedure for Video-only (Prerecorded)</a>. </p>
 
 ### Advisory: Tips for streamlined test processes
 

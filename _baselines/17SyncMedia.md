@@ -16,7 +16,7 @@ order-number: 18
 
 ### Test Method Rationale
 
-Evaluation of captions and audio descriptions to assess its equivalence to synchronized media content generally involves a manual, cognitive comparison of the original content with its alternative(s).
+Evaluation of captions and audio descriptions to assess its equivalence to synchronized media content generally involves a manual, cognitive comparison of the original content with its alternative(s). Media that are clearly labeled as a media alternative for text are tested to assess equivalence to the text and if not equivalent, the tests for captions and audio descriptions are to be performed.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -137,19 +137,16 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 ### 17.7 Test Procedure for Media Alternatives (Prerecorded)
 
-**Baseline Test ID:** 17.7-MediaAlternative
+**Baseline Test ID:** 17.7-SyncMediaAlternative
 #### Identify Content
 <p id="7IC">Pre-recorded synchronized multimedia that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 <ol id="7TI">
     <li id="7TI-1">Identify the text for which the media is an alternative.</li>
-    <li id="7TI-2">Play the media that is labeled as an equivalent alternative for the text.
-        <ul>
-            <li>Check that the meaningful audible information of the media is available in the text.</li>
-            <li>Check that the meaningful visual information of the media is available in the text.</li>
-        </ul>
-    </li>
+    <li id="7TI-2">Play the media that is labeled as an equivalent alternative for the text.</li>
+    <li id="7TI-3">Check that the meaningful audible information of the media is available in the text.</li>
+    <li id="7TI-4">Check that the meaningful visual information of the media is available in the text.</li>  
 </ol>
 
 #### Test Results
