@@ -71,7 +71,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 <p id="2TR">If any of the above checks fail, then Baseline Test 16.2-VideoOnlyAlt fail.</p>
 
-### 16.3 Test Procedure for Audio Media Alternatives (Prerecorded)
+### 16.3 Test Procedure for Audio Media Alternative (Prerecorded)
 
 **Baseline Test ID:** 16.3-AudioMediaAlternative
 #### Identify Content
@@ -87,7 +87,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 #### Test Results
 <p id="3TR">If any of the above checks fail, then the audio-only is not a media alternative for text. Perform Baseline Tests <a href="#161-test-procedure-for-audio-only-prerecorded">16.1 Test Procedure for Audio-Only (Prerecorded)</a>. </p>
 
-### 16.4 Test Procedure for Video Media Alternatives (Prerecorded)
+### 16.4 Test Procedure for Video Media Alternative (Prerecorded)
 
 **Baseline Test ID:** 16.4-VideoMediaAlternative
 #### Identify Content

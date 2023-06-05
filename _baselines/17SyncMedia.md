@@ -135,7 +135,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 #### Test Results
 <p id="6TR">If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.</p>
 
-### 17.7 Test Procedure for Media Alternatives (Prerecorded)
+### 17.7 Test Procedure for Sync Media Alternative (Prerecorded)
 
 **Baseline Test ID:** 17.7-SyncMediaAlternative
 #### Identify Content
