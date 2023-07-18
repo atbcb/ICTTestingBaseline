@@ -12,7 +12,8 @@ order-number: 7
 
 ### Test Method Rationale
 
-All meaningful and decorative images must be evaluated. Tests for certain image types are specified.
+-   The image tests evaluate the images as they are coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. There are certain scenarios where that determination was incorrect and the test will fail.
+-   All images must be evaluated. Tests for certain image types are specified.
 
 ### Limitations, Assumptions, Exceptions
 
@@ -24,49 +25,67 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 -   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
-### 6.1 Test Procedure for Meaningful Images
+### 6.1 Test Procedure for Images with non-empty text alternative
 **Baseline Test ID:** 6.1-MeaningfulImage
 
 #### Identify Content
-<p id="1IC">Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.).</p>
+<p id="1IC">Identify any image (i.e., <code>img</code> element or an element with <code>role="img"</code>) that has a non-empty text alternative (combination of the accessible name and accessible description) per the <a href="https://www.w3.org/TR/html-aam-1.0/#img-element">HTML Accessibility API Mappings 1.0 for img</a>. </p>
 
 ##### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
-    <li id="1TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>. [SC 1.1.1]
+    <li>An image that has a non-empty accessible name has been determined to be meaningful by the content author. The image will not be ignored by assistive technology.</li>
+    <li id="1TI-2">Check that the image is not a decorative image. [SC 1.1.1]
     <ol>
-        <li id="1TI-2i">Descriptions of the image that are provided by page content must be programmatically associated.</li>
-        <li id="1TI-2ii">When an image is updated to convey new meaning, its text alternative must be updated at the same time. Notification of the change must be provided per <a href="../05Changing/#51-test-procedure-for-changes-in-content">Baseline Test 5.1 Changes in Content</a>"</li>
+        <li id="1TI-2i">Image used only as visual aesthetic or page design/formatting and has a purely decorative purpose</li>
+        <li id="1TI-2ii">Image is not visible on the page</a>"</li>
     </ol></li>
     <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
     <li id="1TI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
     <li id="1TI-5">Check that aria-hidden is <strong>NOT</strong> set to "true".[SC 4.1.2]</li>
+    <li id=1TI-6 >Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image. </li>
 </ol>
 
 ##### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Test 6.1-MeaningfulImage fails.</p>
 
-### 6.2 Test Procedure for Decorative Images
+### 6.2 Test Procedure for Images with empty text alternative
 **Baseline Test ID:** 6.2-DecorativeImage
 
 #### Identify Content
-<p id="2IC">Identify any decorative image that is pure decoration, is used only for visual formatting, or is not presented to users.</p>
+<p id="2IC">Identify any image (i.e., img element, or element with role=”img”, or CSS background image) that has an empty text alternative. Include any images that have aria-hidden set to true, role=”presentation”, or role=”none”. </p>
 
 ##### Test Instructions
 <ol>
-<li id="2TI-1">Check that at least one of the following is true [SC 1.1.1]:
+<li>An image that has an empty accessible name has been determined to be decorative by the content author. The image will be ignored by assistive technology.</li>
+<li id="2TI-1">Check that the empty text alternative has been programmatically assigned using one of the following techniques [SC 1.1.1]:
     <ol>
         <li id="2TI-1a">The ARIA role is "presentation".</li>
         <li id="2TI-1b">The ARIA role is "none".</li>
         <li id="2TI-1c">The aria-hidden is set to "true".</li>
-        <li id="2TI-1d">The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>.</li>
+        <li id="2TI-1d">The attribute alt="".</li>
         <li id="2TI-1e">The image is inserted via CSS (e.g., using a background image).</li>
+    </ol>
+    <ul>
+        <li>If the image does not have any of these attributes, this would be a failure.</li>
+        <li>If the image has alt="" or role="presentation" in addition to other non-empty text alternative attributes, this may cause assistive technology to not ignore the image. This would be a failure.
+            <ul>
+                <li> Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
+                <li> Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code>
+            </ul>
+        </li>
+    </ul>
+</li>
+<li id="2TI-2">Check that the image is not a meaningful image [SC 1.1.1]:
+    <ol>
+        <li id="2TI-2a">Image conveys information.</li>
+        <li id="2TI-2b">Image is in the tab order.</li>
+        <li id="2TI-2c">Image is a functional image that intiates action.</li>
     </ol>
 </li>
 </ol>
 
 ##### Test Results
-<p id="2TR">If all of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>
+<p id="2TR">If any of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>
 
 ### 6.3 Test Procedure for Captchas
 **Baseline Test ID:** 6.3-Captcha
