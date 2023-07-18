@@ -68,10 +68,10 @@ order-number: 7
     </ol>
 Note: If the image does not have any of these attributes, this would be a failure.
 </li>
-<li>Check that there are not any non-empty text alternative attributes in addition to alt="" or role="presentation". This may cause assistive technology to not ignore the image. [SC 1.1.1]
+<li id="2TI-2">Check that there are not any non-empty text alternative attributes in addition to alt="" or role="presentation". This may cause assistive technology to not ignore the image. [SC 1.1.1]
     <ul>
         <li> Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
-        <li> Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code>
+        <li> Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code></li>
     </ul>
 </li>
 <li id="2TI-2">Check that the image is not a meaningful image, not any of the following [SC 1.1.1]:
@@ -82,6 +82,7 @@ Note: If the image does not have any of these attributes, this would be a failur
     </ol>
 </li>
 </ol>
+
 
 ##### Test Results
 <p id="2TR">If any of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>
