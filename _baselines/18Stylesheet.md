@@ -18,10 +18,7 @@ Meaningful information provided solely through CSS content may not be in the Doc
 -   Inline styling is included in this test.
 
 ### 18.1 for Test Procedure for Meaningful Background Image 
-This test for CSS background images is now covered under [Baseline 6.2 Test Procedure for Images with empty text alternatives](/_baselines/06Images.md#62-test-procedure-for-images-with-empty-text-alternative). 
-
-#### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Test 18.1-CSSMeaningfulImage fails.</p>
+CSS background image is now covered under [Baseline 6.2 Test Procedure for Images with empty text alternatives](/06Images.md#62-test-procedure-for-images-with-empty-text-alternative). 
 
 ### 18.2 Test Procedure for CSS Positioned Content
 
