@@ -55,7 +55,7 @@ order-number: 7
 **Baseline Test ID:** 6.2-DecorativeImage
 
 #### Identify Content
-<p id="2IC">Identify any image (i.e., img element, or element with role=”img”, or CSS background image) that has an empty text alternative. Include any images that have aria-hidden set to true, role=”presentation”, or role=”none”. </p>
+<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role=”img”</code>, or CSS background image) that has an empty text alternative. Include any images that have aria-hidden set to true, <code>role=”presentation”</code>, or <code>role=”none”</code>. </p>
 
 ##### Test Instructions
 <ol>
@@ -64,8 +64,8 @@ order-number: 7
         <li id="2TI-1a">The ARIA role is "presentation".</li>
         <li id="2TI-1b">The ARIA role is "none".</li>
         <li id="2TI-1c">The aria-hidden is set to "true".</li>
-        <li id="2TI-1d">The attribute alt="".</li>
-        <li id="2TI-1e">The image is inserted via CSS (e.g., a background image).</li>
+        <li id="2TI-1d">The attribute <code>alt=""</code>.</li>
+        <li id="2TI-1e">The image is inserted via CSS (i.e., a background image).</li>
     </ol>
 Note: If the image does not have any of these attributes, this would be a failure.
 </li>
