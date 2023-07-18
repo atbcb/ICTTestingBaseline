@@ -12,11 +12,13 @@ order-number: 7
 
 ### Test Method Rationale
 
--   The image tests evaluate the images as they are coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. There are certain scenarios where that determination was incorrect and the test will fail.
+-   The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. There are certain scenarios where that determination would be incorrect, and the test will fail.
 -   All images must be evaluated. Tests for certain image types are specified.
 
 ### Limitations, Assumptions, Exceptions
 
+-   An image that has a non-empty accessible name has been determined to be meaningful by the content author. The author has decided that this image should not be ignored by assistive technology.
+-   An image that has an empty accessible name has been determined to be decorative by the content author. The author has decided that this image should be ignored by assistive technology.
 -   Commonly used image formats include .jpg, .png, .svg, .gif, .tiff, .bmp. Other graphic formats are also in use and should be considered for this test.
 -   Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
 -   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
@@ -33,16 +35,16 @@ order-number: 7
 
 ##### Test Instructions
 <ol id="1TI">
-    <li>An image that has a non-empty accessible name has been determined to be meaningful by the content author. The image will not be ignored by assistive technology.</li>
-    <li id="1TI-2">Check that the image is not a decorative image. [SC 1.1.1]
+    <li id="1TI-2">Check that the image is not a decorative image, i.e., not any of the following: [SC 1.1.1]
     <ol>
-        <li id="1TI-2i">Image used only as visual aesthetic or page design/formatting and has a purely decorative purpose</li>
-        <li id="1TI-2ii">Image is not visible on the page</a>"</li>
-    </ol></li>
+        <li id="1TI-2i">Image is used only for page design/formatting and can be ignored without any loss of meaning.</li>
+        <li id="1TI-2ii">Image is not visible on the page.</li>
+    </ol>
+    </li>
     <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
     <li id="1TI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
     <li id="1TI-5">Check that aria-hidden is <strong>NOT</strong> set to "true".[SC 4.1.2]</li>
-    <li id=1TI-6 >Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image. </li>
+    <li id="1TI-6">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image. </li>
 </ol>
 
 ##### Test Results
@@ -56,26 +58,23 @@ order-number: 7
 
 ##### Test Instructions
 <ol>
-<li>An image that has an empty accessible name has been determined to be decorative by the content author. The image will be ignored by assistive technology.</li>
 <li id="2TI-1">Check that the empty text alternative has been programmatically assigned using one of the following techniques [SC 1.1.1]:
     <ol>
         <li id="2TI-1a">The ARIA role is "presentation".</li>
         <li id="2TI-1b">The ARIA role is "none".</li>
         <li id="2TI-1c">The aria-hidden is set to "true".</li>
         <li id="2TI-1d">The attribute alt="".</li>
-        <li id="2TI-1e">The image is inserted via CSS (e.g., using a background image).</li>
+        <li id="2TI-1e">The image is inserted via CSS (e.g., a background image).</li>
     </ol>
+Note: If the image does not have any of these attributes, this would be a failure.
+</li>
+<li>Check that there are not any non-empty text alternative attributes in addition to alt="" or role="presentation". This may cause assistive technology to not ignore the image. [SC 1.1.1]
     <ul>
-        <li>If the image does not have any of these attributes, this would be a failure.</li>
-        <li>If the image has alt="" or role="presentation" in addition to other non-empty text alternative attributes, this may cause assistive technology to not ignore the image. This would be a failure.
-            <ul>
-                <li> Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
-                <li> Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code>
-            </ul>
-        </li>
+        <li> Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
+        <li> Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code>
     </ul>
 </li>
-<li id="2TI-2">Check that the image is not a meaningful image [SC 1.1.1]:
+<li id="2TI-2">Check that the image is not a meaningful image, not any of the following [SC 1.1.1]:
     <ol>
         <li id="2TI-2a">Image conveys information.</li>
         <li id="2TI-2b">Image is in the tab order.</li>
