@@ -35,7 +35,7 @@ order-number: 7
 
 ##### Test Instructions
 <ol id="1TI">
-    <li id="1TI-2">Check that the image is not a decorative image, i.e., not any of the following: [SC 1.1.1]
+    <li id="1TI-2">Check that the image is not any of the following [SC 1.1.1]:
     <ol>
         <li id="1TI-2i">Image is used only for page design/formatting and can be ignored without any loss of meaning.</li>
         <li id="1TI-2ii">Image is not visible on the page.</li>
@@ -43,7 +43,7 @@ order-number: 7
     </li>
     <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
     <li id="1TI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
-    <li id="1TI-5">Check that aria-hidden is <strong>NOT</strong> set to "true".[SC 4.1.2]</li>
+    <li id="1TI-5">Check that aria-hidden is <strong>NOT</strong> set to "true".[SC 1.3.1]</li>
     <li id="1TI-6">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image. </li>
 </ol>
 
@@ -68,21 +68,20 @@ order-number: 7
     </ol>
 Note: If the image does not have any of these attributes, this would be a failure.
 </li>
-<li id="2TI-2">Check that there are not any non-empty text alternative attributes in addition to alt="" or role="presentation". This may cause assistive technology to not ignore the image. [SC 1.1.1]
+<li id="2TI-2">Check that there are no non-empty text alternative attributes in addition to any of the techniques listed in the previous test step. Conflicts may cause assistive technology to not ignore the image. [SC 1.1.1]
     <ul>
-        <li> Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
-        <li> Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code></li>
+        <li> Fail Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
+        <li> Fail Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code></li>
     </ul>
 </li>
-<li id="2TI-2">Check that the image is not a meaningful image, not any of the following [SC 1.1.1]:
+<li id="2TI-2">Check that the image is not any of the following [SC 1.1.1]::
     <ol>
-        <li id="2TI-2a">Image conveys information.</li>
+        <li id="2TI-2a">Image is the only way to convey meaningful information.</li>
         <li id="2TI-2b">Image is in the tab order.</li>
-        <li id="2TI-2c">Image is a functional image that intiates action.</li>
+        <li id="2TI-2c">Image is a functional image that initiates action.</li>
     </ol>
 </li>
 </ol>
-
 
 ##### Test Results
 <p id="2TR">If any of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>
@@ -137,3 +136,6 @@ Note: If the image does not have any of these attributes, this would be a failur
     -   [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type = "image"](https://www.w3.org/TR/WCAG20-TECHS/F65.html)
     -   [F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F20.html)
     -   [C9: Using CSS to include decorative images](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
+    -   [W3C Tutorial: Decorative Images](https://www.w3.org/WAI/tutorials/images/decorative/)
+    -   [W3C Tutorial: Informative Images](https://www.w3.org/WAI/tutorials/images/informative/)
+    -   [W3c Tutorial: Functional Images](https://www.w3.org/WAI/tutorials/images/functional/)
