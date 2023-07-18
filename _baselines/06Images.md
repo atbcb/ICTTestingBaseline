@@ -13,7 +13,8 @@ order-number: 7
 ### Test Method Rationale
 
 -   The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. There are certain scenarios where that determination would be incorrect, and the test will fail.
--   All images must be evaluated. Tests for certain image types are specified.
+-   The tests have included guidance from the [W3C Web Accessiblity Initiative Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
+-   All images must be evaluated. . Some images will have multiple tests. 
 
 ### Limitations, Assumptions, Exceptions
 
