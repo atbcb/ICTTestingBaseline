@@ -16,7 +16,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 5. Changing Content | Significant changes to this test to cover SC 4.1.2 more accurately. Name of test changed to 5. User Controls. |
 | 6. Images | Limitations, Assumptions, Exceptions: removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
 | 6. Images | Test Method Rationale: added "The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. There are certain scenarios where that determination would be incorrect, and the test will fail." |
-| 6.1, 6.2 | Test Procedures updated to defer author to determine meaningful or decorative, W3C Image Tutorials added under WCAG Techniques section |
+| 6.1, 6.2 | Test Procedures updated to defer to author to determine meaningful or decorative images, W3C Image Tutorials added under WCAG Techniques section |
 | 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
 | 7.3 Audible Cues | New test added which maps to SC 1.1.1 |
 | 10.1 Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2 |

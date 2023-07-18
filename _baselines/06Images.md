@@ -13,7 +13,7 @@ order-number: 7
 ### Test Method Rationale
 
 -   The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. There are certain scenarios where that determination would be incorrect, and the test will fail.
--   The tests have included guidance from the [W3C Web Accessiblity Initiative Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
+-   The tests include guidance from the [W3C Web Accessiblity Initiative Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
 -   All images must be evaluated. . Some images will have multiple tests. 
 
 ### Limitations, Assumptions, Exceptions
@@ -38,7 +38,7 @@ order-number: 7
 <ol id="1TI">
     <li id="1TI-2">Check that the image is not any of the following [SC 1.1.1]:
     <ol>
-        <li id="1TI-2i">Image is used only for page design/formatting and can be ignored without any loss of meaning.</li>
+        <li id="1TI-2i">Image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
         <li id="1TI-2ii">Image is not visible on the page.</li>
     </ol>
     </li>
@@ -55,7 +55,7 @@ order-number: 7
 **Baseline Test ID:** 6.2-DecorativeImage
 
 #### Identify Content
-<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role=”img”</code>, or CSS background image) that has an empty text alternative. Include any images that have aria-hidden set to true, <code>role=”presentation”</code>, or <code>role=”none”</code>. </p>
+<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role=”img”</code>, or CSS background image) that has an empty text alternative. </p>
 
 ##### Test Instructions
 <ol>
@@ -69,13 +69,13 @@ order-number: 7
     </ol>
 Note: If the image does not have any of these attributes, this would be a failure.
 </li>
-<li id="2TI-2">Check that there are no non-empty text alternative attributes in addition to any of the techniques listed in the previous test step. Conflicts may cause assistive technology to not ignore the image. [SC 1.1.1]
+<li id="2TI-2">Check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image. [SC 1.1.1]
     <ul>
         <li> Fail Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
         <li> Fail Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code></li>
     </ul>
 </li>
-<li id="2TI-2">Check that the image is not any of the following [SC 1.1.1]::
+<li id="2TI-2">Check that the image is not any of the following [SC 1.1.1]:
     <ol>
         <li id="2TI-2a">Image is the only way to convey meaningful information.</li>
         <li id="2TI-2b">Image is in the tab order.</li>
