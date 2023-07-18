@@ -137,6 +137,7 @@ Note: If the image does not have any of these attributes, this would be a failur
     -   [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type = "image"](https://www.w3.org/TR/WCAG20-TECHS/F65.html)
     -   [F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F20.html)
     -   [C9: Using CSS to include decorative images](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
+    -   [F3: Using CSS to include images that convey important information](https://www.w3.org/TR/WCAG20-TECHS/F3.html)
     -   [W3C Tutorial: Decorative Images](https://www.w3.org/WAI/tutorials/images/decorative/)
     -   [W3C Tutorial: Informative Images](https://www.w3.org/WAI/tutorials/images/informative/)
     -   [W3c Tutorial: Functional Images](https://www.w3.org/WAI/tutorials/images/functional/)

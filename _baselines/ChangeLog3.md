@@ -28,7 +28,8 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
 | 17.4 Captions (Prerecorded) and 17.5 Audio Descriptions (Prerecorded) | Identify Content of both: added "that is not clearly labeled as a media alternative for text" |
 | 17.7 Media Alternatives (Prerecorded) | New test added |
-| 18. CSS Content and Positioning | Accessibility Requirements: removed SC 1.3.1 |
+| 18. CSS Content and Positioning | Renamed to CSS Positioning, Accessibility Requirements: removed SC 1.1.1 and 1.3.1 |
+| 18.1 Meaningful Background Image | Removed. CSS background images are covered under 6.2 Images with empty text alternative. |
 | 19.1 Frames | Instruction 1: separated to 2 test instructions |
 | Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs |
 | Site home | Added single file of all Baseline Tests | 
