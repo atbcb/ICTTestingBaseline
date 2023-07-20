@@ -36,7 +36,7 @@ order-number: 7
 
 ##### Test Instructions
 <ol id="1TI">
-    <li id="1TI-2">Check that the image is not any of the following [SC 1.1.1]:
+    <li id="1TI-2">Check that none of the following are true [SC 1.1.1]:
     <ol>
         <li id="1TI-2i">Image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
         <li id="1TI-2ii">Image is not visible on the page.</li>
