@@ -75,7 +75,7 @@ Note: If the image does not have any of these attributes, this would be a failur
         <li> Fail Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code></li>
     </ul>
 </li>
-<li id="2TI-2">Check that the image is not any of the following [SC 1.1.1]:
+<li id="2TI-2">Check that none of the following are true [SC 1.1.1]:
     <ol>
         <li id="2TI-2a">Image is the only way to convey meaningful information.</li>
         <li id="2TI-2b">Image is in the tab order.</li>
