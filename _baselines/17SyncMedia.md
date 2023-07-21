@@ -59,9 +59,11 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 **Baseline Test ID:** 17.2-MediaPlayerCCLevel
 
 #### Identify Content
+
 <p id="2IC">Media player that displays video with synchronized audio and has volume adjustment controls.</p>
 
 #### Test Instructions
+
 <ol id="2TI">
     <li id="2TI-1">Check that user controls for the selection of captions are at the same menu level as the user controls for volume adjustment or program selection. [Section 508 503.4.1]</li>
 </ol>
