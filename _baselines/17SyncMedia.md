@@ -120,7 +120,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 #### Identify Content
 
-<p id="5IC">Pre-recorded synchronized multimedia.  Do not include media that is clearly labeled as a [media alternative for text](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded#dfn-media-alternative-for-text).  (An example of media alternative for text is ASL version of content.)</p>
+<p id="5IC">Pre-recorded synchronized multimedia.  Do not include media that is clearly labeled as a <a href="https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded#dfn-media-alternative-for-text">media alternative for text</a>.  (An example of media alternative for text is ASL version of content.)</p>
 
 #### Test Instructions
 
