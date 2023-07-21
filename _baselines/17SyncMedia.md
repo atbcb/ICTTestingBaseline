@@ -125,8 +125,8 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 #### Test Instructions
 
 <ol id="5TI">
-    <li id="5TI-1">Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that file.</li>
-    <li id="5TI-2">Check that the audio (with audio descriptions enabled) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content. [SC 1.2.5]</li>
+    <li id="5TI-1">Enable audio descriptions through multimedia player functions and play the media.  If a separate media file with audio descriptions is provided, test that file.  If there is not a separate medial file, and there is not an option to enable audio description, test the default file.</li>
+    <li id="5TI-2">Check that the narration (with audio descriptions enabled) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content. [SC 1.2.5]</li>
 </ol>
 
 #### Test Results
