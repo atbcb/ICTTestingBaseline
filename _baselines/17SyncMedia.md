@@ -120,7 +120,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 #### Identify Content
 
-<p id="5IC">Pre-recorded synchronized multimedia. . Do not include media that is clearly labeled as a media alternative for text.</p>
+<p id="5IC">Pre-recorded synchronized multimedia. Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 
