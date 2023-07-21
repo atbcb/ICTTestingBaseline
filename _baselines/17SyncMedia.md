@@ -38,21 +38,26 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 ### 17.1 Test Procedure for Media Player Controls
 
 **Baseline Test ID:** 17.1-MediaPlayerCCADControls
+
 #### Identify Content
+
 <p id="1IC">Media player that displays video with synchronized audio.</p>
 
 #### Test Instructions
+
 <ol id="1TI">
     <li id="1TI-1">Check that user control for the selection of captions is provided. [Section 508 503.4]</li>
     <li id="1TI-2">Check that user control for the selection of audio descriptions is provided. [Section 508 503.4]</li>
 </ol>
 
 #### Test Results
+
 <p id="1TR">If any of the above checks fail, then Baseline Requirement 17.1-MediaPlayerCCADControls fails.</p>
 
 ### 17.2 Test Procedure for Media Player Caption Control Level
 
 **Baseline Test ID:** 17.2-MediaPlayerCCLevel
+
 #### Identify Content
 <p id="2IC">Media player that displays video with synchronized audio and has volume adjustment controls.</p>
 
@@ -67,24 +72,31 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 ### 17.3 Test Procedure for Media Player Audio Description Control Level
 
 **Baseline Test ID:** 17.3-MediaPlayerADLevel
+
 #### Identify Content
+
 <p id="3IC">Media player that displays video with synchronized audio and has program selection controls.</p>
 
 #### Test Instructions
+
 <ol id="3TI">
     <li id="3TI-1">Check that user controls for the selection of audio descriptions are at the same menu level as the user controls for volume or program selection. [Section 508 503.4.2]</li>
 </ol>
 
 #### Test Results
+
 <p id="3TR">If any of the above checks fail, then Baseline Test 17.3-MediaPlayerADLevel fails.</p>
 
 ### 17.4 Test Procedure for Captions (Prerecorded)
 
 **Baseline Test ID:** 17.4-CaptionsPrerecorded
+
 #### Identify Content
+
 <p id="4IC">Pre-recorded synchronized multimedia. Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
+
 <ol id="4TI">
     <li id="4TI-1">Enable captions through multimedia player functions and play the media. If a separate media file with captions is provided, test that file.</li>
     <li id="4TI-2">Check that captions are provided.</li>
@@ -97,6 +109,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
+
 <p id="4TR">If any of the above checks fail, then Baseline 17.4-CaptionsPrerecorded fails.</p>
 
 ### 17.5 Test Procedure for Audio Description (Prerecorded)
@@ -107,21 +120,26 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 <p id="5IC">Pre-recorded synchronized multimedia. . Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
+
 <ol id="5TI">
     <li id="5TI-1">Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that file.</li>
     <li id="5TI-2">Check that the audio (with audio descriptions enabled) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content. [SC 1.2.5]</li>
 </ol>
 
 #### Test Results
+
 <p id="5TR">If any of the above checks fail, then Baseline 17.5-ADPrerecorded fails.</p>
 
 ### 17.6 Test Procedure for Captions (Live)
 
 **Baseline Test ID:** 17.6-CaptionsLive
+
 #### Identify Content
+
 <p id="6IC">Live synchronized multimedia.</p>
 
 #### Test Instructions
+
 <ol id="6TI">
     <li id="6TI-1">Enable captions through multimedia player functions and start the live session.</li>
     <li id="6TI-2">Check that captions are provided</li>
@@ -133,15 +151,19 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
+
 <p id="6TR">If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.</p>
 
 ### 17.7 Test Procedure for Sync Media Alternative (Prerecorded)
 
 **Baseline Test ID:** 17.7-SyncMediaAlternative
+
 #### Identify Content
+
 <p id="7IC">Pre-recorded synchronized multimedia that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
+
 <ol id="7TI">
     <li id="7TI-1">Identify the text for which the media is an alternative.</li>
     <li id="7TI-2">Play the media that is labeled as an equivalent alternative for the text.</li>
@@ -150,6 +172,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
+
 <p id="7TR">If any of the above checks fail, then the multimedia is not a media alternative for text. Perform Baseline Tests <a href="#174-test-procedure-for-captions-prerecorded">17.4 Test Procedure for Captions (Prerecorded)</a> and <a href="#175-test-procedure-for-audio-description-prerecorded">17.5 Test Procedure for Audio Description (Prerecorded)</a> on the pre-recorded synchronized multimedia. </p>
 
 ### Advisory: Tips for streamlined test processes
@@ -160,8 +183,10 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 -   All synchronized multimedia should be tested. If the pre-recorded multimedia is labeled as an media alternative for text, confirm that it provides equivalent information as text. If it does not, then it is not a media alternative for text. Test the multimedia for captions and audio descriptions. It may make sense to perform Test 17.7 before testing for captions and audio descriptions.
 
 #### WCAG 2.0 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G93: Providing open (always visible) captions](http://www.w3.org/TR/WCAG20-TECHS/G93.html)
 -   [G87: Providing closed captions](http://www.w3.org/TR/WCAG20-TECHS/G87.html)
 -   [G9: Creating captions for live synchronized media](http://www.w3.org/TR/WCAG20-TECHS/G9.html)
 -   [G78: providing a second, user-selectable, audio track that includes audio descriptions](http://www.w3.org/TR/WCAG20-TECHS/G78.html)
+
