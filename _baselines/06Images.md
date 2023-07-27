@@ -17,8 +17,8 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 ### Limitations, Assumptions, Exceptions
 
 -   Commonly used image formats include .jpg, .png, .svg, .gif, .tiff, .bmp. Other graphic formats are also in use and should be considered for this test.
--   Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
--   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
+-   Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it must be implemented in a way that it can be ignored by assistive technology.
+-   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) must be provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 -   Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
 -   The [definition of image of text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
 -   Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image.
@@ -59,7 +59,7 @@ Check that at least one of the following is true [SC 1.1.1]:<br>
 <ol>
     <li id="2TI-1">The ARIA role is "presentation".</li>
     <li id="2TI-2">The ARIA role is "none".</li>
-    <li id="2TI-3">The aria-hidden is set to "true".</li>
+    <li id="2TI-3">aria-hidden is set to "true".</li>
     <li id="2TI-4">The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>.</li>
     <li id="2TI-5">The image is inserted via CSS (e.g., using a background image).</li>
 </ol>
