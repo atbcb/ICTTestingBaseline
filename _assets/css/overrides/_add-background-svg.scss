@@ -1,7 +1,0 @@
-// Override USWDS mixin to use jekyll-assets asset_url()
-
-@mixin add-background-svg($image-name, $image-path: $theme-image-path) {
-  background-image: asset_url("#{$image-path}/#{$image-name}.svg"),
-    linear-gradient(transparent, transparent);
-  background-repeat: no-repeat;
-}
