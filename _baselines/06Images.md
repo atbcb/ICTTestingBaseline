@@ -69,7 +69,7 @@ order-number: 7
     </ol>
 Note: If the image does not have any of these attributes, this would be a failure.
 </li>
-<li id="2TI-2">Check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image. [SC 1.1.1]
+<li id="2TI-2">Check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
     <ul>
         <li> Fail Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
         <li> Fail Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code></li>
