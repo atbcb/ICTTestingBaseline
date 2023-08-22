@@ -20,8 +20,8 @@ order-number: 7
 
 -   An image that has a non-empty accessible name has been determined to be meaningful by the content author. The author has decided that this image should not be ignored by assistive technology.
 -   An image that has an empty accessible name has been determined to be decorative by the content author. The author has determined that this image should be ignored by assistive technology.
--   Commonly used image formats include .jpg, .png, .svg, .gif, .tiff, .bmp. Other graphic formats are also in use and should be considered for this test.
--   Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
+-   Commonly used image formats include .jpg, .png, .svg, .gif, .tiff,  and .bmp. Other graphic formats are also in use and should be considered for this test.
+-   Decoration, Formatting, Invisible: If the image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
 -   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 -   Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
 -   The [definition of image of text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
