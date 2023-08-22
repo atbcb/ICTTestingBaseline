@@ -12,7 +12,7 @@ order-number: 7
 
 ### Test Method Rationale
 
--   The image tests evaluate the images as coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. However, there are certain scenarios, as described in the tests, where the author's programmatic determination could be incorrect.
+-   The image tests evaluate the images as coded to discern whether the author of the content has determined they are meaningful or decorative. However, there are certain scenarios, as described in the tests, where the author's programmatic determination could be incorrect.
 -   The tests include guidance from the [W3C Web Accessiblity Initiative Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
 -   All images must be evaluated. Multiple tests may apply to an image. 
 
