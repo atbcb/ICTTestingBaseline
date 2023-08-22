@@ -96,7 +96,7 @@ Note: If the image does not have any of these attributes, this would be a failur
 ##### Test Instructions
 <ol id="3TI">
     <li id="3TI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
-    <li id="3TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) identify and describe the purpose of the CAPTCHA. [SC 1.1.1]</li>
+    <li id="3TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) identifies and describes the purpose of the CAPTCHA. [SC 1.1.1]</li>
     <li id="3TI-3">Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. [SC 1.1.1]</li>
 </ol>
 
