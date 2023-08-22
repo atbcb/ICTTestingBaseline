@@ -12,14 +12,14 @@ order-number: 7
 
 ### Test Method Rationale
 
--   The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. However, there are certain scenarios as described in the tests where the author's determination would be incorrect.
+-   The image tests evaluate the images as coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. However, there are certain scenarios, as described in the tests, where the author's programmatic determination could be incorrect.
 -   The tests include guidance from the [W3C Web Accessiblity Initiative Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
 -   All images must be evaluated. Multiple tests may apply to an image. 
 
 ### Limitations, Assumptions, Exceptions
 
 -   An image that has a non-empty accessible name has been determined to be meaningful by the content author. The author has decided that this image should not be ignored by assistive technology.
--   An image that has an empty accessible name has been determined to be decorative by the content author. The author has decided that this image should be ignored by assistive technology.
+-   An image that has an empty accessible name has been determined to be decorative by the content author. The author has determined that this image should be ignored by assistive technology.
 -   Commonly used image formats include .jpg, .png, .svg, .gif, .tiff, .bmp. Other graphic formats are also in use and should be considered for this test.
 -   Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
 -   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
@@ -28,7 +28,7 @@ order-number: 7
 -   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
-### 6.1 Test Procedure for Images with non-empty text alternative
+### 6.1 Test Procedure for Images with a non-empty text alternative
 **Baseline Test ID:** 6.1-MeaningfulImage
 
 #### Identify Content
@@ -36,10 +36,10 @@ order-number: 7
 
 ##### Test Instructions
 <ol id="1TI">
-    <li id="1TI-2">Check that none of the following are true [SC 1.1.1]:
+    <li id="1TI-2">Check that none of the following is true [SC 1.1.1]:
     <ol>
-        <li id="1TI-2i">Image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
-        <li id="1TI-2ii">Image is not visible on the page.</li>
+        <li id="1TI-2i">The image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
+        <li id="1TI-2ii">The image is not visible on the page.</li>
     </ol>
     </li>
     <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
@@ -51,11 +51,11 @@ order-number: 7
 ##### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Test 6.1-MeaningfulImage fails.</p>
 
-### 6.2 Test Procedure for Images with empty text alternative
+### 6.2 Test Procedure for Images with an empty text alternative
 **Baseline Test ID:** 6.2-DecorativeImage
 
 #### Identify Content
-<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role=”img”</code>, or CSS background image) that has an empty text alternative. </p>
+<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role=”img”</code>, or element that includes a CSS background image) that has an empty text alternative. </p>
 
 ##### Test Instructions
 <ol>
@@ -75,11 +75,11 @@ Note: If the image does not have any of these attributes, this would be a failur
         <li> Fail Example 2: <code>&lt;img alt="turtle" role="presentation"&gt;</code></li>
     </ul>
 </li>
-<li id="2TI-2">Check that none of the following are true [SC 1.1.1]:
+<li id="2TI-2">Check that none of the following is true [SC 1.1.1]:
     <ol>
-        <li id="2TI-2a">Image is the only way to convey meaningful information.</li>
-        <li id="2TI-2b">Image is in the tab order.</li>
-        <li id="2TI-2c">Image is a functional image that initiates action.</li>
+        <li id="2TI-2a">The image is the only way to convey meaningful information.</li>
+        <li id="2TI-2b">The image is in the tab order.</li>
+        <li id="2TI-2c">The image is a functional image that initiates action.</li>
     </ol>
 </li>
 </ol>
