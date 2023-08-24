@@ -117,4 +117,4 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
     -   [F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null (e.g., alt="spacer" or alt="image") for images that should be ignored by assistive technology](https://www.w3.org/TR/WCAG20-TECHS/F39.html)
     -   [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type = "image"](https://www.w3.org/TR/WCAG20-TECHS/F65.html)
     -   [F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F20.html)
-    -   [C9: Using CSS to include decorative images](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
+    -   [C9: Using CSS to include decorative images](https://www.w3.org/TR/WCAG20-TECHS/C9.html)
