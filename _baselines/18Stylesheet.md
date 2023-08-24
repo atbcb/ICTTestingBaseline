@@ -8,8 +8,7 @@ order-number: 19
 
 -   [WCAG SC 1.1.1 Non-Text Content](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for the situations listed below.
     -   **Decoration, Formatting, Invisible:** If non-text content is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
--   [WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html) -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
--   [WCAG SC 1.3.2 Meaningful Sequence](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html) -- When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
+-   [WCAG SC 1.3.2 Meaningful Sequence](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html) -- When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
 
 ### Test Method Rationale
 
@@ -42,7 +41,7 @@ Meaningful information provided solely through CSS content may not be in the Doc
 
 **Baseline Test ID:** 18.2-CSSPositionedContent
 #### Identify Content
-<p id="2IC">Content positioned with CSS position</p>
+<p id="2IC">Meaningful content positioned with CSS</p>
 
 #### Test Instructions
 <ol id="2TI">
@@ -54,6 +53,7 @@ Meaningful information provided solely through CSS content may not be in the Doc
 <p id="2TR">If any of the above checks fail, then Baseline Test 18.2-CSSPositionedContent fail.</p>
 
 ### Advisory: Tips for streamlined test processes
+- These tests are not to be performed by disabling all CSS. Content is not required to be perceivable and operable with all CSS disabled.
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:

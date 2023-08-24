@@ -64,12 +64,17 @@ site, this is the place to do it.
   <link type="text/css" href="{{site.baseurl}}/assets/swiper/swiper-bundle.min.css" rel="stylesheet" />
   <link type="text/css" href="{{site.baseurl}}/assets/css/components/swiper-rsd.css" rel="stylesheet" />
 
-<!-- {% if page.title == "Map of WCAG to Section 508 FPC" %}
+
+{% if page.title == "Appendix A - Cross Reference Tables Sort" %}
 <meta name=viewport content="width=device-width, initial-scale=1">
-<link type="text/css" href="{{site.baseurl}}/assets/css/components/dataTables.min_ke.css" rel="stylesheet" />
-<link type="text/css" href="{{site.baseurl}}/assets/css/components/responsive.dataTables.minke.css" rel="stylesheet" />
+{% asset jquery.min.js %}
+{% asset jquery.dataTables.min.js %}
+{% asset natural.js %}
+{% asset components/jquery.dataTables.min_ke.css %}
+{% asset components/responsive.dataTables.minke.css %}
+
 <style>
-div.wcagfpc {
+div.appA {
   display: block;
   box-sizing: border-box;
   width: auto;
@@ -78,10 +83,13 @@ div.wcagfpc {
 
 }
 td {
-  text-align: center;
+  text-align: left;
   }
-
-
+th[scope=row] {
+  background-color: white;
+  text-align: left;
+}
+/* 
 table.fixedHeader-floating {
   position:fixed !important;
   background-color:white;
@@ -91,7 +99,7 @@ table.fixedHeader-floating.no-footer{border-bottom-width:0;}
 table.fixedHeader-locked{
   position:absolute !important;
   background-color:white;
-  }
+  } */
 caption {
   font-weight: bold;
   padding-top: 1em;
@@ -101,12 +109,13 @@ caption {
   padding: 1.5rem;
   overflow: auto;
 }
-#topleft {
+/* #topleft {
 	background-color: white;
 	opacity: 1;
 	white-space: nowrap;
 	border: 2px solid #365788;
 }
+
 th.stickyleft {
   position: -webkit-sticky;
   position: -moz-sticky;
@@ -119,8 +128,8 @@ th.stickyleft {
 	border-left: 2px solid #365788;
 	opacity: 1;
 	padding-top: 0.5px;
-  }
-#tablesearch {
+  } */
+input[type=search] {
   float: right;
   border: 1px solid black;
 	}
@@ -132,16 +141,16 @@ $(document).ready(
   $('#example').dataTable(
   {
     "columnDefs":
-    [{ type: 'natural', targets: [0, 9] }
+    [{ type: 'natural', targets: [0, 2] }
     ],
     fixedHeader: true,
     "language": {
     "search": "Dynamic Search:"
-    }
   }
-  );
 }
 );
+  }
+);
 </script>
-{% endif %} -->
+{% endif %}
 </head>

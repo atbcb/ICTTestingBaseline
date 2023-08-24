@@ -21,8 +21,7 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 -   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 -   Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
 -   The [definition of image of text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
--   Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image.
--   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](https://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
+-   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
 ### 6.1 Test Procedure for Meaningful Images
@@ -37,11 +36,11 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
     <li id="1TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>. [SC 1.1.1]
     <ol>
         <li id="1TI-2i">Descriptions of the image that are provided by page content must be programmatically associated.</li>
-        <li id="1TI-2ii">When an image is updated to convey a new meaning, check that its text alternative is updated at the same time. [SCs 1.1.1 and 4.1.2]</li>
+        <li id="1TI-2ii">When an image is updated to convey new meaning, its text alternative must be updated at the same time. Notification of the change must be provided per <a href="../05Changing/#51-test-procedure-for-changes-in-content">Baseline Test 5.1 Changes in Content</a>"</li>
     </ol></li>
-    <li id="1TI-3">Check that the ARIA role is NOT "presentation".</li>
-    <li id="1TI-4">Check that the ARIA role is NOT "none".</li>
-    <li id="1TI-5">Check that aria-hidden is NOT set to "true".</li>
+    <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
+    <li id="1TI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
+    <li id="1TI-5">Check that aria-hidden is <strong>NOT</strong> set to "true".[SC 4.1.2]</li>
 </ol>
 
 ##### Test Results
@@ -54,16 +53,17 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 <p id="2IC">Identify any decorative image that is pure decoration, is used only for visual formatting, or is not presented to users.</p>
 
 ##### Test Instructions
-<p id="2TI">
-Check that at least one of the following is true [SC 1.1.1]:<br>
 <ol>
-    <li id="2TI-1">The ARIA role is "presentation".</li>
-    <li id="2TI-2">The ARIA role is "none".</li>
-    <li id="2TI-3">The aria-hidden is set to "true".</li>
-    <li id="2TI-4">The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>.</li>
-    <li id="2TI-5">The image is inserted via CSS (e.g., using a background image).</li>
+<li id="2TI-1">Check that at least one of the following is true [SC 1.1.1]:
+    <ol>
+        <li id="2TI-1a">The ARIA role is "presentation".</li>
+        <li id="2TI-1b">The ARIA role is "none".</li>
+        <li id="2TI-1c">The aria-hidden is set to "true".</li>
+        <li id="2TI-1d">The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>.</li>
+        <li id="2TI-1e">The image is inserted via CSS (e.g., using a background image).</li>
+    </ol>
+</li>
 </ol>
-</p>
 
 ##### Test Results
 <p id="2TR">If all of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>

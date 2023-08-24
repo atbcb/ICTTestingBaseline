@@ -61,14 +61,14 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 <ol id="2TI">
     <li id="2TI-1">Use the keyboard to navigate through interface components.
     <ol>
-        <li id="2TI-1i">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
+        <li id="2TI-1a">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
         <ol>
-            <li id="2TI-1ia">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
-            <li id="2TI-1ib">Advance the focus through the revealed content.</li>
+            <li id="2TI-1ai">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
+            <li id="2TI-1aii">Advance the focus through the revealed content.</li>
         </ol></li>
-        <li id="2TI-1ii">Use the keyboard to close/hide the revealed content.
+        <li id="2TI-1b">Use the keyboard to close/hide the revealed content.
         <ol>
-            <li id="2TI-1iia">Check that focus is returned to the trigger control. (It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
+            <li id="2TI-1bi">Check that focus is returned to the trigger control. (It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
         </ol></li>
     </ol></li>
     <li id="2TI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
