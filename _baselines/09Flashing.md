@@ -6,7 +6,7 @@ order-number: 10
 
 ### Accessibility Requirements
 
--   [WCAG SC 2.3.1 Three Flashes or Below Threshold](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) - Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the [general flash and red flash thresholds](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
+-   [WCAG SC 2.3.1 Three Flashes or Below Threshold](http://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html) - Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the [general flash and red flash thresholds](https://www.w3.org/TR/UNDERSTANDING-WCAG20/seizure-does-not-violate.html#general-thresholddef).
 -   [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
 ### Test Method Rationale
@@ -17,7 +17,7 @@ This test addresses flashing caused by the content itself, including:
 -   Determining the flash rate from programmatically available information
 -   Determining if any flashing element is within the "small safe area" -- smaller than a contiguous area of 25% of a 10 degree viewing angle of the total screen size at intended viewing distance
 -   Determining if the [relative luminance](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef) changes by more than 10% for a pair of opposing changes in a flash
--   Determining if flashing elements include a [saturated red](https://www.w3.org/TR/2008/REC-WCAG20-20081211/#general-thresholddef)
+-   Determining if flashing elements include a [saturated red](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#general-thresholddef)
 
 ### Limitations, Assumptions, or Exceptions
 

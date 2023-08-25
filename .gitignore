@@ -4,17 +4,3 @@ _site
 node_modules
 .bundle
 .jekyll-cache/
-
-## Assets
-assets/uswds/*
-!assets/uswds/.gitkeep
-assets/js/uswds*
-assets/video-js
-assets/youtube-video-js
-assets/swiper
-assets/stickyfilljs
-assets/netlify-cms
-assets/jquery
-assets/fontawesome-free
-assets/jquery-toast-plugin
-assets/dompurify

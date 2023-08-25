@@ -18,13 +18,13 @@ Modified for the ICT Baseline site.
       <div class="text-center">
         {% if page.s-image %}
         <a class="usa-link" href="{{ site.baseurl }}{{ page.s-url }}">
-          <img src="{{site.baseurl}}/images/{{page.s-image}}" class="maxh-15" alt="" />
+          {% asset {{page.s-image}} class="maxh-15" alt="" %}
         <span class="usa-button">{{ page.s-url-text }}</span>
         </a>
         {% endif %}
       </div>
       <div class="margin-top-2 text-center">
-        <img src="{{site.baseurl}}/images/stock/question.svg" class="maxh-15" alt="" />
+        {% asset stock/question.svg class="maxh-15" alt="" %}
         
         <div class="text-center">
           <h4 class="padding-1 bg-primary-darker text-white">Contact the ICT Baseline Working Group</h4>

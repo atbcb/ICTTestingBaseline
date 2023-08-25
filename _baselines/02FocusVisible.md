@@ -8,7 +8,7 @@ order-number: 3
 
 -   [WCAG SC 2.4.7 Focus Visible](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-visible.html) -- Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.
 -   [WCAG SC 2.4.3 Focus Order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-focus-order.html) -- If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.
--   [WCAG SC 3.2.1 On Focus](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) -- When any component receives focus, it does not initiate a change of context.
+-   [WCAG SC 3.2.1 On Focus](http://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-receive-focus.html) -- When any component receives focus, it does not initiate a change of context.
 
 ### Test Method Rationale
 
@@ -110,12 +110,12 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 
 #### WCAG 2.0 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-    -   [G149: Using user interface components that are highlighted by the user agent when they receive focus.](https://www.w3.org/TR/WCAG20-TECHS/G149.html)
+    -   [G149: Using user interface components that are highlighted by the user agent when they receive focus.](http://www.w3.org/TR/WCAG20-TECHS/G149.html)
     -   [G165: Using the default focus indicator for the platform so that high visibility default focus indicators will carry over](https://www.w3.org/TR/WCAG20-TECHS/G165.html)
     -   [G195: Using an author-supplied, highly visible focus indicator](https://www.w3.org/TR/WCAG20-TECHS/G195.html)
-    -   [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](https://www.w3.org/TR/WCAG20-TECHS/G59.html)
-    -   [H4: Creating a logical tab order through links, form controls, and objects](https://www.w3.org/TR/WCAG20-TECHS/H4.html)
-    -   [G107: Using "activate" rather than "focus" as a trigger for changes of context](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G107)
-    -   [F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F55)
+    -   [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](http://www.w3.org/TR/WCAG20-TECHS/G59.html)
+    -   [H4: Creating a logical tab order through links, form controls, and objects](http://www.w3.org/TR/WCAG20-TECHS/H4.html)
+    -   [G107: Using "activate" rather than "focus" as a trigger for changes of context](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G107)
+    -   [F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F55)
     -   [SCR26: Inserting dynamic content into the Document Object Model immediately following its trigger element](https://www.w3.org/TR/WCAG20-TECHS/SCR26.html)
     -   [F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order](https://www.w3.org/TR/WCAG20-TECHS/F85.html)
