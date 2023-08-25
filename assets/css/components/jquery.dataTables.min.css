@@ -52,7 +52,8 @@ table.dataTable thead>tr>th.sorting:before,table.dataTable thead>tr>th.sorting:a
 
 table.dataTable thead>tr>th.sorting:before,table.dataTable thead>tr>th.sorting_asc:before,table.dataTable thead>tr>th.sorting_desc:before,table.dataTable thead>tr>th.sorting_asc_disabled:before,table.dataTable thead>tr>th.sorting_desc_disabled:before,table.dataTable thead>tr>td.sorting:before,table.dataTable thead>tr>td.sorting_asc:before,table.dataTable thead>tr>td.sorting_desc:before,table.dataTable thead>tr>td.sorting_asc_disabled:before,table.dataTable thead>tr>td.sorting_desc_disabled:before {
 	bottom: 50%;
-    background-image:url("../../images/ict/sort/sort_asc.png");
+    content:url("../../images/ict/sort/sort_asc.png");
+    content:url("../../images/ict/sort/sort_asc.png")/""
 	/* content: "▲";
 	content: "▲"/"" */
 }
