@@ -1,5 +1,4 @@
----
----
+
 
 // Import individual theme settings
 @import "theme/uswds-theme-general";
@@ -12,13 +11,14 @@
 @import "theme/uswds-theme-components";
 
 // Set correct paths for use with asset pipeline
-$theme-font-path: "../uswds/fonts";
-$theme-image-path: "../uswds/img";
+$theme-font-path: "fonts";
+$theme-image-path: "img";
 $theme-hero-image: asset_path("hero-wc-temp.jpg");
 
 // -------------------------------------
 // Import individual USWDS packages...
 @import "scss/packages/required";
+@import "overrides/all";
 @import "scss/packages/global";
 
 @import "scss/packages/uswds-components";

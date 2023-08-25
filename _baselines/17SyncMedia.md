@@ -161,7 +161,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G93: Providing open (always visible) captions](https://www.w3.org/TR/WCAG20-TECHS/G93.html)
--   [G87: Providing closed captions](https://www.w3.org/TR/WCAG20-TECHS/G87.html)
--   [G9: Creating captions for live synchronized media](https://www.w3.org/TR/WCAG20-TECHS/G9.html)
--   [G78: providing a second, user-selectable, audio track that includes audio descriptions](https://www.w3.org/TR/WCAG20-TECHS/G78.html)
+-   [G93: Providing open (always visible) captions](http://www.w3.org/TR/WCAG20-TECHS/G93.html)
+-   [G87: Providing closed captions](http://www.w3.org/TR/WCAG20-TECHS/G87.html)
+-   [G9: Creating captions for live synchronized media](http://www.w3.org/TR/WCAG20-TECHS/G9.html)
+-   [G78: providing a second, user-selectable, audio track that includes audio descriptions](http://www.w3.org/TR/WCAG20-TECHS/G78.html)
