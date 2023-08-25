@@ -20,7 +20,7 @@ order-number: 14
 -   Pages can have more than one heading level 1 or no heading level 1.
 -   The heading level 1 on a page is not required to match the page title.
 -   The order of heading levels may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an `<h2>` heading may be used for a navigation structure that precedes an `<h1>` title on a page. Similarly, `<h1>` may be followed by `<h3>` without `<h2>` between them. 
--   Not all lists need markup. For instance, sentences that contain comma-separated lists may not need list markup ([H48: Using ol, ul and dl for lists or groups of links](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)).
+-   Not all lists need markup. For instance, sentences that contain comma-separated lists may not need list markup ([H48: Using ol, ul and dl for lists or groups of links](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)).
 -   A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques. 
 
 ### 13.1 Test Procedure for Descriptive Headings
@@ -106,6 +106,6 @@ The following sufficient techniques and/or common failures were considered when 
 -   [ARIA12: Using role=”heading” and aria-level=”\#” to identify heading levels](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html)
 -   [H42: Using &lt;h1&gt; to &lt;h6&gt; to identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html)
 -   [G130: Providing descriptive headings](https://www.w3.org/TR/WCAG20-TECHS/G130.html)
--   [G115: Using semantic elements to mark up structure](http://www.w3.org/TR/WCAG20-TECHS/G115.html) **AND** [H49: Using semantic markup to mark emphasized or special text](http://www.w3.org/TR/WCAG20-TECHS/H49.html)
--   [G117: Using text to convey information that is conveyed by variations in presentation of text](http://www.w3.org/TR/WCAG20-TECHS/G117.html)
--   [H48: Using ol, ul and dl for lists or groups of links](http://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)
+-   [G115: Using semantic elements to mark up structure](https://www.w3.org/TR/WCAG20-TECHS/G115.html) **AND** [H49: Using semantic markup to mark emphasized or special text](https://www.w3.org/TR/WCAG20-TECHS/H49.html)
+-   [G117: Using text to convey information that is conveyed by variations in presentation of text](https://www.w3.org/TR/WCAG20-TECHS/G117.html)
+-   [H48: Using ol, ul and dl for lists or groups of links](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)
