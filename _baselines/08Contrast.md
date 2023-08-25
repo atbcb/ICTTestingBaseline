@@ -6,7 +6,7 @@ order-number: 9
 
 ### Accessibility Requirements
 
--   [WCAG SC 1.4.3 Contrast (minimum)](http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) -- The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:
+-   [WCAG SC 1.4.3 Contrast (minimum)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html) -- The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:
     -   Large Text: Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;
     -   Incidental: Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement.
     -   Logotypes: Text that is part of a logo or brand name has no minimum contrast requirement.
@@ -48,10 +48,10 @@ This test is conducted to evaluate equal access to information for all users, in
 
 ### Advisory: Tips for streamlined test processes
 
--   There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See <http://www.w3.org/TR/WCAG20-TECHS/G18.html> for possible testing tools that use an appropriate algorithm.
+-   There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See <https://www.w3.org/TR/WCAG20-TECHS/G18.html> for possible testing tools that use an appropriate algorithm.
 -   While text contained in logos rendered as images is exempt from this requirement, the image must still provide alternative text (e.g., via an alt attribute).
 
 #### WCAG 2.0 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     -   [G18: Ensuring that a contrast ratio of at least 4.5:1 exists between text (and images of text) and background behind the text](https://www.w3.org/TR/WCAG20-TECHS/G18.html)
-    -   [G145: Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text](http://www.w3.org/TR/WCAG20-TECHS/G145.html) (when the text is at least 18 point if not bold and at least 14 point if bold).
+    -   [G145: Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text](https://www.w3.org/TR/WCAG20-TECHS/G145.html) (when the text is at least 18 point if not bold and at least 14 point if bold).
