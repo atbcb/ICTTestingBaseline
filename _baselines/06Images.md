@@ -48,7 +48,7 @@ order-number: 7
     </li>
     <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
     <li id="1TI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
-    <li id="1TI-6">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. </li>
+    <li id="1TI-5">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. [SC 1.1.1]</li>
 </ol>
 
 ##### Test Results
