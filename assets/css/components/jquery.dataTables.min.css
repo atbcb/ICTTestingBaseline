@@ -56,8 +56,8 @@ table.dataTable thead>tr>th.sorting:before,table.dataTable thead>tr>th.sorting_a
     content:url("../../images/ict/sort/sort_asc.png")/"" */
 	/* content: "▲";
 	content: "▲"/"" */
-    content: "&#x25B3;";
-    content: "&#x25B3;"/""
+    content: "\25B5";
+    content: "\25B5;"/""
 }
 
 
