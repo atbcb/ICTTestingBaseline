@@ -54,8 +54,10 @@ table.dataTable thead>tr>th.sorting:before,table.dataTable thead>tr>th.sorting_a
 	bottom: 50%;
     /* content:url("../../images/ict/sort/sort_asc.png");
     content:url("../../images/ict/sort/sort_asc.png")/"" */
-	content: "▲";
-	content: "▲"/""
+	/* content: "▲";
+	content: "▲"/"" */
+    content: "&#x25B3;";
+    content: "&#x25B3;"/""
 }
 
 
