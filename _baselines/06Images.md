@@ -22,7 +22,7 @@ order-number: 7
 -   An image that has an empty accessible name has been determined to be decorative by the content author. The author has determined that this image should be ignored by assistive technology.
 
 - Use of `role="presentation"` or `role="none"` on an image with other attributes or roles can cause conflicts.  This Baseline tests for these conflicts because [Presentational Roles Conflicts Resolution](https://www.w3.org/TR/wai-aria-1.1/#conflict_resolution_presentation_none) has inconsistent accessibility support.
-    - "If an element with a role of presentation is focusable, or otherwise interactive, user agents MUST ignore the normal effect of the role and expose the element with implicit native semantics, in order to ensure that the element is both [understandable](https://www.w3.org/TR/wai-aria-1.1/#dfn-understandable) and [operable] (https://www.w3.org/TR/wai-aria-1.1/#dfn-operable)." Because accessibility support is inconsistent, this Baseline checks that an image with an empty text alternative is not in the tab order nor a functional image.
+    - "If an element with a role of presentation is focusable, or otherwise interactive, user agents MUST ignore the normal effect of the role and expose the element with implicit native semantics, in order to ensure that the element is both [understandable](https://www.w3.org/TR/wai-aria-1.1/#dfn-understandable) and [operable](https://www.w3.org/TR/wai-aria-1.1/#dfn-operable)." Because accessibility support is inconsistent, this Baseline checks that an image with an empty text alternative is not in the tab order nor a functional image.
     - "User agents MUST always expose [global WAI-ARIA states and properties](https://www.w3.org/TR/wai-aria-1.1/#global_states) to accessibility APIs, even if an element has an explicit or inherited role of presentation. In this case, the user agent ignores the presentation role and exposes the element according to its implicit native semantics." "Authors SHOULD NOT provide meaningful alternative text (for example, use `alt=""` in HTML) when the presentation role is applied to an image." [WAI-ARIA 1.1, presentation (role)](https://www.w3.org/TR/wai-aria-1.1/#presentation). Because accessibility support is inconsistent, this Baseline checks that an image that has `role="presentation"` or `role="none"` does not have a non-empty text alternative attribute, and an image that has a non-empty text alternative does not have `role="presentation"` or `role="none"`.
 -   Commonly used image formats include .jpg, .png, .svg, .gif, .tiff, and .bmp. Other graphic formats are also in use and should be considered for this test.
 -   Decoration, Formatting, Invisible: If the image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
@@ -58,7 +58,7 @@ order-number: 7
 **Baseline Test ID:** 6.2-DecorativeImage
 
 #### Identify Content
-<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role=”img”</code>, or element that includes a CSS background image) that has an empty text alternative. </p>
+<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role="img"</code>, or element that includes a CSS background image) that has an empty text alternative. </p>
 
 ##### Test Instructions
 <ol>
@@ -80,9 +80,9 @@ Note: If the image does not have any of these attributes, this would be a failur
     </ol>
 </li>
 
-<li id="2TI-3">Check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
+<li id="2TI-3">For images with `role="presentation"` or `role="none"`, check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
     <ul>
-        <li> Fail Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
+        <li> Fail Example 1: <code>&lt;img role="none" alt="use your notes"&gt;</code></li>
         <li> Fail Example 2: <code>&lt;img aria-label="turtle" role="presentation"&gt;</code></li>
     </ul>
 </li>
