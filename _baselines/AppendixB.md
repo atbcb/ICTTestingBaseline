@@ -34,7 +34,7 @@ Version 2.0.1, November 2016
 
 | Location        | Change                                                                                                                                                                                          |
 |-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Various Updated | URLs from [www.section508testing.org](http://www.section508testing.org/) to [www.dhs.gov/dhs-section-508-compliance-testing-tools](http://www.dhs.gov/dhs-section-508-compliance-testing-tools) |
+| Various Updated | URLs from [www.section508testing.org](https://www.section508testing.org/) to [www.dhs.gov/dhs-section-508-compliance-testing-tools](https://www.dhs.gov/dhs-section-508-compliance-testing-tools) |
 
 Version 2.0.2, April 2017
 -------------------------

@@ -6,7 +6,7 @@ order-number: 22
 
 ### Accessibility Requirements
 
--   [WCAG SC 2.2.1 Timing Adjustable](http://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html) -- For each time limit that is set by the content, at least one of the following is true:
+-   [WCAG SC 2.2.1 Timing Adjustable](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html) -- For each time limit that is set by the content, at least one of the following is true:
     -   **Turn off:** The user is allowed to turn off the time limit before encountering it.
     -   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.
     -   **Extend:** The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, "press the space bar"), and the user is allowed to extend the time limit at least ten times.
@@ -139,4 +139,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G170: Providing a control near the beginning of the Web page that turns off sounds that play automatically](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G170)
 -   [G60: Playing a sound that turns off automatically within three seconds](https://www.w3.org/TR/WCAG20-TECHS/G60.html)
 -   [G171: Playing sounds only on user request](https://www.w3.org/TR/WCAG20-TECHS/G171.html)
--   [G186: Using a control in the Web page that stops moving, blinking, or auto-updating content](http://www.w3.org/TR/WCAG20-TECHS/G186)
+-   [G186: Using a control in the Web page that stops moving, blinking, or auto-updating content](https://www.w3.org/TR/WCAG20-TECHS/G186)

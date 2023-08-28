@@ -29,7 +29,7 @@ order-number: 7
 -   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 -   Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
 -   The [definition of image of text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
--   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](http://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
+-   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](https://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
 ### 6.1 Test Procedure for Images with a non-empty text alternative
@@ -145,3 +145,5 @@ Note: If the image does not have any of these attributes, this would be a failur
     -   [W3C Tutorial: Decorative Images](https://www.w3.org/WAI/tutorials/images/decorative/)
     -   [W3C Tutorial: Informative Images](https://www.w3.org/WAI/tutorials/images/informative/)
     -   [W3c Tutorial: Functional Images](https://www.w3.org/WAI/tutorials/images/functional/)
+    -   [C9: Using CSS to include decorative images](https://www.w3.org/TR/WCAG20-TECHS/C9.html)
+

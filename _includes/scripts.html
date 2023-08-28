@@ -4,32 +4,31 @@
   src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency={{site.dap.agency}}{% if site.dap.subagency %}&subagency={{site.dap.subagency}}{% endif %}"
 ></script>
 {% if page.title == "Appendix A – Cross Reference Tables Sort" %}
-{% asset accResponsiveTable.js %}
+<!-- scripts for dataTables-->
+<script src="{{site.baseurl}}/assets/js/accResponsiveTable.js"></script>
 {% endif %}
 <!-- imported js modules -->
-{% asset uswds.min.js %}
-{% asset stickyfill.js %}
-{% asset purify.min.js %}
-{% asset anchor-rsd.js %}
+<script src="{{site.baseurl}}/assets/js/uswds.min.js"></script>
+<script src="{{site.baseurl}}/assets/stickyfilljs/stickyfill.js"></script>
+<script src="{{site.baseurl}}/assets/dompurify/purify.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/anchor-rsd.js"></script>
 <!--
-{% asset video.min.js %}
-{% asset Youtube.min.js %}
+<script src="{{site.baseurl}}/assets/video-js/video.min.js"></script>
+<script src="{{site.baseurl}}/assets/youtube-video-js/Youtube.min.js"></script>
 -->
 {% unless page.title == "Appendix A – Cross Reference Tables Sort" %}
-  {% asset jquery.min.js %}
+  <script src="{{site.baseurl}}/assets/jquery/jquery.min.js"></script>
+<!--   <script src="{{site.baseurl}}/assets/js/jquery.dataTables.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/natural.js"></script> -->
 {% endunless %}
-<!--
-{% asset swiper-bundle.js %}
--->
-<!-- {% asset jquery.toast.min.js %} -->
-{% asset toast-rsd.js %}
-{% asset all.min.js %} <!-- fontawesome -->
-
-<!-- local js modules -->
-{% asset menu.js %}
-{% asset app.js %}
-{% asset anchorify.js %}
-{% asset toc-subnav.js %}
-{% asset external-links.js %}
-{% asset datatables.js %}
-<!-- {% asset swiper-rsd.js %} -->
+<script src="{{site.baseurl}}/assets/swiper/swiper-bundle.js "></script>
+<script src="{{site.baseurl}}/assets/jquery-toast-plugin/jquery.toast.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/toast-rsd.js"></script>
+<script src="{{site.baseurl}}/assets/js/swiper-rsd.js"></script>
+<script src="{{site.baseurl}}/assets/js/datatables.js"></script>
+<script src="{{site.baseurl}}/assets/js/external-links.js"></script>
+<script src="{{site.baseurl}}/assets/js/toc-subnav.js"></script>
+<script src="{{site.baseurl}}/assets/js/anchorify.js"></script>
+<script src="{{site.baseurl}}/assets/js/app.js"></script>
+<script src="{{site.baseurl}}/assets/js/menu.js"></script>
+<script src="{{site.baseurl}}/assets/fontawesome-free/js/all.min.js"></script>
