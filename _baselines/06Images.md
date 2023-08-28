@@ -86,8 +86,6 @@ Note: If the image does not have any of these attributes, this would be a failur
         <li> Fail Example 2: <code>&lt;img aria-label="turtle" role="presentation"&gt;</code></li>
     </ul>
 </li>
-    <ol>
-</li>
 </ol>
 
 ##### Test Results
