@@ -39,38 +39,40 @@ site, this is the place to do it.
   <!-- Favicons
     ================================================== -->
   <!-- 128x128 -->
-  <link rel="shortcut icon" type="image/ico" href="{% asset favicon.ico @path %}">
-  <link rel="icon" type="image/png" href="{% asset favicon.ico @path %}">
+  <link rel="shortcut icon" type="image/ico" href="{{site.baseurl}}/images/favicon.ico">
+  <link rel="icon" type="image/png" href="{{site.baseurl}}/images/favicon.ico">
   <!-- 192x192, as recommended for Android
     http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
     -->
-  <link rel="icon" type="image/png" sizes="192x192" href="{% asset favicon.ico @path %}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{site.baseurl}}/images/favicon.ico">
   <!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
-  <link rel="apple-touch-icon-precomposed" href="{% asset favicon.ico @path %}">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{site.baseurl}}/images/favicon.ico">
   <!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% asset favicon.ico @path %}">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{site.baseurl}}/images/favicon.ico">
   <!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% asset favicon.ico @path %}">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{site.baseurl}}/images/favicon.ico">
   <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% asset favicon.ico @path %}">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{site.baseurl}}/images/favicon.ico">
 
   <!-- CSS
     ================================================== -->
 
-  {% asset styles.css %}
-  {% asset components/toast-rsd.css %}
-  {% asset all.min.css %} <!-- fontawesome -->
-  {% asset video-js.min.css %}
-  {% asset swiper-bundle.min.css %}
-  {% asset components/swiper-rsd.css %}
+  <link type="text/css" href="{{site.baseurl}}/assets/css/styles.css" rel="stylesheet" />
+  <link type="text/css" href="{{site.baseurl}}/assets/css/components/toast-rsd.css" rel="stylesheet" />
+  <link type="text/css" href="{{site.baseurl}}/assets/fontawesome-free/css/all.min.css" rel="stylesheet" />
+  <link type="text/css" href="{{site.baseurl}}/assets/video-js/video-js.min.css" rel="stylesheet" />
+  <link type="text/css" href="{{site.baseurl}}/assets/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link type="text/css" href="{{site.baseurl}}/assets/css/components/swiper-rsd.css" rel="stylesheet" />
 
 {% if page.title == "Appendix A – Cross Reference Tables Sort" %}
-<meta name=viewport content="width=device-width, initial-scale=1">
-{% asset jquery.min.js %}
-{% asset jquery.dataTables.min.js %}
-{% asset natural.js %}
-{% asset components/jquery.dataTables.min_ke.css %}
-{% asset components/responsive.dataTables.minke.css %}
+<!-- <meta name=viewport content="width=device-width, initial-scale=1"> -->
+<script src="{{site.baseurl}}/assets/jquery/jquery.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/jquery.dataTables.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/natural.js"></script>
+<!-- <link type="text/css" href="{{site.baseurl}}/assets/css/components/jquery.dataTables.min_ke.css" rel="stylesheet" /> -->
+<link type="text/css" href="{{site.baseurl}}/assets/css/components/jquery.dataTables.min.css" rel="stylesheet" />
+<link type="text/css" href="{{site.baseurl}}/assets/css/components/responsive.dataTables.minke.css" rel="stylesheet" /> 
+
 <style>
 div.appA {
   display: block;
