@@ -72,18 +72,21 @@ order-number: 7
     </ol>
 Note: If the image does not have any of these attributes, this would be a failure.
 </li>
-<li id="2TI-2">Check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
-    <ul>
-        <li> Fail Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
-        <li> Fail Example 2: <code>&lt;img aria-label="turtle" role="presentation"&gt;</code></li>
-    </ul>
-</li>
 <li id="2TI-2">Check that none of the following is true [SC 1.1.1]:
     <ol>
         <li id="2TI-2a">The image is the only way to convey meaningful information.</li>
         <li id="2TI-2b">The image is in the tab order.</li>
         <li id="2TI-2c">The image is a functional image that initiates action.</li>
     </ol>
+</li>
+
+<li id="2TI-3">Check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
+    <ul>
+        <li> Fail Example 1: <code>&lt;img alt="" title="use your notes"&gt;</code></li>
+        <li> Fail Example 2: <code>&lt;img aria-label="turtle" role="presentation"&gt;</code></li>
+    </ul>
+</li>
+    <ol>
 </li>
 </ol>
 
