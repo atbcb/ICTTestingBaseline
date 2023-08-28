@@ -12,61 +12,84 @@ order-number: 7
 
 ### Test Method Rationale
 
-All meaningful and decorative images must be evaluated. Tests for certain image types are specified.
+-   The image tests evaluate the images as coded to discern whether the author of the content has determined they are meaningful or decorative. However, there are certain scenarios, as described in the tests, where the author's programmatic determination could be incorrect.
+-   The tests include guidance from the [W3C Web Accessiblity Initiative Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
+-   All images must be evaluated. Multiple tests may apply to an image. 
 
 ### Limitations, Assumptions, Exceptions
 
--   Commonly used image formats include .jpg, .png, .svg, .gif, .tiff, .bmp. Other graphic formats are also in use and should be considered for this test.
--   Decoration, Formatting, Invisible: If image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
+-   An image that has a non-empty accessible name has been determined to be meaningful by the content author. The author has decided that this image should not be ignored by assistive technology.
+-   An image that has an empty accessible name has been determined to be decorative by the content author. The author has determined that this image should be ignored by assistive technology.
+
+- Use of `role="presentation"` or `role="none"` on an image with other attributes or roles can cause conflicts.  This Baseline tests for these conflicts because [Presentational Roles Conflicts Resolution](https://www.w3.org/TR/wai-aria-1.1/#conflict_resolution_presentation_none) has inconsistent accessibility support.
+    - "If an element with a role of presentation is focusable, or otherwise interactive, user agents MUST ignore the normal effect of the role and expose the element with implicit native semantics, in order to ensure that the element is both [understandable](https://www.w3.org/TR/wai-aria-1.1/#dfn-understandable) and [operable](https://www.w3.org/TR/wai-aria-1.1/#dfn-operable)." Because accessibility support is inconsistent, this Baseline checks that an image with an empty text alternative is not in the tab order nor a functional image.
+    - "User agents MUST always expose [global WAI-ARIA states and properties](https://www.w3.org/TR/wai-aria-1.1/#global_states) to accessibility APIs, even if an element has an explicit or inherited role of presentation. In this case, the user agent ignores the presentation role and exposes the element according to its implicit native semantics." "Authors SHOULD NOT provide meaningful alternative text (for example, use `alt=""` in HTML) when the presentation role is applied to an image." [WAI-ARIA 1.1, presentation (role)](https://www.w3.org/TR/wai-aria-1.1/#presentation). Because accessibility support is inconsistent, this Baseline checks that an image that has `role="presentation"` or `role="none"` does not have a non-empty text alternative attribute, and an image that has a non-empty text alternative does not have `role="presentation"` or `role="none"`.
+-   Commonly used image formats include .jpg, .png, .svg, .gif, .tiff, and .bmp. Other graphic formats are also in use and should be considered for this test.
+-   Decoration, Formatting, Invisible: If the image is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology.
 -   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 -   Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
 -   The [definition of image of text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-text-presentation.html#images-of-textdef) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
 -   While a longdesc attribute has been used historically to provide extended description for images and is listed as a sufficient technique in WCAG ([H45](https://www.w3.org/TR/WCAG20-TECHS/H45.html)), the technique [is not currently well supported for accessibility](https://webaim.org/techniques/alttext/longdesctestcases.htm) and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element); therefore, this Baseline does not accept the technique.
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
-### 6.1 Test Procedure for Meaningful Images
+### 6.1 Test Procedure for Images with a non-empty text alternative
 **Baseline Test ID:** 6.1-MeaningfulImage
 
 #### Identify Content
-<p id="1IC">Identify any image that conveys information (include images of text; functional images used to initiate action, convey meaning, or prompting a response; image maps, etc.).</p>
+<p id="1IC">Identify any image (i.e., <code>img</code> element or an element with <code>role="img"</code>) that has a non-empty text alternative (combination of the accessible name and accessible description) per the <a href="https://www.w3.org/TR/html-aam-1.0/#img-element">HTML Accessibility API Mappings 1.0 for img</a>. </p>
 
 ##### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
-    <li id="1TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description. Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>. [SC 1.1.1]
+    <li id="1TI-2">Check that none of the following is true [SC 1.1.1]:
     <ol>
-        <li id="1TI-2i">Descriptions of the image that are provided by page content must be programmatically associated.</li>
-        <li id="1TI-2ii">When an image is updated to convey new meaning, its text alternative must be updated at the same time. Notification of the change must be provided per <a href="../05Changing/#51-test-procedure-for-changes-in-content">Baseline Test 5.1 Changes in Content</a>"</li>
-    </ol></li>
+        <li id="1TI-2i">The image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
+        <li id="1TI-2ii">The image is not visible on the page.</li>
+    </ol>
+    </li>
     <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
     <li id="1TI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
-    <li id="1TI-5">Check that aria-hidden is <strong>NOT</strong> set to "true".[SC 4.1.2]</li>
+    <li id="1TI-5">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. [SC 1.1.1]</li>
 </ol>
 
 ##### Test Results
 <p id="1TR">If any of the above checks fail, then Baseline Test 6.1-MeaningfulImage fails.</p>
 
-### 6.2 Test Procedure for Decorative Images
+### 6.2 Test Procedure for Images with an empty text alternative
 **Baseline Test ID:** 6.2-DecorativeImage
 
 #### Identify Content
-<p id="2IC">Identify any decorative image that is pure decoration, is used only for visual formatting, or is not presented to users.</p>
+<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role="img"</code>, or element that includes a CSS background image) that has an empty text alternative. </p>
 
 ##### Test Instructions
 <ol>
-<li id="2TI-1">Check that at least one of the following is true [SC 1.1.1]:
+<li id="2TI-1">Check that the empty text alternative has been programmatically assigned using one of the following techniques [SC 1.1.1]:
     <ol>
         <li id="2TI-1a">The ARIA role is "presentation".</li>
         <li id="2TI-1b">The ARIA role is "none".</li>
         <li id="2TI-1c">The aria-hidden is set to "true".</li>
-        <li id="2TI-1d">The text alternative (combination of accessible name and accessible description) is empty (e.g. ""). Numerous attributes contribute to the computation of the accessible name and accessible description. Refer to <a href="https://www.w3.org/TR/html-aam-1.0/#img-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for img</a>.</li>
-        <li id="2TI-1e">The image is inserted via CSS (e.g., using a background image).</li>
+        <li id="2TI-1d">The attribute <code>alt=""</code>.</li>
+        <li id="2TI-1e">The image is inserted via CSS (i.e., a background image).</li>
     </ol>
+Note: If the image does not have any of these attributes, this would be a failure.
+</li>
+<li id="2TI-2">Check that none of the following is true [SC 1.1.1]:
+    <ol>
+        <li id="2TI-2a">The image is the only way to convey meaningful information.</li>
+        <li id="2TI-2b">The image is in the tab order.</li>
+        <li id="2TI-2c">The image is a functional image that initiates action.</li>
+    </ol>
+</li>
+
+<li id="2TI-3">For images with <code>role="presentation"</code> or <code>role="none"</code>, check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
+    <ul>
+        <li> Fail Example 1: <code>&lt;img role="none" alt="use your notes"&gt;</code></li>
+        <li> Fail Example 2: <code>&lt;img aria-label="turtle" role="presentation"&gt;</code></li>
+    </ul>
 </li>
 </ol>
 
 ##### Test Results
-<p id="2TR">If all of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>
+<p id="2TR">If any of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>
 
 ### 6.3 Test Procedure for Captchas
 **Baseline Test ID:** 6.3-Captcha
@@ -77,7 +100,7 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
 ##### Test Instructions
 <ol id="3TI">
     <li id="3TI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
-    <li id="3TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) identify and describe the purpose of the CAPTCHA. [SC 1.1.1]</li>
+    <li id="3TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) identifies and describes the purpose of the CAPTCHA. [SC 1.1.1]</li>
     <li id="3TI-3">Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. [SC 1.1.1]</li>
 </ol>
 
@@ -117,4 +140,10 @@ All meaningful and decorative images must be evaluated. Tests for certain image 
     -   [F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null (e.g., alt="spacer" or alt="image") for images that should be ignored by assistive technology](https://www.w3.org/TR/WCAG20-TECHS/F39.html)
     -   [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type = "image"](https://www.w3.org/TR/WCAG20-TECHS/F65.html)
     -   [F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/F20.html)
+    -   [C9: Using CSS to include decorative images](http://www.w3.org/TR/WCAG20-TECHS/C9.html)
+    -   [F3: Using CSS to include images that convey important information](https://www.w3.org/TR/WCAG20-TECHS/F3.html)
+    -   [W3C Tutorial: Decorative Images](https://www.w3.org/WAI/tutorials/images/decorative/)
+    -   [W3C Tutorial: Informative Images](https://www.w3.org/WAI/tutorials/images/informative/)
+    -   [W3c Tutorial: Functional Images](https://www.w3.org/WAI/tutorials/images/functional/)
     -   [C9: Using CSS to include decorative images](https://www.w3.org/TR/WCAG20-TECHS/C9.html)
+

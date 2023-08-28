@@ -14,8 +14,9 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings |
 | 3.1 Non-Interference | Identify Content: added links to Baseline Tests |
 | 5. Changing Content | Significant changes to this test to cover SC 4.1.2 more accurately. Name of test changed to 5. User Controls. |
-| 6. Images | Limitations, Assumptions, Exceptions: Removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
-| 6.1 Meaningful Image | Instruction 2: removed mapping to 1.1.1 and 4.1.2 |
+| 6. Images | Limitations, Assumptions, Exceptions: removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
+| 6. Images | Test Method Rationale: added "The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. However, there are certain scenarios as described in the tests where the author's determination would be incorrect." |
+| 6.1, 6.2 | Test Procedures updated to defer to author to determine meaningful or decorative images, W3C Image Tutorials added under WCAG Techniques section |
 | 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
 | 7.3 Audible Cues | New test added which maps to SC 1.1.1 |
 | 10.1 Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2 |
@@ -29,7 +30,8 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 16.3 and 16.4 | New tests added for media alternatives for text |
 | 17.4 Captions (Prerecorded) and 17.5 Audio Descriptions (Prerecorded) | Identify Content of both: added "Do not include media that is clearly labeled as a media alternative for text." |
 | 17.7 Media Alternative (Prerecorded) | New test added for Sync media alternative (prerecorded) |
-| 18. CSS Content and Positioning | Accessibility Requirements: removed SC 1.3.1 |
+| 18. CSS Content and Positioning | Renamed to CSS Positioning, Accessibility Requirements: removed SC 1.1.1 and 1.3.1 |
+| 18.1 Meaningful Background Image | Removed. CSS background images are covered under 6.2 Images with empty text alternative. |
 | 19.1 Frames | Instruction 1: separated to 2 test instructions |
 | Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs |
 | Site home | Added single file of all Baseline Tests | 
