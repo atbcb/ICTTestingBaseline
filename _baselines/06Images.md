@@ -80,7 +80,7 @@ Note: If the image does not have any of these attributes, this would be a failur
     </ol>
 </li>
 
-<li id="2TI-3">For images with `role="presentation"` or `role="none"`, check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
+<li id="2TI-3">For images with <code>role="presentation"</code> or <code>role="none"</code>, check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
     <ul>
         <li> Fail Example 1: <code>&lt;img role="none" alt="use your notes"&gt;</code></li>
         <li> Fail Example 2: <code>&lt;img aria-label="turtle" role="presentation"&gt;</code></li>
