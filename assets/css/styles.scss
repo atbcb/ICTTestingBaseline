@@ -230,8 +230,6 @@ td ul.check {
 
 .site-title-short {
   @include u-text("base-lightest");
-	margin-left: 10px; 
-	margin-right: 10px;
 }
 
 .site-subtitle {
@@ -262,6 +260,8 @@ td ul.check {
     max-height: 3rem;
     max-width: 4rem;
     padding: 5px 10px 5px 10px;
+	margin-left: 10px; 
+	margin-right: 10px;
   }
   .star-logo {
     max-height: 3rem;
