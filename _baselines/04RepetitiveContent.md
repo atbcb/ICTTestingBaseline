@@ -90,7 +90,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
     -   [G124: Adding links at the top of the page to each area of the content](https://www.w3.org/TR/WCAG20-TECHS/G124.html)
     -   [SCR28: Using an expandable and collapsible menu to bypass block of content](https://www.w3.org/TR/WCAG20-TECHS/SCR28.html)
     -   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/TR/WCAG20-TECHS/G202.html)
-    -   [H70: Using frame elements to group blocks of repeated material](https://www.w3.org/TR/WCAG20-TECHS/H70.html) AND [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/TR/WCAG20-TECHS/H64.html)
+    -   [H70: Using frame elements to group blocks of repeated material](https://www.w3.org/TR/WCAG20-TECHS/H70.html) **AND** [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/TR/WCAG20-TECHS/H64.html)
     -   [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/TR/WCAG20-TECHS/G61.html)
     -   [G197: Using labels, names, and text alternatives consistently for content that has the same functionality](https://www.w3.org/TR/WCAG20-TECHS/G197.html)
     -   [F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages](https://www.w3.org/TR/WCAG20-TECHS/F31.html)

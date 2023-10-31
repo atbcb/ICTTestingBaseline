@@ -6,6 +6,8 @@ order-number: 11
 
 ### Accessibility Requirements
 
+-   [WCAG2 SC: 1.1.1. Non-Text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/text-equiv-all.html) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for [specific] situations:
+    - Controls, Input: If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Success Criterion 4.1.2 for additional requirements for controls and content that accepts user input.)
 -   [WCAG2 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html): Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
 -   [WCAG 2.4.6 Headings and Labels](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html): Headings and labels describe topic or purpose.
 -   [WCAG 3.2.2 On Input](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-unpredictable-change.html): Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.
@@ -40,14 +42,14 @@ Review form instructions for completeness and programmatic association to their 
 **Baseline Test ID:** 10.1-FormName
 #### Identify Content
 <ol id="1IC">
-    <li id="1IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.</li>
+    <li id="1IC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.</li>
     <li id="1IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="1TI-2">Check that the non-empty combination of the accessible name and accessible description and other programmatic associations (e.g., table column and/or row associations) describes each form component and includes all relevant instructions and cues (textual and graphical).  [SC 1.3.1]  For details on the computation of the accessible name and accessible description, references include:
+    <li id="1TI-2">Check that the non-empty combination of the accessible name and accessible description describes the form's purpose. [SC 4.1.2] [Form components that include non-text content should also map to SC 1.1.1.]  For details on the computation of the accessible name and accessible description, references include:
 		<ul>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-search-input-type-tel-input-type-url-and-textarea-element" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
@@ -55,6 +57,8 @@ Review form instructions for completeness and programmatic association to their 
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-image" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input type="image"</code></a></li>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#other-form-elements" target="_blank" rel="noopener">HTML Accessibility API Mappings for Other Form Elements</a></li>
 		</ul></li>
+    <li id="1TI-3">Check that all relevant instructions and cues (textual and graphical) have programmatic association (e.g., table column and/or row header associations) to the form component. [SC 1.3.1]
+    </li>
 </ol>
 
 #### Test Results
@@ -64,7 +68,7 @@ Review form instructions for completeness and programmatic association to their 
 **Baseline Test ID:** 10.2-FormDescriptiveLabel
 #### Identify Content
 <ol id="2IC">
-    <li id="2IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
+    <li id="2IC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
     <li id="2IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
@@ -125,18 +129,18 @@ Review form instructions for completeness and programmatic association to their 
 #### Test Results
 <p id="4TR">If any of the above checks fail, then Baseline Test 10.4-ErrorIdentification fails.</p>
 
-### 10.5 Test Procedure for Form has a Label
+### 10.5 Test Procedure for Form has a Visible Label
 
 **Baseline Test ID:** 10.5-FormHasLabel
 #### Identify Content
 <ol id="5IC">
-    <li id="5IC-1">Find all form components. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
+    <li id="5IC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
     <li id="5IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
 #### Test Instructions
 <ol id="5TI">
-    <li id="5TI-1">Check that each form component has label(s) or instructions. [SC 3.3.2]</li>
+    <li id="5TI-1">Check that each form component has visible label(s) or instructions while the form component has focus. [SC 3.3.2]</li>
 </ol>
 
 #### Test Results
@@ -184,10 +188,6 @@ Review form instructions for completeness and programmatic association to their 
 #### Test Results
 <p id="7TR">If any of the above checks fail, then Baseline Test 10.7-ErrorPrevention fails.</p>
 
-### Test Procedure for Form Changes
-
-Form components that change are tested in [Baseline 5. Changing Content](05Changing).
-
 ### Advisory: Tips for streamlined test processes
 
 -   For SC 3.3.1, acceptable techniques include a) shifting focus to an error message informing the user that the previous field needs to be corrected and describing the error, b) refreshing the page upon form submission, then listing the error descriptions and locations at the top of the page. Re-displaying the form and indicating the fields in error within the form is insufficient to meet this requirement. The user should not need to search through the form to find where errors were made.
@@ -195,7 +195,8 @@ Form components that change are tested in [Baseline 5. Changing Content](05Chang
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G115: Using semantic elements to mark up structure](https://www.w3.org/TR/WCAG20-TECHS/G115.html) AND [H49: Using semantic markup to mark emphasized or special text](https://www.w3.org/TR/WCAG20-TECHS/H49.html)
+
+-   [G115: Using semantic elements to mark up structure](https://www.w3.org/TR/WCAG20-TECHS/G115.html) **AND** [H49: Using semantic markup to mark emphasized or special text](https://www.w3.org/TR/WCAG20-TECHS/H49.html)
 -   [G80: Providing a submit button to initiate a change of context](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G80)
 -   [G13: Describing what will happen before a change to a form control that causes a change of context to occur is made](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G13)
 -   [G131: Providing descriptive labels](https://www.w3.org/TR/WCAG20-TECHS/G131.html)

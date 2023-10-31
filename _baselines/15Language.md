@@ -50,10 +50,11 @@ The default human language for each page must be programmatically identified. Pa
     <li id="2TI-2">Check that the lang attribute is specified for any HTML element that contains a content segment that differs from the default human language of the page. [SC 3.1.2]<br>
     Note: An element without a set language inherits its language attribute from parent elements.</li>
     <li id="2TI-3">Check that the value of the lang attribute is correctly defined for the content segment. [SC 3.1.2]
-        <ol>
+        <ul>
             <li id="2TI-3i">The primary language subtag is the first 2 or 3 character code in the value of the lang attribute. (Do not test additional language specifications that may follow the primary language subtag.)</li>
             <li id="2TI-3ii">The primary language subtag must conform to the Internet Assigned Numbers Authority's <a href="https://www.iana.org/assignments/language-subtag-registry" target="_blank" rel="noopener">IANA Language subtag registry</a>.</li>
-        </ol></li>
+        </ul>
+    </li>
 </ol>
 
 #### Test Results
