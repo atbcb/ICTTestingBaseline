@@ -195,6 +195,7 @@ Review form instructions for completeness and programmatic association to their 
 
 #### WCAG 2.0 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [G115: Using semantic elements to mark up structure](https://www.w3.org/TR/WCAG20-TECHS/G115.html) **AND** [H49: Using semantic markup to mark emphasized or special text](https://www.w3.org/TR/WCAG20-TECHS/H49.html)
 -   [G80: Providing a submit button to initiate a change of context](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G80)
 -   [G13: Describing what will happen before a change to a form control that causes a change of context to occur is made](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G13)

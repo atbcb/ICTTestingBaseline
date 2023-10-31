@@ -276,6 +276,8 @@ td ul.check {
   }
   .star-logo-box {
     max-width: 6rem;
+	  margin-left: 10px; 
+	margin-right: 10px;
   }
   .site-subtitle {
     @include u-font('sans', 'md');
