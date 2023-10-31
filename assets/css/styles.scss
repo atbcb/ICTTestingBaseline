@@ -259,10 +259,7 @@ td ul.check {
   .star-logo-box {
     max-height: 3rem;
     max-width: 4rem;
-	  border: 1px solid white;
-    padding: 5px 10px 5px 10px;
-	margin-left: 10px; 
-	margin-right: 10px;
+    padding: 5px 10px 5px 10px;	
   }
   .star-logo {
     max-height: 3rem;
@@ -279,6 +276,9 @@ td ul.check {
   }
   .star-logo-box {
     max-width: 6rem;
+	  border: 1px solid white;
+	  margin-left: 10px; 
+	margin-right: 10px;
   }
   .site-subtitle {
     @include u-font('sans', 'md');
