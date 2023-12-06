@@ -32,7 +32,7 @@ order-number: 7
 -   CAPTCHA: If the purpose of the image is to confirm that content is being accessed by a person rather than a computer, then text alternatives that identify and describe the purpose of the image(s) are provided, and alternative forms of CAPTCHA using output modes for different types of sensory perception are provided to accommodate different disabilities.
 -   Images of text which are essential to the information being conveyed are exempt from SC 1.4.5. Logotypes (text that is part of a logo or brand name) are considered essential.
 -   The [definition of image of text](https://www.w3.org/TR/WCAG22/#dfn-images-of-text) contains the note: "Note: This does not include text that is part of a picture that contains significant other visual content." Examples of such pictures include graphs, screenshots, and diagrams which visually convey important information through more than just text.
--   The [WCAG 2.0 Sufficient Technique H45: Using longdesc](https://www.w3.org/TR/WCAG20-TECHS/H45.html) has been removed from WCAG 2.2 and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element. This Baseline does not accept the technique.
+-   The [WCAG 2.0 Sufficient Technique H45: Using longdesc](https://www.w3.org/TR/WCAG20-TECHS/H45.html) is not supported by the Baseline for Web and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element). WCAG 2.2 also does not have a sufficient technique for longdesc. 
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
 ### 6.1 Test Procedure for Images with a non-empty text alternative
