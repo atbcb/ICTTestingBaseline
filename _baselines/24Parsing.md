@@ -34,7 +34,7 @@ order-number: 25
 
 ### Advisory: Tips for streamlined test processes
 
-- NA.
+- None
 
 #### WCAG 2.2 Techniques
 While SC 4.1.1 has been deprecated in WCAG 2.2, the following sufficient techniques remain available for reference:
