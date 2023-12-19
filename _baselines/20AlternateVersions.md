@@ -6,7 +6,7 @@ order-number: 21
 
 ### Accessibility Requirements
 
--   [WCAG Conforming Alternate Version](https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html#uc-conforming-alt-versions-head): Conformance requirement \#1 allows non-conforming pages to be included within the scope of conformance as long as there is a "conforming alternate version", which is defined as a version that
+-   [WCAG Conforming Alternate Version](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conforming-alt-versions): Conformance requirement \#1 allows non-conforming pages to be included within the scope of conformance as long as there is a "conforming alternate version", which is defined as a version that
     1.  conforms at the designated level, and
     2.  provides all of the same information and functionality in the same human language, and
     3.  is as up to date as the non-conforming content, and
@@ -59,8 +59,10 @@ An alternate version must meet all parts of the definition in order to be consid
 -   When a conforming alternate version is provided, non-conforming versions of that content are tested only for [Conformance Requirement 5](25Noninterference.html). It is not necessary to test the non-conforming versions of that content for other baseline tests.
 -   The presence of a conforming alternate version can determine whether other versions of the content need to be tested. To save on time and effort, it is advised that this be one of the first tests performed.
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G136: Providing a link at the beginning of a nonconforming Web page that points to a conforming alternate version](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G136)
--   [G190: Providing a link adjacent to or associated with a non-conforming object that links to a conforming alternate version](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G190)
--   [C29: Using a style switcher to provide a conforming alternate version (CSS)](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/C29)
+
+-   [C29: Using a style switcher to provide a conforming alternate version (CSS)](https://www.w3.org/WAI/WCAG22/Techniques/css/C29)
+-   [G136: Providing a link at the beginning of a nonconforming Web page that points to a conforming alternate version](https://www.w3.org/WAI/WCAG22/Techniques/general/G136)
+-   [G190: Providing a link adjacent to or associated with a non-conforming object that links to a conforming alternate version](https://www.w3.org/WAI/WCAG22/Techniques/general/G190)
+
