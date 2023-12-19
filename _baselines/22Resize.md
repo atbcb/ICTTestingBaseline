@@ -6,7 +6,7 @@ order-number: 23
 
 ### Accessibility Requirements
 
--   [WCAG SC 1.4.4 Resize text](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-scale.html) -- Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
+-   [WCAG SC 1.4.4 Resize text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text) -- Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.
 
 ### Test Method Rationale
 
@@ -46,9 +46,10 @@ This baseline test requires an evaluation of visual content and functionality af
 
 ### Advisory: Tips for streamlined test processes
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G178: Providing controls on the Web page that allow users to incrementally change the size of all text on the page up to 200 percent](https://www.w3.org/TR/WCAG20-TECHS/G178.html)
--   [G179: Ensuring that there is no loss of content or functionality when the text resizes and text containers do not change their width](https://www.w3.org/TR/WCAG20-TECHS/G179.html)
--   [F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured](https://www.w3.org/TR/WCAG20-TECHS/F69.html)
--   [F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%](https://www.w3.org/TR/WCAG20-TECHS/F80.html)
+
+-   [F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured](https://www.w3.org/WAI/WCAG22/Techniques/failures/F69)
+-   [F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%](https://www.w3.org/WAI/WCAG22/Techniques/failures/F80)
+-   [G178: Providing controls on the Web page that allow users to incrementally change the size of all text on the page up to 200 percent](https://www.w3.org/WAI/WCAG22/Techniques/general/G178)
+-   [G179: Ensuring that there is no loss of content or functionality when the text resizes and text containers do not change their width](https://www.w3.org/WAI/WCAG22/Techniques/general/G179)

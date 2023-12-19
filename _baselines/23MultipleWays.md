@@ -6,7 +6,7 @@ order-number: 24
 
 ### Accessibility Requirements
 
--   [WCAG SC 2.4.5 Multiple Ways](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-mult-loc.html) -- More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.
+-   [WCAG SC 2.4.5 Multiple Ways](https://www.w3.org/WAI/WCAG22/Understanding/multiple-ways) -- More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.
 
 ### Test Method Rationale
 
@@ -43,11 +43,12 @@ This baseline requires a manual check for multiple techniques to locate a web pa
 
 -   Additional techniques for locating a Web page may be available beyond those listed in the test instructions.
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G125: Providing links to navigate to related Web pages](https://www.w3.org/TR/WCAG20-TECHS/G125.html)
--   [G64: Providing a Table of Contents](https://www.w3.org/TR/WCAG20-TECHS/G64.html)
--   [G63: Providing a site map](https://www.w3.org/TR/WCAG20-TECHS/G63.html)
--   [G161: Providing a search function to help users find content](https://www.w3.org/TR/WCAG20-TECHS/G161.html)
--   [G126: Providing a list of links to all other Web pages](https://www.w3.org/TR/WCAG20-TECHS/G126.html)
--   [G185: Linking to all of the pages on the site from the home page](https://www.w3.org/TR/WCAG20-TECHS/G185.html)
+
+-   [G63: Providing a site map](https://www.w3.org/WAI/WCAG22/Techniques/general/G63)
+-   [G64: Providing a Table of Contents](https://www.w3.org/WAI/WCAG22/Techniques/general/G64)
+-   [G125: Providing links to navigate to related Web pages](https://www.w3.org/WAI/WCAG22/Techniques/general/G125)
+-   [G126: Providing a list of links to all other Web pages](https://www.w3.org/WAI/WCAG22/Techniques/general/G126)
+-   [G161: Providing a search function to help users find content](https://www.w3.org/WAI/WCAG22/Techniques/general/G161)
+-   [G185: Linking to all of the pages on the site from the home page](https://www.w3.org/WAI/WCAG22/Techniques/general/G185)
