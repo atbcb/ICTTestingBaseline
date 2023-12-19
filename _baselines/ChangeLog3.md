@@ -30,6 +30,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
 | 16.1 and 16.2 | Added "Do not include media that is clearly labeled as a media alternative for text." |
 | 16.3 and 16.4 | New tests added for media alternatives for text |
+| 17. Synchronized Media | Definitions added/updated; Advisory tip for SC 1.2.3 result updated from "Not Tested" to "Not Applicable". |
 | 17.4 Captions (Prerecorded) and 17.5 Audio Descriptions (Prerecorded) | Identify Content of both: added "Do not include media that is clearly labeled as a media alternative for text." |
 | 17.7 Media Alternative (Prerecorded) | New test added for Sync media alternative (prerecorded) |
 | 18. CSS Content and Positioning | Renamed to CSS Positioning, Accessibility Requirements: removed SC 1.1.1 and 1.3.1 |
