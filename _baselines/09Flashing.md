@@ -35,9 +35,9 @@ This test addresses flashing caused by the content itself, including:
 #### Test Instructions
 <ol id="1TI">
     <li>Set the user agent at standard zoom level, e.g. 100% in a browser.</li>
-    <li>If there is an option to be view a larger version the flashing content, such as a full screen mode, test the larger version. If there is an option to loop or repeat the flashing content, test the looping version.
-    <li id="1TI-1">Determine the flashing frequency. If the flashing is less than or equal to 3 flashes in any one second, no further testing is necessary.</li>
-    <li id="1TI-2">If the content flashes above 3Hz or the frequency cannot be determined, check that it meets at least one of the following: [SC 2.3.1]
+    <li>If there is an option to view a larger version the flashing content, such as a full screen mode, test the larger version. If there is an option to loop or repeat the flashing content, test the looping version.</li>
+    <li id="1TI-1">Check the flashing frequency. If the flashing is less than or equal to 3 flashes in any one second (3 Hertz), no further testing is necessary.</li>
+    <li id="1TI-2">If the content flashes above 3Hertz or the frequency cannot be determined, check that it meets at least one of the following: [SC 2.3.1]
     <ol>
         <li id="1TI-2i">the combined area of flashes occurring concurrently occupies no more than a 341 x 256 pixel rectangle anywhere on the displayed screen area when the content is viewed at 1024 x 768 pixels.</li>
         <li id="1TI-2ii">the flash does not include "general flashes" (defined as a pair of opposing changes in relative luminance of 10% or more of the maximum relative luminance (1.0) where the relative luminance of the darker image is below 0.80; and where "a pair of opposing changes" is an increase followed by a decrease, or a decrease followed by an increase)</li>
