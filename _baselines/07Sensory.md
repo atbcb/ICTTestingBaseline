@@ -92,7 +92,7 @@ Users affected by this requirement are not limited to users of assistive technol
 -   Related tests might include dynamic content, images, links, and alternate pages.
 -   Displaying content in greyscale may help identify content that uses only color to convey information.
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     -   [F14: Failure of Success Criterion 1.3.3 due to identifying content only by its shape or location](https://www.w3.org/WAI/WCAG22/Techniques/failures/F14)
     -   [F26: Failure of Success Criterion 1.3.3 due to using a graphical symbol alone to convey information](https://www.w3.org/WAI/WCAG22/Techniques/failures/F26)

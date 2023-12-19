@@ -128,7 +128,7 @@ Note: If the image does not have any of these attributes, this would be a failur
 
 ### Advisory: Tips for streamlined test processes
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     -   [ARIA6: Using aria-label to provide labels for objects](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA6)
     -   [ARIA15: Using aria-describedby to provide descriptions of images](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA15)

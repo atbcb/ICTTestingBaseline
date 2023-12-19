@@ -80,7 +80,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 -   If bypass method is in the focus order but is not visible when it has keyboard focus, this is a failure of Baseline 2.1 Focus Visible.
 -   If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with Baseline 14.1 Links. For example, a page with repetitive links should have a descriptive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 
 -   The following sufficient techniques and/or common failures were also considered when developing this test procedure for this baseline requirement:
     -   [F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages](https://www.w3.org/WAI/WCAG22/Techniques/failures/F31)

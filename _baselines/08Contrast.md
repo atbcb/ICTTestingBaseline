@@ -52,7 +52,7 @@ This test is conducted to evaluate equal access to information for all users, in
 -   There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See [Sufficient Technique G18](https://www.w3.org/WAI/WCAG22/Techniques/general/G18) for possible testing tools that use an appropriate algorithm.
 -   While text contained in logos rendered as images is exempt from this requirement, the image must still provide alternative text (e.g., via an alt attribute).
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     -   [G18: Ensuring that a contrast ratio of at least 4.5:1 exists between text (and images of text) and background behind the text](https://www.w3.org/WAI/WCAG22/Techniques/general/G18)
     -   [G145: Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text](https://www.w3.org/WAI/WCAG22/Techniques/general/G145)

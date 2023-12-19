@@ -107,7 +107,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 -   It may be useful to combine these tests with tests for keyboard navigation and visible focus.
 -   It may be useful to provide instructions about what "modal dialog boxes" are and how they should behave.
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 
 -   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
     -   [F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received](https://www.w3.org/WAI/WCAG22/Techniques/failures/F55)
