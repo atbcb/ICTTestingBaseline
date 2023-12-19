@@ -36,6 +36,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 18. CSS Content and Positioning | Renamed to CSS Positioning, Accessibility Requirements: removed SC 1.1.1 and 1.3.1 |
 | 18.1 Meaningful Background Image | Removed. CSS background images are covered under 6.2 Images with empty text alternative. |
 | 19.1 Frames | Instruction 1: separated to 2 test instructions |
+| 24. Parsing | Incorporating WCAG 2.0 Errata, the parsing test always passes. Removed previous test instructions. |
 | Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs |
 | Site home | Added single file of all Baseline Tests | 
 
