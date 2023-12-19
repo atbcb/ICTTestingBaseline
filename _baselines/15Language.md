@@ -6,8 +6,8 @@ order-number: 16
 
 ### Accessibility Requirements
 
--   [WCAG SC 3.1.1 Language of Page](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html) -- The default human language of each Web page can be programmatically determined.
--   [WCAG SC 3.1.2 Language of Parts](https://www.w3.org/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html) -- The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
+-   [WCAG SC 3.1.1 Language of Page](https://www.w3.org/WAI/WCAG22/Understanding/language-of-page) -- The default human language of each Web page can be programmatically determined.
+-   [WCAG SC 3.1.2 Language of Parts](https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts) -- The human language of each passage or phrase in the content can be programmatically determined except for proper names, technical terms, words of indeterminate language, and words or phrases that have become part of the vernacular of the immediately surrounding text.
 
 ### Test Method Rationale
 
@@ -64,7 +64,8 @@ The default human language for each page must be programmatically identified. Pa
 
 None.
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [H57: Using language attributes on the html element](https://www.w3.org/TR/WCAG20-TECHS/H57.html)
--   [H58: Using language attributes to identify changes in the human language](https://www.w3.org/TR/WCAG20-TECHS/H58.html)
+
+-   [H57: Using language attributes on the html element](https://www.w3.org/WAI/WCAG22/Techniques/html/H57)
+-   [H58: Using language attributes to identify changes in the human language](https://www.w3.org/WAI/WCAG22/Techniques/html/H58)

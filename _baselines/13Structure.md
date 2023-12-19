@@ -6,8 +6,8 @@ order-number: 14
 
 ### Accessibility Requirements
 
--   [WCAG SC 2.4.6 Headings and Labels](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-descriptive.html) -- Headings and labels describe topic or purpose.
--   [WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-programmatic.html) -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
+-   [WCAG SC 2.4.6 Headings and Labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels) -- Headings and labels describe topic or purpose.
+-   [WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships) -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
 
 ### Test Method Rationale
 
@@ -20,7 +20,7 @@ order-number: 14
 -   Pages can have more than one heading level 1 or no heading level 1.
 -   The heading level 1 on a page is not required to match the page title.
 -   The order of heading levels may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an `<h2>` heading may be used for a navigation structure that precedes an `<h1>` title on a page. Similarly, `<h1>` may be followed by `<h3>` without `<h2>` between them. 
--   Not all lists need markup. For instance, sentences that contain comma-separated lists may not need list markup ([H48: Using ol, ul and dl for lists or groups of links](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)).
+-   Not all lists need markup. For instance, sentences that contain comma-separated lists may not need list markup ([H48: Using ol, ul and dl for lists or groups of links](https://www.w3.org/WAI/WCAG22/Techniques/html/H48)).
 -   A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques. 
 
 ### 13.1 Test Procedure for Descriptive Headings
@@ -51,8 +51,8 @@ order-number: 14
             <li id="2TI-1b">Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.</li>
             <li id="2TI-1c">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
             <ol>
-                <li><a href="https://www.w3.org/TR/WCAG20-TECHS/H42.html" target="_blank" rel="noopener">H42</a>: each heading is marked with <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</li>
-                <li><a href="https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html" target="_blank" rel="noopener">ARIA12</a>: each heading is marked with <code>role="heading"</code> and <code>aria-level="#"</code>. The default heading level is "2" when none is specified.</li>
+                <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H42" target="_blank" rel="noopener">H42</a>: each heading is marked with <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</li>
+                <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA12" target="_blank" rel="noopener">ARIA12</a>: each heading is marked with <code>role="heading"</code> and <code>aria-level="#"</code>. The default heading level is "2" when none is specified.</li>
             </ol></li>
         </ol></li>
 </ol>
@@ -101,11 +101,11 @@ For each visually apparent list:
 ### Advisory: Tips for streamlined test processes
 - There is not a test to check that programmatic lists are visually apparent lists. 
 
-#### WCAG 2.0 Techniques
+#### WCAG 2.2 Techniques
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [ARIA12: Using role=”heading” and aria-level=”\#” to identify heading levels](https://www.w3.org/TR/WCAG20-TECHS/ARIA12.html)
--   [H42: Using &lt;h1&gt; to &lt;h6&gt; to identify headings](https://www.w3.org/TR/WCAG20-TECHS/H42.html)
--   [G130: Providing descriptive headings](https://www.w3.org/TR/WCAG20-TECHS/G130.html)
--   [G115: Using semantic elements to mark up structure](https://www.w3.org/TR/WCAG20-TECHS/G115.html) **AND** [H49: Using semantic markup to mark emphasized or special text](https://www.w3.org/TR/WCAG20-TECHS/H49.html)
--   [G117: Using text to convey information that is conveyed by variations in presentation of text](https://www.w3.org/TR/WCAG20-TECHS/G117.html)
--   [H48: Using ol, ul and dl for lists or groups of links](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/H48)
+-   [ARIA12: Using role=”heading” and aria-level=”\#” to identify heading levels](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA12)
+-   [G115: Using semantic elements to mark up structure](https://www.w3.org/WAI/WCAG22/Techniques/general/G115) **AND** [H49: Using semantic markup to mark emphasized or special text](https://www.w3.org/WAI/WCAG22/Techniques/html/H49)
+-   [G117: Using text to convey information that is conveyed by variations in presentation of text](https://www.w3.org/WAI/WCAG22/Techniques/general/G117)
+-   [G130: Providing descriptive headings](https://www.w3.org/WAI/WCAG22/Techniques/general/G130)
+-   [H42: Using &lt;h1&gt; to &lt;h6&gt; to identify headings](https://www.w3.org/WAI/WCAG22/Techniques/html/H42)
+-   [H48: Using ol, ul and dl for lists or groups of links](https://www.w3.org/WAI/WCAG22/Techniques/html/H48)
