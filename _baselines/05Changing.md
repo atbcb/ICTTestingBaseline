@@ -27,7 +27,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 **Baseline Test ID:** 5.1-ChangedControlName
 
 #### Identify Content
-<p id="1IC">Identify user controls for a distinct function. Exclude forms and links as these are covered by [Baseline 10. Forms](../10Forms), [Baseline 14. Links](../14Links), respectively.</p>
+<p id="1IC">Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="../10Forms">Baseline 10. Forms</a>, [Baseline 14. Links](../14Links), respectively.</p>
 
 
 #### Test Instructions

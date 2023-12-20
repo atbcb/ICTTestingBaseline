@@ -43,6 +43,7 @@ The `<title>` element defines the title of the document, and is required in al
 ### WCAG 2.2 Techniques
 
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [F25: Failure of Success Criterion 2.4.2 due to the title of a Web page not identifying the contents](https://www.w3.org/WAI/WCAG22/Techniques/failures/F25)
 -   [G88: Providing descriptive titles for Web page](https://www.w3.org/WAI/WCAG22/Techniques/general/G88)
 -   [H25: Providing a title using the title element](https://www.w3.org/WAI/WCAG22/Techniques/html/H25)
