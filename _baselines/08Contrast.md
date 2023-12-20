@@ -38,10 +38,10 @@ This test is conducted to evaluate equal access to information for all users, in
     <li id="1TI-2">Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]</li>
     <li id="1TI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 <strong>AND</strong> the font meets one of the following criteria: [SC 1.4.3]
         <ul>
-            <li>At least 18 point (23.94 pixels)</li>
-            <li>At least 14 point (18.62 pixels) <strong>AND</strong> bold (at least 700 font weight)</li>
-            <li>Equivalent font size
-        </ul></li>
+            <li>At least 18 point (24 pixels)</li>
+            <li>At least 14 point (18.5 pixels) <strong>AND</strong> bold (at least 700 font weight)</li>
+        </ul>
+    </li>
 </ol>
 
 #### Test Results

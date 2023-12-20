@@ -3,7 +3,6 @@ title: "Appendix B - Change Log"
 order-number: 101
 ---
 ## Appendix B - Change Log
-=======
 
 Note: Minor punctuation, formatting and spelling changes not included.
 
