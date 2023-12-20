@@ -36,8 +36,10 @@ order-number: 25
 
 - None
 
-#### WCAG 2.2 Techniques
-While SC 4.1.1 has been deprecated in WCAG 2.2, the following sufficient techniques remain available for reference:
+### WCAG 2.2 Techniques
+
+While SC 4.1.1 has been deprecated in WCAG 2.2, the following sufficient techniques are listed for reference:
+
 -   [G134: Validating Web pages](https://www.w3.org/WAI/WCAG22/Techniques/general/G134)
 -   [G192: Fully conforming to specifications](https://www.w3.org/WAI/WCAG22/Techniques/general/G192)
 -   [H74: Ensuring that opening and closing tags are used according to specification](https://www.w3.org/WAI/WCAG22/Techniques/html/H74) **AND** [H93: Ensuring that id attributes are unique on a Web page](https://www.w3.org/WAI/WCAG22/Techniques/html/H93) **AND** [H94: Ensuring that elements do not contain duplicate attributes](https://www.w3.org/WAI/WCAG22/Techniques/html/H94)

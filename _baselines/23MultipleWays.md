@@ -43,7 +43,8 @@ This baseline requires a manual check for multiple techniques to locate a web pa
 
 -   Additional techniques for locating a Web page may be available beyond those listed in the test instructions.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
 -   [G63: Providing a site map](https://www.w3.org/WAI/WCAG22/Techniques/general/G63)

@@ -64,7 +64,8 @@ The default human language for each page must be programmatically identified. Pa
 
 None.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
 -   [H57: Using language attributes on the html element](https://www.w3.org/WAI/WCAG22/Techniques/html/H57)

@@ -38,7 +38,8 @@ CSS background image is now covered under [Baseline 6.2 Test Procedure for Image
 ### Advisory: Tips for streamlined test processes
 - These tests are not to be performed by disabling all CSS. Content is not required to be perceivable and operable with all CSS disabled.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
 -   [F1: Changing the meaning of content by positioning information with CSS](https://www.w3.org/WAI/WCAG22/Techniques/failures/F1)

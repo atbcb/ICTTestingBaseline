@@ -46,7 +46,8 @@ This baseline test requires an evaluation of visual content and functionality af
 
 ### Advisory: Tips for streamlined test processes
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
 -   [F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured](https://www.w3.org/WAI/WCAG22/Techniques/failures/F69)

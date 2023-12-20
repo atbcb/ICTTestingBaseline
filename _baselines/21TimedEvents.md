@@ -130,7 +130,8 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 -   Browsers must be configured to disable autoplay of audio prior to testing of content. Provide instructions for conformant browser mechanisms only. Test results may vary depending on browser.
 -   Content that is found non-conformant with SC 2.2.2 may be marked for further review for a Section 508 exception if the auto-update is essential. However, an exception for SC 2.2.2 should be considered carefully as Conformance Requirement 5: Non Interference requires its conformance.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
 -   [G4: Allowing the content to be paused and restarted from where it was paused](https://www.w3.org/WAI/WCAG22/Techniques/general/G4)

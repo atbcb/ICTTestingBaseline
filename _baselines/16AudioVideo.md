@@ -110,8 +110,9 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 - Baseline Tests 16.1 and 16.3 are tests for Audio-only files. It may make sense to perform Test 16.3 before Test 16.1.
 - Baseline Tests 16.2 and 16.4 are tests for Video-only files. It may make sense to perform Test 16.4 before Test 16.2.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
 
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [G158: Providing an alternative for time-based media for audio-only content](https://www.w3.org/WAI/WCAG22/Techniques/general/G158)
 -   [G159: Providing an alternative for time-based media for video-only content](https://www.w3.org/WAI/WCAG22/Techniques/general/G159)

@@ -110,6 +110,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 ### WCAG 2.2 Techniques
 
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received](https://www.w3.org/WAI/WCAG22/Techniques/failures/F55)
 -   [F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order](https://www.w3.org/WAI/WCAG22/Techniques/failures/F85)
 -   [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](https://www.w3.org/WAI/WCAG22/Techniques/general/G59)

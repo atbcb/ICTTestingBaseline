@@ -50,6 +50,8 @@ While users with vision can recognize the structure presented by frames and ifra
 
 ### Advisory: Tips for streamlined test processes
 
-#### WCAG 2.0 Techniques
+### WCAG 2.0 Techniques
+
 The following techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/WAI/WCAG22/Techniques/html/H64)

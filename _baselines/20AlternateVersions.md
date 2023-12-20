@@ -62,7 +62,8 @@ An alternate version must meet all parts of the definition in order to be consid
 -   When a conforming alternate version is provided, non-conforming versions of that content are tested only for [Conformance Requirement 5](25Noninterference.html). It is not necessary to test the non-conforming versions of that content for other baseline tests.
 -   The presence of a conforming alternate version can determine whether other versions of the content need to be tested. To save on time and effort, it is advised that this be one of the first tests performed.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
 -   [C29: Using a style switcher to provide a conforming alternate version (CSS)](https://www.w3.org/WAI/WCAG22/Techniques/css/C29)

@@ -85,6 +85,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 ### WCAG 2.2 Techniques
 
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages](https://www.w3.org/WAI/WCAG22/Techniques/failures/F31)
 -   [G1: Adding a link at the top of each page that goes directly to the main content area](https://www.w3.org/WAI/WCAG22/Techniques/general/G1)
 -   [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/WAI/WCAG22/Techniques/general/G61)
