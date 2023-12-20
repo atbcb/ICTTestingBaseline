@@ -16,7 +16,8 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 ### Limitations, Assumptions, or Exceptions
 
--   -   [Media alternative for text](https://www.w3.org/TR/WCAG22/#dfn-media-alternative-for-text) is media that presents no more information than is already presented in text (directly or via text alternatives). Note: A media alternative for text is provided for those who benefit from alternate representations of text. Media alternatives for text may be audio-only, video-only (including sign-language video), or audio-video.
+-   [Media alternative for text](https://www.w3.org/TR/WCAG22/#dfn-media-alternative-for-text) is media that presents no more information than is already presented in text (directly or via text alternatives). Note: A media alternative for text is provided for those who benefit from alternate representations of text. Media alternatives for text may be audio-only, video-only (including sign-language video), or audio-video.
+
 #### Audio-Only
 
 -   [Audio-only](https://www.w3.org/TR/WCAG22/#dfn-audio-only) is a time-based presentation that contains only audio (no video and no interaction).
