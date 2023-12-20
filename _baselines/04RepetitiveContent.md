@@ -20,7 +20,9 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 * [Same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) is defined as same position relative to other items. Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
 * Consistent text alternatives for interface components that perform the same function are not always truly “identical.” This is acceptable if they follow a consistent format. For instance, in the use of a graphical arrow at the bottom of a Web page that links to the next Web page, the text alternative may be: “Go to page 4.” However, the same arrow image on the next page should then state "Go to page 5."
 * "Navigational mechanisms" as referenced in SC 3.2.3 includes both interactive and non-interactive components repeated on pages. Consistent presentation and layout benefit users who interact with repeated content within a set of Web pages and need to locate specific information or functionality more than once. 
-
+*   This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques, which require additional assistive tools to function as bypass methods, were not included:
+    -   [ARIA11: Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA11)
+    -   [H69: Providing heading elements at the beginning of each section of content](https://www.w3.org/WAI/WCAG22/Techniques/html/H69)
 
 ### 4.1 Test Procedure for Bypass Blocks
 
@@ -92,6 +94,3 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
     -   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/WAI/WCAG22/Techniques/general/G202)
     -   [H70: Using frame elements to group blocks of repeated material](https://www.w3.org/WAI/WCAG22/Techniques/html/H70) **AND** [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/WAI/WCAG22/Techniques/html/H64)
     -   [SCR28: Using an expandable and collapsible menu to bypass block of content](https://www.w3.org/TR/WCAG20-TECHS/SCR28.html)
--   This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques, which require additional assistive tools to function as bypass methods, were not included:
-    -   [ARIA11: Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA11)
-    -   [H69: Providing heading elements at the beginning of each section of content](https://www.w3.org/WAI/WCAG22/Techniques/html/H69)
