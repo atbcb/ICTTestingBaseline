@@ -37,7 +37,8 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 
 -   In cases where the link is to a document or a web application, the name of the document or web application would be sufficient to describe the purpose of the link (which is to take the user to the document or web application).
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [ARIA7: Using aria-labelledby for link purpose](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA7)
 -   [ARIA8: Using aria-label for link purpose](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA8)

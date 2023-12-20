@@ -102,5 +102,6 @@ The purpose of this Baseline test is to check the following accessibility proper
 - The accessible name and accessible description of some user controls are tested in other Baseline tests, such as [Baseline 10. Forms](../10Forms), [Baseline 14. Links](../14Links). For user controls that have dedicated Baseline Tests, please map to those tests for accessible name instead of 5.1-ControlName. 
 - This test may require interaction with controls to assess changes in name, role, state, value. Interaction instructions such as a test plan may be helpful.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 - [F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur](https://www.w3.org/WAI/WCAG22/Techniques/failures/F20)

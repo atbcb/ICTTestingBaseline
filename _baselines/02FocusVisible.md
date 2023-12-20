@@ -107,16 +107,16 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 -   It may be useful to combine these tests with tests for keyboard navigation and visible focus.
 -   It may be useful to provide instructions about what "modal dialog boxes" are and how they should behave.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
 
--   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-    -   [F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received](https://www.w3.org/WAI/WCAG22/Techniques/failures/F55)
-    -   [F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order](https://www.w3.org/WAI/WCAG22/Techniques/failures/F85)
-    -   [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](https://www.w3.org/WAI/WCAG22/Techniques/general/G59)
-    -   [G107: Using "activate" rather than "focus" as a trigger for changes of context](https://www.w3.org/WAI/WCAG22/Techniques/general/G107)
-    -   [G149: Using user interface components that are highlighted by the user agent when they receive focus.](https://www.w3.org/WAI/WCAG22/Techniques/general/G149)
-    -   [G165: Using the default focus indicator for the platform so that high visibility default focus indicators will carry over](https://www.w3.org/WAI/WCAG22/Techniques/general/G165)
-    -   [G195: Using an author-supplied, highly visible focus indicator](https://www.w3.org/WAI/WCAG22/Techniques/general/G195)
-    -   [SCR26: Inserting dynamic content into the Document Object Model immediately following its trigger element](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR26)
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+-   [F55: Failure of Success Criteria 2.1.1, 2.4.7, and 3.2.1 due to using script to remove focus when focus is received](https://www.w3.org/WAI/WCAG22/Techniques/failures/F55)
+-   [F85: Failure of Success Criterion 2.4.3 due to using dialogs or menus that are not adjacent to their trigger control in the sequential navigation order](https://www.w3.org/WAI/WCAG22/Techniques/failures/F85)
+-   [G59: Placing the interactive elements in an order that follows sequences and relationships within the content](https://www.w3.org/WAI/WCAG22/Techniques/general/G59)
+-   [G107: Using "activate" rather than "focus" as a trigger for changes of context](https://www.w3.org/WAI/WCAG22/Techniques/general/G107)
+-   [G149: Using user interface components that are highlighted by the user agent when they receive focus.](https://www.w3.org/WAI/WCAG22/Techniques/general/G149)
+-   [G165: Using the default focus indicator for the platform so that high visibility default focus indicators will carry over](https://www.w3.org/WAI/WCAG22/Techniques/general/G165)
+-   [G195: Using an author-supplied, highly visible focus indicator](https://www.w3.org/WAI/WCAG22/Techniques/general/G195)
+-   [SCR26: Inserting dynamic content into the Document Object Model immediately following its trigger element](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR26)
     
     

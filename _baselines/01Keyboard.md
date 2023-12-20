@@ -79,9 +79,9 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 -   It may be useful to provide a Windows keyboard reference guide to testers.
 -   Content that is found non-conformant with SC 2.1.1 may be marked for further review for a Section 508 exception if “the underlying function requires input that depends on the path of the user's movement and not just the endpoints".
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
 
--   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-    -   [G21: Ensuring users are not trapped in content](https://www.w3.org/WAI/WCAG22/Techniques/general/G21)
-    -   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/WAI/WCAG22/Techniques/general/G202)
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+-   [G21: Ensuring users are not trapped in content](https://www.w3.org/WAI/WCAG22/Techniques/general/G21)
+-   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/WAI/WCAG22/Techniques/general/G202)
     

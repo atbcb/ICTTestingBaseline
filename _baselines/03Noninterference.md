@@ -39,6 +39,6 @@ None.
 -   This test result is a logical AND of the identified SC's. All must pass for this test result to pass.
 -   A reporting tool may be utilized to generate the result for Conformance Requirement 5.
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
 
 NA.

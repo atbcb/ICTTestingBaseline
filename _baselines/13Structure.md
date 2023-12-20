@@ -101,7 +101,8 @@ For each visually apparent list:
 ### Advisory: Tips for streamlined test processes
 - There is not a test to check that programmatic lists are visually apparent lists. 
 
-#### WCAG 2.2 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [ARIA12: Using role=”heading” and aria-level=”\#” to identify heading levels](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA12)
 -   [G115: Using semantic elements to mark up structure](https://www.w3.org/WAI/WCAG22/Techniques/general/G115) **AND** [H49: Using semantic markup to mark emphasized or special text](https://www.w3.org/WAI/WCAG22/Techniques/html/H49)
