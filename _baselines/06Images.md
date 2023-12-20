@@ -20,7 +20,6 @@ order-number: 7
 
 -   An image that has a non-empty accessible name has been determined to be meaningful by the content author. The author has decided that this image should not be ignored by assistive technology.
 -   An image that has an empty accessible name has been determined to be decorative by the content author. The author has determined that this image should be ignored by assistive technology.
-
 - Use of `role="presentation"` or `role="none"` on an image with other attributes or roles can cause conflicts.  This Baseline tests for these conflicts because [Presentational Roles Conflicts Resolution](https://www.w3.org/TR/wai-aria-1.1/#conflict_resolution_presentation_none) has inconsistent accessibility support and may result in inaccessible content.
     - "If an element with a role of presentation is focusable, or otherwise interactive, user agents MUST ignore the normal effect of the role and expose the element with implicit native semantics, in order to ensure that the element is both [understandable](https://www.w3.org/TR/wai-aria-1.1/#dfn-understandable) and [operable](https://www.w3.org/TR/wai-aria-1.1/#dfn-operable)." 
         - Because accessibility support is inconsistent, this Baseline checks that an image with an empty text alternative is not in the tab order nor a functional image.
@@ -129,7 +128,9 @@ Note: If the image does not have any of these attributes, this would be a failur
 ### Advisory: Tips for streamlined test processes
 
 ### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [ARIA6: Using aria-label to provide labels for objects](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA6)
 -   [ARIA15: Using aria-describedby to provide descriptions of images](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA15)
 -   [C9: Using CSS to include decorative images](https://www.w3.org/WAI/WCAG22/Techniques/css/C9)

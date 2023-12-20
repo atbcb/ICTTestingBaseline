@@ -26,7 +26,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 -   Assistive technology will process aria live regions without a focus shift. Live regions that do not contain interactive content do not require a focus shift and would not be included in this test.
 -   For some types of controls, clicking a control may also activate the control (e.g. button), which may, in turn, initiate a change in context. Controls that are clearly labeled and intended to initiate a change in context do not fail under this test.
 -   This test evaluates 3.2.1 On Focus using only the keyboard to avoid unintentional activation of controls with a mouse.
--   [Changes of context](https://www.w3.org/TR/WCAG22/#dfn-change-of-context) is defined as: major changes in the content that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
+-   [Changes of context](https://www.w3.org/TR/WCAG22/#dfn-change-of-context) is major changes in the content that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
     1.  User agent
     2.  Viewport
     3.  Focus

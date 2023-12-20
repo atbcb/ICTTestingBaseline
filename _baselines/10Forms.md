@@ -30,7 +30,7 @@ Review form instructions for completeness and programmatic association to their 
 -   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not included in this test.
 -   The combination of an element's accessible name and accessible description is its text alternative.
 -   Clicking an option or selecting an option in a form should select the option, but should not initiate a change in context.
--   [Change of context](https://www.w3.org/TR/WCAG22/#dfn-change-of-context) is defined as: major changes in the content of the Web page that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
+-   [Change of context](https://www.w3.org/TR/WCAG22/#dfn-change-of-context) is major changes in the content of the Web page that, if made without user awareness, can disorient users who are not able to view the entire page simultaneously. Changes in context include changes of:
     1.  User agent
     2.  Viewport
     3.  Focus

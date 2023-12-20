@@ -40,8 +40,8 @@ This test addresses flashing caused by the content itself, including:
     <li id="1TI-2">If the content flashes above 3Hertz or the frequency cannot be determined, check that it meets at least one of the following: [SC 2.3.1]
     <ol>
         <li id="1TI-2i">the combined area of flashes occurring concurrently occupies no more than a 341 x 256 pixel rectangle anywhere on the displayed screen area when the content is viewed at 1024 x 768 pixels.</li>
-        <li id="1TI-2ii">the flash does not include "general flashes" (defined as a pair of opposing changes in relative luminance of 10% or more of the maximum relative luminance (1.0) where the relative luminance of the darker image is below 0.80; and where "a pair of opposing changes" is an increase followed by a decrease, or a decrease followed by an increase)</li>
-        <li id="1TI-2iii">the flash does not include any "pair of opposing transitions involving a saturated red" (defined as a pair of opposing transitions where, one transition is either to or from a state with a value R/(R + G + B) that is greater than or equal to 0.8, and the difference between states is more than 0.2 (unitless) in the CIE 1976 UCS chromaticity diagram. [[ISO_9241-391]])</li>
+        <li id="1TI-2ii">the flash does not include "general flashes" (a pair of opposing changes in relative luminance of 10% or more of the maximum relative luminance (1.0) where the relative luminance of the darker image is below 0.80; and where "a pair of opposing changes" is an increase followed by a decrease, or a decrease followed by an increase)</li>
+        <li id="1TI-2iii">the flash does not include any "pair of opposing transitions involving a saturated red" (a pair of opposing transitions where, one transition is either to or from a state with a value R/(R + G + B) that is greater than or equal to 0.8, and the difference between states is more than 0.2 (unitless) in the CIE 1976 UCS chromaticity diagram. [[ISO_9241-391]])</li>
     </ol>
     </li>
 </ol>
