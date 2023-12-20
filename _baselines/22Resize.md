@@ -27,9 +27,9 @@ This baseline test requires an evaluation of visual content and functionality af
     <li id="1TI-1">Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] <br>
     Known approaches include:
         <ul>
-        <li id="1TI-1i">Browser zoom function</li>
+        <li id="1TI-1i">Browser zoom function or text-sizing feature</li>
         <li id="1TI-1ii">Accessibility features provided by the platform or Operating System</li>
-        <li id="1TI-1iii">Controls to change text size. (If browser, operating system, or platform’s zoom function is not supported by the page, the page must provide the resize mechanism.)</li>
+        <li id="1TI-1iii">On-page controls to change text size.</li>
         </ul></li>
     <li id="1TI-2">Modify the font size appearance to twice the width and height, or 200% larger.</li>
     <li id="1TI-3">Check for all of the following [SC 1.4.4]:
@@ -51,5 +51,6 @@ The following sufficient techniques and/or common failures were considered when 
 
 -   [F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured](https://www.w3.org/WAI/WCAG22/Techniques/failures/F69)
 -   [F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%](https://www.w3.org/WAI/WCAG22/Techniques/failures/F80)
+-   [F94: Failure of Success Criterion 1.4.4 due to incorrect use of viewport units to resize text](https://www.w3.org/WAI/WCAG22/Techniques/failures/F94)
 -   [G178: Providing controls on the Web page that allow users to incrementally change the size of all text on the page up to 200 percent](https://www.w3.org/WAI/WCAG22/Techniques/general/G178)
 -   [G179: Ensuring that there is no loss of content or functionality when the text resizes and text containers do not change their width](https://www.w3.org/WAI/WCAG22/Techniques/general/G179)

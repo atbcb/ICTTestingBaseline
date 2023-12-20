@@ -27,7 +27,7 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check that the combination of accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="1TI-2">Check that the purpose of each link can be determined from any combination of the link text, <a href="https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation" target="_blank" rel="noopener">accessible name and accessible description</a>, and preceding page context (same paragraph, list, or table cell as the link or in a table header cell that is associated with the table cell that contains the link). [SC 2.4.4]</li>
+    <li id="1TI-2">Check that the purpose of each link can be determined from any combination of the link text, <a href="https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation" target="_blank" rel="noopener">accessible name and accessible description</a>, and in the same sentence, paragraph, list item, or table cell as the link, or in the table header cell for a link in a data table, because these are directly associated with the link itself. [SC 2.4.4]</li>
 </ol>
 
 #### Test Results

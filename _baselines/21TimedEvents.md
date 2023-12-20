@@ -22,10 +22,11 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 
 ### Limitations, Assumptions, or Exceptions
 
--   Time limits set by the content that meet any of the following are not included in this test:
+-   From [SC 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable), time limits set by the content that meet any of the following are not included in this test:
     -   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
     -   **Essential Exception:** The time limit is essential and extending it would invalidate the activity; or
     -   **20 Hour Exception:** The time limit is longer than 20 hours.
+    -   Also, content that repeats or is synchronized with other content, so long as the information and data is adjustable or otherwise under the control of the end user. Examples of time limits for which this success criterion is not applicable include scrolling text that repeats, captioning, and carousels. These are situations which do include time limits, but the content is still available to the user because it has controls for accessing it
 -   Changing content is considered to be "in parallel" when it appears alongside other content. For example, a news flash updating across the bottom of a page would be considered changing content in parallel with other content when the page also presents a news video and text news articles (both examples of static content). A button allowing users to pause the changing content would not be considered other static content.
 -   Moving, blinking, scrolling, and/or auto-updating is considered "essential" to an activity when, if removed, it would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform.
 -   Notes from SC 2.2.2 Pause, Stop, Hide:
@@ -35,6 +36,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
     -   Note 4: An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.
 -   Note from SC 1.4.2 Audio Control:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
+-   Per [WCAG 2.2 Understanding SC 1.4.2: Audio Control](https://www.w3.org/WAI/WCAG22/Understanding/audio-control), having control of the volume includes being able to reduce its volume to zero. Muting the system volume is not "pausing or stopping" the autoplay audio. Both the "pause or stop" and control of audio volume need to be independent of the overall system volume.
 
 ### 21.1 Test Procedure for Timing Adjustable
 
@@ -112,7 +114,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 <ol id="4TI">
     <li id="4TI-1">Check that either [SC 1.4.2]
         <ol>
-        <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio, <strong>OR</strong></li>
+        <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio that is independent of the overall system volume, <strong>OR</strong></li>
         <li id="4TI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
         </ol></li>
 </ol>

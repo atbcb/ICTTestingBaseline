@@ -15,26 +15,29 @@ order-number: 8
 
 ### Test Method Rationale
 
-Users affected by this requirement are not limited to users of assistive technology (AT), and include those with Color Vision Deficiency. Others using AT may not have a way to determine shape, size, location, or perceive sound. Visual inspection is required to determine the adequacy of instructions or content to account for any limitations of sensory or color perceptions.
+Users affected by this requirement are sighted and not limited to users of assistive technology (AT), and include those with Color Vision Deficiency. Visual inspection is required to determine the adequacy of instructions or content to account for any limitations of sensory or color perceptions.
 
 ### Limitations, Assumptions, or Exceptions
 
 -   This requirement does not prohibit the use of color or sensory characteristics to provide information, directions, or cues. However, they must be used in conjunction with contextual, textual, and/or other visual cues.
 -   Text Alternative descriptions that are not available visually would not pass these tests. 
 -   The test for audible cues covers short sounds used to notify the user, such as confirmation beeps and error notifications. Audio in time-based media is covered in Baseline [16. Audio-only and Video-only](../16AudioVideo.md).
+-   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), where color alone distinguishes between visited and unvisited links, it does not result in a failure of this Success Criterion. 
+-   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), use of colors that differ in color (hue) and lightness with a contrast ratio of 3:1 or greater meet this requirement.
 
 ### 7.1 Test Procedure for Use of Color
 
 **Baseline Test ID:** 7.1-Color
 #### Identify Content
-<p id="1IC">Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors.</p>
+<p id="1IC">Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors. Exclude color of visited/unvisited links.</p>
 
 #### Test Instructions
 <ol id="1TI">
     <li id="1TI-1">Check if one or more of the following is true:
     <ol>
-        <li id="1TI-1i">The element using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color [SC 1.4.1]</li>
-        <li id="1TI-1ii">The element using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning [SC 1.4.1]</li>
+        <li id="1TI-1i">The content using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color when the user must be able to accurately perceive or differentiate a particular color. [SC 1.4.1]</li>
+        <li id="1TI-1ii">The content using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning when the user must be able to accurately perceive or differentiate a particular color.[SC 1.4.1]</li>
+        <li id="1TI-1iii">The content using only a difference in colors to convey meaning uses colors (hues) that have a contrast ratio of 3:1 or greater. This content does not require the user to be able to accurately perceive or differentiate a particular color.[SC 1.4.1]</li>
     </ol></li>
 </ol>
 

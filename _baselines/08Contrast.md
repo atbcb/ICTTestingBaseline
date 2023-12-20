@@ -50,6 +50,8 @@ This test is conducted to evaluate equal access to information for all users, in
 ### Advisory: Tips for streamlined test processes
 
 -   There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See [Sufficient Technique G18](https://www.w3.org/WAI/WCAG22/Techniques/general/G18) for possible testing tools that use an appropriate algorithm.
+-   Use contrast tools that do not round values. A ratio of 4.499:1 would not meet the 4.5:1 threshold.
+-   [WCAG 2.2 Understanding 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum) suggests using foreground and background colors obtained from the user agent, or the underlying markup and stylesheets for the contrast ratio computation, rather than the text as presented on screen.
 -   While text contained in logos rendered as images is exempt from this requirement, the image must still provide alternative text (e.g., via an alt attribute).
 
 #### WCAG 2.2 Techniques

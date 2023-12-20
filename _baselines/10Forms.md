@@ -37,6 +37,7 @@ Review form instructions for completeness and programmatic association to their 
     4.  Content that changes the meaning of the Web page
     - Note: A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
     - Example: Opening a new window, moving focus to a different component, going to a new page (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page are examples of changes of context.
+- Per [WCAG 2.2 Understanding SC 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions), this Success Criterion does not apply to links or other controls (such as an expand/collapse widget, or similar interactive components) that are not associated with data entry.
 
 ### 10.1 Test Procedure for Form Names 
 **Baseline Test ID:** 10.1-FormName
@@ -134,8 +135,8 @@ Review form instructions for completeness and programmatic association to their 
 **Baseline Test ID:** 10.5-FormHasLabel
 #### Identify Content
 <ol id="5IC">
-    <li id="5IC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
-    <li id="5IC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
+    <li id="5IC-1">Find all form components associated with data entry that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
+    <li id="5IC-2">Find all instructions and cues (textual and graphical) that are related to the data entry form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
 #### Test Instructions

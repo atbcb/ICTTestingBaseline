@@ -29,6 +29,7 @@ An alternate version must meet all parts of the definition in order to be consid
     -   Note 5: The conforming alternative version does not need to reside within the scope of conformance, or even on the same Web site, as long as it is as freely available as the non-conforming version.
     -   Note 6: Alternate versions should not be confused with supplementary content, which support the original page and enhance comprehension.
     -   Note 7: Setting user preferences within the content to produce a conforming version is an acceptable mechanism for reaching another version as long as the method used to set the preferences is accessibility supported.
+-   Per [WCAG 2.2 Understanding Conforming Alternate Versions](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conforming-alt-versions), authors relying on conforming alternate versions must make end users aware that a conforming alternate version is available. This may be accomplished by providing a link to a more accessible version, identified clearly by link text. Alternatively a link to instructions may be provided which documents how to access a more accessible version as well as the specific ways the alternate version is more accessible (e.g. a "high contrast version").
 -   It is not a WCAG requirement to provide a conforming alternate version. This test only checks that a conforming alternate version is present. If there is not a conforming alternate version, the result for this baseline test is Does Not Apply. (It would not be a failure.)
 -   To meet Conformance Requirement 1 for Level AA conformance, the Web page satisfies all the Level A and Level AA Success Criteria, or a Level AA conforming alternate version is provided.
 
@@ -48,7 +49,9 @@ An alternate version must meet all parts of the definition in order to be consid
         <li id="1TI-4i">the conforming alternate version can be reached from the non-conforming version via an accessibility-supported mechanism, or</li>
         <li id="1TI-4ii">the non-conforming version can only be reached from the alternate version, or</li>
         <li id="1TI-4iii">the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.</li>
-        </ol></li>
+        </ol>
+    </li>
+    <li id="1TI-5">Check that the content indicates that a conforming alternate version is available.</li>
 </ol>
 
 #### Test Results

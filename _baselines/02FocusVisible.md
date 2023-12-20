@@ -44,7 +44,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 #### Tests Instructions
 <ol id="1TI">
     <li id="1TI-1">Use the keyboard to navigate through each interface component.</li>
-    <li id="1TI-2">Check that a visible indication of focus is provided when focus is on the interface component.[SC 2.4.7]</li>
+    <li id="1TI-2">Check that a visible indication of focus is provided when focus is on the interface component. The focus indicator must not be time limited, when the keyboard focus is shown it must remain.[SC 2.4.7]</li>
 </ol>
 
 #### Test Results
