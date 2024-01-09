@@ -6,7 +6,7 @@ order-number: 19
 
 ### Accessibility Requirements
 
--   [WCAG SC 1.3.2 Meaningful Sequence](http://www.w3.org/TR/UNDERSTANDING-WCAG20/content-structure-separation-sequence.html) -- When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
+-   [WCAG SC 1.3.2 Meaningful Sequence](https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence) -- When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.
 
 ### Test Method Rationale
 
@@ -38,7 +38,10 @@ CSS background image is now covered under [Baseline 6.2 Test Procedure for Image
 ### Advisory: Tips for streamlined test processes
 - These tests are not to be performed by disabling all CSS. Content is not required to be perceivable and operable with all CSS disabled.
 
-#### WCAG 2.0 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G57: Ordering the content in a meaningful sequence](https://www.w3.org/TR/WCAG20-TECHS/G57.html)
--   [F1: Changing the meaning of content by positioning information with CSS](https://www.w3.org/TR/WCAG20-TECHS/F1.html)
+
+-   [F1: Changing the meaning of content by positioning information with CSS](https://www.w3.org/WAI/WCAG22/Techniques/failures/F1)
+-   [G57: Ordering the content in a meaningful sequence](https://www.w3.org/WAI/WCAG22/Techniques/general/G57)
+

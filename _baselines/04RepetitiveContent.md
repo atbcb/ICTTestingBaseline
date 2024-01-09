@@ -6,9 +6,9 @@ order-number: 5
 
 ### Accessibility Requirements
 
--   [WCAG SC 2.4.1 Bypass Blocks](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-skip.html) -- A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
--   [WCAG SC 3.2.3 Consistent Navigation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html) -- Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
--   [WCAG 3.2.4 Consistent Identification](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-functionality.html) -- Components that have the same functionality within a set of Web pages are identified consistently.
+-   [WCAG SC 2.4.1 Bypass Blocks](https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks) -- A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.
+-   [WCAG SC 3.2.3 Consistent Navigation](https://www.w3.org/WAI/WCAG22/Understanding/consistent-navigation) -- Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.
+-   [WCAG 3.2.4 Consistent Identification](https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification) -- Components that have the same functionality within a set of Web pages are identified consistently.
 
 ### Test Method Rationale
 
@@ -17,10 +17,12 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 ### Limitations, Assumptions, or Exceptions
 * Small sections, such as repeated individual words, phrases, or single links are not considered blocks for the purposes of this Baseline Requirement.
 * Most web browsers provide keyboard shortcuts to move the user focus to the top of the page or browser, so providing a "skip" link may be unnecessary if a set of navigation links is at the bottom of a web page.
-* [Same relative order](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-consistent-locations.html#samerelorderdef) is defined as same position relative to other items. Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
+* [Same relative order](https://www.w3.org/TR/WCAG22/#dfn-same-relative-order) is the same position relative to other items. Items are considered to be in the same relative order even if other items are inserted or removed from the original order. For example, expanding navigation menus may insert an additional level of detail or a secondary navigation section may be inserted into the reading order.
 * Consistent text alternatives for interface components that perform the same function are not always truly “identical.” This is acceptable if they follow a consistent format. For instance, in the use of a graphical arrow at the bottom of a Web page that links to the next Web page, the text alternative may be: “Go to page 4.” However, the same arrow image on the next page should then state "Go to page 5."
 * "Navigational mechanisms" as referenced in SC 3.2.3 includes both interactive and non-interactive components repeated on pages. Consistent presentation and layout benefit users who interact with repeated content within a set of Web pages and need to locate specific information or functionality more than once. 
-
+*   This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques, which require additional assistive tools to function as bypass methods, were not included:
+    -   [ARIA11: Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA11)
+    -   [H69: Providing heading elements at the beginning of each section of content](https://www.w3.org/WAI/WCAG22/Techniques/html/H69)
 
 ### 4.1 Test Procedure for Bypass Blocks
 
@@ -80,17 +82,16 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 -   If bypass method is in the focus order but is not visible when it has keyboard focus, this is a failure of Baseline 2.1 Focus Visible.
 -   If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with Baseline 14.1 Links. For example, a page with repetitive links should have a descriptive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
 
-#### WCAG 2.0 Techniques
--   This baseline test covers bypass methods that are functional with just a keyboard. The following WCAG Sufficient Techniques, which require additional assistive tools to function as bypass methods, were not included:
-    -   [H69: Providing heading elements at the beginning of each section of content](https://www.w3.org/TR/WCAG20-TECHS/H69.html)
-    -   [ARIA11: Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG21/Techniques/aria/ARIA11.html)
--   The following sufficient techniques and/or common failures were also considered when developing this test procedure for this baseline requirement:
-    -   [G1: Adding a link at the top of each page that goes directly to the main content area](https://www.w3.org/TR/WCAG20-TECHS/G1.html)
-    -   [G123: Adding a link at the beginning of a block of repeated content to go to the end of the block](https://www.w3.org/TR/WCAG20-TECHS/G123.html)
-    -   [G124: Adding links at the top of the page to each area of the content](https://www.w3.org/TR/WCAG20-TECHS/G124.html)
-    -   [SCR28: Using an expandable and collapsible menu to bypass block of content](https://www.w3.org/TR/WCAG20-TECHS/SCR28.html)
-    -   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/TR/WCAG20-TECHS/G202.html)
-    -   [H70: Using frame elements to group blocks of repeated material](https://www.w3.org/TR/WCAG20-TECHS/H70.html) **AND** [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/TR/WCAG20-TECHS/H64.html)
-    -   [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/TR/WCAG20-TECHS/G61.html)
-    -   [G197: Using labels, names, and text alternatives consistently for content that has the same functionality](https://www.w3.org/TR/WCAG20-TECHS/G197.html)
-    -   [F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages](https://www.w3.org/TR/WCAG20-TECHS/F31.html)
+### WCAG 2.2 Techniques
+
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
+-   [F31: Failure of Success Criterion 3.2.4 due to using two different labels for the same function on different Web pages within a set of Web pages](https://www.w3.org/WAI/WCAG22/Techniques/failures/F31)
+-   [G1: Adding a link at the top of each page that goes directly to the main content area](https://www.w3.org/WAI/WCAG22/Techniques/general/G1)
+-   [G61: Presenting repeated components in the same relative order each time they appear](https://www.w3.org/WAI/WCAG22/Techniques/general/G61)
+-   [G123: Adding a link at the beginning of a block of repeated content to go to the end of the block](https://www.w3.org/WAI/WCAG22/Techniques/general/G123)
+-   [G124: Adding links at the top of the page to each area of the content](https://www.w3.org/WAI/WCAG22/Techniques/general/G124)
+-   [G197: Using labels, names, and text alternatives consistently for content that has the same functionality](https://www.w3.org/WAI/WCAG22/Techniques/general/G197)
+-   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/WAI/WCAG22/Techniques/general/G202)
+-   [H70: Using frame elements to group blocks of repeated material](https://www.w3.org/WAI/WCAG22/Techniques/html/H70) **AND** [H64: Using the title attribute of the frame and iframe elements](https://www.w3.org/WAI/WCAG22/Techniques/html/H64)
+-   [SCR28: Using an expandable and collapsible menu to bypass block of content](https://www.w3.org/TR/WCAG20-TECHS/SCR28.html)

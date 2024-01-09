@@ -3,7 +3,6 @@ title: "Appendix B - Change Log"
 order-number: 101
 ---
 ## Appendix B - Change Log
-=======
 
 Note: Minor punctuation, formatting and spelling changes not included.
 
@@ -11,30 +10,40 @@ Note: Minor punctuation, formatting and spelling changes not included.
 
 | Location of Change | Description of Change |
 |--------------------|-----------------------|
-| Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings |
-| 3.1 Non-Interference | Identify Content: added links to Baseline Tests |
-| 5. Changing Content | Significant changes to this test to cover SC 4.1.2 more accurately. Name of test changed to 5. User Controls. |
+| All Baseline Tests | Changed links for W3C WCAG 2.0 (Understanding, Techniques, definitions, etc.) to WCAG 2.2 version; updated links to HTML Accessibility API Mapping Accesible Name and Description Computation sections. | 
+| Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings. |
+| 2. Focus | Accessibility Requirements: SC 3.2.1 replaced "component" with "user interface component" per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 9. |
+| 3.1 Non-Interference | Identify Content: added links to Baseline Tests. |
+| 5. User Controls | Was Changing Content. New test to cover SC 4.1.2 more accurately. |
+| 5.3 Control State | Identify Content: excluded state of visited/unvisited links. |
 | 6. Images | Limitations, Assumptions, Exceptions: removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
 | 6. Images | Test Method Rationale: added "The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. However, there are certain scenarios as described in the tests where the author's determination would be incorrect." |
-| 6.1, 6.2 | Test Procedures updated to defer to author to determine meaningful or decorative images, W3C Image Tutorials added under WCAG Techniques section |
-| 7. Sensory Characteristics | Advisory: corrected first bullet to remove "must also provide textual cues" |
-| 7.3 Audible Cues | New test added which maps to SC 1.1.1 |
-| 10.1 Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2 |
+| 6.1, 6.2 | Test Procedures defer to author to determine meaningful or decorative images, W3C Image Tutorials added under WCAG Techniques section. |
+| 7. Sensory Characteristics | Accessibility Requirements: SC 1.3.3 added "color" to the list of sensory characterstics per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 12; Advisory: corrected first bullet to remove "must also provide textual cues." |
+| 7.1 Use of Color | Added test for use of color that have a contrast ratio of 3.1 or greater; Identify Content: color of visited/unvisited links excluded. |
+| 7.3 Audible Cues | Added new test which maps to SC 1.1.1. |
+| 8. Contrast | Accessibiilty Requirements: SC 1.4.3 removed "minimum" from Logotypes requirement per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 3. | 
+| 10.1 Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2. |
 | 10.1, 10.2, 10.5 | Identify Content: Added "that do not have <code>visibility:hidden</code> or <code>display:none</code>" after "Find all form components". | 
-| 10.5 Form has a Label | Test Procedure name changed to "Form has a Visible Label" and instruction 1 edited to include "has visible label(s) or instructions while the form component has focus." |
-| 10. Forms | Test Procedure for Form Changes removed. |
-| 13. Content Structure | Limitations, Assumptions, Exceptions: Added "A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques." |
-| 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions |
-| 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example |
+| 10.5 Form has a Label | Changed Test Procedure name to "Form has a Visible Label" and edited instruction 1 to include "has visible label(s) or instructions while the form component has focus."; Identify Content: narrowed to data entry form controls. |
+| 10. Forms | Removed Test Procedure for Form Changes. |
+| 13. Content Structure | Limitations, Assumptions, Exceptions: added "A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques." |
+| 13.4 Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions. |
+| 14.1 Link Purpose (in context) | Test instructions: specified context as in the same sentence, paragraph, list item, or table cell as the link, or in the table header cell for a link in a data table, because these are directly associated with the link itself. |
+| 16.1 Audio Only | Instruction 2: replaced image of text with an image-only PDF as a more real-world example. |
 | 16.1 and 16.2 | Added "Do not include media that is clearly labeled as a media alternative for text." |
-| 16.3 and 16.4 | New tests added for media alternatives for text |
+| 16.3 and 16.4 | Added new tests for media alternatives for text. |
+| 17. Synchronized Media | Added definitions; changed Advisory tip for SC 1.2.3 result from "Not Tested" to "Not Applicable". |
 | 17.4 Captions (Prerecorded) and 17.5 Audio Descriptions (Prerecorded) | Identify Content of both: added "Do not include media that is clearly labeled as a media alternative for text." |
-| 17.7 Media Alternative (Prerecorded) | New test added for Sync media alternative (prerecorded) |
-| 18. CSS Content and Positioning | Renamed to CSS Positioning, Accessibility Requirements: removed SC 1.1.1 and 1.3.1 |
-| 18.1 Meaningful Background Image | Removed. CSS background images are covered under 6.2 Images with empty text alternative. |
-| 19.1 Frames | Instruction 1: separated to 2 test instructions |
-| Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs |
-| Site home | Added single file of all Baseline Tests | 
+| 17.7 Media Alternative (Prerecorded) | Added new test for Sync media alternative (prerecorded). |
+| 18. CSS Content and Positioning | Renamed to CSS Positioning; Accessibility Requirements: removed SC 1.1.1 and 1.3.1. |
+| 18.1 Meaningful Background Image | Removed; CSS background images are covered under 6.2 Images with empty text alternative. |
+| 19.1 Frames | Instruction 1: separated to 2 test instructions. |
+| 20.1 Conforming Alternate Version | Test instructions: added check that content indicates that a conforming alternate version is available. |
+| 22. Resize Text | Test instructions: included methods from F94; Techniques: added F94. |
+| 24. Parsing | Removed test instructions; per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 13, the parsing test always passes. |
+| Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs. |
+| Site home | Added single file of all Baseline Tests. | 
 
 ### Version 3.0.1, March 2021
 All of the changes made in this version were made to the structure of the Baseline test pages to enable anchor references to a specific part of the tests.

@@ -6,15 +6,15 @@ order-number: 22
 
 ### Accessibility Requirements
 
--   [WCAG SC 2.2.1 Timing Adjustable](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-required-behaviors.html) -- For each time limit that is set by the content, at least one of the following is true:
+-   [WCAG SC 1.4.2 Audio Control](https://www.w3.org/WAI/WCAG22/Understanding/audio-control) -- If any audio on a page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
+-   [WCAG SC 2.2.1 Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable) -- For each time limit that is set by the content, at least one of the following is true:
     -   **Turn off:** The user is allowed to turn off the time limit before encountering it.
     -   **Adjust:** The user is allowed to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.
     -   **Extend:** The user is warned before time expires and given at least 20 seconds to extend the time limit with a simple action (for example, "press the space bar"), and the user is allowed to extend the time limit at least ten times.
--   [WCAG SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-pause.html) -- For moving, blinking, scrolling, or auto-updating information, all of the following are true:
+-   [WCAG SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide) -- For moving, blinking, scrolling, or auto-updating information, all of the following are true:
     -   **Moving, blinking, scrolling:** For any moving, blinking or scrolling information that (1) starts automatically, (2) lasts more than five seconds, and (3) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it unless the movement, blinking, or scrolling is part of an activity where it is essential.
     -   **Auto-updating:** For any auto-updating information that (1) starts automatically and (2) is presented in parallel with other content, there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update unless the auto-updating is part of an activity where it is essential.
--   [WCAG SC 1.4.2 Audio Control](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-dis-audio.html) -- If any audio on a page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
--   [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
+-   [Conformance Requirement 5: Non-Interference](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
 ### Test Method Rationale
 
@@ -22,10 +22,11 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 
 ### Limitations, Assumptions, or Exceptions
 
--   Time limits set by the content that meet any of the following are not included in this test:
+-   From [SC 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable), time limits set by the content that meet any of the following are not included in this test:
     -   **Real-time Exception:** The time limit is a required part of a real-time event (for example, an auction), and no alternative to the time limit is possible; or
     -   **Essential Exception:** The time limit is essential and extending it would invalidate the activity; or
     -   **20 Hour Exception:** The time limit is longer than 20 hours.
+    -   Content that repeats or is synchronized with other content, so long as the information and data is adjustable or otherwise under the control of the end user. Examples of time limits for which this success criterion is not applicable include scrolling text that repeats, captioning, and carousels. These are situations which do include time limits, but the content is still available to the user because there are controls for accessing it.
 -   Changing content is considered to be "in parallel" when it appears alongside other content. For example, a news flash updating across the bottom of a page would be considered changing content in parallel with other content when the page also presents a news video and text news articles (both examples of static content). A button allowing users to pause the changing content would not be considered other static content.
 -   Moving, blinking, scrolling, and/or auto-updating is considered "essential" to an activity when, if removed, it would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform.
 -   Notes from SC 2.2.2 Pause, Stop, Hide:
@@ -35,6 +36,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
     -   Note 4: An animation that occurs as part of a preload phase or similar situation can be considered essential if interaction cannot occur during that phase for all users and if not indicating progress could confuse users or cause them to think that content was frozen or broken.
 -   Note from SC 1.4.2 Audio Control:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
+-   Per [WCAG 2.2 Understanding SC 1.4.2: Audio Control](https://www.w3.org/WAI/WCAG22/Understanding/audio-control), having control of the volume includes being able to reduce its volume to zero. Muting the system volume is not "pausing or stopping" the autoplay audio. Both the "pause or stop" and control of audio volume need to be independent of the overall system volume.
 
 ### 21.1 Test Procedure for Timing Adjustable
 
@@ -112,7 +114,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 <ol id="4TI">
     <li id="4TI-1">Check that either [SC 1.4.2]
         <ol>
-        <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio, <strong>OR</strong></li>
+        <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio that is independent of the overall system volume, <strong>OR</strong></li>
         <li id="4TI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
         </ol></li>
 </ol>
@@ -128,15 +130,17 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 -   Browsers must be configured to disable autoplay of audio prior to testing of content. Provide instructions for conformant browser mechanisms only. Test results may vary depending on browser.
 -   Content that is found non-conformant with SC 2.2.2 may be marked for further review for a Section 508 exception if the auto-update is essential. However, an exception for SC 2.2.2 should be considered carefully as Conformance Requirement 5: Non Interference requires its conformance.
 
-#### WCAG 2.0 Techniques
+### WCAG 2.2 Techniques
+
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G198: Providing a way for the user to turn the time limit off](https://www.w3.org/TR/WCAG20-TECHS/G198.html)
--   [G180: Providing the user with a means to set the time limit to 10 times the default time limit](https://www.w3.org/TR/WCAG20-TECHS/G180.html)
--   [SCR16: Providing a script that warns the user a time limit is about to expire](https://www.w3.org/TR/WCAG20-TECHS/SCR16.html) **AND** [SCR1: Allowing the user to extend the default time limit](https://www.w3.org/TR/WCAG20-TECHS/SCR1.html)
--   [G4: Allowing the content to be paused and restarted from where it was paused](https://www.w3.org/TR/WCAG20-TECHS/G4.html)
--   [SCR33: Using script to scroll content, and providing a mechanism to pause it](https://www.w3.org/TR/WCAG20-TECHS/SCR33.html)
--   [SCR36: Providing a mechanism to allow users to display moving, scrolling, or auto-updating text in a static window or area](https://www.w3.org/TR/WCAG20-TECHS/SCR36.html)
--   [G170: Providing a control near the beginning of the Web page that turns off sounds that play automatically](https://www.w3.org/TR/2016/NOTE-WCAG20-TECHS-20161007/G170)
--   [G60: Playing a sound that turns off automatically within three seconds](https://www.w3.org/TR/WCAG20-TECHS/G60.html)
--   [G171: Playing sounds only on user request](https://www.w3.org/TR/WCAG20-TECHS/G171.html)
--   [G186: Using a control in the Web page that stops moving, blinking, or auto-updating content](https://www.w3.org/TR/WCAG20-TECHS/G186)
+
+-   [G4: Allowing the content to be paused and restarted from where it was paused](https://www.w3.org/WAI/WCAG22/Techniques/general/G4)
+-   [G60: Playing a sound that turns off automatically within three seconds](https://www.w3.org/WAI/WCAG22/Techniques/general/G60)
+-   [G170: Providing a control near the beginning of the Web page that turns off sounds that play automatically](https://www.w3.org/WAI/WCAG22/Techniques/general/G170)
+-   [G171: Playing sounds only on user request](https://www.w3.org/WAI/WCAG22/Techniques/general/G171)
+-   [G180: Providing the user with a means to set the time limit to 10 times the default time limit](https://www.w3.org/WAI/WCAG22/Techniques/general/G180)
+-   [G186: Using a control in the Web page that stops moving, blinking, or auto-updating content](https://www.w3.org/WAI/WCAG22/Techniques/general/G186)
+-   [G198: Providing a way for the user to turn the time limit off](https://www.w3.org/WAI/WCAG22/Techniques/general/G198)
+-   [SCR16: Providing a script that warns the user a time limit is about to expire](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR16) **AND** [SCR1: Allowing the user to extend the default time limit](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR1)
+-   [SCR33: Using script to scroll content, and providing a mechanism to pause it](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR33)
+-   [SCR36: Providing a mechanism to allow users to display moving, scrolling, or auto-updating text in a static window or area](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR36)

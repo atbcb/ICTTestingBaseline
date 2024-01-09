@@ -5,9 +5,9 @@ order-number: 2
 ## 1. Keyboard Accessible
 
 ### Accessibility Requirements
--   [WCAG SC 2.1.1 Keyboard](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-keyboard-operable.html) – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
--   [WCAG SC 2.1.2 No Keyboard Trap](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html) – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
--   [Conformance Requirement 5: Non-Interference](https://www.w3.org/TR/WCAG20/#cc5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
+-   [WCAG SC 2.1.1 Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard) – All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
+-   [WCAG SC 2.1.2 No Keyboard Trap](https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap) – If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.
+-   [Conformance Requirement 5: Non-Interference](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req5) - The following success criteria apply to all content on the page, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the page: 1.4.2 - Audio Control, 2.1.2 - No Keyboard Trap, 2.3.1 - Three Flashes or Below Threshold, and 2.2.2 - Pause, Stop, Hide.
 
 ### Test Method Rationale
 This requirement relies on use of a keyboard to validate access and control of all functionality of the content first by checking use of standard keyboard commands (TAB, Space Bar, Enter, Escape, etc.). If an interface uses non-standard keyboard commands, the interface must clearly document the commands and make users aware that the commands exist.
@@ -73,13 +73,15 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 
 -   Keyboard focusable components include links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, and iframes. Focusable components may also be "hidden", positioned off-screen, and/or have no visible indication of focus.
 -   Keyboard commands include standard and any nonstandard keyboard commands.
--   Keyboard access for Title attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a TITLE attribute to see if TITLE content is revealed during Keyboard Navigation testing.
+-   Keyboard access for `title` attribute is available in Internet Explorer 11 for Windows 8.1 and 10. It may be useful to notify testers to pause while tabbing through interactive content with a `title` attribute to see if `title` content is revealed during Keyboard Navigation testing.
 -   This test may be combined with tests for keyboard focus.
 -   Tips and techniques for finding hidden content may be useful for testers.
 -   It may be useful to provide a Windows keyboard reference guide to testers.
 -   Content that is found non-conformant with SC 2.1.1 may be marked for further review for a Section 508 exception if “the underlying function requires input that depends on the path of the user's movement and not just the endpoints".
 
-#### WCAG 2.0 Techniques
--   The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-    -   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/TR/WCAG20-TECHS/G202.html)
-    -   [G21: Ensuring users are not trapped in content](https://www.w3.org/TR/WCAG20-TECHS/G21.html)
+### WCAG 2.2 Techniques
+
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+-   [G21: Ensuring users are not trapped in content](https://www.w3.org/WAI/WCAG22/Techniques/general/G21)
+-   [G202: Ensuring keyboard control for all functionality](https://www.w3.org/WAI/WCAG22/Techniques/general/G202)
+    

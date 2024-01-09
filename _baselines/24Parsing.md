@@ -6,17 +6,17 @@ order-number: 25
 
 ### Accessibility Requirements
 
--   [WCAG SC 4.1.1 Parsing](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html) -- In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
+-   [WCAG SC 4.1.1 Parsing](https://www.w3.org/WAI/WCAG22/Understanding/parsing) -- In content implemented using markup languages, elements have complete start and end tags, elements are nested according to their specifications, elements do not contain duplicate attributes, and any IDs are unique, except where the specifications allow these features.
 
 ### Test Method Rationale
 
-This baseline test requires that the content has no errors in element and attribute syntax and provides properly nested start/end tags to avoid errors that prevent user agents from parsing the content reliably. If the content cannot be parsed into a data structure, then different user agents, including assistive technologies, may present it differently or be completely unable to parse it. 
+-   WCAG 2.2 has deprecated SC 4.1.1 Parsing as it no longer has utility because accessibility errors due to assistive technology directly parsing HTML no longer exist or are addressed in other criteria.
+-   Section 508 is not directly affected by WCAG 2.2 as it incorporates by reference WCAG 2.0 Level A and AA, W3C Recommendation, December 11, 2008. SC 4.1.1 Parsing is not deprecated in WCAG 2.0, and the criterion is a Section 508 requirement. However, this Baseline test will incorporate the [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) which states "This criterion should be considered as always satisfied for any content using HTML or XML."
+ 
 
 ### Limitations, Assumptions, or Exceptions
 
--   Note: Start and end tags that are missing a critical character in their formation, such as a closing angle bracket or a mismatched attribute value quotation mark are not complete.
--   Markup is not always available to assistive technologies or to user selectable user agents such as browsers. Software sometimes uses markup languages internally for persistence of the software user interface, in ways where the markup is never available to assistive technology (either directly or through a document object model (DOM)), or to a user agent (such as a browser). In such cases, conformance to this provision would have no impact on accessibility as it can have for web content where it is exposed.
--   As stated in the requirement language, some specifications may allow duplicate IDs. For example some markup languages may allow duplicate IDs, provided that IDs are unique for peer elements under the same parent element.
+-   From [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/): Success Criterion 4.1.1 was originally adopted to address problems that assistive technology had directly parsing HTML. Since this criterion was written, the HTML Standard has adopted specific requirements governing how user agents must handle incomplete tags, incorrect element nesting, duplicate attributes, and non-unique IDs. Although the HTML Standard treats some of these cases as non-conforming for authors, it is considered to "allow these features" for the purposes of this Success Criterion because the specification requires that user agents support handling these cases consistently. In practice, this criterion no longer provides any benefit to people with disabilities in itself. Issues such as missing roles due to inappropriately nested elements or incorrect states or names due to a duplicate ID are covered by different Success Criteria and should be reported under those criteria rather than as issues with 4.1.1.
 
 ### 24.1 Test Procedure for Parsing
 
@@ -26,25 +26,22 @@ This baseline test requires that the content has no errors in element and attrib
 
 #### Test Instructions
 <ol id="1TI">
-    <li id="1TI-1">Check that (except where the specifications allow these features): [SC 4.1.1]
-        <ol>
-        <li id="1TI-1i">elements have complete start and end tags,</li>
-        <li id="1TI-1ii">elements are nested according to their specifications,</li>
-        <li id="1TI-1iii">elements do not contain duplicate attributes, and</li>
-        <li id="1TI-1iv">any IDs are unique.</li>
-        </ol></li>
+    <li id="1TI-1">No testing necessary.</li>
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Test 24.1-Parsing fails.</p>
+<p id="1TR">Baseline Test 24.1-Parsing passes.</p>
 
 ### Advisory: Tips for streamlined test processes
 
-While validators can be great tools for catching errors, they may not specify which are only parsing errors or catch all cases where content fails to fully conform to a specification.
+- None
 
-#### WCAG 2.0 Techniques
-The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
--   [G134: Validating Web pages](https://www.w3.org/TR/WCAG20-TECHS/G134.html)
--   [G192: Fully conforming to specifications](https://www.w3.org/TR/WCAG20-TECHS/G192.html)
--   [H88: Using HTML according to spec](https://www.w3.org/TR/WCAG20-TECHS/H88.html)
--   [H74: Ensuring that opening and closing tags are used according to specification](https://www.w3.org/TR/WCAG20-TECHS/H74.html) **AND** [H93: Ensuring that id attributes are unique on a Web page](https://www.w3.org/TR/WCAG20-TECHS/H93.html) **AND** [H94: Ensuring that elements do not contain duplicate attributes](https://www.w3.org/TR/WCAG20-TECHS/H94.html)
+### WCAG 2.2 Techniques
+
+While SC 4.1.1 has been deprecated in WCAG 2.2, the following sufficient techniques are listed for reference:
+
+-   [G134: Validating Web pages](https://www.w3.org/WAI/WCAG22/Techniques/general/G134)
+-   [G192: Fully conforming to specifications](https://www.w3.org/WAI/WCAG22/Techniques/general/G192)
+-   [H74: Ensuring that opening and closing tags are used according to specification](https://www.w3.org/WAI/WCAG22/Techniques/html/H74) **AND** [H93: Ensuring that id attributes are unique on a Web page](https://www.w3.org/WAI/WCAG22/Techniques/html/H93) **AND** [H94: Ensuring that elements do not contain duplicate attributes](https://www.w3.org/WAI/WCAG22/Techniques/html/H94)
+-   [H88: Using HTML according to spec](https://www.w3.org/WAI/WCAG22/Techniques/html/H88)
+  
