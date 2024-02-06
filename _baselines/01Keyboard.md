@@ -23,9 +23,9 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 -   Note from SC 2.1.2:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the Web page (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
-### 1.1 Test Procedure for Keyboard Access
+### 1.A Test Procedure for Keyboard Access
 
-**Baseline Test ID:** 1.1-KeyboardAccess
+**Baseline Test ID:** 1.A-KeyboardAccess
 #### Identify Content
 <p id="IC">All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).</p>
 
@@ -48,11 +48,11 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Test 1.1-KeyboardAccess fails.</p>
+<p id="1TR">If any of the above checks fail, then Baseline Test 1.A-KeyboardAccess fails.</p>
 
-### 1.2 Test Procedure for No Keyboard Trap
+### 1.B Test Procedure for No Keyboard Trap
 
-**Baseline Test ID:** 1.2-NoKeyboardTrap
+**Baseline Test ID:** 1.B-NoKeyboardTrap
 #### Identify Content
 <p id="2IC">Components that receive keyboard focus.</p>
 
@@ -66,7 +66,7 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 </ol>
 
 #### Test Results
-<p id="2TR">If the above check fails, then Baseline Test 1.2-NoKeyboardTrap fails.
+<p id="2TR">If the above check fails, then Baseline Test 1.B-NoKeyboardTrap fails.
 </p>
 
 ### Advisory: Tips for streamlined test processes
