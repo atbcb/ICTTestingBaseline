@@ -34,58 +34,58 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
     -   **Note:** A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).
     -   **Examples:** Opening a new window, moving focus to a different component, going to a new page or window (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page/screen are examples of changes of context. 
 
-### 2.1 Test Procedure for Focus Visible
+### 2.A Test Procedure for Focus Visible
 
-**Baseline Test ID:** 2.1-FocusVisible
+**Baseline Test ID:** 2.A-FocusVisible
 
 #### Identify Content
-<p id="1IC">Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).</p>
+<p id="AIC">Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).</p>
 
 #### Tests Instructions
-<ol id="1TI">
-    <li id="1TI-1">Use the keyboard to navigate through each interface component.</li>
-    <li id="1TI-2">Check that a visible indication of focus is provided when focus is on the interface component. The focus indicator must not be time limited; when the keyboard focus is shown it must remain.[SC 2.4.7]</li>
+<ol id="ATI">
+    <li id="ATI-1">Use the keyboard to navigate through each interface component.</li>
+    <li id="ATI-2">Check that a visible indication of focus is provided when focus is on the interface component. The focus indicator must not be time limited; when the keyboard focus is shown it must remain.[SC 2.4.7]</li>
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Test 2.1-FocusVisible fails.</p>
+<p id="ATR">If any of the above checks fail, then Baseline Test 2.A-FocusVisible fails.</p>
 
-### 2.2 Test Procedure for Focus Order
+### 2.B Test Procedure for Focus Order
 
-**Baseline Test ID:** 2.2-FocusOrder
+**Baseline Test ID:** 2.B-FocusOrder
 #### Identify Content
-<p id="2IC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.</p>
+<p id="BIC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.</p>
 
 #### Test Instructions
-<ol id="2TI">
-    <li id="2TI-1">Use the keyboard to navigate through interface components.
+<ol id="BTI">
+    <li id="BTI-1">Use the keyboard to navigate through interface components.
     <ol>
-        <li id="2TI-1a">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
+        <li id="BTI-1a">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
         <ol>
-            <li id="2TI-1ai">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
-            <li id="2TI-1aii">Advance the focus through the revealed content.</li>
+            <li id="BTI-1ai">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
+            <li id="BTI-1aii">Advance the focus through the revealed content.</li>
         </ol></li>
-        <li id="2TI-1b">Use the keyboard to close/hide the revealed content.
+        <li id="BTI-1b">Use the keyboard to close/hide the revealed content.
         <ol>
-            <li id="2TI-1bi">Check that focus is returned to the trigger control. It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
+            <li id="BTI-1bi">Check that focus is returned to the trigger control. It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
         </ol></li>
     </ol></li>
-    <li id="2TI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
+    <li id="BTI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
 </ol>
 
 #### Test Results
-<p id="2TR">If any of the above checks fail, then Baseline Test 2.2-FocusOrder fails.</p>
+<p id="BTR">If any of the above checks fail, then Baseline Test 2.B-FocusOrder fails.</p>
 
-### 2.3 Test Procedure for On Focus
+### 2.C Test Procedure for On Focus
 
-**Baseline Test ID:** 2.3-OnFocus
+**Baseline Test ID:** 2.C-OnFocus
 #### Identify Content
 <p id="3IC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).</p>
 
 #### Test Instructions
-<ol id="3TI">
-    <li id="3TI-1">Use the keyboard to move focus to and navigate through each interactive interface component (including form drop-down lists and form fields).</li>
-    <li id="3TI-2">Check that when an interface component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1]<br>
+<ol id="CTI">
+    <li id="CTI-1">Use the keyboard to move focus to and navigate through each interactive interface component (including form drop-down lists and form fields).</li>
+    <li id="CTI-2">Check that when an interface component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1]<br>
     Examples of a change of context include:
         <ul>
             <li>Forms submitted automatically when a component receives focus</li>
@@ -95,7 +95,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 </ol>
 
 #### Test Results
-<p id="3TR">If any of the above checks fail, then Baseline Test 2.3-OnFocus fails.</p>
+<p id="CTR">If any of the above checks fail, then Baseline Test 2.C-OnFocus fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

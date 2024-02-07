@@ -22,18 +22,18 @@ The purpose of this Baseline test is to check the following accessibility proper
 -   The accessibility properties of the user control must be correct if the user control changes.
 -   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color) authors cannot set the visited state of links. The anchor element does not include a "visited" attribute; therefore the author has no ability to alter the state through an attribute setting. Exclude visited/unvisited state of links from this Baseline test.
 
-### 5.1 Test Procedure for Control Name
+### 5.A Test Procedure for Control Name
 
-**Baseline Test ID:** 5.1-ChangedControlName
+**Baseline Test ID:** 5.A-ChangedControlName
 
 #### Identify Content
-<p id="1IC">Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="../10Forms">Baseline 10. Forms</a>, [Baseline 14. Links](../14Links), respectively.</p>
+<p id="AIC">Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="../10Forms">Baseline 10. Forms</a> and <a href="../14Links"> Baseline 14. Links</a>, respectively.</p>
 
 
 #### Test Instructions
-<ol id="1TI">
-	<li id="1TI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="1TI-2">Check that the non-empty combination of the accessible name and accessible description describes the control's purpose. [SC 4.1.2]  For details on the computation of the accessible name and accessible description, references include:
+<ol id="ATI">
+	<li id="ATI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="ATI-2">Check that the non-empty combination of the accessible name and accessible description describes the control's purpose. [SC 4.1.2]  For details on the computation of the accessible name and accessible description, references include:
 		<ul>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-number-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
@@ -43,7 +43,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#accdesc-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for Accessible Description Computation</a></li>
 		</ul>
 	</li>
-	<li id="1TI-3">If the name of the user control changes with use of the application, repeat the previous test steps and check that the accessible name is correct after the change.
+	<li id="ATI-3">If the name of the user control changes with use of the application, repeat the previous test steps and check that the accessible name is correct after the change.
 		<ul>
 			<li>Depending on the control, a change of name may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
 	  		<li>Examples include entering a response in a form field for country changes the next form field's label from "state" to "province", selecting a control toggles its functionality from sorting ascending to descending, a link appends "Updated" to its name when the linked page is edited.</li>
@@ -53,21 +53,21 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 #### Test Results
 
-<p id="1TR">If any of the above checks fail, then Baseline Test 5.1-ControlName fails.</p>
+<p id="ATR">If any of the above checks fail, then Baseline Test 5.A-ControlName fails.</p>
 
-### 5.2 Test Procedure for Control Role (not available)
+### 5.B Test Procedure for Control Role (not available)
 
-### 5.3 Test Procedure for Control State
+### 5.C Test Procedure for Control State
 
-**Baseline Test ID:** 5.2-ControlState
+**Baseline Test ID:** 5.C-ControlState
 #### Identify Content
-<p id="3IC">Identify user controls for a distinct function. Examples include changes to forms, links, and toggle controls. Exclude the visited/unvisited state of links.</p>
+<p id="CIC">Identify user controls for a distinct function. Examples include changes to forms, links, and toggle controls. Exclude the visited/unvisited state of links.</p>
   
 
 #### Test Instructions
-<ol id="2TI">
-	<li id="2TI-1">Check that the state of the user control is correct. Attributes such as <code>hidden</code>, <code>disabled</code>, and the use of <a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA</a> to control component states must be used correctly.[SC 4.1.2]</li>
-	<li id="2TI-2">If the state of the user control changes with use of the application, check that the state of the user control is correct after a change of state. [SC 4.1.2]
+<ol id="CTI">
+	<li id="CTI-1">Check that the state of the user control is correct. Attributes such as <code>hidden</code>, <code>disabled</code>, and the use of <a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA</a> to control component states must be used correctly.[SC 4.1.2]</li>
+	<li id="CTI-2">If the state of the user control changes with use of the application, check that the state of the user control is correct after a change of state. [SC 4.1.2]
 		<ul>
 			<li>Depending on the control, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
 			<li>Examples include a disabled "Submit" button is enabled when all required form fields are filled in, a link becomes visible after a user-initiated calculation completes, a check box changes from checked to unchecked, links that are hovered or visited.</li>
@@ -77,29 +77,29 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 #### Test Results
 
-<p id="2TR">If any of the above checks fail, then Baseline Test 5.2-ControlState fails.</p>
+<p id="CTR">If any of the above checks fail, then Baseline Test 5.2-ControlState fails.</p>
 
-### 5.3 Test Procedure for Control Value
+### 5.D Test Procedure for Control Value
 
-**Baseline Test ID:** 5.3-ControlValue
+**Baseline Test ID:** 5.D-ControlValue
 #### Identify Content
-<p id="3IC">Identify controls that have a value that can be changed by a user. Examples include form fields and sliders.</p>
+<p id="DIC">Identify controls that have a value that can be changed by a user. Examples include form fields and sliders.</p>
 
 #### Test Instructions
-<ol id="3TI">
-	<li id="3TI-1">Check that the value of the user control is correct. [SC 4.1.2]</li>
-	<li id="3TI-2">Modify the value of the user control. Depending on the control, a change of value may be performed by entering a number, selecting from a list of options, etc.</li>
-	<li id="3TI-3">Check that the value of the user control is correct after a change of value. [SC 4.1.2]</li>
+<ol id="DTI">
+	<li id="DTI-1">Check that the value of the user control is correct. [SC 4.1.2]</li>
+	<li id="DTI-2">Modify the value of the user control. Depending on the control, a change of value may be performed by entering a number, selecting from a list of options, etc.</li>
+	<li id="DTI-3">Check that the value of the user control is correct after a change of value. [SC 4.1.2]</li>
 </ol>
 
 #### Test Results
 
-<p id="3TR">If any of the above checks fail, then Baseline Test 5.3-ControlValue fails.</p>
+<p id="DTR">If any of the above checks fail, then Baseline Test 5.3-ControlValue fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 
 - Changes to controls may also include changes in color to convey information. If so, this test should check that the information is programmatically determinable. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 7. Sensory Characteristics](../07Sensory)).
-- The accessible name and accessible description of some user controls are tested in other Baseline tests, such as [Baseline 10. Forms](../10Forms), [Baseline 14. Links](../14Links). For user controls that have dedicated Baseline Tests, please map to those tests for accessible name instead of 5.1-ControlName. 
+- The accessible name and accessible description of some user controls are tested in other Baseline tests, such as [Baseline 10. Forms](../10Forms), [Baseline 14. Links](../14Links). For user controls that have dedicated Baseline Tests, please map to those tests for accessible name instead of 5.A-ControlName. 
 - This test may require interaction with controls to assess changes in name, role, state, value. Interaction instructions such as a test plan may be helpful.
 
 ### WCAG 2.2 Techniques

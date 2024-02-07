@@ -20,19 +20,19 @@ The test results for SC's 1.4.2 (Baseline Test 21.4-AudioControl), 2.1.2 (1.2-No
 
 None.
 
-### 3.1 Test Procedure for Non-Interference
+### 3.A Test Procedure for Non-Interference
 
-**Baseline Test ID:** 3.1-NonInterference
+**Baseline Test ID:** 3.A-NonInterference
 #### Identify Content
-<p id="1IC">Results for Baseline Tests <a href="../21TimedEvents/#214-test-procedure-for-audio-control">21.4-AudioControl</a>, <a href="../01Keyboard/#12-test-procedure-for-no-keyboard-trap">1.2-NoKeyboardTrap</a>, <a href="../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold">9.1-Flashes</a>, <a href="../21TimedEvents/#212-test-procedure-for-moving-information">21.2-MovingInfo</a> and <a href="../21TimedEvents/#213-test-procedure-for-auto-updating-information">21.3-AutoUpdate</a>.</p>
+<p id="AIC">Results for Baseline Tests <a href="../21TimedEvents/#214-test-procedure-for-audio-control">21.4-AudioControl</a>, <a href="../01Keyboard/#12-test-procedure-for-no-keyboard-trap">1.2-NoKeyboardTrap</a>, <a href="../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold">9.1-Flashes</a>, <a href="../21TimedEvents/#212-test-procedure-for-moving-information">21.2-MovingInfo</a> and <a href="../21TimedEvents/#213-test-procedure-for-auto-updating-information">21.3-AutoUpdate</a>.</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Check that all of the test results are pass.[CR5]</li>
+<ol id="ATI">
+    <li id="ATI-1">Check that all of the test results are pass.[CR5]</li>
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Requirement 3.1-NonInterference fails.</p>
+<p id="ATR">If any of the above checks fail, then Baseline Requirement 3.A-NonInterference fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 
