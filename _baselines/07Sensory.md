@@ -25,33 +25,33 @@ Users affected by this requirement are sighted and not limited to users of assis
 -   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), where color alone distinguishes between visited and unvisited links, it does not result in a failure of this Success Criterion. 
 -   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), use of colors that differ in color (hue) and lightness with a contrast ratio of 3:1 or greater meet this requirement.
 
-### 7.1 Test Procedure for Use of Color
+### 7.A Test Procedure for Use of Color
 
-**Baseline Test ID:** 7.1-Color
+**Baseline Test ID:** 7.A-Color
 #### Identify Content
-<p id="1IC">Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors. Exclude color of visited/unvisited links.</p>
+<p id="AIC">Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors. Exclude color of visited/unvisited links.</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Check if one or more of the following is true:
+<ol id="ATI">
+    <li id="ATI-1">Check if one or more of the following is true:
     <ol>
-        <li id="1TI-1i">The content using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color when the user must be able to accurately perceive or differentiate a particular color. [SC 1.4.1]</li>
-        <li id="1TI-1ii">The content using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning when the user must be able to accurately perceive or differentiate a particular color.[SC 1.4.1]</li>
-        <li id="1TI-1iii">The content using only a difference in colors to convey meaning uses colors (hues) that have a contrast ratio of 3:1 or greater. This content does not require the user to be able to accurately perceive or differentiate a particular color.[SC 1.4.1]</li>
+        <li id="ATI-1i">The content using color to convey meaning also provides on-screen alternate text describing the color and/or the meaning conveyed by the color when the user must be able to accurately perceive or differentiate a particular color. [SC 1.4.1]</li>
+        <li id="ATI-1ii">The content using color to convey meaning also provides other visual differentiation (e.g., shape, position, size, underline) with a clear indication of its meaning when the user must be able to accurately perceive or differentiate a particular color.[SC 1.4.1]</li>
+        <li id="ATI-1iii">The content using only a difference in colors to convey meaning uses colors (hues) that have a contrast ratio of 3:1 or greater. This content does not require the user to be able to accurately perceive or differentiate a particular color.[SC 1.4.1]</li>
     </ol></li>
 </ol>
 
 #### Test Results
-<p id="1TR">If BOTH of the above checks fail, then Baseline Test 7.1-Color fails.</p>
+<p id="ATR">If BOTH of the above checks fail, then Baseline Test 7.A-Color fails.</p>
 
-### 7.2 Test Procedure for Sensory Characteristics
-**Baseline Test ID:** 7.2-SensoryCharacteristics
+### 7.B Test Procedure for Sensory Characteristics
+**Baseline Test ID:** 7.B-SensoryCharacteristics
 #### Identify Content
-<p id="2IC">Identify instructions for understanding and operating content that use sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.</p>
+<p id="BIC">Identify instructions for understanding and operating content that use sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.</p>
 
 #### Test Instructions
-<ol id="2TI">
-    <li id="2TI-1">Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]<br>
+<ol id="BTI">
+    <li id="BTI-1">Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]<br>
     For example:
         <ul>
             <li>To see your changes, select the round button labeled "Go".</li>
@@ -59,7 +59,7 @@ Users affected by this requirement are sighted and not limited to users of assis
             <li>Select the lower-right "Cancel" button to close this session.</li>
         </ul>
     </li>
-    <li id="2TI-2">Check that any auditory cues also provide programmatically determinable visual and/or textual cues. [SC 1.3.3].<br>
+    <li id="BTI-2">Check that any auditory cues also provide programmatically determinable visual and/or textual cues. [SC 1.3.3].<br>
     For example:
         <ul>
             <li>At the sound of the beep and the appearance of the timer, begin the quiz.</li>
@@ -68,16 +68,16 @@ Users affected by this requirement are sighted and not limited to users of assis
 </ol>
 
 #### Test Results
-<p id="2TR">If any of the above checks fail, then Baseline Test 7.2-SensoryCharacteristics fails.</p>
+<p id="BTR">If any of the above checks fail, then Baseline Test 7.B-SensoryCharacteristics fails.</p>
 
-### 7.3 Test Procedure for Audible Cues
-**Baseline Test ID:** 7.3-AudibleCues
+### 7.C Test Procedure for Audible Cues
+**Baseline Test ID:** 7.C-AudibleCues
 #### Identify Content
-<p id="3IC">Identify any short sound/audible cue that serves as a notification to the user, such as a beep that signifies an error has occurred or a chime to indicate an incoming message.</p>
+<p id="CIC">Identify any short sound/audible cue that serves as a notification to the user, such as a beep that signifies an error has occurred or a chime to indicate an incoming message.</p>
 
 #### Test Instructions
-<ol id="3TI">
-    <li id="3TI-1">Check that a text alternative that describes the purpose of the sound is provided with the audible cue. [SC 1.1.1]<br>
+<ol id="CTI">
+    <li id="CTI-1">Check that a text alternative that describes the purpose of the sound is provided with the audible cue. [SC 1.1.1]<br>
     For example:
         <ul>
             <li>A short beep and an asterisk appears on a required field to notify the user that the field must be completed. </li>
@@ -87,7 +87,7 @@ Users affected by this requirement are sighted and not limited to users of assis
 </ol>
 
 #### Test Results
-<p id="3TR">If any of the above checks fail, then Baseline Test 7.3-AudibleCues fails.</p>
+<p id="CTR">If any of the above checks fail, then Baseline Test 7.C-AudibleCues fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

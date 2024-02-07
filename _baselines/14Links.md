@@ -22,12 +22,12 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 
 **Baseline Test ID:** 14.1-LinkPurpose
 #### Identify Content
-<p id="1IC">All links including those that are scripted elements and assigned a role of a link.</p>
+<p id="AIC">All links including those that are scripted elements and assigned a role of a link.</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Check that the combination of accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="1TI-2">Check that the purpose of each link can be determined from any combination of the following [SC 2.4.4]:
+<ol id="ATI">
+    <li id="ATI-1">Check that the combination of accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="ATI-2">Check that the purpose of each link can be determined from any combination of the following [SC 2.4.4]:
     <ul>
        <li>the link text, </li>
        <li>the link's <a href="https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation" target="_blank" rel="noopener">accessible name and accessible description</a>, </li>
@@ -38,7 +38,7 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Test 14.1-LinkPurpose fails.</p>
+<p id="ATR">If any of the above checks fail, then Baseline Test 14.1-LinkPurpose fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

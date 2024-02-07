@@ -37,25 +37,25 @@ An alternate version must meet all parts of the definition in order to be consid
 
 **Baseline Test ID:** 20.1-ConformingAltVersion
 #### Identify Content
-<p id="1IC">Multiple versions of the same content</p>
+<p id="AIC">Multiple versions of the same content</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Check that the alternate version provides all of the same information and functionality in the same human language.[CAV]</li>
-    <li id="1TI-2">Check that the alternate version is as up to date as the non-conforming content.[CAV]</li>
-    <li id="1TI-3">Check that the alternate version passes all other baseline tests.[CAV]</li>
-    <li id="1TI-4">Check that at least one of the following is true:[CAV]
+<ol id="ATI">
+    <li id="ATI-1">Check that the alternate version provides all of the same information and functionality in the same human language.[CAV]</li>
+    <li id="ATI-2">Check that the alternate version is as up to date as the non-conforming content.[CAV]</li>
+    <li id="ATI-3">Check that the alternate version passes all other baseline tests.[CAV]</li>
+    <li id="ATI-4">Check that at least one of the following is true:[CAV]
         <ol>
-        <li id="1TI-4i">the conforming alternate version can be reached from the non-conforming version via an accessibility-supported mechanism, or</li>
-        <li id="1TI-4ii">the non-conforming version can only be reached from the alternate version, or</li>
-        <li id="1TI-4iii">the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.</li>
+        <li id="ATI-4i">the conforming alternate version can be reached from the non-conforming version via an accessibility-supported mechanism, or</li>
+        <li id="ATI-4ii">the non-conforming version can only be reached from the alternate version, or</li>
+        <li id="ATI-4iii">the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.</li>
         </ol>
     </li>
-    <li id="1TI-5">Check that the content indicates that a conforming alternate version is available.</li>
+    <li id="ATI-5">Check that the content indicates that a conforming alternate version is available.</li>
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20.1-ConformingAltVersion DOES NOT APPLY.</p>
+<p id="ATR">If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20.1-ConformingAltVersion DOES NOT APPLY.</p>
 
 ### Advisory: Tips for streamlined test processes
 

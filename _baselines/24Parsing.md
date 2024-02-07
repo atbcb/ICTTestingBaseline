@@ -22,15 +22,15 @@ order-number: 25
 
 **Baseline Test ID:** 24.1-Parsing
 #### Identify Content
-<p id="1IC">All web pages</p>
+<p id="AIC">All web pages</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">No testing necessary.</li>
+<ol id="ATI">
+    <li id="ATI-1">No testing necessary.</li>
 </ol>
 
 #### Test Results
-<p id="1TR">Baseline Test 24.1-Parsing passes.</p>
+<p id="ATR">Baseline Test 24.1-Parsing passes.</p>
 
 ### Advisory: Tips for streamlined test processes
 

@@ -80,7 +80,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 
 **Baseline Test ID:** 2.C-OnFocus
 #### Identify Content
-<p id="3IC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).</p>
+<p id="CIC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).</p>
 
 #### Test Instructions
 <ol id="CTI">

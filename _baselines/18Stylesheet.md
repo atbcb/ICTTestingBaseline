@@ -24,16 +24,16 @@ CSS background image is now covered under [Baseline 6.2 Test Procedure for Image
 
 **Baseline Test ID:** 18.2-CSSPositionedContent
 #### Identify Content
-<p id="2IC">Meaningful content positioned with CSS</p>
+<p id="BIC">Meaningful content positioned with CSS</p>
 
 #### Test Instructions
-<ol id="2TI">
-    <li id="2TI-1">Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]</li>
-    <li id="2TI-2">Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]</li>
+<ol id="BTI">
+    <li id="BTI-1">Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]</li>
+    <li id="BTI-2">Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]</li>
 </ol>
 
 #### Test Results
-<p id="2TR">If any of the above checks fail, then Baseline Test 18.2-CSSPositionedContent fail.</p>
+<p id="BTR">If any of the above checks fail, then Baseline Test 18.2-CSSPositionedContent fail.</p>
 
 ### Advisory: Tips for streamlined test processes
 - These tests are not to be performed by disabling all CSS. Content is not required to be perceivable and operable with all CSS disabled.

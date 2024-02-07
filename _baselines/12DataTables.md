@@ -24,26 +24,26 @@ When `<table>` elements are used for layout purposes, data table structure ele
 
 **Baseline Test ID:** 12.1-DataTable
 #### Identify Content
-<p id="1IC">All content/data visually presented in a table with column and/or row headers where the content is not in a meaningful sequence when linearized.</p>
+<p id="AIC">All content/data visually presented in a table with column and/or row headers where the content is not in a meaningful sequence when linearized.</p>
 
 <p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques [SC 1.3.1]:
+<ol id="ATI">
+    <li id="ATI-1">Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques [SC 1.3.1]:
         <ul>
             <li>HTML <code>&lt;table&gt;</code></li>
             <li>ARIA <code>role="table"</code></li>
             <li>ARIA <code>role="grid"</code></li>
         </ul></li>
-    <li id="1TI-2">Check that the data <code>&lt;table&gt;</code> element does <strong>NOT</strong> have <code>role="presentation"</code> or <code>role="none"</code>. [SC 1.3.1]</li>
-    <li id="1TI-3">Table data cell: Check that each data cell uses only one of the following methods to identify it as a data cell within a table row depending on the technique identified in the first step [SC 1.3.1]:
+    <li id="ATI-2">Check that the data <code>&lt;table&gt;</code> element does <strong>NOT</strong> have <code>role="presentation"</code> or <code>role="none"</code>. [SC 1.3.1]</li>
+    <li id="ATI-3">Table data cell: Check that each data cell uses only one of the following methods to identify it as a data cell within a table row depending on the technique identified in the first step [SC 1.3.1]:
         <ul>
             <li>For HTML <code>&lt;table&gt;</code>: <code>&lt;td&gt;</code> for the cell, which must be within a <code>&lt;tr&gt;</code> row.</li>
             <li>For ARIA <code>role="table"</code>: ARIA <code>role="cell"</code>, which must be within an ARIA <code>role="row"</code>.</li>
             <li>For ARIA <code>role="grid"</code>: ARIA <code>role="gridcell"</code>, which must be within an ARIA <code>role="row"</code> (if the ARIA grid is not making use of the native HTML <code>&lt;table&gt;</code> element and structure).</li>
         </ul></li>
-    <li id="1TI-4">Header cells and data cell association: Identify all column and row headers for each data cell. Check that all data cells are programmatically associated with relevant headers using one of the following techniques [SC 1.3.1]:
+    <li id="ATI-4">Header cells and data cell association: Identify all column and row headers for each data cell. Check that all data cells are programmatically associated with relevant headers using one of the following techniques [SC 1.3.1]:
     <ul>
         <li>For a simple HTML <code>&lt;table&gt;</code>, with all headers in the first row or column, each header cell can be marked up with <code>&lt;th&gt;</code> without additional attributes.</li>
         <li>For any HTML <code>&lt;table&gt;</code>, header cells can be marked up with <code>scope</code> if all data cells that follow the header belong to the header. In HTML4, <code>&lt;td scope&gt;</code> is supported. In HTML5, <code>&lt;td scope&gt;</code> is not supported so all header cells must be <code>&lt;th&gt;</code>. Acceptable values for <code>scope</code> are <code>col|row|colgroup|rowgroup</code>. The <code>scope</code> only applies to cells that occur after the header cell(s) in the reading order.</li>
@@ -59,32 +59,32 @@ When `<table>` elements are used for layout purposes, data table structure ele
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above tests fail, Baseline Test 12.1-DataTable fails.</p>
+<p id="ATR">If any of the above tests fail, Baseline Test 12.1-DataTable fails.</p>
 
 ### 12.2 Test Procedure for Layout Tables
 
 **Baseline Test ID:** 12.2-LayoutTable
 #### Identify Content
-<p id="2IC">All content/data visually presented in a table that retains any meanigful sequence when linearized.</p>
+<p id="BIC">All content/data visually presented in a table that retains any meanigful sequence when linearized.</p>
 
 <p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 
 #### Test Instructions
-<ol id="2TI">
-    <li id="2TI-1">Check that tables used purely for layout purposes [SC 1.3.1]:
+<ol id="BTI">
+    <li id="BTI-1">Check that tables used purely for layout purposes [SC 1.3.1]:
         <ol>
-            <li id="2TI-1i">Do <strong>NOT</strong> designate the layout as a table using ARIA role="table" and associated ARIA table attributes.</li>
-            <li id="2TI-1ii">Do <strong>NOT</strong> include table structure and relationship elements and/or associated attributes (e.g, <code>&lt;th&gt;</code>, summary, <code>&lt;caption&gt;</code>, <code>scope</code>, and/or <code>headers</code>) <strong>UNLESS</strong> at least one of the following is true:
+            <li id="BTI-1i">Do <strong>NOT</strong> designate the layout as a table using ARIA role="table" and associated ARIA table attributes.</li>
+            <li id="BTI-1ii">Do <strong>NOT</strong> include table structure and relationship elements and/or associated attributes (e.g, <code>&lt;th&gt;</code>, summary, <code>&lt;caption&gt;</code>, <code>scope</code>, and/or <code>headers</code>) <strong>UNLESS</strong> at least one of the following is true:
             <ol>
-                <li id="2TI-1iia">the table has <code>role="presentation"</code></li>
-                <li id="2TI-1iib">the table has <code>role="none"</code></li>
+                <li id="BTI-1iia">the table has <code>role="presentation"</code></li>
+                <li id="BTI-1iib">the table has <code>role="none"</code></li>
             </ol></li>
-            <li id="2TI-1iii">Do <strong>NOT</strong> identify column or row headers using <code>role="columnheader"</code> or <code>role="rowheader"</code> in an ARIA grid (where the data grid is identified using <code>role="grid"</code>).</li>
+            <li id="BTI-1iii">Do <strong>NOT</strong> identify column or row headers using <code>role="columnheader"</code> or <code>role="rowheader"</code> in an ARIA grid (where the data grid is identified using <code>role="grid"</code>).</li>
         </ol></li>
 </ol>
 
 #### Test Results
-<p id="2TR">If any of the above tests fail, Baseline Test 12.2-LayoutTable fails.</p>
+<p id="BTR">If any of the above tests fail, Baseline Test 12.2-LayoutTable fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 
