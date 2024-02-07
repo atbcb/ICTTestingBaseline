@@ -16,33 +16,33 @@ This baseline test requires an evaluation of visual content and functionality af
 
 -   Exception: captions and images of text are not included in the test.
 
-### 22.1 Test Procedure for Resize Text
+### 22.A Test Procedure for Resize Text
 
-**Baseline Test ID:** 22.1-ResizeText
+**Baseline Test ID:** 22.A-ResizeText
 #### Identify Content
-<p id="AIC">All text on a page.</p>
+<p id="22AIC">All text on a page.</p>
 
 #### Test Instructions
-<ol id="ATI">
-    <li id="ATI-1">Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] <br>
+<ol id="22ATI">
+    <li id="22ATI-1">Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] <br>
     Known approaches include:
         <ul>
-        <li id="ATI-1i">Browser zoom function or text-sizing feature</li>
-        <li id="ATI-1ii">Accessibility features provided by the platform or Operating System</li>
-        <li id="ATI-1iii">On-page controls to change text size.</li>
+        <li id="22ATI-1i">Browser zoom function or text-sizing feature</li>
+        <li id="22ATI-1ii">Accessibility features provided by the platform or Operating System</li>
+        <li id="22ATI-1iii">On-page controls to change text size.</li>
         </ul></li>
-    <li id="ATI-2">Modify the font size appearance to twice the width and height, or 200% larger.</li>
-    <li id="ATI-3">Check for all of the following [SC 1.4.4]:
+    <li id="22ATI-2">Modify the font size appearance to twice the width and height, or 200% larger.</li>
+    <li id="22ATI-3">Check for all of the following [SC 1.4.4]:
         <ol>
-        <li id="ATI-3i">Text is not clipped, truncated or obscured</li>
-        <li id="ATI-3ii">Text entered in text-based form controls resize fully</li>
-        <li id="ATI-3iii">All functionality is available</li>
-        <li id="ATI-3iv">All content is available</li>
+        <li id="22ATI-3i">Text is not clipped, truncated or obscured</li>
+        <li id="22ATI-3ii">Text entered in text-based form controls resize fully</li>
+        <li id="22ATI-3iii">All functionality is available</li>
+        <li id="22ATI-3iv">All content is available</li>
         </ol></li>
 </ol>
 
 #### Test Results
-<p id="ATR">If any of the above checks fail, then Baseline Test 22.1-ResizeText fails.</p>
+<p id="22ATR">If any of the above checks fail, then Baseline Test 22.A-ResizeText fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

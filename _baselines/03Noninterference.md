@@ -14,7 +14,7 @@ order-number: 4
 
 ### Test Method Rationale
 
-The test results for SC's 1.4.2 (Baseline Test 21.4-AudioControl), 2.1.2 (1.2-NoKeyboardTrap), 2.3.1 (9.1-Flashes), and 2.2.2 (21.2-MovingInfo and 21.3-AutoUpdate) determine the result of this baseline test.
+The test results for SC's 1.4.2 (Baseline Test 21.D-AudioControl), 2.1.2 (1.2-NoKeyboardTrap), 2.3.1 (9.1-Flashes), and 2.2.2 (21.2-MovingInfo and 21.C-AutoUpdate) determine the result of this baseline test.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -24,15 +24,15 @@ None.
 
 **Baseline Test ID:** 3.A-NonInterference
 #### Identify Content
-<p id="AIC">Results for Baseline Tests <a href="../21TimedEvents/#214-test-procedure-for-audio-control">21.4-AudioControl</a>, <a href="../01Keyboard/#12-test-procedure-for-no-keyboard-trap">1.2-NoKeyboardTrap</a>, <a href="../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold">9.1-Flashes</a>, <a href="../21TimedEvents/#212-test-procedure-for-moving-information">21.2-MovingInfo</a> and <a href="../21TimedEvents/#213-test-procedure-for-auto-updating-information">21.3-AutoUpdate</a>.</p>
+<p id="3AIC">Results for Baseline Tests <a href="../21TimedEvents/#214-test-procedure-for-audio-control">21.4-AudioControl</a>, <a href="../01Keyboard/#12-test-procedure-for-no-keyboard-trap">1.2-NoKeyboardTrap</a>, <a href="../09Flashing/#91-test-procedure-for-three-flashes-or-below-threshold">9.1-Flashes</a>, <a href="../21TimedEvents/#212-test-procedure-for-moving-information">21.2-MovingInfo</a> and <a href="../21TimedEvents/#213-test-procedure-for-auto-updating-information">21.3-AutoUpdate</a>.</p>
 
 #### Test Instructions
-<ol id="ATI">
-    <li id="ATI-1">Check that all of the test results are pass.[CR5]</li>
+<ol id="3ATI">
+    <li id="3ATI-1">Check that all of the test results are pass.[CR5]</li>
 </ol>
 
 #### Test Results
-<p id="ATR">If any of the above checks fail, then Baseline Requirement 3.A-NonInterference fails.</p>
+<p id="3ATR">If any of the above checks fail, then Baseline Requirement 3.A-NonInterference fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

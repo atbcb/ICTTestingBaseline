@@ -17,23 +17,23 @@ Meaningful information provided solely through CSS content may not be in the Doc
 -   Only the CSS techniques identified as Failures in WCAG 2.0 Level A and Level AA are included in this test. There may be other CSS techniques that affect conformance.
 -   Inline styling is included in this test.
 
-### 18.1 for Test Procedure for Meaningful Background Image 
+### 18.A for Test Procedure for Meaningful Background Image 
 CSS background image is now covered under [Baseline 6.2 Test Procedure for Images with empty text alternatives](../06Images/#62-test-procedure-for-images-with-empty-text-alternative). 
 
-### 18.2 Test Procedure for CSS Positioned Content
+### 18.B Test Procedure for CSS Positioned Content
 
-**Baseline Test ID:** 18.2-CSSPositionedContent
+**Baseline Test ID:** 18.B-CSSPositionedContent
 #### Identify Content
-<p id="BIC">Meaningful content positioned with CSS</p>
+<p id="18BIC">Meaningful content positioned with CSS</p>
 
 #### Test Instructions
-<ol id="BTI">
-    <li id="BTI-1">Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]</li>
-    <li id="BTI-2">Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]</li>
+<ol id="18BTI">
+    <li id="18BTI-1">Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]</li>
+    <li id="18BTI-2">Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]</li>
 </ol>
 
 #### Test Results
-<p id="BTR">If any of the above checks fail, then Baseline Test 18.2-CSSPositionedContent fail.</p>
+<p id="18BTR">If any of the above checks fail, then Baseline Test 18.B-CSSPositionedContent fail.</p>
 
 ### Advisory: Tips for streamlined test processes
 - These tests are not to be performed by disabling all CSS. Content is not required to be perceivable and operable with all CSS disabled.

@@ -19,24 +19,24 @@ The `<title>` element defines the title of the document, and is required in al
 -   Some Web and non-Web applications and may include content that changes dynamically. In such cases, the page title should be sufficient to describe the purpose of the application.
 -   [HTML5 specification](https://www.w3.org/TR/html50/document-metadata.html#the-title-element) stipulates that an HTML document should have only one `<title>` element,  **AND**  the `<title>` element should be a child of the `<head>` element. However, in practice all modern browsers correct syntax errors related to location and nesting of the `<title>` element. Therefore, user agents that rely on the Document Object Model (DOM) will encounter the `<title>` in the correct location and will typically present only the first `<title>` element (if there is more than one) to the user.
 
-### 11.1 Test Procedure for Page Titled
+### 11.A Test Procedure for Page Titled
 
-**Baseline Test ID:** 11.1-PageTitled
+**Baseline Test ID:** 11.A-PageTitled
 #### Identify Content
-<p id="AIC">Page <code>&lt;title&gt;</code> element for the page.</p>
+<p id="11AIC">Page <code>&lt;title&gt;</code> element for the page.</p>
 
 #### Test Instructions
-<ol id="ATI">
-    <li id="ATI-1">Check that a page <code>&lt;title&gt;</code> element is defined for the page. [SC 2.4.2]</li>
-    <li id="ATI-2">Check that the page title describes the contents or purpose of the Web page. [SC 2.4.2]
+<ol id="11ATI">
+    <li id="11ATI-1">Check that a page <code>&lt;title&gt;</code> element is defined for the page. [SC 2.4.2]</li>
+    <li id="11ATI-2">Check that the page title describes the contents or purpose of the Web page. [SC 2.4.2]
         <ol>
-            <li id="ATI-2i">For pages within a Web site, check that the page title can be used to distinguish among the pages.</li>
-            <li id="ATI-2ii">For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.</li>
+            <li id="11ATI-2i">For pages within a Web site, check that the page title can be used to distinguish among the pages.</li>
+            <li id="11ATI-2ii">For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.</li>
         </ol></li>
 </ol>
 
 #### Test Results
-<p id="ATR">If any of the above checks fail, then Baseline Test 11.1-PageTitled fails.</p>
+<p id="11ATR">If any of the above checks fail, then Baseline Test 11.A-PageTitled fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

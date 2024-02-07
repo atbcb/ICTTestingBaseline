@@ -18,19 +18,19 @@ order-number: 25
 
 -   From [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/): Success Criterion 4.1.1 was originally adopted to address problems that assistive technology had directly parsing HTML. Since this criterion was written, the HTML Standard has adopted specific requirements governing how user agents must handle incomplete tags, incorrect element nesting, duplicate attributes, and non-unique IDs. Although the HTML Standard treats some of these cases as non-conforming for authors, it is considered to "allow these features" for the purposes of this Success Criterion because the specification requires that user agents support handling these cases consistently. In practice, this criterion no longer provides any benefit to people with disabilities in itself. Issues such as missing roles due to inappropriately nested elements or incorrect states or names due to a duplicate ID are covered by different Success Criteria and should be reported under those criteria rather than as issues with 4.1.1.
 
-### 24.1 Test Procedure for Parsing
+### 24.A Test Procedure for Parsing
 
-**Baseline Test ID:** 24.1-Parsing
+**Baseline Test ID:** 24.A-Parsing
 #### Identify Content
-<p id="AIC">All web pages</p>
+<p id="24AIC">All web pages</p>
 
 #### Test Instructions
-<ol id="ATI">
-    <li id="ATI-1">No testing necessary.</li>
+<ol id="24ATI">
+    <li id="24ATI-1">No testing necessary.</li>
 </ol>
 
 #### Test Results
-<p id="ATR">Baseline Test 24.1-Parsing passes.</p>
+<p id="24ATR">Baseline Test 24.A-Parsing passes.</p>
 
 ### Advisory: Tips for streamlined test processes
 

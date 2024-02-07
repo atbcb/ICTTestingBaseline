@@ -16,37 +16,37 @@ While users with vision can recognize the structure presented by frames and ifra
 -   In HTML5 the `<frame>` element is marked as obsolete. The `<iframe>` element remains part of the HTML5 specification. While the `<frame>` element has been deprecated in HTML5, testers may still encounter web pages and/or web applications with code that, while outdated, can and should still be accessible.
 -   The combination of accessible name and accessible description of an `<iframe>` is its text alternative.
 
-### 19.1 Test Procedure for Frames
+### 19.A Test Procedure for Frames
 
-**Baseline Test ID:** 19.1-FrameTitle
+**Baseline Test ID:** 19.A-FrameTitle
 
 ##### Identify Content
-<p id="AIC">Frames</p>
+<p id="19AIC">Frames</p>
 
 ##### Test Instructions
-<ol id="ATI">
-    <li id="ATI-1">Check that each <code>&lt;frame&gt;</code> has a title attribute that is not empty. [SC 4.1.2]</li>
-    <li id="ATI-1">Check the title attribute describes the frame's content. [SC 4.1.2]</li>
+<ol id="19ATI">
+    <li id="19ATI-1">Check that each <code>&lt;frame&gt;</code> has a title attribute that is not empty. [SC 4.1.2]</li>
+    <li id="19ATI-1">Check the title attribute describes the frame's content. [SC 4.1.2]</li>
 </ol>
 
 ##### Test Results
-<p id="ATR">If any of the above checks fail, then Baseline Test 19.1-FrameTitle fails.</p>
+<p id="19ATR">If any of the above checks fail, then Baseline Test 19.A-FrameTitle fails.</p>
 
-### 19.2 Test Procedure for iFrames
+### 19.B Test Procedure for iFrames
 
-**Baseline Test ID:** 19.2-iFrameName
+**Baseline Test ID:** 19.B-iFrameName
 
 ##### Identify Content
-<p id="BIC">iFrames</p>
+<p id="19BIC">iFrames</p>
 
 ##### Test Instructions
-<ol id="BTI">
-    <li id="BTI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="BTI-2">Check that the non-empty combination of <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element-accessible-name-computation" target="_blank" rel="noopener">accessible name and description</a> for each <code>&lt;iframe&gt;</code> describes its content. [SC 4.1.2]</li>
+<ol id="19BTI">
+    <li id="19BTI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="19BTI-2">Check that the non-empty combination of <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element-accessible-name-computation" target="_blank" rel="noopener">accessible name and description</a> for each <code>&lt;iframe&gt;</code> describes its content. [SC 4.1.2]</li>
 </ol>
 
 ##### Test Results
-<p id="BTR">If any of the above checks fail, then Baseline Test 19.2-iFrameName fails.</p>
+<p id="19BTR">If any of the above checks fail, then Baseline Test 19.B-iFrameName fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

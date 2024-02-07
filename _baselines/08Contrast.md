@@ -30,13 +30,13 @@ This test is conducted to evaluate equal access to information for all users, in
 
 **Baseline Test ID:** 8.A-ContrastMinimum
 #### Identify Content
-<p id="AIC">All visible text  **AND**  images of text (except those noted in Limitations, Assumptions, or Exceptions above)</p>
+<p id="8AIC">All visible text  **AND**  images of text (except those noted in Limitations, Assumptions, or Exceptions above)</p>
 
 #### Test Instructions
-<ol id="ATI">
-    <li id="ATI-1">Determine the <a href="https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio" target="_blank" rel="noopener">contrast ratio</a> of foreground text and background.</li>
-    <li id="ATI-2">Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]</li>
-    <li id="ATI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 <strong>AND</strong> the font meets one of the following criteria: [SC 1.4.3]
+<ol id="8ATI">
+    <li id="8ATI-1">Determine the <a href="https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio" target="_blank" rel="noopener">contrast ratio</a> of foreground text and background.</li>
+    <li id="8ATI-2">Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]</li>
+    <li id="8ATI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 <strong>AND</strong> the font meets one of the following criteria: [SC 1.4.3]
         <ul>
             <li>At least 18 point (24 pixels)</li>
             <li>At least 14 point (18.5 pixels) <strong>AND</strong> bold (at least 700 font weight)</li>
@@ -45,7 +45,7 @@ This test is conducted to evaluate equal access to information for all users, in
 </ol>
 
 #### Test Results
-<p id="ATR">If both of the above checks fail, then Baseline Test 8.A-ContrastMinimum fails.</p>
+<p id="8ATR">If both of the above checks fail, then Baseline Test 8.A-ContrastMinimum fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

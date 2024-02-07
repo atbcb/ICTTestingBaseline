@@ -35,81 +35,81 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 -   If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for Baseline [17. Synchronized Media](../17SyncMedia) requirements.
 -   Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under Baseline [21. Timed Events](../21TimedEvents).
 
-### 16.1 Test Procedure for Audio-only (Prerecorded)
+### 16.A Test Procedure for Audio-only (Prerecorded)
 
-**Baseline Test ID:** 16.1-AudioOnlyTranscript
-
-#### Identify Content
-
-<p id="AIC">Pre-recorded audio-only content. Do not include media that is clearly labeled as a media alternative for text.</p>
-
-#### Test Instructions
-
-<ol id="ATI">
-    <li id="ATI-1">Check that the content provides transcript(s) for audio-only content. [SC 1.2.1]</li>
-    <li id="ATI-2">Check that the transcript is text (e.g., an image-only PDF would not be sufficient to pass this test). [SC 1.2.1]</li>
-    <li id="ATI-3">Play the audio-only content entirely while referring to the alternative.</li>
-    <li id="ATI-4">Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc. [SC 1.2.1]</li>
-</ol>
-
-#### Test Results
-<p id="ATR">If any of the above checks fail, then Baseline Test 16.1-AudioOnlyTranscript fails.</p>
-
-### 16.2 Test Procedure for Video-only (Prerecorded)
-
-**Baseline Test ID:** 16.2-VideoOnlyAlt
+**Baseline Test ID:** 16.A-AudioOnlyTranscript
 
 #### Identify Content
 
-<p id="BIC">Pre-recorded video-only content. Do not include media that is clearly labeled as a media alternative for text.</p>
+<p id="16AIC">Pre-recorded audio-only content. Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
 
-<ol id="BTI">
-    <li id="BTI-1">Check that all video-only content information is also available through a text alternative (e.g., text that provides description of video content and actions) or an audio track that describes the video content. [SC 1.2.1]</li>
-    <li id="BTI-2">View the video-only content while referring to the alternative.</li>
-    <li id="BTI-3">Check that the information in the alternative includes the same information that the video-only presentation displays (e.g., if the video includes multiple characters, the alternative must identify which character is associated with each depicted action). [SC 1.2.1]</li>
+<ol id="16ATI">
+    <li id="16ATI-1">Check that the content provides transcript(s) for audio-only content. [SC 1.2.1]</li>
+    <li id="16ATI-2">Check that the transcript is text (e.g., an image-only PDF would not be sufficient to pass this test). [SC 1.2.1]</li>
+    <li id="16ATI-3">Play the audio-only content entirely while referring to the alternative.</li>
+    <li id="16ATI-4">Check that the information in the transcript is an accurate and complete representation of the audio-only content and includes relevant sounds in addition to dialogue, such as doors banging, sirens wailing, identification of speakers in dialogue, etc. [SC 1.2.1]</li>
 </ol>
 
 #### Test Results
+<p id="16ATR">If any of the above checks fail, then Baseline Test 16.A-AudioOnlyTranscript fails.</p>
 
-<p id="BTR">If any of the above checks fail, then Baseline Test 16.2-VideoOnlyAlt fail.</p>
+### 16.B Test Procedure for Video-only (Prerecorded)
 
-### 16.3 Test Procedure for Audio Media Alternative (Prerecorded)
+**Baseline Test ID:** 16.B-VideoOnlyAlt
 
-**Baseline Test ID:** 16.3-AudioMediaAlternative
 #### Identify Content
-<p id="CIC">Pre-recorded audio-only that is clearly labeled as a media alternative for text.</p>
+
+<p id="16BIC">Pre-recorded video-only content. Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
-<ol id="CTI">
-    <li id="CTI-1">Identify the text for which the media is an alternative.</li>
-    <li id="CTI-2">Play the media that is labeled as an equivalent alternative for the text.</li>   
-    <li id="CTI-3">Check that the meaningful audible information of the media is available in the text.</li>  
+
+<ol id="16BTI">
+    <li id="16BTI-1">Check that all video-only content information is also available through a text alternative (e.g., text that provides description of video content and actions) or an audio track that describes the video content. [SC 1.2.1]</li>
+    <li id="16BTI-2">View the video-only content while referring to the alternative.</li>
+    <li id="16BTI-3">Check that the information in the alternative includes the same information that the video-only presentation displays (e.g., if the video includes multiple characters, the alternative must identify which character is associated with each depicted action). [SC 1.2.1]</li>
 </ol>
 
 #### Test Results
-<p id="CTR">If any of the above checks fail, then the audio-only is not a media alternative for text. Perform Baseline Tests <a href="#161-test-procedure-for-audio-only-prerecorded">16.1 Test Procedure for Audio-Only (Prerecorded)</a>. </p>
 
-### 16.4 Test Procedure for Video Media Alternative (Prerecorded)
+<p id="16BTR">If any of the above checks fail, then Baseline Test 16.B-VideoOnlyAlt fail.</p>
 
-**Baseline Test ID:** 16.4-VideoMediaAlternative
+### 16.C Test Procedure for Audio Media Alternative (Prerecorded)
+
+**Baseline Test ID:** 16.C-AudioMediaAlternative
 #### Identify Content
-<p id="DIC">Pre-recorded video-only that is clearly labeled as a media alternative for text.</p>
+<p id="16CIC">Pre-recorded audio-only that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
-<ol id="DTI">
-    <li id="DTI-1">Identify the text for which the media is an alternative.</li>
-    <li id="DTI-2">Play the media that is labeled as an equivalent alternative for the text.</li>   
-    <li id="DTI-3">Check that the meaningful visual information of the media is available in the text.</li>  
+<ol id="16CTI">
+    <li id="16CTI-1">Identify the text for which the media is an alternative.</li>
+    <li id="16CTI-2">Play the media that is labeled as an equivalent alternative for the text.</li>   
+    <li id="16CTI-3">Check that the meaningful audible information of the media is available in the text.</li>  
 </ol>
 
 #### Test Results
-<p id="DTR">If any of the above checks fail, then the video-only is not a media alternative for text. Perform Baseline Tests <a href="#162-test-procedure-for-video-only-prerecorded">16.2 Test Procedure for Video-only (Prerecorded)</a>. </p>
+<p id="16CTR">If any of the above checks fail, then the audio-only is not a media alternative for text. Perform Baseline Tests <a href="#161-test-procedure-for-audio-only-prerecorded">16.1 Test Procedure for Audio-Only (Prerecorded)</a>. </p>
+
+### 16.D Test Procedure for Video Media Alternative (Prerecorded)
+
+**Baseline Test ID:** 16.D-VideoMediaAlternative
+#### Identify Content
+<p id="16DIC">Pre-recorded video-only that is clearly labeled as a media alternative for text.</p>
+
+#### Test Instructions
+<ol id="16DTI">
+    <li id="16DTI-1">Identify the text for which the media is an alternative.</li>
+    <li id="16DTI-2">Play the media that is labeled as an equivalent alternative for the text.</li>   
+    <li id="16DTI-3">Check that the meaningful visual information of the media is available in the text.</li>  
+</ol>
+
+#### Test Results
+<p id="16DTR">If any of the above checks fail, then the video-only is not a media alternative for text. Perform Baseline Tests <a href="#162-test-procedure-for-video-only-prerecorded">16.2 Test Procedure for Video-only (Prerecorded)</a>. </p>
 
 ### Advisory: Tips for streamlined test processes
-- Baseline Tests 16.1 and 16.3 are tests for Audio-only files. It may make sense to perform Test 16.3 before Test 16.1.
-- Baseline Tests 16.2 and 16.4 are tests for Video-only files. It may make sense to perform Test 16.4 before Test 16.2.
+- Baseline Tests 16.A and 16.C are tests for Audio-only files. It may make sense to perform Test 16.C before Test 16.A.
+- Baseline Tests 16.B and 16.D are tests for Video-only files. It may make sense to perform Test 16.D before Test 16.B.
 
 ### WCAG 2.2 Techniques
 
