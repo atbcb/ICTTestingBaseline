@@ -42,7 +42,7 @@ Users affected by this requirement are sighted and not limited to users of assis
 </ol>
 
 #### Test Results
-<p id="7ATR">If BOTH of the above checks fail, then Baseline Test 7.A-Color fails.</p>
+<p id="7aTR">If BOTH of the above checks fail, then Baseline Test 7.A-Color fails.</p>
 
 ### 7.B Test Procedure for Sensory Characteristics
 **Baseline Test ID:** 7.B-SensoryCharacteristics
@@ -68,7 +68,7 @@ Users affected by this requirement are sighted and not limited to users of assis
 </ol>
 
 #### Test Results
-<p id="7BTR">If any of the above checks fail, then Baseline Test 7.B-SensoryCharacteristics fails.</p>
+<p id="7bTR">If any of the above checks fail, then Baseline Test 7.B-SensoryCharacteristics fails.</p>
 
 ### 7.C Test Procedure for Audible Cues
 **Baseline Test ID:** 7.C-AudibleCues
@@ -87,7 +87,7 @@ Users affected by this requirement are sighted and not limited to users of assis
 </ol>
 
 #### Test Results
-<p id="7CTR">If any of the above checks fail, then Baseline Test 7.C-AudibleCues fails.</p>
+<p id="7cTR">If any of the above checks fail, then Baseline Test 7.C-AudibleCues fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

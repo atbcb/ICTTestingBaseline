@@ -44,7 +44,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 </ol>
 
 #### Test Results
-<p id="4ATR">If any of the above checks fail, then Baseline Test 4.A-BypassBlocks fails.</p>
+<p id="4aTR">If any of the above checks fail, then Baseline Test 4.A-BypassBlocks fails.</p>
 
 ### 4.B Test Procedure for Consistent Navigation
 
@@ -59,7 +59,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 </ol>
 
 #### Test Results
-<p id="4BTR">If any of the above checks fail, then Baseline Test 4.B-ConsistentNavigation fails.</p>
+<p id="4bTR">If any of the above checks fail, then Baseline Test 4.B-ConsistentNavigation fails.</p>
 
 ### 4.C Test Procedure for Consistent Identification
 
@@ -73,7 +73,7 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 </ol>
 
 #### Test Results
-<p id="4CTR">If any of the above checks fail, then Baseline Test 4.C-ConsistentIdentification fails.</p>
+<p id="4cTR">If any of the above checks fail, then Baseline Test 4.C-ConsistentIdentification fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

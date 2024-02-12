@@ -61,7 +61,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 </p>
 
 #### Test Results
-<p id="21ATR">If the above check fails, then Baseline Test 21.A-TimingAdjustable fails.</p>
+<p id="21aTR">If the above check fails, then Baseline Test 21.A-TimingAdjustable fails.</p>
 
 ### 21.B Test Procedure for Moving Information
 
@@ -83,7 +83,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 </ol>
 
 #### Test Results
-<p id="21BTR">If the above check fails, then Baseline Test 21.B-MovingInfo fails.</p>
+<p id="21bTR">If the above check fails, then Baseline Test 21.B-MovingInfo fails.</p>
 
 ### 21.C Test Procedure for Auto-updating information
 **Baseline Test ID:** 21.C-AutoUpdate
@@ -102,7 +102,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 </ol>
 
 #### Test Results
-<p id="21CTR">If the above check fails, then Baseline Test 21.B-AutoUpdate fails.</p>
+<p id="21cTR">If the above check fails, then Baseline Test 21.B-AutoUpdate fails.</p>
 
 ### 21.D Test Procedure for Audio Control
 
@@ -120,7 +120,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 </ol>
 
 #### Test Results
-<p id="21DTR">If the above check fails, then Baseline Test 21.D-AudioControl fails.</p>
+<p id="21dTR">If the above check fails, then Baseline Test 21.D-AudioControl fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

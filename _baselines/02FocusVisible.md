@@ -48,7 +48,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 </ol>
 
 #### Test Results
-<p id="2ATR">If any of the above checks fail, then Baseline Test 2.A-FocusVisible fails.</p>
+<p id="2aTR">If any of the above checks fail, then Baseline Test 2.A-FocusVisible fails.</p>
 
 ### 2.B Test Procedure for Focus Order
 
@@ -74,7 +74,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 </ol>
 
 #### Test Results
-<p id="2BTR">If any of the above checks fail, then Baseline Test 2.B-FocusOrder fails.</p>
+<p id="2bTR">If any of the above checks fail, then Baseline Test 2.B-FocusOrder fails.</p>
 
 ### 2.C Test Procedure for On Focus
 
@@ -95,7 +95,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 </ol>
 
 #### Test Results
-<p id="2CTR">If any of the above checks fail, then Baseline Test 2.C-OnFocus fails.</p>
+<p id="2cTR">If any of the above checks fail, then Baseline Test 2.C-OnFocus fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

@@ -63,7 +63,7 @@ Review form instructions for completeness and programmatic association to their 
 </ol>
 
 #### Test Results
-<p id="10ATR">If any of the above checks fail, then Baseline Test 10.A-FormName fails.</p>
+<p id="10aTR">If any of the above checks fail, then Baseline Test 10.A-FormName fails.</p>
 
 ### 10.B Test Procedure for Form Labels Descriptive 
 **Baseline Test ID:** 10.B-FormDescriptiveLabel
@@ -79,7 +79,7 @@ Review form instructions for completeness and programmatic association to their 
 </ol>
 
 #### Test Results
-<p id="10BTR">If any of the above checks fail, then Baseline Test 10.B-FormDescriptiveLabel fails.</p>
+<p id="10bTR">If any of the above checks fail, then Baseline Test 10.B-FormDescriptiveLabel fails.</p>
 
 ### 10.C Test Procedure for On Input
 
@@ -102,7 +102,7 @@ Review form instructions for completeness and programmatic association to their 
 </ol>
 
 #### Test Results
-<p id="10CTR">If any of the above checks fail, then Baseline Test 10.C-OnInput fails.</p>
+<p id="10cTR">If any of the above checks fail, then Baseline Test 10.C-OnInput fails.</p>
 
 ### 10.D Test Procedure for Error Identification
 
@@ -128,7 +128,7 @@ Review form instructions for completeness and programmatic association to their 
 </ol>
 
 #### Test Results
-<p id="10DTR">If any of the above checks fail, then Baseline Test 10.D-ErrorIdentification fails.</p>
+<p id="10dTR">If any of the above checks fail, then Baseline Test 10.D-ErrorIdentification fails.</p>
 
 ### 10.E Test Procedure for Form has a Visible Label
 
@@ -145,7 +145,7 @@ Review form instructions for completeness and programmatic association to their 
 </ol>
 
 #### Test Results
-<p id="10ETR">If any of the above checks fail, then Baseline Test 10.E-FormHasLabel fails.</p>
+<p id="10eTR">If any of the above checks fail, then Baseline Test 10.E-FormHasLabel fails.</p>
 
 ### 10.F Test Procedure for Error Suggestion
 
@@ -167,7 +167,7 @@ Review form instructions for completeness and programmatic association to their 
 </ol>
 
 #### Test Results
-<p id="10FTR">If any of the above checks fail, then Baseline Test 10.F-ErrorSuggestion fails.</p>
+<p id="10fTR">If any of the above checks fail, then Baseline Test 10.F-ErrorSuggestion fails.</p>
 
 ### 10.G Test Procedure for Error Prevention (Legal, Financial, Data)
 
@@ -187,7 +187,7 @@ Review form instructions for completeness and programmatic association to their 
 </ol>
 
 #### Test Results
-<p id="10GTR">If any of the above checks fail, then Baseline Test 10.G-ErrorPrevention fails.</p>
+<p id="10gTR">If any of the above checks fail, then Baseline Test 10.G-ErrorPrevention fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

@@ -45,7 +45,7 @@ This test is conducted to evaluate equal access to information for all users, in
 </ol>
 
 #### Test Results
-<p id="8ATR">If both of the above checks fail, then Baseline Test 8.A-ContrastMinimum fails.</p>
+<p id="8aTR">If both of the above checks fail, then Baseline Test 8.A-ContrastMinimum fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

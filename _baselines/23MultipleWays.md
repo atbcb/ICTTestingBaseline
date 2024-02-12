@@ -37,7 +37,7 @@ This baseline requires a manual check for multiple techniques to locate a web pa
 </ol>
 
 #### Test Results
-<p id="23ATR">If the above check fails, then Baseline Test 23.A-MultipleWays fails.</p>
+<p id="23aTR">If the above check fails, then Baseline Test 23.A-MultipleWays fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

@@ -36,7 +36,7 @@ The `<title>` element defines the title of the document, and is required in al
 </ol>
 
 #### Test Results
-<p id="11ATR">If any of the above checks fail, then Baseline Test 11.A-PageTitled fails.</p>
+<p id="11aTR">If any of the above checks fail, then Baseline Test 11.A-PageTitled fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

@@ -55,7 +55,7 @@ An alternate version must meet all parts of the definition in order to be consid
 </ol>
 
 #### Test Results
-<p id="20ATR">If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20.A-ConformingAltVersion DOES NOT APPLY.</p>
+<p id="20aTR">If any of the above tests fail, a Conforming Alternate Version does not exist and Baseline Requirement 20.A-ConformingAltVersion DOES NOT APPLY.</p>
 
 ### Advisory: Tips for streamlined test processes
 

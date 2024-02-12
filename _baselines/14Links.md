@@ -38,7 +38,7 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 </ol>
 
 #### Test Results
-<p id="14ATR">If any of the above checks fail, then Baseline Test 14.A-LinkPurpose fails.</p>
+<p id="14aTR">If any of the above checks fail, then Baseline Test 14.A-LinkPurpose fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

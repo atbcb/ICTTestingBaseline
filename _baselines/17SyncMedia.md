@@ -47,7 +47,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
-<p id="17ATR">If any of the above checks fail, then Baseline Requirement 17.A-MediaPlayerCCADControls fails.</p>
+<p id="17aTR">If any of the above checks fail, then Baseline Requirement 17.A-MediaPlayerCCADControls fails.</p>
 
 ### 17.B Test Procedure for Media Player Caption Control Level
 
@@ -61,7 +61,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
-<p id="17BTR">If any of the above checks fail, then Baseline Test 17.B-MediaPlayerCCLevel fails.</p>
+<p id="17bTR">If any of the above checks fail, then Baseline Test 17.B-MediaPlayerCCLevel fails.</p>
 
 ### 17.C Test Procedure for Media Player Audio Description Control Level
 
@@ -75,7 +75,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
-<p id="17CTR">If any of the above checks fail, then Baseline Test 17.C-MediaPlayerADLevel fails.</p>
+<p id="17cTR">If any of the above checks fail, then Baseline Test 17.C-MediaPlayerADLevel fails.</p>
 
 ### 17.D Test Procedure for Captions (Prerecorded)
 
@@ -96,7 +96,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
-<p id="17DTR">If any of the above checks fail, then Baseline 17.D-CaptionsPrerecorded fails.</p>
+<p id="17dTR">If any of the above checks fail, then Baseline 17.D-CaptionsPrerecorded fails.</p>
 
 ### 17.E Test Procedure for Audio Description (Prerecorded)
 
@@ -112,7 +112,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
-<p id="17ETR">If any of the above checks fail, then Baseline 17.E-ADPrerecorded fails.</p>
+<p id="17eTR">If any of the above checks fail, then Baseline 17.E-ADPrerecorded fails.</p>
 
 ### 17.F Test Procedure for Captions (Live)
 
@@ -132,7 +132,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
-<p id="17FTR">If any of the above checks fail, then Baseline Requirement 17.F-CaptionsLive fails.</p>
+<p id="17fTR">If any of the above checks fail, then Baseline Requirement 17.F-CaptionsLive fails.</p>
 
 ### 17.G Test Procedure for Sync Media Alternative (Prerecorded)
 
@@ -149,7 +149,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 </ol>
 
 #### Test Results
-<p id="17GTR">If any of the above checks fail, then the multimedia is not a media alternative for text. Perform Baseline Tests <a href="#17d-test-procedure-for-captions-prerecorded">17.D Test Procedure for Captions (Prerecorded)</a> and <a href="#17e-test-procedure-for-audio-description-prerecorded">17.E Test Procedure for Audio Description (Prerecorded)</a> on the pre-recorded synchronized multimedia. </p>
+<p id="17gTR">If any of the above checks fail, then the multimedia is not a media alternative for text. Perform Baseline Tests <a href="#17d-test-procedure-for-captions-prerecorded">17.D Test Procedure for Captions (Prerecorded)</a> and <a href="#17e-test-procedure-for-audio-description-prerecorded">17.E Test Procedure for Audio Description (Prerecorded)</a> on the pre-recorded synchronized multimedia. </p>
 
 ### Advisory: Tips for streamlined test processes
 

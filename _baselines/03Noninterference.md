@@ -32,7 +32,7 @@ None.
 </ol>
 
 #### Test Results
-<p id="3ATR">If any of the above checks fail, then Baseline Requirement 3.A-NonInterference fails.</p>
+<p id="3aTR">If any of the above checks fail, then Baseline Requirement 3.A-NonInterference fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

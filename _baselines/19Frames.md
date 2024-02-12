@@ -30,7 +30,7 @@ While users with vision can recognize the structure presented by frames and ifra
 </ol>
 
 ##### Test Results
-<p id="19ATR">If any of the above checks fail, then Baseline Test 19.A-FrameTitle fails.</p>
+<p id="19aTR">If any of the above checks fail, then Baseline Test 19.A-FrameTitle fails.</p>
 
 ### 19.B Test Procedure for iFrames
 
@@ -46,7 +46,7 @@ While users with vision can recognize the structure presented by frames and ifra
 </ol>
 
 ##### Test Results
-<p id="19BTR">If any of the above checks fail, then Baseline Test 19.B-iFrameName fails.</p>
+<p id="19bTR">If any of the above checks fail, then Baseline Test 19.B-iFrameName fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

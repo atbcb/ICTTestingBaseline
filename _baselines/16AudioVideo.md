@@ -53,7 +53,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 </ol>
 
 #### Test Results
-<p id="16ATR">If any of the above checks fail, then Baseline Test 16.A-AudioOnlyTranscript fails.</p>
+<p id="16aTR">If any of the above checks fail, then Baseline Test 16.A-AudioOnlyTranscript fails.</p>
 
 ### 16.B Test Procedure for Video-only (Prerecorded)
 
@@ -73,7 +73,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 #### Test Results
 
-<p id="16BTR">If any of the above checks fail, then Baseline Test 16.B-VideoOnlyAlt fail.</p>
+<p id="16bTR">If any of the above checks fail, then Baseline Test 16.B-VideoOnlyAlt fail.</p>
 
 ### 16.C Test Procedure for Audio Media Alternative (Prerecorded)
 
@@ -89,7 +89,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 </ol>
 
 #### Test Results
-<p id="16CTR">If any of the above checks fail, then the audio-only is not a media alternative for text. Perform Baseline Test <a href="#16a-test-procedure-for-audio-only-prerecorded">16.A Test Procedure for Audio-Only (Prerecorded)</a>. </p>
+<p id="16cTR">If any of the above checks fail, then the audio-only is not a media alternative for text. Perform Baseline Test <a href="#16a-test-procedure-for-audio-only-prerecorded">16.A Test Procedure for Audio-Only (Prerecorded)</a>. </p>
 
 ### 16.D Test Procedure for Video Media Alternative (Prerecorded)
 
@@ -105,7 +105,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 </ol>
 
 #### Test Results
-<p id="16DTR">If any of the above checks fail, then the video-only is not a media alternative for text. Perform Baseline Test <a href="#16b-test-procedure-for-video-only-prerecorded">16.B Test Procedure for Video-only (Prerecorded)</a>. </p>
+<p id="16dTR">If any of the above checks fail, then the video-only is not a media alternative for text. Perform Baseline Test <a href="#16b-test-procedure-for-video-only-prerecorded">16.B Test Procedure for Video-only (Prerecorded)</a>. </p>
 
 ### Advisory: Tips for streamlined test processes
 - Baseline Tests 16.A and 16.C are tests for Audio-only files. It may make sense to perform Test 16.C before Test 16.A.

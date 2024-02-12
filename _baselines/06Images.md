@@ -54,7 +54,7 @@ order-number: 7
 </ol>
 
 ##### Test Results
-<p id="6ATR">If any of the above checks fail, then Baseline Test 6.A-MeaningfulImage fails.</p>
+<p id="6aTR">If any of the above checks fail, then Baseline Test 6.A-MeaningfulImage fails.</p>
 
 ### 6.B Test Procedure for Images with an empty text alternative
 **Baseline Test ID:** 6.B-DecorativeImage
@@ -91,7 +91,7 @@ Note: If the image does not have any of these attributes, this would be a failur
 </ol>
 
 ##### Test Results
-<p id="6BTR">If any of the above checks fail, then Baseline Test 6.B-DecorativeImage fails.</p>
+<p id="6bTR">If any of the above checks fail, then Baseline Test 6.B-DecorativeImage fails.</p>
 
 ### 6.C Test Procedure for Captchas
 **Baseline Test ID:** 6.C-Captcha
@@ -107,7 +107,7 @@ Note: If the image does not have any of these attributes, this would be a failur
 </ol>
 
 ##### Test Results
-<p id="6CTR">If any of the above checks fail, then Baseline Test 6.C-Captcha fails.</p>
+<p id="6cTR">If any of the above checks fail, then Baseline Test 6.C-Captcha fails.</p>
 
 ### 6.D Test Procedure for Images of Text
 **Baseline Test ID:** 6.D-ImageText
@@ -122,7 +122,7 @@ Note: If the image does not have any of these attributes, this would be a failur
 </ol>
 
 #### Test Results
-<p id="6DTR">If any of the above checks fail, then Baseline Test 6.D-ImageText fail.</p>
+<p id="6dTR">If any of the above checks fail, then Baseline Test 6.D-ImageText fail.</p>
 
 
 ### Advisory: Tips for streamlined test processes

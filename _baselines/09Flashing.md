@@ -47,7 +47,7 @@ This test addresses flashing caused by the content itself, including:
 </ol>
 
 #### Test Results
-<p id="9ATR">If all of the above checks fail, then Baseline Test 9.A-Flashes fails.</p>
+<p id="9aTR">If all of the above checks fail, then Baseline Test 9.A-Flashes fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

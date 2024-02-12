@@ -59,7 +59,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
 </ol>
 
 #### Test Results
-<p id="12ATR">If any of the above tests fail, Baseline Test 12.A-DataTable fails.</p>
+<p id="12aTR">If any of the above tests fail, Baseline Test 12.A-DataTable fails.</p>
 
 ### 12.B Test Procedure for Layout Tables
 
@@ -84,7 +84,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
 </ol>
 
 #### Test Results
-<p id="12BTR">If any of the above tests fail, Baseline Test 12.B-LayoutTable fails.</p>
+<p id="12bTR">If any of the above tests fail, Baseline Test 12.B-LayoutTable fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

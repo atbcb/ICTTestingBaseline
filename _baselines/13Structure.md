@@ -35,7 +35,7 @@ order-number: 14
 </ol>
 
 #### Test Results
-<p id="13ATR">If any of the above checks fail, then Baseline Test 13.A-HeadingDescriptive fails.</p>
+<p id="13aTR">If any of the above checks fail, then Baseline Test 13.A-HeadingDescriptive fails.</p>
 
 ### 13.B Test Procedure for Visual Headings Programmatic   
 
@@ -58,7 +58,7 @@ order-number: 14
 </ol>
 
 ##### Test Results
-<p id="13BTR">If the above check fails, then Baseline Test 13.B-VisHeadingProg fails.</p>
+<p id="13bTR">If the above check fails, then Baseline Test 13.B-VisHeadingProg fails.</p>
 
 ### 13.C Test Procedure for Programmatic Headings Visual
 
@@ -73,7 +73,7 @@ order-number: 14
 </ol>
 
 ##### Test Results
-<p id="13CTR">If the above check fails, then Baseline Test 13.C-ProgHeadingVisual fails.</p>
+<p id="13cTR">If the above check fails, then Baseline Test 13.C-ProgHeadingVisual fails.</p>
 
 ### 13.D Test Procedure for Visually Apparent Lists
 
@@ -96,7 +96,7 @@ For each visually apparent list:
 </ol>
 
 ##### Test Results
-<p id="13DTR">If any of the above checks fail, Baseline Test 13.D-List fails.</p>
+<p id="13dTR">If any of the above checks fail, Baseline Test 13.D-List fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 - There is not a test to check that programmatic lists are visually apparent lists. 

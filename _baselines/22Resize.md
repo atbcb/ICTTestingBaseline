@@ -42,7 +42,7 @@ This baseline test requires an evaluation of visual content and functionality af
 </ol>
 
 #### Test Results
-<p id="22ATR">If any of the above checks fail, then Baseline Test 22.A-ResizeText fails.</p>
+<p id="22aTR">If any of the above checks fail, then Baseline Test 22.A-ResizeText fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

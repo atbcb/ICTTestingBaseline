@@ -36,7 +36,7 @@ The default human language for each page must be programmatically identified. Pa
 </ol>
 
 #### Test Results
-<p id="15ATR">If any of the above checks fail, then Baseline Test 15.A-LanguagePage fails.</p>
+<p id="15aTR">If any of the above checks fail, then Baseline Test 15.A-LanguagePage fails.</p>
 
 ### 15.B Test Procedure for Language of Parts
 
@@ -58,7 +58,7 @@ The default human language for each page must be programmatically identified. Pa
 </ol>
 
 #### Test Results
-<p id="15BTR">If any of the above checks fail, then Baseline Test 15.B-LanguagePart fails.</p>
+<p id="15bTR">If any of the above checks fail, then Baseline Test 15.B-LanguagePart fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

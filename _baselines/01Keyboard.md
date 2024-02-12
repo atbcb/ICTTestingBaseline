@@ -48,7 +48,7 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 </ol>
 
 #### Test Results
-<p id="1ATR">If any of the above checks fail, then Baseline Test 1.A-KeyboardAccess fails.</p>
+<p id="1aTR">If any of the above checks fail, then Baseline Test 1.A-KeyboardAccess fails.</p>
 
 ### 1.B Test Procedure for No Keyboard Trap
 
@@ -66,7 +66,7 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 </ol>
 
 #### Test Results
-<p id="1BTR">If the above check fails, then Baseline Test 1.B-NoKeyboardTrap fails.
+<p id="1bTR">If the above check fails, then Baseline Test 1.B-NoKeyboardTrap fails.
 </p>
 
 ### Advisory: Tips for streamlined test processes
