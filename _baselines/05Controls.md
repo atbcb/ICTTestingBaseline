@@ -67,7 +67,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 #### Test Instructions
 <ol id="5cTI">
 	<li id="5cTI-1">Check that the state of the user control is correct. Attributes such as <code>hidden</code>, <code>disabled</code>, and the use of <a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA</a> to control component states must be used correctly.[SC 4.1.2]</li>
-	<li id="cTI-2">If the state of the user control changes with use of the application, check that the state of the user control is correct after a change of state. [SC 4.1.2]
+	<li id="5cTI-2">If the state of the user control changes with use of the application, check that the state of the user control is correct after a change of state. [SC 4.1.2]
 		<ul>
 			<li>Depending on the control, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
 			<li>Examples include a disabled "Submit" button is enabled when all required form fields are filled in, a link becomes visible after a user-initiated calculation completes, a check box changes from checked to unchecked, links that are hovered or visited.</li>

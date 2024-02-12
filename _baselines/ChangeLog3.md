@@ -10,7 +10,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 
 | Location of Change | Description of Change |
 |--------------------|-----------------------|
-| All Baseline Test Procedure IDs | Changed from a number to a letter to improve distinction from WCAG SCs. Ex: 1.A was 1.1, 1.B was 1.2. |
+| All Baseline Test Procedure IDs | Changed from a number to a letter to improve distinction from WCAG SCs. Ex: 1.A was 1.1, 1.B was 1.2, and so on. |
 | All Baseline Tests | Changed links for W3C WCAG 2.0 (Understanding, Techniques, definitions, etc.) to WCAG 2.2 version; updated links to HTML Accessibility API Mapping Accesible Name and Description Computation sections. | 
 | Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings. |
 | 2. Focus | Accessibility Requirements: SC 3.2.1 replaced "component" with "user interface component" per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 9. |

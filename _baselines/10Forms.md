@@ -43,8 +43,8 @@ Review form instructions for completeness and programmatic association to their 
 **Baseline Test ID:** 10.A-FormName
 #### Identify Content
 <ol id="10aIC">
-    <li id="aIC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.</li>
-    <li id="aIC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
+    <li id="10aIC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, read-only fields, and multi-select lists.</li>
+    <li id="10aIC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
 #### Test Instructions
@@ -68,9 +68,9 @@ Review form instructions for completeness and programmatic association to their 
 ### 10.B Test Procedure for Form Labels Descriptive 
 **Baseline Test ID:** 10.B-FormDescriptiveLabel
 #### Identify Content
-<ol id="10bTI">
-    <li id="10bTI-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
-    <li id="10bTI-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
+<ol id="10bIC">
+    <li id="10bIC-1">Find all form components that do not have <code>visibility:hidden</code> or <code>display:none</code>. Examples include buttons, text fields, radio buttons, checkboxes, multi-select lists.</li>
+    <li id="10bIC-2">Find all instructions and cues (textual and graphical) that are related to form components, including groupings, order of completion, special conditions or qualifiers, format instructions, etc.</li>
 </ol>
 
 #### Test Instructions
