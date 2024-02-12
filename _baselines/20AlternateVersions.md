@@ -37,21 +37,21 @@ An alternate version must meet all parts of the definition in order to be consid
 
 **Baseline Test ID:** 20.A-ConformingAltVersion
 #### Identify Content
-<p id="20AIC">Multiple versions of the same content</p>
+<p id="20aIC">Multiple versions of the same content</p>
 
 #### Test Instructions
-<ol id="20ATI">
-    <li id="20ATI-1">Check that the alternate version provides all of the same information and functionality in the same human language.[CAV]</li>
-    <li id="20ATI-2">Check that the alternate version is as up to date as the non-conforming content.[CAV]</li>
-    <li id="20ATI-3">Check that the alternate version passes all other baseline tests.[CAV]</li>
-    <li id="20ATI-4">Check that at least one of the following is true:[CAV]
+<ol id="20aTI">
+    <li id="20aTI-1">Check that the alternate version provides all of the same information and functionality in the same human language.[CAV]</li>
+    <li id="20aTI-2">Check that the alternate version is as up to date as the non-conforming content.[CAV]</li>
+    <li id="20aTI-3">Check that the alternate version passes all other baseline tests.[CAV]</li>
+    <li id="20aTI-4">Check that at least one of the following is true:[CAV]
         <ol>
-        <li id="20ATI-4i">the conforming alternate version can be reached from the non-conforming version via an accessibility-supported mechanism, or</li>
-        <li id="20ATI-4ii">the non-conforming version can only be reached from the alternate version, or</li>
-        <li id="20ATI-4iii">the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.</li>
+        <li id="20aTI-4i">the conforming alternate version can be reached from the non-conforming version via an accessibility-supported mechanism, or</li>
+        <li id="20aTI-4ii">the non-conforming version can only be reached from the alternate version, or</li>
+        <li id="20aTI-4iii">the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.</li>
         </ol>
     </li>
-    <li id="20ATI-5">Check that the content indicates that a conforming alternate version is available.</li>
+    <li id="20aTI-5">Check that the content indicates that a conforming alternate version is available.</li>
 </ol>
 
 #### Test Results

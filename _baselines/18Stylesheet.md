@@ -18,18 +18,18 @@ Meaningful information provided solely through CSS content may not be in the Doc
 -   Inline styling is included in this test.
 
 ### 18.A for Test Procedure for Meaningful Background Image 
-CSS background image is now covered under [Baseline 6.2 Test Procedure for Images with empty text alternatives](../06Images/#62-test-procedure-for-images-with-empty-text-alternative). 
+CSS background image is now covered under [Baseline 6.B Test Procedure for Images with empty text alternatives](../06Images/#6b-test-procedure-for-images-with-empty-text-alternative). 
 
 ### 18.B Test Procedure for CSS Positioned Content
 
 **Baseline Test ID:** 18.B-CSSPositionedContent
 #### Identify Content
-<p id="18BIC">Meaningful content positioned with CSS</p>
+<p id="18bIC">Meaningful content positioned with CSS</p>
 
 #### Test Instructions
-<ol id="18BTI">
-    <li id="18BTI-1">Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]</li>
-    <li id="18BTI-2">Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]</li>
+<ol id="18bTI">
+    <li id="18bTI-1">Check that the reading order of the content (in context) is correct without the CSS position property. [SC 1.3.2]</li>
+    <li id="18bTI-2">Check that the meaning of the content (in context) is preserved without the CSS position property. [SC 1.3.2]</li>
 </ol>
 
 #### Test Results

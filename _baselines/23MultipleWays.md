@@ -20,19 +20,19 @@ This baseline requires a manual check for multiple techniques to locate a web pa
 
 **Baseline Test ID:** 23.A-MultipleWays
 #### Identify Content
-<p id="23AIC">Web page within a set of related Web pages.</p>
+<p id="23aIC">Web page within a set of related Web pages.</p>
 
 #### Test Instructions
-<ol id="23ATI">
-    <li id="23ATI-1">Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]<br>
+<ol id="23aTI">
+    <li id="23aTI-1">Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]<br>
     These may include (but are not limited to) techniques such as:
         <ul>
-        <li id="23ATI-1i">site maps</li>
-        <li id="23ATI-1ii">site search</li>
-        <li id="23ATI-1iii">tables of contents</li>
-        <li id="23ATI-1iv">navigation menus or dropdowns</li>
-        <li id="23ATI-1v">navigation trees</li>
-        <li id="23ATI-1vi">links between pages</li>
+        <li id="23aTI-1i">site maps</li>
+        <li id="23aTI-1ii">site search</li>
+        <li id="23aTI-1iii">tables of contents</li>
+        <li id="23aTI-1iv">navigation menus or dropdowns</li>
+        <li id="23aTI-1v">navigation trees</li>
+        <li id="23aTI-1vi">links between pages</li>
         </ul></li>
 </ol>
 

@@ -27,22 +27,22 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 
 **Baseline Test ID:** 1.A-KeyboardAccess
 #### Identify Content
-<p id="1AIC">All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).</p>
+<p id="1aIC">All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, iframes, etc.) available using a mouse (hover and/or click).</p>
 
 #### Test Instructions
-<ol id="1ATI">
-<li id="1ATI-1">Check that all functionality can be accessed and executed using only the keyboard. [SC 2.1.1]
+<ol id="1aTI">
+<li id="1aTI-1">Check that all functionality can be accessed and executed using only the keyboard. [SC 2.1.1]
     <ol>
-        <li id="1ATI-1i">Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, **AND** all interactive interface components).
+        <li id="1aTI-1i">Use the keyboard to perform functions available by mouse (including drop-down menus, form fields, revealing/hiding content, tooltips, **AND** all interactive interface components).
             <ol>
-                <li id="1ATI-1ia">If an interactive interface component is not available by keyboard, check if another control is provided on the page with the same functionality which is available by keyboard. (All functionality must meet this requirement.)</li>
+                <li id="1aTI-1ia">If an interactive interface component is not available by keyboard, check if another control is provided on the page with the same functionality which is available by keyboard. (All functionality must meet this requirement.)</li>
             </ol>
         </li>
     </ol>
 </li>
-<li id="1ATI-2">Check that individual keystrokes do not require specific timings for activation.[SC 2.1.1]
+<li id="1aTI-2">Check that individual keystrokes do not require specific timings for activation.[SC 2.1.1]
     <ol>
-        <li id="1ATI-2i">If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)</li>
+        <li id="1aTI-2i">If operation requires specific timings of individual keystrokes, check if another control is provided on the page with the same functionality which does not require specific timings for operation. (All functionality must be available without requiring specific timings for individual keystrokes to operate.)</li>
     </ol>
 </li>
 </ol>
@@ -54,14 +54,14 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 
 **Baseline Test ID:** 1.B-NoKeyboardTrap
 #### Identify Content
-<p id="1BIC">Components that receive keyboard focus.</p>
+<p id="1bIC">Components that receive keyboard focus.</p>
 
 #### Test Instructions
-<ol id="1BTI">
-<li id="1BTI-1">Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]
+<ol id="1bTI">
+<li id="1bTI-1">Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]
     <ol>
-        <li id="1BTI-1i">If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).</li>
-        <li id="1BTI-1ii">If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.</li>
+        <li id="1bTI-1i">If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).</li>
+        <li id="1bTI-1ii">If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.</li>
     </ol></li>
 </ol>
 

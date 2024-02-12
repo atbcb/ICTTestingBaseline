@@ -42,19 +42,19 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 
 **Baseline Test ID:** 21.A-TimingAdjustable
 #### Identify Content
-<p id="21AIC">Identify any instances of content time limits (excluding exceptions described above).</p>
+<p id="21aIC">Identify any instances of content time limits (excluding exceptions described above).</p>
 
 #### Test Instructions
-<p id="21ATI">For each instance of an identified time limit for content:
+<p id="21aTI">For each instance of an identified time limit for content:
     <ol>
-		<li id="21ATI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:
+		<li id="21aTI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:
 			<ol>
-			<li id="21ATI-1i">The user has the ability to turn off the time limit.</li>
-			<li id="21ATI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
-			<li id="21ATI-1iii">The user is warned before time expires <strong>AND</strong>:
+			<li id="21aTI-1i">The user has the ability to turn off the time limit.</li>
+			<li id="21aTI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
+			<li id="21aTI-1iii">The user is warned before time expires <strong>AND</strong>:
 				<ol>
-				<li id="21ATI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), <strong>AND</strong></li>
-				<li id="21ATI-1iiib">Allowed to extend the time limit at least ten times.</li>
+				<li id="21aTI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), <strong>AND</strong></li>
+				<li id="21aTI-1iiib">Allowed to extend the time limit at least ten times.</li>
 				</ol></li>
 			</ol></li>
     </ol>
@@ -68,7 +68,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 **Baseline Test ID:** 21.B-MovingInfo
 
 #### Identify Content
-<p id="21BIC">Any moving, blinking, or scrolling information that meets ALL of the following:
+<p id="21bIC">Any moving, blinking, or scrolling information that meets ALL of the following:
     <ul>
     <li>Starts automatically, <strong>AND</strong></li>
     <li>Lasts more than 5 seconds, <strong>AND</strong></li>
@@ -78,8 +78,8 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 </p>
 
 #### Test Instructions
-<ol id="21BTI">
-    <li id="21BTI-1">Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]</li>
+<ol id="21bTI">
+    <li id="21bTI-1">Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]</li>
 </ol>
 
 #### Test Results
@@ -88,7 +88,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 ### 21.C Test Procedure for Auto-updating information
 **Baseline Test ID:** 21.C-AutoUpdate
 #### Identify Content
-<p id="21CIC">Any auto-updating information that meets ALL of the following:
+<p id="21cIC">Any auto-updating information that meets ALL of the following:
     <ul>
 		<li>Starts automatically, <strong>AND</strong></li>
 		<li>Is presented in parallel with other content, <strong>AND</strong></li>
@@ -97,8 +97,8 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 </p>
 
 #### Test Instructions
-<ol id="21CTI">
-    <li id="21CTI-1">Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]</li>
+<ol id="21cTI">
+    <li id="21cTI-1">Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]</li>
 </ol>
 
 #### Test Results
@@ -108,14 +108,14 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 
 **Baseline Test ID:** 21.D-AudioControl
 #### Identify Content
-<p id="21DIC">Audio that automatically plays for more than 3 seconds.</p>
+<p id="21dIC">Audio that automatically plays for more than 3 seconds.</p>
 
 #### Test Instructions
-<ol id="21DTI">
-    <li id="21DTI-1">Check that either [SC 1.4.2]
+<ol id="21dTI">
+    <li id="21dTI-1">Check that either [SC 1.4.2]
         <ol>
-        <li id="21DTI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio that is independent of the overall system volume, <strong>OR</strong></li>
-        <li id="21DTI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
+        <li id="21dTI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio that is independent of the overall system volume, <strong>OR</strong></li>
+        <li id="21dTI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
         </ol></li>
 </ol>
 

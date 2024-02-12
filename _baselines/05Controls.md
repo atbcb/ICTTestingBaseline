@@ -27,13 +27,13 @@ The purpose of this Baseline test is to check the following accessibility proper
 **Baseline Test ID:** 5.A-ChangedControlName
 
 #### Identify Content
-<p id="5AIC">Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="../10Forms">Baseline 10. Forms</a> and <a href="../14Links"> Baseline 14. Links</a>, respectively.</p>
+<p id="5aIC">Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="../10Forms">Baseline 10. Forms</a> and <a href="../14Links"> Baseline 14. Links</a>, respectively.</p>
 
 
 #### Test Instructions
-<ol id="5ATI">
-	<li id="5ATI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="5ATI-2">Check that the non-empty combination of the accessible name and accessible description describes the control's purpose. [SC 4.1.2]  For details on the computation of the accessible name and accessible description, references include:
+<ol id="5aTI">
+	<li id="5aTI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="5aTI-2">Check that the non-empty combination of the accessible name and accessible description describes the control's purpose. [SC 4.1.2]  For details on the computation of the accessible name and accessible description, references include:
 		<ul>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-number-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
@@ -43,7 +43,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#accdesc-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for Accessible Description Computation</a></li>
 		</ul>
 	</li>
-	<li id="5ATI-3">If the name of the user control changes with use of the application, repeat the previous test steps and check that the accessible name is correct after the change.
+	<li id="5aTI-3">If the name of the user control changes with use of the application, repeat the previous test steps and check that the accessible name is correct after the change.
 		<ul>
 			<li>Depending on the control, a change of name may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
 	  		<li>Examples include entering a response in a form field for country changes the next form field's label from "state" to "province", selecting a control toggles its functionality from sorting ascending to descending, a link appends "Updated" to its name when the linked page is edited.</li>
@@ -61,13 +61,13 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 **Baseline Test ID:** 5.C-ControlState
 #### Identify Content
-<p id="5CIC">Identify user controls for a distinct function. Examples include changes to forms, links, and toggle controls. Exclude the visited/unvisited state of links.</p>
+<p id="5cIC">Identify user controls for a distinct function. Examples include changes to forms, links, and toggle controls. Exclude the visited/unvisited state of links.</p>
   
 
 #### Test Instructions
-<ol id="5CTI">
-	<li id="5CTI-1">Check that the state of the user control is correct. Attributes such as <code>hidden</code>, <code>disabled</code>, and the use of <a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA</a> to control component states must be used correctly.[SC 4.1.2]</li>
-	<li id="CTI-2">If the state of the user control changes with use of the application, check that the state of the user control is correct after a change of state. [SC 4.1.2]
+<ol id="5cTI">
+	<li id="5cTI-1">Check that the state of the user control is correct. Attributes such as <code>hidden</code>, <code>disabled</code>, and the use of <a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA</a> to control component states must be used correctly.[SC 4.1.2]</li>
+	<li id="cTI-2">If the state of the user control changes with use of the application, check that the state of the user control is correct after a change of state. [SC 4.1.2]
 		<ul>
 			<li>Depending on the control, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
 			<li>Examples include a disabled "Submit" button is enabled when all required form fields are filled in, a link becomes visible after a user-initiated calculation completes, a check box changes from checked to unchecked, links that are hovered or visited.</li>
@@ -83,13 +83,13 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 **Baseline Test ID:** 5.D-ControlValue
 #### Identify Content
-<p id="5DIC">Identify controls that have a value that can be changed by a user. Examples include form fields and sliders.</p>
+<p id="5dIC">Identify controls that have a value that can be changed by a user. Examples include form fields and sliders.</p>
 
 #### Test Instructions
-<ol id="5DTI">
-	<li id="5DTI-1">Check that the value of the user control is correct. [SC 4.1.2]</li>
-	<li id="5DTI-2">Modify the value of the user control. Depending on the control, a change of value may be performed by entering a number, selecting from a list of options, etc.</li>
-	<li id="5DTI-3">Check that the value of the user control is correct after a change of value. [SC 4.1.2]</li>
+<ol id="5dTI">
+	<li id="5dTI-1">Check that the value of the user control is correct. [SC 4.1.2]</li>
+	<li id="5dTI-2">Modify the value of the user control. Depending on the control, a change of value may be performed by entering a number, selecting from a list of options, etc.</li>
+	<li id="5dTI-3">Check that the value of the user control is correct after a change of value. [SC 4.1.2]</li>
 </ol>
 
 #### Test Results

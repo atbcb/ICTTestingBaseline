@@ -30,18 +30,18 @@ This test addresses flashing caused by the content itself, including:
 ### 9.A Test Procedure for Three Flashes or Below Threshold
 **Baseline Test ID:** 9.A-Flashes
 #### Identify Content
-<p id="9AIC">Visually identify content that <a href="https://www.w3.org/TR/WCAG22/#dfn-flashes">flashes</a>.</p>
+<p id="9aIC">Visually identify content that <a href="https://www.w3.org/TR/WCAG22/#dfn-flashes">flashes</a>.</p>
 
 #### Test Instructions
-<ol id="9ATI">
+<ol id="9aTI">
     <li>Set the user agent at standard zoom level, e.g. 100% in a browser.</li>
     <li>If there is an option to view a larger version the flashing content, such as a full screen mode, test the larger version. If there is an option to loop or repeat the flashing content, test the looping version.</li>
-    <li id="9ATI-1">Check the flashing frequency. If the flashing is less than or equal to 3 flashes in any one second (3 Hertz), no further testing is necessary.</li>
-    <li id="9ATI-2">If the content flashes above 3Hertz or the frequency cannot be determined, check that it meets at least one of the following: [SC 2.3.1]
+    <li id="9aTI-1">Check the flashing frequency. If the flashing is less than or equal to 3 flashes in any one second (3 Hertz), no further testing is necessary.</li>
+    <li id="9aTI-2">If the content flashes above 3Hertz or the frequency cannot be determined, check that it meets at least one of the following: [SC 2.3.1]
     <ol>
-        <li id="9ATI-2i">the combined area of flashes occurring concurrently occupies no more than a 341 x 256 pixel rectangle anywhere on the displayed screen area when the content is viewed at 1024 x 768 pixels.</li>
-        <li id="9ATI-2ii">the flash does not include "general flashes" (a pair of opposing changes in relative luminance of 10% or more of the maximum relative luminance (1.0) where the relative luminance of the darker image is below 0.80; and where "a pair of opposing changes" is an increase followed by a decrease, or a decrease followed by an increase)</li>
-        <li id="9ATI-2iii">the flash does not include any "pair of opposing transitions involving a saturated red" (a pair of opposing transitions where, one transition is either to or from a state with a value R/(R + G + B) that is greater than or equal to 0.8, and the difference between states is more than 0.2 (unitless) in the CIE 1976 UCS chromaticity diagram. [[ISO_9241-391]])</li>
+        <li id="9aTI-2i">the combined area of flashes occurring concurrently occupies no more than a 341 x 256 pixel rectangle anywhere on the displayed screen area when the content is viewed at 1024 x 768 pixels.</li>
+        <li id="9aTI-2ii">the flash does not include "general flashes" (a pair of opposing changes in relative luminance of 10% or more of the maximum relative luminance (1.0) where the relative luminance of the darker image is below 0.80; and where "a pair of opposing changes" is an increase followed by a decrease, or a decrease followed by an increase)</li>
+        <li id="9aTI-2iii">the flash does not include any "pair of opposing transitions involving a saturated red" (a pair of opposing transitions where, one transition is either to or from a state with a value R/(R + G + B) that is greater than or equal to 0.8, and the difference between states is more than 0.2 (unitless) in the CIE 1976 UCS chromaticity diagram. [[ISO_9241-391]])</li>
     </ol>
     </li>
 </ol>

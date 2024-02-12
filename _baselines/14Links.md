@@ -22,12 +22,12 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 
 **Baseline Test ID:** 14.A-LinkPurpose
 #### Identify Content
-<p id="14AIC">All links including those that are scripted elements and assigned a role of a link.</p>
+<p id="14aIC">All links including those that are scripted elements and assigned a role of a link.</p>
 
 #### Test Instructions
-<ol id="14ATI">
-    <li id="14ATI-1">Check that the combination of accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="14ATI-2">Check that the purpose of each link can be determined from any combination of the following [SC 2.4.4]:
+<ol id="14aTI">
+    <li id="14aTI-1">Check that the combination of accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="14aTI-2">Check that the purpose of each link can be determined from any combination of the following [SC 2.4.4]:
     <ul>
        <li>the link text, </li>
        <li>the link's <a href="https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation" target="_blank" rel="noopener">accessible name and accessible description</a>, </li>

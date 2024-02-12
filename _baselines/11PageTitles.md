@@ -23,15 +23,15 @@ The `<title>` element defines the title of the document, and is required in al
 
 **Baseline Test ID:** 11.A-PageTitled
 #### Identify Content
-<p id="11AIC">Page <code>&lt;title&gt;</code> element for the page.</p>
+<p id="11aIC">Page <code>&lt;title&gt;</code> element for the page.</p>
 
 #### Test Instructions
-<ol id="11ATI">
-    <li id="11ATI-1">Check that a page <code>&lt;title&gt;</code> element is defined for the page. [SC 2.4.2]</li>
-    <li id="11ATI-2">Check that the page title describes the contents or purpose of the Web page. [SC 2.4.2]
+<ol id="11aTI">
+    <li id="11aTI-1">Check that a page <code>&lt;title&gt;</code> element is defined for the page. [SC 2.4.2]</li>
+    <li id="11aTI-2">Check that the page title describes the contents or purpose of the Web page. [SC 2.4.2]
         <ol>
-            <li id="11ATI-2i">For pages within a Web site, check that the page title can be used to distinguish among the pages.</li>
-            <li id="11ATI-2ii">For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.</li>
+            <li id="11aTI-2i">For pages within a Web site, check that the page title can be used to distinguish among the pages.</li>
+            <li id="11aTI-2ii">For documents or Web applications, the name of the document or Web application would be sufficient to describe the purpose of the page.</li>
         </ol></li>
 </ol>
 

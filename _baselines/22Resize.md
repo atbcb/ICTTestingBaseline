@@ -20,24 +20,24 @@ This baseline test requires an evaluation of visual content and functionality af
 
 **Baseline Test ID:** 22.A-ResizeText
 #### Identify Content
-<p id="22AIC">All text on a page.</p>
+<p id="22aIC">All text on a page.</p>
 
 #### Test Instructions
-<ol id="22ATI">
-    <li id="22ATI-1">Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] <br>
+<ol id="22aTI">
+    <li id="22aTI-1">Check that there is a mechanism to resize, scale, or zoom in on the content at least to 200% of original size. [SC 1.4.4] <br>
     Known approaches include:
         <ul>
-        <li id="22ATI-1i">Browser zoom function or text-sizing feature</li>
-        <li id="22ATI-1ii">Accessibility features provided by the platform or Operating System</li>
-        <li id="22ATI-1iii">On-page controls to change text size.</li>
+        <li id="22aTI-1i">Browser zoom function or text-sizing feature</li>
+        <li id="22aTI-1ii">Accessibility features provided by the platform or Operating System</li>
+        <li id="22aTI-1iii">On-page controls to change text size.</li>
         </ul></li>
-    <li id="22ATI-2">Modify the font size appearance to twice the width and height, or 200% larger.</li>
-    <li id="22ATI-3">Check for all of the following [SC 1.4.4]:
+    <li id="22aTI-2">Modify the font size appearance to twice the width and height, or 200% larger.</li>
+    <li id="22aTI-3">Check for all of the following [SC 1.4.4]:
         <ol>
-        <li id="22ATI-3i">Text is not clipped, truncated or obscured</li>
-        <li id="22ATI-3ii">Text entered in text-based form controls resize fully</li>
-        <li id="22ATI-3iii">All functionality is available</li>
-        <li id="22ATI-3iv">All content is available</li>
+        <li id="22aTI-3i">Text is not clipped, truncated or obscured</li>
+        <li id="22aTI-3ii">Text entered in text-based form controls resize fully</li>
+        <li id="22aTI-3iii">All functionality is available</li>
+        <li id="22aTI-3iv">All content is available</li>
         </ol></li>
 </ol>
 

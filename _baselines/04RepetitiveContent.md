@@ -28,14 +28,14 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 
 **Baseline Test ID:** 4.A-BypassBlocks
 #### Identify Content
-<p id="4AIC">Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.</p>
+<p id="4aIC">Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.</p>
 
 #### Test Instructions
-<ol id="4ATI">
-    <li id="4ATI-1">Use standard keyboard commands to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.</li>
-    <li id="4ATI-2">Check that a keyboard-accessible method is provided to bypass repetitive content. [SC 2.4.1]</li>
-    <li id="4ATI-3">Use the keyboard to activate the bypass method and verify the functionality of the bypass function.</li>
-    <li id="4ATI-4">Check that the method works as intended. [SC 2.4.1]<br>
+<ol id="4aTI">
+    <li id="4aTI-1">Use standard keyboard commands to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.</li>
+    <li id="4aTI-2">Check that a keyboard-accessible method is provided to bypass repetitive content. [SC 2.4.1]</li>
+    <li id="4aTI-3">Use the keyboard to activate the bypass method and verify the functionality of the bypass function.</li>
+    <li id="4aTI-4">Check that the method works as intended. [SC 2.4.1]<br>
         For example:
         <ul>
             <li>The block of repeated content is hidden, closed or skipped.</li>
@@ -50,12 +50,12 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 
 **Baseline Test ID:** 4.B-ConsistentNavigation
 #### Identify Content
-<p id="4BIC">Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).</p>
+<p id="4bIC">Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).</p>
 
 #### Test Instructions
-<ol id="4BTI">
-    <li id="4BTI-1">Review multiple Web pages. Do not initiate changes to the content.</li>
-    <li id="4BTI-2">Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]</li>
+<ol id="4bTI">
+    <li id="4bTI-1">Review multiple Web pages. Do not initiate changes to the content.</li>
+    <li id="4bTI-2">Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]</li>
 </ol>
 
 #### Test Results
@@ -65,11 +65,11 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 
 **Baseline Test ID:** 4.C-ConsistentIdentification
 #### Identify Content
-<p id="4CIC">Components that have the same functionality within a set of Web pages.</p>
+<p id="4cIC">Components that have the same functionality within a set of Web pages.</p>
 
 #### Test Instructions
-<ol id="4CTI">
-    <li id="4CTI-1">Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] </li>
+<ol id="4cTI">
+    <li id="4cTI-1">Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] </li>
 </ol>
 
 #### Test Results

@@ -21,12 +21,12 @@ While users with vision can recognize the structure presented by frames and ifra
 **Baseline Test ID:** 19.A-FrameTitle
 
 ##### Identify Content
-<p id="19AIC">Frames</p>
+<p id="19aIC">Frames</p>
 
 ##### Test Instructions
-<ol id="19ATI">
-    <li id="19ATI-1">Check that each <code>&lt;frame&gt;</code> has a title attribute that is not empty. [SC 4.1.2]</li>
-    <li id="19ATI-1">Check the title attribute describes the frame's content. [SC 4.1.2]</li>
+<ol id="19aTI">
+    <li id="19aTI-1">Check that each <code>&lt;frame&gt;</code> has a title attribute that is not empty. [SC 4.1.2]</li>
+    <li id="19aTI-1">Check the title attribute describes the frame's content. [SC 4.1.2]</li>
 </ol>
 
 ##### Test Results
@@ -37,12 +37,12 @@ While users with vision can recognize the structure presented by frames and ifra
 **Baseline Test ID:** 19.B-iFrameName
 
 ##### Identify Content
-<p id="19BIC">iFrames</p>
+<p id="19bIC">iFrames</p>
 
 ##### Test Instructions
-<ol id="19BTI">
-    <li id="19BTI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="19BTI-2">Check that the non-empty combination of <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element-accessible-name-computation" target="_blank" rel="noopener">accessible name and description</a> for each <code>&lt;iframe&gt;</code> describes its content. [SC 4.1.2]</li>
+<ol id="19bTI">
+    <li id="19bTI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="19bTI-2">Check that the non-empty combination of <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element-accessible-name-computation" target="_blank" rel="noopener">accessible name and description</a> for each <code>&lt;iframe&gt;</code> describes its content. [SC 4.1.2]</li>
 </ol>
 
 ##### Test Results

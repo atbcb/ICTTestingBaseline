@@ -39,12 +39,12 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 **Baseline Test ID:** 2.A-FocusVisible
 
 #### Identify Content
-<p id="2AIC">Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).</p>
+<p id="2aIC">Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).</p>
 
 #### Tests Instructions
-<ol id="2ATI">
-    <li id="2ATI-1">Use the keyboard to navigate through each interface component.</li>
-    <li id="2ATI-2">Check that a visible indication of focus is provided when focus is on the interface component. The focus indicator must not be time limited; when the keyboard focus is shown it must remain.[SC 2.4.7]</li>
+<ol id="2aTI">
+    <li id="2aTI-1">Use the keyboard to navigate through each interface component.</li>
+    <li id="2aTI-2">Check that a visible indication of focus is provided when focus is on the interface component. The focus indicator must not be time limited; when the keyboard focus is shown it must remain.[SC 2.4.7]</li>
 </ol>
 
 #### Test Results
@@ -54,23 +54,23 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 
 **Baseline Test ID:** 2.B-FocusOrder
 #### Identify Content
-<p id="2BIC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.</p>
+<p id="2bIC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.) that have a meaningful sequence of navigation.</p>
 
 #### Test Instructions
-<ol id="2BTI">
-    <li id="2BTI-1">Use the keyboard to navigate through interface components.
+<ol id="2bTI">
+    <li id="2bTI-1">Use the keyboard to navigate through interface components.
     <ol>
-        <li id="2BTI-1a">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
+        <li id="2bTI-1a">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
         <ol>
-            <li id="2BTI-1ai">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
-            <li id="2BTI-1aii">Advance the focus through the revealed content.</li>
+            <li id="2bTI-1ai">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
+            <li id="2bTI-1aii">Advance the focus through the revealed content.</li>
         </ol></li>
-        <li id="2BTI-1b">Use the keyboard to close/hide the revealed content.
+        <li id="2bTI-1b">Use the keyboard to close/hide the revealed content.
         <ol>
-            <li id="2BTI-1bi">Check that focus is returned to the trigger control. It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
+            <li id="2bTI-1bi">Check that focus is returned to the trigger control. It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
         </ol></li>
     </ol></li>
-    <li id="2BTI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
+    <li id="2bTI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
 </ol>
 
 #### Test Results
@@ -80,12 +80,12 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 
 **Baseline Test ID:** 2.C-OnFocus
 #### Identify Content
-<p id="2CIC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).</p>
+<p id="2cIC">Keyboard accessible interface components (links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes, etc.).</p>
 
 #### Test Instructions
-<ol id="2CTI">
-    <li id="2CTI-1">Use the keyboard to move focus to and navigate through each interactive interface component (including form drop-down lists and form fields).</li>
-    <li id="2CTI-2">Check that when an interface component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1]<br>
+<ol id="2cTI">
+    <li id="2cTI-1">Use the keyboard to move focus to and navigate through each interactive interface component (including form drop-down lists and form fields).</li>
+    <li id="2cTI-2">Check that when an interface component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1]<br>
     Examples of a change of context include:
         <ul>
             <li>Forms submitted automatically when a component receives focus</li>

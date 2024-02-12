@@ -22,11 +22,11 @@ order-number: 25
 
 **Baseline Test ID:** 24.A-Parsing
 #### Identify Content
-<p id="24AIC">All web pages</p>
+<p id="24aIC">All web pages</p>
 
 #### Test Instructions
-<ol id="24ATI">
-    <li id="24ATI-1">No testing necessary.</li>
+<ol id="24aTI">
+    <li id="24aTI-1">No testing necessary.</li>
 </ol>
 
 #### Test Results

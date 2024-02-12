@@ -27,11 +27,11 @@ order-number: 14
 
 **Baseline Test ID:** 13.A-HeadingDescriptive
 #### Identify Content
-<p id="13AIC">Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page or screen.</p>
+<p id="13aIC">Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page or screen.</p>
 
 #### Test Instructions
-<ol id="13ATI">
-    <li id="13ATI-1">Check that each heading describes the topic or purpose of its content. [SC 2.4.6]</li>
+<ol id="13aTI">
+    <li id="13aTI-1">Check that each heading describes the topic or purpose of its content. [SC 2.4.6]</li>
 </ol>
 
 #### Test Results
@@ -41,15 +41,15 @@ order-number: 14
 
 **Baseline Test ID:** 13.B-VisHeadingProg
 ##### Identify Content
-<p id="13BIC">Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.</p>
+<p id="13bIC">Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.</p>
 
 ##### Test Instructions
-<ol id="13BTI">
-    <li id="13BTI-1">Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:
+<ol id="13bTI">
+    <li id="13bTI-1">Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:
         <ol>
-            <li id="13BTI-1a">The most important heading(s) should have the highest priority level. For example, <code>&lt;h1&gt;</code> is a higher level than <code>&lt;h2&gt;</code>, which is higher than <code>&lt;h3&gt;</code>.</li>
-            <li id="13BTI-1b">Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.</li>
-            <li id="13BTI-1c">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
+            <li id="13bTI-1a">The most important heading(s) should have the highest priority level. For example, <code>&lt;h1&gt;</code> is a higher level than <code>&lt;h2&gt;</code>, which is higher than <code>&lt;h3&gt;</code>.</li>
+            <li id="13bTI-1b">Headings with an equal or higher level start a new section; headings with a lower level start new subsections that are part of the higher leveled section.</li>
+            <li id="13bTI-1c">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
             <ol>
                 <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H42" target="_blank" rel="noopener">H42</a>: each heading is marked with <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</li>
                 <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA12" target="_blank" rel="noopener">ARIA12</a>: each heading is marked with <code>role="heading"</code> and <code>aria-level="#"</code>. The default heading level is "2" when none is specified.</li>
@@ -64,11 +64,11 @@ order-number: 14
 
 **Baseline Test ID:** 13.C-ProgHeadingVisual
 ##### Identify Content
-<p id="13CIC">Programmatically determined headings: <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> or ARIA <code>role="heading"</code>.</p>
+<p id="13cIC">Programmatically determined headings: <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> or ARIA <code>role="heading"</code>.</p>
 
 ##### Test Instructions
-<ol id="13CTI">
-    <li id="13CTI-1">Check that each programmatically determinable heading is also serving as a visual heading on the page. <br>
+<ol id="13cTI">
+    <li id="13cTI-1">Check that each programmatically determinable heading is also serving as a visual heading on the page. <br>
     Content that is not a visual heading cannot have a role of heading. For example, heading markup should not be used for emphasis on an element that is not a heading for content after it. [SC 1.3.1]</li>
 </ol>
 
@@ -79,7 +79,7 @@ order-number: 14
 
 **Baseline Test ID:** 13.D-List
 ##### Identify Content
-<p id="13DIC">Visually apparent lists, which appear as a grouping of items typically one below the other. Exclude navigation menus. Determine the type of list: 
+<p id="13dIC">Visually apparent lists, which appear as a grouping of items typically one below the other. Exclude navigation menus. Determine the type of list: 
     <ul>
         <li>An unordered list is not numbered and is used where sequence or the ability to reference specific items by number/letter is not important. List items have the same visual marking or may have no marking. </li>
         <li>An ordered lists is numbered sequentially and, if necessary, hierarchically (e.g., 1, 2, 2a, 2ai, etc.) and is used where sequence or the ability to reference specific items by a unique number/letter is important.</li>
@@ -89,10 +89,10 @@ order-number: 14
 
 ##### Test Instructions
 For each visually apparent list:
-<ol id="13DTI">
-    <li id="13DTI-1">Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is programmatically an unordered list <code>&lt;ul&gt;</code>, and each item in the list is programmatically a list item <code>&lt;li&gt;</code>. [SC 1.3.1]</li>
-    <li id="13DTI-2">Check that content that has the visual appearance of a numbered list is programmatically an ordered list <code>&lt;ol&gt;</code>, and each item in the list is programmatically a list item <code>&lt;li&gt;</code>. [SC 1.3.1]</li>
-    <li id="13DTI-3">Check that content has a visual appearance of a description list is programmatically a description list <code>&lt;dl&gt;</code>, each term is programmatically a description term <code>&lt;dt&gt;</code> and each description is programmatically a definition description <code>&lt;dd&gt;</code>. [SC 1.3.1]</li>
+<ol id="13dTI">
+    <li id="13dTI-1">Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is programmatically an unordered list <code>&lt;ul&gt;</code>, and each item in the list is programmatically a list item <code>&lt;li&gt;</code>. [SC 1.3.1]</li>
+    <li id="13dTI-2">Check that content that has the visual appearance of a numbered list is programmatically an ordered list <code>&lt;ol&gt;</code>, and each item in the list is programmatically a list item <code>&lt;li&gt;</code>. [SC 1.3.1]</li>
+    <li id="13dTI-3">Check that content has a visual appearance of a description list is programmatically a description list <code>&lt;dl&gt;</code>, each term is programmatically a description term <code>&lt;dt&gt;</code> and each description is programmatically a definition description <code>&lt;dd&gt;</code>. [SC 1.3.1]</li>
 </ol>
 
 ##### Test Results
