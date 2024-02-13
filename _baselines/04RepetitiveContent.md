@@ -24,18 +24,18 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
     -   [ARIA11: Using ARIA landmarks to identify regions of a page](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA11)
     -   [H69: Providing heading elements at the beginning of each section of content](https://www.w3.org/WAI/WCAG22/Techniques/html/H69)
 
-### 4.1 Test Procedure for Bypass Blocks
+### 4.A Test Procedure for Bypass Blocks
 
-**Baseline Test ID:** 4.1-BypassBlocks
+**Baseline Test ID:** 4.A-BypassBlocks
 #### Identify Content
-<p id="1IC">Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.</p>
+<p id="4aIC">Blocks of content that are repeated on multiple pages, including navigation links, page headers, and banners.</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Use standard keyboard commands to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.</li>
-    <li id="1TI-2">Check that a keyboard-accessible method is provided to bypass repetitive content. [SC 2.4.1]</li>
-    <li id="1TI-3">Use the keyboard to activate the bypass method and verify the functionality of the bypass function.</li>
-    <li id="1TI-4">Check that the method works as intended. [SC 2.4.1]<br>
+<ol id="4aTI">
+    <li id="4aTI-1">Use standard keyboard commands to navigate forward to repetitive blocks of content. Some bypass functions may not be visible until they receive focus.</li>
+    <li id="4aTI-2">Check that a keyboard-accessible method is provided to bypass repetitive content. [SC 2.4.1]</li>
+    <li id="4aTI-3">Use the keyboard to activate the bypass method and verify the functionality of the bypass function.</li>
+    <li id="4aTI-4">Check that the method works as intended. [SC 2.4.1]<br>
         For example:
         <ul>
             <li>The block of repeated content is hidden, closed or skipped.</li>
@@ -44,43 +44,43 @@ To enable equitable use by keyboard-only users, there must be a keyboard-accessi
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Test 4.1-BypassBlocks fails.</p>
+<p id="4aTR">If any of the above checks fail, then Baseline Test 4.A-BypassBlocks fails.</p>
 
-### 4.2 Test Procedure for Consistent Navigation
+### 4.B Test Procedure for Consistent Navigation
 
-**Baseline Test ID:** 4.2-ConsistentNavigation
+**Baseline Test ID:** 4.B-ConsistentNavigation
 #### Identify Content
-<p id="2IC">Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).</p>
+<p id="4bIC">Navigational mechanisms that are repeated on multiple pages (which may or may not be contained within a block of content).</p>
 
 #### Test Instructions
-<ol id="2TI">
-    <li id="2TI-1">Review multiple Web pages. Do not initiate changes to the content.</li>
-    <li id="2TI-2">Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]</li>
+<ol id="4bTI">
+    <li id="4bTI-1">Review multiple Web pages. Do not initiate changes to the content.</li>
+    <li id="4bTI-2">Check that each repeated navigational mechanism is in the same relative order as other repeated interface components on each Web page where it appears. [SC 3.2.3]</li>
 </ol>
 
 #### Test Results
-<p id="2TR">If any of the above checks fail, then Baseline Test 4.2-ConsistentNavigation fails.</p>
+<p id="4bTR">If any of the above checks fail, then Baseline Test 4.B-ConsistentNavigation fails.</p>
 
-### 4.3 Test Procedure for Consistent Identification
+### 4.C Test Procedure for Consistent Identification
 
-**Baseline Test ID:** 4.3-ConsistentIdentification
+**Baseline Test ID:** 4.C-ConsistentIdentification
 #### Identify Content
-<p id="3IC">Components that have the same functionality within a set of Web pages.</p>
+<p id="4cIC">Components that have the same functionality within a set of Web pages.</p>
 
 #### Test Instructions
-<ol id="3TI">
-    <li id="3TI-1">Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] </li>
+<ol id="4cTI">
+    <li id="4cTI-1">Check that associated text (e.g., label, name, or text alternative) for identified content is identical for each instance where they perform the same function. [SC 3.2.4] </li>
 </ol>
 
 #### Test Results
-<p id="3TR">If any of the above checks fail, then Baseline Test 4.3-ConsistentIdentification fails.</p>
+<p id="4cTR">If any of the above checks fail, then Baseline Test 4.C-ConsistentIdentification fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 
 -   Some bypass methods may require a specific keyboard shortcut (i.e., the F6 key is the browser default for navigating between frames).
--   If bypass method is provided but cannot be activated by keyboard, this is also a failure of Baseline Test 1.1 Keyboard Access.
+-   If bypass method is provided but cannot be activated by keyboard, this is also a failure of Baseline Test 1.A Keyboard Access.
 -   If bypass method is in the focus order but is not visible when it has keyboard focus, this is a failure of Baseline 2.1 Focus Visible.
--   If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with Baseline 14.1 Links. For example, a page with repetitive links should have a descriptive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
+-   If there is a need for multiple bypass methods on a page, each method must describe its purpose to comply with Baseline 14.A Links. For example, a page with repetitive links should have a descriptive bypass method. If there is also a block of repetitive content, this should have a separate descriptive bypass method.
 
 ### WCAG 2.2 Techniques
 

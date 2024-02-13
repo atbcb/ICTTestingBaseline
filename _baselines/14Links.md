@@ -18,16 +18,16 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 -   [From Understanding SC 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context): There may be situations where the purpose of the link is supposed to be unknown or obscured. For instance, a game may have links identified only as door \#1, door \#2, and door \#3. This link text would be sufficient because the purpose of the links is to create suspense for all users.
 -   The combination of an element's accessible name and accessible description is its text alternative.
 
-### 14.1 Test Procedure for Link Purpose (In Context)
+### 14.A Test Procedure for Link Purpose (In Context)
 
-**Baseline Test ID:** 14.1-LinkPurpose
+**Baseline Test ID:** 14.A-LinkPurpose
 #### Identify Content
-<p id="1IC">All links including those that are scripted elements and assigned a role of a link.</p>
+<p id="14aIC">All links including those that are scripted elements and assigned a role of a link.</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Check that the combination of accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="1TI-2">Check that the purpose of each link can be determined from any combination of the following [SC 2.4.4]:
+<ol id="14aTI">
+    <li id="14aTI-1">Check that the combination of accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="14aTI-2">Check that the purpose of each link can be determined from any combination of the following [SC 2.4.4]:
     <ul>
        <li>the link text, </li>
        <li>the link's <a href="https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation" target="_blank" rel="noopener">accessible name and accessible description</a>, </li>
@@ -38,7 +38,7 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Test 14.1-LinkPurpose fails.</p>
+<p id="14aTR">If any of the above checks fail, then Baseline Test 14.A-LinkPurpose fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

@@ -34,129 +34,129 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 -   From [Understanding SC 1.2.5](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded), if all of the information in the video track is already provided in the audio track, no audio description is necessary.
 -   For this Section 508 baseline, synchronized media is tested for SC 1.2.5; (Level A) SC 1.2.3 is not tested. At the higher conformance level AA, SC 1.2.5 requires audio descriptions and is more strict than SC 1.2.3.
 
-### 17.1 Test Procedure for Media Player Controls
+### 17.A Test Procedure for Media Player Controls
 
-**Baseline Test ID:** 17.1-MediaPlayerCCADControls
+**Baseline Test ID:** 17.A-MediaPlayerCCADControls
 #### Identify Content
-<p id="1IC">Media player that displays video with synchronized audio.</p>
+<p id="17aIC">Media player that displays video with synchronized audio.</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Check that user control for the selection of captions is provided. [Section 508 503.4]</li>
-    <li id="1TI-2">Check that user control for the selection of audio descriptions is provided. [Section 508 503.4]</li>
+<ol id="17aTI">
+    <li id="17aTI-1">Check that user control for the selection of captions is provided. [Section 508 503.4]</li>
+    <li id="17aTI-2">Check that user control for the selection of audio descriptions is provided. [Section 508 503.4]</li>
 </ol>
 
 #### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Requirement 17.1-MediaPlayerCCADControls fails.</p>
+<p id="17aTR">If any of the above checks fail, then Baseline Requirement 17.A-MediaPlayerCCADControls fails.</p>
 
-### 17.2 Test Procedure for Media Player Caption Control Level
+### 17.B Test Procedure for Media Player Caption Control Level
 
-**Baseline Test ID:** 17.2-MediaPlayerCCLevel
+**Baseline Test ID:** 17.B-MediaPlayerCCLevel
 #### Identify Content
-<p id="2IC">Media player that displays video with synchronized audio and has volume adjustment controls.</p>
+<p id="17bIC">Media player that displays video with synchronized audio and has volume adjustment controls.</p>
 
 #### Test Instructions
-<ol id="2TI">
-    <li id="2TI-1">Check that user controls for the selection of captions are at the same menu level as the user controls for volume adjustment or program selection. [Section 508 503.4.1]</li>
+<ol id="17bTI">
+    <li id="17bTI-1">Check that user controls for the selection of captions are at the same menu level as the user controls for volume adjustment or program selection. [Section 508 503.4.1]</li>
 </ol>
 
 #### Test Results
-<p id="2TR">If any of the above checks fail, then Baseline Test 17.2-MediaPlayerCCLevel fails.</p>
+<p id="17bTR">If any of the above checks fail, then Baseline Test 17.B-MediaPlayerCCLevel fails.</p>
 
-### 17.3 Test Procedure for Media Player Audio Description Control Level
+### 17.C Test Procedure for Media Player Audio Description Control Level
 
-**Baseline Test ID:** 17.3-MediaPlayerADLevel
+**Baseline Test ID:** 17.C-MediaPlayerADLevel
 #### Identify Content
-<p id="3IC">Media player that displays video with synchronized audio and has program selection controls.</p>
+<p id="17cIC">Media player that displays video with synchronized audio and has program selection controls.</p>
 
 #### Test Instructions
-<ol id="3TI">
-    <li id="3TI-1">Check that user controls for the selection of audio descriptions are at the same menu level as the user controls for volume or program selection. [Section 508 503.4.2]</li>
+<ol id="17cTI">
+    <li id="17cTI-1">Check that user controls for the selection of audio descriptions are at the same menu level as the user controls for volume or program selection. [Section 508 503.4.2]</li>
 </ol>
 
 #### Test Results
-<p id="3TR">If any of the above checks fail, then Baseline Test 17.3-MediaPlayerADLevel fails.</p>
+<p id="17cTR">If any of the above checks fail, then Baseline Test 17.C-MediaPlayerADLevel fails.</p>
 
-### 17.4 Test Procedure for Captions (Prerecorded)
+### 17.D Test Procedure for Captions (Prerecorded)
 
-**Baseline Test ID:** 17.4-CaptionsPrerecorded
+**Baseline Test ID:** 17.D-CaptionsPrerecorded
 #### Identify Content
-<p id="4IC">Pre-recorded synchronized multimedia. Do not include media that is clearly labeled as a media alternative for text.</p>
+<p id="17dIC">Pre-recorded synchronized multimedia. Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
-<ol id="4TI">
-    <li id="4TI-1">Enable captions through multimedia player functions and play the media. If a separate media file with captions is provided, test that file.</li>
-    <li id="4TI-2">Check that captions are provided.</li>
-    <li id="4TI-3">Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location. [SC 1.2.2]
+<ol id="17dTI">
+    <li id="17dTI-1">Enable captions through multimedia player functions and play the media. If a separate media file with captions is provided, test that file.</li>
+    <li id="17dTI-2">Check that captions are provided.</li>
+    <li id="17dTI-3">Check that captions are accurate and include all dialogue and equivalents for non-dialogue audio information needed to understand the program content, including sound effects, music, laughter, speaker identification and location. [SC 1.2.2]
         <ol>
-        <li id="4TI-3i">Listen to the audio of the entire synchronized media.</li>
-        <li id="4Ti-3ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence.</li>
+        <li id="17dTI-3i">Listen to the audio of the entire synchronized media.</li>
+        <li id="17dTI-3ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence.</li>
         </ol></li>
-    <li id="4TI-4">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
+    <li id="17dTI-4">Check that the captions do not obscure or obstruct relevant information in the video. [SC 1.2.2]</li>
 </ol>
 
 #### Test Results
-<p id="4TR">If any of the above checks fail, then Baseline 17.4-CaptionsPrerecorded fails.</p>
+<p id="17dTR">If any of the above checks fail, then Baseline 17.D-CaptionsPrerecorded fails.</p>
 
-### 17.5 Test Procedure for Audio Description (Prerecorded)
+### 17.E Test Procedure for Audio Description (Prerecorded)
 
-**Baseline Test ID:** 17.5-ADPrerecorded
+**Baseline Test ID:** 17.E-ADPrerecorded
 
 #### Identify Content
-<p id="5IC">Pre-recorded synchronized multimedia. . Do not include media that is clearly labeled as a media alternative for text.</p>
+<p id="17eIC">Pre-recorded synchronized multimedia. . Do not include media that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
-<ol id="5TI">
-    <li id="5TI-1">Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that file.</li>
-    <li id="5TI-2">Check that the audio (with audio descriptions enabled) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content. [SC 1.2.5]</li>
+<ol id="17eTI">
+    <li id="17eTI-1">Enable audio descriptions through multimedia player functions and play the media. If a separate media file with audio descriptions is provided, test that file.</li>
+    <li id="17eTI-2">Check that the audio (with audio descriptions enabled) adequately describes important visual content in the media, including information about actions, characters, scene changes, on-screen text, and other visual content. [SC 1.2.5]</li>
 </ol>
 
 #### Test Results
-<p id="5TR">If any of the above checks fail, then Baseline 17.5-ADPrerecorded fails.</p>
+<p id="17eTR">If any of the above checks fail, then Baseline 17.E-ADPrerecorded fails.</p>
 
-### 17.6 Test Procedure for Captions (Live)
+### 17.F Test Procedure for Captions (Live)
 
-**Baseline Test ID:** 17.6-CaptionsLive
+**Baseline Test ID:** 17.F-CaptionsLive
 #### Identify Content
-<p id="6IC">Live synchronized multimedia.</p>
+<p id="17fIC">Live synchronized multimedia.</p>
 
 #### Test Instructions
-<ol id="6TI">
-    <li id="6TI-1">Enable captions through multimedia player functions and start the live session.</li>
-    <li id="6TI-2">Check that captions are provided</li>
-    <li id="6TI-3">Check that provided captions include dialogue and important sounds. [SC 1.2.4]
+<ol id="17fTI">
+    <li id="17fTI-1">Enable captions through multimedia player functions and start the live session.</li>
+    <li id="17fTI-2">Check that captions are provided</li>
+    <li id="17fTI-3">Check that provided captions include dialogue and important sounds. [SC 1.2.4]
         <ol>
-        <li id="6TI-3i">Listen to the audio of the entire synchronized media.</li>
-        <li id="6TI-4ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence. Lower accuracy of captions for live broadcasts may be acceptable due to limitations of real-time caption capabilities.</li>
+        <li id="17fTI-3i">Listen to the audio of the entire synchronized media.</li>
+        <li id="17fTI-4ii">Compare the audio to the captions for accuracy, time-synchronization, and equivalence. Lower accuracy of captions for live broadcasts may be acceptable due to limitations of real-time caption capabilities.</li>
         </ol></li>
 </ol>
 
 #### Test Results
-<p id="6TR">If any of the above checks fail, then Baseline Requirement 17.6-CaptionsLive fails.</p>
+<p id="17fTR">If any of the above checks fail, then Baseline Requirement 17.F-CaptionsLive fails.</p>
 
-### 17.7 Test Procedure for Sync Media Alternative (Prerecorded)
+### 17.G Test Procedure for Sync Media Alternative (Prerecorded)
 
-**Baseline Test ID:** 17.7-SyncMediaAlternative
+**Baseline Test ID:** 17.G-SyncMediaAlternative
 #### Identify Content
-<p id="7IC">Pre-recorded synchronized multimedia that is clearly labeled as a media alternative for text.</p>
+<p id="17gIC">Pre-recorded synchronized multimedia that is clearly labeled as a media alternative for text.</p>
 
 #### Test Instructions
-<ol id="7TI">
-    <li id="7TI-1">Identify the text for which the media is an alternative.</li>
-    <li id="7TI-2">Play the media that is labeled as an equivalent alternative for the text.</li>
-    <li id="7TI-3">Check that the meaningful audible information of the media is available in the text.</li>
-    <li id="7TI-4">Check that the meaningful visual information of the media is available in the text.</li>  
+<ol id="17gTI">
+    <li id="17gTI-1">Identify the text for which the media is an alternative.</li>
+    <li id="17gTI-2">Play the media that is labeled as an equivalent alternative for the text.</li>
+    <li id="17gTI-3">Check that the meaningful audible information of the media is available in the text.</li>
+    <li id="17gTI-4">Check that the meaningful visual information of the media is available in the text.</li>  
 </ol>
 
 #### Test Results
-<p id="7TR">If any of the above checks fail, then the multimedia is not a media alternative for text. Perform Baseline Tests <a href="#174-test-procedure-for-captions-prerecorded">17.4 Test Procedure for Captions (Prerecorded)</a> and <a href="#175-test-procedure-for-audio-description-prerecorded">17.5 Test Procedure for Audio Description (Prerecorded)</a> on the pre-recorded synchronized multimedia. </p>
+<p id="17gTR">If any of the above checks fail, then the multimedia is not a media alternative for text. Perform Baseline Tests <a href="#17d-test-procedure-for-captions-prerecorded">17.D Test Procedure for Captions (Prerecorded)</a> and <a href="#17e-test-procedure-for-audio-description-prerecorded">17.E Test Procedure for Audio Description (Prerecorded)</a> on the pre-recorded synchronized multimedia. </p>
 
 ### Advisory: Tips for streamlined test processes
 
 -   Testing synchronized media is different from testing Baseline [16. Audio-Only and Video-Only content](../16AudioVideo).
 -   Synchronized media players may be software or HTML.
 -   At Level AA, SC 1.2.5 applies to synchronized media. The related Level A requirement, SC 1.2.3, should be marked as ‘Not Applicable’ in the test report. It is permissible for test processes to add a test for SC 1.2.3 (evaluate a full text alternative for equivalence). Adding such a test would exceed baseline test requirements and would not affect Baseline 17’s outcome.
--   All synchronized multimedia should be tested. If the pre-recorded multimedia is labeled as an media alternative for text, confirm that it provides equivalent information as text. If it does not, then it is not a media alternative for text. Test the multimedia for captions and audio descriptions. It may make sense to perform Test 17.7 before testing for captions and audio descriptions.
+-   All synchronized multimedia should be tested. If the pre-recorded multimedia is labeled as an media alternative for text, confirm that it provides equivalent information as text. If it does not, then it is not a media alternative for text. Test the multimedia for captions and audio descriptions. It may make sense to perform Test 17.G before testing for captions and audio descriptions.
 
 ### WCAG 2.2 Techniques
 

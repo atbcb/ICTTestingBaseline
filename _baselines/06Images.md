@@ -34,55 +34,55 @@ order-number: 7
 -   The [WCAG 2.0 Sufficient Technique H45: Using longdesc](https://www.w3.org/TR/WCAG20-TECHS/H45.html) is not supported by the Baseline for Web and is not part of the [accessible name or accessible description computation for an image](https://www.w3.org/TR/html-aam-1.0/#img-element). WCAG 2.2 also does not have a sufficient technique for longdesc. 
 -   The combination of an element's accessible name and accessible description is its text alternative. 
 
-### 6.1 Test Procedure for Images with a non-empty text alternative
-**Baseline Test ID:** 6.1-MeaningfulImage
+### 6.A Test Procedure for Images with a non-empty text alternative
+**Baseline Test ID:** 6.A-MeaningfulImage
 
 #### Identify Content
-<p id="1IC">Identify any image (i.e., <code>img</code> element or an element with <code>role="img"</code>) that has a non-empty text alternative (combination of the accessible name and accessible description) per the <a href="https://www.w3.org/TR/html-aam-1.0/#img-element-accessible-name-computation">HTML Accessibility API Mappings 1.0 for img</a>. </p>
+<p id="6aIC">Identify any image (i.e., <code>img</code> element or an element with <code>role="img"</code>) that has a non-empty text alternative (combination of the accessible name and accessible description) per the <a href="https://www.w3.org/TR/html-aam-1.0/#img-element-accessible-name-computation">HTML Accessibility API Mappings 1.0 for img</a>. </p>
 
 ##### Test Instructions
-<ol id="1TI">
-    <li id="1TI-2">Check that none of the following is true [SC 1.1.1]:
+<ol id="6aTI">
+    <li id="6aTI-2">Check that none of the following is true [SC 1.1.1]:
     <ol>
-        <li id="1TI-2i">The image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
-        <li id="1TI-2ii">The image is not visible on the page.</li>
+        <li id="6aTI-2i">The image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
+        <li id="6aTI-2ii">The image is not visible on the page.</li>
     </ol>
     </li>
-    <li id="1TI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
-    <li id="1TI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
-    <li id="1TI-5">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. [SC 1.1.1]</li>
+    <li id="6aTI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
+    <li id="6aTI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
+    <li id="6aTI-5">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. [SC 1.1.1]</li>
 </ol>
 
 ##### Test Results
-<p id="1TR">If any of the above checks fail, then Baseline Test 6.1-MeaningfulImage fails.</p>
+<p id="6aTR">If any of the above checks fail, then Baseline Test 6.A-MeaningfulImage fails.</p>
 
-### 6.2 Test Procedure for Images with an empty text alternative
-**Baseline Test ID:** 6.2-DecorativeImage
+### 6.B Test Procedure for Images with an empty text alternative
+**Baseline Test ID:** 6.B-DecorativeImage
 
 #### Identify Content
-<p id="2IC">Identify any image (i.e., <code>img</code> element, or element with <code>role="img"</code>, or element that includes a CSS background image) that has an empty text alternative. </p>
+<p id="6bIC">Identify any image (i.e., <code>img</code> element, or element with <code>role="img"</code>, or element that includes a CSS background image) that has an empty text alternative. </p>
 
 ##### Test Instructions
 <ol>
-<li id="2TI-1">Check that the empty text alternative has been programmatically assigned using one of the following techniques [SC 1.1.1]:
+<li id="6bTI-1">Check that the empty text alternative has been programmatically assigned using one of the following techniques [SC 1.1.1]:
     <ol>
-        <li id="2TI-1a">The ARIA role is "presentation".</li>
-        <li id="2TI-1b">The ARIA role is "none".</li>
-        <li id="2TI-1c">The aria-hidden is set to "true".</li>
-        <li id="2TI-1d">The attribute <code>alt=""</code>.</li>
-        <li id="2TI-1e">The image is inserted via CSS (i.e., a background image).</li>
+        <li id="6bTI-1a">The ARIA role is "presentation".</li>
+        <li id="6bTI-1b">The ARIA role is "none".</li>
+        <li id="6bTI-1c">The aria-hidden is set to "true".</li>
+        <li id="6bTI-1d">The attribute <code>alt=""</code>.</li>
+        <li id="6bTI-1e">The image is inserted via CSS (i.e., a background image).</li>
     </ol>
 Note: If the image does not have any of these attributes, this would be a failure.
 </li>
-<li id="2TI-2">Check that none of the following is true [SC 1.1.1]:
+<li id="6bTI-2">Check that none of the following is true [SC 1.1.1]:
     <ol>
-        <li id="2TI-2a">The image is the only way to convey meaningful information.</li>
-        <li id="2TI-2b">The image is in the tab order.</li>
-        <li id="2TI-2c">The image is a functional image that initiates action.</li>
+        <li id="6bTI-2a">The image is the only way to convey meaningful information.</li>
+        <li id="6bTI-2b">The image is in the tab order.</li>
+        <li id="6bTI-2c">The image is a functional image that initiates action.</li>
     </ol>
 </li>
 
-<li id="2TI-3">For images with <code>role="presentation"</code> or <code>role="none"</code>, check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
+<li id="6bTI-3">For images with <code>role="presentation"</code> or <code>role="none"</code>, check that there are no non-empty text alternative attributes. The presence of such attributes may cause assistive technology to not ignore the image, i.e., provide the image's text alternative to the user. [SC 1.1.1]
     <ul>
         <li> Fail Example 1: <code>&lt;img role="none" alt="use your notes"&gt;</code></li>
         <li> Fail Example 2: <code>&lt;img aria-label="turtle" role="presentation"&gt;</code></li>
@@ -91,38 +91,38 @@ Note: If the image does not have any of these attributes, this would be a failur
 </ol>
 
 ##### Test Results
-<p id="2TR">If any of the above checks fail, then Baseline Test 6.2-DecorativeImage fails.</p>
+<p id="6bTR">If any of the above checks fail, then Baseline Test 6.B-DecorativeImage fails.</p>
 
-### 6.3 Test Procedure for Captchas
-**Baseline Test ID:** 6.3-Captcha
+### 6.C Test Procedure for Captchas
+**Baseline Test ID:** 6.C-Captcha
 
 #### Identify Content
-<p id="3IC">Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer.</p>
+<p id="6cIC">Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer.</p>
 
 ##### Test Instructions
-<ol id="3TI">
-    <li id="3TI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
-    <li id="3TI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) identifies and describes the purpose of the CAPTCHA. [SC 1.1.1]</li>
-    <li id="3TI-3">Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. [SC 1.1.1]</li>
+<ol id="6cTI">
+    <li id="6cTI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
+    <li id="6cTI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) identifies and describes the purpose of the CAPTCHA. [SC 1.1.1]</li>
+    <li id="6cTI-3">Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. [SC 1.1.1]</li>
 </ol>
 
 ##### Test Results
-<p id="3TR">If any of the above checks fail, then Baseline Test 6.3-Captcha fails.</p>
+<p id="6cTR">If any of the above checks fail, then Baseline Test 6.C-Captcha fails.</p>
 
-### 6.4 Test Procedure for Images of Text
-**Baseline Test ID:** 6.4-ImageText
+### 6.D Test Procedure for Images of Text
+**Baseline Test ID:** 6.D-ImageText
 #### Identify Content
-<p id="4IC">Identify any images of text, except where a particular presentation of text is essential to the information being conveyed (e.g., logotypes or text that is part of a logo or brand name).</p>
+<p id="6dIC">Identify any images of text, except where a particular presentation of text is essential to the information being conveyed (e.g., logotypes or text that is part of a logo or brand name).</p>
 
 #### Test Instructions
-<ol id="4TI">
-    <li id="4TI-1">Check that using text cannot achieve the same visual presentation and effect as images of text. [SC 1.4.5]</li>
-    <li id="4TI-2">Check that the image of text can be visually customized to a user's requirements. [SC 1.4.5]. <br>
+<ol id="6dTI">
+    <li id="6dTI-1">Check that using text cannot achieve the same visual presentation and effect as images of text. [SC 1.4.5]</li>
+    <li id="6dTI-2">Check that the image of text can be visually customized to a user's requirements. [SC 1.4.5]. <br>
     For example, web content allows users to specify font, size, color, and background settings, and all images of text are then provided based on those settings.</li>
 </ol>
 
 #### Test Results
-<p id="4TR">If any of the above checks fail, then Baseline Test 6.4-ImageText fail.</p>
+<p id="6dTR">If any of the above checks fail, then Baseline Test 6.D-ImageText fail.</p>
 
 
 ### Advisory: Tips for streamlined test processes

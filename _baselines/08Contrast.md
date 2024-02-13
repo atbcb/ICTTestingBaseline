@@ -26,17 +26,17 @@ This test is conducted to evaluate equal access to information for all users, in
 -   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not required to meet contrast ratio requirements. **Note:** Read-only and disabled interface components are not the same. Disabled interface components can be considered inactive interface components; read-only interface components are active interface components and must meet contrast ratio requirements.
 -   [Large scale text](https://www.w3.org/TR/WCAG22/#dfn-large-scale) is at least 18 point text or 14 point bold text.
 
-### 8.1 Test Procedure for Contrast (minimum)
+### 8.A Test Procedure for Contrast (minimum)
 
-**Baseline Test ID:** 8.1-ContrastMinimum
+**Baseline Test ID:** 8.A-ContrastMinimum
 #### Identify Content
-<p id="1IC">All visible text  **AND**  images of text (except those noted in Limitations, Assumptions, or Exceptions above)</p>
+<p id="8aIC">All visible text  **AND**  images of text (except those noted in Limitations, Assumptions, or Exceptions above)</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Determine the <a href="https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio" target="_blank" rel="noopener">contrast ratio</a> of foreground text and background.</li>
-    <li id="1TI-2">Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]</li>
-    <li id="1TI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 <strong>AND</strong> the font meets one of the following criteria: [SC 1.4.3]
+<ol id="8aTI">
+    <li id="8aTI-1">Determine the <a href="https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio" target="_blank" rel="noopener">contrast ratio</a> of foreground text and background.</li>
+    <li id="8aTI-2">Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]</li>
+    <li id="8aTI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 <strong>AND</strong> the font meets one of the following criteria: [SC 1.4.3]
         <ul>
             <li>At least 18 point (24 pixels)</li>
             <li>At least 14 point (18.5 pixels) <strong>AND</strong> bold (at least 700 font weight)</li>
@@ -45,7 +45,7 @@ This test is conducted to evaluate equal access to information for all users, in
 </ol>
 
 #### Test Results
-<p id="1TR">If both of the above checks fail, then Baseline Test 8.1-ContrastMinimum fails.</p>
+<p id="8aTR">If both of the above checks fail, then Baseline Test 8.A-ContrastMinimum fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

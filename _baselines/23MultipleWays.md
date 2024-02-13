@@ -16,28 +16,28 @@ This baseline requires a manual check for multiple techniques to locate a web pa
 
 -   Exceptions: web pages that are the result of, or a step in, a process are not included in this test.
 
-### 23.1 Test Procedure for Related Web Pages
+### 23.A Test Procedure for Related Web Pages
 
-**Baseline Test ID:** 23.1-MultipleWays
+**Baseline Test ID:** 23.A-MultipleWays
 #### Identify Content
-<p id="1IC">Web page within a set of related Web pages.</p>
+<p id="23aIC">Web page within a set of related Web pages.</p>
 
 #### Test Instructions
-<ol id="1TI">
-    <li id="1TI-1">Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]<br>
+<ol id="23aTI">
+    <li id="23aTI-1">Check that the page provides two or more ways to locate a Web page within a set of web pages. [SC 2.4.5]<br>
     These may include (but are not limited to) techniques such as:
         <ul>
-        <li id="1TI-1i">site maps</li>
-        <li id="1TI-1ii">site search</li>
-        <li id="1TI-1iii">tables of contents</li>
-        <li id="1TI-1iv">navigation menus or dropdowns</li>
-        <li id="1TI-1v">navigation trees</li>
-        <li id="1TI-1vi">links between pages</li>
+        <li id="23aTI-1i">site maps</li>
+        <li id="23aTI-1ii">site search</li>
+        <li id="23aTI-1iii">tables of contents</li>
+        <li id="23aTI-1iv">navigation menus or dropdowns</li>
+        <li id="23aTI-1v">navigation trees</li>
+        <li id="23aTI-1vi">links between pages</li>
         </ul></li>
 </ol>
 
 #### Test Results
-<p id="1TR">If the above check fails, then Baseline Test 23.1-MultipleWays fails.</p>
+<p id="23aTR">If the above check fails, then Baseline Test 23.A-MultipleWays fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 

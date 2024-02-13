@@ -38,37 +38,37 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content on the page (whether or not it is used to meet other success criteria) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 -   Per [WCAG 2.2 Understanding SC 1.4.2: Audio Control](https://www.w3.org/WAI/WCAG22/Understanding/audio-control), having control of the volume includes being able to reduce its volume to zero. Muting the system volume is not "pausing or stopping" the autoplay audio. Both the "pause or stop" and control of audio volume need to be independent of the overall system volume.
 
-### 21.1 Test Procedure for Timing Adjustable
+### 21.A Test Procedure for Timing Adjustable
 
-**Baseline Test ID:** 21.1-TimingAdjustable
+**Baseline Test ID:** 21.A-TimingAdjustable
 #### Identify Content
-<p id="1IC">Identify any instances of content time limits (excluding exceptions described above).</p>
+<p id="21aIC">Identify any instances of content time limits (excluding exceptions described above).</p>
 
 #### Test Instructions
-<p id="1TI">For each instance of an identified time limit for content:
+<p id="21aTI">For each instance of an identified time limit for content:
     <ol>
-		<li id="1TI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:
+		<li id="21aTI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:
 			<ol>
-			<li id="1TI-1i">The user has the ability to turn off the time limit.</li>
-			<li id="1TI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
-			<li id="1TI-1iii">The user is warned before time expires <strong>AND</strong>:
+			<li id="21aTI-1i">The user has the ability to turn off the time limit.</li>
+			<li id="21aTI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
+			<li id="21aTI-1iii">The user is warned before time expires <strong>AND</strong>:
 				<ol>
-				<li id="1TI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), <strong>AND</strong></li>
-				<li id="1TI-1iiib">Allowed to extend the time limit at least ten times.</li>
+				<li id="21aTI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), <strong>AND</strong></li>
+				<li id="21aTI-1iiib">Allowed to extend the time limit at least ten times.</li>
 				</ol></li>
 			</ol></li>
     </ol>
 </p>
 
 #### Test Results
-<p id="1TR">If the above check fails, then Baseline Test 21.1-TimingAdjustable fails.</p>
+<p id="21aTR">If the above check fails, then Baseline Test 21.A-TimingAdjustable fails.</p>
 
-### 21.2 Test Procedure for Moving Information
+### 21.B Test Procedure for Moving Information
 
-**Baseline Test ID:** 21.2-MovingInfo
+**Baseline Test ID:** 21.B-MovingInfo
 
 #### Identify Content
-<p id="2IC">Any moving, blinking, or scrolling information that meets ALL of the following:
+<p id="21bIC">Any moving, blinking, or scrolling information that meets ALL of the following:
     <ul>
     <li>Starts automatically, <strong>AND</strong></li>
     <li>Lasts more than 5 seconds, <strong>AND</strong></li>
@@ -78,17 +78,17 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 </p>
 
 #### Test Instructions
-<ol id="2TI">
-    <li id="2TI-1">Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]</li>
+<ol id="21bTI">
+    <li id="21bTI-1">Check that there is a mechanism for the user to pause, stop, or hide it [SC 2.2.2]</li>
 </ol>
 
 #### Test Results
-<p id="2TR">If the above check fails, then Baseline Test 21.2-MovingInfo fails.</p>
+<p id="21bTR">If the above check fails, then Baseline Test 21.B-MovingInfo fails.</p>
 
-### 21.3 Test Procedure for Auto-updating information
-**Baseline Test ID:** 21.3-AutoUpdate
+### 21.C Test Procedure for Auto-updating information
+**Baseline Test ID:** 21.C-AutoUpdate
 #### Identify Content
-<p id="3IC">Any auto-updating information that meets ALL of the following:
+<p id="21cIC">Any auto-updating information that meets ALL of the following:
     <ul>
 		<li>Starts automatically, <strong>AND</strong></li>
 		<li>Is presented in parallel with other content, <strong>AND</strong></li>
@@ -97,30 +97,30 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 </p>
 
 #### Test Instructions
-<ol id="3TI">
-    <li id="3TI-1">Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]</li>
+<ol id="21cTI">
+    <li id="21cTI-1">Check that there is a mechanism for the user to pause, stop, or hide it or to control the frequency of the update [SC 2.2.2]</li>
 </ol>
 
 #### Test Results
-<p id="3TR">If the above check fails, then Baseline Test 21.2-AutoUpdate fails.</p>
+<p id="21cTR">If the above check fails, then Baseline Test 21.B-AutoUpdate fails.</p>
 
-### 21.4 Test Procedure for Audio Control
+### 21.D Test Procedure for Audio Control
 
-**Baseline Test ID:** 21.4-AudioControl
+**Baseline Test ID:** 21.D-AudioControl
 #### Identify Content
-<p id="4IC">Audio that automatically plays for more than 3 seconds.</p>
+<p id="21dIC">Audio that automatically plays for more than 3 seconds.</p>
 
 #### Test Instructions
-<ol id="4TI">
-    <li id="4TI-1">Check that either [SC 1.4.2]
+<ol id="21dTI">
+    <li id="21dTI-1">Check that either [SC 1.4.2]
         <ol>
-        <li id="4TI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio that is independent of the overall system volume, <strong>OR</strong></li>
-        <li id="4TI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
+        <li id="21dTI-1i">a mechanism is available at the beginning of the page content or in platform accessibility features to pause or stop the audio that is independent of the overall system volume, <strong>OR</strong></li>
+        <li id="21dTI-1ii">a mechanism is available at the beginning of the page content or in platform accessibility features to control audio volume independently from the overall system volume level.</li>
         </ol></li>
 </ol>
 
 #### Test Results
-<p id="4TR">If the above check fails, then Baseline Test 21.4-AudioControl fails.</p>
+<p id="21dTR">If the above check fails, then Baseline Test 21.D-AudioControl fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 
