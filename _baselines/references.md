@@ -22,4 +22,4 @@ order-number: 102
 
 - [US Access Board Section 508 Defined Terms](https://www.access-board.gov/ict/#E103.4)
 
-- [WCAG 2.0 glossary](https://www.w3.org/TR/WCAG20/#glossary)
+- [WCAG 2.2 glossary](https://www.w3.org/TR/WCAG22/#glossary)
