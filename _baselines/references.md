@@ -14,7 +14,7 @@ order-number: 102
 
 - [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa&versions=2.0)
 
-- [Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/)
+- [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
 
 ### Glossary References
 
