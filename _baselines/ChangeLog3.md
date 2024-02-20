@@ -44,6 +44,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 22. Resize Text | Test instructions: included methods from F94; Techniques: added F94. |
 | 24. Parsing | Removed test instructions; per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 13, the parsing test always passes. |
 | Appendix A | Added Test Instructions with "check" and linked test instructions, sort function, links to Baselines and Test IDs. |
+| Appendix C - References | Updated links for WCAG to 2.2 |
 | Site home | Added single file of all Baseline Tests. | 
 
 ### Version 3.0.1, March 2021
