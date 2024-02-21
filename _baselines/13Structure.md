@@ -19,7 +19,8 @@ order-number: 14
 -   A page with only one heading on the page does not have a heading level structure and would not be tested for heading structure.
 -   Pages can have more than one heading level 1 or no heading level 1.
 -   The heading level 1 on a page is not required to match the page title.
--   The order of heading levels may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an `<h2>` heading may be used for a navigation structure that precedes an `<h1>` title on a page. Similarly, `<h1>` may be followed by `<h3>` without `<h2>` between them. 
+-   The order of heading levels may not always be in sequence but may be valid as it relates to the visual structure/importance communicated by visible headings on the page. For example, an `<h2>` heading may be used for a navigation structure that precedes an `<h1>` title on a page. Similarly, `<h1>` may be followed by `<h3>` without `<h2>` between them.
+-   [ARIA 1.2](https://www.w3.org/TR/wai-aria-1.2/#heading): To ensure elements with a role of heading are organized into a logical outline, authors must use the `aria-level` attribute to indicate the proper nesting level. (This is a change from [ARIA 1.1](https://www.w3.org/TR/wai-aria-1.1/#heading) where the default aria-level was 2.)
 -   Not all lists need markup. For instance, sentences that contain comma-separated lists may not need list markup ([H48: Using ol, ul and dl for lists or groups of links](https://www.w3.org/WAI/WCAG22/Techniques/html/H48)).
 -   A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques. 
 
@@ -52,7 +53,7 @@ order-number: 14
             <li id="13bTI-1c">HTML or ARIA programmatically identify each heading. When both are used, heading levels must match.
             <ol>
                 <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/html/H42" target="_blank" rel="noopener">H42</a>: each heading is marked with <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>.</li>
-                <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA12" target="_blank" rel="noopener">ARIA12</a>: each heading is marked with <code>role="heading"</code> and <code>aria-level="#"</code>. The default heading level is "2" when none is specified.</li>
+                <li><a href="https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA12" target="_blank" rel="noopener">ARIA12</a>: each heading is marked with <code>role="heading"</code> and <code>aria-level="#"</code>. </li>
             </ol></li>
         </ol></li>
 </ol>
