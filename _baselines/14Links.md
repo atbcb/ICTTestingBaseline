@@ -16,6 +16,8 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 ### Limitations, Assumptions, Exceptions
 
 -   [From Understanding SC 2.4.4](https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context): There may be situations where the purpose of the link is supposed to be unknown or obscured. For instance, a game may have links identified only as door \#1, door \#2, and door \#3. This link text would be sufficient because the purpose of the links is to create suspense for all users.
+-   [programmatically determined link context](https://www.w3.org/TR/WCAG22/#dfn-programmatically-determined-link-context) is additional information that can be programmatically determined from relationships with a link, combined with the link text, and presented to users in different modalities
+    - Example: In HTML, information that is programmatically determinable from a link in English includes text that is in the same paragraph, list, or table cell as the link or in a table header cell that is associated with the table cell that contains the link.
 -   The combination of an element's accessible name and accessible description is its text alternative.
 
 ### 14.A Test Procedure for Link Purpose (In Context)
@@ -27,14 +29,14 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 #### Test Instructions
 <ol id="14aTI">
     <li id="14aTI-1">Check that the combination of accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="14aTI-2">Check that the purpose of each link can be determined from any combination of the following [SC 2.4.4]:
+    <li id="14aTI-2">Check that the purpose of each link can be determined from the link and programmatically determined linked context [SC 2.4.4]:
     <ul>
        <li>the link text, </li>
        <li>the link's <a href="https://www.w3.org/TR/html-aam-1.0/#accessible-name-and-description-computation" target="_blank" rel="noopener">accessible name and accessible description</a>, </li>
-       <li>the same sentence, paragraph, list item, or table cell as the link, </li>
-       <li>the table header cell for a link in a data table.</li>
+       <li>text that is in the same paragraph, list, or table cell as the link, </li>
+       <li>the table header cell that is associated with the table cell that contains the link.</li>
    </ul>
-   These techniques may be used to provide context for the link. </li>
+    </li>
 </ol>
 
 #### Test Results
