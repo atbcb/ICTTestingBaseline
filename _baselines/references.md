@@ -12,7 +12,7 @@ order-number: 102
 
 - [HTML Accessibility API Mappings 1.0](https://w3c.github.io/html-aam/)
 
-- [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa&versions=2.0)
+- [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&versions=2.0&levels=aaa)
 
 - [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
 
