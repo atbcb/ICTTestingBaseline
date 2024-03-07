@@ -19,17 +19,17 @@ Users affected by this requirement are sighted and not limited to users of assis
 
 ### Limitations, Assumptions, or Exceptions
 
--   This requirement does not prohibit the use of color or sensory characteristics to provide information, directions, or cues. However, they must be used in conjunction with contextual, textual, and/or other visual cues.
--   Text Alternative descriptions that are not available visually would not pass these tests. 
--   The test for audible cues covers short sounds used to notify the user, such as confirmation beeps and error notifications. Audio in time-based media is covered in Baseline [16. Audio-only and Video-only](../16AudioVideo.md).
+-   SC 1.4.1 does not prohibit the use of color and can be met with another visual cue (e.g, color and shape). Text Alternative descriptions that are not available visually would not pass these tests.
 -   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), where color alone distinguishes between visited and unvisited links, it does not result in a failure of this Success Criterion. 
--   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), use of colors that differ in color (hue) and lightness with a contrast ratio of 3:1 or greater meet this requirement.
+-   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), use of colors that differ in color (hue) and lightness with a contrast ratio of 3:1 or greater meet this requirement. However, if content relies on the user's ability to accurately perceive or differentiate a particular color an additional visual indicator will be required regardless of the contrast ratio between those colors.
+-   SC 1.3.3 aplies to instructions and cannot be met by providing multiple sensory characteristics (e.g., color and shape).
+-   The test for audible cues covers short sounds used to notify the user, such as confirmation beeps and error notifications. Audio in time-based media is covered in Baseline [16. Audio-only and Video-only](../16AudioVideo.md).
 
 ### 7.A Test Procedure for Use of Color
 
 **Baseline Test ID:** 7.A-Color
 #### Identify Content
-<p id="7aIC">Content that relies on color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors. Exclude color of visited/unvisited links.</p>
+<p id="7aIC">Content that uses color to convey meaning, indicate an action, prompt a response, distinguish a visual element, or identify errors. Exclude colors of links that indicate visited or unvisited.</p>
 
 #### Test Instructions
 <ol id="7aTI">
@@ -47,7 +47,7 @@ Users affected by this requirement are sighted and not limited to users of assis
 ### 7.B Test Procedure for Sensory Characteristics
 **Baseline Test ID:** 7.B-SensoryCharacteristics
 #### Identify Content
-<p id="7bIC">Identify instructions for understanding and operating content that use sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.</p>
+<p id="7bIC">Identify instructions for understanding and operating content that rely on sensory information to convey information. This may include references to shape, size, visual location, orientation, or sound.</p>
 
 #### Test Instructions
 <ol id="7bTI">
@@ -59,7 +59,7 @@ Users affected by this requirement are sighted and not limited to users of assis
             <li>Select the lower-right "Cancel" button to close this session.</li>
         </ul>
     </li>
-    <li id="7bTI-2">Check that any auditory cues also provide programmatically determinable visual and/or textual cues. [SC 1.3.3].<br>
+    <li id="7bTI-2">Check that any auditory cues also provide programmatically determinable or textual cues. [SC 1.3.3].<br>
     For example:
         <ul>
             <li>At the sound of the beep and the appearance of the timer, begin the quiz.</li>
@@ -91,8 +91,7 @@ Users affected by this requirement are sighted and not limited to users of assis
 
 ### Advisory: Tips for streamlined test processes
 
--   Content that uses color must have an additional visual cue. Instructions that rely on a sensory characteristic must have an additional visual cue. It is possible to cover both requirements in a single test.
--   Related tests might include dynamic content, images, links, and alternate pages.
+-   Content that uses color must have an additional visual cue. Instructions that rely on a sensory characteristic must have a non-sensory cue. 
 -   Displaying content in greyscale may help identify content that uses only color to convey information.
 
 ### WCAG 2.2 Techniques
