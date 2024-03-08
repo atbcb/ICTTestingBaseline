@@ -29,6 +29,42 @@ When `<table>` elements are used for layout purposes, data table structure ele
 <p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 
 #### Test Instructions
+<ol>
+    <li>Identify the technique used to identify a data cell in the table as a programmatic cell:
+        <ol>
+            <li>HTML <code>&lt;td&gt;</code></li>
+            <li>ARIA <code>role="cell"</code></li>
+            <li>ARIA <code>role="gridcell"</code></li>
+        </ol>
+    </li>
+    <li>Use the technique identified in the previous instruction for the following tests. For example, if HTML is used, perform only the checks for HTML in the following instructions. If more than one technique is used, select one and perform the remaining tests using only that selection.  It may be necessary to repeat with the other technique(s).</li>
+    <li>Check that the table is programatically structured correctly [1.3.1]:
+        <ol>
+            <li>Each HTML <code>&lt;td&gt;</code> cell is a child of an HTML row <code>&lt;tr&gt;</code>, which is a child of an HTML <code>&lt;table&gt;</code>. </li>
+            <li>Each ARIA <code>role="cell"</code> is a child of an element with ARIA <code>role="row"</code>, which is a child of an element with ARIA <code>role="grid"</code>, <code>role="table"</code>, or <code>role="treegrid"</code>.</li>
+            <li>Each ARIA <code>role="gridcell"</code> is a child of an element with ARIA <code>role="row"</code>, which is a child of an element with ARIA <code>role="grid"</code>, <code>role="table"</code>, or <code>role="treegrid"</code>.</li>
+        </ol>
+    </li>
+    <li>Identify the headers for each data cell. Check each header cell is programmatically identified as a row header or column header [1.3.1]:
+        <ol>
+            <li>Each HTML table header is a <code>&lt;th&gt;</code> which is a child of an HTML row <code>&lt;tr&gt;</code>.</li>
+            <li>The ARIA <code>role="cell"</code> is a child of an element with ARIA <code>role="row"</code>, which is a child of an element with ARIA <code>role="grid"</code>, <code>role="table"</code>, or <code>role="treegrid"</code>.</li>
+            <li>The ARIA <code>role="gridcell"</code> is a child of an element with ARIA <code>role="row"</code>, which is a child of an element with ARIA <code>role="grid"</code>, <code>role="table"</code>, or <code>role="treegrid"</code>.</li>
+        </ol>
+    </li>
+    <li>Check each data cell is associated to its correct header cell(s)
+        <ol>
+            <li>HTML <code>&lt;td&gt;</code></li>
+            <li>ARIA <code>role="cell"</code></li>
+            <li>ARIA <code>role="gridcell"</code></li>
+            <li>If more than one techniques is used, select one and perform the remaining tests using that selection. It may be necessary to repeat with the other technique(s).</li>
+        </ol>
+    </li>
+
+</ol>
+
+
+
 <ol id="12aTI">
     <li id="12aTI-1">Table: Check that each data table has programmatic markup to identify it as a table using one of the following techniques [SC 1.3.1]:
         <ul>
