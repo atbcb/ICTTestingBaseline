@@ -40,6 +40,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 18. CSS Content and Positioning | Renamed to CSS Positioning; Accessibility Requirements: removed SC 1.1.1 and 1.3.1. |
 | 18.A Meaningful Background Image | Removed; CSS background images are covered under 6.B Images with empty text alternative. |
 | 19.A Frames | Instruction 1: separated to 2 test instructions. |
+| 19.B iFrames | Instructions added for <code>role="presentation"</code>, <code>role="none"</code>, and <code>aria-hidden="true"</code>. |
 | 20.A Conforming Alternate Version | Test instructions: added check that content indicates that a conforming alternate version is available. |
 | 22. Resize Text | Test instructions: included methods from F94; Techniques: added F94. |
 | 24. Parsing | Removed test instructions; per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 13, the parsing test always passes. |
