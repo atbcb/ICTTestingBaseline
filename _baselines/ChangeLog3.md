@@ -20,7 +20,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 6. Images | Limitations, Assumptions, Exceptions: removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
 | 6. Images | Test Method Rationale: added "The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. However, there are certain scenarios as described in the tests where the author's determination would be incorrect." |
 | 6.A, 6.B | Test Procedures defer to author to determine meaningful or decorative images, W3C Image Tutorials added under WCAG Techniques section. |
-| 7. Sensory Characteristics | Accessibility Requirements: SC 1.3.3 added "color" to the list of sensory characterstics per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 12; Advisory: corrected first bullet to remove "must also provide textual cues." |
+| 7. Sensory Characteristics | Accessibility Requirements: SC 1.3.3 added "color" to the list of sensory characterstics per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 12; clarifications added to Assumptions for both SCs; Updated Advisory to remove suggestion to combine tests  |
 | 7.A Use of Color | Added test for use of color that have a contrast ratio of 3.A or greater; Identify Content: color of visited/unvisited links excluded. |
 | 7.C Audible Cues | Added new test which maps to SC 1.1.1. |
 | 8. Contrast | Accessibiilty Requirements: SC 1.4.3 removed "minimum" from Logotypes requirement per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 3. | 
@@ -40,6 +40,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 18. CSS Content and Positioning | Renamed to CSS Positioning; Accessibility Requirements: removed SC 1.1.1 and 1.3.1. |
 | 18.A Meaningful Background Image | Removed; CSS background images are covered under 6.B Images with empty text alternative. |
 | 19.A Frames | Instruction 1: separated to 2 test instructions. |
+| 19.B iFrames | Instructions added for <code>role="presentation"</code>, <code>role="none"</code>, and <code>aria-hidden="true"</code>. |
 | 20.A Conforming Alternate Version | Test instructions: added check that content indicates that a conforming alternate version is available. |
 | 22. Resize Text | Test instructions: included methods from F94; Techniques: added F94. |
 | 24. Parsing | Removed test instructions; per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 13, the parsing test always passes. |

@@ -15,6 +15,8 @@ While users with vision can recognize the structure presented by frames and ifra
 
 -   In HTML5 the `<frame>` element is marked as obsolete. The `<iframe>` element remains part of the HTML5 specification. While the `<frame>` element has been deprecated in HTML5, testers may still encounter web pages and/or web applications with code that, while outdated, can and should still be accessible.
 -   The combination of accessible name and accessible description of an `<iframe>` is its text alternative.
+-   The [Fourth Rule of ARIA Use](https://www.w3.org/TR/using-aria/#4thrule) states "do not use <code>role="presentation"</code> or <code>aria-hidden="true"</code> on a focusable element. Using either of these on a focusable element will result in some users focusing on 'nothing'."
+-   The [Fifth Rule of ARIA Use](https://www.w3.org/TR/using-aria/#fifthrule) states "all interactive elements must have an accessible name."
 
 ### 19.A Test Procedure for Frames
 
@@ -26,7 +28,7 @@ While users with vision can recognize the structure presented by frames and ifra
 ##### Test Instructions
 <ol id="19aTI">
     <li id="19aTI-1">Check that each <code>&lt;frame&gt;</code> has a title attribute that is not empty. [SC 4.1.2]</li>
-    <li id="19aTI-1">Check the title attribute describes the frame's content. [SC 4.1.2]</li>
+    <li id="19aTI-1">Check that the title attribute describes the frame's content. [SC 4.1.2]</li>
 </ol>
 
 ##### Test Results
@@ -37,12 +39,15 @@ While users with vision can recognize the structure presented by frames and ifra
 **Baseline Test ID:** 19.B-iFrameName
 
 ##### Identify Content
-<p id="19bIC">iFrames</p>
+<p id="19bIC">iFrames in the keyboard focus order</p>
 
 ##### Test Instructions
 <ol id="19bTI">
-    <li id="19bTI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
-    <li id="19bTI-2">Check that the non-empty combination of <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element-accessible-name-computation" target="_blank" rel="noopener">accessible name and description</a> for each <code>&lt;iframe&gt;</code> describes its content. [SC 4.1.2]</li>
+    <li id="19bTI-1">Check that the combination of the accessible name and accessible description for each iframe is not empty. [SC 4.1.2]</li>
+    <li id="19bTI-2">Check that the non-empty combination of <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element-accessible-name-computation" target="_blank" rel="noopener">accessible name and description</a> for each iframe describes its content. [SC 4.1.2]</li>
+    <li id="19bTI-3">Check that the ARIA role is not "presentation". [SC 4.1.2]</li>
+    <li id="19bTI-4">Check that the ARIA role is not "none". [SC 4.1.2]</li>
+    <li id="19bTI-5">Check that the <code>aria-hidden</code> state is not "true". [SC 4.1.2]</li>
 </ol>
 
 ##### Test Results
