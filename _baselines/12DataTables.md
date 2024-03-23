@@ -32,7 +32,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
 #### Test Instructions
 <ol id="12aTI">
     <li>In the following instructions, where an ARIA role is identified, it is the first valid ARIA role attribute value.</li>
-    <li id="12aTI-1">Table: Check the data table has programmatic role of table using one of the following techniques. If more than one technique is used, select one and perform the remaining tests using that selection. [SC 1.3.1]:
+    <li id="12aTI-1">Table: Check the data table has programmatic role of table using one of the following techniques. If more than one technique is used, select one and perform the remaining tests using that selection. [SC 4.1.2]:
         <ul>
             <li>HTML <code>&lt;table&gt;</code> that does not have a role attribute that changes its role from table, such as <code>role="presentation"</code> or <code>role="none"</code></li>
             <li>ARIA <code>role="table"</code></li>
@@ -40,7 +40,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
             <li>ARIA <code>role="treegrid"</code></li>
         </ul>
     </li>
-    <li id="12aTI-2">Table data cell: For the technique used, check that each data cell is programmatically assigned a role of cell and within a row [SC 1.3.1]:
+    <li id="12aTI-2">Table data cell: For the technique used, check that each data cell is programmatically assigned a role of cell and within a row [SC 4.1.2]:
         <ul>
             <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;td&gt;</code> cell must be within a <code>&lt;tr&gt;</code> row.</li>
             <li>For ARIA <code>role="table"</code>: the data cell element with <code>role="cell"</code> must be within an element with <code>role="row"</code>.</li>
@@ -83,7 +83,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
 
 #### Test Instructions
 <ol id="12bTI">
-    <li id="12bTI-1">Check that the table used purely for layout purposes [SC 1.3.1]:
+    <li id="12bTI-1">Check that the table used purely for layout purposes [SC 4.1.2]:
         <ol>
             <li id="12bTI-1i">Does <strong>NOT</strong> designate the layout as a table using ARIA role="table" and associated ARIA table attributes.</li>
             <li id="12bTI-1ii">Does <strong>NOT</strong> include HTML table heading elements and/or associated attributes (e.g, <code>&lt;th&gt;</code>, summary, <code>&lt;caption&gt;</code>, <code>scope</code>, and/or <code>headers</code>) <strong>UNLESS</strong> at least one of the following is true:
