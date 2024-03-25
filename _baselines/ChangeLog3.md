@@ -28,6 +28,9 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 10.A, 10.B, 10.E | Identify Content: Added "that do not have <code>visibility:hidden</code> or <code>display:none</code>" after "Find all form components". | 
 | 10.E Form has a Label | Changed Test Procedure name to "Form has a Visible Label" and edited instruction 1 to include "has visible label(s) or instructions while the form component has focus."; Identify Content: narrowed to data entry form controls. |
 | 10. Forms | Removed Test Procedure for Form Changes. |
+| 12. Tables | Added Accessibility Requirement WCAG SC 4.1.2 |
+| 12.A Data Tables Roles | Updated to test for SC 4.1.2 data table element roles |
+| 12.C Data Table Header Association | New, separate test for SC 1.3.1 |
 | 13. Content Structure | Limitations, Assumptions, Exceptions: added "A test for Visually Apparent Lists should not include navigation menus. While programmatic lists are often used to create navigation menus, menus may also be created using other techniques." |
 | 13.D Visually Apparent Lists | Moved HTML code from Identify Content to Test Instructions, added description of visual list, added more detail to test instructions. |
 | 14.A Link Purpose (in context) | Test instructions: specified context as in the same sentence, paragraph, list item, or table cell as the link, or in the table header cell for a link in a data table, because these are directly associated with the link itself. |

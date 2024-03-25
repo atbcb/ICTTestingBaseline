@@ -20,10 +20,11 @@ When `<table>` elements are used for layout purposes, data table structure ele
 -   Data tables are those tables where information in a cell requires a row or column header to adequately describe the cell's contents. If a table is used for placement of components on the page for visual aesthetics, then it is considered a layout table.
 -   Some content may visually appear to require a data table structure, but, linearizing the content and/or viewing the code reveals that the content is understandable without the table. This technique may be used for responsive design. These elements use CSS and/or other styling methods to present content in columns or rows. The information conveyed does not rely on programmatic relationships between column or row headers to be understood. This content is not a data table and should not use the element, ARIA role="table", and associated programmatic table attributes. It should be tested using other baseline tests, such as [13.Structure](../13Structure/) and/or possibly [10. Forms (associated instructions)](../10Forms/).
 -   Rows of data that are related must have a row header so assistive technology users can understand the relationship of the row's data cells. Not every table requires a row header. For example, a calendar month is a data table, typically with the days of the week as column headers. The dates in a row are not related so typically, there is no row header present. However, if there was a cell in each row to indicate the week of the year, this cell would serve as a row header for the dates within that row.
+-   In the Baseline Test instructions, where an ARIA role is identified, it is the first valid ARIA role attribute value.
 
-### 12.A Test Procedure for Data Tables
+### 12.A Test Procedure for Data Table Roles
+**Baseline Test ID:** 12.A-DataTableRole
 
-**Baseline Test ID:** 12.A-DataTable
 #### Identify Content
 <p id="12aIC">Content/data that is visually presented in a table, arranged in rows and columns, where the content is not in a meaningful sequence when linearized.</p>
 
@@ -31,10 +32,9 @@ When `<table>` elements are used for layout purposes, data table structure ele
 
 #### Test Instructions
 <ol id="12aTI">
-    <li>In the following instructions, where an ARIA role is identified, it is the first valid ARIA role attribute value.</li>
     <li id="12aTI-1">Table: Check the data table has programmatic role of table using one of the following techniques. If more than one technique is used, select one and perform the remaining tests using that selection. [SC 4.1.2]:
         <ul>
-            <li>HTML <code>&lt;table&gt;</code> that does not have a role attribute that changes its role from table, such as <code>role="presentation"</code> or <code>role="none"</code></li>
+            <li>HTML <code>&lt;table&gt;</code> that does not have a role attribute that changes its role from table, such as <code>role="presentation"</code> or <code>role="none"</code>.</li>
             <li>ARIA <code>role="table"</code></li>
             <li>ARIA <code>role="grid"</code></li>
             <li>ARIA <code>role="treegrid"</code></li>
@@ -44,38 +44,23 @@ When `<table>` elements are used for layout purposes, data table structure ele
         <ul>
             <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;td&gt;</code> cell must be within a <code>&lt;tr&gt;</code> row.</li>
             <li>For ARIA <code>role="table"</code>: the data cell element with <code>role="cell"</code> must be within an element with <code>role="row"</code>.</li>
-            <li>For ARIA <code>role="grid"</code>: the data cell element with <code>role="gridcell"</code> is within an element with <code>role="row"</code></li>
-            <li>For ARIA <code>role="treegrid"</code>: the data cell element with <code>role="gridcell"</code> is within an element with <code>role="row"</code></li>
+            <li>For ARIA <code>role="grid"</code> or ARIA <code>role="treegrid"</code>: the data cell element with <code>role="gridcell"</code> is within an element with <code>role="row"</code>.</li>
         </ul>
     </li>
-    <li id="12aTI-4">Data cell to header(s) association: Identify all column and row headers for each data cell. Check that data cells are programmatically associated with programmatically identified headers for the technique used [SC 1.3.1]:
-    <ul>
-        <li>For a simple HTML <code>&lt;table&gt;</code>, with headers only in the first row or column that apply to all data cells in the same row or column, each header cell may be marked up with <code>&lt;th&gt;</code>. Each <code>&lt;th&gt;</code> is within a <code>&lt;tr&gt;</code> row.</li>
-        <li>For any HTML <code>&lt;table&gt;</code>, a header cell may be marked up with <code>&lt;th scope="col|row|colgroup|rowgroup"&gt;</code> where the data cells the headers apply to are in the same column, row, column group, or row group, respectively. Each <code>&lt;th&gt;</code> is within a <code>&lt;tr&gt;</code> row. 
-            <ul>
-                <li>In HTML4, <code>&lt;td scope&gt;</code> is supported.</li>
-                <li>In HTML5, <code>&lt;td scope&gt;</code> is not supported so all header cells must be <code>&lt;th&gt;</code>. </li>
-                <li>The <code>scope</code> only applies to cells that occur after the header cell(s) in the reading order.</li>
-            </ul>
-        </li>
-        <li>For any HTML <code>&lt;table&gt;</code>, each <code>&lt;td&gt;</code> data cell may be associated to header cell(s) with <code>&lt;td headers&gt;</code>:
-            <ul>
-                <li>Data cells with the <code>headers</code> attribute must refer to the <code>ID</code>(s) of all relevant header cells for programmatic association.</li>
-                <li>The order of the IDs referenced in the headers attribute for data cells must be within the same <code>&lt;table&gt;</code> in a consistent and meaningful sequence.</li>
-            </ul>
-        </li>
-        <li>For any HTML <code>&lt;table&gt;</code> that has <strong>BOTH</strong> <code>scope</code> <strong>AND</strong> <code>headers</code> attributes in the same table, a data cell with a <code>headers</code> reference will override any <code>scope</code> attributes for associated table headers for that particular data cell. Therefore, data cells with a <code>headers</code> reference must identify all relevant headers because <code>scope</code> attributes will not be considered.</li>
-        <li>For ARIA <code>role="table"</code>, <code>role="grid"</code>, or <code>role="gridtree"</code>: each column header element must have <code>role="columnheader"</code> and each row header element must have <code>role="rowheader"</code>.Each must be within an element with <code>role="row"</code></li>
-        </li>
-    </ul>
+    <li id="12aTI-3">Table header cell: For the technique used, check that each header cell is programmatically assigned a role of header and within a row [SC 4.1.2]:
+        <ul>
+            <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;th&gt;</code> header must be within a <code>&lt;tr&gt;</code> row.</li>
+            <li>For an ARIA <code>role="table"</code>, ARIA <code>role="grid"</code> or <code>role="gridtree"</code>: each element with <code>role="columnheader"</code> or <code>role="rowheader"</code> must be within an element with <code>role="row"</code>.</li>
+        </ul>
+    </li>
 </ol>
 
 #### Test Results
-<p id="12aTR">If any of the above tests fail, Baseline Test 12.A-DataTable fails.</p>
+<p id="12aTR">If any of the above tests fail, Baseline Test 12.A-DataTableRole fails.</p>
 
 ### 12.B Test Procedure for Layout Tables
-
 **Baseline Test ID:** 12.B-LayoutTable
+
 #### Identify Content
 <p id="12bIC">All content/data visually presented in a table that retains any meanigful sequence when linearized.</p>
 
@@ -91,16 +76,50 @@ When `<table>` elements are used for layout purposes, data table structure ele
                 <li id="12bTI-1iia">the HTML <code>&lt;table&gt;</code> has <code>role="presentation"</code></li>
                 <li id="12bTI-1iib">the HTML <code>&lt;table&gt;</code> has <code>role="none"</code></li>
             </ol></li>
-            <li id="12bTI-1iii">Does <strong>NOT</strong> have any elements with <code>role="columnheader"</code> or <code>role="rowheader"</code>. Because these roles are explicit, applying <code>role="presentation"</code> or <code>role="none"</code> to a parent element would not be inherited (per <a href="https://www.w3.org/TR/wai-aria-1.3/#conflict_resolution_presentation_none">Presentational Roles Conflict Resolution</a> "If an allowed child element has an explicit non-presentational role, user agents MUST ignore an inherited presentational role and expose the element with its explicit role".)</li>
-        </ol></li>
+            <li id="12bTI-1iii">Does <strong>NOT</strong> have any elements with <code>role="columnheader"</code> or <code>role="rowheader"</code>. Because these roles are explicit, applying <code>role="presentation"</code> or <code>role="none"</code> to a parent element would not be inherited (per <a href="https://www.w3.org/TR/wai-aria-1.3/#conflict_resolution_presentation_none">Presentational Roles Conflict Resolution</a>, "If an allowed child element has an explicit non-presentational role, user agents MUST ignore an inherited presentational role and expose the element with its explicit role".)</li>
+        </ol>
+    </li>
 </ol>
 
 #### Test Results
 <p id="12bTR">If any of the above tests fail, Baseline Test 12.B-LayoutTable fails.</p>
 
+### 12.C Test Procedure for Data Table Header Association
+**Baseline Test ID:** 12.C-DataTableHeaderAssociation
+
+#### Identify Content
+<p id="12cIC">For any data table identified in 12.A, identify all column and row headers for each data cell.</p>
+
+<ol>
+    <li id="12cTI-1">Data cell to header(s) association: Use the programmatic technique (HTML or ARIA) identified in 12.A. Check that data cells are programmatically associated with its headers [SC 1.3.1]:
+        <ul>
+            <li>For a simple HTML <code>&lt;table&gt;</code> only: with column headers only in the first row that apply to all data cells in the same column and row headers only in the first column that apply to all data cells in the same row, each header cell may be marked up with <code>&lt;th&gt;</code> without additional attributes.</li>
+            <li>For any HTML <code>&lt;table&gt;</code>: a header cell may be marked up with <code>&lt;th scope="col|row|colgroup|rowgroup"&gt;</code> where the data cells that the headers apply to are in the same column, row, column group, or row group, respectively.  
+                <ul>
+                    <li>In HTML4, <code>&lt;td scope&gt;</code> is supported.</li>
+                    <li>In HTML5, <code>&lt;td scope&gt;</code> is not supported so all header cells must be <code>&lt;th&gt;</code>. </li>
+                    <li>The <code>scope</code> only applies to cells that occur after the header cell(s) in the reading order.</li>
+                </ul>
+            </li>
+            <li>For any HTML <code>&lt;table&gt;</code>: each <code>&lt;td&gt;</code> data cell may be associated to header cell(s) with <code>&lt;td headers&gt;</code>:
+                <ul>
+                    <li>Data cells with the <code>headers</code> attribute must refer to the <code>ID</code>(s) of all relevant header cells for programmatic association.</li>
+                    <li>The IDs referenced in the <code>headers</code> attribute for data cells must be to elements within the same <code>&lt;table&gt;</code> and in a consistent sequence.</li>
+                </ul>
+            </li>
+            <li>For any HTML <code>&lt;table&gt;</code> that has <strong>BOTH</strong> <code>scope</code> <strong>AND</strong> <code>headers</code> attributes in the same table: a data cell with a <code>headers</code> reference will override any <code>scope</code> attributes for that particular data cell. Therefore, data cells with a <code>headers</code> reference must identify all relevant headers.</li>
+            <li>For an ARIA <code>role="table"</code>, <code>role="grid"</code>, or <code>role="gridtree"</code>: each column header element must have <code>role="columnheader"</code> and each row header element must have <code>role="rowheader"</code>.</li>
+        </ul>
+    </li>
+</ol>
+
+#### Test Results
+<p id="12cTR">If any of the above tests fail, Baseline Test 12.C-DataTableHeaderAssociation fails.</p>
+
 ### Advisory: Tips for streamlined test processes
 
-Content that is presented with a CSS table appearance, but does not rely on header association, can most easily be identified by linearization. Another helpful indicator is the table only has row headers or column headers but not both.
+- Content that is presented with a CSS table appearance, but does not rely on header association, can most easily be identified by linearization. Another helpful indicator is the table only has row headers or column headers but not both.
+- Baseline Tests 12.A and 12.C should be performed for each data table.
 
 ### WCAG 2.2 Techniques
 
