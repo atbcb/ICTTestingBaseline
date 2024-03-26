@@ -58,63 +58,64 @@ When `<table>` elements are used for layout purposes, data table structure ele
 #### Test Results
 <p id="12aTR">If any of the above tests fail, Baseline Test 12.A-DataTableRole fails.</p>
 
-### 12.B Test Procedure for Layout Tables
-**Baseline Test ID:** 12.B-LayoutTable
+### 12.B Test Procedure for Data Table Header Association
+**Baseline Test ID:** 12.B-DataTableHeaderAssociation
 
 #### Identify Content
-<p id="12bIC">All content/data visually presented in a table that retains any meanigful sequence when linearized.</p>
-
-<p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
-
-#### Test Instructions
-<ol id="12bTI">
-    <li id="12bTI-1">Check that the table used purely for layout purposes [SC 4.1.2]:
-        <ol>
-            <li id="12bTI-1i">Does <strong>NOT</strong> designate the layout as a table using ARIA role="table" and associated ARIA table attributes.</li>
-            <li id="12bTI-1ii">Does <strong>NOT</strong> include HTML table heading elements and/or associated attributes (e.g, <code>&lt;th&gt;</code>, summary, <code>&lt;caption&gt;</code>, <code>scope</code>, and/or <code>headers</code>) <strong>UNLESS</strong> at least one of the following is true:
-            <ol>
-                <li id="12bTI-1iia">the HTML <code>&lt;table&gt;</code> has <code>role="presentation"</code></li>
-                <li id="12bTI-1iib">the HTML <code>&lt;table&gt;</code> has <code>role="none"</code></li>
-            </ol></li>
-            <li id="12bTI-1iii">Does <strong>NOT</strong> have any elements with <code>role="columnheader"</code> or <code>role="rowheader"</code>. Because these roles are explicit, applying <code>role="presentation"</code> or <code>role="none"</code> to a parent element would not be inherited (per <a href="https://www.w3.org/TR/wai-aria-1.3/#conflict_resolution_presentation_none">Presentational Roles Conflict Resolution</a>, "If an allowed child element has an explicit non-presentational role, user agents MUST ignore an inherited presentational role and expose the element with its explicit role".)</li>
-        </ol>
-    </li>
-</ol>
-
-#### Test Results
-<p id="12bTR">If any of the above tests fail, Baseline Test 12.B-LayoutTable fails.</p>
-
-### 12.C Test Procedure for Data Table Header Association
-**Baseline Test ID:** 12.C-DataTableHeaderAssociation
-
-#### Identify Content
-<p id="12cIC">For any data table identified in 12.A, identify all column and row headers for each data cell.</p>
+<p id="12bIC">For any data table identified in 12.A, identify all column and row headers for each data cell.</p>
 
 <ol>
-    <li id="12cTI-1">Data cell to header(s) association: Use the programmatic technique (HTML or ARIA) identified in 12.A. Check that data cells are programmatically associated with its headers [SC 1.3.1]:
+    <li id="12bTI-1">Data cell to header(s) association: Use the programmatic technique (HTML or ARIA) identified in 12.A. Check that data cells are programmatically associated with its headers [SC 1.3.1]:
         <ul>
-            <li>For a simple HTML <code>&lt;table&gt;</code> only: with column headers only in the first row that apply to all data cells in the same column and row headers only in the first column that apply to all data cells in the same row, each header cell may be marked up with <code>&lt;th&gt;</code> without additional attributes.</li>
-            <li>For any HTML <code>&lt;table&gt;</code>: a header cell may be marked up with <code>&lt;th scope="col|row|colgroup|rowgroup"&gt;</code> where the data cells that the headers apply to are in the same column, row, column group, or row group, respectively.  
+            <li id="12bTI-1a">For a simple HTML <code>&lt;table&gt;</code> only: with column headers only in the first row that apply to all data cells in the same column and row headers only in the first column that apply to all data cells in the same row, each header cell may be marked up with <code>&lt;th&gt;</code> without additional attributes.</li>
+            <li id="12bTI-1b">For any HTML <code>&lt;table&gt;</code>: a header cell may be marked up with <code>&lt;th scope="col|row|colgroup|rowgroup"&gt;</code> where the data cells that the headers apply to are in the same column, row, column group, or row group, respectively.  
                 <ul>
                     <li>In HTML4, <code>&lt;td scope&gt;</code> is supported.</li>
                     <li>In HTML5, <code>&lt;td scope&gt;</code> is not supported so all header cells must be <code>&lt;th&gt;</code>. </li>
                     <li>The <code>scope</code> only applies to cells that occur after the header cell(s) in the reading order.</li>
                 </ul>
             </li>
-            <li>For any HTML <code>&lt;table&gt;</code>: each <code>&lt;td&gt;</code> data cell may be associated to header cell(s) with <code>&lt;td headers&gt;</code>:
+            <li id="12bTI-1c">For any HTML <code>&lt;table&gt;</code>: each <code>&lt;td&gt;</code> data cell may be associated to header cell(s) with <code>&lt;td headers&gt;</code>:
                 <ul>
                     <li>Data cells with the <code>headers</code> attribute must refer to the <code>ID</code>(s) of all relevant header cells for programmatic association.</li>
                     <li>The IDs referenced in the <code>headers</code> attribute for data cells must be to elements within the same <code>&lt;table&gt;</code> and in a consistent sequence.</li>
                 </ul>
             </li>
-            <li>For any HTML <code>&lt;table&gt;</code> that has <strong>BOTH</strong> <code>scope</code> <strong>AND</strong> <code>headers</code> attributes in the same table: a data cell with a <code>headers</code> reference will override any <code>scope</code> attributes for that particular data cell. Therefore, data cells with a <code>headers</code> reference must identify all relevant headers.</li>
-            <li>For an ARIA <code>role="table"</code>, <code>role="grid"</code>, or <code>role="gridtree"</code>: each column header element must have <code>role="columnheader"</code> and each row header element must have <code>role="rowheader"</code>.</li>
+            <li id="12bTI-1d">For any HTML <code>&lt;table&gt;</code> that has <strong>BOTH</strong> <code>scope</code> <strong>AND</strong> <code>headers</code> attributes in the same table: a data cell with a <code>headers</code> reference will override any <code>scope</code> attributes for that particular data cell. Therefore, data cells with a <code>headers</code> reference must identify all relevant headers.</li>
+            <li id="12bTI-1e">For an ARIA <code>role="table"</code>, <code>role="grid"</code>, or <code>role="gridtree"</code>: each column header element must have <code>role="columnheader"</code> and each row header element must have <code>role="rowheader"</code>.</li>
         </ul>
     </li>
 </ol>
 
 #### Test Results
-<p id="12cTR">If any of the above tests fail, Baseline Test 12.C-DataTableHeaderAssociation fails.</p>
+<p id="12bTR">If any of the above tests fail, Baseline Test 12.B-DataTableHeaderAssociation fails.</p>
+
+### 12.C Test Procedure for Layout Tables
+**Baseline Test ID:** 12.C-LayoutTable
+
+#### Identify Content
+<p id="12cIC">All content/data visually presented in a table that retains any meanigful sequence when linearized.</p>
+
+<p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
+
+#### Test Instructions
+<ol id="12cTI">
+    <li id="12cTI-1">Check that the table used purely for layout purposes [SC 4.1.2]:
+        <ol>
+            <li id="12cTI-1a">Does <strong>NOT</strong> designate the layout as a table using ARIA role="table" and associated ARIA table attributes.</li>
+            <li id="12cTI-1b">Does <strong>NOT</strong> include HTML table heading elements and/or associated attributes (e.g, <code>&lt;th&gt;</code>, summary, <code>&lt;caption&gt;</code>, <code>scope</code>, and/or <code>headers</code>) <strong>UNLESS</strong> at least one of the following is true:
+            <ol>
+                <li id="12cTI-1bi">the HTML <code>&lt;table&gt;</code> has <code>role="presentation"</code></li>
+                <li id="12cTI-1bii">the HTML <code>&lt;table&gt;</code> has <code>role="none"</code></li>
+            </ol></li>
+            <li id="12cTI-1c">Does <strong>NOT</strong> have any elements with <code>role="columnheader"</code> or <code>role="rowheader"</code>. Because these roles are explicit, applying <code>role="presentation"</code> or <code>role="none"</code> to a parent element would not be inherited (per <a href="https://www.w3.org/TR/wai-aria-1.3/#conflict_resolution_presentation_none">Presentational Roles Conflict Resolution</a>, "If an allowed child element has an explicit non-presentational role, user agents MUST ignore an inherited presentational role and expose the element with its explicit role".)</li>
+        </ol>
+    </li>
+</ol>
+
+#### Test Results
+<p id="12cTR">If any of the above tests fail, Baseline Test 12.C-LayoutTable fails.</p>
+
 
 ### Advisory: Tips for streamlined test processes
 
