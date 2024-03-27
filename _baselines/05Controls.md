@@ -12,7 +12,7 @@ order-number: 6
 
 The purpose of this Baseline test is to check the following accessibility properties of user controls:
 -   Name
--   Role (test not yet available) 
+-   Role
 -   State 
 -   Value
 
