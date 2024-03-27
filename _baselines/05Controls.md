@@ -76,7 +76,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 #### Test Results
 
-<p id="5bTR">If any of the above checks fail, then Baseline Test 5.2-ControlState fails.</p>
+<p id="5bTR">If any of the above checks fail, then Baseline Test 5.B-ControlRole fails.</p>
 
 ### 5.C Test Procedure for Control State
 
@@ -98,7 +98,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 #### Test Results
 
-<p id="5cTR">If any of the above checks fail, then Baseline Test 5.2-ControlState fails.</p>
+<p id="5cTR">If any of the above checks fail, then Baseline Test 5.C-ControlState fails.</p>
 
 ### 5.D Test Procedure for Control Value
 
@@ -115,7 +115,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 #### Test Results
 
-<p id="5dTR">If any of the above checks fail, then Baseline Test 5.3-ControlValue fails.</p>
+<p id="5dTR">If any of the above checks fail, then Baseline Test 5.D-ControlValue fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 
