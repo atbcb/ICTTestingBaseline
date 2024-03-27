@@ -126,6 +126,7 @@ Note: If the image does not have any of these attributes, this would be a failur
 
 
 ### Advisory: Tips for streamlined test processes
+- None
 
 ### WCAG 2.2 Techniques
 

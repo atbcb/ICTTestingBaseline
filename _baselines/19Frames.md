@@ -54,6 +54,7 @@ While users with vision can recognize the structure presented by frames and ifra
 <p id="19bTR">If any of the above checks fail, then Baseline Test 19.B-iFrameName fails.</p>
 
 ### Advisory: Tips for streamlined test processes
+- None
 
 ### WCAG 2.0 Techniques
 
