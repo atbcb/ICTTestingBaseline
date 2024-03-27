@@ -69,7 +69,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 <ol id="5bcTI">
 	<li id="5bTI-1">Check that the role of the user control is valid and appropriate for its function. [SC 4.1.2]
 		<ul>
-			<li>Only the roles listed in [Accessible Rich Internet Applications (WAI-ARIA) 1.3, Section 5.3.2 Widget Roles](https://www.w3.org/TR/wai-aria-1.3/#widget_roles) are valid for user controls.</li>
+			<li>Only the roles listed in <a href="https://www.w3.org/TR/wai-aria-1.3/#widget_roles">Accessible Rich Internet Applications (WAI-ARIA) 1.3, Section 5.3.2 Widget Roles</a> are valid for user controls.</li>
 		</ul>
 	</li>
 </ol>
