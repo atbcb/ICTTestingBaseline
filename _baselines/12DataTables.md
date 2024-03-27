@@ -49,8 +49,8 @@ When `<table>` elements are used for layout purposes, data table structure ele
     </li>
     <li id="12aTI-3">Table header cell: For the technique used, check that each header cell is programmatically assigned a role of header and within a parent row element [SC 4.1.2]:
         <ul>
-            <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;th&gt;</code> header must be within a <code>&lt;tr&gt;</code> row.</li>
-            <li>For an ARIA <code>role="table"</code>, ARIA <code>role="grid"</code> or <code>role="gridtree"</code>: each element with <code>role="columnheader"</code> or <code>role="rowheader"</code> must be within an element with <code>role="row"</code>.</li>
+            <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;th&gt;</code> header must be within a parent <code>&lt;tr&gt;</code> row element.</li>
+            <li>For an ARIA <code>role="table"</code>, ARIA <code>role="grid"</code> or <code>role="gridtree"</code>: each element with <code>role="columnheader"</code> or <code>role="rowheader"</code> must be within a parent element with <code>role="row"</code>.</li>
         </ul>
     </li>
 </ol>
@@ -65,13 +65,13 @@ When `<table>` elements are used for layout purposes, data table structure ele
 <p id="12bIC">For any data table identified in 12.A, identify all column and row headers for each data cell.</p>
 
 <ol>
-    <li id="12bTI-1">Data cell to header(s) association: Use the programmatic technique (HTML or ARIA) identified in 12.A. Check that data cells are programmatically associated with its headers [SC 1.3.1]:
+    <li id="12bTI-1">Data cell to header(s) association: Use the programmatic technique (HTML or ARIA) identified in 12.A. Check that each data cell is programmatically associated with its header(s) [SC 1.3.1]:
         <ul>
             <li id="12bTI-1a">For a simple HTML <code>&lt;table&gt;</code> only: with column headers only in the first row that apply to all data cells in the same column and row headers only in the first column that apply to all data cells in the same row, each header cell may be marked up with <code>&lt;th&gt;</code> without additional attributes.</li>
-            <li id="12bTI-1b">For any HTML <code>&lt;table&gt;</code>: a header cell may be marked up with <code>&lt;th scope="col|row|colgroup|rowgroup"&gt;</code> where the data cells that the headers apply to are in the same column, row, column group, or row group, respectively.  
+            <li id="12bTI-1b">For any HTML <code>&lt;table&gt;</code>: a header cell may be marked up with <code>&lt;th scope="[col|row|colgroup|rowgroup]"&gt;</code> where the data cells that the headers apply to are in the same column, row, column group, or row group, respectively.  
                 <ul>
-                    <li>In HTML4, <code>&lt;td scope&gt;</code> is supported.</li>
-                    <li>In HTML5, <code>&lt;td scope&gt;</code> is not supported so all header cells must be <code>&lt;th&gt;</code>. </li>
+                    <li>In HTML4, <code>&lt;td scope="[row|col]"&gt;</code> is supported.</li>
+                    <li>In HTML5, <code>&lt;td scope="[row|col]"&gt;</code> is not supported so all header cells must be <code>&lt;th&gt;</code>. </li>
                     <li>The <code>scope</code> only applies to cells that occur after the header cell(s) in the reading order.</li>
                 </ul>
             </li>
