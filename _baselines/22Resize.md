@@ -45,6 +45,7 @@ This baseline test requires an evaluation of visual content and functionality af
 <p id="22aTR">If any of the above checks fail, then Baseline Test 22.A-ResizeText fails.</p>
 
 ### Advisory: Tips for streamlined test processes
+- None
 
 ### WCAG 2.2 Techniques
 

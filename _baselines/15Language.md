@@ -62,7 +62,7 @@ The default human language for each page must be programmatically identified. Pa
 
 ### Advisory: Tips for streamlined test processes
 
-None.
+- None
 
 ### WCAG 2.2 Techniques
 
