@@ -39,6 +39,7 @@ The `<title>` element defines the title of the document, and is required in al
 <p id="11aTR">If any of the above checks fail, then Baseline Test 11.A-PageTitled fails.</p>
 
 ### Advisory: Tips for streamlined test processes
+- None
 
 ### WCAG 2.2 Techniques
 
