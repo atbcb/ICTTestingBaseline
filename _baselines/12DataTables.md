@@ -34,7 +34,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
 <ol id="12aTI">
     <li id="12aTI-1">Table: Check the data table has programmatic role of table using one of the following techniques. If more than one technique is used, select one and perform the remaining tests using that selection. [SC 4.1.2]:
         <ul>
-            <li>HTML <code>&lt;table&gt;</code> that does not have a role attribute that changes its role from table, such as <code>role="presentation"</code> or <code>role="none"</code>.</li>
+            <li>HTML <code>&lt;table&gt;</code> that does not have an explicitly defined role attribute that changes its role from table, such as <code>role="presentation"</code> or <code>role="none"</code>.</li>
             <li>ARIA <code>role="table"</code></li>
             <li>ARIA <code>role="grid"</code></li>
             <li>ARIA <code>role="treegrid"</code></li>
