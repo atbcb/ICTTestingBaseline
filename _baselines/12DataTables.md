@@ -75,7 +75,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
                     <li>The <code>scope</code> only applies to cells that occur after the header cell(s) in the reading order.</li>
                 </ul>
             </li>
-            <li id="12bTI-1c">For any HTML <code>&lt;table&gt;</code>: each <code>&lt;td&gt;</code> data cell may be associated to header cell(s) with <code>&lt;td headers&gt;</code>:
+            <li id="12bTI-1c">For any HTML <code>&lt;table&gt;</code>: each <code>&lt;td&gt;</code> data cell may be associated to header cell(s) with <code>&lt;td headers="[id]"&gt;</code>:
                 <ul>
                     <li>Data cells with the <code>headers</code> attribute must refer to the <code>ID</code>(s) of all relevant header cells for programmatic association.</li>
                     <li>The IDs referenced in the <code>headers</code> attribute for data cells must be to elements within the same <code>&lt;table&gt;</code> and in a consistent sequence.</li>
