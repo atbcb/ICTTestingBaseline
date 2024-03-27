@@ -63,7 +63,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 **Baseline Test ID: 5.B-ControlRole
 
 #### Identify Content
-<p id="5bIC">Identify user controls for a distinct function. Examples include changes to forms, links, and toggle controls.</p>
+<p id="5bIC">Identify user controls for a distinct function. Examples include forms, links, and toggle controls.</p>
 
 #### Test Instructions
 <ol id="5bcTI">
@@ -82,7 +82,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 **Baseline Test ID:** 5.C-ControlState
 #### Identify Content
-<p id="5cIC">Identify user controls for a distinct function. Examples include changes to forms, links, and toggle controls. Exclude the visited/unvisited state of links.</p>
+<p id="5cIC">Identify user controls for a distinct function that can be set by the user. Examples include forms, links, and toggle controls. Exclude the visited/unvisited state of links.</p>
   
 
 #### Test Instructions
