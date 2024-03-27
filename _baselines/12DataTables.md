@@ -42,12 +42,12 @@ When `<table>` elements are used for layout purposes, data table structure ele
     </li>
     <li id="12aTI-2">Table data cell: For the technique used, check that each data cell is programmatically assigned a role of cell and within a parent element with a role of row [SC 4.1.2]:
         <ul>
-            <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;td&gt;</code> cell must be within a <code>&lt;tr&gt;</code> row.</li>
-            <li>For ARIA <code>role="table"</code>: the data cell element with <code>role="cell"</code> must be within an element with <code>role="row"</code>.</li>
-            <li>For ARIA <code>role="grid"</code> or ARIA <code>role="treegrid"</code>: the data cell element with <code>role="gridcell"</code> is within an element with <code>role="row"</code>.</li>
+            <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;td&gt;</code> cell must be within a parent <code>&lt;tr&gt;</code> row element.</li>
+            <li>For ARIA <code>role="table"</code>: the data cell element with <code>role="cell"</code> must be within a parent element with <code>role="row"</code>.</li>
+            <li>For ARIA <code>role="grid"</code> or ARIA <code>role="treegrid"</code>: the data cell element with <code>role="gridcell"</code> is within a parent element with <code>role="row"</code>.</li>
         </ul>
     </li>
-    <li id="12aTI-3">Table header cell: For the technique used, check that each header cell is programmatically assigned a role of header and within a row [SC 4.1.2]:
+    <li id="12aTI-3">Table header cell: For the technique used, check that each header cell is programmatically assigned a role of header and within a parent row element [SC 4.1.2]:
         <ul>
             <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;th&gt;</code> header must be within a <code>&lt;tr&gt;</code> row.</li>
             <li>For an ARIA <code>role="table"</code>, ARIA <code>role="grid"</code> or <code>role="gridtree"</code>: each element with <code>role="columnheader"</code> or <code>role="rowheader"</code> must be within an element with <code>role="row"</code>.</li>
