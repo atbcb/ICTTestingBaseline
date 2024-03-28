@@ -63,7 +63,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 **Baseline Test ID: 5.B-ControlRole
 
 #### Identify Content
-<p id="5bIC">Identify user controls for a distinct function. Examples include forms, links, and toggle controls.</p>
+<p id="5bIC">Identify user controls for a distinct function that have an explicit role attribute <code>role="[value]"</code>. Examples include forms, links, and toggle controls.</p>
 
 #### Test Instructions
 <ol id="5bcTI">
