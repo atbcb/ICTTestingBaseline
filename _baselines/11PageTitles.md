@@ -23,7 +23,7 @@ The `<title>` element defines the title of the document, and is required in al
 
 **Baseline Test ID:** 11.A-PageTitled
 #### Identify Content
-<p id="11aIC">Page <code>&lt;title&gt;</code> element for the page.</p>
+<p id="11aIC">Web page</p>
 
 #### Test Instructions
 <ol id="11aTI">
