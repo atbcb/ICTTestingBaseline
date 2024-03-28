@@ -16,6 +16,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 2. Focus | Accessibility Requirements: SC 3.2.1 replaced "component" with "user interface component" per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 9. |
 | 3.A Non-Interference | Identify Content: added links to Baseline Tests. |
 | 5. User Controls | Was Changing Content. New test to cover SC 4.1.2 more accurately. |
+| 5.B Control Role | Added new test |
 | 5.C Control State | Identify Content: excluded state of visited/unvisited links. |
 | 6. Images | Limitations, Assumptions, Exceptions: removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
 | 6. Images | Test Method Rationale: added "The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. However, there are certain scenarios as described in the tests where the author's determination would be incorrect." |
