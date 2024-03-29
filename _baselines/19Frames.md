@@ -28,7 +28,7 @@ While users with vision can recognize the structure presented by frames and ifra
 ##### Test Instructions
 <ol id="19aTI">
     <li id="19aTI-1">Check that each <code>&lt;frame&gt;</code> has a title attribute that is not empty. [SC 4.1.2]</li>
-    <li id="19aTI-1">Check that the title attribute describes the frame's content. [SC 4.1.2]</li>
+    <li id="19aTI-2">Check that the title attribute describes the frame's content. [SC 4.1.2]</li>
 </ol>
 
 ##### Test Results

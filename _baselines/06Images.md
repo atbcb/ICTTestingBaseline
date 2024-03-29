@@ -42,15 +42,15 @@ order-number: 7
 
 ##### Test Instructions
 <ol id="6aTI">
-    <li id="6aTI-2">Check that none of the following is true [SC 1.1.1]:
+    <li id="6aTI-1">Check that none of the following is true [SC 1.1.1]:
     <ol>
-        <li id="6aTI-2i">The image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
-        <li id="6aTI-2ii">The image is not visible on the page.</li>
+        <li id="6aTI-1i">The image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
+        <li id="6aTI-1ii">The image is not visible on the page.</li>
     </ol>
     </li>
-    <li id="6aTI-3">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
-    <li id="6aTI-4">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
-    <li id="6aTI-5">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. [SC 1.1.1]</li>
+    <li id="6aTI-2">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
+    <li id="6aTI-3">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
+    <li id="6aTI-4">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. [SC 1.1.1]</li>
 </ol>
 
 ##### Test Results

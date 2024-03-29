@@ -6,7 +6,7 @@ order-number: 101
 
 Note: Minor punctuation, formatting and spelling changes not included.
 
-### Next Version, Date
+### Version 3.1, April 2024
 
 | Location of Change | Description of Change |
 |--------------------|-----------------------|
