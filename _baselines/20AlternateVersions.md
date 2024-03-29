@@ -51,7 +51,7 @@ An alternate version must meet all parts of the definition in order to be consid
         <li id="20aTI-4iii">the non-conforming version can only be reached from a conforming version that also provides a mechanism to reach the alternate version.</li>
         </ol>
     </li>
-    <li id="20aTI-5">Check that the content indicates that a conforming alternate version is available.</li>
+    <li id="20aTI-5">Check that the content indicates that a conforming alternate version is available. [CAV]</li>
 </ol>
 
 #### Test Results

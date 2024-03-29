@@ -43,7 +43,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 			<li><a href="https://www.w3.org/TR/html-aam-1.0/#accdesc-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for Accessible Description Computation</a></li>
 		</ul>
 	</li>
-	<li id="5aTI-3">If the name of the user control changes with use of the application, repeat the previous test steps and check that the accessible name is correct after the change.
+	<li id="5aTI-3">If the name of the user control changes with use of the application, repeat the previous test steps and check that the accessible name is correct after the change. [SC 4.1.2]
 		<ul>
 			<li>Depending on the control, a change of name may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
 	  		<li>Examples include entering a response in a form field for country changes the next form field's label from "state" to "province", selecting a control toggles its functionality from sorting ascending to descending, a link appends "Updated" to its name when the linked page is edited.</li>

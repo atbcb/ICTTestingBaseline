@@ -123,7 +123,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 #### Test Instructions
 <ol id="17fTI">
     <li id="17fTI-1">Enable captions through multimedia player functions and start the live session.</li>
-    <li id="17fTI-2">Check that captions are provided</li>
+    <li id="17fTI-2">Check that captions are provided. [SC 1.2.4]</li>
     <li id="17fTI-3">Check that provided captions include dialogue and important sounds. [SC 1.2.4]
         <ol>
         <li id="17fTI-3i">Listen to the audio of the entire synchronized media.</li>
