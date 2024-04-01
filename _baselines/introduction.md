@@ -15,7 +15,7 @@ Use of the ICT Testing Baseline will harmonize testing processes for Section 508
 
 #### Updates in this Baseline
 
-A change history is available in [Appendix B - Change Log](ChangeLog3.md).
+A change history is available in [Appendix B - Change Log](../ChangeLog3).
 
 ### Background
 
