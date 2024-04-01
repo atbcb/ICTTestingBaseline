@@ -1,8 +1,10 @@
 ---
-title: "Appendix C - ICT Testing Baseline for Web References"
+title: "Appendix C - References"
 order-number: 102
 ---
-## Appendix C - ICT Testing Baseline for Web References
+## Appendix C - References
+=======
+
 
 ### Technical References
 
@@ -10,9 +12,9 @@ order-number: 102
 
 - [HTML Accessibility API Mappings 1.0](https://w3c.github.io/html-aam/)
 
-- [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa&versions=2.0)
+- [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG22/quickref/?currentsidebar=%23col_customize&versions=2.0&levels=aaa)
 
-- [Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/)
+- [Understanding WCAG 2.2](https://www.w3.org/WAI/WCAG22/Understanding/)
 
 ### Glossary References
 
@@ -20,4 +22,4 @@ order-number: 102
 
 - [US Access Board Section 508 Defined Terms](https://www.access-board.gov/ict/#E103.4)
 
-- [WCAG 2.0 glossary](https://www.w3.org/TR/WCAG20/#glossary)
+- [WCAG 2.2 glossary](https://www.w3.org/TR/WCAG22/#glossary)
