@@ -229,7 +229,7 @@ td ul.check {
 }
 
 .site-title-short {
-  @include u-text("base-lightest")
+  @include u-text("base-lightest");
 }
 
 .site-subtitle {
