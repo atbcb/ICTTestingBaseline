@@ -50,7 +50,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
     <li id="12aTI-3">Table header cell: For the technique used, check that each header cell is programmatically assigned a role of header and within a parent row element [SC 4.1.2]:
         <ul>
             <li>For HTML <code>&lt;table&gt;</code>: the <code>&lt;th&gt;</code> header must be within a parent <code>&lt;tr&gt;</code> row element.</li>
-            <li>For an ARIA <code>role="table"</code>, ARIA <code>role="grid"</code> or <code>role="gridtree"</code>: each element with <code>role="columnheader"</code> or <code>role="rowheader"</code> must be within a parent element with <code>role="row"</code>.</li>
+            <li>For an ARIA <code>role="table"</code>, ARIA <code>role="grid"</code> or <code>role="treegrid"</code>: each element with <code>role="columnheader"</code> or <code>role="rowheader"</code> must be within a parent element with <code>role="row"</code>.</li>
         </ul>
     </li>
 </ol>
