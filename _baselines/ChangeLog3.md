@@ -11,7 +11,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | Location of Change | Description of Change |
 |--------------------|-----------------------|
 | All Baseline Test Procedure IDs | Changed from a number to a letter to improve distinction from WCAG SCs. Ex: 1.A was 1.1, 1.B was 1.2, and so on. |
-| All Baseline Tests | Changed links for W3C WCAG 2.0 (Understanding, Techniques, definitions, etc.) to WCAG 2.2 version; updated links to HTML Accessibility API Mapping Accesible Name and Description Computation sections. | 
+| All Baseline Tests | Changed links for W3C WCAG 2.0 (Understanding, Techniques, definitions, etc.) to WCAG 2.2 version; updated links to HTML Accessibility API Mapping Accessible Name and Description Computation sections. | 
 | Multiple Baseline Tests | Test Instructions: corrected outline numbering, added missing requirement mappings. |
 | 2. Focus | Accessibility Requirements: SC 3.2.1 replaced "component" with "user interface component" per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 9. |
 | 3.A Non-Interference | Identify Content: added links to Baseline Tests. |
@@ -21,11 +21,11 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 6. Images | Limitations, Assumptions, Exceptions: removed "Equivalent descriptions for an image within page text could allow an image to be considered decorative. However, this does not necessitate removal of any accessible text attributes from the image." |
 | 6. Images | Test Method Rationale: added "The image tests evaluate the images as they were coded to indicate whether they are meaningful or decorative, leaving that determination to the author of the content. However, there are certain scenarios as described in the tests where the author's determination would be incorrect." |
 | 6.A, 6.B | Test Procedures defer to author to determine meaningful or decorative images, W3C Image Tutorials added under WCAG Techniques section. |
-| 7. Sensory Characteristics | Accessibility Requirements: SC 1.3.3 added "color" to the list of sensory characterstics per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 12; clarifications added to Assumptions for both SCs; Updated Advisory to remove suggestion to combine tests  |
+| 7. Sensory Characteristics | Accessibility Requirements: SC 1.3.3 added "color" to the list of sensory characteristics per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 12; clarifications added to Assumptions for both SCs; Updated Advisory to remove suggestion to combine tests  |
 | 7.A Use of Color | Added test for use of color that have a contrast ratio of 3.A or greater; Identify Content: color of visited/unvisited links excluded. |
 | 7.C Audible Cues | Added new test which maps to SC 1.1.1. |
-| 8. Contrast | Accessibiilty Requirements: SC 1.4.3 removed "minimum" from Logotypes requirement per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 3. | 
-| 10.A Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2. |
+| 8. Contrast | Accessibililty Requirements: SC 1.4.3 removed "minimum" from Logotypes requirement per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 3. | 
+| 10.A Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 1.3.1. |
 | 10.A, 10.B, 10.E | Identify Content: Added "that do not have <code>visibility:hidden</code> or <code>display:none</code>" after "Find all form components". | 
 | 10.E Form has a Label | Changed Test Procedure name to "Form has a Visible Label" and edited instruction 1 to include "has visible label(s) or instructions while the form component has focus."; Identify Content: narrowed to data entry form controls. |
 | 10. Forms | Removed Test Procedure for Form Changes. |
