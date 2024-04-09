@@ -25,7 +25,7 @@ Note: Minor punctuation, formatting and spelling changes not included.
 | 7.A Use of Color | Added test for use of color that have a contrast ratio of 3.A or greater; Identify Content: color of visited/unvisited links excluded. |
 | 7.C Audible Cues | Added new test which maps to SC 1.1.1. |
 | 8. Contrast | Accessibililty Requirements: SC 1.4.3 removed "minimum" from Logotypes requirement per [WCAG 2.0 Errata](https://www.w3.org/WAI/WCAG20/errata/) Editorial Errata 3. | 
-| 10.A Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 4.1.2. |
+| 10.A Form Names | Instruction 2: separated to 2 test instructions, added SC 1.1.1. New instruction 2 maps to SC 1.1.1 and new instruction 3 maps to SC 1.3.1. |
 | 10.A, 10.B, 10.E | Identify Content: Added "that do not have <code>visibility:hidden</code> or <code>display:none</code>" after "Find all form components". | 
 | 10.E Form has a Label | Changed Test Procedure name to "Form has a Visible Label" and edited instruction 1 to include "has visible label(s) or instructions while the form component has focus."; Identify Content: narrowed to data entry form controls. |
 | 10. Forms | Removed Test Procedure for Form Changes. |
