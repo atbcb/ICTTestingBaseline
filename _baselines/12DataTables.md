@@ -64,6 +64,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
 #### Identify Content
 <p id="12bIC">For any data table identified in 12.A, identify all column and row headers for each data cell.</p>
 
+#### Test Instructions
 <ol>
     <li id="12bTI-1">Data cell to header(s) association: Use the programmatic technique (HTML or ARIA) identified in 12.A. Check that each data cell is programmatically associated with its header(s) [SC 1.3.1]:
         <ul>
