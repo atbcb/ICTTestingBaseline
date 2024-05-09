@@ -156,7 +156,7 @@ Evaluation of captions and audio descriptions to assess its equivalence to synch
 -   Testing synchronized media is different from testing Baseline [16. Audio-Only and Video-Only content](../16AudioVideo).
 -   Synchronized media players may be software or HTML.
 -   At Level AA, SC 1.2.5 applies to synchronized media. The related Level A requirement, SC 1.2.3, should be marked as ‘Not Applicable’ in the test report. It is permissible for test processes to add a test for SC 1.2.3 (evaluate a full text alternative for equivalence). Adding such a test would exceed baseline test requirements and would not affect Baseline 17’s outcome.
--   All synchronized multimedia should be tested. If the pre-recorded multimedia is labeled as an media alternative for text, confirm that it provides equivalent information as text. If it does not, then it is not a media alternative for text. Test the multimedia for captions and audio descriptions. It may make sense to perform Test 17.G before testing for captions and audio descriptions.
+-   All synchronized multimedia should be tested. If the pre-recorded multimedia is labeled as a media alternative for text, confirm that it provides equivalent information as text. If it does not, then it is not a media alternative for text. Test the multimedia for captions and audio descriptions. It may make sense to perform Test 17.G before testing for captions and audio descriptions.
 
 ### WCAG 2.2 Techniques
 
