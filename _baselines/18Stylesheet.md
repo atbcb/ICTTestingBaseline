@@ -33,7 +33,7 @@ CSS background image is now covered under [Baseline 6.B Test Procedure for Image
 </ol>
 
 #### Test Results
-<p id="18bTR">If any of the above checks fail, then Baseline Test 18.B-CSSPositionedContent fail.</p>
+<p id="18bTR">If any of the above checks fail, then Baseline Test 18.B-CSSPositionedContent fails.</p>
 
 ### Advisory: Tips for streamlined test processes
 - These tests are not to be performed by disabling all CSS. Content is not required to be perceivable and operable with all CSS disabled.
