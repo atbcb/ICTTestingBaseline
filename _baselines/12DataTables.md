@@ -95,7 +95,7 @@ When `<table>` elements are used for layout purposes, data table structure ele
 **Baseline Test ID:** 12.C-LayoutTable
 
 #### Identify Content
-<p id="12cIC">All content/data visually presented in a table that retains any meanigful sequence when linearized.</p>
+<p id="12cIC">All content/data visually presented in a table that retains any meaningful sequence when linearized.</p>
 
 <p>Note: Linearization of table content is the presentation of a table’s two-dimensional content in one-dimensional order of the content in the source, beginning with the first cell in the first row and ending with the last cell in the last row, from left to right, top to bottom.</p>
 

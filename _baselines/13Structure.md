@@ -70,8 +70,7 @@ order-number: 14
 
 ##### Test Instructions
 <ol id="13cTI">
-    <li id="13cTI-1">Check that each programmatically determinable heading is also serving as a visual heading on the page. <br>
-    Content that is not a visual heading cannot have a role of heading. For example, heading markup should not be used for emphasis on an element that is not a heading for content after it. [SC 1.3.1]</li>
+    <li id="13cTI-1">Check that each programmatically determinable heading is also serving as a visual heading on the page. Content that is not a visual heading cannot have a role of heading. For example, heading markup should not be used for emphasis on an element that is not a heading for content after it. [SC 1.3.1]</li>
 </ol>
 
 ##### Test Results

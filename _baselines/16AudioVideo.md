@@ -73,7 +73,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 #### Test Results
 
-<p id="16bTR">If any of the above checks fail, then Baseline Test 16.B-VideoOnlyAlt fail.</p>
+<p id="16bTR">If any of the above checks fail, then Baseline Test 16.B-VideoOnlyAlt fails.</p>
 
 ### 16.C Test Procedure for Audio Media Alternative (Prerecorded)
 
@@ -85,7 +85,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 <ol id="16cTI">
     <li id="16cTI-1">Identify the text for which the media is an alternative.</li>
     <li id="16cTI-2">Play the media that is labeled as an equivalent alternative for the text.</li>   
-    <li id="16cTI-3">Check that the meaningful audible information of the media is available in the text.</li>  
+    <li id="16cTI-3">Check that the meaningful audible information of the media is available in the text. </li>  
 </ol>
 
 #### Test Results
