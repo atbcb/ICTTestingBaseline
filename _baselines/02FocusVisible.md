@@ -41,7 +41,7 @@ Manually navigating or controlling the interface by keyboard-only will enable a 
 #### Identify Content
 <p id="2aIC">Keyboard accessible interface components (e.g., links, form fields, drop down menus, show/hide content, tree views, pop ups/light boxes, frames, iframes).</p>
 
-#### Tests Instructions
+#### Test Instructions
 <ol id="2aTI">
     <li id="2aTI-1">Use the keyboard to navigate through each interface component.</li>
     <li id="2aTI-2">Check that a visible indication of focus is provided when focus is on the interface component. The focus indicator must not be time limited; when the keyboard focus is shown it must remain.[SC 2.4.7]</li>
