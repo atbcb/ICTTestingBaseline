@@ -5,7 +5,7 @@ permalink: /
 ---
 ## Information and Communication Technology (ICT) Testing Baseline for Web Accessibility
 
-This is the Section 508 [Information and Communication Technology](https://www.access-board.gov/ict/#E103.4) (ICT) Testing Baseline ***for Web***, version 3.1 (published April 1, 2024). This Baseline identifies the minimum requirements of any test process used to determine conformance of web content with the [Revised Section 508 of the Rehabilitation Act of 1973](https://www.access-board.gov/ict), as amended (29 U.S.C. 794d).
+This is the Section 508 [Information and Communication Technology](https://www.access-board.gov/ict/#defICT) (ICT) Testing Baseline ***for Web***, version 3.1 (published April 1, 2024). This Baseline identifies the minimum requirements of any test process used to determine conformance of web content with the [Revised Section 508 of the Rehabilitation Act of 1973](https://www.access-board.gov/ict), as amended (29 U.S.C. 794d).
 
 [Previous versions of the Baseline for Web](https://github.com/atbcb/ICTTestingBaseline/releases) are available on the Github repository.
 
