@@ -27,7 +27,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 ### 5.A Test Procedure for Control Name
 
-**Baseline Test ID:** 5.A-ChangedControlName
+**Baseline Test ID:** 5.A-ControlName
 
 #### Identify Content
 <p id="5aIC">Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="../10Forms">Baseline 10. Forms</a> and <a href="../14Links"> Baseline 14. Links</a>, respectively.</p>
@@ -48,7 +48,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 	<li id="5aTI-3">If the name of the user control changes on user interaction with the web content or application, repeat the previous test steps and check that the accessible name is correct after the change.
 		<ul>
 			<li>Depending on the control, a change of name may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
-	  		<li>Examples include entering a response in a form field for country changes the next form field's label from "state" to "province", selecting a control toggles its functionality from sorting ascending to descending, a link appends "Updated" to its name when the linked page is edited.</li>
+	  		<li>Examples include updating a response in a form field changes the name of a button to "Save Changes" and selecting a control toggles its functionality from sorting ascending to descending</li>
 	  </ul>
 	</li>
 </ol>
@@ -59,7 +59,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 ### 5.B Test Procedure for Control Role
 
-**Baseline Test ID: 5.B-ControlRole
+**Baseline Test ID:** 5.B-ControlRole
 
 #### Identify Content
 <p id="5bIC">Identify user controls for a distinct function that have an explicit role attribute (<code>role="[value]"</code>). Examples include forms, links, and toggle controls.</p>
