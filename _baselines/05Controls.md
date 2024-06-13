@@ -48,7 +48,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 	<li id="5aTI-3">If the name of the user control changes on user interaction with the web content or application, repeat the previous test steps and check that the accessible name is correct after the change.
 		<ul>
 			<li>Depending on the control, a change of name may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
-	  		<li>Examples include updating a response in a form field changes the name of a button to "Save Changes" and selecting a control toggles its functionality from sorting ascending to descending</li>
+	  		<li>Examples include updating a response in a form field changes the name of a button to "Save Changes" and selecting a control toggles its functionality from sorting ascending to descending.</li>
 	  </ul>
 	</li>
 </ol>
