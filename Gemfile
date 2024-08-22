@@ -29,3 +29,9 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "html-proofer", "~> 5"
 gem "kramdown-parser-gfm"
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.2.0"
+
+gem "bigdecimal", "~> 3.1"
