@@ -647,6 +647,73 @@ a.style-inherit {
   color: black;
 }
 
+// Print styles
+@media print {
+  body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+  }
+  //black text
+  h1, h2, h3, h4, h5, h6{
+    margin-top: 15px;
+    color: black !important;
+    background-color: #fff;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  table, figure, img, svg, a {
+    page-break-inside: avoid;
+  }
+  //do not print
+  footer, nav, hr, button, .noprint, #toc, .usa-skipnav, .pdf-button-container, .anchorjs-link, .swiper-container, .filmstrip, #ta-box {
+    display: none !important;
+  }
+  //include URL after links
+  /* a::after {
+    content: " (" attr(href) ")" !important;
+    font-style: italic;
+  } */
+  //include full URL after relative links
+  /*   a[href^="/"]::after { 
+    content: " (https://www.access-board.gov" attr(href) ") " !important;
+    font-style: italic;
+  } */
+  //don't print URL after home link in banner logo
+  a[title="Home"]::after {
+    content: "" !important;
+  }
+  //expand accordion content
+  .usa-accordion__content, .usa-accordion__button {
+    display: block !important;
+  }
+  //no section outlines
+  .border{
+    border-style: none;
+  }
+  //smaller logo in banner
+  .star-logo-box{
+    max-width: 2rem;
+    height: auto;
+  }
+}
+//accordion alternative for EV TA
+details > summary {
+  padding: 4px;
+  width: 90%;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;	
+}
+
+details > p {
+  padding: 4px;
+  margin: 12px;
+}
+
 //filmstrip
 .filmstrip {
   background: repeating-linear-gradient(45deg, #FFE11A, #FFE11A 50%, #FD7400 50%, #FD7400);
