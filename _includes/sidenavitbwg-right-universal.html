@@ -11,11 +11,11 @@ Modified for the ICT Baseline site.
 
 {% endcomment %}
 
-<div class="desktop:grid-col-2 margin-top-1 margin-x-1">
+<div class="desktop:grid-col-2 margin-top-1 margin-x-1 noprint">
   <div class="height-viewport sticky">
     <div class="padding-2 bg-white border maxh-viewport">
       <div class="grid-container margin-y-3 text-center">
-        <a class="usa-button usa-button margin-x-auto" href="../allbaselines.html">All Baseline Tests for Web</a>
+        <a class="usa-button usa-button margin-x-auto" href="{{ site.baseurl }}/allbaselines.html">All Baseline Tests for Web</a>
         </div>
       <div class="text-center">
         {% if page.s-image %}
@@ -36,7 +36,7 @@ Modified for the ICT Baseline site.
             <li class="padding-bottom-0"><a href="mailto:ictbaseline@gsa.gov">Email ITBWG</a></li>
           </ul> 
           <h5 class="padding-1 bg-primary-darker text-white">Related Projects</h5>
-          <p>The <a href="https://section508coordinators.github.io/baselinealignment/">Baseline Alignment for Web</a> is being developed to aid in determining if a test process aligns with the ICT Baseline for Web.</p>
+          <p>The <a href="https://baselinealignment.section508.gov/">Baseline Alignment for Web</a> is being developed to aid in determining if a test process aligns with the ICT Baseline for Web.</p>
         </div>
       </div>
       {% include back-to-top.html %}
