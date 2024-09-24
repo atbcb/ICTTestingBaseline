@@ -19,7 +19,7 @@ The test results for SC's 1.4.2 (Baseline Test 21.D-AudioControl), 2.1.2 (1.B-No
 
 ### Limitations, Assumptions, or Exceptions
 
-None.
+None
 
 ### 3.A Test Procedure for Non-Interference
 
@@ -46,4 +46,4 @@ None.
 
 ### WCAG 2.2 Techniques
 
-NA.
+NA
