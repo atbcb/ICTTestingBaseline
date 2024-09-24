@@ -39,7 +39,7 @@ None
 
 <p id="d3aTR">If any of the above checks fail, then Baseline Requirement 3.A-NonInterference fails.</p>
 
-### Advisory: Tips for Streamlined test Processes
+### Advisory: Tips for Streamlined Test Processes
 
 -   This test result is a logical AND of the identified SCs. All must pass for this test result to pass.
 -   A reporting tool may be utilized to generate the result for Conformance Requirement 5.
