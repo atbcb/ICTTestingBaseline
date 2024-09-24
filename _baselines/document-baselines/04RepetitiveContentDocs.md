@@ -1,6 +1,7 @@
 ---
 title: "4. Repetitive Content -- Not Applicable to Documents"
 order-number: 5
+toc-group: baseline-docs
 ---
 
 ## 4. Repetitive Content – Not Applicable to Documents
