@@ -1,6 +1,7 @@
 ---
 title: "2. Focus (Documents)"
 order-number: 3
+toc-group: baseline-docs
 ---
 
 ## 2. Focus

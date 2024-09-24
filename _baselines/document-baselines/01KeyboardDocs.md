@@ -1,6 +1,7 @@
 ---
 title: "1. Keyboard Accessible (Documents)"
 order-number: 2
+toc-group: baseline-docs
 ---
 
 ## 1. Keyboard Accessible
