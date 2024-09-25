@@ -40,7 +40,7 @@ defaults:
       path: ""
       type: "baselines"
     values:
-      banner-title: "Section 508 ICT Testing Baseline"
+      banner-title: "ICT Testing Baseline Portfolio"
       collection-folder: baselines
       layout: universal
       image-directory: /images/

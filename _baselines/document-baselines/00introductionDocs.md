@@ -2,6 +2,7 @@
 title: "ICT Testing Baseline for Electronic Documents"
 order-number: 1
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## ICT Testing Baseline for Electronic Documents
