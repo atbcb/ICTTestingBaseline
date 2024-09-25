@@ -1,6 +1,7 @@
 ---
-title: "20. Conforming Alternate Version (Documents)"  
-order-number: 21  
+title: "20. Conforming Alternate Version"  
+order-number: 21
+toc-group: baseline-docs  
 ---
 
 ## 20. Conforming Alternate Version

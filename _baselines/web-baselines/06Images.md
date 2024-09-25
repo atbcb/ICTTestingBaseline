@@ -1,6 +1,7 @@
 ---
 title: "6. Images"
 order-number: 7
+toc-group: baseline-web
 ---
 ## 6. Images
 

@@ -1,6 +1,7 @@
 ---
-title: "14. Links (Documents)"
+title: "14. Links"
 order-number: 15
+toc-group: baseline-docs
 ---
 
 ## 14. Links

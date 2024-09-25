@@ -1,6 +1,7 @@
 ---
 title: "4. Repetitive Content"
 order-number: 5
+toc-group: baseline-web
 ---
 ## 4. Repetitive Content
 

@@ -1,5 +1,5 @@
 ---
-title: "1. Keyboard Accessible (Documents)"
+title: "1. Keyboard Accessible"
 order-number: 2
 toc-group: baseline-docs
 ---
@@ -87,7 +87,7 @@ Keyboard access and control includes the ability to navigate to **AND** away fro
 
 <p id="d1bTR">If the above check fails, then Baseline Test 1.B-NoKeyboardTrap fails.</p>
 
-### Advisory: Tips for Streamlined test Processes
+### Advisory: Tips for Streamlined Test Processes
 -   Keyboard focusable components include links, form fields, drop-down menus, show/hide content, tree views, embedded objects, and pop ups. Focusable components may also be "hidden", positioned off-screen, and/or have no visible indication of focus.
 -   Keyboard commands include standard and any nonstandard keyboard commands.
 -   This test may be combined with tests for keyboard focus.

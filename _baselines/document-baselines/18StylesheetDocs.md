@@ -1,6 +1,7 @@
 ---
-title: "18. Meaningful Content and Sequence (Documents)"
+title: "18. Meaningful Content and Sequence"
 order-number: 19
+toc-group: baseline-docs
 ---
 
 ## 18. Meaningful Content and Sequence
@@ -29,7 +30,7 @@ Meaningful content must be available to all users. The sequence of the content (
 
 <p id="d18aIC">Meaningful visible content</p>
 
-Do not include meaningful background images, which are covered under [Baseline 6.B Test Procedure for Decorative Images](#b-test-procedure-for-images-with-an-empty-text-alternative).
+Do not include meaningful background images, which are covered under [Baseline 6.B Test Procedure for Decorative Images](#6b-test-procedure-for-images-with-an-empty-text-alternative).
 
 #### Test Instructions
 

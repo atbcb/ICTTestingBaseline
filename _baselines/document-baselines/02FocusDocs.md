@@ -1,5 +1,5 @@
 ---
-title: "2. Focus (Documents)"
+title: "2. Focus"
 order-number: 3
 toc-group: baseline-docs
 ---
@@ -113,10 +113,10 @@ Manually navigating or controlling document components by keyboard-only will ena
 
 <p id="d2cTR">If any of the above checks fail, then Baseline Test 2.C-OnFocus fails.</p>
 
-### Advisory: Tips for Streamlined test Processes
+### Advisory: Tips for Streamlined Test Processes
 
 -   The clarity of visible focus is subjective, and the minimum level is the application's (or OS platform's) default display setting for indicating focus. Applications may also represent visual focus differently in specific situations.
--   This test may be performed simultaneously with [Baseline 1: Keyboard Access](file:///C:\\Users\\cloudconvert\\server\\files\\tasks\\01Keyboard).
+-   This test may be performed simultaneously with [Baseline 1: Keyboard Access](https://ictbaseline.access-board.gov/document-baselines/01KeyboardDocs).
 -   No focus modifications should be enabled in the test environment during testing. Some testing tools will add a visible outline around elements that receive focus. While testing tools may help testers to track focus, any markup provided by a testing tool should not be used as an indicator of visible focus for meeting this requirement.
 -   Given the variability in how applications may present visual focus in specific situations, test reports should include details about testing environment, including application and version.
 -   Tab order that initially appears illogical may still meet this requirement due to an application-specific business logic.

@@ -1,6 +1,7 @@
 ---
-title: "10. Forms (Documents)"
+title: "10. Forms"
 order-number: 11
+toc-group: baseline-docs
 ---
 
 ## 10. Forms

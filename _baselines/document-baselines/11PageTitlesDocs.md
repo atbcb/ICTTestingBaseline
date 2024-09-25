@@ -1,6 +1,7 @@
 ---
-title: "11. Document Titles (Documents)"
+title: "11. Document Titles"
 order-number: 12
+toc-group: baseline-docs
 ---
 
 ## 11. Document Titles
@@ -38,7 +39,7 @@ The Title property defines the title of the document and is required in all docu
 
 <p id="d11aTR">If any of the above checks fail, then Baseline Test 11.A-DocumentTitled fails.</p>
 
-### Advisory: Tips for Streamlined test Processes
+### Advisory: Tips for Streamlined Test Processes
 
 None
 

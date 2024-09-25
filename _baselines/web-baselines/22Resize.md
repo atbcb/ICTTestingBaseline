@@ -1,6 +1,7 @@
 ---
 title: "22. Resize Text"
 order-number: 23
+toc-group: baseline-web
 ---
 ## 22. Resize Text
 

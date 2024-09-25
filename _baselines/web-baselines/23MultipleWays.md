@@ -1,6 +1,7 @@
 ---
 title: "23. Multiple Ways"
 order-number: 24
+toc-group: baseline-web
 ---
 ## 23. Multiple Ways
 

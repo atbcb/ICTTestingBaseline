@@ -1,6 +1,7 @@
 ---
-title: "7. Sensory Characteristics (Documents)"
+title: "7. Sensory Characteristics"
 order-number: 8
+toc-group: baseline-docs
 ---
 
 ## 7. Sensory Characteristics
@@ -21,7 +22,7 @@ Users affected by this requirement may be sighted and not limited to users of as
 -   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), where color alone distinguishes between visited and unvisited links, it does not result in a failure of this Success Criterion.
 -   Per [WCAG 2.2 Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color), use of colors that differ in color (hue) and lightness with a contrast ratio of 3:1 or greater meet this requirement. However, if content relies on the user's ability to accurately perceive or differentiate a particular color, an additional visual indicator will be required regardless of the contrast ratio between those colors.
 -   SC 1.3.3 applies to instructions and cannot be met by providing multiple sensory characteristics (e.g., color and shape).
--   The test for audible cues covers short sounds used to notify the user, such as confirmation beeps and error notifications. Audio in time-based media is covered in Baseline [16. Audio-only and Video-only](#audio-only-and-video-only).
+-   The test for audible cues covers short sounds used to notify the user, such as confirmation beeps and error notifications. Audio in time-based media is covered in [Baseline 16. Audio-only and Video-only](https://ictbaseline.access-board.gov/document-baselines/16AudioVideoDocs).
 
 ### 7.A Test Procedure for Use of Color
 
@@ -43,7 +44,6 @@ Users affected by this requirement may be sighted and not limited to users of as
     </li>
 </ol>
 
-
 #### Test Results
 
 <p id="d7aTR">If the above check fails, then Baseline Test 7.A-Color fails.</p>
@@ -59,16 +59,16 @@ Users affected by this requirement may be sighted and not limited to users of as
 #### Test Instructions
 
 <ol id="d7bTI">
-    <li id="d7bTI-1">Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]
-        <br>For example:</br>
+    <li id="d7bTI-1">Check that the instructions contain additional information that allows it to be located, identified, and understood without any knowledge of its shape, size, or relative position. [SC 1.3.3]<br>
+        For example:
         <ul>
             <li>To see your changes, select the round button labeled "Go".</li>
             <li>The links on the right, with the heading "Resources", provide further information.</li>
             <li>Select the lower-right "Cancel" button to close this session.</li>
         </ul>
     </li>
-    <li id="d7bTI-2">Check that any auditory cues also provide programmatically determinable or textual cues. [SC 1.3.3].
-        <br>For example:</br>
+    <li id="d7bTI-2">Check that any auditory cues also provide programmatically determinable or textual cues. [SC 1.3.3].<br>
+        For example:
         <ul>
             <li>At the sound of the beep and the appearance of the timer, begin the quiz.</li>
         </ul>
@@ -91,8 +91,8 @@ Users affected by this requirement may be sighted and not limited to users of as
 #### Test Instructions
 
 <ol id="d7cTI">
-    <li id="d7cTI-1">Check that a text alternative that describes the purpose of the sound is provided with the audible cue. [SC 1.1.1]
-        <br>For example:</br>
+    <li id="d7cTI-1">Check that a text alternative that describes the purpose of the sound is provided with the audible cue. [SC 1.1.1]<br>
+        For example:
         <ul>
             <li>A short beep and an asterisk appear on a required field to notify the user that the field must be completed.</li>
             <li>As a timer counts down, a bell rings and a "Two minutes left!" message appears on the screen.</li>
@@ -105,7 +105,7 @@ Users affected by this requirement may be sighted and not limited to users of as
 
 <p id="d7cTR">If any of the above checks fail, then Baseline Test 7.C-AudibleCues fails.</p>
 
-### Advisory: Tips for Streamlined test Processes
+### Advisory: Tips for Streamlined Test Processes
 
 -   Content that uses color must have an additional visual cue. Instructions that rely on a sensory characteristic must have a non-sensory cue.
 -   Displaying content in greyscale may help identify content that uses only color to convey information.

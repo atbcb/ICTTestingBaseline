@@ -1,6 +1,7 @@
 ---
-title: "21. Timed Events (Documents)"
+title: "21. Timed Events"
 order-number: 22
+toc-group: baseline-docs
 ---
 
 ## 21. Timed Events
@@ -133,7 +134,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 #### Test Results
 <p id="d21dTR">If the above check fails, then Baseline Test 21.D-AudioControl fails.</p>
 
-### Advisory: Tips for Streamlined Processes
+### Advisory: Tips for Streamlined Test Processes
 
 -   Remind testers that when the time-out occurs, visible focus should shift to the time-out alert to comply with success criteria for keyboard accessibility and focus order.
 -   In some cases, it may be necessary to contact the application authors to clarify the conditions under which time-outs occur.

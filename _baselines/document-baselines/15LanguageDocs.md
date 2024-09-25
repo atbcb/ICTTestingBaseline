@@ -1,6 +1,7 @@
 ---
-title: "15. Language (Documents)"
+title: "15. Language"
 order-number: 16
+toc-group: baseline-docs
 ---
 
 ## 15. Language

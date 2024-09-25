@@ -1,6 +1,7 @@
 ---
 title: "Appendix B - Change Log"
 order-number: 101
+toc-group: baseline-web
 ---
 ## Appendix B - Change Log
 

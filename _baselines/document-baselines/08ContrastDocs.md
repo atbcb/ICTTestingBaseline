@@ -1,6 +1,7 @@
 ---
-title: "8. Contrast (Documents)"
+title: "8. Contrast"
 order-number: 9
+toc-group: baseline-docs
 ---
 
 ## 8. Contrast
@@ -55,7 +56,7 @@ This test is conducted to evaluate equal access to information for all users, in
 
 <p id="d8aTR">If both of the above checks fail, then Baseline Test 8.A-ContrastMinimum fails.</p>
 
-### Advisory: Tips for Streamlined test Processes
+### Advisory: Tips for Streamlined Test Processes
 
 -   There are a variety of color contrast tools that can perform the algorithms necessary to determine the contrast. See [Sufficient Technique G18](https://www.w3.org/WAI/WCAG22/Techniques/general/G18) for possible testing tools that use an appropriate algorithm.
 

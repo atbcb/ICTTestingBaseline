@@ -1,6 +1,7 @@
 ---
-title: "23. Multiple Ways — Not Applicable to Documents (Documents)"
+title: "23. Multiple Ways — Not Applicable to Documents"
 order-number: 24
+toc-group: baseline-docs
 ---
 
 ## 23. Multiple Ways — Not Applicable to Documents

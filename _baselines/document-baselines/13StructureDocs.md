@@ -1,6 +1,7 @@
 ---
-title: "13. Content Structure (Documents)"
+title: "13. Content Structure"
 order-number: 14
+toc-group: baseline-docs
 ---
 
 ## 13. Content Structure
@@ -60,8 +61,6 @@ order-number: 14
                 </ol>
             </li>
         </ol>
-    </li>
-</ol>
 
 #### Test Results
 

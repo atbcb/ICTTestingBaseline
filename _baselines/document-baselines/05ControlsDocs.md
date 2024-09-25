@@ -1,6 +1,7 @@
 ---
-title: "5. User Controls (Documents)"
+title: "5. User Controls"
 order-number: 6
+toc-group: baseline-docs
 ---
 
 ## 5. User Controls
@@ -30,7 +31,9 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 #### Identify Content
 
-<p id="d5aIC">Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="https://ictbaseline.access-board.gov/10Forms">Baseline 10. Forms</a> and <a href="https://ictbaseline.access-board.gov/14Links">Baseline 14. Links</a>, respectively.</p>
+<p id="d5aIC">
+
+Identify user controls for a distinct function. Exclude forms and links as these are covered by [Baseline 10: Forms](https://ictbaseline.access-board.gov/document-baselines/10FormsDocs) and [Baseline 14: Links](https://ictbaseline.access-board.gov/document-baselines/14LinksDocs), respectively </p>
 
 #### Test Instructions
 
@@ -111,10 +114,10 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 <p id="d5dTR">If any of the above checks fail, then Baseline Test 5.D-ControlValue fails.</p>
 
-### Advisory: Tips for Streamlined test Processes
+### Advisory: Tips for Streamlined Test Processes
 
--   Changes to controls may also include changes in color to convey information. If so, this test should check that the information is programmatically determinable. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 7. Sensory Characteristics](#sensory-characteristics)).
--   The accessible name and accessible description of some user controls are tested in other Baseline tests, such as [Baseline 10. Forms](#forms), [Baseline 14. Links](#links).
+-   Changes to controls may also include changes in color to convey information. If so, this test should check that the information is programmatically determinable. If color is used as the only visual means of conveying information (or changes in information), then the content would fail to meet SC 1.4.1 Use of Color (addressed in [Baseline 7. Sensory Characteristics](https://ictbaseline.access-board.gov/document-baselines/07SensoryDocs)).
+-   The accessible name and accessible description of some user controls are tested in other Baseline tests, such as [Baseline 10. Forms](https://ictbaseline.access-board.gov/document-baselines/10FormsDocs), [Baseline 14. Links](https://ictbaseline.access-board.gov/document-baselines/14LinksDocs).
 -   For user controls that have dedicated Baseline Tests, please map to those tests for accessible name instead of 5.A-ControlName.
 -   This test may require interaction with controls to assess changes in name, role, state, value. Interaction instructions such as a test plan may be helpful.
 

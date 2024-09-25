@@ -1,6 +1,7 @@
 ---
-title: "24. Parsing (Documents)"
+title: "24. Parsing"
 order-number: 25
+toc-group: baseline-docs
 ---
 
 ## 24. Parsing
@@ -31,7 +32,7 @@ order-number: 25
 #### Test Results
 <p id="d24aTR">Baseline Test 24.A-Parsing passes.</p>
 
-### Advisory: Tips for Streamlined Processes
+### Advisory: Tips for Streamlined Test Processes
 
 None
 

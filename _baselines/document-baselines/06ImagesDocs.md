@@ -1,6 +1,7 @@
 ---
-title: "6. Images (Documents)"
+title: "6. Images"
 order-number: 7
+toc-group: baseline-docs
 ---
 
 ## 6. Images
@@ -112,7 +113,7 @@ order-number: 7
 
 <p id="d6dTR">If any of the above checks fail, then Baseline Test 6.D-ImageText fails.</p>
 
-### Advisory: Tips for Streamlined test Processes
+### Advisory: Tips for Streamlined Test Processes
 
 None
 
