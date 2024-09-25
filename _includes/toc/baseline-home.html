@@ -51,31 +51,13 @@ endif %} {% endif %} {% endif %} {% if chapters %}
                 <li class="usa-sidenav__item">
                   <a href="{{baseurl}}/">ICT Testing Baseline Portfolio Home</a>
                 </li>
-                {% for chapter in chapters %}
                 <li class="usa-sidenav__item">
-                  {% if page.title == chapter.title %}
-                  <button
-                    class="subnav-anchor usa-current usa-accordion__button"
-                    aria-expanded="true"
-                    aria-controls="subsections"
-                  >
-                    {{ chapter.title }}
-                  </button>
-                  <ul
-                    id="subsections"
-                    class="usa-accordion__content usa-sidenav__sublist"
-                    aria-label="Page sections navigation"
-                  ></ul>
-                  {% else %}
-                  <a
-                    class="subnav-anchor bg-white"
-                    href="{{site.baseurl}}{{ chapter.url }}"
-                  >
-                    {{ chapter.title }}
-                  </a>
-                  {% endif %}
+                  <a href="{{baseurl}}/document-baselines/00introductionDocs/">Baseline for Electronic Documents</a>
                 </li>
-                {% endfor %}
+                <li class="usa-sidenav__item">
+                  <a href="{{baseurl}}/web-baselines/introduction/">Baseline for Web</a>
+                </li>
+                
               </ul>
             </li>
           </ul>

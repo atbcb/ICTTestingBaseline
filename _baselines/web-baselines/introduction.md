@@ -4,9 +4,9 @@ order-number: 1
 toc-group: baseline-web
 ---
 
-## Introduction
+## ICT Testing Baseline for Web
 
-### ICT Testing Baseline for Web
+### Introduction
 
 This document contains baseline tests for conformance to Revised 508 Standards for Web, which incorporates by reference the [WCAG 2.0 Level A and AA Success Criteria](https://www.w3.org/TR/WCAG20/). The baseline tests establish the minimum tests and evaluation guidance that determine whether Web content meets Section 508 requirements. The ICT Testing Baseline is not intended to be a test process itself.
 
