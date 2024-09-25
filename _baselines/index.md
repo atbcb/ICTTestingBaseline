@@ -25,7 +25,7 @@ What the ICT Testing Baseline Is NOT:
 
 ## ICT Testing Baseline for Web Accessibility
 
-The [ICT Testing Baseline for Web](web-baselines/introcution/), version 3.1 (published April 1, 2024), sets the standard for testing web content against Section 508 compliance requirements. This baseline is recognized as a Best Practice by the Federal CIO Council’s Accessibility Community of Practice (ACOP). Federal agencies are encouraged to adopt this baseline when evaluating web content for accessibility.
+The [ICT Testing Baseline for Web](web-baselines/introduction/), version 3.1 (published April 1, 2024), sets the standard for testing web content against Section 508 compliance requirements. This baseline is recognized as a Best Practice by the Federal CIO Council’s Accessibility Community of Practice (ACOP). Federal agencies are encouraged to adopt this baseline when evaluating web content for accessibility.
 
 [Previous versions of the Baseline for Web](https://github.com/atbcb/ICTTestingBaseline/releases) are available on the Github repository.
 
