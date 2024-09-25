@@ -2,6 +2,7 @@
 title: "11. Document Titles"
 order-number: 12
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 11. Document Titles

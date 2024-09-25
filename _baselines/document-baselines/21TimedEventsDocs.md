@@ -2,6 +2,7 @@
 title: "21. Timed Events"
 order-number: 22
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 21. Timed Events

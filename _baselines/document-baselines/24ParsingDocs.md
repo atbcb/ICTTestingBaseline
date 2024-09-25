@@ -2,6 +2,7 @@
 title: "24. Parsing"
 order-number: 25
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 24. Parsing

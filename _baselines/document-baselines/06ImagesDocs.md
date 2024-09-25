@@ -2,6 +2,7 @@
 title: "6. Images"
 order-number: 7
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 6. Images

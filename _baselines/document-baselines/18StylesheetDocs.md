@@ -2,6 +2,7 @@
 title: "18. Meaningful Content and Sequence"
 order-number: 19
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 18. Meaningful Content and Sequence

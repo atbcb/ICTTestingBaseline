@@ -2,6 +2,7 @@
 title: "4. Repetitive Content"
 order-number: 5
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 4. Repetitive Content
 

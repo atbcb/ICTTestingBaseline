@@ -2,6 +2,7 @@
 title: "13. Content Structure"
 order-number: 14
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 13. Content Structure
 

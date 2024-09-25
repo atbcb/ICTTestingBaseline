@@ -2,6 +2,7 @@
 title: "8. Contrast"
 order-number: 9
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 8. Contrast

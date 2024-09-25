@@ -2,6 +2,7 @@
 title: "18. CSS Positioning"
 order-number: 19
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 18. CSS Positioning
 
@@ -19,7 +20,7 @@ Meaningful information provided solely through CSS content may not be in the Doc
 -   Inline styling is included in this test.
 
 ### 18.A for Test Procedure for Meaningful Background Image 
-CSS background image is now covered under [Baseline 6.B Test Procedure for Images with empty text alternatives](https://ictbaseline.access-board.gov/web-baselines/06Images/#6b-test-procedure-for-images-with-an-empty-text-alternative).
+CSS background image is now covered under [Baseline 6.B Test Procedure for Images with empty text alternatives]({{site.baseurl}}/web-baselines/06Images/#6b-test-procedure-for-images-with-an-empty-text-alternative).
 
 ### 18.B Test Procedure for CSS Positioned Content
 

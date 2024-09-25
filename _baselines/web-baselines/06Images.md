@@ -2,6 +2,7 @@
 title: "6. Images"
 order-number: 7
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 6. Images
 

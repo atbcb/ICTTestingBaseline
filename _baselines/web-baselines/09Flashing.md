@@ -2,6 +2,7 @@
 title: "9. Flashing"
 order-number: 10
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 9. Flashing
 
@@ -24,7 +25,7 @@ This test addresses flashing caused by the content itself, including:
 
 -   It is possible that users could view content at a resolution or from a distance much different from the intended resolution and viewing distance.
 -   For the purposes of this baseline, the terms flicker and [blink](https://www.w3.org/TR/WCAG22/#dfn-blinking) may be used synonymously with the term flash.
--   Blinking elements that conform to this requirement are still required to conform to SC 2.2.2 Pause Stop Hide, if the blinking lasts longer than 5 seconds ([Baseline 21. Timed Events](https://ictbaseline.access-board.gov/web-baselines/21TimedEvents/)).
+-   Blinking elements that conform to this requirement are still required to conform to SC 2.2.2 Pause Stop Hide, if the blinking lasts longer than 5 seconds ([Baseline 21. Timed Events]({{site.baseurl}}/web-baselines/21TimedEvents/)).
 -   Note from SC 2.3.1:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 

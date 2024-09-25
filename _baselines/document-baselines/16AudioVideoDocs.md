@@ -2,6 +2,7 @@
 title: "16. Audio-Only and Video-Only"
 order-number: 17'
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 16. Audio-Only and Video-Only
@@ -23,19 +24,19 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 ### Audio-Only
 
 -   [Audio-only](https://www.w3.org/TR/WCAG22/#dfn-audio-only) is a time-based presentation that contains only audio (no video and no interaction).
--   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: [Baseline 17. Synchronized Media](https://ictbaseline.access-board.gov/document-baselines/17SyncMediaDocs).
+-   If audio is synchronized with video, slides, animations, or other time-based visual media, then use the synchronization test instead: [Baseline 17. Synchronized Media]({{site.baseurl}}/document-baselines/17SyncMediaDocs).
 -   Audio labeled as a media alternative for text does not require additional description if it is indeed equivalent to the text.
 -   A text equivalent is not required for audio that is provided as an equivalent for video with no audio information. For example, it is not required to caption video description that is provided as an alternative to a silent movie.
 -   Short sounds used to notify the user, such as confirmation beeps and error notifications, are not included in this requirement.
--   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under [Baseline 7. Sensory Characteristics](https://ictbaseline.access-board.gov/document-baselines/07SensoryDocs).
+-   Information and/or instructions provided in the form of audio-only content must provide equivalent programmatic and/or textual cues; the check for this requirement is performed under [Baseline 7. Sensory Characteristics]({{site.baseurl}}/document-baselines/07SensoryDocs).
 
 ### Video-Only
 
 -   [Video-only](https://www.w3.org/TR/WCAG22/#dfn-video-only) is a time-based presentation that contains only video (no audio and no interaction).
 -   In a video-only presentation, information is presented in a variety of ways including animation, text or graphics, the setting and background, the actions and expressions of people, animals, etc.
 -   Video labeled as a media alternative for text does not require additional description if it is indeed equivalent to the text.
--   If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for [Baseline 17. Synchronized Media](https://ictbaseline.access-board.gov/document-baselines/17SyncMediaDocs) requirements.
--   Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under [Baseline 21. Timed Events](https://ictbaseline.access-board.gov/document-baselines/21TimedEventsDocs).
+-   If the video is accompanied by timed sounds or meaningful dialog, it is not video-only. Test for [Baseline 17. Synchronized Media]({{site.baseurl}}/document-baselines/17SyncMediaDocs) requirements.
+-   Video-only content may present moving, blinking, scrolling, or auto-updating information; however, other methods may be used to present similar content. In either case, whether presented via video-only or some other method, the content must provide the ability to pause, stop, or hide the content. The check for this requirement is performed under [Baseline 21. Timed Events]({{site.baseurl}}/document-baselines/21TimedEventsDocs).
 
 ### 16.A Test Procedure for Audio-only (Prerecorded)
 
@@ -96,7 +97,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 #### Test Results
 
-<p id="d16cTR">If any of the above checks fail, then the audio-only is not a media alternative for text. Perform Baseline Test <a href="#16a-test-procedure-for-audio-only-prerecorded">16.A Test Procedure for Audio-Only (Prerecorded)</a>.</p>
+<p id="d16cTR">If any of the above checks fail, then the audio-only is not a media alternative for text. Perform Baseline Test <a href="{{site.baseurl}}/document-baselines/16AudioVideoDocs/#16a-test-procedure-for-audio-only-prerecorded">16.A Test Procedure for Audio-Only (Prerecorded)</a>.</p>
 
 ### 16.D Test Procedure for Video Media Alternative (Prerecorded)
 
@@ -116,7 +117,7 @@ Evaluation of alternative content to assess its equivalence to audio-only or vid
 
 #### Test Results
 
-<p id="d16dTR">If any of the above checks fail, then the video-only is not a media alternative for text. Perform Baseline Test <a href="#16b-test-procedure-for-video-only-prerecorded">16.B Test Procedure for Video-only (Prerecorded)</a>.</p>
+<p id="d16dTR">If any of the above checks fail, then the video-only is not a media alternative for text. Perform Baseline Test <a href="{{site.baseurl}}/document-baselines/16AudioVideoDocs/#16b-test-procedure-for-video-only-prerecorded">16.B Test Procedure for Video-only (Prerecorded)</a>.</p>
 
 
 ### Advisory: Tips for Streamlined Test Processes

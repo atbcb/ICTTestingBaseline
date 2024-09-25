@@ -2,6 +2,7 @@
 title: "Appendix B - Change Log"
 order-number: 101
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## Appendix B - Change Log
 

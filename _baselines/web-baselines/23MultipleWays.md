@@ -2,6 +2,7 @@
 title: "23. Multiple Ways"
 order-number: 24
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 23. Multiple Ways
 

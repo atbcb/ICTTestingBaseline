@@ -2,6 +2,7 @@
 title: "14. Links"
 order-number: 15
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 14. Links

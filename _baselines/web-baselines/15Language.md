@@ -2,6 +2,7 @@
 title: "15. Language"
 order-number: 16
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 15. Language
 

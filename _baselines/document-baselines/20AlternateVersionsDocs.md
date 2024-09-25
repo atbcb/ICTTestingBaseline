@@ -1,7 +1,8 @@
 ---
 title: "20. Conforming Alternate Version"  
 order-number: 21
-toc-group: baseline-docs  
+toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 20. Conforming Alternate Version
@@ -65,7 +66,7 @@ An alternate version must meet all parts of the definition in order to be consid
 
 #### Test Results
 
-<p id="d20aTR">If any of the above tests fail, a Conforming Alternate Version does not exist and <a href="#d20aTI-1">Baseline Requirement 20.A-ConformingAltVersion</a> DOES NOT APPLY.</p>
+<p id="d20aTR">If any of the above tests fail, a Conforming Alternate Version does not exist and <a href="{{site.baseurl}}/document-baselines/20AlternateVersionsDocs/#20a-test-procedure-for-conforming-alternate-version">Baseline Requirement 20.A-ConformingAltVersion</a> DOES NOT APPLY.</p>
 
 ### Advisory: Tips for Streamlined Test Processes
 

@@ -4,7 +4,6 @@ order-number: 0
 permalink: /
 toc: /toc/baseline-home.html
 ---
-
 ## Overview
 
 The [Information and Communication Technology](https://www.access-board.gov/ict/#defICT) (ICT) Testing Baselines establish the minimum requirements for evaluating the conformance of ICT with the [Revised Section 508 of the Rehabilitation Act of 1973](https://www.access-board.gov/ict), as amended (29 U.S.C. 794d). These Baselines serve as a critical benchmark for evaluating the quality of test processes that support digital accessibility conformance across federal agencies.

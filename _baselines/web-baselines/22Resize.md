@@ -2,6 +2,7 @@
 title: "22. Resize Text"
 order-number: 23
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 22. Resize Text
 

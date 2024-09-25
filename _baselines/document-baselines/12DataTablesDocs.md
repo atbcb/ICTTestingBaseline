@@ -2,6 +2,7 @@
 title: "12. Tables"
 order-number: 13
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 12. Tables
@@ -20,7 +21,7 @@ When `<table>` elements are used for layout purposes, data table structure eleme
 ### Limitations, Assumptions, Exceptions
 
 -   Data tables are tables where information in a cell requires a row and/or column header to adequately describe the cell's contents. If a table is used for placement of content for visual aesthetics, it is considered a layout table.
--   Some content may visually appear to require a data table structure, but linearizing the content reveals that the content is understandable without the table. These elements use styling methods to present content in columns or rows. The information conveyed does not rely on programmatic relationships between column or row headers to be understood. This content is not a data table and should not have associated programmatic table attributes. It should be tested using other baseline tests, such as [13. Structure](https://ictbaseline.access-board.gov/document-baselines/13StructureDocs) and/or possibly [10. Forms)](https://ictbaseline.access-board.gov/document-baselines/10FormsDocs) (assocated instructions).
+-   Some content may visually appear to require a data table structure, but linearizing the content reveals that the content is understandable without the table. These elements use styling methods to present content in columns or rows. The information conveyed does not rely on programmatic relationships between column or row headers to be understood. This content is not a data table and should not have associated programmatic table attributes. It should be tested using other baseline tests, such as [13. Structure]({{site.baseurl}}/document-baselines/13StructureDocs) and/or possibly [10. Forms)]({{site.baseurl}}/document-baselines/10FormsDocs) (assocated instructions).
 -   Rows of data that are related must have a row header so assistive technology users can understand the relationship of the row's data cells. Not every table requires a row header. For example, a calendar month is a data table, typically with the days of the week as column headers. The dates in a row are not related so typically, there is no row header present. However, if there was a cell in each row to indicate the week of the month, this cell would serve as a row header for the dates within that row.
 -   Complex data tables are tables that have any one or more of these elements: multiple columns of row headers, multiple rows of column headers, and split or merged cells. These tables must incorporate formatting that establishes programmatically determinable relationships.
 
@@ -87,7 +88,7 @@ If any of the above tests fail, Baseline Test 12.C-LayoutTable fails.
 ### Advisory: Tips for Streamlined Test Processes
 
 -   Content that is presented with a table appearance, but does not rely on header association, can most easily be identified by linearization. Another helpful indicator is the table only has row headers or column headers but not both.
--   [Baseline Tests 12.A](#a-test-procedure-for-data-table-roles) and [12.C](#c-test-procedure-for-layout-tables) should be performed for each data table.
+-   [Baseline Tests 12.A]({{site.baseurl}}/document-baselines/12DataTablesDocs/#12a-test-procedure-for-data-table-roles) and [12.C]({{site.baseurl}}/document-baselines/12DataTablesDocs/#12c-test-procedure-for-layout-tables) should be performed for each data table.
 
 ### WCAG 2.2 Techniques
 

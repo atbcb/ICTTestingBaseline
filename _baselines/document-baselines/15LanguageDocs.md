@@ -2,6 +2,7 @@
 title: "15. Language"
 order-number: 16
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 15. Language

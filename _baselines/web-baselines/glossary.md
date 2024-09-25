@@ -2,6 +2,7 @@
 title: "Glossary"
 order-number: 103
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## Glossary
 

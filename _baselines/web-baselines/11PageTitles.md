@@ -2,6 +2,7 @@
 title: "11. Page Titles"
 order-number: 12
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 11. Page Titles
 

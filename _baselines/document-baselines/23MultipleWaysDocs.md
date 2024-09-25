@@ -2,6 +2,7 @@
 title: "23. Multiple Ways — Not Applicable to Documents"
 order-number: 24
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 23. Multiple Ways — Not Applicable to Documents

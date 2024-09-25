@@ -2,6 +2,7 @@
 title: "2. Focus"
 order-number: 3
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 2. Focus

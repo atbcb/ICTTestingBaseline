@@ -2,6 +2,7 @@
 title: "3. Non-Interference"
 order-number: 4
 toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 ## 3. Non-Interference
@@ -28,7 +29,7 @@ None
 
 #### Identify Content
 
-<p id="d3aIC">Results of Baseline Tests <a href="../21TimedEventsDocs/#21d-test-procedure-for-audio-control">21.D-AudioControl</a>, <a href="#../01KeyboardDocs/#1b-test-procedure-for-no-keyboard-trap">1.B-NoKeyboardTrap</a>, <a href="../09FlashingDocs/#9a-test-procedure-for-three-flashes-or-below-threshold">9.A-Flashes</a>, <a href="../21TimedEventsDocs/#21b-test-procedure-for-moving-information">21.B-MovingInfo</a>, and <a href="../21TimedEvents/#21c-test-procedure-for-auto-updating-information">21.C-AutoUpdate</a>.</p>
+<p id="d3aIC">Results of Baseline Tests <a href="{{site.baseurl}}/document-baselines/21TimedEventsDocs/#21d-test-procedure-for-audio-control">21.D-AudioControl</a>, <a href="{{site.baseurl}}/document-baselines/01KeyboardDocs/#1b-test-procedure-for-no-keyboard-trap">1.B-NoKeyboardTrap</a>, <a href="{{site.baseurl}}/document-baselines/09FlashingDocs/#9a-test-procedure-for-three-flashes-or-below-threshold">9.A-Flashes</a>, <a href="{{site.baseurl}}/document-baselines/21TimedEventsDocs/#21b-test-procedure-for-moving-information">21.B-MovingInfo</a>, and <a href="{{site.baseurl}}/document-baselines/21TimedEvents/#21c-test-procedure-for-auto-updating-information">21.C-AutoUpdate</a>.</p>
 
 #### Test Instructions
 

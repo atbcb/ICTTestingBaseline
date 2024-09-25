@@ -2,6 +2,7 @@
 title: "1. Keyboard Accessible"
 order-number: 2
 toc-group: baseline-web
+banner-title: "Baseline for Web"
 ---
 ## 1. Keyboard Accessible
 

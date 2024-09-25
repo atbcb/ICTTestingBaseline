@@ -29,15 +29,17 @@ Electronic content that is public facing shall conform to the accessibility requ
 
 Electronic content that is not public facing shall conform to the accessibility requirements specified in [E205.4](#e205.4-accessibility-standard) when such content constitutes official business and is communicated by an agency through one or more of the following:
 
-&nbsp;&nbsp;&nbsp;&nbsp;A. An emergency notification  
-&nbsp;&nbsp;&nbsp;&nbsp;B. An initial or final decision adjudicating an administrative claim or proceeding  
-&nbsp;&nbsp;&nbsp;&nbsp;C. An internal or external program or policy announcement  
-&nbsp;&nbsp;&nbsp;&nbsp;D. A notice of benefits, program eligibility, employment opportunity, or personnel action  
-&nbsp;&nbsp;&nbsp;&nbsp;E. A formal acknowledgement of receipt  
-&nbsp;&nbsp;&nbsp;&nbsp;F. A survey questionnaire  
-&nbsp;&nbsp;&nbsp;&nbsp;G. A template or form  
-&nbsp;&nbsp;&nbsp;&nbsp;H. Educational or training materials; or  
-&nbsp;&nbsp;&nbsp;&nbsp;I. Intranet content designed as a Web page
+<ol type="A">
+    <li>An emergency notification</li>
+    <li>An initial or final decision adjudicating an administrative claim or proceeding.</li>
+    <li>An internal or external program or policy announcement.</li>
+    <li>A notice of benefits, program eligibility, employment opportunity, or personnel action.</li>
+    <li>A formal acknowledgment of receipt.</li>
+    <li>A survey questionnaire.</li>
+    <li>A template or form.</li>
+    <li>Educational or training materials; or</li>
+    <li>Intranet content designed as a Web page.</li>
+</ol>
 
 ##### E205.4 Accessibility Standard
 
