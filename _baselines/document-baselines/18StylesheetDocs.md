@@ -31,7 +31,7 @@ Meaningful content must be available to all users. The sequence of the content (
 
 <p id="d18aIC">Meaningful visible content</p>
 
-Do not include meaningful background images, which are covered under [Baseline 6. Images]({{site.baseurl}}/document-baselines/06ImagesDocs/#6b-test-procedure-for-images-with-an-empty-text-alternative).
+Do not include meaningful background images, which are covered under [Baseline 6. Images]({{site.baseurl}}/document-baselines/06ImagesDocs/).
 
 #### Test Instructions
 
