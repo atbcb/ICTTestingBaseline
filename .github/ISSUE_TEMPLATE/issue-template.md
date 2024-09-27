@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-Please identify which Baseline for Web test your issue is about (example: Test 6. Images)
+Please identify which Baseline your issue is about (example: Web Baseline Test 6. Images)
