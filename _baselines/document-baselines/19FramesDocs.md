@@ -1,5 +1,5 @@
 ---
-title: "19. Frames and iFrames (Docs)"
+title: "19. Frames and iFrames -- Not Applicable (Docs)"
 order-number: 20
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
