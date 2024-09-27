@@ -1,5 +1,5 @@
 ---
-name: Baseline Issue template
+name: Baseline Issue Report
 about: Report an issue to help us improve
 title: ''
 labels: ''
