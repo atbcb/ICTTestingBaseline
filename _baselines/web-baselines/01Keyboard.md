@@ -1,5 +1,5 @@
 ---
-title: "1. Keyboard Accessible"
+title: "1. Keyboard Accessible (Web)"
 order-number: 2
 toc-group: baseline-web
 banner-title: "Baseline for Web"

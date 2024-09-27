@@ -1,5 +1,5 @@
 ---
-title: "3. Non-Interference"
+title: "3. Non-Interference (Docs)"
 order-number: 4
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

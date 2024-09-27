@@ -1,5 +1,5 @@
 ---
-title: "20. Conforming Alternate Version"  
+title: "20. Conforming Alternate Version (Docs)"  
 order-number: 21
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

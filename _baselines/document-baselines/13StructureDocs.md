@@ -1,5 +1,5 @@
 ---
-title: "13. Content Structure"
+title: "13. Content Structure (Docs)"
 order-number: 14
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

@@ -1,5 +1,5 @@
 ---
-title: "2. Focus"
+title: "2. Focus (Web)"
 order-number: 3
 toc-group: baseline-web
 banner-title: "Baseline for Web"

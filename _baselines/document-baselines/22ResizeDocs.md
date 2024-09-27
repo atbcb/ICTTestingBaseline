@@ -1,5 +1,5 @@
 ---
-title: "22. Resize Text"
+title: "22. Resize Text (Docs)"
 order-number: 23
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

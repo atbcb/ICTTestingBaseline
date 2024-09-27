@@ -1,5 +1,5 @@
 ---
-title: "12. Tables"
+title: "12. Tables (Web)"
 order-number: 13
 toc-group: baseline-web
 banner-title: "Baseline for Web"

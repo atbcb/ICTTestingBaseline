@@ -1,5 +1,5 @@
 ---
-title: "5. User Controls"
+title: "5. User Controls (Docs)"
 order-number: 6
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

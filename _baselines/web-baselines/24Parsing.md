@@ -1,5 +1,5 @@
 ---
-title: "24. Parsing"
+title: "24. Parsing (Web)"
 order-number: 25
 toc-group: baseline-web
 banner-title: "Baseline for Web"

@@ -1,5 +1,5 @@
 ---
-title: "4. Repetitive Content"
+title: "4. Repetitive Content (Web)"
 order-number: 5
 toc-group: baseline-web
 banner-title: "Baseline for Web"

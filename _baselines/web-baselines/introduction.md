@@ -1,8 +1,9 @@
 ---
-title: "Introduction"
+title: "Baseline for Web"
 order-number: 1
 toc-group: baseline-web
 banner-title: "Baseline for Web"
+permalink: web-baselines/
 ---
 
 ## ICT Testing Baseline for Web

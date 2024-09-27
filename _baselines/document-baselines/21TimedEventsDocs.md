@@ -1,5 +1,5 @@
 ---
-title: "21. Timed Events"
+title: "21. Timed Events (Docs)"
 order-number: 22
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

@@ -1,5 +1,5 @@
 ---
-title: "13. Content Structure"
+title: "13. Content Structure (Web)"
 order-number: 14
 toc-group: baseline-web
 banner-title: "Baseline for Web"

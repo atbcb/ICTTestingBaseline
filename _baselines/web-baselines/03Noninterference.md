@@ -1,5 +1,5 @@
 ---
-title: "3. Non-Interference"
+title: "3. Non-Interference (Web)"
 order-number: 4
 toc-group: baseline-web
 banner-title: "Baseline for Web"

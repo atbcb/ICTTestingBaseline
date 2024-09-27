@@ -1,5 +1,5 @@
 ---
-title: "6. Images"
+title: "6. Images (Docs)"
 order-number: 7
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

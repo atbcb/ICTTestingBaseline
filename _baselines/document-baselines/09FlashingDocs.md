@@ -1,5 +1,5 @@
 ---
-title: "9. Flashing"  
+title: "9. Flashing (Docs)"  
 order-number: 10
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

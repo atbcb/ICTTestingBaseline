@@ -1,5 +1,5 @@
 ---
-title: "18. Meaningful Content and Sequence"
+title: "18. Meaningful Content and Sequence (Docs)"
 order-number: 19
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

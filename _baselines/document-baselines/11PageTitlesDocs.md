@@ -1,5 +1,5 @@
 ---
-title: "11. Document Titles"
+title: "11. Document Titles (Docs)"
 order-number: 12
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

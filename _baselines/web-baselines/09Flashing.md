@@ -1,5 +1,5 @@
 ---
-title: "9. Flashing"
+title: "9. Flashing (Web)"
 order-number: 10
 toc-group: baseline-web
 banner-title: "Baseline for Web"

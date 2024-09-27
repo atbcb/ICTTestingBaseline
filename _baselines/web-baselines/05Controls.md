@@ -1,5 +1,5 @@
 ---
-title: "5. User Controls"
+title: "5. User Controls (Web)"
 order-number: 6
 toc-group: baseline-web
 banner-title: "Baseline for Web"

@@ -1,5 +1,5 @@
 ---
-title: "22. Resize Text"
+title: "22. Resize Text (Web)"
 order-number: 23
 toc-group: baseline-web
 banner-title: "Baseline for Web"

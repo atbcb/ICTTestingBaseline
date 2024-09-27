@@ -1,5 +1,5 @@
 ---
-title: "8. Contrast"
+title: "8. Contrast (Docs)"
 order-number: 9
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

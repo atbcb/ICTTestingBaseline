@@ -1,5 +1,5 @@
 ---
-title: "11. Page Titles"
+title: "11. Page Titles (Web)"
 order-number: 12
 toc-group: baseline-web
 banner-title: "Baseline for Web"

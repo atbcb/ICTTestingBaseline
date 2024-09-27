@@ -6,39 +6,33 @@ toc: /toc/baseline-home.html
 ---
 ## Overview
 
-The [Information and Communication Technology](https://www.access-board.gov/ict/#defICT) (ICT) Testing Baselines establish the minimum requirements for evaluating the conformance of ICT with the [Revised Section 508 of the Rehabilitation Act of 1973](https://www.access-board.gov/ict), as amended (29 U.S.C. 794d). These Baselines serve as a critical benchmark for evaluating the quality of test processes that support digital accessibility conformance across federal agencies.
+The [Information and Communication Technology](https://www.access-board.gov/ict/#defICT) (ICT) Testing Baseline Portfolio establishes the minimum requirements for evaluating the conformance of ICT with the [Revised Section 508 of the Rehabilitation Act of 1973](https://www.access-board.gov/ict), as amended (29 U.S.C. 794d). These Baselines are a benchmark for test processes that determine Section 508 conformance for ICT across federal agencies.
+
+The purpose of the ICT Testing Baselines is to provide a standardized set of components for evaluating Section 508 conformance. Incorporating the Baseline tests into a test process ensures that necessary elements are tested, reducing the risk of overlooking important requirements. The Baseline provides clear guidance on what needs to be tested, helping organizations assess the accuracy of their testing methodology and tools.
 
 What the ICT Testing Baseline Is:
 
-* A collection of procedures that define the critical elements a conformance test process should evaluate.  
-* A framework for evaluating Section 508 conformance test processes, providing a unified way to determine how they align with the applicable Baseline tests.
-* An approach that helps agencies apply a consistent approach to accessibility testing.  
-* Testing tool agnostic.
+* A comprehensive set of test components that a Section 508 conformance test process should include to ensure full coverage of all requirements.  
+* Independent of any testing tools.
 
 What the ICT Testing Baseline Is NOT:
 
 * A step-by-step testing procedure or methodology.  
 * A specific testing tool or software for Section 508 conformance testing.
 
-## ICT Testing Baseline for Web Accessibility
+The Portfolio includes a Baseline for Web and a Baseline for Documents. Additional Baselines will be developed for all ICT covered by Section 508 including software and hardware. 
 
-The [ICT Testing Baseline for Web](web-baselines/introduction/), version 3.1 (published April 1, 2024), sets the standard for testing web content against Section 508 compliance requirements. This baseline is recognized as a Best Practice by the Federal CIO Council’s Accessibility Community of Practice (ACOP). Federal agencies are encouraged to adopt this baseline when evaluating web content for accessibility.
+### ICT Testing Baseline for Web Accessibility
 
-[Previous versions of the Baseline for Web](https://github.com/atbcb/ICTTestingBaseline/releases) are available on the Github repository.
+The [ICT Testing Baseline for Web](web-baselines/introduction/), version 3.1 (published April 1, 2024), sets the standard for testing web content for conformance with Section 508 compliance requirements. This baseline is recognized as a Best Practice by the Federal CIO Council’s Accessibility Community of Practice (ACOP). Federal agencies are encouraged to adopt this baseline when evaluating web content for accessibility.
 
-## ICT Testing Baseline for Electronic Documents
+### ICT Testing Baseline for Electronic Documents
 
-The [ICT Testing Baseline for Electronic Documents](document-baselines/00introductionDocs/), Version 1.0 (published September 30, 2024), sets the standard for testing all types of electronic documents against Section 508 compliance requirements. Federal agencies are encouraged to adopt this baseline when evaluating non-web electronic documents for accessibility, ensuring coverage of both present and future formats.
+The [ICT Testing Baseline for Electronic Documents](document-baselines/00introductionDocs/), Version 1.0 (published September 30, 2024), sets the standard for testing all types of electronic documents for conformance with Section 508 compliance requirements. Federal agencies are encouraged to adopt this baseline when evaluating non-web electronic documents for accessibility.
 
-## Future ICT Testing Baselines
+### Understanding WCAG Version
 
-In addition to web content and electronic documents, the ICT Testing Baseline Portfolio will expand to include future baselines for software, hardware, and other potential types of ICT. These upcoming baselines will harmonize accessibility testing processes in diverse ICT domains and ensure consistent conformance to Section 508 requirements across federal agencies.
-
-This section will also provide announcements about the development and progress of these future baselines as they become available.
-
-## WCAG 2.2
-
-The [Section 508 requirements for electronic content](https://www.access-board.gov/ict/#E205-content) reference the WCAG 2.0 Level A and AA Success Criteria. Although Section 508 does not mandate compliance with WCAG 2.2, the Baseline references the improved explanations and guidance from WCAG 2.2 documentation.
+While Section 508 requires WCAG 2.0 Level A and AA, Baseline tests with applicable WCAG success criteria (SC) reference the latest version (2.2) of WCAG Understanding SC articles. These updated Understanding SC articles provided improved clarity and explanations and informed the development of the Baseline tests. However, the Baselines are mapped only to Section 508 (and WCAG 2.0) requirements.
 
 ## How to Contribute
 
@@ -47,6 +41,6 @@ We invite you to contribute to the ongoing development of the ICT Testing Baseli
 * Fork the repository and propose improvements via issues and pull requests.  
 * Submit test cases to help validate test processes and tools.
 
-The ICT Testing Baseline Working Group (ITBWG) maintains the ICT Testing Baseline for Web and for Documents on [this GitHub repository](https://github.com/atbcb/ICTTestingBaseline).
+The ICT Testing Baseline Working Group (ITBWG) maintains the ICT Testing Baseline Portfolio on [this GitHub repository](https://github.com/atbcb/ICTTestingBaseline).
 
 *Last updated: September 30, 2024*

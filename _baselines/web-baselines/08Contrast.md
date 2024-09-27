@@ -1,5 +1,5 @@
 ---
-title: "8. Contrast"
+title: "8. Contrast (Web)"
 order-number: 9
 toc-group: baseline-web
 banner-title: "Baseline for Web"

@@ -1,5 +1,5 @@
 ---
-title: "15. Language"
+title: "15. Language (Docs)"
 order-number: 16
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

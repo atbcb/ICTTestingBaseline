@@ -1,5 +1,5 @@
 ---
-title: "2. Focus"
+title: "2. Focus (Docs)"
 order-number: 3
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"

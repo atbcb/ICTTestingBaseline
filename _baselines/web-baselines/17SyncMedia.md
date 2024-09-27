@@ -1,5 +1,5 @@
 ---
-title: "17. Synchronized Media"
+title: "17. Synchronized Media (Web)"
 order-number: 18
 toc-group: baseline-web
 banner-title: "Baseline for Web"

@@ -1,5 +1,5 @@
 ---
-title: "1. Keyboard Accessible"
+title: "1. Keyboard Accessible (Docs)"
 order-number: 2
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
