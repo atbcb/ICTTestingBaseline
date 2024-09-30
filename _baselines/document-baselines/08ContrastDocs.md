@@ -44,8 +44,8 @@ This test is conducted to evaluate equal access to information for all users, in
 #### Test Instructions
 <ol id="d8aTI">
     <li id="d8aTI-1">Determine the <a href="https://www.w3.org/TR/WCAG22/#dfn-contrast-ratio" target="_blank" rel="noopener">contrast ratio</a> of foreground text and background.</li>
-    <li id="d8aTI-2">Check that the contrast ratio is at least 4.5:1. <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank" rel="noopener">[SC 1.4.3]</a></li>
-    <li id="d8aTI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 <strong>AND</strong> the font meets one of the following criteria: <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html" target="_blank" rel="noopener">[SC 1.4.3]</a>
+    <li id="d8aTI-2">Check that the contrast ratio is at least 4.5:1. [SC 1.4.3]</li>
+    <li id="d8aTI-3">If the contrast ratio is less than 4.5:1, check that the ratio is at least 3:1 <strong>AND</strong> the font meets one of the following criteria: [SC 1.4.3]
         <ul>
             <li>At least 18 point (24 pixels)</li>
             <li>At least 14 point (18.5 pixels) <strong>AND</strong> bold (at least 700 font weight)</li>
