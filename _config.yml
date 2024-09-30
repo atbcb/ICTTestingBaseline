@@ -1,4 +1,4 @@
-title: Section 508 ICT Testing Baseline
+title: Section 508 ICT Testing Baseline Portfolio
 email: itbwg@gsa.gov
 description: >-
   The tests included in the Section 508 ICT Testing Baseline reduce ambiguity,
@@ -40,7 +40,7 @@ defaults:
       path: ""
       type: "baselines"
     values:
-      banner-title: "Section 508 ICT Testing Baseline"
+      banner-title: "ICT Testing Baseline Portfolio"
       collection-folder: baselines
       layout: universal
       image-directory: /images/
