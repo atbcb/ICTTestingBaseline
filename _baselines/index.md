@@ -24,11 +24,11 @@ The Portfolio includes a Baseline for Web and a Baseline for Documents. Addition
 
 ### ICT Testing Baseline for Web Accessibility
 
-The [ICT Testing Baseline for Web](web-baselines/introduction/), version 3.1 (published April 1, 2024), sets the standard for testing web content for conformance with Section 508 compliance requirements. This baseline is recognized as a Best Practice by the Federal CIO Council’s Accessibility Community of Practice (ACOP). Federal agencies are encouraged to adopt this baseline when evaluating web content for accessibility.
+The [ICT Testing Baseline for Web]({{ site.baseurl }}/web-baselines/), version 3.1 (published April 1, 2024), sets the standard for testing web content for conformance with Section 508 compliance requirements. This baseline is recognized as a Best Practice by the Federal CIO Council’s Accessibility Community of Practice (ACOP). Federal agencies are encouraged to adopt this baseline when evaluating web content for accessibility.
 
 ### ICT Testing Baseline for Electronic Documents
 
-The [ICT Testing Baseline for Electronic Documents](document-baselines/00introductionDocs/), Version 1.0 (published September 30, 2024), sets the standard for testing all types of electronic documents for conformance with Section 508 compliance requirements. Federal agencies are encouraged to adopt this baseline when evaluating non-web electronic documents for accessibility.
+The [ICT Testing Baseline for Electronic Documents]({{ site.baseurl }}/document-baselines/), Version 1.0 (published September 30, 2024), sets the standard for testing all types of electronic documents for conformance with Section 508 compliance requirements. Federal agencies are encouraged to adopt this baseline when evaluating non-web electronic documents for accessibility.
 
 ### Understanding WCAG Version
 
