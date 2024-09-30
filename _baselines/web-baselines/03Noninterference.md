@@ -43,4 +43,4 @@ None.
 
 ### WCAG 2.2 Techniques
 
-NA.
+Not Applicable.

@@ -10,11 +10,11 @@ permalink: document-baselines/
 
 ### Introduction
 
-The Section 508 definition of Document:
+The Section 508 definition of [Document](https://www.access-board.gov/ict/#defDocument):
 
 > Logically distinct assembly of content (such as a file, set of files, or streamed media) that: functions as a single entity rather than a collection; is not part of software; and does not include its own software to retrieve and present content for users. Examples of documents include, but are not limited to, letters, email messages, spreadsheets, presentations, podcasts, images, and movies.
 
-The Baseline for Electronic Documents covers all non-web documents. (A document is not: a Web page, embedded in a Web page, or used in the rendering or functioning of Web pages.) Version 1.0 was released on September 30, 2024.
+The Baseline for Electronic Documents covers all [non-web documents](https://www.access-board.gov/ict/#defNonWebDocument),(A non-web document, defined in Section 508, is a document that is not: a Web page, embedded in a Web page, or used in the rendering or functioning of Web pages.) Version 1.0 was released on September 30, 2024.
 
 ### Section 508 Requirements for Documents
 

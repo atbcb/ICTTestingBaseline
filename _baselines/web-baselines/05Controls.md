@@ -35,7 +35,7 @@ The purpose of this Baseline test is to check the following accessibility proper
 
 <p id="5aIC">
 
-Identify user controls for a distinct function. Exclude forms and links as these are covered by [Baseline 10. Forms]({{site.baseurl}}/web-baselines/10Forms/) and [Baseline 14. Links]({{site.baseurl}}/web-baselines/14Links/), respectively.
+Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="{{site.baseurl}}/web-baselines/10Forms/">Baseline 10. Forms</a> and <a href="{{site.baseurl}}/web-baselines/14Links/">Baseline 14. Links</a>, respectively.</p>
 
 #### Test Instructions
 <ol id="5aTI">

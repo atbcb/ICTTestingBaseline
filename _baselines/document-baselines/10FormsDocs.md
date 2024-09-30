@@ -170,7 +170,7 @@ Examples of a change of context could include:
             <li>password</li>
         </ul></li>
     <li id="d10fTI-2">Review error notifications provided.</li>
-    <li id="d10fTI-3">Check that additional guidance (e.g., suggestion for corrected input, guidance on how to correct the user's input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content. \[SC 3.3.3\]</li>
+    <li id="d10fTI-3">Check that additional guidance (e.g., suggestion for corrected input, guidance on how to correct the user's input) is provided on how to correct errors for form fields that would not jeopardize the security or purpose of the content. [SC 3.3.3]</li>
 </ol>
 
 #### Test Results
