@@ -9,7 +9,7 @@ banner-title: "Baseline for Documents"
 
 ### Accessibility Requirements
 
--   [WCAG2 SC: 1.1.1 Non-Text](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for [specific] situations.
+-   [WCAG2 SC: 1.1.1 Non-Text](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content): All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for [specific] situations.
     -   Controls, Input: If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Success Criterion 4.1.2 for additional requirements for controls and content that accepts user input.)
 -   [WCAG2 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships): Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.
 -   [WCAG 2.4.6 Headings and Labels](https://www.w3.org/WAI/WCAG22/Understanding/headings-and-labels): Headings and labels describe topic or purpose.
@@ -204,10 +204,9 @@ Examples of a change of context could include:
 
 ### WCAG 2.2 Techniques
 
-The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
-
--   [F36: Failure of Success Criterion 3.2.2 due to automatically submitting a form and presenting new content without prior warning when the last field in the form is given a value](https://www.w3.org/WAI/WCAG22/Techniques/failures/F36)
--   [F37: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the selection of a radio button, check box, or select list is changed](https://www.w3.org/WAI/WCAG22/Techniques/failures/F37)
+-   [WCAG2 SC: 1.1.1 Non-Textxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxx](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content): All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for [specific] situations.
+-   [F36: Failure of Success Criterion 3.2.2 due to automatically submitting a form and presenting new content without prior warning when the last field in the form is given a value](https://www.w3.org/WAI/WCAG22/Techniques/failures/F36): text 
+-   [F37: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the selection of a radio button, check box, or select list is changed](https://www.w3.org/WAI/WCAG22/Techniques/failures/F37): text
 -   [F82: Failure of Success Criterion 3.3.2 by visually formatting a set of phone number fields but not including a text label](https://www.w3.org/WAI/WCAG21/Techniques/failures/F82.html)
 -   [G13: Describing what will happen before a change to a form control that causes a change of context to occur is made](https://www.w3.org/WAI/WCAG22/Techniques/general/G13)
 -   [G80: Providing a submit button to initiate a change of context](https://www.w3.org/WAI/WCAG22/Techniques/general/G80)
@@ -224,3 +223,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [PDF15: Providing submit buttons with the submit-form action in PDF forms](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF15)
 -   [PDF22: Indicating when user input falls outside the required format or values in PDF forms](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF22)
 -   [SCR19: Using an onchange event on a select element without causing a change of context](https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR19)
+
