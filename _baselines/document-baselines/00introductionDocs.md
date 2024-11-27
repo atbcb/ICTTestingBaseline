@@ -44,7 +44,7 @@ Electronic content that is not public facing shall conform to the accessibility 
 
 ##### E205.4 Accessibility Standard
 
-Electronic content shall conform to Level A and Level AA Success Criteria and Conformance Requirements in WCAG 2.2 (incorporated by reference, [see 702.10.1](https://www.access-board.gov/ict/#702.10.1)).
+Electronic content shall conform to Level A and Level AA Success Criteria and Conformance Requirements in WCAG 2.0 (incorporated by reference, [see 702.10.1](https://www.access-board.gov/ict/#702.10.1)).
 
 **EXCEPTION:** Non-Web documents shall not be required to conform to the following four WCAG 2.2 Success Criteria:
 
