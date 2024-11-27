@@ -147,7 +147,7 @@ Determine how time limits, auto-play, and auto-update can be modified by a user 
 
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
--   [F16: Failure of Success Criterion 2.2.2 due to including scrolling content where movement is not essential to the activity without also including a mechanism to pause and restart the content](https://www.w3.org/WAI/WCAG21/Techniques/failures/F16.html)
+-   [F16: Failure of Success Criterion 2.2.2 due to including scrolling content where movement is not essential](https://www.w3.org/WAI/WCAG21/Techniques/failures/F16.html) to the activity without also including a mechanism to pause and restart the content
 -   [G4: Allowing the content to be paused and restarted from where it was paused](https://www.w3.org/WAI/WCAG22/Techniques/general/G4)
 -   [G60: Playing a sound that turns off automatically within three seconds](https://www.w3.org/WAI/WCAG22/Techniques/general/G60)
 -   [G170: Providing a control near the beginning of the Web page that turns off sounds that play automatically](https://www.w3.org/WAI/WCAG22/Techniques/general/G170)

@@ -57,7 +57,7 @@ Links and buttons, including scripted elements, must have meaningful text (eithe
 
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
--   [F89: Failure of Success Criteria 2.4.4, 2.4.9 and 4.1.2 due to not providing an accessible name for an image which is the only content in a link](https://www.w3.org/WAI/WCAG22/Techniques/failures/F89)
+-   [F89: Failure of Success Criteria 2.4.4, 2.4.9 and 4.1.2 due to not providing an accessible name for an image](https://www.w3.org/WAI/WCAG22/Techniques/failures/F89) which is the only content in a link
 -   [G53: Identifying the purpose of a link using link text combined with the text of the enclosing sentence](https://www.w3.org/WAI/WCAG22/Techniques/general/G53)
 -   [G91: Providing link text that describes the purpose of a link](https://www.w3.org/WAI/WCAG22/Techniques/general/G91)
 -   [H77: Identifying the purpose of a link using link text combined with its enclosing list item](https://www.w3.org/WAI/WCAG22/Techniques/html/H77)
