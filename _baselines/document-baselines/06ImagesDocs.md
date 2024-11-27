@@ -126,10 +126,10 @@ The following sufficient techniques and/or common failures were considered when 
 -   [F3: Using CSS to include images that convey important information](https://www.w3.org/WAI/WCAG22/Techniques/failures/F3)
 -   [F20: Failure of Success Criterion 1.1.1 and 4.1.2 due to not updating text alternatives when changes to non-text content occur](https://www.w3.org/WAI/WCAG22/Techniques/failures/F20)
 -   [F30: Failure of Success Criterion 1.1.1 due to using text alternatives that are not alternatives (e.g., filenames or placeholder text)](https://www.w3.org/WAI/WCAG22/Techniques/failures/F30)
--   [F38: Failure of Success Criterion 1.1.1 due to not marking up decorative images in HTML in a way that allows assistive technology to ignore them](https://www.w3.org/WAI/WCAG22/Techniques/failures/F38)
--   [F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null (e.g., alt="spacer" or alt="image") for images that should be ignored by assistive technology](https://www.w3.org/WAI/WCAG22/Techniques/failures/F39)
--   [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative on img elements, area elements, and input elements of type = "image"](https://www.w3.org/WAI/WCAG22/Techniques/failures/F65)
--   [G94: Providing short text alternative for non-text content that serves the same purpose and presents the same information as the non-text content](https://www.w3.org/WAI/WCAG22/Techniques/general/G94)
+-   [F38: Failure of Success Criterion 1.1.1 due to not marking up decorative images in HTML](https://www.w3.org/WAI/WCAG22/Techniques/failures/F38) in a way that allows assistive technology to ignore them
+-   [F39: Failure of Success Criterion 1.1.1 due to providing a text alternative that is not null (e.g., alt="spacer" or alt="image")](https://www.w3.org/WAI/WCAG22/Techniques/failures/F39) for images that should be ignored by assistive technology
+-   [F65: Failure of Success Criterion 1.1.1 due to omitting the alt attribute or text alternative](https://www.w3.org/WAI/WCAG22/Techniques/failures/F65) on img elements, area elements, and input elements of type = "image"
+-   [G94: Providing short text alternative for non-text content](https://www.w3.org/WAI/WCAG22/Techniques/general/G94) that serves the same purpose and presents the same information as the non-text content
 -   [G95: Providing short text alternatives that provide a brief description of the non-text content](https://www.w3.org/WAI/WCAG22/Techniques/general/G95)
 -   [G143: Providing a text alternative that describes the purpose of the CAPTCHA](https://www.w3.org/WAI/WCAG22/Techniques/general/G143)
 -   [G144: Ensuring that the Web Page contains another CAPTCHA serving the same purpose using a different modality](https://www.w3.org/WAI/WCAG22/Techniques/general/G144)
