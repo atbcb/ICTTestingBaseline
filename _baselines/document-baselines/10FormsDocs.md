@@ -204,6 +204,8 @@ Examples of a change of context could include:
 
 ### WCAG 2.2 Techniques
 
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [F36: Failure of Success Criterion 3.2.2 due to automatically submitting a form and presenting new content](https://www.w3.org/WAI/WCAG22/Techniques/failures/F36) without prior warning when the last field in the form is given a value
 -   [F37: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning](https://www.w3.org/WAI/WCAG22/Techniques/failures/F37) when the selection of a radio button, check box, or select list is changed
 -   [F82: Failure of Success Criterion 3.3.2 by visually formatting a set of phone number fields but not including a text label](https://www.w3.org/WAI/WCAG21/Techniques/failures/F82.html)
