@@ -53,7 +53,7 @@ This baseline test requires an evaluation of visual content and functionality af
 
 The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 
--   [F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent causes the text, image or controls to be clipped, truncated or obscured](https://www.w3.org/WAI/WCAG22/Techniques/failures/F69)
+-   [F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent](https://www.w3.org/WAI/WCAG22/Techniques/failures/F69) causes the text, image or controls to be clipped, truncated or obscured
 -   [F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%](https://www.w3.org/WAI/WCAG22/Techniques/failures/F80)
 -   [F94: Failure of Success Criterion 1.4.4 due to incorrect use of viewport units to resize text](https://www.w3.org/WAI/WCAG22/Techniques/failures/F94)
 -   [G178: Providing controls on the Web page that allow users to incrementally change the size of all text on the page up to 200 percent](https://www.w3.org/WAI/WCAG22/Techniques/general/G178)
