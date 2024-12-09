@@ -1,8 +1,8 @@
 ---
-title: "Glossary (Web)"
+title: "Glossary (Docs)"
 order-number: 103
-toc-group: baseline-web
-banner-title: "Baseline for Web"
+toc-group: baseline-docs
+banner-title: "Baseline for Documents"
 ---
 
 {% capture glossary_content %}
