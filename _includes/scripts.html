@@ -4,7 +4,7 @@
   src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency={{site.dap.agency}}{% if site.dap.subagency %}&subagency={{site.dap.subagency}}{% endif %}"
 ></script>
 
-{% if page.title == "Appendix A – Cross Reference Tables Sort (Web)" %}
+{% if page.title contains "Appendix A" and page.title contains "Cross Reference Tables Sort" %}
 <!-- scripts for dataTables-->
 <script type="text/javascript" src="{{site.baseurl}}/assets/js/accResponsiveTable.js"></script>
 {% endif %}
@@ -17,7 +17,7 @@
 <script src="{{site.baseurl}}/assets/video-js/video.min.js"></script>
 <script src="{{site.baseurl}}/assets/youtube-video-js/Youtube.min.js"></script>
 -->
-{% unless page.title == "Appendix A – Cross Reference Tables Sort (Web)" %}
+{% unless page.title contains "Appendix A" and page.title contains "Cross Reference Tables Sort" %}
   <script type="text/javascript" src="{{site.baseurl}}/assets/jquery/jquery.min.js"></script>
 <!--   <script src="{{site.baseurl}}/assets/js/jquery.dataTables.min.js"></script>
   <script src="{{site.baseurl}}/assets/js/natural.js"></script> -->

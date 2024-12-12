@@ -39,20 +39,17 @@ Modified sidenav-right-universal.html for the ICT Baseline Portfolio site.
         </a>
         {% endif %}
       </div>
-      <div class="margin-top-2 text-center"> 
-          
-        <!-- <div class="text-center">
-          <h4 class="padding-1 bg-primary-darker text-white">Contact the ICT Baseline Working Group</h4>
-          <br> -->
-          <ul class="usa-list usa-list--unstyled padding-top-1">
-            <li class="padding-bottom-0"><a href="https://github.com/atbcb/ICTTestingBaseline/issues/new?assignees=&labels=&projects=&template=baseline-issue-template.md&title=" target="_blank" rel="noopener noreferrer"><img src="{{site.baseurl}}/images/github-mark.png" class="maxh-205 margin-right-05" alt="Github octocat logo" />Open a Github issue</a></li>
-            <li class="padding-bottom-0"><a href="mailto:ictbaseline@gsa.gov"><img src="{{site.baseurl}}/images/email.png" class="maxh-205 margin-right-05" alt="" /> Email Us</a></li>
-          </ul>
-          <!-- <h5 class="padding-1 bg-primary-darker text-white">Related Projects</h5>
-          <p>The <a href="https://baselinealignment.section508.gov/">Baseline Alignment for Web</a> is being developed to aid in determining if a test process aligns with the ICT Baseline for Web.</p> -->
-        </div>
+      <div class="margin-top-2 text-center">   
+        <ul class="usa-list usa-list--unstyled padding-top-1">
+          <li class="padding-bottom-0"><a href="https://github.com/atbcb/ICTTestingBaseline/issues/new?assignees=&labels=&projects=&template=baseline-issue-template.md&title=" target="_blank" rel="noopener noreferrer"><img src="{{site.baseurl}}/images/github-mark.png" class="maxh-205 margin-right-05" alt="Github octocat logo" />Open a Github issue</a></li>
+          <li class="padding-bottom-0"><a href="mailto:ictbaseline@gsa.gov"><img src="{{site.baseurl}}/images/email.png" class="maxh-205 margin-right-05" alt="" /> Email Us</a></li>
+          {% if page.title contains "Web" %}
+          <li class="padding-bottom-0"><a href="https://baselinealignment.section508.gov/" target="_blank" rel="noopener noreferrer">Baseline Alignment Framework</a></li>
+          {% endif %}
+        </ul>
       </div>
-      {% include back-to-top.html %}
     </div>
+      {% include back-to-top.html %}
   </div>
-  </div>
+</div>
+
