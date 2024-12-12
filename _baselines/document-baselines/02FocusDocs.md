@@ -69,13 +69,13 @@ Manually navigating or controlling document components by keyboard-only will ena
         <ol>
             <li id="d2bTI-1a">Use the keyboard to activate trigger controls that reveal hidden content (menus, dialogs, expandable tree list, etc.).
                 <ol>
-                    <li id="d2bTI-1a-i">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
-                    <li id="d2bTI-1a-ii">Advance the focus through the revealed content.</li>
+                    <li id="d2bTI-1ai">Check that the revealed focusable content is included in the focus order. [SC 2.4.3]</li>
+                    <li id="d2bTI-1aii">Advance the focus through the revealed content.</li>
                 </ol>
             </li>
             <li id="d2bTI-1b">Use the keyboard to close/hide the revealed content.
                 <ol>
-                    <li id="d2bTI-1b-i">Check that focus is returned to the trigger control. It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
+                    <li id="d2bTI-1bi">Check that focus is returned to the trigger control. It is acceptable to Shift+ TAB once or use an arrow key to move the focus backward to the trigger control. [SC 2.4.3]</li>
                 </ol>
             </li>
         </ol>

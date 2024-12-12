@@ -1,5 +1,5 @@
 ---
-title: "Appendix B - Change Log (Web)"
+title: "Appendix B - Change Log (Docs)"
 order-number: 101
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
