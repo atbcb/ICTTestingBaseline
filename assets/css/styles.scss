@@ -31,16 +31,20 @@ $theme-hero-image: asset_path("hero-wc-temp.jpg");
 @import "components/table-of-contents-subnav";
 
 // Set fonts
-h1, h2 { // default was 2xl
+h1 { // default was 2xl
   @include u-font('heading', 'xl');
   @include u-margin-y(1)
 }
-h3 { // default was 2xl
+h2 { // default was 2xl
   @include u-font('heading', 'lg');
   @include u-margin-y(1)
 }
-h4 { // default was sm
+h3 { // default was 2xl
   @include u-font('heading', 'md');
+  @include u-margin-y(1)
+}
+h4 { // default was sm
+  @include u-font('heading', 'sm');
   @include u-margin-y(1)
 }
 h5, h6 { // default was xs and 2xs
@@ -653,8 +657,9 @@ a.style-inherit {
     margin: 0;
     color: #000;
     background-color: #fff;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 12pt;
+    @include u-font('serif', 'md');
+    /* font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt; */
   }
   //black text
   h1, h2, h3, h4, h5, h6{
