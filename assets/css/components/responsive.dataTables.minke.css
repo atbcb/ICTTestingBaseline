@@ -174,11 +174,11 @@ div.dtr-modal div.dtr-modal-background{
 	td::before {
     display: inline;
     font-weight: bold;
-	text-align: right;
+	text-align: left;
 	}
 	td {
     display: grid;
-    grid-template-columns: 90% auto;
+    grid-template-columns: 65% auto;
     grid-gap: 1em 0.5em;
 	}
 	caption {
@@ -188,31 +188,10 @@ div.dtr-modal div.dtr-modal-background{
 	padding-top: 1em;
 	}
 	td:nth-child(2)::before {
-    content: "Without Vision: ";
+    content: "Baseline Test Instruction ID: ";
 	}
 	td:nth-child(3)::before {
-		content: "Limited Vision: ";
-	}
-	td:nth-child(4)::before {
-		content: "Without Perception of Color: ";
-	}
-	td:nth-child(5)::before {
-		content: "Without Hearing: ";
-	}
-	td:nth-child(6)::before {
-		content: "Limited Hearing: ";
-	}
-	td:nth-child(7)::before {
-    content: "Without Speech: ";
-	}
-	td:nth-child(8)::before {
-		content: "Limited Manipulation: ";
-	}
-	td:nth-child(9)::before {
-		content: "Limited Reach and Strength: ";
-	}
-	td:nth-child(10)::before {
-		content: "Limited Language, Cognitive, and Learning Abilities: ";
+		content: "Section 508/WCAG Requirement: ";
 	}
 	
 }
