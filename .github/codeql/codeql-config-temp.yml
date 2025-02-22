@@ -1,5 +1,0 @@
-name: "CodeQL configuration"
-queries:
-  - uses: github/codeql/javascript
-  - uses: github/codeql/typescript
-  - uses: github/codeql/ruby
