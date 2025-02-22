@@ -26,4 +26,5 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v3
       with:
-        verbosity: '^(off|errors|warnings|(info|progress)|(debug|progress\+)|(trace|progress\+\+)|progress\+\+\+)$'
+        category: '/language:${{ matrix.language }}'
+        output: 'results.sarif'
