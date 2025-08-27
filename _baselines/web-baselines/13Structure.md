@@ -43,10 +43,10 @@ banner-title: "Baseline for Web"
 ### 13.B Test Procedure for Visual Headings Programmatic   
 
 **Baseline Test ID:** 13.B-VisHeadingProg
-##### Identify Content
+#### Identify Content
 <p id="13bIC">Visually apparent headings, which denote sections of content. Headings are often in a larger, bolded font separated from paragraphs by extra spacing (though not always). Note the hierarchy and structure of each heading with respect to other headings on the page.</p>
 
-##### Test Instructions
+#### Test Instructions
 <ol id="13bTI">
     <li id="13bTI-1">Check that all visual headings are programmatically determinable and that programmatic heading levels logically match the visual heading presentation within the heading structure [SC 1.3.1]:
         <ol>
@@ -61,27 +61,27 @@ banner-title: "Baseline for Web"
         </ol></li>
 </ol>
 
-##### Test Results
+#### Test Results
 <p id="13bTR">If the above check fails, then Baseline Test 13.B-VisHeadingProg fails.</p>
 
 ### 13.C Test Procedure for Programmatic Headings Visual
 
 **Baseline Test ID:** 13.C-ProgHeadingVisual
-##### Identify Content
+#### Identify Content
 <p id="13cIC">Programmatically determined headings: <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> or ARIA <code>role="heading"</code>.</p>
 
-##### Test Instructions
+#### Test Instructions
 <ol id="13cTI">
     <li id="13cTI-1">Check that each programmatically determinable heading is also serving as a visual heading on the page. Content that is not a visual heading cannot have a role of heading. For example, heading markup should not be used for emphasis on an element that is not a heading for content after it. [SC 1.3.1]</li>
 </ol>
 
-##### Test Results
+#### Test Results
 <p id="13cTR">If the above check fails, then Baseline Test 13.C-ProgHeadingVisual fails.</p>
 
 ### 13.D Test Procedure for Visually Apparent Lists
 
 **Baseline Test ID:** 13.D-List
-##### Identify Content
+#### Identify Content
 <p id="13dIC">Visually apparent lists, which appear as a grouping of items typically one below the other. Exclude navigation menus. Determine the type of list: 
     <ul>
         <li>An unordered list is not numbered and is used where sequence or the ability to reference specific items by number/letter is not important. List items have the same visual marking or may have no marking. </li>
@@ -90,7 +90,7 @@ banner-title: "Baseline for Web"
     </ul>
 </p>
 
-##### Test Instructions
+#### Test Instructions
 For each visually apparent list:
 <ol id="13dTI">
     <li id="13dTI-1">Check that content that has the visual appearance of a list (with or without bullets) that has no special order or sequence is programmatically an unordered list <code>&lt;ul&gt;</code>, and each item in the list is programmatically a list item <code>&lt;li&gt;</code>. [SC 1.3.1]</li>
@@ -98,7 +98,7 @@ For each visually apparent list:
     <li id="13dTI-3">Check that content has a visual appearance of a description list is programmatically a description list <code>&lt;dl&gt;</code>, each term is programmatically a description term <code>&lt;dt&gt;</code> and each description is programmatically a definition description <code>&lt;dd&gt;</code>. [SC 1.3.1]</li>
 </ol>
 
-##### Test Results
+#### Test Results
 <p id="13dTR">If any of the above checks fail, Baseline Test 13.D-List fails.</p>
 
 ### Advisory: Tips for streamlined test processes
