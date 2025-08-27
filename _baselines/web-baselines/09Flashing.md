@@ -37,7 +37,7 @@ This test addresses flashing caused by the content itself, including:
 #### Test Instructions
 <ol id="9aTI">
     <li>Set the user agent at standard zoom level, e.g. 100% in a browser.</li>
-    <li>If there is an option to view a larger version the flashing content, such as a full screen mode, test the larger version. If there is an option to loop or repeat the flashing content, test the looping version.</li>
+    <li>If there is an option to view a larger version of the flashing content, such as a full screen mode, test the larger version. If there is an option to loop or repeat the flashing content, test the looping version.</li>
     <li id="9aTI-3">Check that one of the following is true of the flashing content: [SC 2.3.1]
         <ol>
             <li id="9aTI-3a">The flashing frequency is less than or equal to 3 flashes in any one second (3 Hertz).</li>

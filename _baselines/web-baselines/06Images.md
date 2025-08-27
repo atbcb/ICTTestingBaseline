@@ -42,7 +42,7 @@ banner-title: "Baseline for Web"
 #### Identify Content
 <p id="6aIC">Identify any image (i.e., <code>img</code> element or an element with <code>role="img"</code>) that has a non-empty text alternative (combination of the accessible name and accessible description) per the <a href="https://www.w3.org/TR/html-aam-1.0/#img-element-accessible-name-computation">HTML Accessibility API Mappings 1.0 for img</a>. </p>
 
-##### Test Instructions
+#### Test Instructions
 <ol id="6aTI">
     <li id="6aTI-1">Check that none of the following is true [SC 1.1.1]:
     <ol>
@@ -55,7 +55,7 @@ banner-title: "Baseline for Web"
     <li id="6aTI-4">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. [SC 1.1.1]</li>
 </ol>
 
-##### Test Results
+#### Test Results
 <p id="6aTR">If any of the above checks fail, then Baseline Test 6.A-MeaningfulImage fails.</p>
 
 ### 6.B Test Procedure for Images with an empty text alternative
@@ -64,7 +64,7 @@ banner-title: "Baseline for Web"
 #### Identify Content
 <p id="6bIC">Identify any image (i.e., <code>img</code> element, or element with <code>role="img"</code>, or element that includes a CSS background image) that has an empty text alternative. </p>
 
-##### Test Instructions
+#### Test Instructions
 <ol>
 <li id="6bTI-1">Check that the empty text alternative has been programmatically assigned using one of the following techniques [SC 1.1.1]:
     <ol>
@@ -92,7 +92,7 @@ Note: If the image does not have any of these attributes, this would be a failur
 </li>
 </ol>
 
-##### Test Results
+#### Test Results
 <p id="6bTR">If any of the above checks fail, then Baseline Test 6.B-DecorativeImage fails.</p>
 
 ### 6.C Test Procedure for Captchas
@@ -101,14 +101,14 @@ Note: If the image does not have any of these attributes, this would be a failur
 #### Identify Content
 <p id="6cIC">Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer.</p>
 
-##### Test Instructions
+#### Test Instructions
 <ol id="6cTI">
     <li id="6cTI-1">Check that the text alternative (combination of the accessible name and accessible description) is not empty. [SC 1.1.1]</li>
     <li id="6cTI-2">Check that the non-empty text alternative (combination of accessible name and accessible description) identifies and describes the purpose of the CAPTCHA. [SC 1.1.1]</li>
     <li id="6cTI-3">Check that alternative forms of CAPTCHA are provided, at a minimum, for users without vision and users without hearing. [SC 1.1.1]</li>
 </ol>
 
-##### Test Results
+#### Test Results
 <p id="6cTR">If any of the above checks fail, then Baseline Test 6.C-Captcha fails.</p>
 
 ### 6.D Test Procedure for Images of Text
