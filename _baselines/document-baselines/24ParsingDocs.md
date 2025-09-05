@@ -35,7 +35,7 @@ banner-title: "Baseline for Documents"
 
 ### Advisory: Tips for Streamlined Test Processes
 
-None
+-   None
 
 ### WCAG 2.2 Techniques
 

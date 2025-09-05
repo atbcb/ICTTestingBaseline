@@ -1,0 +1,71 @@
+{
+  "slug": "18StylesheetDocs",
+  "sections": [
+    {
+      "heading": "18. Meaningful Content and Sequence",
+      "content": []
+    },
+    {
+      "heading": "Accessibility Requirements",
+      "AR1": "[WCAG SC 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html) -- Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.",
+      "AR2": "[WCAG SC 1.3.2 Meaningful Sequence](https://www.w3.org/WAI/WCAG22/Understanding/meaningful-sequence) -- When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined."
+    },
+    {
+      "heading": "Test Method Rationale",
+      "TMR1": "Meaningful content must be available to all users. The sequence of the content (in context) must be logical and preserve content meaning."
+    },
+    {
+      "heading": "Limitations, Assumptions, or Exceptions",
+      "content": [
+        "-   Meaningful content provides information or context and includes content in headers, footers, watermarks, master page items, artifacts, and in floating elements.",
+        "-   Inline styling is included in this test.",
+        "-   Invisible content (text and background are the same color) is used for accessibility purposes and is not covered in Test 18.A. It is covered in 18.B.",
+        "-   Programmatically identified content is exposed to assistive technology. Document content that is not exposed to assistive technology can vary depending on document type."
+      ]
+    },
+    {
+      "heading": "18.A Test Procedure for Meaningful Visible Content",
+      "content": [
+        "**Baseline Test ID:** 18.A-MeaningfulContent",
+        "#### Identify Content",
+        "<p id=\"d18aIC\">Meaningful visible content</p>",
+        "Do not include meaningful background images, which are covered under [Baseline 6. Images]({{site.baseurl}}/document-baselines/06ImagesDocs/).",
+        "#### Test Instructions",
+        "<ol id=\"d18aTI\">",
+        "<li id=\"d18aTI-1\">Check that all meaningful content is available in the body of the document or programmatically identified. [SC 1.3.1]</li>",
+        "</ol>",
+        "#### Test Results",
+        "<p id=\"d18aTR\">If any of the above checks fail, then Baseline Test 18.A-MeaningfulContent fails.</p>"
+      ]
+    },
+    {
+      "heading": "18.B Test Procedure for Meaningful Sequence",
+      "content": [
+        "**Baseline Test ID:** 18.B-MeaningfulSequence",
+        "#### Identify Content",
+        "<p id=\"d18bIC\">Identify all meaningful content including invisible meaningful content</p>",
+        "#### Test Instructions",
+        "<ol id=\"d18bTI\">",
+        "<li id=\"d18bTI-1\">Check that the reading order of all meaningful content (in context) is logical. [SC 1.3.2]</li>",
+        "</ol>",
+        "#### Test Results",
+        "<p id=\"d18bTR\">If the above checks fail, then Baseline Test 18.B-MeaningfulSequence fails.</p>"
+      ]
+    },
+    {
+      "heading": "Advisory: Tips for Streamlined Test Processes",
+      "ADV1": "None"
+    },
+    {
+      "heading": "WCAG 2.2 Techniques",
+      "content": [
+        "The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:"
+      ],
+      "WCT1": "[F1: Changing the meaning of content by positioning information with CSS](https://www.w3.org/WAI/WCAG22/Techniques/failures/F1)",
+      "WCT2": "[G57: Ordering the content in a meaningful sequence](https://www.w3.org/WAI/WCAG22/Techniques/general/G57)",
+      "WCT3": "[PDF3: Ensuring correct tab and reading order in PDF documents](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF3)",
+      "WCT4": "[PDF4: Hiding decorative images with the Artifact tag in PDF documents](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF4)",
+      "WCT5": "[PDF17: Specifying consistent page numbering for PDF documents](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF17)"
+    }
+  ]
+}

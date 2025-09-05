@@ -14,9 +14,9 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-For assistive technology (AT) users, data tables must explicitly associate table data with table row and column headers via programmatic markup. Table markup also facilitates navigation for AT users by providing programmatic landmarks via column and row headers.
+-   For assistive technology (AT) users, data tables must explicitly associate table data with table row and column headers via programmatic markup. Table markup also facilitates navigation for AT users by providing programmatic landmarks via column and row headers.
 
-When `<table>` elements are used for layout purposes, data table structure elements such as row/column headers, captions, or table summaries are not permitted.
+-   When `<table>` elements are used for layout purposes, data table structure elements such as row/column headers, captions, or table summaries are not permitted.
 
 ### Limitations, Assumptions, Exceptions
 

@@ -25,7 +25,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-Review form instructions for completeness and programmatic association to their inputs. Enter erroneous inputs and review error notifications provided to the user.
+-   Review form instructions for completeness and programmatic association to their inputs. Enter erroneous inputs and review error notifications provided to the user.
 
 ### Limitations, Assumptions, or Exceptions
 

@@ -26,7 +26,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-Determine how time limits, auto-play, and auto-update can be modified by a user and execute the modifications.
+-   Determine how time limits, auto-play, and auto-update can be modified by a user and execute the modifications.
 
 ### Limitations, Assumptions, or Exceptions
 

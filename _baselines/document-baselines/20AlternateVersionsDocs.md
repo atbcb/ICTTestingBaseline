@@ -22,7 +22,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-An alternate version must meet all parts of the definition in order to be considered a "conforming alternate version."
+-   An alternate version must meet all parts of the definition in order to be considered a "conforming alternate version."
 
 ### Limitations, Assumptions, or Exceptions
 

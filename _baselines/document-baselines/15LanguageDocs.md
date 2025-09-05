@@ -14,7 +14,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-The default human language for the document must be programmatically identified. Passages of content that use a language other than the default must be programmatically identified.
+-   The default human language for the document must be programmatically identified. Passages of content that use a language other than the default must be programmatically identified.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -62,7 +62,7 @@ The default human language for the document must be programmatically identified.
 
 ### Advisory: Tips for Streamlined Test Processes
 
-None
+-   None
 
 ### WCAG 2.2 Techniques
 

@@ -9,7 +9,7 @@ banner-title: "Baseline for Documents"
 
 ### Accessibility Requirements
 
-1.  [WCAG Conformance Requirement 5: Non-Interference](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req5) -- The following success criteria apply to all content in the document, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the content:
+-   [WCAG Conformance Requirement 5: Non-Interference](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req5) -- The following success criteria apply to all content in the document, including content that is not otherwise relied upon to meet conformance, because failure to meet them could interfere with any use of the content:
     -   1.4.2 - Audio Control,
     -   2.1.2 - No Keyboard Trap,
     -   2.3.1 - Three Flashes or Below Threshold, and
@@ -17,11 +17,11 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-The test results for SC's 1.4.2 (Baseline Test 21.D-AudioControl), 2.1.2 (1.B-NoKeyboardTrap), 2.3.1 (9.A-Flashes), and 2.2.2 (21.B-MovingInfo and 21.C-AutoUpdate) determine the result of this baseline test.
+-   The test results for SC's 1.4.2 (Baseline Test 21.D-AudioControl), 2.1.2 (1.B-NoKeyboardTrap), 2.3.1 (9.A-Flashes), and 2.2.2 (21.B-MovingInfo and 21.C-AutoUpdate) determine the result of this baseline test.
 
 ### Limitations, Assumptions, or Exceptions
 
-None
+-   None
 
 ### 3.A Test Procedure for Non-Interference
 
@@ -48,4 +48,4 @@ None
 
 ### WCAG 2.2 Techniques
 
-Not Applicable.
+-    None

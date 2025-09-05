@@ -15,7 +15,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-Manually navigating or controlling document components by keyboard-only will enable a tester to identify when there is no visual differentiation between a focused item and the rest of the document or content. Using the keyboard to navigate facilitates inspection of focus order.
+-   Manually navigating or controlling document components by keyboard-only will enable a tester to identify when there is no visual differentiation between a focused item and the rest of the document or content. Using the keyboard to navigate facilitates inspection of focus order.
 
 ### Limitations, Assumptions, or Exceptions
 

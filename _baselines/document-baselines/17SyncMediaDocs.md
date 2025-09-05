@@ -19,7 +19,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-Evaluation of captions and audio descriptions to assess its equivalence to synchronized media content generally involves a manual, cognitive comparison of the original content with its alternative(s). Media that are clearly labeled as a media alternative for text are tested to assess equivalence to the text and if not equivalent, the tests for captions and audio descriptions are to be performed.
+-   Evaluation of captions and audio descriptions to assess its equivalence to synchronized media content generally involves a manual, cognitive comparison of the original content with its alternative(s). Media that are clearly labeled as a media alternative for text are tested to assess equivalence to the text and if not equivalent, the tests for captions and audio descriptions are to be performed.
 
 ### Limitations, Assumptions, or Exceptions
 

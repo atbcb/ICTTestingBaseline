@@ -18,9 +18,9 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-This requirement relies on use of a keyboard to validate access and control of all functionalities of the content first by checking use of standard keyboard commands (Tab, Space Bar, Enter, Escape, etc.). If a document uses non-standard keyboard commands, the document must clearly document the commands and make users aware that the commands exist.
+-   This requirement relies on use of a keyboard to validate access and control of all functionalities of the content first by checking use of standard keyboard commands (Tab, Space Bar, Enter, Escape, etc.). If a document uses non-standard keyboard commands, the document must clearly document the commands and make users aware that the commands exist.
 
-Keyboard access and control includes the ability to navigate to **AND** away from interactive content using only a keyboard.
+-   Keyboard access and control includes the ability to navigate to **AND** away from interactive content using only a keyboard.
 
 ### Limitations, Assumptions, or Exceptions
 

@@ -116,7 +116,7 @@ banner-title: "Baseline for Documents"
 
 ### Advisory: Tips for Streamlined Test Processes
 
-There is not a test to check that programmatic lists are visually apparent lists.
+-   There is not a test to check that programmatic lists are visually apparent lists.
 
 ### WCAG 2.2 Techniques
 

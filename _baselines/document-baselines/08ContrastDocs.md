@@ -17,7 +17,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-This test is conducted to evaluate equal access to information for all users, including those who may experience difficulty in discerning between items with low contrast.
+-   This test is conducted to evaluate equal access to information for all users, including those who may experience difficulty in discerning between items with low contrast.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -29,8 +29,7 @@ This test is conducted to evaluate equal access to information for all users, in
 
 -   Testing of text contrast changes includes changes due to mouse hover and selection status.
 
--   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not required to meet contrast ratio requirements.  
-    Note: Read-only and disabled interface components are not the same. Disabled interface components can be considered inactive interface components; read-only interface components are active interface components and must meet contrast ratio requirements.
+-   Disabled input elements do not receive keyboard focus, cannot be selected, and cannot be modified. These are not required to meet contrast ratio requirements.  Note: Read-only and disabled interface components are not the same. Disabled interface components can be considered inactive interface components; read-only interface components are active interface components and must meet contrast ratio requirements.
 -   Large-scale text is at least 18-point text or 14-point bold text.
 
 ### 8.A Test Procedure for Contrast (minimum)

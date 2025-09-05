@@ -13,12 +13,12 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-The purpose of this Baseline test is to check the following accessibility properties for user controls:
+-   The purpose of this Baseline test is to check the following accessibility properties for user controls:
 
--   Name
--   Role
--   State
--   Value
+    -   Name
+    -   Role
+    -   State
+    -   Value
 
 ### Limitations, Assumptions, or Exceptions
 

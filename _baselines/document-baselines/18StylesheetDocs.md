@@ -14,7 +14,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-Meaningful content must be available to all users. The sequence of the content (in context) must be logical and preserve content meaning.
+-   Meaningful content must be available to all users. The sequence of the content (in context) must be logical and preserve content meaning.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -63,7 +63,7 @@ Do not include meaningful background images, which are covered under [Baseline 
 
 ### Advisory: Tips for Streamlined Test Processes
 
-<p id="d18Advisory">None</p>
+-   None
 
 ### WCAG 2.2 Techniques
 

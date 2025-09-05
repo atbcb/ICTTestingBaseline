@@ -14,7 +14,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-Links and buttons, including scripted elements, must have meaningful text (either directly associated or available in context) that describes their purpose or function. In order for associated text to be available to assistive technologies, the information must be determinable programmatically.
+-   Links and buttons, including scripted elements, must have meaningful text (either directly associated or available in context) that describes their purpose or function. In order for associated text to be available to assistive technologies, the information must be determinable programmatically.
 
 ### Limitations, Assumptions, Exceptions
 

@@ -9,17 +9,17 @@ banner-title: "Baseline for Documents"
 
 ### Accessibility Requirements
 
-1.  [WCAG2 SC 2.4.2 Document Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled) -- Documents have titles that describe topic or purpose.
+-   [WCAG2 SC 2.4.2 Document Titled](https://www.w3.org/WAI/WCAG22/Understanding/page-titled) -- Documents have titles that describe topic or purpose.
 
 ### Test Method Rationale
 
-The Title property defines the title of the document and is required in all documents. This test evaluates the presence of a descriptive title for the document.
+-   The Title property defines the title of the document and is required in all documents. This test evaluates the presence of a descriptive title for the document.
 
 ### Limitations, Assumptions, Exceptions
 
-1. Every document must have a descriptive title. This test always applies.
+-   Every document must have a descriptive title. This test always applies.
 
-2. This test would apply to all documents in a collection of documents (e.g., PDF portfolios).
+-   This test would apply to all documents in a collection of documents (e.g., PDF portfolios).
 
 ### 11.A Test Procedure for Document Titled
 
@@ -42,7 +42,7 @@ The Title property defines the title of the document and is required in all docu
 
 ### Advisory: Tips for Streamlined Test Processes
 
-None
+-   None
 
 ### WCAG 2.2 Techniques
 

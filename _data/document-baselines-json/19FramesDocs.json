@@ -1,0 +1,17 @@
+{
+  "slug": "19FramesDocs",
+  "sections": [
+    {
+      "heading": "19. Frames and iFrames-- Not Applicable to Documents",
+      "content": [
+        "-   Frames and iframes are not implemented in non-web documents, so this test is not applicable. It was not removed to maintain harmonization with the ICT Testing Baseline for Web."
+      ]
+    },
+    {
+      "heading": "Test Results",
+      "content": [
+        "-   Baseline Tests 19.A-FrameTitle and 19.B-iFrameName are not applicable to documents"
+      ]
+    }
+  ]
+}

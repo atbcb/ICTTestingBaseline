@@ -15,14 +15,14 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-Flashing can be caused by factors beyond the control of authors (e.g., the user's display, the computer rendering of the image, or connectivity issues). There is no reliable, free, or widely available solution for determining the resulting flash frequency for these types of factors.
+-   Flashing can be caused by factors beyond the control of authors (e.g., the user's display, the computer rendering of the image, or connectivity issues). There is no reliable, free, or widely available solution for determining the resulting flash frequency for these types of factors.
 
-This test addresses flashing caused by the content itself, including:
+-   This test addresses flashing caused by the content itself, including:
 
--   Determining the flash rate from programmatically available information
--   Determining the pixel dimensions of any flashing element
--   Determining if the [relative luminance](https://www.w3.org/TR/WCAG22/#dfn-relative-luminance) changes by more than 10% for a pair of opposing changes in a flash
--   Determining if a pair of opposing transitions in a flash involves a [saturated red](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#general-thresholddef)
+    -   Determining the flash rate from programmatically available information
+    -   Determining the pixel dimensions of any flashing element
+    -   Determining if the [relative luminance](https://www.w3.org/TR/WCAG22/#dfn-relative-luminance) changes by more than 10% for a pair of opposing changes in a flash
+    -   Determining if a pair of opposing transitions in a flash involves a [saturated red](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#general-thresholddef)
 
 ### Limitations, Assumptions, or Exceptions
 

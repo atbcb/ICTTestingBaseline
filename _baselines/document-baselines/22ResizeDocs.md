@@ -13,7 +13,7 @@ banner-title: "Baseline for Documents"
 
 ### Test Method Rationale
 
-This baseline test requires an evaluation of visual content and functionality after text has been resized.
+-   This baseline test requires an evaluation of visual content and functionality after text has been resized.
 
 ### Limitations, Assumptions, or Exceptions
 
@@ -49,7 +49,7 @@ This baseline test requires an evaluation of visual content and functionality af
 <p id="d22aTR">If any of the above checks fail, then Baseline Test 22.A-ResizeText fails.</p>
 
 ### Advisory: Tips for Streamlined Test Processes
-None
+-   None
 
 ### WCAG 2.2 Techniques
 
