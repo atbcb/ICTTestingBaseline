@@ -1,0 +1,6 @@
+
+-   [WCAG SC 1.2.2 Captions (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded) -- Captions are provided for all prerecorded audio content in synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
+-   [WCAG SC 1.2.3 Audio Description or Media Alternative (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-or-media-alternative-prerecorded) -- An alternative for time-based media or audio description of the prerecorded video content is provided for synchronized media, except when the media is a media alternative for text and is clearly labeled as such.
+-   [WCAG SC 1.2.4 Captions (Live)](https://www.w3.org/WAI/WCAG22/Understanding/captions-live) -- Captions are provided for all live audio content in synchronized media.
+-   [WCAG SC 1.2.5 Audio Description (Prerecorded)](https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded) -- Audio description is provided for all prerecorded video content in synchronized media.
+-   
