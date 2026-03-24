@@ -1,0 +1,19 @@
+
+### 1.B Test Procedure for No Keyboard Trap
+
+**Baseline Test ID:** {{ page.source }}-1.B-NoKeyboardTrap
+#### Identify Content
+<p id="{{ page.source }}-1bIC">Components that receive keyboard focus.</p>
+
+#### Test Instructions
+<ol id="{{ page.source }}-1bTI">
+<li id="{{ page.source }}-1bTI-1">Check that focus can be moved away from the component. There must be NO “TRAP” that disrupts keyboard navigation.[SC 2.1.2, Conformance Requirement 5]
+    <ol>
+        <li id="{{ page.source }}-1bTI-1i">If a keyboard trap is found, inspect any help (contextual help, or application help) and documentation for notification of available alternate keyboard commands (e.g., non-standard keyboard controls, access keys, hotkeys).</li>
+        <li id="{{ page.source }}-1bTI-1ii">If nonstandard keyboard commands are required to navigate away from a component or set of components, check that the commands work.</li>
+    </ol></li>
+</ol>
+
+#### Test Results
+<p id="{{ page.source }}-1bTR">If the above check fails, then Baseline Test {{ page.source }}-1.B-NoKeyboardTrap fails.
+</p>
