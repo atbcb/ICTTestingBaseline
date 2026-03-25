@@ -3,9 +3,32 @@ title: "1. Keyboard Accessible (Docs)"
 order-number: 2
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 1. Keyboard Accessible
+
+<!-- ### Accessibility Requirements -->
+{% include baseline-segments/acc-reqs/01-keyboard-acc-reqs.md %}
+
+<!-- ### Test Method Rationale -->
+{% include baseline-segments/test-method-rationales/01-keyboard-tmr.md %}
+
+<!-- ### Limitations, Assumptions, or Exceptions -->
+{% include baseline-segments/lim-assmpt-except/01-keyboard-lae.md %}
+
+<!-- ### 1.A Test Procedure for Keyboard Access -->
+{% include baseline-segments/tests/1A-keyboardaccess.html %}
+
+<!-- ### 1.B Test Procedure for No Keyboard Trap -->
+{% include baseline-segments/tests/1B-nokeyboardtrap.html %}
+
+<!-- ### Advisory: Tips for streamlined test processes -->
+{% include baseline-segments/advisory/01-keyboard-adv.md %}
+
+<!-- ### WCAG 2.2 Techniques -->
+{% include baseline-segments/wcag-techs/01-keyboard-wcag.md %}
+
 ### Accessibility Requirements
 
 - [WCAG SC 2.1.1 Keyboard ](https://www.w3.org/WAI/WCAG22/Understanding/keyboard)-- All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
