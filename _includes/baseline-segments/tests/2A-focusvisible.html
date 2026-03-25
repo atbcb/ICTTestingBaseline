@@ -1,0 +1,15 @@
+### 2.A Test Procedure for Focus Visible
+
+**Baseline Test ID:** {{ page.source }}-2.A-FocusVisible
+
+#### Identify Content
+<p id="{{ page.source }}-2aIC">Keyboard accessible interface components (e.g., links, form fields, drop-down menus, show/hide content, tree views, {% if page.source == "Doc" %}and {% endif %}pop ups{% if page.source == "Web" %}/light boxes, frames, iframes){% elsif page.source == "Doc" %}{% endif %}.</p>
+
+#### Test Instructions
+<ol id="{{ page.source }}-2aTI">
+    <li id="{{ page.source }}-2aTI-1">Use the keyboard to navigate through each interface component.</li>
+    <li id="{{ page.source }}-2aTI-2">Check that a visible indication of focus is provided when focus is on the interface component. The focus indicator must not be time limited; when the keyboard focus is shown it must remain.[SC 2.4.7]</li>
+</ol>
+
+#### Test Results
+<p id="{{ page.source }}-2aTR">If any of the above checks fail, then Baseline Test {{ page.source }}-2.A-FocusVisible fails.</p>
