@@ -1,6 +1,4 @@
-<h3>Advisory</h3>
-<p>Ensure data tables use proper header cells and associations so assistive technologies can convey row and column relationships. Avoid using tables for layout-only purposes.</p>
-<h3>Advisory: Tips for streamlined test processes</h3>
+<h3>Advisory: Tips for Streamlined Test Processes</h3>
 
--   When evaluating tables, consider linearization and use of programmatic associations to ensure assistive technologies can relate headers to data cells.
--   Use browser accessibility tools or AT to confirm associations.
+- Content that is presented with a CSS table appearance, but does not rely on header association, can most easily be identified by linearization. Another helpful indicator is the table only has row headers or column headers but not both.
+- Baseline Tests [12.A]({{site.baseurl}}/web-baselines/12DataTables/#12a-test-procedure-for-data-table-roles) and [12.C]({{site.baseurl}}/web-baselines/12DataTables/#12c-test-procedure-for-layout-tables) should be performed for each data table.
