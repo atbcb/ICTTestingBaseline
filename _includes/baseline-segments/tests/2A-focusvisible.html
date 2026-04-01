@@ -3,7 +3,7 @@
 **Baseline Test ID:** {{ page.source }}-2.A-FocusVisible
 
 #### Identify Content
-<p id="{{ page.source }}-2aIC">Keyboard accessible interface components (e.g., links, form fields, drop-down menus, show/hide content, tree views, {% if page.source == "Doc" %}and {% endif %}pop ups{% if page.source == "Web" %}/light boxes, frames, iframes){% elsif page.source == "Doc" %}{% endif %}.</p>
+<p id="{{ page.source }}-2aIC">Keyboard accessible {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} components (e.g., links, form fields, drop-down menus, show/hide content, tree views, {% if page.source == "Doc" %}and {% endif %}pop ups{% if page.source == "Web" %}/light boxes, frames, iframes){% elsif page.source == "Doc" %}{% endif %}.</p>
 
 #### Test Instructions
 <ol id="{{ page.source }}-2aTI">

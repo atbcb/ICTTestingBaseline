@@ -1,0 +1,20 @@
+### 2.C Test Procedure for On Focus
+
+**Baseline Test ID:** {{ page.source }}-2.C-OnFocus
+#### Identify Content
+<p id="{{ page.source }}-2aIC">Keyboard accessible {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} components (e.g., links, form fields, drop-down menus, show/hide content, tree views, {% if page.source == "Doc" %}and {% endif %}pop ups{% if page.source == "Web" %}/light boxes, frames, iframes){% elsif page.source == "Doc" %}{% endif %}.</p>
+
+#### Test Instructions
+<ol id="{{ page.source }}-2cTI">
+    <li id="{{ page.source }}-2cTI-1">Use the keyboard to move focus to and navigate through each interactive {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} component (including form drop-down lists and form fields).</li>
+    <li id="{{ page.source }}-2cTI-2">Check that when {% if page.source == "Web" %}an interface{% elsif page.source == "Doc" %}a document{% endif %} component receives focus, it does not initiate an unexpected change of context. [SC 3.2.1]<br>
+    Examples of a change of context include:
+        <ul>
+            <li>Form submitted automatically when a component receives focus</li>
+            <li>New application window launched when a component receives focus</li>
+            <li>Focus automatically moved to another component</li>
+        </ul></li>
+</ol>
+
+#### Test Results
+<p id="{{ page.source }}-2cTR">If any of the above checks fail, then Baseline Test {{ page.source }}-2.C-OnFocus fails.</p>
