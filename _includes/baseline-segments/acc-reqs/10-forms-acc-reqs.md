@@ -1,3 +1,4 @@
+### Accessibility Requirements
 
 -   [WCAG2 SC: 1.1.1. Non-Text](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for [specific] situations:
     - Controls, Input: If non-text content is a control or accepts user input, then it has a name that describes its purpose. (Refer to Success Criterion 4.1.2 for additional requirements for controls and content that accepts user input.)

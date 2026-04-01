@@ -1,0 +1,21 @@
+<h3>6.A Test Procedure for Images with a non-empty text alternative</h3>
+<strong>Baseline Test ID:</strong> 6.A-MeaningfulImage
+
+<h4>Identify Content</h4>
+<p id="6aIC">Identify any image (i.e., <code>img</code> element or an element with <code>role="img"</code>) that has a non-empty text alternative (combination of the accessible name and accessible description) per the <a href="https://www.w3.org/TR/html-aam-1.0/#img-element-accessible-name-computation">HTML Accessibility API Mappings 1.0 for img</a>. </p>
+
+<h4>Test Instructions</h4>
+<ol id="6aTI">
+    <li id="6aTI-1">Check that none of the following is true [SC 1.1.1]:
+    <ol>
+        <li id="6aTI-1i">The image is page design/formatting and could be ignored by assistive technology without any loss of meaning.</li>
+        <li id="6aTI-1ii">The image is not visible on the page.</li>
+    </ol>
+    </li>
+    <li id="6aTI-2">Check that the ARIA role is <strong>NOT</strong> "presentation".[SC 4.1.2]</li>
+    <li id="6aTI-3">Check that the ARIA role is <strong>NOT</strong> "none".[SC 4.1.2]</li>
+    <li id="6aTI-4">Check that the non-empty text alternative (combination of accessible name and accessible description) provides an equivalent description of the image's purpose. [SC 1.1.1]</li>
+</ol>
+
+<h4>Test Results</h4>
+<p id="6aTR">If any of the above checks fail, then Baseline Test 6.A-MeaningfulImage fails.</p>

@@ -1,3 +1,4 @@
+### Accessibility Requirements
 
 -   [WCAG SC 1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for [specific] situations.
 -   [WCAG SC 1.3.3 Sensory Characteristics](https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics) -- Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, color, size, visual location, orientation, or sound.

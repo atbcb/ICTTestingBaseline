@@ -18,6 +18,9 @@ banner-title: "Baseline for Web"
 -   The tests include guidance from the [W3C Web Accessiblity Initiative Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
 -   All images must be evaluated. Multiple tests may apply to an image. 
 
+<!-- ### Test Method Rationale -->
+{% include baseline-segments/test-method-rationales/06-images-tmr.html %}
+
 ### Limitations, Assumptions, Exceptions
 
 -   An image that has a non-empty accessible name has been determined to be meaningful by the content author. The author has decided that this image should not be ignored by assistive technology.

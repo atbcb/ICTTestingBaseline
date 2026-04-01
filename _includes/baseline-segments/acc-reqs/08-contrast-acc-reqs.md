@@ -1,3 +1,4 @@
+### Accessibility Requirements
 
 -   [WCAG SC 1.4.3 Contrast (minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum) -- The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:
     -   Large Text: Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;

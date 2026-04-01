@@ -1,3 +1,4 @@
+### Accessibility Requirements
 
 -   [WCAG2 SC: 1.1.1. Non-Text](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for [specific] situations.
 -   [WCAG2 SC: 1.4.5 Images of Text](https://www.w3.org/WAI/WCAG22/Understanding/images-of-text) -- If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text except for [specific situations].

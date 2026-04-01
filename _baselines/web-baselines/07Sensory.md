@@ -109,6 +109,27 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G182: Ensuring that additional visual cues are available when text color differences are used to convey information](https://www.w3.org/WAI/WCAG22/Techniques/general/G182)
 -   [G205: Including a text cue for colored form control labels](https://www.w3.org/WAI/WCAG22/Techniques/general/G205)
 
+<!-- ### Test Method Rationale -->
+{% include baseline-segments/test-method-rationales/07-sensory-tmr.html %}
+
+<!-- ### Limitations, Assumptions, or Exceptions -->
+{% include baseline-segments/lim-assmpt-except/07-sensory-lae.md %}
+
+<!-- ### 7.A Test Procedure for Use of Color -->
+{% include baseline-segments/tests/7A-color.html %}
+
+<!-- ### 7.B Test Procedure for Sensory Characteristics -->
+{% include baseline-segments/tests/7B-sensorycharacteristics.html %}
+
+<!-- ### 7.C Test Procedure for Audible Cues -->
+{% include baseline-segments/tests/7C-audiblecues.html %}
+
+<!-- ### Advisory: Tips for streamlined test processes -->
+{% include baseline-segments/advisory/07-sensory-adv.html %}
+
+<!-- ### WCAG 2.2 Techniques -->
+{% include baseline-segments/wcag-techs/07-sensory-wcag.md %}
+
     
 
    
