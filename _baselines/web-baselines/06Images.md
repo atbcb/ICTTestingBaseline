@@ -3,6 +3,7 @@ title: "6. Images (Web)"
 order-number: 7
 toc-group: baseline-web
 banner-title: "Baseline for Web"
+source: Web
 ---
 ## 6. Images
 
@@ -17,9 +18,6 @@ banner-title: "Baseline for Web"
 -   The image tests evaluate the images as coded to discern whether the author of the content has determined they are meaningful or decorative. However, there are certain scenarios, as described in the tests, where the author's programmatic determination could be incorrect.
 -   The tests include guidance from the [W3C Web Accessiblity Initiative Images Tutorial](https://www.w3.org/WAI/tutorials/images/).
 -   All images must be evaluated. Multiple tests may apply to an image. 
-
-<!-- ### Test Method Rationale -->
-{% include baseline-segments/test-method-rationales/06-images-tmr.html %}
 
 ### Limitations, Assumptions, Exceptions
 
