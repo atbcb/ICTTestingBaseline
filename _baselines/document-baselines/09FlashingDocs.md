@@ -32,6 +32,15 @@ This test addresses flashing caused by the content itself, including:
 -   Note from SC 2.3.1:
     -   Note 1: Since any content that does not meet this success criterion can interfere with a user's ability to use the whole page, all content (whether it is used to meet other success criteria or not) must meet this success criterion. See Conformance Requirement 5: Non-Interference.
 
+<!-- ### 9.A Test Procedure for Three Flashes or Below Threshold -->
+{% include baseline-segments/tests/09A-flashes.html %}
+
+<!-- ### Advisory: Tips for Streamlined Test Processes -->
+{% include baseline-segments/advisory/09-flashing-adv.html %}
+
+<!-- ### WCAG 2.2 Techniques -->
+{% include baseline-segments/wcag-techs/09-flashing-wcag.md %}
+
 ### 9.A Test Procedure for Three Flashes or Below Threshold
 
 **Baseline Test ID:** 9.A-Flashes

@@ -27,6 +27,36 @@ banner-title: "Baseline for Documents"
 
 Review form instructions for completeness and programmatic association to their inputs. Enter erroneous inputs and review error notifications provided to the user.
 
+<!-- ### Limitations, Assumptions, or Exceptions -->
+{% include baseline-segments/lim-assmpt-except/10-forms-lae.md %}
+
+<!-- ### 10.A Test Procedure for Form Names -->
+{% include baseline-segments/tests/10A-formname.html %}
+
+<!-- ### 10.B Test Procedure for Form Labels Descriptive -->
+{% include baseline-segments/tests/10B-formdescriptivelabel.html %}
+
+<!-- ### 10.C Test Procedure for On Input -->
+{% include baseline-segments/tests/10C-oninput.html %}
+
+<!-- ### 10.D Test Procedure for Error Identification -->
+{% include baseline-segments/tests/10D-erroridentification.html %}
+
+<!-- ### 10.E Test Procedure for Form has a Visible Label -->
+{% include baseline-segments/tests/10E-formhaslabel.html %}
+
+<!-- ### 10.F Test Procedure for Error Suggestion -->
+{% include baseline-segments/tests/10F-errorsuggestion.html %}
+
+<!-- ### 10.G Test Procedure for Error Prevention (Legal, Financial, Data) -->
+{% include baseline-segments/tests/10G-errorprevention.html %}
+
+<!-- ### Advisory: Tips for Streamlined Test Processes -->
+{% include baseline-segments/advisory/10-forms-adv.html %}
+
+<!-- ### WCAG 2.2 Techniques -->
+{% include baseline-segments/wcag-techs/10-forms-wcag.md %}
+
 ### Limitations, Assumptions, or Exceptions
 
 - Read-only (e.g., pre-filled) form fields receive keyboard focus and are selectable but cannot be modified. These must be labeled and programmatically determinable, and are tested under SC 1.3.1.
