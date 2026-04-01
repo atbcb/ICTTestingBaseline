@@ -170,3 +170,21 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G78: providing a second, user-selectable, audio track that includes audio descriptions](https://www.w3.org/WAI/WCAG22/Techniques/general/G78)
 -   [G87: Providing closed captions](https://www.w3.org/WAI/WCAG22/Techniques/general/G87)
 -   [G93: Providing open (always visible) captions](https://www.w3.org/WAI/WCAG22/Techniques/general/G93)
+
+{% include baseline-segments/acc-reqs/17-syncmedia-acc-reqs.md %}
+
+{% include baseline-segments/test-method-rationales/17-syncmedia-tmr.html %}
+
+{% include baseline-segments/lim-assmpt-except/17-syncmedia-lae.md %}
+
+{% include baseline-segments/tests/17A-mediaplayerccadcontrols.html %}
+{% include baseline-segments/tests/17B-mediaplayercclevel.html %}
+{% include baseline-segments/tests/17C-mediaplayeradlevel.html %}
+{% include baseline-segments/tests/17D-captionsprerecorded.html %}
+{% include baseline-segments/tests/17E-adprerecorded.html %}
+{% include baseline-segments/tests/17F-captionslive.html %}
+{% include baseline-segments/tests/17G-syncmediaalternative.html %}
+
+{% include baseline-segments/advisory/17-syncmedia-adv.html %}
+
+{% include baseline-segments/wcag-techs/17-syncmedia-wcag.md %}

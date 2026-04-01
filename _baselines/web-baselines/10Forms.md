@@ -6,8 +6,6 @@ banner-title: "Baseline for Web"
 source: Web
  ---
  ## 10. Forms
----
-## 10. Forms
 
 ### Accessibility Requirements
 

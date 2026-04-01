@@ -116,3 +116,19 @@ The following sufficient techniques and/or common failures were considered when 
 -   [G130: Providing descriptive headings](https://www.w3.org/WAI/WCAG22/Techniques/general/G130)
 -   [H42: Using &lt;h1&gt; to &lt;h6&gt; to identify headings](https://www.w3.org/WAI/WCAG22/Techniques/html/H42)
 -   [H48: Using ol, ul and dl for lists or groups of links](https://www.w3.org/WAI/WCAG22/Techniques/html/H48)
+
+{% include baseline-segments/acc-reqs/13-structure-acc-reqs.md %}
+
+{% include baseline-segments/test-method-rationales/13-structure-tmr.html %}
+
+{% include baseline-segments/lim-assmpt-except/13-structure-lae.md %}
+
+{% include baseline-segments/tests/13A-headingdescriptive.html %}
+{% include baseline-segments/tests/13B-visheadingprog.html %}
+{% include baseline-segments/tests/13C-progheadingvisual.html %}
+{% include baseline-segments/tests/13D-list.html %}
+
+{% include baseline-segments/advisory/13-structure-adv.html %}
+
+{% include baseline-segments/wcag-techs/13-structure-wcag.md %}
+

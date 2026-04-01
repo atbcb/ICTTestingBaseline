@@ -120,3 +120,18 @@ The following sufficient techniques and/or common failures were considered when 
 
 -   [G158: Providing an alternative for time-based media for audio-only content](https://www.w3.org/WAI/WCAG22/Techniques/general/G158)
 -   [G159: Providing an alternative for time-based media for video-only content](https://www.w3.org/WAI/WCAG22/Techniques/general/G159)
+
+{% include baseline-segments/acc-reqs/16-audiovideo-acc-reqs.md %}
+
+{% include baseline-segments/test-method-rationales/16-audiovideo-tmr.html %}
+
+{% include baseline-segments/lim-assmpt-except/16-audiovideo-lae.md %}
+
+{% include baseline-segments/tests/16A-audioonlytranscript.html %}
+{% include baseline-segments/tests/16B-videoonlyalt.html %}
+{% include baseline-segments/tests/16C-audiomediaalt.html %}
+{% include baseline-segments/tests/16D-videomediaalt.html %}
+
+{% include baseline-segments/advisory/16-audiovideo-adv.html %}
+
+{% include baseline-segments/wcag-techs/16-audiovideo-wcag.md %}

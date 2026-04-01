@@ -73,3 +73,16 @@ The following sufficient techniques and/or common failures were considered when 
 -   [H58: Using language attributes to identify changes in the human language](https://www.w3.org/WAI/WCAG22/Techniques/html/H58)
 -   [PDF16: Setting the default language using the /Lang entry in the document catalog of a PDF document](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF16)
 -   [PDF19: Specifying the language for a passage or phrase with the Lang entry in PDF documents](https://www.w3.org/WAI/WCAG22/Techniques/pdf/PDF19)
+
+{% include baseline-segments/acc-reqs/15-language-acc-reqs.md %}
+
+{% include baseline-segments/test-method-rationales/15-language-tmr.html %}
+
+{% include baseline-segments/lim-assmpt-except/15-language-lae.md %}
+
+{% include baseline-segments/tests/15A-languagedocument.html %}
+{% include baseline-segments/tests/15B-languageparts.html %}
+
+{% include baseline-segments/advisory/15-language-adv.html %}
+
+{% include baseline-segments/wcag-techs/15-language-wcag.md %}
