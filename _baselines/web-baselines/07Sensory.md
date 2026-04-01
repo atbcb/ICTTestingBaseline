@@ -3,6 +3,7 @@ title: "7. Sensory Characteristics (Web)"
 order-number: 8
 toc-group: baseline-web
 banner-title: "Baseline for Web"
+source: Web
 ---
 ## 7. Sensory Characteristics
 
