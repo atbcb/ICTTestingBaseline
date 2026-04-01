@@ -1,0 +1,18 @@
+<h3>Test: Layout tables</h3>
+<ol>
+  <li>Inspect markup to determine whether the table is used for layout/presentation rather than for tabular data.</li>
+  <li>If table is layout-only, flag as failure for not conveying semantic relations of data.</li>
+</ol>
+<h3>12.C Test Procedure for Layout Tables</h3>
+<strong>Baseline Test ID:</strong> 12.C-LayoutTable
+
+<h4>Identify Content</h4>
+<p id="12cIC">All content/data visually presented in a table that retains any meaningful sequence when linearized.</p>
+
+<h4>Test Instructions</h4>
+<ol id="12cTI">
+    <li id="12cTI-1">Check that the table used purely for layout purposes does not use data table structure elements (e.g., <code>&lt;th&gt;</code>, <code>scope</code>, <code>headers</code>), and that any programmatic roles used are appropriate for layout only. [SC 4.1.2]</li>
+</ol>
+
+<h4>Test Results</h4>
+<p id="12cTR">If any of the above checks fail, then Baseline Test 12.C-LayoutTable fails.</p>

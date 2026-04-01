@@ -136,3 +136,16 @@ The following sufficient techniques were considered when developing this test pr
 -   [H63: Using the scope attribute to associate header cells and data cells in data tables](https://www.w3.org/WAI/WCAG22/Techniques/html/H63)
 
 
+{% include baseline-segments/advisory/12-datatables-adv.html %}
+
+{% include baseline-segments/test-method-rationales/12-datatables-tmr.html %}
+
+{% include baseline-segments/lim-assmpt-except/12-datatables-lae.md %}
+
+{% include baseline-segments/tests/12A-datatables-role.html %}
+{% include baseline-segments/tests/12B-datatables-headerassoc.html %}
+{% include baseline-segments/tests/12C-layouttable.html %}
+
+{% include baseline-segments/wcag-techs/12-datatables-wcag.md %}
+
+
