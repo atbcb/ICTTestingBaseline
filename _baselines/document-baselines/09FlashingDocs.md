@@ -3,6 +3,7 @@ title: "9. Flashing (Docs)"
 order-number: 10
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 9. Flashing

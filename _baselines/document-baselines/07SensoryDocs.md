@@ -3,6 +3,7 @@ title: "7. Sensory Characteristics (Docs)"
 order-number: 8
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 7. Sensory Characteristics

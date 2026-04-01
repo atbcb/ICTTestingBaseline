@@ -3,6 +3,7 @@ title: "6. Images (Docs)"
 order-number: 7
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 6. Images

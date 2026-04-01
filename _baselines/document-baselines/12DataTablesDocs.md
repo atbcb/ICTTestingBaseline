@@ -3,6 +3,7 @@ title: "12. Tables (Docs)"
 order-number: 13
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 12. Tables

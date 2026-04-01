@@ -3,6 +3,7 @@ title: "20. Conforming Alternate Version (Docs)"
 order-number: 21
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 20. Conforming Alternate Version
