@@ -24,5 +24,5 @@
             <li><strong>Note:</strong> A change of content is not always a change of context. Changes in content, such as an expanding outline, dynamic menu, or a tab control do not necessarily change the context, unless they also change one of the above (e.g., focus).</li>
             <li><strong>Examples:</strong> Opening a new window, moving focus to a different component, going to a new page or window (including anything that would look to a user as if they had moved to a new page) or significantly re-arranging the content of a page/screen are examples of changes of context.</li>
         </ul>
-    <li>
+    </li>
 </ul>

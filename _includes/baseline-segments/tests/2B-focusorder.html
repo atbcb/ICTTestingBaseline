@@ -1,10 +1,11 @@
-### 2.B Test Procedure for Focus Order
+<h3>2.B Test Procedure for Focus Order</h3>
 
-**Baseline Test ID:** {{ page.source }}-2.B-FocusOrder
-#### Identify Content
+<strong>Test ID:</strong> {{ page.source }}-2.B-FocusOrder
+
+<h4>Identify Content</h4>
 <p id="{{ page.source }}-2bIC">Keyboard accessible {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} components (links, form fields, drop-down menus, show/hide content, tree views, pop ups{% if page.source == "Web" %}/light boxes, frames, iframes{% elsif page.source == "Doc" %}{% endif %}, etc.) that have a meaningful sequence of navigation.</p>
 
-#### Test Instructions
+<h4>Test Instructions</h4>
 <ol id="{{ page.source }}-2bTI">
     <li id="{{ page.source }}-2bTI-1">Use the keyboard to navigate through {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} components.
     <ol>
@@ -21,5 +22,5 @@
     <li id="{{ page.source }}-2bTI-2">Check that the focus order preserves the meaning and usability of the page. [SC 2.4.3]</li>
 </ol>
 
-#### Test Results
+<h4>Test Results</h4>
 <p id="{{ page.source }}-2bTR">If any of the above checks fail, then Baseline Test {{ page.source }}-2.B-FocusOrder fails.</p>

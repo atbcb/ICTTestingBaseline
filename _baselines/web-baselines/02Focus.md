@@ -1,11 +1,10 @@
 ---
-title: "2. Focus (Docs)"
+title: "2. Focus (Web)"
 order-number: 3
-toc-group: baseline-docs
-banner-title: "Baseline for Documents"
-source: Doc
+toc-group: baseline-web
+banner-title: "Baseline for Web"
+source: Web
 ---
-
 ## 2. Focus
 
 <!-- ### Accessibility Requirements -->

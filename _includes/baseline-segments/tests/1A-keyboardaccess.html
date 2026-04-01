@@ -1,10 +1,11 @@
-### 1.A Test Procedure for Keyboard Access
+<h3>1.A Test Procedure for Keyboard Access</h3>
 
-**Baseline Test ID:** {{ page.source }}-1.A-KeyboardAccess
-#### Identify Content
+<strong>Test ID:</strong> {{ page.source }}-1.A-KeyboardAccess
+
+<h4>Identify Content</h4>
 <p id="{{ page.source }}-1aIC">All functionality of the content that is available by mouse control must be keyboard accessible. Determine the functionality of visible and hidden interactive {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} components (links, form fields, drop down menus, show/hide content, tree views, pop ups{% if page.source == "Web" %}/light boxes, iframes{% elsif page.source == "Doc" %}{% endif %}, etc.) available using a mouse (hover and/or click).</p>
 
-#### Test Instructions
+<h4>Test Instructions</h4>
 <ol id="{{ page.source }}-1aTI">
 <li id="{{ page.source }}-1aTI-1">Check that all functionality can be accessed and executed using only the keyboard. [SC 2.1.1]
     <ol>
@@ -22,6 +23,6 @@
 </li>
 </ol>
 
-#### Test Results
+<h4>Test Results</h4>
 
 <p id="{{ page.source }}-1aTR">If any of the above checks fail, then Baseline Test {{ page.source }}-1.A-KeyboardAccess fails.</p>
