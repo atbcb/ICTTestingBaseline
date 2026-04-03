@@ -3,12 +3,12 @@
 <strong>Test ID:</strong> {{ page.source }}-2.A-FocusVisible
 
 <h4>Identify Content</h4>
-<p id="{{ page.source }}-2aIC">Keyboard accessible {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} components (e.g., links, form fields, drop-down menus, show/hide content, tree views, {% if page.source == "Doc" %}and {% endif %}pop ups{% if page.source == "Web" %}/light boxes, frames, iframes){% elsif page.source == "Doc" %}{% endif %}.</p>
+<p id="{{ page.source }}-2aIC">Keyboard accessible {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} components (e.g., links, form fields, drop-down menus, show/hide content, tree views, {% if page.source == "Doc" %}and {% endif %}pop ups{% if page.source == "Web" %}/light boxes, frames, iframes){% endif %}.</p>
 
 <h4>Test Instructions</h4>
 <ol id="{{ page.source }}-2aTI">
     <li id="{{ page.source }}-2aTI-1">Use the keyboard to navigate through each interface component.</li>
-    <li id="{{ page.source }}-2aTI-2">Check that a visible indication of focus is provided when focus is on the interface component. The focus indicator must not be time limited; when the keyboard focus is shown it must remain.[SC 2.4.7]</li>
+    <li id="{{ page.source }}-2aTI-2">Check that a visible indication of focus is provided when focus is on the {% if page.source == "Web" %}interface{% elsif page.source == "Doc" %}document{% endif %} component. The focus indicator must not be time limited; when the keyboard focus is shown it must remain. [SC 2.4.7]</li>
 </ol>
 
 <h4>Test Results</h4>
