@@ -1,5 +1,11 @@
 ### Accessibility Requirements
 
+-   [WCAG SC 1.4.2 Audio Control](https://www.w3.org/WAI/WCAG22/Understanding/audio-control) -- If any audio on a page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
+-   [WCAG SC 2.2.1 Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable) -- For each time limit that is set by the content, at least one of the following is true: Turn off, Adjust, or Extend.
+-   [WCAG SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide) -- For moving, blinking, scrolling, or auto-updating information, mechanisms exist to pause, stop, or hide when appropriate.
+-   [Conformance Requirement 5: Non-Interference](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req5) -- Certain success criteria apply to all content on the page because failure could interfere with use of the page.
+### Accessibility Requirements
+
 -   [WCAG SC 1.4.2 Audio Control](https://www.w3.org/WAI/WCAG22/Understanding/audio-control) -- If any audio on a page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level.
 -   [WCAG SC 2.2.1 Timing Adjustable](https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable) -- For each time limit that is set by the content, at least one of the following is true:
     -   **Turn off:** The user is allowed to turn off the time limit before encountering it.

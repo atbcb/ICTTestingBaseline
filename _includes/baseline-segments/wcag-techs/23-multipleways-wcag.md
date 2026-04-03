@@ -1,0 +1,6 @@
+-   [G63: Providing a site map](https://www.w3.org/WAI/WCAG22/Techniques/general/G63)
+-   [G64: Providing a Table of Contents](https://www.w3.org/WAI/WCAG22/Techniques/general/G64)
+-   [G125: Providing links to navigate to related Web pages](https://www.w3.org/WAI/WCAG22/Techniques/general/G125)
+-   [G126: Providing a list of links to all other Web pages](https://www.w3.org/WAI/WCAG22/Techniques/general/G126)
+-   [G161: Providing a search function to help users find content](https://www.w3.org/WAI/WCAG22/Techniques/general/G161)
+-   [G185: Linking to all of the pages on the site from the home page](https://www.w3.org/WAI/WCAG22/Techniques/general/G185)

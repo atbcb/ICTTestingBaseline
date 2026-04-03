@@ -1,0 +1,3 @@
+-   [C29: Using a style switcher to provide a conforming alternate version (CSS)](https://www.w3.org/WAI/WCAG22/Techniques/css/C29)
+-   [G136: Providing a link at the beginning of a nonconforming Web page that points to a conforming alternate version](https://www.w3.org/WAI/WCAG22/Techniques/general/G136)
+-   [G190: Providing a link adjacent to or associated with a non-conforming object that links to a conforming alternate version](https://www.w3.org/WAI/WCAG22/Techniques/general/G190)
