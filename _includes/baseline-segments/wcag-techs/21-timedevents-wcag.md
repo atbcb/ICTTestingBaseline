@@ -1,3 +1,6 @@
+### WCAG 2.2 Techniques
+
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -    [F16: Failure of Success Criterion 2.2.2 due to including scrolling content where movement is not essential](https://www.w3.org/WAI/WCAG21/Techniques/failures/F16.html)
 -   [G4: Allowing the content to be paused and restarted from where it was paused](https://www.w3.org/WAI/WCAG22/Techniques/general/G4)
 -   [G60: Playing a sound that turns off automatically within three seconds](https://www.w3.org/WAI/WCAG22/Techniques/general/G60)

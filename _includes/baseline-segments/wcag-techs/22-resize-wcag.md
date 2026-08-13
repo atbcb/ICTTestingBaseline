@@ -1,3 +1,6 @@
+### WCAG 2.2 Techniques
+
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [F69: Failure of Success Criterion 1.4.4 when resizing visually rendered text up to 200 percent](https://www.w3.org/WAI/WCAG22/Techniques/failures/F69)
 -   [F80: Failure of Success Criterion 1.4.4 when text-based form controls do not resize when visually rendered text is resized up to 200%](https://www.w3.org/WAI/WCAG22/Techniques/failures/F80)
 -   [F94: Failure of Success Criterion 1.4.4 due to incorrect use of viewport units to resize text](https://www.w3.org/WAI/WCAG22/Techniques/failures/F94)

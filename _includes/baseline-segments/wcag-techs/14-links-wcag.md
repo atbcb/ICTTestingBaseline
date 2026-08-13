@@ -1,5 +1,7 @@
 ### WCAG 2.2 Techniques
 
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [ARIA7: Using aria-labelledby for link purpose](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA7)
 -   [ARIA8: Using aria-label for link purpose](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA8)
 -   [F89: Failure due to not providing an accessible name for an image-only link](https://www.w3.org/WAI/WCAG22/Techniques/failures/F89)

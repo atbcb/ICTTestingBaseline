@@ -1,5 +1,7 @@
 ### WCAG 2.2 Techniques
 
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
+
 -   [ARIA12: Using role="heading" and aria-level to identify heading levels](https://www.w3.org/WAI/WCAG22/Techniques/aria/ARIA12)
 -   [F43: Failure of SC 1.3.1 due to using structural markup in a way that does not represent relationships](https://www.w3.org/WAI/WCAG21/Techniques/failures/F43.html)
 -   [G115: Using semantic elements to mark up structure](https://www.w3.org/WAI/WCAG22/Techniques/general/G115)

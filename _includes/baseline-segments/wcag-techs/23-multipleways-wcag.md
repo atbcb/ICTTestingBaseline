@@ -1,3 +1,6 @@
+### WCAG 2.2 Techniques
+
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G63: Providing a site map](https://www.w3.org/WAI/WCAG22/Techniques/general/G63)
 -   [G64: Providing a Table of Contents](https://www.w3.org/WAI/WCAG22/Techniques/general/G64)
 -   [G125: Providing links to navigate to related Web pages](https://www.w3.org/WAI/WCAG22/Techniques/general/G125)

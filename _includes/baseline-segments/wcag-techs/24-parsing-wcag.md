@@ -1,3 +1,6 @@
+### WCAG 2.2 Techniques
+
+The following sufficient techniques and/or common failures were considered when developing this test procedure for this baseline requirement:
 -   [G134: Validating Web pages](https://www.w3.org/WAI/WCAG22/Techniques/general/G134)
 -   [G192: Fully conforming to specifications](https://www.w3.org/WAI/WCAG22/Techniques/general/G192)
 -   [H74: Ensuring that opening and closing tags are used according to specification](https://www.w3.org/WAI/WCAG22/Techniques/html/H74) AND [H93: Ensuring that id attributes are unique on a Web page](https://www.w3.org/WAI/WCAG22/Techniques/html/H93) AND [H94: Ensuring that elements do not contain duplicate attributes](https://www.w3.org/WAI/WCAG22/Techniques/html/H94)
