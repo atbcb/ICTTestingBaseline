@@ -1,5 +1,6 @@
 <h3>6.C Test Procedure for Captchas</h3>
-<strong>Baseline Test ID:</strong> 6.C-Captcha
+{% if page.source == "Web" %}
+<strong>Baseline Test ID:</strong> {{ page.source }}-6.C-Captcha
 
 <h4>Identify Content</h4>
 <p id="6cIC">Identify any CAPTCHA designed to determine if content is being accessed by a person rather than a computer.</p>
@@ -12,4 +13,11 @@
 </ol>
 
 <h4>Test Results</h4>
-<p id="6cTR">If any of the above checks fail, then Baseline Test 6.C-Captcha fails.</p>
+<p id="6cTR">If any of the above checks fail, then Baseline Test {{ page.source }}-6.C-Captcha fails.</p>
+{% elsif page.source == "Doc" %}
+<p>Captchas are not implemented in non-web documents, so this test is not applicable. It was not removed to maintain harmonization with the ICT Testing Baseline for Web.</p>
+
+<h4>Test Results</h4>
+<p id="6cTR">Baseline Test {{ page.source }}-6.C-Captcha is not applicable.</p>
+
+{% endif %}
