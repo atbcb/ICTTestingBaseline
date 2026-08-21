@@ -28,7 +28,7 @@ source: Doc
 
 Review form instructions for completeness and programmatic association to their inputs. Enter erroneous inputs and review error notifications provided to the user.
 
-<!-- ### Limitations, Assumptions, or Exceptions -->
+<!-- <!-- ### Limitations, Assumptions, or Exceptions -->
 {% include baseline-segments/lim-assmpt-except/10-forms-lae.md %}
 
 <!-- ### 10.A Test Procedure for Form Names -->
@@ -56,7 +56,7 @@ Review form instructions for completeness and programmatic association to their 
 {% include baseline-segments/advisory/10-forms-adv.html %}
 
 <!-- ### WCAG 2.2 Techniques -->
-{% include baseline-segments/wcag-techs/10-forms-wcag.md %}
+{% include baseline-segments/wcag-techs/10-forms-wcag.md %} -->
 
 ### Limitations, Assumptions, or Exceptions
 
