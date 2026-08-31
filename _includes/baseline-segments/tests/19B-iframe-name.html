@@ -1,0 +1,17 @@
+<h3>19.B Test Procedure for iFrames</h3>
+<strong>Baseline Test ID:</strong> 19.B-iFrameName
+
+<h4>Identify Content</h4>
+<p id="19bIC">iFrames in the keyboard focus order</p>
+
+<h4>Test Instructions</h4>
+<ol id="19bTI">
+    <li id="19bTI-1">Check that the combination of the accessible name and accessible description for each iframe is not empty. [SC 4.1.2]</li>
+    <li id="19bTI-2">Check that the non-empty combination of <a href="https://www.w3.org/TR/html-aam-1.0/#iframe-element-accessible-name-computation" target="_blank" rel="noopener">accessible name and description</a> for each <code>&lt;iframe&gt;</code> describes its content. [SC 4.1.2]</li>
+    <li id="19bTI-3">Check that the ARIA role is not "presentation". [SC 4.1.2]</li>
+    <li id="19bTI-4">Check that the ARIA role is not "none". [SC 4.1.2]</li>
+    <li id="19bTI-5">Check that the <code>aria-hidden</code> state is not "true". [SC 4.1.2]</li>
+</ol>
+
+<h4>Test Results</h4>
+<p id="19bTR">If any of the above checks fail, then Baseline Test 19.B-iFrameName fails.</p>

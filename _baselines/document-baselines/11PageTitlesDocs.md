@@ -3,6 +3,7 @@ title: "11. Document Titles (Docs)"
 order-number: 12
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 11. Document Titles
@@ -14,6 +15,18 @@ banner-title: "Baseline for Documents"
 ### Test Method Rationale
 
 The Title property defines the title of the document and is required in all documents. This test evaluates the presence of a descriptive title for the document.
+
+<!-- ### Limitations, Assumptions, Exceptions -->
+{% include baseline-segments/lim-assmpt-except/11-pagetitles-lae.md %}
+
+<!-- ### 11.A Test Procedure for Document Titled -->
+{% include baseline-segments/tests/11A-documenttitled.html %}
+
+<!-- ### Advisory: Tips for Streamlined Test Processes -->
+{% include baseline-segments/advisory/11-pagetitles-adv.html %}
+
+<!-- ### WCAG 2.2 Techniques -->
+{% include baseline-segments/wcag-techs/11-pagetitles-wcag.md %}
 
 ### Limitations, Assumptions, Exceptions
 

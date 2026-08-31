@@ -3,8 +3,38 @@ title: "6. Images (Web)"
 order-number: 7
 toc-group: baseline-web
 banner-title: "Baseline for Web"
+source: Web
 ---
 ## 6. Images
+
+<!-- ### Accessibility Requirements -->
+{% include baseline-segments/acc-reqs/06-images-acc-reqs.md %}
+
+<!-- ### Test Method Rationale -->
+{% include baseline-segments/test-method-rationales/06-images-tmr.html %}
+
+<!-- ### Limitations, Assumptions, or Exceptions -->
+{% include baseline-segments/lim-assmpt-except/06-images-lae.md %}
+
+<!-- ### 6.A Test Procedure for non-empty text alternative -->
+{% include baseline-segments/tests/6A-meaningfulimage.html %}
+
+<!-- ### 6.B Test Procedure for empty text alternative -->
+{% include baseline-segments/tests/6B-decorativeimage.html %}
+
+<!-- ### 6.C Test Procedure for CAPTCHA -->
+{% include baseline-segments/tests/6C-captcha.html %}
+
+<!-- ### 6.D Test Procedure for Images of text -->
+{% include baseline-segments/tests/6D-imagetext.html %}
+
+<!-- ### Advisory: Tips for streamlined test processes -->
+{% include baseline-segments/advisory/06-images-adv.html %}
+
+<!-- ### WCAG 2.2 Techniques -->
+{% include baseline-segments/wcag-techs/06-images-wcag.md %}
+
+<!--
 
 ### Accessibility Requirements
 
@@ -153,5 +183,5 @@ The following sufficient techniques and/or common failures were considered when 
 -   [W3C Tutorial: Functional Images](https://www.w3.org/WAI/tutorials/images/functional/)
 -   [W3C Tutorial: Informative Images](https://www.w3.org/WAI/tutorials/images/informative/)
     
-    
+ -->   
 

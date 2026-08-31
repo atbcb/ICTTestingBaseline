@@ -3,6 +3,7 @@ title: "17. Synchronized Media (Docs)"
 order-number: 18
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 17. Synchronized Media

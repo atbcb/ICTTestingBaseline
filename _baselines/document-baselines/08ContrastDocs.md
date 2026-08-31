@@ -3,6 +3,7 @@ title: "8. Contrast (Docs)"
 order-number: 9
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 8. Contrast
@@ -18,6 +19,18 @@ banner-title: "Baseline for Documents"
 ### Test Method Rationale
 
 This test is conducted to evaluate equal access to information for all users, including those who may experience difficulty in discerning between items with low contrast.
+
+<!-- ### Limitations, Assumptions, or Exceptions -->
+{% include baseline-segments/lim-assmpt-except/08-contrast-lae.md %}
+
+<!-- ### 8.A Test Procedure for Contrast (minimum) -->
+{% include baseline-segments/tests/08A-contrastminimum.html %}
+
+<!-- ### Advisory: Tips for Streamlined Test Processes -->
+{% include baseline-segments/advisory/08-contrast-adv.html %}
+
+<!-- ### WCAG 2.2 Techniques -->
+{% include baseline-segments/wcag-techs/08-contrast-wcag.md %}
 
 ### Limitations, Assumptions, or Exceptions
 
