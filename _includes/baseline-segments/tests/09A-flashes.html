@@ -1,0 +1,28 @@
+<h3>9.A Test Procedure for Three Flashes or Below Threshold</h3>
+
+<strong>Baseline Test ID:</strong> 9.A-Flashes
+
+<h4>Identify Content</h4>
+<p id="d9aIC">Visually identify content that <a href="https://www.w3.org/TR/WCAG22/#dfn-flashes" target="_blank" rel="noopener">flashes</a>.</p>
+
+<h4>Test Instructions</h4>
+<ol id="d9aTI">
+    <li id="d9aTI-1">Set the user agent at standard zoom level, e.g. 100% in a browser.</li>
+    <li id="d9aTI-2">If there is an option to view a larger version of the flashing content, such as a full screen mode, test the larger version. If there is an option to loop or repeat the flashing content, test the looping version.</li>
+    <li id="d9aTI-3">Check that one of the following is true of the flashing content: [SC 2.3.1]
+        <ol type="a">
+            <li id="d9aTI-3a">The flashing frequency is less than or equal to 3 flashes in any one second (3 Hertz).</li>
+            <li id="d9aTI-3b">The flashing frequency is above 3 Hertz or cannot be determined, and at least one of the following is true: 
+                <ol type="i">
+                    <li id="d9aTI-3bi">The combined area of flashes occurring concurrently occupies no more than a 341 x 256 pixel rectangle anywhere on the displayed screen area when the content is viewed at 1024 x 768 pixels.</li>
+                    <li id="d9aTI-3bii">The flash does not include "general flashes" (a pair of opposing changes in relative luminance of 10% or more of the maximum relative luminance (1.0) where the relative luminance of the darker image is below 0.80; and where "a pair of opposing changes" is an increase followed by a decrease, or a decrease followed by an increase).</li>
+                    <li id="d9aTI-3biii">The flash does not include any "pair of opposing transitions involving a saturated red" (a pair of opposing transitions where one transition is either to or from a state with a value R/(R + G + B) that is greater than or equal to 0.8, and the difference between states is more than 0.2 (unitless) in the CIE 1976 UCS chromaticity diagram. [[ISO_9241-391]])</li>
+                </ol>
+            </li>
+        </ol>
+    </li>
+</ol>
+
+<h4>Test Results</h4>
+
+<p id="d9aTR">If all of the above checks fail, then Baseline Test 9.A-Flashes fails.</p>

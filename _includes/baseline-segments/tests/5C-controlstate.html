@@ -1,0 +1,21 @@
+<h3>5.C Test Procedure for Control State</h3>
+
+<strong>Baseline Test ID:</strong> 5.C-ControlState
+
+<h4>Identify Content</h4>
+<p id="5cIC">Identify user controls for a distinct function that can be set by the user. Examples of such user controls include those that can be checked, expanded, hidden, and pressed. Exclude the visited/unvisited state of links.</p>
+
+<h4>Test Instructions</h4>
+<ol id="5cTI">
+	<li id="5cTI-1">Check that the state of the user control is correct. Attributes such as <code>hidden</code>, <code>disabled</code>, and the use of <a href="https://www.w3.org/TR/wai-aria/#attrs_widgets">WAI-ARIA state attributes</a> must be used correctly. [SC 4.1.2]</li>
+	<li id="5cTI-2">If the state of the user control changes with use of the application, check that the state of the user control is correct after a change of state. [SC 4.1.2]
+		<ul>
+			<li>Depending on the control, a change of state may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
+			<li>Examples include a disabled "Submit" button is enabled when all required form fields are filled in, a link becomes visible after a user-initiated calculation completes, a check box changes from checked to unchecked, a table column sort control is toggled from ascending to descending.</li>
+		</ul>
+	</li>
+</ol>
+
+<h4>Test Results</h4>
+
+<p id="5cTR">If any of the above checks fail, then Baseline Test 5.C-ControlState fails.</p>

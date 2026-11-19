@@ -1,0 +1,24 @@
+<h3>21.A Test Procedure for Timing Adjustable</h3>
+<strong>Baseline Test ID:</strong> 21.A-TimingAdjustable
+
+<h4>Identify Content</h4>
+<p id="21aIC">Identify any instances of content time limits (excluding exceptions described above).</p>
+
+<h4>Test Instructions</h4>
+<p id="21aTI">For each instance of an identified time limit for content:
+    <ol>
+        <li id="21aTI-1">Check that at least one of the following is true before time expires [SC 2.2.1]:
+            <ol>
+            <li id="21aTI-1i">The user has the ability to turn off the time limit.</li>
+            <li id="21aTI-1ii">The user has the ability to adjust the time limit before encountering it over a wide range that is at least ten times the length of the default setting.</li>
+            <li id="21aTI-1iii">The user is warned before time expires <strong>AND</strong>:
+                <ol>
+                <li id="21aTI-1iiia">Given at least 20 seconds to extend the time limit with a simple action (e.g., “press the space bar”), <strong>AND</strong></li>
+                <li id="21aTI-1iiib">Allowed to extend the time limit at least ten times.</li>
+                </ol></li>
+            </ol></li>
+    </ol>
+</p>
+
+<h4>Test Results</h4>
+<p id="21aTR">If the above check fails, then Baseline Test 21.A-TimingAdjustable fails.</p>

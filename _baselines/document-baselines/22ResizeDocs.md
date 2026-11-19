@@ -3,6 +3,7 @@ title: "22. Resize Text (Docs)"
 order-number: 23
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 22. Resize Text

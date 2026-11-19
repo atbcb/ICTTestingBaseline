@@ -1,0 +1,124 @@
+Running `bundle install --verbose` with bundler 2.5.11
+Found no changes, using resolution from the lockfile
+Using Ascii85 1.1.1
+0:  Ascii85 (1.1.1) from /usr/local/rvm/gems/ruby-3.1.4/specifications/Ascii85-1.1.1.gemspec
+Using public_suffix 6.0.1
+0:  public_suffix (6.0.1) from /usr/local/rvm/gems/ruby-3.1.4/specifications/public_suffix-6.0.1.gemspec
+Using addressable 2.8.7
+0:  addressable (2.8.7) from /usr/local/rvm/gems/ruby-3.1.4/specifications/addressable-2.8.7.gemspec
+Using afm 0.2.2
+0:  afm (0.2.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/afm-0.2.2.gemspec
+Using fiber-annotation 0.2.0
+0:  fiber-annotation (0.2.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/fiber-annotation-0.2.0.gemspec
+Using fiber-storage 1.0.0
+0:  fiber-storage (1.0.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/fiber-storage-1.0.0.gemspec
+Using fiber-local 1.1.0
+0:  fiber-local (1.1.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/fiber-local-1.1.0.gemspec
+Using json 2.7.2
+0:  json (2.7.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/json-2.7.2.gemspec
+Using console 1.27.0
+0:  console (1.27.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/console-1.27.0.gemspec
+Using io-event 1.6.5
+0:  io-event (1.6.5) from /usr/local/rvm/gems/ruby-3.1.4/specifications/io-event-1.6.5.gemspec
+Using async 2.17.0
+0:  async (2.17.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/async-2.17.0.gemspec
+Using execjs 2.7.0
+0:  execjs (2.7.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/execjs-2.7.0.gemspec
+Using autoprefixer-rails 10.4.19.0
+0:  autoprefixer-rails (10.4.19.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/autoprefixer-rails-10.4.19.0.gemspec
+Using base64 0.2.0
+0:  base64 (0.2.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/base64-0.2.0.gemspec
+Using bigdecimal 3.1.8
+0:  bigdecimal (3.1.8) from /usr/local/rvm/gems/ruby-3.1.4/specifications/bigdecimal-3.1.8.gemspec
+Using bundler 2.5.11
+0:  bundler (2.5.11) from /usr/local/rvm/gems/ruby-3.1.4/specifications/bundler-2.5.11.gemspec
+Using colorator 1.1.0
+0:  colorator (1.1.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/colorator-1.1.0.gemspec
+Using concurrent-ruby 1.3.4
+0:  concurrent-ruby (1.3.4) from /usr/local/rvm/gems/ruby-3.1.4/specifications/concurrent-ruby-1.3.4.gemspec
+Using csv 3.3.0
+0:  csv (3.3.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/csv-3.3.0.gemspec
+Using eventmachine 1.2.7
+0:  eventmachine (1.2.7) from /usr/local/rvm/gems/ruby-3.1.4/specifications/eventmachine-1.2.7.gemspec
+Using http_parser.rb 0.8.0
+0:  http_parser.rb (0.8.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/http_parser.rb-0.8.0.gemspec
+Using em-websocket 0.5.3
+0:  em-websocket (0.5.3) from /usr/local/rvm/gems/ruby-3.1.4/specifications/em-websocket-0.5.3.gemspec
+Using ffi 1.17.2 (x86_64-linux-gnu)
+0:  ffi (1.17.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/ffi-1.17.2-x86_64-linux-gnu.gemspec
+Using ethon 0.16.0
+0:  ethon (0.16.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/ethon-0.16.0.gemspec
+Using forwardable-extended 2.6.0
+0:  forwardable-extended (2.6.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/forwardable-extended-2.6.0.gemspec
+Using hashery 2.1.2
+0:  hashery (2.1.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/hashery-2.1.2.gemspec
+Using racc 1.8.1
+0:  racc (1.8.1) from /usr/local/rvm/gems/ruby-3.1.4/specifications/racc-1.8.1.gemspec
+Using nokogiri 1.18.9 (x86_64-linux-gnu)
+0:  nokogiri (1.18.9) from /usr/local/rvm/gems/ruby-3.1.4/specifications/nokogiri-1.18.9-x86_64-linux-gnu.gemspec
+Using ruby-rc4 0.1.5
+0:  ruby-rc4 (0.1.5) from /usr/local/rvm/gems/ruby-3.1.4/specifications/ruby-rc4-0.1.5.gemspec
+Using ttfunk 1.8.0
+0:  ttfunk (1.8.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/ttfunk-1.8.0.gemspec
+Using pdf-reader 2.12.0
+0:  pdf-reader (2.12.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/pdf-reader-2.12.0.gemspec
+Using rainbow 3.1.1
+0:  rainbow (3.1.1) from /usr/local/rvm/gems/ruby-3.1.4/specifications/rainbow-3.1.1.gemspec
+Using typhoeus 1.4.1
+0:  typhoeus (1.4.1) from /usr/local/rvm/gems/ruby-3.1.4/specifications/typhoeus-1.4.1.gemspec
+Using yell 2.2.2
+0:  yell (2.2.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/yell-2.2.2.gemspec
+Using zeitwerk 2.6.18
+0:  zeitwerk (2.6.18) from /usr/local/rvm/gems/ruby-3.1.4/specifications/zeitwerk-2.6.18.gemspec
+Using html-proofer 5.0.9
+0:  html-proofer (5.0.9) from /usr/local/rvm/gems/ruby-3.1.4/specifications/html-proofer-5.0.9.gemspec
+Using i18n 1.14.5
+0:  i18n (1.14.5) from /usr/local/rvm/gems/ruby-3.1.4/specifications/i18n-1.14.5.gemspec
+Using sassc 2.4.0
+0:  sassc (2.4.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/sassc-2.4.0.gemspec
+Using jekyll-sass-converter 2.2.0
+0:  jekyll-sass-converter (2.2.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/jekyll-sass-converter-2.2.0.gemspec
+Using rb-fsevent 0.11.2
+0:  rb-fsevent (0.11.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/rb-fsevent-0.11.2.gemspec
+Using rb-inotify 0.11.1
+0:  rb-inotify (0.11.1) from /usr/local/rvm/gems/ruby-3.1.4/specifications/rb-inotify-0.11.1.gemspec
+Using listen 3.9.0
+0:  listen (3.9.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/listen-3.9.0.gemspec
+Using jekyll-watch 2.2.1
+0:  jekyll-watch (2.2.1) from /usr/local/rvm/gems/ruby-3.1.4/specifications/jekyll-watch-2.2.1.gemspec
+Using rexml 3.4.2
+0:  rexml (3.4.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/rexml-3.4.2.gemspec
+Using kramdown 2.4.0
+0:  kramdown (2.4.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/kramdown-2.4.0.gemspec
+Using kramdown-parser-gfm 1.1.0
+0:  kramdown-parser-gfm (1.1.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/kramdown-parser-gfm-1.1.0.gemspec
+Using liquid 4.0.4
+0:  liquid (4.0.4) from /usr/local/rvm/gems/ruby-3.1.4/specifications/liquid-4.0.4.gemspec
+Using mercenary 0.4.0
+0:  mercenary (0.4.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/mercenary-0.4.0.gemspec
+Using pathutil 0.16.2
+0:  pathutil (0.16.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/pathutil-0.16.2.gemspec
+Using rouge 3.30.0
+0:  rouge (3.30.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/rouge-3.30.0.gemspec
+Using safe_yaml 1.0.5
+0:  safe_yaml (1.0.5) from /usr/local/rvm/gems/ruby-3.1.4/specifications/safe_yaml-1.0.5.gemspec
+Using unicode-display_width 1.8.0
+0:  unicode-display_width (1.8.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/unicode-display_width-1.8.0.gemspec
+Using terminal-table 2.0.0
+0:  terminal-table (2.0.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/terminal-table-2.0.0.gemspec
+Using jekyll 4.2.2
+0:  jekyll (4.2.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/jekyll-4.2.2.gemspec
+Using jekyll-feed 0.17.0
+0:  jekyll-feed (0.17.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/jekyll-feed-0.17.0.gemspec
+Using jekyll-redirect-from 0.16.0
+0:  jekyll-redirect-from (0.16.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/jekyll-redirect-from-0.16.0.gemspec
+Using jekyll-seo-tag 2.8.0
+0:  jekyll-seo-tag (2.8.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/jekyll-seo-tag-2.8.0.gemspec
+Using jekyll-sitemap 1.4.0
+0:  jekyll-sitemap (1.4.0) from /usr/local/rvm/gems/ruby-3.1.4/specifications/jekyll-sitemap-1.4.0.gemspec
+Using webrick 1.8.2
+0:  webrick (1.8.2) from /usr/local/rvm/gems/ruby-3.1.4/specifications/webrick-1.8.2.gemspec
+Bundle complete! 14 Gemfile dependencies, 59 gems now installed.
+Use `bundle info [gemname]` to see where a bundled gem is installed.
+1 installed gem you directly depend on is looking for funding.
+  Run `bundle fund` for details

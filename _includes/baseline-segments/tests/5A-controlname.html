@@ -1,0 +1,31 @@
+<h3>5.A Test Procedure for Control Name</h3>
+
+<strong>Baseline Test ID:</strong> 5.A-ControlName
+
+<h4>Identify Content</h4>
+<p id="5aIC">Identify user controls for a distinct function. Exclude forms and links as these are covered by <a href="{{site.baseurl}}/web-baselines/10Forms/">Baseline 10. Forms</a> and <a href="{{site.baseurl}}/web-baselines/14Links/">Baseline 14. Links</a>, respectively.</p>
+
+<h4>Test Instructions</h4>
+<ol id="5aTI">
+	<li id="5aTI-1">Check that the combination of the accessible name and accessible description is not empty. [SC 4.1.2]</li>
+    <li id="5aTI-2">Check that the non-empty combination of the accessible name and accessible description describes the control's purpose. [SC 4.1.2]  For details on the computation of the accessible name and accessible description, references include:
+		<ul>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-text-input-type-password-input-type-number-input-type-search-input-type-tel-input-type-email-input-type-url-and-textarea-element-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings 1.0 for text <code>input</code></a></li>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-button-input-type-submit-and-input-type-reset-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input</code> controls</a></li>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#button-element-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>button</code> element</a></li>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#input-type-image-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for <code>input type=\"image\"</code></a></li>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#other-form-elements-accessible-name-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for Other Form Elements</a></li>
+			<li><a href="https://www.w3.org/TR/html-aam-1.0/#accdesc-computation" target="_blank" rel="noopener">HTML Accessibility API Mappings for Accessible Description Computation</a></li>
+		</ul>
+	</li>
+	<li id="5aTI-3">If the name of the user control changes on user interaction with the web content or application, repeat the previous test steps and check that the accessible name is correct after the change.
+		<ul>
+			<li>Depending on the control, a change of name may be triggered by various actions, such as changing values or states of other components, toggling a function, entering data in the component, mouseover, etc.</li>
+		  	<li>Examples include updating a response in a form field changes the name of a button to "Save Changes" and selecting a control toggles its functionality from sorting ascending to descending.</li>
+	  </ul>
+	</li>
+</ol>
+
+<h4>Test Results</h4>
+
+<p id="5aTR">If any of the above checks fail, then Baseline Test 5.A-ControlName fails.</p>

@@ -3,10 +3,40 @@ title: "6. Images (Docs)"
 order-number: 7
 toc-group: baseline-docs
 banner-title: "Baseline for Documents"
+source: Doc
 ---
 
 ## 6. Images
 
+
+<!-- ### Accessibility Requirements -->
+{% include baseline-segments/acc-reqs/06-images-acc-reqs.md %}
+
+<!-- ### Test Method Rationale -->
+{% include baseline-segments/test-method-rationales/06-images-tmr.html %}
+
+<!-- ### Limitations, Assumptions, or Exceptions -->
+{% include baseline-segments/lim-assmpt-except/06-images-lae.md %}
+
+<!-- ### 6.A Test Procedure for non-empty text alternative -->
+{% include baseline-segments/tests/6A-meaningfulimage.html %}
+
+<!-- ### 6.B Test Procedure for empty text alternative -->
+{% include baseline-segments/tests/6B-decorativeimage.html %}
+
+<!-- ### 6.C Test Procedure for CAPTCHA -->
+{% include baseline-segments/tests/6C-captcha.html %}
+
+<!-- ### 6.D Test Procedure for Images of text -->
+{% include baseline-segments/tests/6D-imagetext.html %}
+
+<!-- ### Advisory: Tips for streamlined test processes -->
+{% include baseline-segments/advisory/06-images-adv.html %}
+
+<!-- ### WCAG 2.2 Techniques -->
+{% include baseline-segments/wcag-techs/06-images-wcag.md %}
+
+<!--
 ### Accessibility Requirements
 
 -   [WCAG2 SC: 1.1.1. Non-Text](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content) -- All non-text content that is presented to the user has a text alternative that serves the equivalent purpose, except for \[specific\] situations.
@@ -143,3 +173,4 @@ The following sufficient techniques and/or common failures were considered when 
 -   [W3C Tutorial: Decorative Images](https://www.w3.org/WAI/tutorials/images/decorative/)
 -   [W3C Tutorial: Functional Images](https://www.w3.org/WAI/tutorials/images/functional/)
 -   [W3C Tutorial: Informative Images](https://www.w3.org/WAI/tutorials/images/informative/)
+-->

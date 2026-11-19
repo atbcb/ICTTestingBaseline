@@ -54,6 +54,10 @@ h5, h6 { //not used
 
 // Add your SASS/CSS here
 
+.wcag-techniques .usa-link--external {
+  display: inline;
+}
+
 // Default table styles
 table {
   border-collapse: collapse;
